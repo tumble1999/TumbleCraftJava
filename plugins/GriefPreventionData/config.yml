@@ -2,10 +2,10 @@
 GriefPrevention:
   SeaLevelOverrides:
     Survival: -1
-    Creative: -1
     test: -1
-    DrCraft: -1
+    Creative: -1
     Staff: -1
+    DrCraft: -1
   Claims:
     Mode:
       test: Survival
@@ -69,10 +69,10 @@ GriefPrevention:
   PvP:
     RulesEnabledInWorld:
       Survival: true
-      Creative: true
       test: true
-      DrCraft: true
+      Creative: true
       Staff: true
+      DrCraft: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15
