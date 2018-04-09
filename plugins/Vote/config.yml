@@ -1,0 +1,70 @@
+config-version: 1.0
+Commands-msgs:
+  perm-denied: '%prefix% &cUnable to comlete your request! &7You need permission!'
+  plugin-reloaded: '%prefix% &7The &6config &7has been &areloaded.'
+Log-To-Console: true
+Vote-Reminder:
+  Enabled: true
+  msg:
+  - '&8--------- %prefix% &8---------'
+  - '&6Remember to vote for the &2Server!, &3&l%player%'
+  - '&eEarn &2&nrewards &7and &a&ncash in-game!'
+  - '&6Use the command &b&l/vote &6for more info!'
+  - '&8---------------------------'
+Economy:
+  Enabled: true
+  amount: '5.00'
+  message: '&7Thanks for voting &6%name%, &b%amount%&r &7has been added to your account.'
+Broadcast:
+  Enabled: true
+  Custom-Prefix: '&6[Vote]'
+  Message: '%prefix_custom% &a&l%username%&r &7has voted on: &6&l%service%&r &7at
+    &3%timestamp%'
+Commands:
+- tmprank %player% voter 86400
+- kit vote %player%
+Inform-msg: '%prefix% &aCommands Executed!'
+Vote-Gui:
+  settings:
+    gui-name: '&aVote &b&l>>'
+    gui-size: 9
+  weblinks:
+    settings:
+      item-name: ENCHANTED_BOOK
+      item-desc: '&3Click here, &6for &bvote &eSites!'
+      item-pos: 1
+    information:
+    - '&8--------- %prefix% &8---------'
+    - '&a---------------------------'
+    - '&a&l>> &7https://www.planetminecraft.com/server/tumblecraft-2839958/vote/'
+    - '&a&l>> &7https://www.minecraftforum.net/servers/19432-tumblecraft/vote/'
+    - '&a&l>> &7http://minecraftservers.org/vote/494411'
+    - '&a&l>> &7https://top-minecraft-servers.com/server/tumblecraft/'
+    - '&a&l>> &7http://minecraft-mp.com/server/192625/vote/'
+    - '&a&l>> &7https://minecraftservers.biz/servers/106777/vote/'
+  website:
+    settings:
+      item-name: BEACON
+      item-desc: '&6Server &a&nWebsite!'
+      item-pos: 3
+    information:
+    - '&8--------- %prefix% &8---------'
+    - '&a>>&7&nYour server''s homepage here&a<<'
+    - '&a&nttps://www.planetminecraft.com/server/tumblecraft-2839958/'
+  voteInfo:
+    settings:
+      item-name: BOOK
+      item-desc: '&6Information &7on &b&lvoting'
+      item-pos: 5
+    information:
+    - '&8--------- %prefix% &8---------'
+    - '&b[Voter] &6rank features'
+    - ' &r* &65 Diamonds'
+    - ' &r* &6Custom Nickname'
+    - ' &r* &6Mob head drops'
+    - ' &r* &6Disguies as mobs'
+  closeInv:
+    settings:
+      item-name: LAVA_BUCKET
+      item-desc: '&cClose &7Inventory'
+      item-pos: 7

@@ -1,0 +1,273 @@
+# Citizens NPC Storage
+last-created-npc-id: 26
+npc:
+  '0':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjI5NTIwNTU1MjAsInByb2ZpbGVJZCI6IjAxOWMzOWEyMjRjZTQ1NjNiMDRiYzA5NGM5YmVlMDQyIiwicHJvZmlsZU5hbWUiOiJEckJhdG1hbldobyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcxNmFhOTk4ZjVkYWQ5MWQzNjQwMzk4YmQ0MDE1ZjI2MDI1N2U4MDExYzMxMWY0YWM3OWUyMWFhMjU1YiJ9fX0=
+      cached-skin-uuid-name: drbatmanwho
+      cached-skin-uuid: 019c39a2-24ce-4563-b04b-c094c9bee042
+      glowing: false
+      player-skin-signature: XY6hvQHP/rih3sIR0BzAqAwkSbdRV7N1dLnOZbEjZL72FYbVyec1hJ2vpayVJGdAe+JIG+0byPkvXYtfaFen/MXR45RZP0f+VbAsVepuyIfX+a5jRreUMjGit6MmNwZvKqt7OFJjnfNO6Dahch9ByAh6bQ3fyjHJhRQcRS9h4wpoO1mKBYXGWfwGb25rx2d0CcKVC0DQEEZkDaX2b1rMIBexoe0cMDqvPnwkxLkUMkN5wtwlIB6l8wFFcdzq+/J6NS5ogtgsixPjynm0zq0FUQHXQHSi4oAhEr8UTPHAatW9RSI6+saapMcIp9U61P4y7AY1xjZJDirwS8kspjuKaiG4mnaCHoYnhvqzJoqTJezVZhHSUuZS5eTOO//U7feSc5zbC9kCFIxSqlhU4zBE+YYcWgZTJFCp2ziCAgf3VoXvNYVrs441+wCT+ewS5oeCFjW8vJ/nt8J2F9X2L2gREmJ8De6eeU+gJv8i90L1sWpF7XIPBRCJRk4jp7da067W9bAPePU2RHqfFr8EGLO5kKsOTPuibxPAjmduvRkogqfj7bhouhIc95vUuiTZD3gzU/DqPbltyeYJKh2OHL1vsvnmcEybJsQy7b/UAHmXvmt80icT3nQrVXva/VbhZr+sGug4DueC7xr92r84+LEd+YLrpeAUqYShKicVCjPyhKs=
+    name: DrBatmanWho
+    uuid: af3c8d29-63f1-4f76-b23a-86e67087f0c4
+    traits:
+      text:
+        talk-close: true
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': '&rWelcome to &c&lTumbleCraft|'
+      waypoints:
+        provider: linear
+      location:
+        world: Survival
+        x: '112.5'
+        y: '70.5'
+        z: '544.5'
+        yaw: '-80.7196044921875'
+        pitch: '0.0'
+      type: PLAYER
+      spawned: true
+      speech: chat
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: true
+      anchors:
+        list:
+          '0': dbw;Survival;112.4031572674646;70.5;544.3567148552237
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: speech,mounttrait,owner,waypoints,anchors,inventory,gravity,type,text,spawned,lookclose,equipment,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjI5NTIwNTU4NDcsInByb2ZpbGVJZCI6IjU1NGE5NjFhMDkwODQyOGRiZjA3YTE1NjhkMGQ4NTQ3IiwicHJvZmlsZU5hbWUiOiJUdW1ibGVHYW1lciIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg2Yzc3NDhhMTY5OThmNDY2NGFhMzhjN2FjZmU1N2IyNjg2ZmYxODE4NjZiMWExNjMyNjVhM2Q2MTNjYTUxMiJ9fX0=
+      cached-skin-uuid-name: tumblegamer
+      cached-skin-uuid: 554a961a-0908-428d-bf07-a1568d0d8547
+      player-skin-signature: FjDEDMHJak0jUF5VvAkNRGRFdreb9e6zUXwDtWZMJHQh4ENMG/trCTjdSevXvLcuwmNUpBxL1xOK4JvwDaRbKcQ6Ip/t6PIOcS6GTgKnLcjBxXcEYhq1qolmQQ/Kr52zsVkrLuwdaqGJ3TveifTSsMMv/TdL9nVCIMDYupLIibSXlsxo69OmT+Ub613UJ6y2kPvOgp/vA6+eL7uxKg+ph6VK9Nd2o+dMFHivhf7j3y6pqLNaN5gnzxrPBGyCAf/3j5ZXzE6jS3O/so5aumySEdsFs9A221UcTU66tPH1w14Sxu2Es5FuU2PlUeblD58HioJW23REfWC+VX0/trcdw0u+CvIetV4FtT2Jw3iK9MC+pTMHmRYXkK59k/M1/BDPb3ah197tJV5luilzSOmTGlu4TROvusWLLxVdSgz/9nwQdEyKMjeai1OHYTxr+322hgBjESzd/dbBoMSlr+sMZzXVK3b9eoKiDj6eaZq5OvqaR9+srooP2Yf+kSBpxYJfH7Ao9SiEcaJDXn+LvwmMnJk8Fr5isulEXkkPtW8cy56WOs/SOrPRPqjolILBlINoYxGdmCyq6PODQy+14IjidkjmR6CktWQjamP2rWMXBILJPBljGgJzRTPfuU6gw7ZXMo8jR1CaSfzV173m6fd0c3sPRfQNoo9IL9kgGsFOI2o=
+    name: TumbleGamer
+    uuid: 5b6f15dc-de4b-49af-8e45-1daf96651ea9
+    traits:
+      spawned: true
+      speech: chat
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: true
+      text:
+        talk-close: true
+        random-talker: true
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        text:
+          '0': '&rHave a nice stay'
+      anchors:
+        list:
+          '0': tumble;Survival;144.38489077063545;70.5;544.4996747801658
+      location:
+        world: Survival
+        x: '144.5'
+        y: '70.5'
+        z: '544.5'
+        yaw: '53.022705078125'
+        pitch: '0.0'
+      type: PLAYER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,text,speech,spawned,lookclose,mounttrait,owner,equipment,anchors,inventory,gravity,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjI5NTIwNTUzNzEsInByb2ZpbGVJZCI6IjlkNDFjYzg0YzEzYTQxYzViNWIyODQ1NjA1M2RmODk1IiwicHJvZmlsZU5hbWUiOiJ4VmFsdHJ1eCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MDI2ZjNiZjg0NDYxYjc3M2EzZTc5MTVkYTEyMWRkZTRhMzM3MTU5OGE4NDMxY2Q1ZTg5NTFlYTU0OSJ9fX0=
+      cached-skin-uuid-name: xvaltrux
+      cached-skin-uuid: 9d41cc84-c13a-41c5-b5b2-8456053df895
+      player-skin-signature: tpngJbEGEd2V3LhA18wL/xer1GKEBrsAw5+w9oIEG00lMltqStNABK4hsGjNHKSCsduQLuWuVXNScspAeEprLjhWgKUO1R9wD/pFvbaOKsIneo6N85rxkqcjfWJH70XZiVqlNBFC2ZXKvyOo1AvT6yv7tkOlQO/UQuDmNDQeHXSKHVatn1dZCOtaAdyR5FpySHKLllgu52t3L3G7+vRhAlnogSrqu3aFHdtC9ymXC0VGuqROLcCRpe8e5dC/Cox+bU4YSycea2cGPXs2SUiMkZ/GjKr3W70V4lGI/IO9+MzpyDDZAnKVSRU4VrfbFJ3xEOuL088GuE10aJRcGtzsY/rLfQzLWhhrpQ56biUxUmHF4DpIjeKKQQ8PlMbiRUX/twRwuNYOB+DyuoMgT1ezIdyY4pedmnpb1FVbVYTDBe3A+pgJfUrcG35gDZRc20ccx8wOju8QLbHCo26+NRekVTQMwDOtXIvj8GpXCAWIpide1wA2/rDI33qjhy2ehariVrpHECDJf9T89q6hhNUxV/pqxziXDFFYOul5jdRDXTs+HcNPvLjYyNyB9m5Z4vKoPnbbh60/sJvNxMmBX2V4QABjPFkawIqmDk62VGQuC00AjyWMjk2bNiufGjXKL4jmKL7/qBBNNdFxTUfx5mLBVF8VzHWx7AXqQQHrT2I1r1I=
+    name: xValtrux
+    uuid: ad2fbac7-98a4-4bf6-a0ff-9eb5dc45890c
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        world: Survival
+        x: '128.5'
+        y: '70.5'
+        z: '560.5'
+        yaw: '-173.0918731689453'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: true
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,spawned,lookclose,mounttrait,owner,equipment,inventory,gravity,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjI5NTIwNTU4NDcsInByb2ZpbGVJZCI6IjU1NGE5NjFhMDkwODQyOGRiZjA3YTE1NjhkMGQ4NTQ3IiwicHJvZmlsZU5hbWUiOiJUdW1ibGVHYW1lciIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg2Yzc3NDhhMTY5OThmNDY2NGFhMzhjN2FjZmU1N2IyNjg2ZmYxODE4NjZiMWExNjMyNjVhM2Q2MTNjYTUxMiJ9fX0=
+      cached-skin-uuid-name: tumblegamer
+      cached-skin-uuid: 554a961a-0908-428d-bf07-a1568d0d8547
+      player-skin-signature: FjDEDMHJak0jUF5VvAkNRGRFdreb9e6zUXwDtWZMJHQh4ENMG/trCTjdSevXvLcuwmNUpBxL1xOK4JvwDaRbKcQ6Ip/t6PIOcS6GTgKnLcjBxXcEYhq1qolmQQ/Kr52zsVkrLuwdaqGJ3TveifTSsMMv/TdL9nVCIMDYupLIibSXlsxo69OmT+Ub613UJ6y2kPvOgp/vA6+eL7uxKg+ph6VK9Nd2o+dMFHivhf7j3y6pqLNaN5gnzxrPBGyCAf/3j5ZXzE6jS3O/so5aumySEdsFs9A221UcTU66tPH1w14Sxu2Es5FuU2PlUeblD58HioJW23REfWC+VX0/trcdw0u+CvIetV4FtT2Jw3iK9MC+pTMHmRYXkK59k/M1/BDPb3ah197tJV5luilzSOmTGlu4TROvusWLLxVdSgz/9nwQdEyKMjeai1OHYTxr+322hgBjESzd/dbBoMSlr+sMZzXVK3b9eoKiDj6eaZq5OvqaR9+srooP2Yf+kSBpxYJfH7Ao9SiEcaJDXn+LvwmMnJk8Fr5isulEXkkPtW8cy56WOs/SOrPRPqjolILBlINoYxGdmCyq6PODQy+14IjidkjmR6CktWQjamP2rWMXBILJPBljGgJzRTPfuU6gw7ZXMo8jR1CaSfzV173m6fd0c3sPRfQNoo9IL9kgGsFOI2o=
+    name: TumbleGamer
+    uuid: 630f0200-a1d3-4b11-9e43-e4c5612ad7e8
+    traits:
+      type: PLAYER
+      spawned: true
+      location:
+        world: Staff
+        x: '1826.5'
+        y: '55.5'
+        z: '-739.5'
+        yaw: '-129.97386169433594'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,spawned,lookclose,mounttrait,equipment,owner,inventory,gravity,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjI5NTIwNTU1MjAsInByb2ZpbGVJZCI6IjAxOWMzOWEyMjRjZTQ1NjNiMDRiYzA5NGM5YmVlMDQyIiwicHJvZmlsZU5hbWUiOiJEckJhdG1hbldobyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcxNmFhOTk4ZjVkYWQ5MWQzNjQwMzk4YmQ0MDE1ZjI2MDI1N2U4MDExYzMxMWY0YWM3OWUyMWFhMjU1YiJ9fX0=
+      cached-skin-uuid-name: drbatmanwho
+      cached-skin-uuid: 019c39a2-24ce-4563-b04b-c094c9bee042
+      player-skin-signature: XY6hvQHP/rih3sIR0BzAqAwkSbdRV7N1dLnOZbEjZL72FYbVyec1hJ2vpayVJGdAe+JIG+0byPkvXYtfaFen/MXR45RZP0f+VbAsVepuyIfX+a5jRreUMjGit6MmNwZvKqt7OFJjnfNO6Dahch9ByAh6bQ3fyjHJhRQcRS9h4wpoO1mKBYXGWfwGb25rx2d0CcKVC0DQEEZkDaX2b1rMIBexoe0cMDqvPnwkxLkUMkN5wtwlIB6l8wFFcdzq+/J6NS5ogtgsixPjynm0zq0FUQHXQHSi4oAhEr8UTPHAatW9RSI6+saapMcIp9U61P4y7AY1xjZJDirwS8kspjuKaiG4mnaCHoYnhvqzJoqTJezVZhHSUuZS5eTOO//U7feSc5zbC9kCFIxSqlhU4zBE+YYcWgZTJFCp2ziCAgf3VoXvNYVrs441+wCT+ewS5oeCFjW8vJ/nt8J2F9X2L2gREmJ8De6eeU+gJv8i90L1sWpF7XIPBRCJRk4jp7da067W9bAPePU2RHqfFr8EGLO5kKsOTPuibxPAjmduvRkogqfj7bhouhIc95vUuiTZD3gzU/DqPbltyeYJKh2OHL1vsvnmcEybJsQy7b/UAHmXvmt80icT3nQrVXva/VbhZr+sGug4DueC7xr92r84+LEd+YLrpeAUqYShKicVCjPyhKs=
+    name: DrBatmanWho
+    uuid: 06d80afa-984c-4da1-b8a5-e740bf04ae03
+    traits:
+      type: PLAYER
+      spawned: true
+      location:
+        world: Staff
+        x: '1826.5'
+        y: '55.5'
+        z: '-747.5'
+        yaw: '-57.8591423034668'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,spawned,lookclose,mounttrait,equipment,owner,inventory,gravity,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjI5NTIwNTUzNzEsInByb2ZpbGVJZCI6IjlkNDFjYzg0YzEzYTQxYzViNWIyODQ1NjA1M2RmODk1IiwicHJvZmlsZU5hbWUiOiJ4VmFsdHJ1eCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MDI2ZjNiZjg0NDYxYjc3M2EzZTc5MTVkYTEyMWRkZTRhMzM3MTU5OGE4NDMxY2Q1ZTg5NTFlYTU0OSJ9fX0=
+      cached-skin-uuid-name: xvaltrux
+      cached-skin-uuid: 9d41cc84-c13a-41c5-b5b2-8456053df895
+      player-skin-signature: tpngJbEGEd2V3LhA18wL/xer1GKEBrsAw5+w9oIEG00lMltqStNABK4hsGjNHKSCsduQLuWuVXNScspAeEprLjhWgKUO1R9wD/pFvbaOKsIneo6N85rxkqcjfWJH70XZiVqlNBFC2ZXKvyOo1AvT6yv7tkOlQO/UQuDmNDQeHXSKHVatn1dZCOtaAdyR5FpySHKLllgu52t3L3G7+vRhAlnogSrqu3aFHdtC9ymXC0VGuqROLcCRpe8e5dC/Cox+bU4YSycea2cGPXs2SUiMkZ/GjKr3W70V4lGI/IO9+MzpyDDZAnKVSRU4VrfbFJ3xEOuL088GuE10aJRcGtzsY/rLfQzLWhhrpQ56biUxUmHF4DpIjeKKQQ8PlMbiRUX/twRwuNYOB+DyuoMgT1ezIdyY4pedmnpb1FVbVYTDBe3A+pgJfUrcG35gDZRc20ccx8wOju8QLbHCo26+NRekVTQMwDOtXIvj8GpXCAWIpide1wA2/rDI33qjhy2ehariVrpHECDJf9T89q6hhNUxV/pqxziXDFFYOul5jdRDXTs+HcNPvLjYyNyB9m5Z4vKoPnbbh60/sJvNxMmBX2V4QABjPFkawIqmDk62VGQuC00AjyWMjk2bNiufGjXKL4jmKL7/qBBNNdFxTUfx5mLBVF8VzHWx7AXqQQHrT2I1r1I=
+    name: xValtrux
+    uuid: f6c7af18-3a9f-43cb-9126-a612eff354a7
+    traits:
+      type: PLAYER
+      spawned: true
+      location:
+        world: Staff
+        x: '1840.5'
+        y: '55.5'
+        z: '-733.5'
+        yaw: '138.63571166992188'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,spawned,lookclose,mounttrait,owner,equipment,inventory,gravity,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    name: ashlynz_
+    uuid: e1c9ac37-94b0-4812-9a10-10c5b497e480
+    traits:
+      type: PLAYER
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      location:
+        world: Staff
+        x: '1832.5'
+        y: '55.5'
+        z: '-753.5'
+        yaw: '-37.708560943603516'
+        pitch: '0.0'
+      spawned: true
+      gravity:
+        enabled: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: type,spawned,lookclose,mounttrait,owner,equipment,inventory,gravity,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '22':
+    name: TumbleGamer
+    uuid: 5e5da397-38f1-4b49-86a7-c5d8bb090b1e
+    traits:
+      type: PLAYER
+      location:
+        world: Survival
+        x: '47986.2773'
+        y: '71.0'
+        z: '11944.5637'
+        yaw: '108.797607421875'
+        pitch: '0.0'
+      spawned: true
+      gravity:
+        enabled: false
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+    traitnames: type,spawned,lookclose,mounttrait,equipment,inventory,gravity,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

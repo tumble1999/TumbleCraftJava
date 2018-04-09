@@ -1,0 +1,20 @@
+#################
+# Announcements #
+#################
+
+# Make sure each message is surrounded by quotations: ("message")
+# For colors, use the '&' character
+announcements:
+  - "&cDo '&e/kit starter&c' for some starter gear"
+  - "&aUse '&e/wild&a' to start your adventure"
+  - "&3Why not vote for us with '&a/vote&3'"
+  - "&aKeep your house safe with chests"
+  - "&cExend your safe area with '&e/kit claim&c'."
+  - "&e Something not working? Tell us &c/notwork <information>"
+  - "&4Want to help us? Apply today &b/apply <name> <rank> <information>"
+
+# Set the interval of time (in minutes) between each announcements
+interval: 5
+
+# Set the default announcement prefix that displays before each message
+prefix: "&e[&3TumbleCraft&e]"

@@ -1,0 +1,91 @@
+# EssentialsX new Kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+kits:
+  dtools:
+    delay: 600
+    items:
+    - 278 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+    - 277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+    - 298 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+    - 279:780 1
+  notch:
+    delay: 6000
+    items:
+    - 397:3 1 player:Notch
+  color:
+    delay: 6000
+    items:
+    - 387 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
+  firework:
+    delay: 6000
+    items:
+    - 401 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+    - 401 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle
+      power:1
+    - 401 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle
+      color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink
+      shape:star effect:trail power:1
+  vote:
+    delay: 0
+    items:
+    - WRITTEN_BOOK 1 title:Vote Gifts Info author:TumbleGamer book:vote-gifts-info
+    - DIAMOND 5
+  claim:
+    delay: 1200
+    items:
+    - GOLD_SPADE 1 name:Claim_Resizer
+    - STICK 1 name:Claim_Checker
+  portal:
+    delay: 0
+    items:
+    - FLINT_AND_STEEL 1 name:&6[_&1Portal_&4Gun_&6] lore:&b***_&aHow_to_use_the_Awesome_P&ko&artal_Gun?!_&b***|&3-_&2Left_Click_to_create_the_&1Blue_&2Portal!|&3-_&2Right_Click_to_create_the_&4Red_&2Portal!|&3-_&2Sneak_Key_to_remove_both_portals!
+      durability:1
+    - HUGE_MUSHROOM_2 1 name:&6[_&5The_&eCube_&6] lore:&3-_&bRightClick_to_place.|&3-_&2Once_Placed:_RightClick_for_Fun!
+      durability:1
+    - CHAINMAIL_BOOTS 1 name:&6[_&5Anti_Gravity_Boots_&6] lore:&b***_&aSpecial_Boots_to_prevent_Fall_Damage!_&b***_|&3-_&2But_remember!_Has_only_20_uses!
+      fire_aspect:1
+  iron:
+    delay: 1440
+    items:
+    - IRON_SWORD 1
+    - IRON_PICKAXE 1
+    - IRON_SPADE 1
+    - IRON_AXE 1
+    - GRILLED_PORK 64
+    - IRON_BOOTS 1
+    - IRON_LEGGINGS 1
+    - IRON_CHESTPLATE 1
+    - IRON_HELMET 1
+  starter:
+    delay: 1440
+    items:
+    - STONE_SWORD 1
+    - STONE_PICKAXE 1
+    - STONE_AXE 1
+    - STONE_SPADE 1
+    - BREAD 64
+  starter-2:
+    delay: 1440
+    items:
+    - STONE_SWORD 1
+    - STONE_PICKAXE 1
+    - STONE_AXE 1
+    - STONE_SPADE 1
+    - COOKED_CHICKEN 64
+    - LEATHER_HELMET 1 color:10511680
+    - LEATHER_CHESTPLATE 1 color:10511680
+    - LEATHER_LEGGINGS 1 color:10511680
+    - LEATHER_BOOTS 1 color:10511680
+  diamond:
+    delay: 1440
+    items:
+    - DIAMOND_SWORD 1
+    - DIAMOND_SPADE 1
+    - DIAMOND_PICKAXE 1
+    - DIAMOND_AXE 1
+    - DIAMOND_HELMET 1
+    - DIAMOND_CHESTPLATE 1
+    - DIAMOND_LEGGINGS 1
+    - DIAMOND_BOOTS 1
+    - COOKED_BEEF 64
+    - GOLDEN_APPLE:1 64
