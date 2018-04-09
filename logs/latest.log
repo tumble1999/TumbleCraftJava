@@ -426,3 +426,27 @@ javax.crypto.BadPaddingException: Decryption error
 	at com.vexsoftware.votifier.crypto.RSA.decrypt(RSA.java:65) ~[votifier-1.9.jar:?]
 	at com.vexsoftware.votifier.net.VoteReceiver.run(VoteReceiver.java:130) [votifier-1.9.jar:?]
 [23:01:26] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[23:03:01] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[23:03:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[23:04:01] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[23:06:26] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[23:10:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[23:11:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[23:11:21] [Craft Scheduler Thread - 50/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[23:11:26] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[23:11:41] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[23:16:26] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[23:18:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[23:19:01] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[23:19:21] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[23:21:27] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
