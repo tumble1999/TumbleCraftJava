@@ -2021,3 +2021,45 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
 [20:28:37] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[20:33:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[20:33:37] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[20:33:53] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[20:34:13] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[20:38:38] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[20:40:53] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[20:41:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[20:41:53] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[20:43:34] [Craft Scheduler Thread - 2558/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[20:43:39] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[20:44:29] [Server thread/INFO]: CONSOLE issued server command: /online 
+[20:44:29] [Server thread/INFO]: There are 0 out of maximum 20 players online.
+[20:48:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[20:48:39] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[20:49:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[20:49:34] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[20:56:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[20:56:54] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[20:57:14] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[20:58:35] [Craft Scheduler Thread - 2567/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[20:58:35] [Craft Scheduler Thread - 2568/INFO]: [Marriage] Purged 0 player entries in 2ms
+[20:58:40] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
