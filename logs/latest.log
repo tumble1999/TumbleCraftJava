@@ -2182,3 +2182,44 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [22:28:46] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
 [22:29:01] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [22:29:21] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[22:33:47] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[22:36:02] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:36:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:37:02] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[22:38:47] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[22:43:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:43:42] [Craft Scheduler Thread - 2623/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:43:47] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[22:44:22] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:44:43] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[22:48:48] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[22:51:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:52:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:52:23] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[22:58:44] [Craft Scheduler Thread - 2632/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:58:44] [Craft Scheduler Thread - 2633/INFO]: [Marriage] Purged 0 player entries in 3ms
+[22:58:44] [Craft Scheduler Thread - 2632/INFO]: [Vault] Checking for Updates ... 
+[22:58:45] [Craft Scheduler Thread - 2632/INFO]: [Vault] No new version available
+[22:58:49] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[22:59:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:59:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
