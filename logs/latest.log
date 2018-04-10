@@ -1590,3 +1590,45 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
 [18:58:21] [Craft Scheduler Thread - 2501/INFO]: [Marriage] Purged 0 player entries in 9ms
 [18:58:26] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[19:01:02] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:01:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:02:02] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[19:03:27] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[19:08:28] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[19:08:43] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:09:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:09:43] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[19:13:23] [Craft Scheduler Thread - 2507/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[19:13:28] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[19:16:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:17:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:17:23] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[19:18:28] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[19:18:57] [Server thread/INFO]: CONSOLE issued server command: /online 
+[19:18:57] [Server thread/INFO]: There are 0 out of maximum 20 players online.
+[19:23:29] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[19:24:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:24:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:25:04] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[19:28:24] [Craft Scheduler Thread - 2516/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[19:28:29] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
