@@ -1178,3 +1178,83 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [14:48:15] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [14:48:35] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
 [14:55:15] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[14:55:55] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[14:56:15] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[14:57:55] [Craft Scheduler Thread - 2265/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[14:57:55] [Craft Scheduler Thread - 2266/INFO]: [Marriage] Purged 0 player entries in 3ms
+[14:58:00] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[14:59:15] [User Authenticator #2/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[14:59:15] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:62936] logged in with entity id 131051 at ([Survival]108.6999999880791, 82.5, 679.1973722720796)
+[14:59:28] [Server thread/INFO]: DrBatmanWho issued server command: /tg DrBatmanWho
+[15:00:44] [Server thread/INFO]: [Server] hello
+[15:01:19] [Server thread/INFO]: DrBatmanWho issued server command: /gm c
+[15:01:46] [Server thread/INFO]: CONSOLE issued server command: /msg DrBatmanWho  click here: https://github.com/tumblenet/TumbleCraftJava
+[15:01:46] [Server thread/INFO]: Sends a private message to the specified player.
+[15:01:46] [Server thread/INFO]: /msg <to> <message>
+[15:01:56] [Server thread/INFO]: CONSOLE issued server command: /msg DrBatmanWho click here: &ahttps://github.com/tumblenet/TumbleCraftJava
+[15:01:56] [Server thread/INFO]: [me -> [Admin] DrBatmanWho] click here: https://github.com/tumblenet/TumbleCraftJava
+[15:02:11] [Async Chat Thread - #0/INFO]: [L]<DrBatmanWho> why is there a pig, in a tree
+[15:02:11] [Async Chat Thread - #0/INFO]: [Admin] DrBatmanWho: why is there a pig, in a tree
+[15:02:17] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[15:02:17] [Server thread/INFO]: DrBatmanWho left the game
+[15:02:56] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[15:03:01] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[15:03:11] [User Authenticator #3/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[15:03:11] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:63065] logged in with entity id 132845 at ([Survival]123.20682146309997, 86.99246744615836, 496.8773643680488)
+[15:03:26] [Server thread/INFO]: DrBatmanWho issued server command: /warp barn
+[15:03:33] [Server thread/INFO]: DrBatmanWho issued server command: /warp barn
+[15:03:36] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[15:03:56] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[15:04:09] [Server thread/INFO]: DrBatmanWho issued server command: /home getmemoney
+[15:04:13] [Server thread/INFO]: DrBatmanWho issued server command: /home getmemoney: home
+[15:04:20] [Server thread/INFO]: DrBatmanWho issued server command: /home getmemoney:home
+[15:06:14] [Server thread/INFO]: DrBatmanWho issued server command: /time set night
+[15:06:14] [Server thread/INFO]: [Essentials] DrBatmanWho was denied access to command.
+[15:06:18] [Server thread/INFO]: DrBatmanWho issued server command: /time night
+[15:06:26] [Server thread/INFO]: DrBatmanWho issued server command: /time set night
+[15:06:26] [Server thread/INFO]: [Essentials] DrBatmanWho was denied access to command.
+[15:06:30] [Server thread/INFO]: DrBatmanWho issued server command: /home
+[15:06:33] [Server thread/INFO]: DrBatmanWho issued server command: /home home
+[15:07:11] [Server thread/INFO]: DrBatmanWho issued server command: /gm s
+[15:08:02] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[15:08:11] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[15:08:11] [Server thread/INFO]: DrBatmanWho left the game
+[15:09:19] [User Authenticator #4/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[15:09:19] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:63094] logged in with entity id 134346 at ([Survival]47954.22427875298, 74.0, 11940.182962594183)
+[15:09:38] [Server thread/INFO]: DrBatmanWho issued server command: /home getmemoney:home
+[15:10:05] [Server thread/INFO]: DrBatmanWho issued server command: /gm c
+[15:10:37] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[15:11:07] [Server thread/INFO]: DrBatmanWho issued server command: /gm s
+[15:11:17] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[15:11:37] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[15:11:50] [Server thread/INFO]: DrBatmanWho issued server command: /gm c
+[15:12:57] [Craft Scheduler Thread - 2298/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[15:13:02] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[15:13:17] [Server thread/INFO]: DrBatmanWho issued server command: /ignoreclaims
+[15:13:41] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[15:13:41] [Server thread/INFO]: DrBatmanWho left the game
+[15:18:03] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[15:18:18] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[15:18:58] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[15:19:18] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[15:23:03] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
