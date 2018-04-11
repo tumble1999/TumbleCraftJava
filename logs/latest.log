@@ -5235,3 +5235,73 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [15:26:18] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
 [15:26:58] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [15:27:18] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[15:29:58] [Craft Scheduler Thread - 2161/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[15:30:28] [Server thread/INFO]: Startup script './restart.bat' does not exist! Stopping server.
+[15:30:28] [Server thread/INFO]: Stopping server
+[15:30:28] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.2.6
+[15:30:28] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.8
+[15:30:28] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[15:30:28] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.15.0.1
+[15:30:28] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5.0-b751
+[15:30:28] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.15.0.1
+[15:30:28] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.15.0.1
+[15:30:28] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.15.0.1
+[15:30:28] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v2.4-b523
+[15:30:28] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
+[15:30:28] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.22-SNAPSHOT (build 1487)
+[15:30:28] [Server thread/INFO]: [Vote] Disabling Vote v2.0.1
+[15:30:28] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.1;84bc322
+[15:30:28] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[15:30:28] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b719
+[15:30:28] [Server thread/INFO]: [Marriage] Disabling Marriage v2.0.17
+[15:30:28] [Server thread/INFO]: [Marriage] Loading database...
+[15:30:28] [Server thread/INFO]: [Marriage] Plugin has been completely disabled.
+[15:30:28] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v18.04.09-0c7be7e-1975
+[15:30:28] [Server thread/INFO]: All DB transactions during this session are being validated (This may take a while if corrections need to be made)
+[15:30:28] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.11.5
+[15:30:28] [Server thread/INFO]: [Essentials] Disabling Essentials v2.15.0.1
+[15:30:28] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[15:30:28] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[15:30:28] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v1.3.5
+[15:30:28] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v2.3.1
+[15:30:28] [Server thread/INFO]: [Announcements] Disabling Announcements v1.0
+[15:30:28] [Server thread/INFO]: [Announcements] Goodbye.
+[15:30:28] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[15:30:28] [Server thread/INFO]: [Hats] Disabling Hats v1.6
+[15:30:28] [Server thread/INFO]: [Hats] Hats has been desactivated!
+[15:30:28] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.3.0
+[15:30:28] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[15:30:28] [Server thread/ERROR]: [ViaVersion] Failed to remove injection handler, reload won't work with connections, please reboot!
+[15:30:28] [Server thread/INFO]: [PlayerNameSigns] Disabling PlayerNameSigns v1.0
+[15:30:28] [Server thread/INFO]: [PlayerNameSigns] PlayerNameSigns Disabled
+[15:30:28] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[15:30:28] [Server thread/INFO]: [HeadDrops] Disabling HeadDrops v2.0
+[15:30:28] [Server thread/INFO]: [iDisguise] Disabling iDisguise v5.6.4
+[15:30:28] [Server thread/INFO]: [iDisguise] iDisguise 5.6.4 disabled!
+[15:30:28] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v18.03.26-48992d2-1054-19.4.17
+[15:30:28] [Server thread/INFO]: [Friends3_0] Disabling Friends3_0 v3.0.2.5
+[15:30:28] [Server thread/INFO]: [Votifier] [Votifier] Disabling Votifier v1.9
+[15:30:28] [Server thread/INFO]: [Votifier] [Votifier] Votifier disabled.
+[15:30:28] [Thread-10/WARN]: [Votifier] [Votifier] Protocol error. Ignoring packet - socket closed
+[15:30:28] [Server thread/INFO]: [TumbleCraftAdminSummon] Disabling TumbleCraftAdminSummon v1.0
+[15:30:28] [Server thread/INFO]: [TumbleCraftAdminSummon] TumbleCraftAdminSummon Disabled
+[15:30:28] [Server thread/INFO]: [ClearLag] Disabling ClearLag v2.9.7
+[15:30:28] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[15:30:28] [Server thread/INFO]: [Wild] Disabling Wild v3.13.1
+[15:30:28] [Server thread/INFO]: Saving players
+[15:30:28] [Server thread/INFO]: Saving worlds
+[15:30:28] [Server thread/INFO]: Saving chunks for level 'Survival'/overworld
+[15:30:28] [Server thread/INFO]: Saving chunks for level 'test'/overworld
+[15:30:28] [Server thread/INFO]: Saving chunks for level 'Creative'/overworld
+[15:30:28] [Server thread/INFO]: Saving chunks for level 'Staff'/overworld
+[15:30:28] [Server thread/INFO]: Saving chunks for level 'DrCraft'/overworld
