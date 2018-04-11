@@ -4528,3 +4528,637 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
 [11:44:34] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[11:47:37] [Server thread/WARN]: Boat (vehicle of antrius2001) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of antrius2001) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of antrius2001) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of antrius2001) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of antrius2001) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of antrius2001) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of antrius2001) moved wrongly!
+[11:47:37] [Server thread/WARN]: Boat (vehicle of antrius2001) moved wrongly!
+[11:47:39] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:39] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:39] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:40] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:40] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:40] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:40] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:41] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:41] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:41] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:47:42] [Server thread/WARN]: Boat (vehicle of Nnoid) moved wrongly!
+[11:49:18] [Server thread/INFO]: antrius2001 has made the advancement [Stone Age]
+[11:49:22] [Server thread/INFO]: Nnoid has made the advancement [Stone Age]
+[11:49:35] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[11:51:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:51:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:52:10] [Server thread/INFO]: [ClearLag] Removed 5 Entities!
+[11:54:36] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[11:58:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:59:31] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:59:31] [Craft Scheduler Thread - 1690/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:59:36] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[11:59:51] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[12:02:16] [Server thread/INFO]: Nnoid has made the advancement [Acquire Hardware]
+[12:02:30] [Server thread/INFO]: Nnoid has made the advancement [Isn't It Iron Pick]
+[12:04:37] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[12:05:29] [Server thread/INFO]: antrius2001 has made the advancement [Acquire Hardware]
+[12:06:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[12:07:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[12:07:32] [Server thread/INFO]: [ClearLag] Removed 11 Entities!
+[12:09:49] [Netty Server IO #1/WARN]: io.netty.handler.codec.DecoderException: java.io.IOException: Bad packet id 69
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.LegacyPingHandler.channelRead(LegacyPingHandler.java:121)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: Caused by: java.io.IOException: Bad packet id 69
+[12:09:49] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.PacketDecoder.decode(SourceFile:37)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.util.PipelineUtil.callDecode(PipelineUtil.java:45)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.bukkit.handlers.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:71)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[12:09:49] [Netty Server IO #1/WARN]: 	... 30 more
+[12:09:49] [Netty Server IO #1/WARN]: io.netty.handler.codec.DecoderException: java.io.IOException: Bad packet id 105
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.LegacyPingHandler.channelRead(LegacyPingHandler.java:121)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: Caused by: java.io.IOException: Bad packet id 105
+[12:09:49] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.PacketDecoder.decode(SourceFile:37)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.util.PipelineUtil.callDecode(PipelineUtil.java:45)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.bukkit.handlers.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:71)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[12:09:49] [Netty Server IO #1/WARN]: 	... 30 more
+[12:09:49] [Netty Server IO #1/WARN]: io.netty.handler.codec.DecoderException: java.io.IOException: Bad packet id 99
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.LegacyPingHandler.channelRead(LegacyPingHandler.java:121)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: Caused by: java.io.IOException: Bad packet id 99
+[12:09:49] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.PacketDecoder.decode(SourceFile:37)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.util.PipelineUtil.callDecode(PipelineUtil.java:45)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.bukkit.handlers.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:71)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[12:09:49] [Netty Server IO #1/WARN]: 	... 30 more
+[12:09:49] [Netty Server IO #1/WARN]: io.netty.handler.codec.DecoderException: java.io.IOException: Bad packet id 97
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.LegacyPingHandler.channelRead(LegacyPingHandler.java:121)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: Caused by: java.io.IOException: Bad packet id 97
+[12:09:49] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.PacketDecoder.decode(SourceFile:37)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.util.PipelineUtil.callDecode(PipelineUtil.java:45)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.bukkit.handlers.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:71)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[12:09:49] [Netty Server IO #1/WARN]: 	... 30 more
+[12:09:49] [Netty Server IO #1/WARN]: io.netty.handler.codec.DecoderException: java.io.IOException: Bad packet id 116
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.LegacyPingHandler.channelRead(LegacyPingHandler.java:121)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: Caused by: java.io.IOException: Bad packet id 116
+[12:09:49] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.PacketDecoder.decode(SourceFile:37)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.util.PipelineUtil.callDecode(PipelineUtil.java:45)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.bukkit.handlers.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:71)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[12:09:49] [Netty Server IO #1/WARN]: 	... 30 more
+[12:09:49] [Netty Server IO #1/WARN]: io.netty.handler.codec.DecoderException: java.io.IOException: Bad packet id 105
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.LegacyPingHandler.channelRead(LegacyPingHandler.java:121)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: Caused by: java.io.IOException: Bad packet id 105
+[12:09:49] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.PacketDecoder.decode(SourceFile:37)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.util.PipelineUtil.callDecode(PipelineUtil.java:45)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.bukkit.handlers.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:71)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[12:09:49] [Netty Server IO #1/WARN]: 	... 30 more
+[12:09:49] [Netty Server IO #1/WARN]: io.netty.handler.codec.DecoderException: java.io.IOException: Bad packet id 111
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:392)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:359)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:342)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:377)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:342)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1409)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:927)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:822)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: Caused by: java.io.IOException: Bad packet id 111
+[12:09:49] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.PacketDecoder.decode(SourceFile:37)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.util.PipelineUtil.callDecode(PipelineUtil.java:45)
+[12:09:49] [Netty Server IO #1/WARN]: 	at us.myles.ViaVersion.bukkit.handlers.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:71)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[12:09:49] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[12:09:49] [Netty Server IO #1/WARN]: 	... 26 more
+[12:12:53] [Server thread/INFO]: antrius2001 has made the advancement [Monster Hunter]
+[12:12:55] [Server thread/INFO]: Nnoid has made the advancement [Monster Hunter]
+[12:14:13] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[12:14:33] [Craft Scheduler Thread - 1726/INFO]: [Marriage] Purged 0 player entries in 1ms
+[12:14:33] [Craft Scheduler Thread - 1725/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[12:14:33] [Craft Scheduler Thread - 1725/INFO]: [Vault] Checking for Updates ... 
+[12:14:34] [Craft Scheduler Thread - 1725/INFO]: [Vault] No new version available
+[12:14:38] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[12:14:53] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[12:15:13] [Server thread/INFO]: [ClearLag] Removed 15 Entities!
+[12:16:53] [Server thread/INFO]: antrius2001 issued server command: /kit starter
+[12:18:37] [Server thread/INFO]: Nnoid issued server command: /sethome
+[12:19:04] [Server thread/INFO]: Nnoid issued server command: /home
+[12:19:12] [Server thread/INFO]: antrius2001 issued server command: /sethome
+[12:19:20] [Server thread/INFO]: antrius2001 issued server command: /home
+[12:19:39] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[12:19:46] [Server thread/INFO]: antrius2001 issued server command: /
+[12:19:50] [Server thread/INFO]: Nnoid issued server command: /tpa antrius2001
+[12:20:06] [Server thread/INFO]: antrius2001 issued server command: /tpaccept
+[12:21:54] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[12:22:33] [Server thread/INFO]: Nnoid issued server command: /home
+[12:22:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[12:22:38] [Server thread/INFO]: Nnoid was slain by Cave Spider
+[12:22:47] [Server thread/INFO]: Nnoid issued server command: /home
+[12:22:54] [Server thread/INFO]: [ClearLag] Removed 41 Entities!
+[12:23:27] [Server thread/INFO]: Nnoid issued server command: /kit
+[12:23:33] [Server thread/INFO]: Nnoid issued server command: /home
+[12:23:38] [Server thread/INFO]: Nnoid issued server command: /kit
+[12:23:46] [Server thread/INFO]: Nnoid issued server command: /kit starter
+[12:23:49] [Server thread/INFO]: antrius2001 issued server command: /give antrius2001 iron_sword 1 0 {ench:[{id:16,lvl:5},{id:17,lvl:5},{id:18,lvl:5},{id:20,lvl:5},{id:21,lvl:5}],Unbreakable:1}
+[12:23:49] [Server thread/INFO]: [Essentials] antrius2001 was denied access to command.
+[12:24:40] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[12:25:07] [Server thread/INFO]: Nnoid issued server command: /sethome
+[12:25:21] [Server thread/INFO]: Nnoid issued server command: /home
+[12:25:48] [Server thread/INFO]: Nnoid issued server command: /home
+[12:26:21] [Server thread/INFO]: Nnoid issued server command: /home
+[12:28:12] [Server thread/INFO]: Nnoid issued server command: /sethome
+[12:28:44] [Server thread/INFO]: Nnoid issued server command: /wild
+[12:29:35] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[12:29:36] [Craft Scheduler Thread - 1758/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[12:29:40] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[12:30:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[12:30:36] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
+[12:32:32] [Server thread/INFO]: Nnoid issued server command: /home
+[12:34:41] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[12:37:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[12:37:56] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[12:38:16] [Server thread/INFO]: [ClearLag] Removed 4 Entities!
+[12:39:42] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[12:41:44] [Server thread/INFO]: Nnoid issued server command: /home
+[12:43:17] [Server thread/INFO]: Nnoid has made the advancement [Suit Up]
+[12:44:37] [Craft Scheduler Thread - 1792/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[12:44:42] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[12:44:57] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[12:45:37] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[12:45:57] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[12:51:03] [Server thread/INFO]: Nnoid issued server command: /home
+[12:52:38] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[12:53:18] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[12:53:38] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[12:54:43] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[12:59:39] [Craft Scheduler Thread - 1823/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[12:59:44] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[13:00:19] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:00:59] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:01:19] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
+[13:03:57] [Server thread/INFO]: Nnoid issued server command: /sethome 2
+[13:04:24] [Server thread/INFO]: Nnoid issued server command: /home
+[13:04:44] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[13:05:59] [Server thread/INFO]: Nnoid has made the advancement [Diamonds!]
+[13:08:00] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:08:40] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:09:00] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
+[13:09:45] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[13:13:06] [Server thread/INFO]: Nnoid issued server command: /home
+[13:14:37] [Server thread/INFO]: antrius2001 was slain by Cave Spider
+[13:14:41] [Craft Scheduler Thread - 1859/INFO]: [Marriage] Purged 0 player entries in 1ms
+[13:14:41] [Craft Scheduler Thread - 1858/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:14:45] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[13:14:54] [Server thread/INFO]: antrius2001 issued server command: /home
+[13:15:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:16:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:16:41] [Server thread/INFO]: [ClearLag] Removed 2 Entities!
+[13:19:44] [Server thread/INFO]: Nnoid issued server command: /chest
+[13:19:46] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[13:19:48] [Server thread/INFO]: Nnoid issued server command: /help
+[13:19:48] [Server thread/INFO]: [Essentials] Nnoid was denied access to command.
+[13:19:52] [Server thread/INFO]: Nnoid issued server command: /help
+[13:19:59] [Server thread/INFO]: Nnoid issued server command: /add
+[13:20:04] [Server thread/INFO]: Nnoid issued server command: /c
+[13:22:50] [User Authenticator #5/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[13:22:50] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:52764] logged in with entity id 262454 at ([Survival]39761.02365785392, 69.0, -71.64426121960004)
+[13:22:57] [Async Chat Thread - #0/INFO]: [L]<Nnoid> no
+[13:22:57] [Async Chat Thread - #0/INFO]: Nnoid: no
+[13:23:04] [Async Chat Thread - #0/INFO]: [L]<DrBatmanWho> hello there
+[13:23:04] [Async Chat Thread - #0/INFO]: [Admin] DrBatmanWho: hello there
+[13:23:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:23:46] [Server thread/INFO]: DrBatmanWho issued server command: /home home
+[13:24:02] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:24:09] [Server thread/INFO]: DrBatmanWho issued server command: /spawn
+[13:24:22] [Server thread/INFO]: [ClearLag] Removed 5 Entities!
+[13:24:47] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[13:24:50] [Server thread/INFO]: DrBatmanWho issued server command: /tp
+[13:25:00] [Server thread/INFO]: DrBatmanWho issued server command: /tp Nnoid
+[13:25:09] [Async Chat Thread - #1/INFO]: [L]<Nnoid> hey
+[13:25:09] [Async Chat Thread - #1/INFO]: Nnoid: hey
+[13:25:12] [Server thread/INFO]: DrBatmanWho issued server command: /tp antrius2001
+[13:25:13] [Async Chat Thread - #1/INFO]: [L]<Nnoid> thats rude
+[13:25:13] [Async Chat Thread - #1/INFO]: Nnoid: thats rude
+[13:25:28] [Server thread/WARN]: DrBatmanWho moved too quickly! -9.92468458556263,0.0,1.3867652633934995
+[13:26:11] [Server thread/INFO]: Nnoid issued server command: /home
+[13:26:31] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[13:26:31] [Server thread/INFO]: DrBatmanWho left the game
+[13:29:42] [Craft Scheduler Thread - 1888/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:31:02] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:31:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:32:02] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[13:34:48] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[13:38:43] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:39:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:39:43] [Server thread/INFO]: Nnoid has made the advancement [Ice Bucket Challenge]
+[13:39:43] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[13:39:48] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[13:40:35] [Server thread/INFO]: com.mojang.authlib.GameProfile@41de56bc[id=<null>,name=Kriszti,properties={},legacy=false] (/178.41.228.53:62694) lost connection: Disconnected
+[13:43:02] [Server thread/INFO]: Nnoid issued server command: /home
+[13:44:44] [Craft Scheduler Thread - 1919/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:44:49] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[13:46:24] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:47:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:47:24] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:49:50] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[13:52:08] [User Authenticator #6/INFO]: UUID of player xValtrux is 9d41cc84-c13a-41c5-b5b2-8456053df895
+[13:52:08] [Server thread/INFO]: xValtrux[/84.197.110.123:55640] logged in with entity id 273490 at ([Survival]96.95226095873736, 98.51150150340601, 569.6539522397085)
+[13:52:10] [Server thread/INFO]: xValtrux fell from a high place
+[13:52:16] [Server thread/INFO]: xValtrux issued server command: /fly
+[13:52:28] [Server thread/INFO]: xValtrux issued server command: /tp
+[13:52:28] [Server thread/INFO]: [Essentials] xValtrux was denied access to command.
+[13:52:29] [Server thread/INFO]: Nnoid issued server command: /home
+[13:53:59] [Server thread/INFO]: Nnoid issued server command: /wild
+[13:54:05] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:54:20] [Server thread/INFO]: Nnoid issued server command: /home
+[13:54:45] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:54:50] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[13:55:02] [Server thread/INFO]: antrius2001 issued server command: /kit starter
+[13:55:05] [Server thread/INFO]: [ClearLag] Removed 7 Entities!
+[13:55:28] [Server thread/INFO]: antrius2001 fell from a high place
+[13:55:44] [Netty Server IO #1/WARN]: java.io.IOException: An existing connection was forcibly closed by the remote host
+[13:55:44] [Server thread/INFO]: antrius2001 lost connection: Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host
+[13:55:44] [Netty Server IO #1/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[13:55:44] [Netty Server IO #1/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[13:55:44] [Netty Server IO #1/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[13:55:44] [Netty Server IO #1/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[13:55:44] [Netty Server IO #1/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[13:55:44] [Netty Server IO #1/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[13:55:44] [Netty Server IO #1/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[13:55:44] [Netty Server IO #1/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[13:55:44] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+[13:55:44] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[13:55:44] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[13:55:44] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[13:55:44] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[13:55:44] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[13:55:44] [Netty Server IO #1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[13:55:44] [Server thread/INFO]: antrius2001 left the game
+[13:59:08] [Server thread/INFO]: Nnoid lost connection: Disconnected
+[13:59:09] [Server thread/INFO]: Nnoid left the game
+[13:59:46] [Craft Scheduler Thread - 1951/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:59:51] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[14:01:46] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[14:02:26] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[14:02:46] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[14:04:51] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[14:09:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[14:10:07] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[14:10:27] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[14:12:58] [Server thread/INFO]: xValtrux lost connection: Disconnected
+[14:12:59] [Server thread/INFO]: xValtrux left the game
+[14:14:47] [Craft Scheduler Thread - 1988/INFO]: [Marriage] Purged 0 player entries in 1ms
+[14:14:47] [Craft Scheduler Thread - 1987/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[14:14:52] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[14:17:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[14:17:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[14:18:08] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[14:19:53] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[14:24:49] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[14:24:54] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[14:25:29] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[14:25:49] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[14:29:50] [Craft Scheduler Thread - 2022/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]

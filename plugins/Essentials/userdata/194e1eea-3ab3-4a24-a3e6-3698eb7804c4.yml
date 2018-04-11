@@ -1,12 +1,34 @@
 lastAccountName: antrius2001
 timestamps:
   login: 1523442537365
+  command-cooldowns:
+  - pattern: .*( .*)?
+    expiry: 1523451307523
+  kits:
+    starter: 1523451302523
+  lastteleport: 1523448897210
+  logout: 1523451344628
 ipAddress: 144.138.234.198
 geolocation: Australia
 lastlocation:
   world: Survival
-  x: 128.0
+  x: 128.831419527524
   y: 76.0
-  z: 544.0
-  yaw: 0.0
-  pitch: 0.0
+  z: 543.9518805811549
+  yaw: 211.35
+  pitch: -16.199986
+homes:
+  home:
+    world: Survival
+    x: 172.39090273615912
+    y: 28.0
+    z: -111.78395137091766
+    yaw: -270.07935
+    pitch: 11.850346
+logoutlocation:
+  world: Survival
+  x: 128.5
+  y: 76.0
+  z: 544.5
+  yaw: 1.0500166
+  pitch: 2.700013

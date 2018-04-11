@@ -26,7 +26,7 @@ npc:
         x: '112.5'
         y: '70.5'
         z: '544.5'
-        yaw: '136.64512634277344'
+        yaw: '-174.75746154785156'
         pitch: '0.0'
       type: PLAYER
       spawned: true
@@ -81,7 +81,7 @@ npc:
         x: '144.5'
         y: '70.5'
         z: '544.5'
-        yaw: '28.84735107421875'
+        yaw: '11.731147766113281'
         pitch: '0.0'
       type: PLAYER
       owner:
@@ -108,7 +108,7 @@ npc:
         x: '128.5'
         y: '70.5'
         z: '560.5'
-        yaw: '126.94747924804688'
+        yaw: '94.08770751953125'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -266,7 +266,7 @@ npc:
         enabled: true
         range: '5.0'
         realisticlooking: false
-    traitnames: type,inventory,spawned,equipment,mounttrait,lookclose,location
+    traitnames: gravity,type,inventory,spawned,equipment,mounttrait,lookclose,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

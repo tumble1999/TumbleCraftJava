@@ -2,11 +2,33 @@ geolocation: Australia
 lastAccountName: Nnoid
 timestamps:
   login: 1523442420468
+  command-cooldowns:
+  - pattern: .*( .*)?
+    expiry: 1523451265583
+  lastteleport: 1523451264588
+  kits:
+    starter: 1523445826142
+  logout: 1523451548994
 ipAddress: 110.140.194.35
 lastlocation:
   world: Survival
-  x: 128.0
-  y: 76.0
-  z: 544.0
-  yaw: 0.0
-  pitch: 0.0
+  x: 23404.529041913982
+  y: 67.0
+  z: 24046.4823310186
+  yaw: -65.96742
+  pitch: 62.669174
+homes:
+  home:
+    world: Survival
+    x: 184.07014776570858
+    y: 28.0
+    z: -112.2022086955093
+    yaw: 273.5378
+    pitch: 27.427837
+logoutlocation:
+  world: Survival
+  x: 189.06689407598287
+  y: 28.0
+  z: -112.71300652190972
+  yaw: -210.83823
+  pitch: 23.838486
