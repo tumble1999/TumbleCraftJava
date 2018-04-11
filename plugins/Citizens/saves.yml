@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 26
+last-created-npc-id: 27
 npc:
   '0':
     metadata:
@@ -26,7 +26,7 @@ npc:
         x: '112.5'
         y: '70.5'
         z: '544.5'
-        yaw: '-174.75746154785156'
+        yaw: '-60.96294403076172'
         pitch: '0.0'
       type: PLAYER
       spawned: true
@@ -43,7 +43,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: mounttrait,inventory,gravity,equipment,location,spawned,owner,text,type,anchors,lookclose,waypoints,speech
+    traitnames: type,lookclose,spawned,location,gravity,mounttrait,inventory,equipment,waypoints,anchors,owner,speech,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -81,13 +81,13 @@ npc:
         x: '144.5'
         y: '70.5'
         z: '544.5'
-        yaw: '11.731147766113281'
+        yaw: '-108.679443359375'
         pitch: '0.0'
       type: PLAYER
       owner:
         owner: server
         uuid: ''
-    traitnames: mounttrait,inventory,text,type,anchors,gravity,lookclose,spawned,location,equipment,owner,speech
+    traitnames: type,lookclose,anchors,owner,spawned,location,gravity,mounttrait,inventory,speech,equipment,text
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -108,7 +108,7 @@ npc:
         x: '128.5'
         y: '70.5'
         z: '560.5'
-        yaw: '94.08770751953125'
+        yaw: '151.331298828125'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -119,7 +119,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: mounttrait,inventory,type,gravity,lookclose,equipment,spawned,location,owner
+    traitnames: type,lookclose,owner,spawned,location,gravity,mounttrait,inventory,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -140,8 +140,8 @@ npc:
         x: '1826.5'
         y: '55.5'
         z: '-739.5'
-        yaw: '-129.97386169433594'
-        pitch: '0.0'
+        yaw: '126.66561889648438'
+        pitch: '4.202889442443848'
       gravity:
         enabled: false
       lookclose:
@@ -151,7 +151,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: mounttrait,inventory,type,gravity,lookclose,spawned,location,equipment,owner
+    traitnames: type,lookclose,owner,spawned,location,gravity,mounttrait,inventory,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -172,8 +172,8 @@ npc:
         x: '1826.5'
         y: '55.5'
         z: '-747.5'
-        yaw: '-57.8591423034668'
-        pitch: '0.0'
+        yaw: '61.89811706542969'
+        pitch: '17.805118560791016'
       gravity:
         enabled: false
       lookclose:
@@ -183,7 +183,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: mounttrait,inventory,type,gravity,lookclose,location,equipment,spawned,owner
+    traitnames: type,lookclose,owner,spawned,location,gravity,mounttrait,inventory,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -204,7 +204,7 @@ npc:
         x: '1840.5'
         y: '55.5'
         z: '-733.5'
-        yaw: '138.63571166992188'
+        yaw: '140.69744873046875'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -215,7 +215,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: mounttrait,inventory,type,gravity,lookclose,equipment,spawned,location,owner
+    traitnames: type,lookclose,owner,spawned,location,gravity,mounttrait,inventory,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -234,7 +234,7 @@ npc:
         x: '1832.5'
         y: '55.5'
         z: '-753.5'
-        yaw: '-37.708560943603516'
+        yaw: '-41.216148376464844'
         pitch: '0.0'
       spawned: true
       gravity:
@@ -242,7 +242,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: mounttrait,inventory,type,gravity,lookclose,location,spawned,equipment,owner
+    traitnames: type,lookclose,owner,spawned,location,gravity,mounttrait,inventory,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -266,7 +266,31 @@ npc:
         enabled: true
         range: '5.0'
         realisticlooking: false
-    traitnames: mounttrait,inventory,type,lookclose,location,spawned,equipment
+    traitnames: type,lookclose,spawned,location,mounttrait,inventory,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '27':
+    name: EmmaPowee
+    uuid: 5d9f9d81-7477-4630-bef8-c5f2bb014221
+    traits:
+      type: PLAYER
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      spawned: true
+      location:
+        world: Staff
+        x: '1822.5'
+        y: '55.5'
+        z: '-747.5'
+        yaw: '3.1193084716796875'
+        pitch: '34.247318267822266'
+      gravity:
+        enabled: false
+    traitnames: type,lookclose,spawned,location,gravity,mounttrait,inventory,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
