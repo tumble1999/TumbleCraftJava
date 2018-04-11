@@ -11,3 +11,4 @@ git commit -m "first commit"
 git remote add origin https://github.com/tumble1999/usb.git
 git push -u origin master
 cd %mcserver%
+echo.>usb.tmp
