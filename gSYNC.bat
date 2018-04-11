@@ -34,4 +34,5 @@ echo PUSHING...
 %push%
 echo.
 echo.
+call usb.bat
 goto :loop
