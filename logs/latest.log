@@ -5171,3 +5171,24 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [14:40:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
 [14:40:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [14:41:12] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[14:44:53] [Craft Scheduler Thread - 2057/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[14:44:53] [Server thread/INFO]: CONSOLE issued server command: /online 
+[14:44:54] [Server thread/INFO]: There are 0 out of maximum 20 players online.
+[14:44:58] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[14:47:53] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[14:48:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[14:48:53] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[14:54:59] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[14:55:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[14:56:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[14:56:34] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
