@@ -4,6 +4,7 @@ timestamps:
   command-cooldowns:
   - pattern: .*( .*)?
     expiry: 1523470870743
+  logout: 1523471128131
 ipAddress: 82.44.12.229
 lastlocation:
   world: Survival
@@ -13,3 +14,10 @@ lastlocation:
   yaw: -320.84995
   pitch: 24.599987
 geolocation: United Kingdom
+logoutlocation:
+  world: Creative
+  x: -152.12995504567996
+  y: 65.0
+  z: 21.73465686088696
+  yaw: -7.500122
+  pitch: -31.199986
