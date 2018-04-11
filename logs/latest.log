@@ -2424,3 +2424,41 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [06:43:57] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
 [06:44:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [06:44:52] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[06:51:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[06:52:13] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[06:52:33] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[06:53:58] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[06:58:54] [Craft Scheduler Thread - 983/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[06:58:59] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[06:59:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[06:59:54] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[07:00:14] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[07:04:00] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[07:06:55] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[07:07:35] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[07:07:55] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[07:09:00] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[07:13:56] [Craft Scheduler Thread - 1018/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 26
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[07:13:56] [Craft Scheduler Thread - 1019/INFO]: [Marriage] Purged 0 player entries in 2ms
+[07:14:01] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[07:14:36] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
