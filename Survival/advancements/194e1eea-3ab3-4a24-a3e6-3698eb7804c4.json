@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2018-04-11 12:03:52 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2018-04-11 11:49:18 +0100"
@@ -8,12 +14,6 @@
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2018-04-11 11:49:18 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2018-04-11 11:45:54 +0100"
     },
     "done": true
   },
@@ -29,6 +29,78 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_stone": "2018-04-11 11:54:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2018-04-11 11:45:54 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2018-04-11 12:01:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2018-04-11 11:49:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2018-04-11 11:57:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2018-04-11 11:49:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2018-04-11 11:49:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2018-04-11 11:49:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2018-04-11 11:43:11 +0100",
+      "plains": "2018-04-11 11:28:58 +0100",
+      "taiga": "2018-04-11 11:43:55 +0100",
+      "ocean": "2018-04-11 11:46:58 +0100",
+      "extreme_hills": "2018-04-11 11:43:15 +0100",
+      "river": "2018-04-11 11:45:26 +0100",
+      "stone_beach": "2018-04-11 11:47:54 +0100"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2018-04-11 11:45:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2018-04-11 11:59:32 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "entered_water": "2018-04-11 11:43:13 +0100"
@@ -38,6 +110,12 @@
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2018-04-11 11:49:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_stone": "2018-04-11 12:01:39 +0100"
     },
     "done": true
   },
@@ -71,39 +149,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_granite": {
-    "criteria": {
-      "has_stone": "2018-04-11 11:54:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "bread": "2018-04-11 11:45:54 +0100"
-    },
-    "done": false
-  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2018-04-11 11:49:18 +0100"
     },
     "done": true
   },
-  "minecraft:story/mine_stone": {
+  "minecraft:recipes/misc/coal": {
     "criteria": {
-      "get_stone": "2018-04-11 11:49:18 +0100"
+      "has_the_recipe": "2018-04-11 12:00:42 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_andesite": {
+  "minecraft:recipes/combat/arrow": {
     "criteria": {
-      "has_stone": "2018-04-11 11:57:29 +0100"
+      "has_flint": "2018-04-11 12:03:52 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
+  "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
-      "has_cobblestone": "2018-04-11 11:49:18 +0100"
+      "has_at_least_9_coal": "2018-04-11 12:00:42 +0100"
     },
     "done": true
   },
@@ -113,21 +179,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/furnace": {
-    "criteria": {
-      "has_cobblestone": "2018-04-11 11:49:18 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "entered_water": "2018-04-11 11:43:13 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_stairs": {
-    "criteria": {
-      "has_cobblestone": "2018-04-11 11:49:18 +0100"
     },
     "done": true
   },
@@ -136,17 +190,5 @@
       "entered_water": "2018-04-11 11:43:13 +0100"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "beaches": "2018-04-11 11:43:11 +0100",
-      "plains": "2018-04-11 11:28:58 +0100",
-      "taiga": "2018-04-11 11:43:55 +0100",
-      "ocean": "2018-04-11 11:46:58 +0100",
-      "extreme_hills": "2018-04-11 11:43:15 +0100",
-      "river": "2018-04-11 11:45:26 +0100",
-      "stone_beach": "2018-04-11 11:47:54 +0100"
-    },
-    "done": false
   }
 }
