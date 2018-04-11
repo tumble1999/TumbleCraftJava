@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2018-04-11 11:55:04 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2018-04-11 11:43:56 +0100"
@@ -50,6 +56,12 @@
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
       "has_white_wool": "2018-04-11 11:45:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2018-04-11 11:55:57 +0100"
     },
     "done": true
   },
@@ -132,9 +144,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2018-04-11 11:55:04 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/trapdoor": {
     "criteria": {
       "has_planks": "2018-04-11 11:45:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2018-04-11 11:55:04 +0100"
     },
     "done": true
   },
@@ -174,6 +198,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2018-04-11 11:55:57 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2018-04-11 11:43:41 +0100"
@@ -183,6 +213,12 @@
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2018-04-11 11:49:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2018-04-11 11:55:04 +0100"
     },
     "done": true
   },
@@ -234,6 +270,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_at_least_9_coal": "2018-04-11 11:53:06 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/boat": {
     "criteria": {
       "entered_water": "2018-04-11 11:43:15 +0100"
@@ -273,6 +315,12 @@
   "minecraft:recipes/redstone/wooden_button": {
     "criteria": {
       "has_planks": "2018-04-11 11:45:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2018-04-11 11:55:04 +0100"
     },
     "done": true
   },
@@ -330,11 +378,29 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/fence": {
+    "criteria": {
+      "has_planks": "2018-04-11 11:55:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_stone": "2018-04-11 11:53:31 +0100"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2018-04-11 11:44:36 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2018-04-11 11:55:04 +0100"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
@@ -372,6 +438,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/fence_gate": {
+    "criteria": {
+      "has_planks": "2018-04-11 11:55:57 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_wool": {
     "criteria": {
       "has_white_wool": "2018-04-11 11:45:02 +0100"
@@ -405,6 +477,18 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2018-04-11 11:49:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_the_recipe": "2018-04-11 11:53:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_door": {
+    "criteria": {
+      "has_planks": "2018-04-11 11:55:57 +0100"
     },
     "done": true
   },
