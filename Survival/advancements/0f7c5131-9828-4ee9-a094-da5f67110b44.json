@@ -17,6 +17,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2018-04-11 11:49:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2018-04-11 11:47:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar": {
+    "criteria": {
+      "has_reeds": "2018-04-11 11:47:12 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2018-04-11 11:45:02 +0100"
@@ -47,6 +65,18 @@
     },
     "done": true
   },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2018-04-11 11:49:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2018-04-11 11:49:22 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2018-04-11 11:45:48 +0100"
@@ -67,12 +97,14 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "forest": "2018-04-11 11:47:10 +0100",
       "beaches": "2018-04-11 11:44:45 +0100",
       "plains": "2018-04-11 11:27:01 +0100",
       "taiga": "2018-04-11 11:44:01 +0100",
       "ocean": "2018-04-11 11:46:56 +0100",
       "extreme_hills": "2018-04-11 11:43:13 +0100",
-      "river": "2018-04-11 11:46:51 +0100"
+      "river": "2018-04-11 11:46:51 +0100",
+      "stone_beach": "2018-04-11 11:47:49 +0100"
     },
     "done": false
   },
@@ -136,9 +168,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2018-04-11 11:49:22 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2018-04-11 11:43:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2018-04-11 11:49:22 +0100"
     },
     "done": true
   },
@@ -151,6 +195,12 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "entered_water": "2018-04-11 11:43:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2018-04-11 11:49:22 +0100"
     },
     "done": true
   },
@@ -226,9 +276,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2018-04-11 11:49:22 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2018-04-11 11:43:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2018-04-11 11:50:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2018-04-11 11:49:22 +0100"
     },
     "done": true
   },
@@ -268,6 +336,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2018-04-11 11:49:22 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2018-04-11 11:45:02 +0100"
@@ -277,6 +351,12 @@
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2018-04-11 11:45:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2018-04-11 11:49:22 +0100"
     },
     "done": true
   },
@@ -319,6 +399,12 @@
   "minecraft:recipes/building_blocks/yellow_wool": {
     "criteria": {
       "has_white_wool": "2018-04-11 11:45:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2018-04-11 11:49:22 +0100"
     },
     "done": true
   },
