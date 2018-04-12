@@ -1181,3 +1181,45 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
 [07:40:26] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[07:45:27] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[07:47:02] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[07:47:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[07:48:02] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[07:54:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[07:55:22] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[07:55:23] [Craft Scheduler Thread - 885/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[07:55:23] [Craft Scheduler Thread - 886/INFO]: [Marriage] Purged 0 player entries in 1ms
+[07:55:23] [Craft Scheduler Thread - 886/INFO]: [Vault] Checking for Updates ... 
+[07:55:23] [Craft Scheduler Thread - 886/INFO]: [Vault] No new version available
+[07:55:27] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[07:55:42] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[08:00:28] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[08:02:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[08:03:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[08:03:23] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[08:05:28] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[08:10:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[08:10:24] [Craft Scheduler Thread - 921/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[08:10:29] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[08:10:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[08:11:04] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
