@@ -1,0 +1,48 @@
+backend:
+  name: github
+  repo: tumblenet/go.tumblenet.cu.cc
+  base_url: https://tumblenet-api.herokuapp.com
+
+#publish_mode: editorial_workflow
+media_folder: "uploads" # Media files will be stored in the repo under images/uploads
+
+collections:
+  - name: "idlink"
+    label: "Redirect"
+    folder: "_idlink/"
+    create: true
+    delete: true
+    slug: "{{year}}{{month}}{{day}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "redirect"}
+    #  - {label: "Title", name: "title", widget: "string", required="true"}
+      - {label: "URL", name: "href", widget: "string", required="true", default: "http://"}
+      - {label: "date", name: "date", widget: "datetime", required="true"}
+  - name: "mult-idlink"
+    label: "Multiple Redirect"
+    folder: "_link/mult/"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "multredirect"}
+      - {label: "Title", name: "title", widget: "string", required="true"}
+      - label: "URLs"
+        label_singular: "URL"
+        name: "hrefList"
+        widget: "list"
+        required: "true"
+        fields:
+          - {label: "URL", name: "href", widget: "string",required="true", default: "http://"}
+      #- {label: "date", name: "date", widget: "datetime", required="true"}
+  - name: "link"
+    label: "Named Redirect"
+    folder: "/_link"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    pattern: ['//http:\/\/\w+', "Must have at least 12 characters"]
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "redirect"}
+      - {label: "Title", name: "title", widget: "string", required="true"}
+      - {label: "URL", name: "href", widget: "string", required="true", default: "http://"}

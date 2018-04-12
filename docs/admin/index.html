@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Content Manager</title>
+
+  <!-- Include the styles for the Netlify CMS UI, after your own styles -->
+  <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^1.0.0/dist/cms.css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+</head>
+<body>
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^1.0.0/dist/cms.js"></script>
+  <script>
+var RedirectPreview = createClass({
+  render: function() {
+    var entry = this.props.entry;
+    var qurl = entry.getIn(['data', 'href']);
+    return h('iframe', {"className":"preview-redirect", src: qurl, seamless: true, width:"100%", height:"100%", sandbox: "true"},
+
+    );
+  }
+});
+CMS.registerPreviewStyle("/admin/frame.css");
+CMS.registerPreviewTemplate("idlink", RedirectPreview);
+CMS.registerPreviewTemplate("link", RedirectPreview);
+</script>
+</body>
+</html>
