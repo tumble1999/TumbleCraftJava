@@ -549,3 +549,98 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [18:09:48] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
 [18:12:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
 [18:13:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:13:23] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:14:48] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[18:19:43] [Craft Scheduler Thread - 91/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[18:19:43] [Craft Scheduler Thread - 92/INFO]: [Marriage] Purged 0 player entries in 18ms
+[18:19:48] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[18:20:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:20:43] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:21:03] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:24:49] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[18:27:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:28:24] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:28:44] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:29:49] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[18:30:40] [User Authenticator #4/INFO]: UUID of player EmmaPowee is 30b98f1f-49f5-4d05-91c1-7f0ce9eda2a7
+[18:30:40] [Server thread/INFO]: EmmaPowee[/82.44.12.229:59399] logged in with entity id 32463 at ([Creative]-125.57010052174977, 65.0, 2.618551773428203)
+[18:32:53] [Server thread/INFO]: EmmaPowee issued server command: /spawn
+[18:34:45] [Craft Scheduler Thread - 106/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[18:35:24] [User Authenticator #5/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[18:35:24] [Server thread/INFO]: TumbleGamer[/82.44.12.229:63292] logged in with entity id 35956 at ([Survival]125.1845808397607, 88.0, 618.6489140986697)
+[18:35:25] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:36:00] [Async Chat Thread - #3/INFO]: [L]<EmmaPowee> hi
+[18:36:00] [Async Chat Thread - #3/INFO]: [Admin] EmmaPowee: hi
+[18:36:05] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:36:25] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:36:38] [Async Chat Thread - #3/INFO]: [L]<EmmaPowee> how did you get those
+[18:36:38] [Async Chat Thread - #3/INFO]: [Admin] EmmaPowee: how did you get those
+[18:37:25] [Server thread/INFO]: EmmaPowee issued server command: /auto plot
+[18:37:35] [Async Chat Thread - #3/INFO]: [L]<TumbleGamer> follow me
+[18:37:35] [Async Chat Thread - #3/INFO]: [Owner] TumbleGamer: follow me
+[18:37:42] [Server thread/INFO]: EmmaPowee issued server command: /plot auto
+[18:37:43] [Server thread/INFO]: (FAWE) Running 1.12 registry dumper!
+[18:37:43] [Server thread/INFO]: (FAWE) Using adapter: com.boydti.fawe.bukkit.v1_12.FaweAdapter_1_12@711ff58
+[18:37:43] [Server thread/INFO]: (FAWE) =========================================
+[18:37:43] [Server thread/INFO]: (FAWE) Having `parallel-threads` > 1 interferes with the timings.
+[18:37:49] [Server thread/INFO]: TumbleGamer issued server command: /tp EmmaPowee
+[18:38:00] [Server thread/INFO]: TumbleGamer issued server command: /plot
+[18:38:03] [Server thread/INFO]: TumbleGamer issued server command: /plot info
+[18:38:10] [Server thread/INFO]: TumbleGamer issued server command: /plot 2
+[18:38:12] [Server thread/INFO]: TumbleGamer issued server command: /plot 4
+[18:38:19] [Server thread/INFO]: TumbleGamer issued server command: /plot delete
+[18:38:20] [Server thread/INFO]: Deleting plot... Id: 0;1 World: Creative Owner: 30b98f1f-49f5-4d05-91c1-7f0ce9eda2a7 Index: 4
+[18:38:40] [Server thread/INFO]: TumbleGamer issued server command: /spawn EmmaPowee
+[18:39:00] [Async Chat Thread - #4/INFO]: [L]<EmmaPowee> ok
+[18:39:00] [Async Chat Thread - #4/INFO]: [Admin] EmmaPowee: ok
+[18:39:05] [Async Chat Thread - #4/INFO]: [Shout]  [Owner] TumbleGamer: hello
+[18:39:28] [Server thread/INFO]: TumbleGamer issued server command: /plot claim EmmaPowee
+[18:39:28] [Server thread/INFO]: EmmaPowee issued server command: /plot auto
+[18:39:28] [Server thread/WARN]: TumbleGamer moved too quickly! 28.446122255095432,-8.086718084562136,-77.0511612155647
+[18:39:36] [Server thread/INFO]: TumbleGamer issued server command: /plot delete
+[18:39:37] [Server thread/INFO]: Deleting plot... Id: 1;0 World: Creative Owner: 554a961a-0908-428d-bf07-a1568d0d8547 Index: 5
+[18:39:47] [Server thread/INFO]: TumbleGamer issued server command: /sudo EmmaPowee plot auto
+[18:39:50] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[18:40:24] [Server thread/INFO]: TumbleGamer issued server command: /sudo EmmaPowee plot tp
+[18:40:54] [Async Chat Thread - #5/INFO]: [L]<EmmaPowee> hi
+[18:40:54] [Async Chat Thread - #5/INFO]: [Admin] EmmaPowee: hi
+[18:40:55] [Server thread/INFO]: TumbleGamer issued server command: /nick I am the best
+[18:40:58] [Async Chat Thread - #5/INFO]: [L]<TumbleGamer> hello
+[18:40:58] [Async Chat Thread - #5/INFO]: [Owner] TumbleGamer: hello
+[18:41:10] [Server thread/INFO]: TumbleGamer issued server command: /nick EmmaPowee off
+[18:41:22] [Server thread/INFO]: TumbleGamer issued server command: /nick IamTheBest
+[18:41:30] [Server thread/INFO]: TumbleGamer issued server command: /ne reload
+[18:41:38] [Async Chat Thread - #5/INFO]: [L]<EmmaPowee> yay i dont have a nickname
+[18:41:38] [Async Chat Thread - #5/INFO]: [Admin] EmmaPowee: yay i dont have a nickname
+[18:41:45] [Server thread/INFO]: TumbleGamer issued server command: /nick off
+[18:42:03] [Server thread/INFO]: TumbleGamer issued server command: /nick EmmaPowee fkjafdkfjsafdlhsaf
+[18:42:14] [Server thread/INFO]: TumbleGamer issued server command: /mail send EmmaPowee ffklsfasfdsfafdsfafsda
+[18:42:25] [Async Chat Thread - #5/INFO]: [L]<EmmaPowee> stop cameron
+[18:42:25] [Async Chat Thread - #5/INFO]: [Admin] ~fkjafdkfjsafdlhsaf: stop cameron
+[18:42:41] [Server thread/INFO]: TumbleGamer issued server command: /warn
+[18:42:44] [Server thread/INFO]: TumbleGamer issued server command: /help warn
+[18:42:51] [Server thread/INFO]: TumbleGamer issued server command: /help warn
+[18:43:05] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:43:12] [Server thread/INFO]: TumbleGamer issued server command: /msg EmmaPowee dont say my realname
+[18:43:14] [Async Chat Thread - #5/INFO]: [L]<EmmaPowee> back in a bit need to go the toilet
+[18:43:14] [Async Chat Thread - #5/INFO]: [Admin] ~fkjafdkfjsafdlhsaf: back in a bit need to go the toilet
