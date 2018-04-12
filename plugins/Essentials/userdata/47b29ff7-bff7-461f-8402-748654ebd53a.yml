@@ -1,7 +1,10 @@
 lastAccountName: Snouzuless
 timestamps:
-  login: 1523513663011
+  login: 1523513703506
   logout: 1523513664282
+  command-cooldowns:
+  - pattern: .*( .*)?
+    expiry: 1523513715981
 ipAddress: 37.153.223.254
 lastlocation:
   world: Survival
