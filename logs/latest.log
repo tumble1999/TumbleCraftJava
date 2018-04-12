@@ -2155,3 +2155,63 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
 [16:26:20] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[16:29:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:29:56] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:30:16] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:31:37] [Server thread/INFO]: [Multiverse-Core] World 'test' was unloaded from memory.
+[16:31:37] [Server thread/INFO]: [Multiverse-Core] World 'test' was unloaded from memory.
+[16:31:37] [Server thread/INFO]: [Multiverse-Core] World 'test' was removed from config.yml
+[16:31:37] [Server thread/INFO]: World removed from config!
+[16:36:21] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[16:36:56] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:37:37] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:37:57] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[16:41:17] [Craft Scheduler Thread - 2163/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:41:22] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[16:44:38] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:45:18] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:45:38] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:46:23] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[16:51:24] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[16:52:19] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:52:59] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:53:19] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:53:58] [Netty Server IO #0/WARN]: java.io.IOException: An existing connection was forcibly closed by the remote host
+[16:53:58] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[16:53:58] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[16:53:58] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[16:53:58] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[16:53:58] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[16:53:58] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[16:53:58] [Netty Server IO #0/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[16:53:58] [Netty Server IO #0/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[16:53:58] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+[16:53:58] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[16:53:58] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[16:53:58] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[16:53:58] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[16:53:58] [Netty Server IO #0/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[16:53:58] [Netty Server IO #0/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:56:20] [Craft Scheduler Thread - 2200/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:56:20] [Craft Scheduler Thread - 2201/INFO]: [Marriage] Purged 0 player entries in 26ms
+[16:56:24] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
