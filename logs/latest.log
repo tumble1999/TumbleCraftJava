@@ -1262,3 +1262,311 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [08:40:47] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
 [08:41:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [08:41:47] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[08:45:32] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[08:48:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[08:49:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[08:49:28] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[08:50:33] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[08:55:28] [Craft Scheduler Thread - 1029/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[08:55:28] [Craft Scheduler Thread - 1030/INFO]: [Marriage] Purged 0 player entries in 1ms
+[08:55:33] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[08:56:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[08:56:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[08:57:08] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[09:00:34] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[09:01:05] [Netty Server IO #2/WARN]: io.netty.handler.codec.DecoderException: us.myles.ViaVersion.exception.InformativeException: Please post this error to http://github.com/MylesIsCool/ViaVersion/issues
+[09:01:05] [Netty Server IO #2/WARN]: {Type: String, Source #0: us.myles.ViaVersion.protocols.base.BaseProtocol$3 (Anonymous), Data: [Pair{Type|VarInt, 0}], Packet ID: 0}
+[09:01:05] [Netty Server IO #2/WARN]: Actual Error: 
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:05] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_12_R1.LegacyPingHandler.channelRead(LegacyPingHandler.java:121)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[09:01:05] [Netty Server IO #2/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[09:01:05] [Netty Server IO #2/WARN]: Caused by: us.myles.ViaVersion.exception.InformativeException: Please post this error to http://github.com/MylesIsCool/ViaVersion/issues
+[09:01:05] [Netty Server IO #2/WARN]: {Type: String, Source #0: us.myles.ViaVersion.protocols.base.BaseProtocol$3 (Anonymous), Data: [Pair{Type|VarInt, 0}], Packet ID: 0}
+[09:01:05] [Netty Server IO #2/WARN]: Actual Error: 
+[09:01:05] [Netty Server IO #2/WARN]: Caused by: java.lang.IndexOutOfBoundsException: readerIndex(3) + length(19) exceeds writerIndex(3): PooledUnsafeDirectByteBuf(ridx: 3, widx: 3, cap: 3)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1403)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes(AbstractByteBuf.java:1390)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.buffer.AbstractByteBuf.readBytes(AbstractByteBuf.java:872)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.buffer.AbstractByteBuf.readBytes(AbstractByteBuf.java:880)
+[09:01:05] [Netty Server IO #2/WARN]: 	at us.myles.ViaVersion.api.type.types.StringType.read(StringType.java:19)
+[09:01:05] [Netty Server IO #2/WARN]: 	at us.myles.ViaVersion.api.type.types.StringType.read(StringType.java:8)
+[09:01:05] [Netty Server IO #2/WARN]: 	at us.myles.ViaVersion.api.PacketWrapper.read(PacketWrapper.java:146)
+[09:01:05] [Netty Server IO #2/WARN]: 	at us.myles.ViaVersion.api.remapper.TypeRemapper.read(TypeRemapper.java:15)
+[09:01:05] [Netty Server IO #2/WARN]: 	at us.myles.ViaVersion.api.remapper.PacketRemapper.remap(PacketRemapper.java:94)
+[09:01:05] [Netty Server IO #2/WARN]: 	at us.myles.ViaVersion.api.protocol.Protocol.transform(Protocol.java:150)
+[09:01:05] [Netty Server IO #2/WARN]: 	at us.myles.ViaVersion.protocols.base.BaseProtocol.transform(BaseProtocol.java:252)
+[09:01:05] [Netty Server IO #2/WARN]: 	at us.myles.ViaVersion.api.PacketWrapper.apply(PacketWrapper.java:423)
+[09:01:05] [Netty Server IO #2/WARN]: 	at us.myles.ViaVersion.api.protocol.ProtocolPipeline.transform(ProtocolPipeline.java:73)
+[09:01:05] [Netty Server IO #2/WARN]: 	at us.myles.ViaVersion.bukkit.handlers.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:54)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:05] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_12_R1.LegacyPingHandler.channelRead(LegacyPingHandler.java:121)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[09:01:05] [Netty Server IO #2/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[09:01:05] [Netty Server IO #2/WARN]: io.netty.handler.codec.DecoderException: java.io.IOException: Bad packet id 96
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:05] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_12_R1.LegacyPingHandler.channelRead(LegacyPingHandler.java:121)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[09:01:05] [Netty Server IO #2/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[09:01:05] [Netty Server IO #2/WARN]: Caused by: java.io.IOException: Bad packet id 96
+[09:01:05] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_12_R1.PacketDecoder.decode(SourceFile:37)
+[09:01:05] [Netty Server IO #2/WARN]: 	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+[09:01:05] [Netty Server IO #2/WARN]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[09:01:05] [Netty Server IO #2/WARN]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[09:01:05] [Netty Server IO #2/WARN]: 	at us.myles.ViaVersion.util.PipelineUtil.callDecode(PipelineUtil.java:45)
+[09:01:05] [Netty Server IO #2/WARN]: 	at us.myles.ViaVersion.bukkit.handlers.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:71)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[09:01:05] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[09:01:05] [Netty Server IO #2/WARN]: 	... 28 more
+[09:01:08] [Netty Server IO #3/WARN]: io.netty.handler.codec.DecoderException: us.myles.ViaVersion.exception.InformativeException: Please post this error to http://github.com/MylesIsCool/ViaVersion/issues
+[09:01:08] [Netty Server IO #3/WARN]: {Type: String, Source #0: us.myles.ViaVersion.protocols.base.BaseProtocol$3 (Anonymous), Data: [Pair{Type|VarInt, 0}], Packet ID: 0}
+[09:01:08] [Netty Server IO #3/WARN]: Actual Error: 
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:08] [Netty Server IO #3/WARN]: 	at net.minecraft.server.v1_12_R1.LegacyPingHandler.channelRead(LegacyPingHandler.java:121)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[09:01:08] [Netty Server IO #3/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[09:01:08] [Netty Server IO #3/WARN]: Caused by: us.myles.ViaVersion.exception.InformativeException: Please post this error to http://github.com/MylesIsCool/ViaVersion/issues
+[09:01:08] [Netty Server IO #3/WARN]: {Type: String, Source #0: us.myles.ViaVersion.protocols.base.BaseProtocol$3 (Anonymous), Data: [Pair{Type|VarInt, 0}], Packet ID: 0}
+[09:01:08] [Netty Server IO #3/WARN]: Actual Error: 
+[09:01:08] [Netty Server IO #3/WARN]: Caused by: java.lang.IndexOutOfBoundsException: readerIndex(3) + length(19) exceeds writerIndex(3): PooledUnsafeDirectByteBuf(ridx: 3, widx: 3, cap: 3)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1403)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes(AbstractByteBuf.java:1390)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.buffer.AbstractByteBuf.readBytes(AbstractByteBuf.java:872)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.buffer.AbstractByteBuf.readBytes(AbstractByteBuf.java:880)
+[09:01:08] [Netty Server IO #3/WARN]: 	at us.myles.ViaVersion.api.type.types.StringType.read(StringType.java:19)
+[09:01:08] [Netty Server IO #3/WARN]: 	at us.myles.ViaVersion.api.type.types.StringType.read(StringType.java:8)
+[09:01:08] [Netty Server IO #3/WARN]: 	at us.myles.ViaVersion.api.PacketWrapper.read(PacketWrapper.java:146)
+[09:01:08] [Netty Server IO #3/WARN]: 	at us.myles.ViaVersion.api.remapper.TypeRemapper.read(TypeRemapper.java:15)
+[09:01:08] [Netty Server IO #3/WARN]: 	at us.myles.ViaVersion.api.remapper.PacketRemapper.remap(PacketRemapper.java:94)
+[09:01:08] [Netty Server IO #3/WARN]: 	at us.myles.ViaVersion.api.protocol.Protocol.transform(Protocol.java:150)
+[09:01:08] [Netty Server IO #3/WARN]: 	at us.myles.ViaVersion.protocols.base.BaseProtocol.transform(BaseProtocol.java:252)
+[09:01:08] [Netty Server IO #3/WARN]: 	at us.myles.ViaVersion.api.PacketWrapper.apply(PacketWrapper.java:423)
+[09:01:08] [Netty Server IO #3/WARN]: 	at us.myles.ViaVersion.api.protocol.ProtocolPipeline.transform(ProtocolPipeline.java:73)
+[09:01:08] [Netty Server IO #3/WARN]: 	at us.myles.ViaVersion.bukkit.handlers.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:54)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:08] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:09] [Netty Server IO #3/WARN]: 	at net.minecraft.server.v1_12_R1.LegacyPingHandler.channelRead(LegacyPingHandler.java:121)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[09:01:09] [Netty Server IO #3/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[09:01:09] [Netty Server IO #3/WARN]: io.netty.handler.codec.DecoderException: java.io.IOException: Bad packet id 96
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:459)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:09] [Netty Server IO #3/WARN]: 	at net.minecraft.server.v1_12_R1.LegacyPingHandler.channelRead(LegacyPingHandler.java:121)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[09:01:09] [Netty Server IO #3/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[09:01:09] [Netty Server IO #3/WARN]: Caused by: java.io.IOException: Bad packet id 96
+[09:01:09] [Netty Server IO #3/WARN]: 	at net.minecraft.server.v1_12_R1.PacketDecoder.decode(SourceFile:37)
+[09:01:09] [Netty Server IO #3/WARN]: 	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+[09:01:09] [Netty Server IO #3/WARN]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[09:01:09] [Netty Server IO #3/WARN]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[09:01:09] [Netty Server IO #3/WARN]: 	at us.myles.ViaVersion.util.PipelineUtil.callDecode(PipelineUtil.java:45)
+[09:01:09] [Netty Server IO #3/WARN]: 	at us.myles.ViaVersion.bukkit.handlers.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:71)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[09:01:09] [Netty Server IO #3/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[09:01:09] [Netty Server IO #3/WARN]: 	... 28 more
+[09:03:49] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[09:04:29] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[09:04:49] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[09:05:34] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[09:10:30] [Craft Scheduler Thread - 1065/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[09:11:30] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[09:12:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[09:12:30] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[09:15:35] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[09:19:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[09:19:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[09:20:10] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[09:20:35] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[09:25:31] [Craft Scheduler Thread - 1102/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[09:25:36] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[09:26:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[09:27:31] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[09:27:51] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
