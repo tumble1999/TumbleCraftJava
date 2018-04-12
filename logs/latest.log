@@ -1730,3 +1730,43 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [11:25:45] [Craft Scheduler Thread - 1391/INFO]: (FAWE) Updated FAWE to 18.04.12-b1f8bbd-1057-19.4.20
 [11:25:45] [Craft Scheduler Thread - 1391/INFO]: (FAWE) Restart to update FAWE with these changes: /fawe changelog or https://empcraft.com/fawe/cl?48992d2
 [11:25:46] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[11:29:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:30:22] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:30:42] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:30:47] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[11:35:47] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[11:37:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:38:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:38:23] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:40:43] [Craft Scheduler Thread - 1430/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:40:48] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[11:45:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:45:43] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:45:48] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[11:46:03] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:52:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:53:24] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:53:44] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:55:44] [Craft Scheduler Thread - 1467/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:55:44] [Craft Scheduler Thread - 1468/INFO]: [Marriage] Purged 0 player entries in 1ms
+[11:55:49] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
