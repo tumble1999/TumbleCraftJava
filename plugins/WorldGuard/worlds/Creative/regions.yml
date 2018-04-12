@@ -10,6 +10,15 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    hi:
+        min: {x: -16.0, y: 66.0, z: 7.0}
+        max: {x: -16.0, y: 66.0, z: 7.0}
+        members: {}
+        flags: {}
+        owners:
+            unique-ids: [554a961a-0908-428d-bf07-a1568d0d8547]
+        type: cuboid
+        priority: 0
     __global__:
         members: {}
         flags: {}
