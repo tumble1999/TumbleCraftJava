@@ -2,21 +2,12 @@ title: TumbleCraftJava
 description: > # this means to ignore newlines until "baseurl:"
   My Github Website
 base-url: ""
-url: "hhttp://go.tumblenet.ga" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://github.tumblenet.ga/TumbleCraftJava/" # the base hostname & protocol for your site, e.g. http://example.com
 repository: tumblenet/go.tumblenet.cu.cc
-
-href: tumblenet.ga
-comingSoon: .
 
 #favicon: favicon.gif
 
 collections:
-  idlink:
-    output: true
-    permalink: /idlink/:year:y_day:hour:minute:second/
-  link:
-    output: true
-    permalink: /idlink/:title/
 
 
 permalink: pretty
@@ -26,7 +17,7 @@ production: true
 plugins:
  - jekyll-feed
  - jekyll-redirect-from
-# - jekyll-seo-tag
+ #- jekyll-seo-tag
  - jekyll-sitemap
  - jekyll-avatar
  - jemoji
