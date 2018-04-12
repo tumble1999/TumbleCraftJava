@@ -419,3 +419,42 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [17:19:38] [Craft Scheduler Thread - 2/INFO]: Fast mode UUID caching enabled!
 [17:19:38] [Craft Scheduler Thread - 2/INFO]: [P2] Cached a total of: 2 UUIDs
 [17:19:42] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[17:20:33] [Server thread/INFO]: [com.enjin.bukkit.EnjinMinecraftPlugin] Checking if key is valid
+[17:20:33] [Server thread/INFO]: [EnjinMinecraftPlugin] Checking if key is valid
+[17:20:33] [Craft Scheduler Thread - 23/INFO]: That key has already been validated.
+[17:21:52] [User Authenticator #1/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[17:21:52] [Server thread/INFO]: TumbleGamer[/82.44.12.229:61354] logged in with entity id 1153 at ([Staff]1836.5667975380836, 56.91694667718655, -741.8891539314382)
+[17:22:45] [Server thread/INFO]: TumbleGamer issued server command: /engin
+[17:24:36] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
+[17:24:37] [Server thread/INFO]: TumbleGamer left the game
+[17:24:42] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[17:26:18] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:26:58] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:27:18] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:29:43] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[17:33:59] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:34:39] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:34:39] [Craft Scheduler Thread - 42/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[17:34:44] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[17:34:59] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:35:19] [User Authenticator #2/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[17:35:19] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:52843] logged in with entity id 6374 at ([Survival]127.12129024368969, 98.0, 490.73766950799325)
+[17:36:43] [Server thread/INFO]: DrBatmanWho issued server command: /warp
+[17:39:39] [Server thread/INFO]: DrBatmanWho issued server command: /gm sp
+[17:39:45] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[17:41:35] [Server thread/INFO]: DrBatmanWho issued server command: /gm c
+[17:41:40] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:42:20] [User Authenticator #3/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[17:42:20] [Server thread/INFO]: TumbleGamer[/82.44.12.229:62188] logged in with entity id 10429 at ([Staff]1836.5667975380836, 56.91694667718655, -741.8891539314382)
+[17:42:20] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:42:40] [Server thread/INFO]: [ClearLag] Removed 23 Entities!
