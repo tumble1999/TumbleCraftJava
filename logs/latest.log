@@ -1609,3 +1609,43 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [09:55:38] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
 [09:57:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
 [09:58:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[09:58:34] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[10:00:39] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[10:05:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[10:05:39] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[10:05:54] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[10:06:14] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[10:10:35] [Craft Scheduler Thread - 1209/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:10:40] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[10:12:55] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[10:13:35] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[10:13:55] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[10:15:40] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[10:20:35] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[10:20:40] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[10:21:15] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[10:21:35] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[10:25:36] [Craft Scheduler Thread - 1247/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:25:38] [Craft Scheduler Thread - 1242/INFO]: (FAWE) Updated FAWE to 18.04.12-79fe27a-1055-19.4.18
+[10:25:38] [Craft Scheduler Thread - 1242/INFO]: (FAWE) Restart to update FAWE with these changes: /fawe changelog or https://empcraft.com/fawe/cl?48992d2
+[10:25:41] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
