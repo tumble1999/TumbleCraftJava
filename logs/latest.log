@@ -1810,3 +1810,45 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
 [12:25:52] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[12:31:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[12:31:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[12:32:08] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[12:35:53] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[12:38:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[12:39:28] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[12:39:48] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[12:40:49] [Craft Scheduler Thread - 1576/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[12:40:54] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[12:45:54] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[12:46:29] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[12:47:09] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[12:47:29] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[12:50:55] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[12:54:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[12:54:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[12:55:10] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[12:55:50] [Craft Scheduler Thread - 1612/INFO]: [Marriage] Purged 0 player entries in 1ms
+[12:55:50] [Craft Scheduler Thread - 1611/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[12:55:53] [Craft Scheduler Thread - 1605/INFO]: (FAWE) Updated FAWE to 18.04.12-c938a61-1058-19.4.21
+[12:55:53] [Craft Scheduler Thread - 1605/INFO]: (FAWE) Restart to update FAWE with these changes: /fawe changelog or https://empcraft.com/fawe/cl?48992d2
+[12:55:55] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
