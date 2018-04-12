@@ -1119,3 +1119,65 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[07:14:22] [User Authenticator #1/INFO]: UUID of player Snouzuless is 47b29ff7-bff7-461f-8402-748654ebd53a
+[07:14:23] [Server thread/INFO]: Snouzuless[/37.153.223.254:53039] logged in with entity id 127051 at ([Survival]128.5, 82.0, 536.5)
+[07:14:23] [pool-10-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\47b29ff7-bff7-461f-8402-748654ebd53a.yml
+[07:14:23] [Server thread/INFO]: Snouzuless has made the advancement [Getting an Upgrade]
+[07:14:24] [Netty Server IO #2/WARN]: Snouzuless sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[07:14:24] [Server thread/INFO]: Snouzuless lost connection: Timed out
+[07:14:24] [Server thread/INFO]: Snouzuless left the game
+[07:14:48] [User Authenticator #1/INFO]: UUID of player Snouzuless is 47b29ff7-bff7-461f-8402-748654ebd53a
+[07:14:48] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@6d23a76a[id=47b29ff7-bff7-461f-8402-748654ebd53a,name=Snouzuless,properties={textures=[com.mojang.authlib.properties.Property@2264aa40]},legacy=false] (/37.153.223.254:53047): You must wait 5 seconds before logging-in again.
+[07:14:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@6d23a76a[id=47b29ff7-bff7-461f-8402-748654ebd53a,name=Snouzuless,properties={textures=[com.mojang.authlib.properties.Property@2264aa40]},legacy=false] (/37.153.223.254:53047) lost connection: You must wait 5 seconds before logging-in again.
+[07:15:03] [User Authenticator #1/INFO]: UUID of player Snouzuless is 47b29ff7-bff7-461f-8402-748654ebd53a
+[07:15:03] [Server thread/INFO]: Snouzuless[/37.153.223.254:53049] logged in with entity id 127364 at ([Survival]128.5, 76.0, 544.5)
+[07:15:10] [Server thread/INFO]: Snouzuless issued server command: /gamemode 1
+[07:15:10] [Server thread/INFO]: [Essentials] Snouzuless was denied access to command.
+[07:15:24] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[07:16:19] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[07:16:49] [Server thread/INFO]: Snouzuless issued server command: /spawn
+[07:16:59] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[07:17:19] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[07:17:34] [Server thread/INFO]: Snouzuless issued server command: /start
+[07:18:08] [Server thread/INFO]: Snouzuless issued server command: /kit starter
+[07:18:24] [Server thread/INFO]: Snouzuless issued server command: /kit starter
+[07:20:24] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[07:23:59] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[07:24:39] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[07:25:00] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[07:25:20] [Craft Scheduler Thread - 811/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[07:25:25] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[07:30:25] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[07:31:25] [Server thread/INFO]: Snouzuless issued server command: /wild
+[07:31:40] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[07:32:14] [Server thread/INFO]: Snouzuless has made the advancement [Stone Age]
+[07:32:20] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[07:32:35] [Server thread/INFO]: Snouzuless lost connection: Disconnected
+[07:32:35] [Server thread/INFO]: Snouzuless left the game
+[07:32:40] [Server thread/INFO]: [ClearLag] Removed 32 Entities!
+[07:35:25] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[07:39:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[07:40:01] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[07:40:21] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[07:40:21] [Craft Scheduler Thread - 846/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[07:40:26] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
