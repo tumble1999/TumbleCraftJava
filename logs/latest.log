@@ -826,3 +826,18 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [19:19:03] [Server thread/INFO]: TumbleGamer issued server command: /npc create fdhsjahfdklas --type item
 [19:19:15] [Server thread/INFO]: TumbleGamer issued server command: /npc remove
 [19:19:31] [Server thread/INFO]: TumbleGamer issued server command: /npc create fdhsjahfdklas --type osolot
+[19:19:42] [Server thread/INFO]: TumbleGamer issued server command: /npc create fdhsjahfdklas --type oscolotte
+[19:19:48] [Craft Scheduler Thread - 175/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[19:19:48] [Craft Scheduler Thread - 176/INFO]: [Marriage] Purged 0 player entries in 11ms
+[19:19:51] [Server thread/INFO]: TumbleGamer issued server command: /npc create fdhsjahfdklas --type ocolot
+[19:19:53] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
