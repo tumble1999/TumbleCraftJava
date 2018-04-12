@@ -855,3 +855,94 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [19:21:18] [Server thread/INFO]: TumbleGamer issued server command: /dis block --material=sign
 [19:21:23] [Server thread/INFO]: TumbleGamer issued server command: /dis
 [19:21:28] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:22:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:22:28] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[19:24:04] [Server thread/INFO]: TumbleGamer issued server command: /dis Herobrine
+[19:24:17] [Server thread/INFO]: TumbleGamer issued server command: /dis player Herobrine
+[19:24:26] [Async Chat Thread - #14/INFO]: [L]<EmmaPowee> aaaa
+[19:24:26] [Async Chat Thread - #14/INFO]: [Admin] ~E_Powee: aaaa
+[19:24:33] [Server thread/INFO]: TumbleGamer issued server command: /dis player notch
+[19:24:54] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[19:24:56] [Async Chat Thread - #14/INFO]: [L]<EmmaPowee> what noch
+[19:24:56] [Async Chat Thread - #14/INFO]: [Admin] ~E_Powee: what noch
+[19:25:04] [Server thread/INFO]: TumbleGamer issued server command: /dis player EmmaPowee
+[19:25:04] [Async Chat Thread - #14/INFO]: [L]<EmmaPowee> yay
+[19:25:04] [Async Chat Thread - #14/INFO]: [Admin] ~E_Powee: yay
+[19:25:13] [Server thread/INFO]: TumbleGamer issued server command: /dis player Alex
+[19:25:19] [Server thread/INFO]: TumbleGamer issued server command: /dis player Steve
+[19:25:19] [Async Chat Thread - #14/INFO]: [L]<EmmaPowee> huh
+[19:25:19] [Async Chat Thread - #14/INFO]: [Admin] ~E_Powee: huh
+[19:25:24] [Server thread/INFO]: TumbleGamer issued server command: /dis player dinnerbone
+[19:25:40] [Server thread/INFO]: TumbleGamer issued server command: /dis player Grum
+[19:25:43] [Async Chat Thread - #14/INFO]: [L]<TumbleGamer> what
+[19:25:43] [Async Chat Thread - #14/INFO]: [Owner] TumbleGamer: what
+[19:25:55] [Server thread/INFO]: TumbleGamer issued server command: /dis player Yoshi
+[19:26:01] [Server thread/INFO]: TumbleGamer issued server command: /npc create Yoshi
+[19:26:01] [Craft Scheduler Thread - 186/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@10b099a1[id=659f9204-122b-4d3b-95ea-f9727afe146c,name=Yoshi,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[PaperSpigot.jar:git-Paper-1383]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [PaperSpigot.jar:git-Paper-1383]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:173) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.profile.WrappedMinecraftSessionService.fillProfileProperties(WrappedMinecraftSessionService.java:67) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.fillProfileProperties(NMSImpl.java:295) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.fillProfileProperties(NMS.java:57) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.profile.ProfileFetcher$1.onProfileLookupSucceeded(ProfileFetcher.java:81) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.profile.WrappedGameProfileRepository$PreProfileLookupCallback.onProfileLookupSucceeded(WrappedGameProfileRepository.java:62) [PaperSpigot.jar:git-Paper-1383]
+	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfilesByNames(YggdrasilGameProfileRepository.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.profile.WrappedGameProfileRepository.findProfilesByNames(WrappedGameProfileRepository.java:47) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.npc.profile.ProfileFetcher.fetchRequests(ProfileFetcher.java:48) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.profile.ProfileFetchThread.run(ProfileFetchThread.java:121) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[19:26:10] [Server thread/INFO]: TumbleGamer issued server command: /npc remove
+[19:26:18] [Server thread/INFO]: TumbleGamer issued server command: /npc create AntVenom
+[19:26:20] [Server thread/INFO]: TumbleGamer issued server command: /npc remove
+[19:26:35] [Server thread/INFO]: TumbleGamer issued server command: /dis player stampylonghead
+[19:26:39] [Server thread/INFO]: TumbleGamer issued server command: /dis player stampylongnose
+[19:26:50] [Server thread/INFO]: TumbleGamer issued server command: /undis
+[19:27:30] [Server thread/INFO]: EmmaPowee has made the advancement [Best Friends Forever]
+[19:27:45] [Server thread/INFO]: TumbleGamer issued server command: /dis player stampylongnose
+[19:28:20] [Async Chat Thread - #15/INFO]: [L]<EmmaPowee> cameron i know that
+[19:28:20] [Async Chat Thread - #15/INFO]: [Admin] ~E_Powee: cameron i know that
+[19:29:02] [Server thread/INFO]: TumbleGamer issued server command: /dis player zoot007
+[19:29:09] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:29:49] [Server thread/INFO]: TumbleGamer issued server command: /dis player KingDSthekid
+[19:29:49] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:29:54] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[19:30:09] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[19:30:27] [Server thread/INFO]: EmmaPowee lost connection: Disconnected
+[19:30:27] [Server thread/INFO]: EmmaPowee left the game
+[19:32:30] [Server thread/INFO]: TumbleGamer issued server command: /dis player player996
+[19:32:43] [Server thread/INFO]: TumbleGamer issued server command: /undis
+[19:34:50] [Craft Scheduler Thread - 203/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[19:34:55] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[19:36:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:37:30] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:37:50] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[19:39:56] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[19:40:13] [User Authenticator #6/INFO]: UUID of player Snouzuless is 47b29ff7-bff7-461f-8402-748654ebd53a
+[19:40:13] [Server thread/INFO]: Snouzuless[/37.153.223.254:62086] logged in with entity id 70448 at ([Survival]23402.064547800474, 83.0, 13565.771028153777)
+[19:40:28] [Async Chat Thread - #16/INFO]: [GriefPrevention] Muted pre-movement chat.
+[19:40:28] [Async Chat Thread - #16/INFO]: [L]<Snouzuless> hii
+[19:40:28] [Async Chat Thread - #16/INFO]: Snouzuless: hii
+[19:40:42] [Server thread/INFO]: Snouzuless issued server command: /lobby
+[19:40:45] [Server thread/INFO]: Snouzuless issued server command: /hub
+[19:40:49] [Server thread/INFO]: Snouzuless issued server command: /spawn
+[19:41:08] [Async Chat Thread - #16/INFO]: [L]<Snouzuless> hii
+[19:41:08] [Async Chat Thread - #16/INFO]: Snouzuless: hii
+[19:41:57] [Server thread/INFO]: Snouzuless lost connection: Disconnected
+[19:41:57] [Server thread/INFO]: Snouzuless left the game
