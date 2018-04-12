@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 27
+last-created-npc-id: 33
 npc:
   '0':
     metadata:
@@ -17,6 +17,7 @@ npc:
         realistic-looking: false
         range: '5.0'
         talkitem: default
+        delay: -1
         text:
           '0': '&rWelcome to &c&lTumbleCraft|'
       waypoints:
@@ -26,7 +27,7 @@ npc:
         x: '112.5'
         y: '70.5'
         z: '544.5'
-        yaw: '-60.96294403076172'
+        yaw: '-51.84033203125'
         pitch: '0.0'
       type: PLAYER
       spawned: true
@@ -43,7 +44,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: type,lookclose,spawned,location,gravity,mounttrait,inventory,equipment,waypoints,anchors,owner,speech,text
+    traitnames: speech,equipment,type,text,waypoints,spawned,owner,mounttrait,inventory,gravity,lookclose,anchors,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -71,6 +72,7 @@ npc:
         realistic-looking: false
         range: '5.0'
         talkitem: default
+        delay: -1
         text:
           '0': '&rHave a nice stay'
       anchors:
@@ -81,13 +83,13 @@ npc:
         x: '144.5'
         y: '70.5'
         z: '544.5'
-        yaw: '-108.679443359375'
+        yaw: '139.3774871826172'
         pitch: '0.0'
       type: PLAYER
       owner:
         owner: server
         uuid: ''
-    traitnames: type,lookclose,anchors,owner,spawned,location,gravity,mounttrait,inventory,speech,equipment,text
+    traitnames: gravity,speech,lookclose,equipment,type,anchors,location,text,spawned,owner,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -108,7 +110,7 @@ npc:
         x: '128.5'
         y: '70.5'
         z: '560.5'
-        yaw: '151.331298828125'
+        yaw: '153.4102325439453'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -119,7 +121,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: type,lookclose,owner,spawned,location,gravity,mounttrait,inventory,equipment
+    traitnames: gravity,lookclose,equipment,type,location,spawned,owner,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -140,7 +142,7 @@ npc:
         x: '1826.5'
         y: '55.5'
         z: '-739.5'
-        yaw: '-116.19451141357422'
+        yaw: '-129.86614990234375'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -151,7 +153,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: type,lookclose,owner,spawned,location,gravity,mounttrait,inventory,equipment
+    traitnames: gravity,lookclose,equipment,type,location,spawned,owner,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -172,7 +174,7 @@ npc:
         x: '1826.5'
         y: '55.5'
         z: '-747.5'
-        yaw: '-46.11042785644531'
+        yaw: '-58.09437561035156'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -183,7 +185,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: type,lookclose,owner,spawned,location,gravity,mounttrait,inventory,equipment
+    traitnames: gravity,lookclose,equipment,type,location,spawned,owner,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -204,7 +206,7 @@ npc:
         x: '1840.5'
         y: '55.5'
         z: '-733.5'
-        yaw: '140.69744873046875'
+        yaw: '94.69275665283203'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -215,7 +217,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: type,lookclose,owner,spawned,location,gravity,mounttrait,inventory,equipment
+    traitnames: gravity,lookclose,equipment,type,location,spawned,owner,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -234,7 +236,7 @@ npc:
         x: '1832.5'
         y: '55.5'
         z: '-753.5'
-        yaw: '-41.216148376464844'
+        yaw: '-44.743919372558594'
         pitch: '0.0'
       spawned: true
       gravity:
@@ -242,11 +244,16 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: type,lookclose,owner,spawned,location,gravity,mounttrait,inventory,equipment
+    traitnames: gravity,lookclose,equipment,type,location,spawned,owner,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjM0ODQ1MDU1NTMsInByb2ZpbGVJZCI6ImNiMzgwZmE3ZTI2MDRiNThiMzNhYzE3ZmJiNTE5NmQ3IiwicHJvZmlsZU5hbWUiOiJhc2hseW56XyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYzYmUwNjU1MzNhYjczYjZlYTk2NDZkNTFmYWU4MjllZjg4NDVmODQzMjMwYjc2NGIxNmQzYjVlMTcxIiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19fX0=
+      cached-skin-uuid-name: ashlynz_
+      cached-skin-uuid: cb380fa7-e260-4b58-b33a-c17fbb5196d7
+      player-skin-signature: V6UfFj3viZ4ica5zj8aVHfKJRZRyLCoGhZByXtNkN5kgdUt0yggi9XMkCUHWni7yRqz2FbOfWhhlwAvCeL74OuoZhO7r6zQAEeaYGuaZ3ChYOLMzQMBAfTv/DVLnrMvfubLu4BW2yAp8R/Y7pksCdxUO+vynZGWpGnClgMdCN2dOUqzGJuPLDzjQ5cwKih2BpvoexLM/20j8/+y0wbnmnbRs6HXIwiZ+5InOzrqprZ/gDjWeTu167StOUXV2yyoQ2vCgPdUTNbR9kC3U0gdQFd42yupukn1noZtr5XemgLnhtJet/zYVoVTewmH2Qn9m3MOzGV5sNdWCe3ZaIcAqxiFCj9T5waPWWIJlg8vMol6YfP3Euw1lVmCuzKBOIOgVvG40Bg0Tg+1YWRD6xOnbQoJDSfD1pmEnzkTu1aA+fKNT9l4NfOOilacUeKMf9utBXaqRsuPN9gTJmv10lGpdQzdfjQ0Fql5bGveaq53L88ZYYE61b0uBgd5kKCe5FZUsIi5J2vWVf6u7lR68CuPAut4d5l8/dZVnOaWodCHcB8OVP9idzDcqL0qkYnHXi1STcfFDoyX4X6xRUfF/achcX5o+nMmJL6KgxUXbAPHwosupgAuU4vZzEiIAfCyW1pX0wrl/CcDuzS+W/ML4SKeDRWIvfR3EgwBrtA9KuomMJmQ=
   '22':
     name: TumbleGamer
     uuid: 5e5da397-38f1-4b49-86a7-c5d8bb090b1e
@@ -266,11 +273,16 @@ npc:
         enabled: true
         range: '5.0'
         realisticlooking: false
-    traitnames: type,lookclose,spawned,location,mounttrait,inventory,equipment
+    traitnames: gravity,lookclose,equipment,type,location,spawned,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid: 554a961a-0908-428d-bf07-a1568d0d8547
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjM0ODQ1MDYzODMsInByb2ZpbGVJZCI6IjU1NGE5NjFhMDkwODQyOGRiZjA3YTE1NjhkMGQ4NTQ3IiwicHJvZmlsZU5hbWUiOiJUdW1ibGVHYW1lciIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg2Yzc3NDhhMTY5OThmNDY2NGFhMzhjN2FjZmU1N2IyNjg2ZmYxODE4NjZiMWExNjMyNjVhM2Q2MTNjYTUxMiJ9fX0=
+      player-skin-signature: plssPwCXz9YiuXpoSJLYgJROBhC3ikFad+4C51IYv7Sb+ezQpKocege2s++bArLZwTtI+B4Vdcw1iqsvoZERUj6cQ7sE/25o7yiaGkvck6r+L9gdQ/6RGDLv84WN5UQ0GBkzkVXRPr4jeIczrusUFiKy+BhF25KmZ2mRfKFvNxbE7clbSfMksfHoe/DLJnBWOYVAFUT69Egj8m9Av0zJvEODYADDS481hiBin7HtVHOLIXwQb+8xyoynC9bqmooyhDieV2j6kwaDLNgacb6GXrs5VbpZznDl+JSWOpLKkrIKAZ8TySIGZOcq/RNZUlCevlLaUraKwUYdnrw0DMWZMjq69smCZP6HO0MKyG+Vd+04VXJuL2WJsInxPMK6KTOyg9fOCGDkb9y5/YniYXbKEcQLHxP05CTVh3LFeBe6TfNkmWjs1G0mM4iK55BZAfsZCzoxKYBsmCkDf5JHrY6IWCOZJ0ZYiWAX17MbnCSsCF7kkkVPXAeuB1JDz4xgUvp787fhZcug4rWE9A8hIVsMAq2z4MNm/focpgXppoDMxoOXgbvTlPWuzv0Vntb2sccqmtvkuT906WUhel8zkfGytJ2pvvMXjcP16zPG/Uj3AlHCi/g2EiISCgD8PvEtHB+SXBwiC7nT9+0W83WsAJjftCp9l9s4M4V5sDmWcpzLWLo=
+      cached-skin-uuid-name: tumblegamer
   '27':
     name: EmmaPowee
     uuid: 5d9f9d81-7477-4630-bef8-c5f2bb014221
@@ -286,11 +298,164 @@ npc:
         x: '1822.5'
         y: '55.5'
         z: '-747.5'
-        yaw: '-50.750362396240234'
+        yaw: '-47.0123291015625'
         pitch: '0.0'
       gravity:
         enabled: false
-    traitnames: type,lookclose,spawned,location,gravity,mounttrait,inventory,equipment
+    traitnames: gravity,lookclose,equipment,type,location,spawned,mounttrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjM0ODQ1MDU0MjUsInByb2ZpbGVJZCI6IjMwYjk4ZjFmNDlmNTRkMDU5MWMxN2YwY2U5ZWRhMmE3IiwicHJvZmlsZU5hbWUiOiJFbW1hUG93ZWUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U2ZTQ3ZWE1OWJlZWFiYTk0MjNkMDFlZmQzZTliMjgzYWY5MWIyMzU5Zjc1YTMyZmNiZjNlMWU0ZjRiYmYxYyIsIm1ldGFkYXRhIjp7Im1vZGVsIjoic2xpbSJ9fX19
+      cached-skin-uuid-name: emmapowee
+      cached-skin-uuid: 30b98f1f-49f5-4d05-91c1-7f0ce9eda2a7
+      player-skin-signature: tZXNFF2c6f40Uxx+wyOkn0qLHZ41kteE3mQ++3aSN8JKFo1/DEDgvdzGkKJUHI0mYSLfmcWs4p0Z6Tej6JiGv2odEvYSg51UqDKOg61I89OGLCVHVwB+v/AdBs92oLVGmg/eEDCW3DeH1tz9FhvsC4Osv2sJqBDXKB0pzDdUzok2inCL+/t/zgfq+5pxaRgcIVU9rNWivyDMBa1zDFnNvkAUYLRjSz0ETTeiN8jH/QSdthZvDLb2ru2d/odVF1b0xl29xXzjBNrRoTbOeKEZ8lX42swrAgMBPyNQcpkskuKkZxhR+ADHIwHrHucSjp9aQKjkiF5KI3otyeQM6AGt97CmAX8B0nAok74t5rq1tzdOL5UYF3GfL12DgUJ2GydPe3Q0RKzCXQU+m7SfJPrAB4YYkMJaRuwgpq6faP8uUbxiLyjz1kjkWAc3kYDVNaPhWvOA2BUwQxCjz8Z85csN6kOFL0c7C9dkQgdjlyF+1KD1/tk7Ch0I6s3ppKixyyLbNjZfp91wtF4+vbwTZG7WrzhDli/ISUhQ26RNi5Vx1sFgNP9xiR2SsGsIjPo5xGB6057/Rn16ZyPA8B7v1BQ1B0NWFV/vF+3hTCu/r8OXQYE5V5zDn6K/TEMDbx/GdR95w5YxVxBdxCRk3VD+0tkj+D5tXCXxKtVE/VHQs1qwQLY=
+  '28':
+    name: DJB1011
+    uuid: 0c932765-cb9c-4e73-8dde-10299171309c
+    traits:
+      spawned: true
+      type: PLAYER
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      gravity:
+        enabled: false
+      location:
+        world: Staff
+        x: '1840.5'
+        y: '55.5'
+        z: '-753.5'
+        yaw: '25.336227416992188'
+        pitch: '0.0'
+    traitnames: gravity,lookclose,equipment,type,location,spawned,mounttrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjM0ODQ1MDU4OTgsInByb2ZpbGVJZCI6IjM3ZTZiZDNhMGUxNjRkMDU5NWUzOTg4ZDMyNTc2YTFjIiwicHJvZmlsZU5hbWUiOiJESkIxMDExIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNmJiOTY2ZTZiYWQxZDEwM2NjODhlZWE0MDUxZWRiOGZhOGI3Y2M0YTk2YmM0MTYzNTg3ZDg2N2MyNWY4MTYifX19
+      cached-skin-uuid-name: djb1011
+      cached-skin-uuid: 37e6bd3a-0e16-4d05-95e3-988d32576a1c
+      player-skin-signature: mPVrEdjtY88gi+nzElHY30w3D5XCFkSAm5UrZFT9nHGuKLAPSrO81+k8yT6E1pTaLNCv3uAeXihnTacvkzeKhgIm5jTrZY7ORVTXcOBtAw0twQHLHzTKE3gQd/V1pyL/x3bfgRFeEJkOAea8VrqthrVhWMluSTeelgAGA04JzrmsRyjDM5Gkt7il6bFyzO/8rvVoLDx2amf4FClmcVvuSSSgYALI/T6+9RovG1acL1a9/0g9ry087GkOKo/isPfEfp5WL94KTVFzDXyLUFfT+hpY4lXu0CVa7JgRscMZHWzAieckbHtR+eQdSFmaWwYciX68OHANvEeVscb0Ot6q3PP+Y2oLtkXr9S9aUvfymJF46GbMSrMKNJBrvcyaPfbUAdK0N+0dYHtS2efD0MlzA5pEwVlJOPiYnhQ3oRMpjch6jREayTca+tg6x3T1GPYO+z/1dZN0J37eAwyLFEGeaR02eX25AbzWEYMjY0NaG9ihOKkKlbK6XBEr9yRM1fbK3yI2WE/NWVQcJQJfJEpEERrSenjT5zL7eujOqbLvelkQZJKgJtCVzFVdFyos64i3WHvQ31JFTH3qm0uA6ASlQvIF8yiAEG1g4hhZZxpeTHUiDqDR85cWks1trFhOknRbtGZSx0aQqDb+mUNlYVuJNaK1NDsGVCW7IKIUpokzKoE=
+  '30':
+    name: Xgk
+    uuid: dc0cc53d-d8d3-408f-b783-95a4d9991ec6
+    traits:
+      spawned: true
+      type: PLAYER
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      gravity:
+        enabled: false
+      location:
+        world: Staff
+        x: '1832.5'
+        y: '55.5'
+        z: '-733.5'
+        yaw: '-98.66790771484375'
+        pitch: '0.0'
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: gravity,lookclose,equipment,type,location,spawned,owner,mounttrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjM0ODQ1MDY1MjMsInByb2ZpbGVJZCI6ImE4ZTM3ZTQwYjRmZTRhNzdhYjM3ZTQ3M2IzMmM4MzAzIiwicHJvZmlsZU5hbWUiOiJYZ2siLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU4YTA2M2VhZWU5OTM2NzE2YWQ5ZDZhZDQ3YjJkOWIxYjdiNTQ1ZmY4NWQyOGZiOTllM2E2MDUwODJkODY2ZDUiLCJtZXRhZGF0YSI6eyJtb2RlbCI6InNsaW0ifX19fQ==
+      cached-skin-uuid-name: xgk
+      cached-skin-uuid: a8e37e40-b4fe-4a77-ab37-e473b32c8303
+      player-skin-signature: h4+uDgJQ0ZfaSM1aQzHZzuE8AAOHHLbVMkL1onHE7njEnY/sUlgYRZwARBXREMiMfGdlvctH47v2oQnynqZXzP9ookKGgVzQG4foYkVfKPPLqIF8mQ81A9vDVCfi/jrmDmIuQCvrUAqSQR+cYqIRKR4X4+cZ6lLQ9ujtE1VnJ5qoSKIyXJ/rlihaEAOx5DB3iq8ONH2CRpE0iRdE5ktDXoHkeiXd3YhAquBCuic9BC6DbBnqPDuXg84HLDbuR4B1pA4/qS6wP3JdDQjFmW2jDq89SvaCEG73eltPZBIlnf2Mz+l+0vQ9DFrZ6EEM8ENX6/PyVqme6AQnYpUEXUB/dc+1M38y/GAeCNrvv108Htalsnoy/0pBc24if72ar6Qz5TnT2xc6hCP/scA11OGsAgtV0eeo8NGPFFFh8K8Ktr5UqIcmDjGXN7u/VWXHiWLogAtd9CyhTNk8B8XRBi4XkKRbBuCkZJpMHR2LgVLILu+Jo4aCDWcsrs5bM2VSoOk26knEoskJJW3TauMvSIq1MloF7+DJM47ecHSOGWqyn/KCSC/TabP3FXV5jUIDJip1wsRQYxb5T1peknIt8H1kwudbx2uGAnXjEVdmVujV9yrI0uoHvG59R06vKxwiHMmJwEZaBogmckz7Vg4mBmRPcA7kImdn9o1i9+b5wHqiNVw=
+  '31':
+    name: JONHOBBITTON
+    uuid: 0edd6336-f31f-4566-98fe-63a800a26af3
+    traits:
+      spawned: true
+      type: PLAYER
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      gravity:
+        enabled: false
+      location:
+        world: Staff
+        x: '1840.5'
+        y: '55.5'
+        z: '-757.5'
+        yaw: '37.92145538330078'
+        pitch: '0.0'
+    traitnames: gravity,lookclose,equipment,type,location,spawned,mounttrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjM0ODQ1MDYwMzAsInByb2ZpbGVJZCI6ImIxMzNlZDAzODI3NjQxYzI5NmJhZWM2Y2M4YWQwZGY5IiwicHJvZmlsZU5hbWUiOiJKT05IT0JCSVRUT04iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNmMTM1ZDRhMWRlZDZhNGU1NjkyZjk5ZmM1NGQwOGI4NGE5OWZhZTUzNmU1Zjg4OGMyNGNjZjJiNTRlOTc3In19fQ==
+      cached-skin-uuid-name: jonhobbitton
+      cached-skin-uuid: b133ed03-8276-41c2-96ba-ec6cc8ad0df9
+      player-skin-signature: BEHY5FLLXtQyEHk8GkQ3a6McUOwOaMlarIopA8dWP/UhbrnSaqMzB9nQw0Lq6Wv2+/wco8yEO8YJIcH4S6cDt1SDPX+Rrhpg3Z1Ej4hygHCBQ1pgGqY4+CsXzzo4HoTHpyarHVmQCC6WEj/zXtFuMy8m4Hy+IxRK66nl2/J2dg5r40fiq1He2kk42FIjH/u+tQs+bW1XMNVDpmfqm3gY3+96lr83+sWC4BG190NEUYyliR11v1uxlI+05u8BModMN4Jp5RoHstEp+jVPNa+S6AUCpsPwSLaBi8bNirScwHCvf+rkw5hUu5q/iJUBQNW7n0E0dNSt1KSSJVNdOy0nHG0UPaJI5Ey4pSG3bSB8DPvnPEWvqpq75vhyWIfI3DqQ0PDThB+vFMSiV2Lot2/bmf/+wuZ3LC2jaPg/Is/0pKCb8ep6zIZ2eAiAMnJwKnMKUpAY15nqwDMH0Tl08aWns9gUkL2qTbOnJ1y/xTog/0PFRciEh1UIGc1i3iEPZOEs9WNNrFwLLawbpWQbyF1z7wi/f9UiaPdwd1PCHMxQXqrrpmJn3KXJGC17jPQrC+wkR3LcHfj21/4mCT40uid/Iylam8kRic/GyopCpEXct6rtI5OD7Aig3mQ6WNFdvx+S01puqVXRFsSk2zmVII/U9cfjOpuKctlJRGFHjQ1dOzs=
+  '32':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjM0ODcyMzMyMjUsInByb2ZpbGVJZCI6IjBhNTMxODczZGYwMzRhODJhZmFlMWJkZDQxZTE4ZmMyIiwicHJvZmlsZU5hbWUiOiJNYXh3ZWxsX1BsYXlzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZGZiNGNkYWNjNWNkYjUzYjdjZTk1OTI3Mzk3YWE3MGJmMjkyZWJhODc2ZDFjYjYzOTE0YmJhYjQyZjJkIn19fQ==
+      cached-skin-uuid-name: maxwell_plays
+      cached-skin-uuid: 0a531873-df03-4a82-afae-1bdd41e18fc2
+      player-skin-signature: BetMELgxZpLekmWW/9cvAqayHeqp3KLgvRP0buY/DKELd0AoSiK/+LJgRKWndU/cT24vbPdce44tgX8QbLT0PTcGfWCtskuE/jsv++JJPw10Q7ymitefIKpL5TyIwAjK/FbvtovPwTTogWc0f4i0vV4Ptewh4VXo/lrjgUWeaWiDJTQzh0PQtM8zHnPf4bYzeUtTi0otve1BXZSEqXrRjaiNDxuWGY1IoViw7MK4aRRPlisQxLxhIZeIcrtw8WeZ9FkoxQ6eC3gty89c8xhAnrmC35JiiKI5rzqXdKkLDDnBVNiVSzNlU6ga/joCTwlmjVumpjruHqlXesDrPtYgVXlSSyL0OV8cvw2EhxRoHoZRysqHezcypXlEdaD2nF5XzQ+pUitDxm2It3IvALMf4Tx73wDJevcQU6sLal35zPy6qDQaCDUDihpQun6LkoA7xsULUYzJdmZkQ2XWhd0yMkW/xR1E3O0aZXB7VFeaTu5aDOyIyLfvT0B0DFAqeqlM/B1aCVE9eFl7fMsGFLGsSAi013/U58fEk+TqL8gMqFLegaGCSkc3n63Qgspv08hIpbPZcHuZ1pST4VDwiCVbC9xCbbgGnJpeal0B3zoi4KBxCAC9/I0XICrwzT/ushnKOQcrBICXmw2wV9PwmguKnPd69ERq5nMfN3olGoVgVqU=
+    name: Maxwell_Plays
+    uuid: 60ad16cc-c23f-4f00-84b4-9e25a5596b4d
+    traits:
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+      type: PLAYER
+      location:
+        world: Staff
+        x: '1840.5'
+        y: '55.5'
+        z: '-729.5'
+        yaw: '130.40835571289062'
+        pitch: '0.0'
+      spawned: true
+    traitnames: gravity,lookclose,equipment,type,location,spawned,mounttrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '33':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjM0ODcyMzMyMjUsInByb2ZpbGVJZCI6IjBhNTMxODczZGYwMzRhODJhZmFlMWJkZDQxZTE4ZmMyIiwicHJvZmlsZU5hbWUiOiJNYXh3ZWxsX1BsYXlzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZGZiNGNkYWNjNWNkYjUzYjdjZTk1OTI3Mzk3YWE3MGJmMjkyZWJhODc2ZDFjYjYzOTE0YmJhYjQyZjJkIn19fQ==
+      cached-skin-uuid-name: maxwell_plays
+      cached-skin-uuid: 0a531873-df03-4a82-afae-1bdd41e18fc2
+      player-skin-signature: BetMELgxZpLekmWW/9cvAqayHeqp3KLgvRP0buY/DKELd0AoSiK/+LJgRKWndU/cT24vbPdce44tgX8QbLT0PTcGfWCtskuE/jsv++JJPw10Q7ymitefIKpL5TyIwAjK/FbvtovPwTTogWc0f4i0vV4Ptewh4VXo/lrjgUWeaWiDJTQzh0PQtM8zHnPf4bYzeUtTi0otve1BXZSEqXrRjaiNDxuWGY1IoViw7MK4aRRPlisQxLxhIZeIcrtw8WeZ9FkoxQ6eC3gty89c8xhAnrmC35JiiKI5rzqXdKkLDDnBVNiVSzNlU6ga/joCTwlmjVumpjruHqlXesDrPtYgVXlSSyL0OV8cvw2EhxRoHoZRysqHezcypXlEdaD2nF5XzQ+pUitDxm2It3IvALMf4Tx73wDJevcQU6sLal35zPy6qDQaCDUDihpQun6LkoA7xsULUYzJdmZkQ2XWhd0yMkW/xR1E3O0aZXB7VFeaTu5aDOyIyLfvT0B0DFAqeqlM/B1aCVE9eFl7fMsGFLGsSAi013/U58fEk+TqL8gMqFLegaGCSkc3n63Qgspv08hIpbPZcHuZ1pST4VDwiCVbC9xCbbgGnJpeal0B3zoi4KBxCAC9/I0XICrwzT/ushnKOQcrBICXmw2wV9PwmguKnPd69ERq5nMfN3olGoVgVqU=
+    name: Maxwell_Plays
+    uuid: defb3b31-a4dd-46dc-b961-a1131d6f19a6
+    traits:
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+      type: PLAYER
+      location:
+        world: Survival
+        x: '128.5'
+        y: '70.5'
+        z: '528.5'
+        yaw: '3.15020751953125'
+        pitch: '0.0'
+      spawned: true
+    traitnames: gravity,lookclose,equipment,type,location,spawned,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

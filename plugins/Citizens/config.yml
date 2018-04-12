@@ -30,6 +30,7 @@ npc:
     new-finder-open-doors: false
     attack-range: 3.0625
     use-new-finder: false
+    maximum-new-pathfinder-iterations: 50000
   default:
     look-close:
       enabled: true
@@ -59,6 +60,7 @@ npc:
     rotation-update-degrees: 90.0
     use-latest: true
     view-distance: 100.0
+    use-latest-by-default: false
   packets:
     update-delay: 30
   selection:

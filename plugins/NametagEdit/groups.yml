@@ -1,0 +1,37 @@
+Groups:
+  owner:
+    Permission: nte.owner
+    Prefix: '&4[Owner] &c'
+    SortPriority: 1
+  admin:
+    Permission: nte.admin
+    Prefix: '&c[Admin] '
+    SortPriority: 2
+  mod:
+    Permission: nte.mod
+    Prefix: '&6[Mod] &e'
+    SortPriority: 3
+  builder:
+    Permission: nte.builder
+    Prefix: '&a[Builder] &r'
+    SortPriority: 4
+  helper:
+    Permission: nte.helper
+    Prefix: '&3[Helper] &b'
+    SortPriority: 5
+  restrain:
+    Permission: nte.yt
+    Suffix: '&e[&rY&eT]'
+    SortPriority: 6
+  member:
+    Permission: nte.voter
+    Prefix: '&b[Voter] &r'
+    SortPriority: 7
+  member:
+    Permission: nte.member
+    Prefix: '&7'
+    SortPriority: 8
+  restrain:
+    Permission: nte.restrain
+    Prefix: '&2'
+    SortPriority: 9

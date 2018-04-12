@@ -7,6 +7,7 @@ groups:
       weight: '1'
     permissions:
     - essentials.help
+    - nte.restrain
   member:
     options:
       default: true
@@ -63,6 +64,7 @@ groups:
     - marry.seen​
     - multiverse.exempt.*
     - multiverse.core.list.who
+    - nte.member
     worlds:
       Survival:
         permissions:
@@ -89,6 +91,7 @@ groups:
       Creative:
         permissions:
         - plots.permpack.basic
+        - essentials.build
   voter:
     options:
       prefix: '&b[Voter] &r'
@@ -96,6 +99,7 @@ groups:
     permissions:
     - essentials.nick
     - essentials.nick.format
+    - nte.voter
     worlds:
       Survival:
         permissions:
@@ -124,6 +128,7 @@ groups:
     - essentials.chat.color
     - essentials.nick.magic
     - multiverse.portal.exempt.*
+    - nte.helper
     worlds:
       Survival:
         permissions:
@@ -165,6 +170,7 @@ groups:
     - essentials.delwarp
     - minecraft.command.locate
     - essentials.back
+    - essentials.fireball
     - essentials.gamemode
     - essentials.gamemode.creative
     - essentials.gamemode.survival
@@ -188,6 +194,8 @@ groups:
     - citizens.npc.realname
     - citizens.npc.remove
     - essentials.build
+    - nte.builder
+    - plots.admin
     worlds:
       Survival:
         permissions:
@@ -255,6 +263,7 @@ groups:
     - marry.chatspy
     - multiverse.access.*
     - multiverse.teleport.self.*
+    - nte.mod
     worlds:
       Survival:
         permissions:
@@ -273,6 +282,7 @@ groups:
     inheritance:
     - mod
     permissions:
+    - nte.admin
     - griefprevention.ignoreclaims
     - minecraft.command.time
     - minecraft.command.effect
@@ -356,8 +366,6 @@ groups:
     - autorestart.in
     - autorestart.pause
     - autorestart.start
-    - playerlabels.notify
-    - playerlabels.notify
     - adminchat.read
     - plots.admin
   owner:
@@ -368,6 +376,7 @@ groups:
       weight: '10'
     permissions:
     - '*'
+    - nte.owner
 schema-version: 1
 users:
   554a961a-0908-428d-bf07-a1568d0d8547:
@@ -378,7 +387,8 @@ users:
       last-login-time: '1523210218'
       last-logout-time: '1523221815'
     permissions:
-    - permissions.*p
+    - permissions.*
+    - nte.yt
   019c39a2-24ce-4563-b04b-c094c9bee042:
     group:
     - admin
@@ -394,13 +404,11 @@ users:
       last-login-time: '1522862323'
       last-logout-time: '1522862411'
   58e5399b-3adf-49df-8dba-391de825147b:
-    group:
-    - voter
+    group: []
     options:
       name: natanni
       last-logout-time: '1523071912'
       last-login-time: '1523069447'
-      group-voter-until: '1523147629'
   cb380fa7-e260-4b58-b33a-c17fbb5196d7:
     group:
     - helper
@@ -408,12 +416,9 @@ users:
       name: ashlynz_
       last-logout-time: '1523125909'
       last-login-time: '1523119487'
-      group-voter-until: '1523150753'
   84c6c5c9-0a73-4b84-a127-37161c243d3c:
-    group:
-    - voter
+    group: []
     options:
-      group-voter-until: '1523148066'
       name: twinsane1029
       last-logout-time: '1523070297'
       last-login-time: '1523069563'
@@ -433,14 +438,12 @@ users:
     - builder
     options:
       name: Xgk
-      group-voter-until: '1523233675'
       last-logout-time: '1523203580'
       last-login-time: '1523200633'
   37e6bd3a-0e16-4d05-95e3-988d32576a1c:
     group:
     - helper
     options:
-      group-voter-until: '1523233607'
       name: DJB1011
       last-logout-time: '1523150737'
       last-login-time: '1523148472'
@@ -449,3 +452,13 @@ users:
     - admin
     options:
       name: EmmaPowee
+  b133ed03-8276-41c2-96ba-ec6cc8ad0df9:
+    group:
+    - helper
+    options:
+      name: JONHOBBITTON
+  0a531873-df03-4a82-afae-1bdd41e18fc2:
+    options:
+      name: Maxwell_Plays
+    group:
+    - builder

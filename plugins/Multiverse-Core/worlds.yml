@@ -1,14 +1,15 @@
 worlds:
-  <world>:
+  test:
     ==: MVWorld
     hidden: 'false'
     alias: ''
     color: WHITE
     style: NORMAL
-    pvp: 'false'
+    pvp: 'true'
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
+    difficulty: EASY
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -30,15 +31,20 @@ worlds:
     adjustSpawn: 'true'
     portalForm: ALL
     gameMode: SURVIVAL
-    keepSpawnInMemory: 'false'
+    keepSpawnInMemory: 'true'
     spawnLocation:
-      ==: MVNullLocation (It's a bug if you see this in your config file)
+      ==: MVSpawnLocation
+      x: -26.5
+      y: 65.0
+      z: 252.5
+      pitch: 0.0
+      yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
-    environment: 'null'
-    seed: '0'
-    generator: 'null'
+    environment: NORMAL
+    seed: '-4670050161983955520'
+    generator: PlotSquared
     playerLimit: '-1'
     allowFlight: 'true'
   Creative:
@@ -76,65 +82,17 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 149.5
+      x: 65.5
       y: 65.0
-      z: -175.5
+      z: 248.5
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-3857981534030821072'
-    generator: PlotSquared:size=255
-    playerLimit: '-1'
-    allowFlight: 'true'
-  test:
-    ==: MVWorld
-    hidden: 'false'
-    alias: ''
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '1.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: EASY
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-      currency: '-1'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: 245.5
-      y: 65.0
-      z: 236.5
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NORMAL
-    seed: '-7140955764917445749'
-    generator: PlotSquared
+    seed: '-6330577853313346332'
+    generator: PlotSquared:size=129
     playerLimit: '-1'
     allowFlight: 'true'
   DrCraft:
