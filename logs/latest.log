@@ -458,3 +458,94 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [17:42:20] [Server thread/INFO]: TumbleGamer[/82.44.12.229:62188] logged in with entity id 10429 at ([Staff]1836.5667975380836, 56.91694667718655, -741.8891539314382)
 [17:42:20] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [17:42:40] [Server thread/INFO]: [ClearLag] Removed 23 Entities!
+[17:43:20] [Server thread/INFO]: TumbleGamer issued server command: /engjin
+[17:43:22] [Server thread/INFO]: TumbleGamer issued server command: /enjin
+[17:43:30] [Server thread/INFO]: TumbleGamer issued server command: /enjin 2
+[17:44:09] [Server thread/INFO]: TumbleGamer issued server command: /msg DrBatmanWho https://tumblecraft.enjin.com/
+[17:44:34] [Async Chat Thread - #0/INFO]: [Shout]  [Owner] TumbleGamer: also if your trying to speak start with ! if im not near you
+[17:44:46] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[17:45:18] [Server thread/INFO]: TumbleGamer issued server command: /ne reload
+[17:45:28] [Server thread/INFO]: TumbleGamer issued server command: /tp DrBatmanWho
+[17:46:09] [Async Chat Thread - #1/INFO]: [L]<TumbleGamer> hello?
+[17:46:09] [Async Chat Thread - #1/INFO]: [Owner] TumbleGamer: hello?
+[17:46:09] [Server thread/INFO]: DrBatmanWho issued server command: /gm s
+[17:46:11] [Server thread/INFO]: DrBatmanWho fell from a high place
+[17:46:17] [Server thread/INFO]: DrBatmanWho issued server command: /gm c
+[17:46:37] [Async Chat Thread - #1/INFO]: [L]<DrBatmanWho> hi
+[17:46:37] [Async Chat Thread - #1/INFO]: [Admin] DrBatmanWho: hi
+[17:46:40] [Async Chat Thread - #1/INFO]: [L]<TumbleGamer> hello
+[17:46:40] [Async Chat Thread - #1/INFO]: [Owner] TumbleGamer: hello
+[17:46:43] [Server thread/INFO]: TumbleGamer issued server command: /dbw
+[17:46:46] [Async Chat Thread - #1/INFO]: [L]<DrBatmanWho> nooo
+[17:46:46] [Async Chat Thread - #1/INFO]: [Admin] DrBatmanWho: nooo
+[17:46:57] [Async Chat Thread - #1/INFO]: [L]<TumbleGamer> do /togglesummon
+[17:46:57] [Async Chat Thread - #1/INFO]: [Owner] TumbleGamer: do /togglesummon
+[17:47:36] [Server thread/INFO]: TumbleGamer issued server command: /tp DrBatmanWho
+[17:47:39] [Server thread/INFO]: DrBatmanWho issued server command: /gm sp
+[17:47:40] [Async Chat Thread - #1/INFO]: [L]<TumbleGamer> do /togglesummon
+[17:47:40] [Async Chat Thread - #1/INFO]: [Owner] TumbleGamer: do /togglesummon
+[17:47:52] [Server thread/INFO]: TumbleGamer issued server command: /mail read
+[17:47:56] [Async Chat Thread - #1/INFO]: [L]<DrBatmanWho> i need to find the ravine that leads to the minesgagt
+[17:47:56] [Async Chat Thread - #1/INFO]: [Admin] DrBatmanWho: i need to find the ravine that leads to the minesgagt
+[17:47:59] [Async Chat Thread - #1/INFO]: [L]<DrBatmanWho> cant find it anywhrre
+[17:47:59] [Async Chat Thread - #1/INFO]: [Admin] DrBatmanWho: cant find it anywhrre
+[17:48:07] [Async Chat Thread - #1/INFO]: [L]<TumbleGamer> do /togglesummon
+[17:48:07] [Async Chat Thread - #1/INFO]: [Owner] TumbleGamer: do /togglesummon
+[17:49:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:49:27] [Server thread/INFO]: TumbleGamer issued server command: /sudo DrBatmanWho kick TumbleGamer
+[17:49:37] [Server thread/INFO]: TumbleGamer issued server command: /sudo DrBatmanWho ban TumbleGamer
+[17:49:39] [Async Chat Thread - #2/INFO]: [L]<DrBatmanWho> you tried to kick me?
+[17:49:39] [Async Chat Thread - #2/INFO]: [Admin] DrBatmanWho: you tried to kick me?
+[17:49:41] [Craft Scheduler Thread - 60/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[17:49:46] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[17:50:01] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:50:03] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
+[17:50:03] [Server thread/INFO]: TumbleGamer left the game
+[17:50:08] [Async Chat Thread - #2/INFO]: [L]<DrBatmanWho> oj
+[17:50:08] [Async Chat Thread - #2/INFO]: [Admin] DrBatmanWho: oj
+[17:50:10] [Async Chat Thread - #2/INFO]: [L]<DrBatmanWho> oh
+[17:50:10] [Async Chat Thread - #2/INFO]: [Admin] DrBatmanWho: oh
+[17:50:12] [Async Chat Thread - #2/INFO]: [L]<DrBatmanWho> bye
+[17:50:12] [Async Chat Thread - #2/INFO]: [Admin] DrBatmanWho: bye
+[17:50:17] [Async Chat Thread - #2/INFO]: [L]<DrBatmanWho> gm c
+[17:50:17] [Async Chat Thread - #2/INFO]: [Admin] DrBatmanWho: gm c
+[17:50:19] [Server thread/INFO]: DrBatmanWho issued server command: /gm c
+[17:50:21] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:51:55] [Server thread/INFO]: DrBatmanWho issued server command: /gm sp
+[17:52:19] [Server thread/INFO]: DrBatmanWho issued server command: /gm c
+[17:52:24] [Server thread/INFO]: DrBatmanWho issued server command: /setwarp mine
+[17:52:24] [pool-10-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\warps\mine.yml
+[17:52:26] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[17:52:26] [Server thread/INFO]: DrBatmanWho left the game
+[17:57:02] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:57:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:58:02] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:59:47] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[18:04:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:04:43] [Craft Scheduler Thread - 75/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[18:04:47] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[18:05:22] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:05:43] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:09:48] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[18:12:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:13:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
