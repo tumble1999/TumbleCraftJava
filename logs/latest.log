@@ -1852,3 +1852,53 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [12:55:53] [Craft Scheduler Thread - 1605/INFO]: (FAWE) Updated FAWE to 18.04.12-c938a61-1058-19.4.21
 [12:55:53] [Craft Scheduler Thread - 1605/INFO]: (FAWE) Restart to update FAWE with these changes: /fawe changelog or https://empcraft.com/fawe/cl?48992d2
 [12:55:55] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[13:00:55] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[13:01:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:02:30] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:02:51] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:05:56] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[13:09:31] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:10:11] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:10:31] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:10:51] [Craft Scheduler Thread - 1648/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:15:57] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[13:17:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:17:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:18:12] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:20:34] [User Authenticator #2/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[13:20:34] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:51462] logged in with entity id 281283 at ([Survival]181.179817346929, 21.0, -154.16707783780805)
+[13:20:44] [Server thread/INFO]: DrBatmanWho issued server command: /tg DrBatmanWho
+[13:20:57] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[13:23:27] [Server thread/INFO]: DrBatmanWho issued server command: /setwarp villagethree
+[13:23:27] [pool-10-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\warps\villagethree.yml
+[13:23:30] [Server thread/INFO]: DrBatmanWho issued server command: /spawn
+[13:23:34] [Server thread/INFO]: DrBatmanWho issued server command: /spawn
+[13:24:53] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:25:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:25:41] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[13:25:41] [Server thread/INFO]: DrBatmanWho left the game
+[13:25:53] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:25:53] [Craft Scheduler Thread - 1688/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:25:58] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[13:27:33] [User Authenticator #3/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[13:27:34] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:51743] logged in with entity id 285280 at ([Survival]182.73358244040253, 85.29694210874204, 435.87518130634083)
