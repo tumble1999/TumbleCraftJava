@@ -34,5 +34,5 @@ echo PUSHING...
 %push%
 echo.
 echo.
-netsh interface portproxy add rd listenport=3389 listenaddress=* connectport=3389 connectaddress=192.168.0.8
+netsh interface portproxy add rd listenport=3389 listenaddress=* connectport=3389 connectaddress=192.168.0.8>rd.log
 goto :loop
