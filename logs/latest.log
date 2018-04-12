@@ -659,3 +659,56 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [21:27:26] [Async Chat Thread - #2/INFO]: [L]<TumbleGamer> and then i can talk here from the server
 [21:27:26] [Async Chat Thread - #2/INFO]: [Owner] TumbleGamer: and then i can talk here from the server
 [21:27:33] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[21:29:16] [Server thread/INFO]: TumbleGamer issued server command: /help
+[21:29:20] [Server thread/INFO]: TumbleGamer issued server command: /ne reload
+[21:32:25] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:tumblecraft(434064822095839253) because the bot does not have the "Manage Channels" permission
+[21:32:25] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:tumblecraft-console(434064718110392346) because the bot does not have the "Manage Channels" permission
+[21:32:28] [Craft Scheduler Thread - 165/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:32:33] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[21:33:29] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:34:09] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:34:29] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[21:37:25] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:tumblecraft(434064822095839253) because the bot does not have the "Manage Channels" permission
+[21:37:25] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:tumblecraft-console(434064718110392346) because the bot does not have the "Manage Channels" permission
+[21:37:35] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[21:41:11] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:41:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:42:11] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[21:42:25] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:tumblecraft(434064822095839253) because the bot does not have the "Manage Channels" permission
+[21:42:25] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:tumblecraft-console(434064718110392346) because the bot does not have the "Manage Channels" permission
+[21:42:36] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[21:47:25] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:tumblecraft(434064822095839253) because the bot does not have the "Manage Channels" permission
+[21:47:25] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:tumblecraft-console(434064718110392346) because the bot does not have the "Manage Channels" permission
+[21:47:32] [Craft Scheduler Thread - 185/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:47:37] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[21:48:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:49:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:49:52] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[21:52:25] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:tumblecraft(434064822095839253) because the bot does not have the "Manage Channels" permission
+[21:52:25] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:tumblecraft-console(434064718110392346) because the bot does not have the "Manage Channels" permission
+[21:52:37] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
+[21:56:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:57:13] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:57:25] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:tumblecraft(434064822095839253) because the bot does not have the "Manage Channels" permission
+[21:57:25] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:tumblecraft-console(434064718110392346) because the bot does not have the "Manage Channels" permission
+[21:57:33] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
