@@ -119,9 +119,9 @@ DiscordChatChannelListCommandAllPlayersSeparator: ", "
 # %date%:        current date & time
 # PlaceholderAPI placeholders are also supported
 #
-MinecraftPlayerJoinMessageFormat: "@everyone :heavy_plus_sign: **%displayname% joined the server**"
+MinecraftPlayerJoinMessageFormat: "@%username% :heavy_plus_sign: **%displayname% joined the server**"
 MinecraftPlayerFirstJoinMessageFormat: "@everyone :tada: **%displayname% joined the server for the first time**"
-MinecraftPlayerLeaveMessageFormat: "@veryone :heavy_minus_sign: **%displayname% left the server**"
+MinecraftPlayerLeaveMessageFormat: "@%username% :heavy_minus_sign: **%displayname% left the server**"
 
 # Minecraft -> Discord player death messages
 #
