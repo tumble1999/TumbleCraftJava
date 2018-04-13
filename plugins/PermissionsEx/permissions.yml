@@ -5,8 +5,9 @@ groups:
       rank: '10'
       rank-ladder: Ranks
       weight: '10'
+    inheritance:
+    - mod
     permissions:
-    - '*'
     - nte.owner
   admin:
     options:
