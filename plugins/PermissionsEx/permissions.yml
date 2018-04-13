@@ -81,10 +81,6 @@ groups:
       rank-ladder: Ranks
       weight: '50'
     permissions:
-    - essentials.kits.color
-    - essentials.msg.color
-    - essentials.chat.color
-    - essentials.nick.magic
     - nte.helper
     worlds:
       Survival:
@@ -107,7 +103,7 @@ groups:
       rank-ladder: Ranks
       weight: '60'
     inheritance:
-    - helper
+    - vip
     permissions:
     - essentials.god
     - essentials.fly
@@ -166,7 +162,28 @@ groups:
         permissions:
       - plots.plot.4
   vip:
-
+    options:
+      prefix: '&1[Builder] &9'
+      rank: '60'
+      rank-ladder: Ranks
+      weight: '60'
+    permissions:
+      - essentials.kits.color
+      - essentials.msg.color
+      - essentials.chat.color
+      - essentials.nick.magic
+    worlds:
+      Survival:
+        permissions:
+        - essentials.sethome.multiple
+        - essentials.kits.iron
+        - Friends.ExtraFriends
+        - hat.hat
+        - iDisguise.object.*
+      Creative:
+        permissions:
+        - plots.permpack.basicflags
+        - plots.plot.2
   voter:
     options:
       prefix: '&b[Voter] &r'
