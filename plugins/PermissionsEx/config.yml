@@ -6,7 +6,7 @@ permissions:
   user-add-groups-last: false
   log-players: false
   createUserRecords: false
-  backend: test
+  backend: file
   informplayers:
     changes: true
   basedir: plugins/PermissionsEx
@@ -14,8 +14,5 @@ permissions:
     file:
       type: file
       file: permissions.yml
-    test:
-      type: file
-      file: test.yml
 updater: false
 alwaysUpdate: false
