@@ -155,7 +155,7 @@ DiscordChatChannelListCommandExpirationDeleteRequest: true
 # DiscordChatChannelRegexReplacement: replacement for above option
 #
 DiscordChatChannelBlockedPhrases: ["Online players (", "**No online players**"]
-DiscordChatChannelCutPhrases: ["@everyone"]
+DiscordChatChannelCutPhrases: [""]
 DiscordChatChannelRegex: ""
 DiscordChatChannelRegexReplacement: ""
 
@@ -197,7 +197,7 @@ DiscordCannedResponses: {"!ip": "yourserveripchange.me", "!site": "http://yoursi
 MinecraftDiscordAccountLinkedConsoleCommands: ["", "", ""]
 MinecraftDiscordAccountUnlinkedConsoleCommands: ["", "", ""]
 MinecraftDiscordAccountLinkedRoleNameToAddUserTo: "Linked"
-MinecraftDiscordAccountLinkedSetDiscordNicknameAsInGameName: false
+MinecraftDiscordAccountLinkedSetDiscordNicknameAsInGameName: true
 
 # Minecraft group -> Discord role synchronization
 #
