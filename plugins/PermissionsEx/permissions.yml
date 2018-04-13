@@ -1,11 +1,4 @@
 groups:
-  owner:
-    options:
-      prefix: '&4[Owner] &c'
-    inheritance:
-    - admin
-    permissions:
-    - nte.owner
   admin:
     options:
       prefix: '&c[Admin] '
@@ -281,6 +274,11 @@ groups:
         permissions:
         - plots.permpack.basic
         - essentials.build
+  owner:
+    options:
+      prefix: '&4[Owner] &c'
+    inheritance:
+    - admin
 schema-version: 1
 users:
   554a961a-0908-428d-bf07-a1568d0d8547:
