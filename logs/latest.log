@@ -1771,3 +1771,151 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [16:39:24] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply <name> <rank> <information>
 [16:39:39] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [16:40:00] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:43:37] [User Authenticator #4/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[16:43:38] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
+[16:43:38] [Server thread/INFO]: TumbleGamer[/82.44.12.229:58048] logged in with entity id 358752 at ([Survival]135.46956838156362, 75.82622073154275, 551.1634689394217)
+[16:44:35] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
+[16:44:35] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer quit with silent quitting permission, not sending a quit message
+[16:44:35] [Server thread/INFO]: TumbleGamer left the game
+[16:44:41] [User Authenticator #5/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[16:44:42] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
+[16:44:42] [Server thread/INFO]: TumbleGamer[/82.44.12.229:58095] logged in with entity id 359799 at ([Survival]112.86489340949947, 75.44914777246986, 549.4150077999652)
+[16:44:47] [Server thread/INFO]: TumbleGamer issued server command: /warp creative
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: java.lang.NullPointerException
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.bukkit.titles.TitleManager_1_11.getHandle(TitleManager_1_11.java:422)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.bukkit.titles.TitleManager_1_11.resetTitle(TitleManager_1_11.java:387)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.bukkit.titles.TitleManager_1_11.send(TitleManager_1_11.java:232)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.bukkit.titles.DefaultTitle_111.sendTitle(DefaultTitle_111.java:25)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.intellectualcrafters.plot.util.AbstractTitle.sendTitle(AbstractTitle.java:14)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.listener.PlotListener$2.run(PlotListener.java:170)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: java.lang.NullPointerException
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at sun.reflect.UnsafeFieldAccessorImpl.ensureObj(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at sun.reflect.UnsafeObjectFieldAccessorImpl.get(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.lang.reflect.Field.get(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.bukkit.titles.TitleManager_1_11.resetTitle(TitleManager_1_11.java:388)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.bukkit.titles.TitleManager_1_11.send(TitleManager_1_11.java:232)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.bukkit.titles.DefaultTitle_111.sendTitle(DefaultTitle_111.java:25)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.intellectualcrafters.plot.util.AbstractTitle.sendTitle(AbstractTitle.java:14)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.listener.PlotListener$2.run(PlotListener.java:170)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: java.lang.NullPointerException
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.bukkit.titles.TitleManager_1_11.getHandle(TitleManager_1_11.java:422)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.bukkit.titles.TitleManager_1_11.send(TitleManager_1_11.java:235)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.bukkit.titles.DefaultTitle_111.sendTitle(DefaultTitle_111.java:25)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.intellectualcrafters.plot.util.AbstractTitle.sendTitle(AbstractTitle.java:14)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.listener.PlotListener$2.run(PlotListener.java:170)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: java.lang.NullPointerException
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at sun.reflect.UnsafeFieldAccessorImpl.ensureObj(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at sun.reflect.UnsafeObjectFieldAccessorImpl.get(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.lang.reflect.Field.get(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.bukkit.titles.TitleManager_1_11.send(TitleManager_1_11.java:236)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.bukkit.titles.DefaultTitle_111.sendTitle(DefaultTitle_111.java:25)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.intellectualcrafters.plot.util.AbstractTitle.sendTitle(AbstractTitle.java:14)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.plotsquared.listener.PlotListener$2.run(PlotListener.java:170)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[16:44:48] [Craft Scheduler Thread - 1566/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:45:09] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
+[16:45:09] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer quit with silent quitting permission, not sending a quit message
+[16:45:09] [Server thread/INFO]: TumbleGamer left the game
+[16:46:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:47:22] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:47:42] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:49:23] [Craft Scheduler Thread - 1576/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:49:23] [Craft Scheduler Thread - 1577/INFO]: [Marriage] Purged 0 player entries in 23ms
+[16:49:28] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[16:54:09] [Server thread/INFO]: Stopping the server
+[16:54:09] [Server thread/INFO]: Stopping server
+[16:54:09] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.2.6
+[16:54:09] [Server thread/INFO]: [EnjinMinecraftPlugin] Disabling EnjinMinecraftPlugin v3.4.3
+[16:54:09] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.8
+[16:54:09] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[16:54:09] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.15.0.1
+[16:54:09] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5.0-b751
+[16:54:09] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.15.0.1
+[16:54:09] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.15.0.1
+[16:54:09] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.15.0.1
+[16:54:09] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v2.4-b523
+[16:54:09] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
+[16:54:09] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.16.1
+[16:54:09] [Server thread/INFO]: [DiscordSRV] Saved linked accounts in 8ms
+[16:54:09] [Server thread/INFO]: [DiscordSRV] Saved metrics in 4ms
+[16:54:09] [Server thread/INFO]: [DiscordSRV] Shutdown completed in 191ms
+[16:54:09] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
+[16:54:09] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.22-SNAPSHOT (build 1537)
+[16:54:09] [Server thread/INFO]: [Vote] Disabling Vote v2.0.1
+[16:54:09] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.1;84bc322
+[16:54:09] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[16:54:09] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b719
+[16:54:09] [Server thread/INFO]: [Marriage] Disabling Marriage v2.0.17
+[16:54:09] [Server thread/INFO]: [Marriage] Loading database...
+[16:54:09] [Server thread/INFO]: [Marriage] Plugin has been completely disabled.
+[16:54:09] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v18.04.11-7f257e2-1977
+[16:54:09] [Server thread/INFO]: All DB transactions during this session are being validated (This may take a while if corrections need to be made)
+[16:54:09] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.11.5
+[16:54:09] [Server thread/INFO]: [Essentials] Disabling Essentials v2.15.0.1
+[16:54:09] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[16:54:09] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[16:54:09] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v1.3.5
+[16:54:09] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v2.3.1
+[16:54:09] [Server thread/INFO]: [Announcements] Disabling Announcements v1.0
+[16:54:09] [Server thread/INFO]: [Announcements] Goodbye.
+[16:54:09] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[16:54:09] [Server thread/INFO]: [Hats] Disabling Hats v1.6
+[16:54:09] [Server thread/INFO]: [Hats] Hats has been desactivated!
+[16:54:09] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.3.0
+[16:54:09] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[16:54:09] [Server thread/INFO]: [PlayerNameSigns] Disabling PlayerNameSigns v1.0
+[16:54:09] [Server thread/INFO]: [PlayerNameSigns] PlayerNameSigns Disabled
+[16:54:09] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[16:54:09] [Server thread/INFO]: [HeadDrops] Disabling HeadDrops v2.0
+[16:54:09] [Server thread/INFO]: [iDisguise] Disabling iDisguise v5.6.4
+[16:54:09] [Server thread/INFO]: [iDisguise] iDisguise 5.6.4 disabled!
+[16:54:09] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v18.04.12-c938a61-1058-19.4.21
+[16:54:09] [Server thread/INFO]: [Friends3_0] Disabling Friends3_0 v3.0.2.5
+[16:54:09] [Server thread/INFO]: [Votifier] [Votifier] Disabling Votifier v1.9
+[16:54:09] [Server thread/INFO]: [Votifier] [Votifier] Votifier disabled.
+[16:54:09] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.2.0
+[16:54:09] [Server thread/INFO]: [TumbleCraftAdminSummon] Disabling TumbleCraftAdminSummon v1.0
+[16:54:09] [Server thread/INFO]: [TumbleCraftAdminSummon] TumbleCraftAdminSummon Disabled
+[16:54:09] [Server thread/INFO]: [ClearLag] Disabling ClearLag v2.9.7
+[16:54:09] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[16:54:09] [Thread-10/WARN]: [Votifier] [Votifier] Protocol error. Ignoring packet - socket closed
+[16:54:09] [Server thread/INFO]: [Wild] Disabling Wild v3.13.1
+[16:54:09] [Server thread/INFO]: Saving players
+[16:54:09] [Server thread/INFO]: Saving worlds
+[16:54:09] [Server thread/INFO]: Saving chunks for level 'Survival'/overworld
+[16:54:09] [Server thread/INFO]: Saving chunks for level 'test'/overworld
+[16:54:09] [Server thread/INFO]: Saving chunks for level 'Creative'/overworld
+[16:54:09] [Server thread/INFO]: Saving chunks for level 'DrCraft'/overworld
+[16:54:10] [Server thread/INFO]: Saving chunks for level 'Staff'/overworld
