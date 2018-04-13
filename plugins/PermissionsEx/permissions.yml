@@ -74,12 +74,39 @@ groups:
         - plots.plot.8
     inheritance:
     - builder
-  builder:
+  helper:
     options:
-      prefix: '&a[Builder] &r'
+      prefix: '&1[Helper] &9'
       rank: '50'
       rank-ladder: Ranks
       weight: '50'
+    permissions:
+    - essentials.kits.color
+    - essentials.msg.color
+    - essentials.chat.color
+    - essentials.nick.magic
+    - multiverse.portal.exempt.*
+    - nte.helper
+    worlds:
+      Survival:
+        permissions:
+        - essentials.sethome.multiple
+        - essentials.kits.diamond
+        - Friends.ExtraFriends
+        - hat.hat
+        - iDisguise.object.*
+      Creative:
+        permissions:
+        - plots.permpack.basicflags
+        - plots.plot.2
+    inheritance:
+    - builder
+  builder:
+    options:
+      prefix: '&1[Builder] &9'
+      rank: '60'
+      rank-ladder: Ranks
+      weight: '60'
     inheritance:
     - helper
     permissions:
@@ -138,34 +165,7 @@ groups:
         - iDisguise.others
       Creative:
         permissions:
-        - plots.plot.4
-  helper:
-    options:
-      prefix: '&3[Helper] &b'
-      rank: '60'
-      rank-ladder: Ranks
-      weight: '60'
-    permissions:
-    - essentials.kits.color
-    - essentials.msg.color
-    - essentials.chat.color
-    - essentials.nick.magic
-    - multiverse.portal.exempt.*
-    - nte.helper
-    worlds:
-      Survival:
-        permissions:
-        - essentials.sethome.multiple
-        - essentials.kits.diamond
-        - Friends.ExtraFriends
-        - hat.hat
-        - iDisguise.object.*
-      Creative:
-        permissions:
-        - plots.permpack.basicflags
-        - plots.plot.2
-    inheritance:
-    - voter
+      - plots.plot.4
   voter:
     options:
       prefix: '&b[Voter] &r'
