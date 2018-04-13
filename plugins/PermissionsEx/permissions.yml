@@ -368,15 +368,6 @@ groups:
         permissions:
         - plots.permpack.basic
         - essentials.build
-  restrain:
-    options:
-      prefix: '&f[Restrained] &7&k'
-      rank: '100'
-      rank-ladder: Ranks
-      weight: '1'
-    permissions:
-    - essentials.help
-    - nte.restrain
 schema-version: 1
 users:
   554a961a-0908-428d-bf07-a1568d0d8547:
