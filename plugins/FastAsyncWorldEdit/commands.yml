@@ -1874,6 +1874,22 @@ SchematicCommands:
     - loadall
     usage: '[<format>] <filename|url>'
     desc: Load multiple clipboards (paste will randomly choose one)
+  move:
+    help: Move your currently loaded schematics
+    aliases:
+    - move
+    - m
+    usage: <directory>
+    desc: Move your loaded schematic
+  show:
+    help: |
+      List all schematics in the schematics directory
+       -p <page> prints the requested page
+       -f <format> restricts by format
+    aliases:
+    - show
+    usage: '[global|mine|<filter>] [page=1]'
+    desc: Show a schematic
 SnapshotCommands:
   snapshot:
     help: ''

@@ -1,9 +1,9 @@
 # These first 6 aren't configurable
 issues: "https://github.com/boy0001/FastAsyncWorldedit/issues"
 wiki: "https://github.com/boy0001/FastAsyncWorldedit/wiki/"
-date: "11 May 2018 23:00:00 GMT"
-build: "https://ci.athion.net/job/FastAsyncWorldEdit/1058"
-commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/c938a61"
+date: "12 May 2018 23:00:00 GMT"
+build: "https://ci.athion.net/job/FastAsyncWorldEdit/1059"
+commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/d8d273a"
 platform: "bukkit"
 # Options: de, ru, tr
 # Create a PR to contribute a translation: https://github.com/boy0001/FastAsyncWorldedit/new/master/core/src/main/resources
@@ -104,6 +104,8 @@ experimental:
   persistent-brushes: false
   # [SAFE] Enable CUI without needing the mod installed (Requires ProtocolLib)
   vanilla-cui: false
+  # Disable using native libraries
+  disable-natives: false
 
 # This relates to how FAWE places chunks
 queue:
@@ -216,6 +218,7 @@ paths:
   heightmap: "heightmap"
   history: "history"
   # Multiple servers can use the same clipboards
+  #  - Use a shared directory or NFS/Samba
   clipboard: "clipboard"
   # Each player has their own sub directory for schematics
   per-player-schematics: true

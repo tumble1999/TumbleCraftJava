@@ -197,6 +197,16 @@ worldedit:
     schematic_none: No files found.
     schematic_list: 'Available files (Filename: Format) [%s0/%s1]:'
     schematic_list_elem: '&8 - &a%s0 &8- &7%s1'
+    schematic_prompt_clear: '&7You may want to use &c%s0 &7to clear your current clipboard
+      first'
+    schematic_show: |-
+      &7Displaying &a%s0&7 schematics from &a%s1&7:
+      &8 - &aLeft click &7a structure to set your clipboard
+      &8 - &aRight click &7to add a structure to your multi-clipboard
+      &8 - &7Use &a%s2&7 to go back to the world
+    schematic_move_exists: '&c%s0 already exists'
+    schematic_move_success: '&a%s0 -> %s1'
+    schematic_move_failed: '&a%s0 no moved: %s1'
   clipboard:
     clipboard_uri_not_found: You do not have %s0 loaded
     clipboard_cleared: Clipboard cleared
