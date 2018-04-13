@@ -19,11 +19,11 @@ Groups:
     Permission: nte.helper
     Prefix: '&3[Helper] &b'
     SortPriority: 5
-  restrain:
+  yt:
     Permission: nte.yt
     Suffix: '&e[&rY&eT]'
     SortPriority: 6
-  member:
+  voter:
     Permission: nte.voter
     Prefix: '&b[Voter] &r'
     SortPriority: 7
@@ -31,7 +31,3 @@ Groups:
     Permission: nte.member
     Prefix: '&7'
     SortPriority: 8
-  restrain:
-    Permission: nte.restrain
-    Prefix: '&2'
-    SortPriority: 9
