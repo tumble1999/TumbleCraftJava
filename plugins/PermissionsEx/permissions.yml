@@ -15,92 +15,7 @@ groups:
     inheritance:
     - mod
     permissions:
-    - nte.admin
-    - griefprevention.ignoreclaims
-    - minecraft.command.time
-    - minecraft.command.effect
-    - essentials.gamemode.*
-    - essentials.home.*
-    - essentials.tptoggle.others
-    - essentials.tp
-    - essentials.tp.others
-    - essentials.tpall
-    - essentials.sethome.others
-    - essentials.delhome.others
-    - essentials.ban.notify
-    - essentials.ban.offline
-    - essentials.unban
-    - essentials.broadcast
-    - essentials.enderchest.*
-    - essentials.invsee.*
-    - essentials.clearinventory.others
-    - essentials.spawn.others
-    - essentials.invsee.modify
-    - essentials.chat.spy
-    - essentials.protect.admin
-    - essentials.protect.damage.disable
-    - essentials.enderchest.modify
-    - essentials.spawnmob.stack
-    - essentials.vanish.others
-    - essentials.vanish.pvp
-    - essentials.invsee.modify
-    - essentials.nuke
-    - essentials.ping
-    - essentials.ban.notify
-    - essentials.kill.force
-    - essentials.mute.notify
-    - essentials.clearinventory.all
-    - essentials.sudo
-    - essentials.vanish.interact
-    - essentials.vanish.see
-    - essentials.togglejail.offline
-    - essentials.socialspy.others
-    - essentials.mute.offline
-    - essentials.socialspy
-    - permissions.manage.*
-    - citizens.admin.*
-    - citizens.npc.*
-    - friends.commands.spychat
-    - griefprevention.admin
-    - hat.hatID
-    - headdrops.head.other
-    - headdrops.info.other
-    - iDisguise.admin
-    - iDisguise.update
-    - iDisguise.undisguise.all
-    - marry.admin
-    - mv.bypass.gamemode.*
-    - multiverse.teleport.other.*
-    - multiverse.core.confirm
-    - multiverse.core.info
-    - multiverse.core.list.*
-    - multiverse.core.create
-    - multiverse.core.modify.*
-    - multiverse.core.spawn.*
-    - multiverse.core.delete
-    - multiverse.core.purge
-    - multiverse.core.remove
-    - multiverse.core.unload
-    - multiverse.core.anchor
-    - multiverse.core.config
-    - multiverse.core.debug
-    - multiverse.core.tp.*
-    - multiverse.core.version
-    - mycommand.edit
-    - mycommand.block.set
-    - mycommand.item.set
-    - mycommand.runas
-    - mycommand.scheduler
-    - mycommand.variables
-    - mycommand.playerdata
-    - mycommand.book
-    - mycommand.sign.set
-    - autorestart.now
-    - autorestart.in
-    - autorestart.pause
-    - autorestart.start
-    - adminchat.read
-    - plots.admin
+    - '*'
   mod:
     options:
       prefix: '&2[Mod] &a'
@@ -380,7 +295,7 @@ users:
     - nte.yt
   019c39a2-24ce-4563-b04b-c094c9bee042:
     group:
-    - admin
+    - owner
     options:
       name: DrBatmanWho
       last-login-time: '1523197134'
