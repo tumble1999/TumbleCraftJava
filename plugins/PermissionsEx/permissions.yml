@@ -2,11 +2,9 @@ groups:
   owner:
     options:
       prefix: '&4[Owner] &c'
-      rank: '10'
-      rank-ladder: Ranks
       weight: '10'
     inheritance:
-    - mod
+    - admin
     permissions:
     - nte.owner
   admin:
