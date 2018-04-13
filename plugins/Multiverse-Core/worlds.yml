@@ -47,10 +47,10 @@ worlds:
     generator: PlotSquared:size=129
     playerLimit: '-1'
     allowFlight: 'true'
-  test:
+  DrCraft:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: DrCraft
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -82,17 +82,17 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 53.5
-      y: 65.0
-      z: 256.5
+      x: -41.5
+      y: 64.0
+      z: 66.5
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '916665604751287588'
-    generator: PlotSquared
+    seed: '1406291257435953756'
+    generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
   Staff:
@@ -140,54 +140,6 @@ worlds:
     worldBlacklist: []
     environment: NORMAL
     seed: '-8624399134769984105'
-    generator: 'null'
-    playerLimit: '-1'
-    allowFlight: 'true'
-  DrCraft:
-    ==: MVWorld
-    hidden: 'false'
-    alias: DrCraft
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '1.0'
-    respawnWorld: ''
-    allowWeather: 'true'
-    difficulty: EASY
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'true'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-      currency: '-1'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: SURVIVAL
-    keepSpawnInMemory: 'true'
-    spawnLocation:
-      ==: MVSpawnLocation
-      x: -41.5
-      y: 64.0
-      z: 66.5
-      pitch: 0.0
-      yaw: 0.0
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NORMAL
-    seed: '1406291257435953756'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
