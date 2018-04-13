@@ -1,278 +1,13 @@
 groups:
-  restrain:
+  owner:
     options:
-      prefix: '&f[Restrained] &7&k'
-      rank: '100'
+      prefix: '&4[Owner] &c'
+      rank: '10'
       rank-ladder: Ranks
-      weight: '1'
+      weight: '10'
     permissions:
-    - essentials.help
-    - nte.restrain
-  member:
-    options:
-      default: true
-      prefix: '&7'
-      rank: '80'
-      rank-ladder: Ranks
-      weight: '80'
-    permissions:
-    - essentials.customtext
-    - essentials.home.list
-    - friends.commands.toggle.chat
-    - friends.commands.toggle.requests
-    - friends.commands.list
-    - friends.commands.unblock
-    - friends.commands.block
-    - friends.commands.deny
-    - friends.commands.accept
-    - friends.commands.remove
-    - friends.commands.add
-    - friends.use
-    - essentials.warp.list
-    - essentials.tptoggle
-    - essentials.msg
-    - essentials.afk
-    - essentials.balence
-    - essentials.last
-    - essentials.mail
-    - essentials.mail.send
-    - essentials.me
-    - essentials.realname
-    - essentials.spawn
-    - essentials.warps.cave
-    - essentials.warps.spawn
-    - essentials.warp
-    - essentials.rules
-    - essentials.seen
-    - friend.commands.add
-    - friend.commands.remove
-    - friend.commands.accept
-    - friend.commands.deny
-    - friend.commands.block
-    - friend.commands.unblock
-    - friend.commands.list
-    - friend.commands.toggle.requests
-    - friend.commands.toggle.chat
-    - friend.commands.msg
-    - griefprevention.user
-    - marry.marry
-    - marry.home
-    - marry.sethome
-    - marry.tp
-    - marry.gift
-    - marry.chat
-    - marry.seen​
-    - multiverse.exempt.*
-    - multiverse.core.list.who
-    - nte.member
-    worlds:
-      Survival:
-        permissions:
-        - essentials.tpdeny
-        - essentials.tpaccept
-        - essentials.tpahere
-        - essentials.tpa
-        - essentials.delhome
-        - essentials.home.bed
-        - essentials.sethome.bed
-        - essentials.sethome
-        - essentials.home
-        - modifyworld.*
-        - essentials.build
-        - essentials.signs.create.buy
-        - essentials.signs.destroy.buy
-        - essentials.signs.use.*
-        - essentials.kit
-        - essentials.kits.starter
-        - essentials.kits.claim
-      Staff:
-        permissions:
-        - essentials.build.interact.323
-      Creative:
-        permissions:
-        - plots.permpack.basic
-        - essentials.build
-  voter:
-    options:
-      prefix: '&b[Voter] &r'
-      weight: '200'
-    permissions:
-    - essentials.nick
-    - essentials.nick.format
-    - nte.voter
-    worlds:
-      Survival:
-        permissions:
-        - essentials.enderchest
-        - headdrops.mobheaddrops
-        - essentials.kits.starter-2
-        - essentials.kits.iron
-        - iDisguise.mob.*
-        - iDisguise.random
-        - iDisguise.undisguise
-        - headdrops.playerheaddrops
-      Creative:
-        permissions:
-        - plots.permpack.basicinbox
-    inheritance:
-    - member
-  helper:
-    options:
-      prefix: '&3[Helper] &b'
-      rank: '60'
-      rank-ladder: Ranks
-      weight: '60'
-    permissions:
-    - essentials.kits.color
-    - essentials.msg.color
-    - essentials.chat.color
-    - essentials.nick.magic
-    - multiverse.portal.exempt.*
-    - nte.helper
-    worlds:
-      Survival:
-        permissions:
-        - essentials.sethome.multiple
-        - essentials.kits.diamond
-        - Friends.ExtraFriends
-        - hat.hat
-        - iDisguise.object.*
-      Creative:
-        permissions:
-        - plots.permpack.basicflags
-        - plots.plot.2
-    inheritance:
-    - voter
-  builder:
-    options:
-      prefix: '&a[Builder] &r'
-      rank: '50'
-      rank-ladder: Ranks
-      weight: '50'
-    inheritance:
-    - helper
-    permissions:
-    - essentials.god
-    - essentials.fly
-    - multiverse.help
-    - multiverse.core.coord
-    - multiverse.core.tp.self
-    - multiverse.portal.create
-    - multiverse.portal.list
-    - multiverse.portal.modify
-    - multiverse.portal.remove
-    - multiverse.portal.select
-    - multiverse.portal.givewand
-    - multiverse.signportal.create
-    - multiverse.signportal.validate
-    - essentials.warp.otherplayers
-    - essentials.setwarp
-    - essentials.delwarp
-    - minecraft.command.locate
-    - essentials.back
-    - essentials.fireball
-    - essentials.gamemode
-    - essentials.gamemode.creative
-    - essentials.gamemode.survival
-    - essentials.clearinventory
-    - essentials.fly.safelogin
-    - essentials.signs.create.*
-    - essentials.signs.break.*
-    - worldedit.*
-    - fawe.admin
-    - permissions.manage.membership.builder
-    - citizens.npc.limit
-    - citizens.npc.create
-    - citizens.npc.edit.*
-    - citizens.npc.lookclose
-    - citizens.npc.list
-    - citizens.npc.talks
-    - citizens.npc.trait.*
-    - citizens.npc.profession
-    - citizens.npc.path
-    - citizens.npc.select
-    - citizens.npc.realname
-    - citizens.npc.remove
-    - essentials.build
-    - nte.builder
-    - plots.admin
-    worlds:
-      Survival:
-        permissions:
-        - essentials.sethome.multiple.unlimited
-        - headdrops.help
-        - headdrops.head
-        - headdrops.mobhead
-        - headdrops.info
-        - iDisguise.others
-      Creative:
-        permissions:
-        - plots.plot.4
-  mod:
-    options:
-      prefix: '&6[Mod] &e'
-      rank: '40'
-      rank-ladder: Ranks
-      weight: '40'
-    permissions:
-    - essentials.nick.color
-    - griefprevention.admin.chat.*
-    - griefprevention.admin.chat.eavesdrop
-    - essentials.ban
-    - essentials.ban.notify
-    - essentials.ban.offline
-    - essentials.banip
-    - essentials.broadcast
-    - essentials.burn
-    - essentials.clearinventory.others
-    - essentials.deljail
-    - essentials.enderchest.others
-    - essentials.essentials
-    - essentials.ext
-    - essentials.invsee
-    - essentials.jails
-    - essentials.kick
-    - essentials.kick.notify
-    - essentials.kickall
-    - essentials.kill
-    - essentials.lightning
-    - essentials.lightning.others
-    - essentials.mute
-    - essentials.remove
-    - essentials.setjail
-    - essentials.socialspy
-    - essentials.spawnmob
-    - essentials.spawnmob.*
-    - essentials.ban.notify
-    - essentials.tempban
-    - essentials.thunder
-    - essentials.jail.allow.*
-    - essentials.togglejail
-    - essentials.ban.notify
-    - essentials.unban
-    - essentials.unbanip
-    - essentials.vanish
-    - essentials.vanish.effect
-    - essentials.weather
-    - essentials.nick.others
-    - permissions.manage.membership.mod
-    - permissions.user.*
-    - tumblecraft.adminsummon.summon.*
-    - iDisguise.player.name.*
-    - iDisguise.undisguise.others
-    - marry.chatspy
-    - multiverse.access.*
-    - multiverse.teleport.self.*
-    - nte.mod
-    worlds:
-      Survival:
-        permissions:
-        - essentials.home.others
-      Creative:
-        permissions:
-        - plots.plot.8
-    inheritance:
-    - builder
+    - '*'
+    - nte.owner
   admin:
     options:
       prefix: '&c[Admin] '
@@ -368,15 +103,280 @@ groups:
     - autorestart.start
     - adminchat.read
     - plots.admin
-  owner:
+  mod:
     options:
-      prefix: '&4[Owner] &c'
-      rank: '10'
+      prefix: '&6[Mod] &e'
+      rank: '40'
       rank-ladder: Ranks
-      weight: '10'
+      weight: '40'
     permissions:
-    - '*'
-    - nte.owner
+    - essentials.nick.color
+    - griefprevention.admin.chat.*
+    - griefprevention.admin.chat.eavesdrop
+    - essentials.ban
+    - essentials.ban.notify
+    - essentials.ban.offline
+    - essentials.banip
+    - essentials.broadcast
+    - essentials.burn
+    - essentials.clearinventory.others
+    - essentials.deljail
+    - essentials.enderchest.others
+    - essentials.essentials
+    - essentials.ext
+    - essentials.invsee
+    - essentials.jails
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.kickall
+    - essentials.kill
+    - essentials.lightning
+    - essentials.lightning.others
+    - essentials.mute
+    - essentials.remove
+    - essentials.setjail
+    - essentials.socialspy
+    - essentials.spawnmob
+    - essentials.spawnmob.*
+    - essentials.ban.notify
+    - essentials.tempban
+    - essentials.thunder
+    - essentials.jail.allow.*
+    - essentials.togglejail
+    - essentials.ban.notify
+    - essentials.unban
+    - essentials.unbanip
+    - essentials.vanish
+    - essentials.vanish.effect
+    - essentials.weather
+    - essentials.nick.others
+    - permissions.manage.membership.mod
+    - permissions.user.*
+    - tumblecraft.adminsummon.summon.*
+    - iDisguise.player.name.*
+    - iDisguise.undisguise.others
+    - marry.chatspy
+    - multiverse.access.*
+    - multiverse.teleport.self.*
+    - nte.mod
+    worlds:
+      Survival:
+        permissions:
+        - essentials.home.others
+      Creative:
+        permissions:
+        - plots.plot.8
+    inheritance:
+    - builder
+  builder:
+    options:
+      prefix: '&a[Builder] &r'
+      rank: '50'
+      rank-ladder: Ranks
+      weight: '50'
+    inheritance:
+    - helper
+    permissions:
+    - essentials.god
+    - essentials.fly
+    - multiverse.help
+    - multiverse.core.coord
+    - multiverse.core.tp.self
+    - multiverse.portal.create
+    - multiverse.portal.list
+    - multiverse.portal.modify
+    - multiverse.portal.remove
+    - multiverse.portal.select
+    - multiverse.portal.givewand
+    - multiverse.signportal.create
+    - multiverse.signportal.validate
+    - essentials.warp.otherplayers
+    - essentials.setwarp
+    - essentials.delwarp
+    - minecraft.command.locate
+    - essentials.back
+    - essentials.fireball
+    - essentials.gamemode
+    - essentials.gamemode.creative
+    - essentials.gamemode.survival
+    - essentials.clearinventory
+    - essentials.fly.safelogin
+    - essentials.signs.create.*
+    - essentials.signs.break.*
+    - worldedit.*
+    - fawe.admin
+    - permissions.manage.membership.builder
+    - citizens.npc.limit
+    - citizens.npc.create
+    - citizens.npc.edit.*
+    - citizens.npc.lookclose
+    - citizens.npc.list
+    - citizens.npc.talks
+    - citizens.npc.trait.*
+    - citizens.npc.profession
+    - citizens.npc.path
+    - citizens.npc.select
+    - citizens.npc.realname
+    - citizens.npc.remove
+    - essentials.build
+    - nte.builder
+    - plots.admin
+    worlds:
+      Survival:
+        permissions:
+        - essentials.sethome.multiple.unlimited
+        - headdrops.help
+        - headdrops.head
+        - headdrops.mobhead
+        - headdrops.info
+        - iDisguise.others
+      Creative:
+        permissions:
+        - plots.plot.4
+  helper:
+    options:
+      prefix: '&3[Helper] &b'
+      rank: '60'
+      rank-ladder: Ranks
+      weight: '60'
+    permissions:
+    - essentials.kits.color
+    - essentials.msg.color
+    - essentials.chat.color
+    - essentials.nick.magic
+    - multiverse.portal.exempt.*
+    - nte.helper
+    worlds:
+      Survival:
+        permissions:
+        - essentials.sethome.multiple
+        - essentials.kits.diamond
+        - Friends.ExtraFriends
+        - hat.hat
+        - iDisguise.object.*
+      Creative:
+        permissions:
+        - plots.permpack.basicflags
+        - plots.plot.2
+    inheritance:
+    - voter
+  voter:
+    options:
+      prefix: '&b[Voter] &r'
+      weight: '200'
+    permissions:
+    - essentials.nick
+    - essentials.nick.format
+    - nte.voter
+    worlds:
+      Survival:
+        permissions:
+        - essentials.enderchest
+        - headdrops.mobheaddrops
+        - essentials.kits.starter-2
+        - essentials.kits.iron
+        - iDisguise.mob.*
+        - iDisguise.random
+        - iDisguise.undisguise
+        - headdrops.playerheaddrops
+      Creative:
+        permissions:
+        - plots.permpack.basicinbox
+    inheritance:
+    - member
+  member:
+    options:
+      default: true
+      prefix: '&7'
+      rank: '80'
+      rank-ladder: Ranks
+      weight: '80'
+    permissions:
+    - essentials.customtext
+    - essentials.home.list
+    - friends.commands.toggle.chat
+    - friends.commands.toggle.requests
+    - friends.commands.list
+    - friends.commands.unblock
+    - friends.commands.block
+    - friends.commands.deny
+    - friends.commands.accept
+    - friends.commands.remove
+    - friends.commands.add
+    - friends.use
+    - essentials.warp.list
+    - essentials.tptoggle
+    - essentials.msg
+    - essentials.afk
+    - essentials.balence
+    - essentials.last
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.realname
+    - essentials.spawn
+    - essentials.warps.cave
+    - essentials.warps.spawn
+    - essentials.warp
+    - essentials.rules
+    - essentials.seen
+    - friend.commands.add
+    - friend.commands.remove
+    - friend.commands.accept
+    - friend.commands.deny
+    - friend.commands.block
+    - friend.commands.unblock
+    - friend.commands.list
+    - friend.commands.toggle.requests
+    - friend.commands.toggle.chat
+    - friend.commands.msg
+    - griefprevention.user
+    - marry.marry
+    - marry.home
+    - marry.sethome
+    - marry.tp
+    - marry.gift
+    - marry.chat
+    - marry.seen​
+    - multiverse.exempt.*
+    - multiverse.core.list.who
+    - nte.member
+    worlds:
+      Survival:
+        permissions:
+        - essentials.tpdeny
+        - essentials.tpaccept
+        - essentials.tpahere
+        - essentials.tpa
+        - essentials.delhome
+        - essentials.home.bed
+        - essentials.sethome.bed
+        - essentials.sethome
+        - essentials.home
+        - modifyworld.*
+        - essentials.build
+        - essentials.signs.create.buy
+        - essentials.signs.destroy.buy
+        - essentials.signs.use.*
+        - essentials.kit
+        - essentials.kits.starter
+        - essentials.kits.claim
+      Staff:
+        permissions:
+        - essentials.build.interact.323
+      Creative:
+        permissions:
+        - plots.permpack.basic
+        - essentials.build
+  restrain:
+    options:
+      prefix: '&f[Restrained] &7&k'
+      rank: '100'
+      rank-ladder: Ranks
+      weight: '1'
+    permissions:
+    - essentials.help
+    - nte.restrain
 schema-version: 1
 users:
   554a961a-0908-428d-bf07-a1568d0d8547:
