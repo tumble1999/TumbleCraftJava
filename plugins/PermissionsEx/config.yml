@@ -14,5 +14,8 @@ permissions:
     file:
       type: file
       file: permissions.yml
+    test:
+      type: file
+      file: test.yml
 updater: false
 alwaysUpdate: false
