@@ -19,8 +19,8 @@
 #
 # DiscordToMinecraftAllRolesSeparator: the separator used in between roles in %allroles%
 #
-DiscordToMinecraftChatMessageFormat: "[&bDiscord&r] %toprolecolor%[%toprole%] %username%: %message%"
-DiscordToMinecraftChatMessageFormatNoRole: "[&bDiscord&r] &7%username%: %message%"
+DiscordToMinecraftChatMessageFormat: "[&bDiscord&r:&e#%channelname%&r] [%toprolecolor%%toprole%] %username%: %message%"
+DiscordToMinecraftChatMessageFormatNoRole: "[&bDiscord&r:&e#%channelname%&r] &7%username%: %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
 
 # Minecraft -> Discord message
@@ -47,8 +47,8 @@ DiscordToMinecraftAllRolesSeparator: " | "
 #                  example: Global
 # PlaceholderAPI placeholders are also supported
 #
-MinecraftChatToDiscordMessageFormat: "**%primarygroup%** %displayname% » %message%"
-MinecraftChatToDiscordMessageFormatNoPrimaryGroup: "%displayname% » %message%"
+MinecraftChatToDiscordMessageFormat: "%displayname%: %message%"
+MinecraftChatToDiscordMessageFormatNoPrimaryGroup: "%displayname%: %message%"
 
 # Chat channel plugin message
 # This is a special message that's only used when a supported chat channel plugin is hooked
@@ -119,9 +119,9 @@ DiscordChatChannelListCommandAllPlayersSeparator: ", "
 # %date%:        current date & time
 # PlaceholderAPI placeholders are also supported
 #
-MinecraftPlayerJoinMessageFormat: ":heavy_plus_sign: **%displayname% joined the server**"
-MinecraftPlayerFirstJoinMessageFormat: ":tada: **%displayname% joined the server for the first time**"
-MinecraftPlayerLeaveMessageFormat: ":heavy_minus_sign: **%displayname% left the server**"
+MinecraftPlayerJoinMessageFormat: "@everyone :heavy_plus_sign: **%displayname% joined the server**"
+MinecraftPlayerFirstJoinMessageFormat: "@everyone :tada: **%displayname% joined the server for the first time**"
+MinecraftPlayerLeaveMessageFormat: "@veryone :heavy_minus_sign: **%displayname% left the server**"
 
 # Minecraft -> Discord player death messages
 #
@@ -174,13 +174,13 @@ MinecraftPlayerAchievementMessagesFormat: ":medal: **%displayname% has just earn
 #
 ChannelTopicUpdaterChatChannelTopicFormat: "%playercount%/%playermax% players online | %totalplayers% unique players ever joined | Server online for %uptimemins% minutes | Last update: %date%"
 ChannelTopicUpdaterConsoleChannelTopicFormat: "TPS: %tps% | Mem: %usedmemorygb%GB used/%freememorygb%GB free/%maxmemorygb%GB max | %serverversion%"
-ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "Server is offline | %totalplayers% unique players ever joined"
-ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "Server is offline | %serverversion%"
+ChannelTopicUpdaterChatChannelTopicAtServerShutdownFormat: "@everyone Server is offline | %totalplayers% unique players ever joined"
+ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "@everyone Server is offline | %serverversion%"
 
 # Discord command message
 # This is the message sent to players when they run "/discord". It's recommended to leave command syntax as a part of this
 #
-DiscordCommandFormat: "&bJoin us on Discord at http://discord.gg/changethisinmessages.yml. For command help, do \"/discord ?\""
+DiscordCommandFormat: "&bJoin us on Discord at https://discord.gg/kQmnHjX. For command help, do \"/discord ?\""
 
 # Server startup/shutdown messages
 # DiscordChatChannelServerStartupMessage: message to be sent when server starts; leave blank to disable
