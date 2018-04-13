@@ -2,9 +2,9 @@ groups:
   admin:
     options:
       prefix: '&c[Admin] '
-      rank: '20'
+      rank: '1'
       rank-ladder: Ranks
-      weight: '20'
+      weight: '1'
     inheritance:
     - mod
     permissions:
@@ -12,9 +12,9 @@ groups:
   mod:
     options:
       prefix: '&2[Mod] &a'
-      rank: '40'
+      rank: '2'
       rank-ladder: Ranks
-      weight: '40'
+      weight: '2'
     permissions:
     - essentials.nick.color
     - griefprevention.admin.chat.*
@@ -77,9 +77,9 @@ groups:
   helper:
     options:
       prefix: '&1[Helper] &9'
-      rank: '50'
+      rank: '3'
       rank-ladder: Ranks
-      weight: '50'
+      weight: '3'
     permissions:
     - nte.helper
     worlds:
@@ -164,9 +164,9 @@ groups:
   vip:
     options:
       prefix: '&1[Builder] &9'
-      rank: '60'
+      rank: '4'
       rank-ladder: Ranks
-      weight: '60'
+      weight: '4'
     permissions:
       - essentials.kits.color
       - essentials.msg.color
