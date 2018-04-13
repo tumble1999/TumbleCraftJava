@@ -1,14 +1,12 @@
 groups:
   owner:
     options:
-      prefix: '&4[Owner] &c'
     inheritance:
     - admin
     permissions:
     - nte.owner
   admin:
     options:
-      prefix: '&c[Admin] '
       rank: '20'
       rank-ladder: Ranks
       weight: '20'
@@ -103,7 +101,6 @@ groups:
     - plots.admin
   mod:
     options:
-      prefix: '&2[Mod] &a'
       rank: '40'
       rank-ladder: Ranks
       weight: '40'
@@ -168,7 +165,6 @@ groups:
     - builder
   builder:
     options:
-      prefix: '&a[Builder] &r'
       rank: '50'
       rank-ladder: Ranks
       weight: '50'
@@ -233,7 +229,6 @@ groups:
         - plots.plot.4
   helper:
     options:
-      prefix: '&3[Helper] &b'
       rank: '60'
       rank-ladder: Ranks
       weight: '60'
@@ -260,7 +255,6 @@ groups:
     - voter
   voter:
     options:
-      prefix: '&b[Voter] &r'
       weight: '200'
     permissions:
     - essentials.nick
@@ -285,7 +279,7 @@ groups:
   member:
     options:
       default: true
-      prefix: '&7'
+      prefix: '&e[Test] &r'
       rank: '80'
       rank-ladder: Ranks
       weight: '80'
