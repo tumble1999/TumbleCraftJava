@@ -534,3 +534,257 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [18:59:20] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
 [18:59:22] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
 [19:00:17] [Craft Scheduler Thread - 3/WARN]: [com.enjin.bukkit.EnjinMinecraftPlugin] Exception thrown by Vault permissions implementation. Please ensure Vault and your permissions plugin are up-to-date.
+[19:00:42] [User Authenticator #1/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[19:00:42] [Server thread/WARN]: [com.enjin.bukkit.EnjinMinecraftPlugin] Error occurred while fetching a player's groups from Vault.
+[19:00:42] [Server thread/ERROR]: [com.enjin.bukkit.EnjinMinecraftPlugin] Exception Caught: 
+ru.tehkode.permissions.exceptions.PermissionsNotAvailable: Permissions manager is not accessable. Is the PermissionsEx plugin enabled?
+	at ru.tehkode.permissions.bukkit.PermissionsEx.getPermissionManager(PermissionsEx.java:405) ~[PermissionsEx-1.23.4.jar:?]
+	at net.milkbowl.vault.permission.plugins.Permission_PermissionsEx.getUser(Permission_PermissionsEx.java:243) ~[Vault.jar:?]
+	at net.milkbowl.vault.permission.plugins.Permission_PermissionsEx.getPlayerGroups(Permission_PermissionsEx.java:252) ~[Vault.jar:?]
+	at com.enjin.bukkit.modules.impl.VaultModule.getPlayerGroups(VaultModule.java:128) [EnjinMinecraftPlugin.jar:?]
+	at com.enjin.bukkit.listeners.ConnectionListener.updatePlayerRanks1(ConnectionListener.java:117) [EnjinMinecraftPlugin.jar:?]
+	at com.enjin.bukkit.listeners.ConnectionListener.updatePlayerRanks(ConnectionListener.java:77) [EnjinMinecraftPlugin.jar:?]
+	at com.enjin.bukkit.listeners.ConnectionListener.onPlayerLogin(ConnectionListener.java:36) [EnjinMinecraftPlugin.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor462.execute(Unknown Source) [?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) [PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.attemptLogin(PlayerList.java:565) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:152) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:255) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[19:00:42] [Server thread/INFO]: TumbleGamer[/82.44.12.229:61607] logged in with entity id 732 at ([Survival]116.3538039559548, 73.47363501890352, 557.1412804077153)
+[19:00:42] [Server thread/WARN]: [Essentials] Task #728 for Essentials v2.15.0.1 generated an exception
+ru.tehkode.permissions.exceptions.PermissionsNotAvailable: Permissions manager is not accessable. Is the PermissionsEx plugin enabled?
+	at ru.tehkode.permissions.bukkit.PermissionsEx.getPermissionManager(PermissionsEx.java:405) ~[?:?]
+	at net.milkbowl.vault.chat.plugins.Chat_PermissionsEx.getUser(Chat_PermissionsEx.java:107) ~[?:?]
+	at net.milkbowl.vault.chat.plugins.Chat_PermissionsEx.getPlayerPrefix(Chat_PermissionsEx.java:291) ~[?:?]
+	at net.milkbowl.vault.chat.Chat.getPlayerPrefix(Chat.java:91) ~[?:?]
+	at com.earth2me.essentials.perm.impl.AbstractVaultHandler.getPrefix(AbstractVaultHandler.java:48) ~[?:?]
+	at com.earth2me.essentials.perm.PermissionsHandler.getPrefix(PermissionsHandler.java:68) ~[?:?]
+	at com.earth2me.essentials.User.getNick(User.java:313) ~[?:?]
+	at com.earth2me.essentials.User.getNick(User.java:282) ~[?:?]
+	at com.earth2me.essentials.User.setDisplayNick(User.java:342) ~[?:?]
+	at com.earth2me.essentials.EssentialsPlayerListener$1DelayJoinTask.run(EssentialsPlayerListener.java:233) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[19:00:47] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to EssentialsAntiBuild v2.15.0.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:236) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:203) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:199) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1510) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:24) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInArmAnimation.a(PacketPlayInArmAnimation.java:5) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:14) ~[PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:843) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: ru.tehkode.permissions.exceptions.PermissionsNotAvailable: Permissions manager is not accessable. Is the PermissionsEx plugin enabled?
+	at ru.tehkode.permissions.bukkit.PermissionsEx.getPermissionManager(PermissionsEx.java:405) ~[?:?]
+	at net.milkbowl.vault.permission.plugins.Permission_PermissionsEx.getUser(Permission_PermissionsEx.java:243) ~[?:?]
+	at net.milkbowl.vault.permission.plugins.Permission_PermissionsEx.getPrimaryGroup(Permission_PermissionsEx.java:264) ~[?:?]
+	at net.milkbowl.vault.permission.Permission.getPrimaryGroup(Permission.java:738) ~[?:?]
+	at com.earth2me.essentials.perm.impl.AbstractVaultHandler.getGroup(AbstractVaultHandler.java:33) ~[?:?]
+	at com.earth2me.essentials.perm.PermissionsHandler.getGroup(PermissionsHandler.java:28) ~[?:?]
+	at com.earth2me.essentials.User.getGroup(User.java:637) ~[?:?]
+	at com.earth2me.essentials.User.canBuild(User.java:658) ~[?:?]
+	at com.earth2me.essentials.antibuild.EssentialsAntiBuildListener.onPlayerInteract(EssentialsAntiBuildListener.java:184) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor404.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 19 more
+[19:01:06] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
+[19:01:06] [Server thread/WARN]: [com.enjin.bukkit.EnjinMinecraftPlugin] Error occurred while fetching a player's groups from Vault.
+[19:01:06] [Server thread/ERROR]: [com.enjin.bukkit.EnjinMinecraftPlugin] Exception Caught: 
+ru.tehkode.permissions.exceptions.PermissionsNotAvailable: Permissions manager is not accessable. Is the PermissionsEx plugin enabled?
+	at ru.tehkode.permissions.bukkit.PermissionsEx.getPermissionManager(PermissionsEx.java:405) ~[PermissionsEx-1.23.4.jar:?]
+	at net.milkbowl.vault.permission.plugins.Permission_PermissionsEx.getUser(Permission_PermissionsEx.java:243) ~[Vault.jar:?]
+	at net.milkbowl.vault.permission.plugins.Permission_PermissionsEx.getPlayerGroups(Permission_PermissionsEx.java:252) ~[Vault.jar:?]
+	at com.enjin.bukkit.modules.impl.VaultModule.getPlayerGroups(VaultModule.java:128) [EnjinMinecraftPlugin.jar:?]
+	at com.enjin.bukkit.listeners.ConnectionListener.updatePlayerRanks1(ConnectionListener.java:117) [EnjinMinecraftPlugin.jar:?]
+	at com.enjin.bukkit.listeners.ConnectionListener.updatePlayerRanks(ConnectionListener.java:77) [EnjinMinecraftPlugin.jar:?]
+	at com.enjin.bukkit.listeners.ConnectionListener.onPlayerQuit(ConnectionListener.java:73) [EnjinMinecraftPlugin.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor460.execute(Unknown Source) [?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) [PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.disconnect(PlayerList.java:429) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1147) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.handleDisconnection(NetworkManager.java:343) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:184) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[19:01:07] [Server thread/INFO]: TumbleGamer left the game
+[19:04:23] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[19:05:58] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:06:38] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:06:58] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[19:09:24] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[19:10:19] [Craft Scheduler Thread - 34/WARN]: [com.enjin.bukkit.EnjinMinecraftPlugin] Exception thrown by Vault permissions implementation. Please ensure Vault and your permissions plugin are up-to-date.
+[19:10:29] [User Authenticator #2/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[19:10:29] [Server thread/WARN]: [com.enjin.bukkit.EnjinMinecraftPlugin] Error occurred while fetching a player's groups from Vault.
+[19:10:29] [Server thread/ERROR]: [com.enjin.bukkit.EnjinMinecraftPlugin] Exception Caught: 
+ru.tehkode.permissions.exceptions.PermissionsNotAvailable: Permissions manager is not accessable. Is the PermissionsEx plugin enabled?
+	at ru.tehkode.permissions.bukkit.PermissionsEx.getPermissionManager(PermissionsEx.java:405) ~[PermissionsEx-1.23.4.jar:?]
+	at net.milkbowl.vault.permission.plugins.Permission_PermissionsEx.getUser(Permission_PermissionsEx.java:243) ~[Vault.jar:?]
+	at net.milkbowl.vault.permission.plugins.Permission_PermissionsEx.getPlayerGroups(Permission_PermissionsEx.java:252) ~[Vault.jar:?]
+	at com.enjin.bukkit.modules.impl.VaultModule.getPlayerGroups(VaultModule.java:128) [EnjinMinecraftPlugin.jar:?]
+	at com.enjin.bukkit.listeners.ConnectionListener.updatePlayerRanks1(ConnectionListener.java:117) [EnjinMinecraftPlugin.jar:?]
+	at com.enjin.bukkit.listeners.ConnectionListener.updatePlayerRanks(ConnectionListener.java:77) [EnjinMinecraftPlugin.jar:?]
+	at com.enjin.bukkit.listeners.ConnectionListener.onPlayerLogin(ConnectionListener.java:36) [EnjinMinecraftPlugin.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor462.execute(Unknown Source) [?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) [PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.attemptLogin(PlayerList.java:565) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:152) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:255) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[19:10:30] [Server thread/INFO]: TumbleGamer[/82.44.12.229:61896] logged in with entity id 4651 at ([Survival]147.71942162669515, 70.0, 548.2073796073821)
+[19:10:30] [Server thread/WARN]: [Essentials] Task #4733 for Essentials v2.15.0.1 generated an exception
+ru.tehkode.permissions.exceptions.PermissionsNotAvailable: Permissions manager is not accessable. Is the PermissionsEx plugin enabled?
+	at ru.tehkode.permissions.bukkit.PermissionsEx.getPermissionManager(PermissionsEx.java:405) ~[?:?]
+	at net.milkbowl.vault.chat.plugins.Chat_PermissionsEx.getUser(Chat_PermissionsEx.java:107) ~[?:?]
+	at net.milkbowl.vault.chat.plugins.Chat_PermissionsEx.getPlayerPrefix(Chat_PermissionsEx.java:291) ~[?:?]
+	at net.milkbowl.vault.chat.Chat.getPlayerPrefix(Chat.java:91) ~[?:?]
+	at com.earth2me.essentials.perm.impl.AbstractVaultHandler.getPrefix(AbstractVaultHandler.java:48) ~[?:?]
+	at com.earth2me.essentials.perm.PermissionsHandler.getPrefix(PermissionsHandler.java:68) ~[?:?]
+	at com.earth2me.essentials.User.getNick(User.java:313) ~[?:?]
+	at com.earth2me.essentials.User.getNick(User.java:282) ~[?:?]
+	at com.earth2me.essentials.User.setDisplayNick(User.java:342) ~[?:?]
+	at com.earth2me.essentials.EssentialsPlayerListener$1DelayJoinTask.run(EssentialsPlayerListener.java:233) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[19:10:34] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
+[19:10:34] [Server thread/WARN]: [com.enjin.bukkit.EnjinMinecraftPlugin] Error occurred while fetching a player's groups from Vault.
+[19:10:34] [Server thread/ERROR]: [com.enjin.bukkit.EnjinMinecraftPlugin] Exception Caught: 
+ru.tehkode.permissions.exceptions.PermissionsNotAvailable: Permissions manager is not accessable. Is the PermissionsEx plugin enabled?
+	at ru.tehkode.permissions.bukkit.PermissionsEx.getPermissionManager(PermissionsEx.java:405) ~[PermissionsEx-1.23.4.jar:?]
+	at net.milkbowl.vault.permission.plugins.Permission_PermissionsEx.getUser(Permission_PermissionsEx.java:243) ~[Vault.jar:?]
+	at net.milkbowl.vault.permission.plugins.Permission_PermissionsEx.getPlayerGroups(Permission_PermissionsEx.java:252) ~[Vault.jar:?]
+	at com.enjin.bukkit.modules.impl.VaultModule.getPlayerGroups(VaultModule.java:128) [EnjinMinecraftPlugin.jar:?]
+	at com.enjin.bukkit.listeners.ConnectionListener.updatePlayerRanks1(ConnectionListener.java:117) [EnjinMinecraftPlugin.jar:?]
+	at com.enjin.bukkit.listeners.ConnectionListener.updatePlayerRanks(ConnectionListener.java:77) [EnjinMinecraftPlugin.jar:?]
+	at com.enjin.bukkit.listeners.ConnectionListener.onPlayerQuit(ConnectionListener.java:73) [EnjinMinecraftPlugin.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor460.execute(Unknown Source) [?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) [PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.disconnect(PlayerList.java:429) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1147) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.handleDisconnection(NetworkManager.java:343) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:184) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[19:10:35] [Server thread/INFO]: TumbleGamer left the game
+[19:13:39] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:13:41] [Server thread/INFO]: Stopping the server
+[19:13:41] [Server thread/INFO]: Stopping server
+[19:13:41] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.2.6
+[19:13:41] [Server thread/INFO]: [EnjinMinecraftPlugin] Disabling EnjinMinecraftPlugin v3.4.3
+[19:13:41] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.8
+[19:13:41] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[19:13:41] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.15.0.1
+[19:13:41] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5.0-b751
+[19:13:41] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.15.0.1
+[19:13:41] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.15.0.1
+[19:13:41] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.15.0.1
+[19:13:41] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v2.4-b523
+[19:13:41] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
+[19:13:41] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.16.1
+[19:13:42] [Server thread/INFO]: [DiscordSRV] Saved linked accounts in 4ms
+[19:13:42] [Server thread/INFO]: [DiscordSRV] Saved metrics in 5ms
+[19:13:42] [Server thread/INFO]: [DiscordSRV] Shutdown completed in 159ms
+[19:13:42] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
+[19:13:42] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.22-SNAPSHOT (build 1537)
+[19:13:42] [Server thread/INFO]: [Vote] Disabling Vote v2.0.1
+[19:13:42] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.1;84bc322
+[19:13:42] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[19:13:42] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b719
+[19:13:42] [Server thread/INFO]: [Marriage] Disabling Marriage v2.0.17
+[19:13:42] [Server thread/INFO]: [Marriage] Loading database...
+[19:13:42] [Server thread/INFO]: [Marriage] Plugin has been completely disabled.
+[19:13:42] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v18.04.13-4f63cdf-1978
+[19:13:42] [Server thread/INFO]: All DB transactions during this session are being validated (This may take a while if corrections need to be made)
+[19:13:42] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.11.5
+[19:13:42] [Server thread/INFO]: [Essentials] Disabling Essentials v2.15.0.1
+[19:13:42] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[19:13:42] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[19:13:42] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v1.3.5
+[19:13:42] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v2.3.1
+[19:13:42] [Server thread/INFO]: [Announcements] Disabling Announcements v1.0
+[19:13:42] [Server thread/INFO]: [Announcements] Goodbye.
+[19:13:42] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[19:13:42] [Server thread/INFO]: [Hats] Disabling Hats v1.6
+[19:13:42] [Server thread/INFO]: [Hats] Hats has been desactivated!
+[19:13:42] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.3.0
+[19:13:42] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[19:13:42] [Server thread/INFO]: [PlayerNameSigns] Disabling PlayerNameSigns v1.0
+[19:13:42] [Server thread/INFO]: [PlayerNameSigns] PlayerNameSigns Disabled
+[19:13:42] [Server thread/INFO]: [HeadDrops] Disabling HeadDrops v2.0
+[19:13:42] [Server thread/INFO]: [iDisguise] Disabling iDisguise v5.6.4
+[19:13:42] [Server thread/INFO]: [iDisguise] iDisguise 5.6.4 disabled!
+[19:13:42] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v18.04.13-049aff4-1063-19.4.26
+[19:13:42] [Server thread/INFO]: [Friends3_0] Disabling Friends3_0 v3.0.2.5
+[19:13:42] [Server thread/INFO]: [Votifier] [Votifier] Disabling Votifier v1.9
+[19:13:42] [Server thread/INFO]: [Votifier] [Votifier] Votifier disabled.
+[19:13:42] [Thread-10/WARN]: [Votifier] [Votifier] Protocol error. Ignoring packet - socket closed
+[19:13:42] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.2.0
+[19:13:42] [Server thread/INFO]: [TumbleCraftAdminSummon] Disabling TumbleCraftAdminSummon v1.0
+[19:13:42] [Server thread/INFO]: [TumbleCraftAdminSummon] TumbleCraftAdminSummon Disabled
+[19:13:42] [Server thread/INFO]: [ClearLag] Disabling ClearLag v2.9.7
+[19:13:42] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[19:13:42] [Server thread/INFO]: [Wild] Disabling Wild v3.13.1
+[19:13:42] [Server thread/INFO]: Saving players
+[19:13:42] [Server thread/INFO]: Saving worlds
+[19:13:42] [Server thread/INFO]: Saving chunks for level 'Survival'/overworld
+[19:13:42] [Server thread/INFO]: Saving chunks for level 'Creative'/overworld
+[19:13:42] [Server thread/INFO]: Saving chunks for level 'Staff'/overworld
+[19:13:42] [Server thread/INFO]: Saving chunks for level 'DrCraft'/overworld
+[19:13:42] [Server thread/INFO]: Saving chunks for level 'test'/overworld
