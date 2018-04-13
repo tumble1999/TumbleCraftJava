@@ -85,7 +85,6 @@ groups:
     - essentials.msg.color
     - essentials.chat.color
     - essentials.nick.magic
-    - multiverse.portal.exempt.*
     - nte.helper
     worlds:
       Survival:
@@ -166,6 +165,8 @@ groups:
       Creative:
         permissions:
       - plots.plot.4
+  vip:
+
   voter:
     options:
       prefix: '&b[Voter] &r'
