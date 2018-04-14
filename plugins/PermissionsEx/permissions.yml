@@ -2,9 +2,9 @@ groups:
   admin:
     options:
       prefix: '&c[Admin] '
-      rank: '20'
+      rank: '1'
       rank-ladder: Ranks
-      weight: '20'
+      weight: '1'
     inheritance:
     - mod
     permissions:
@@ -12,9 +12,9 @@ groups:
   mod:
     options:
       prefix: '&2[Mod] &a'
-      rank: '40'
+      rank: '2'
       rank-ladder: Ranks
-      weight: '40'
+      weight: '2'
     permissions:
     - essentials.nick.color
     - griefprevention.admin.chat.*
@@ -77,15 +77,10 @@ groups:
   helper:
     options:
       prefix: '&1[Helper] &9'
-      rank: '50'
+      rank: '3'
       rank-ladder: Ranks
-      weight: '50'
+      weight: '3'
     permissions:
-    - essentials.kits.color
-    - essentials.msg.color
-    - essentials.chat.color
-    - essentials.nick.magic
-    - multiverse.portal.exempt.*
     - nte.helper
     worlds:
       Survival:
@@ -108,7 +103,7 @@ groups:
       rank-ladder: Ranks
       weight: '60'
     inheritance:
-    - helper
+    - vip
     permissions:
     - essentials.god
     - essentials.fly
@@ -166,6 +161,29 @@ groups:
       Creative:
         permissions:
       - plots.plot.4
+  vip:
+    options:
+      prefix: '&b[&aVIP&b] &r'
+      rank: '4'
+      rank-ladder: Ranks
+      weight: '4'
+    permissions:
+      - essentials.kits.color
+      - essentials.msg.color
+      - essentials.chat.color
+      - essentials.nick.magic
+    worlds:
+      Survival:
+        permissions:
+        - essentials.sethome.multiple
+        - essentials.kits.iron
+        - Friends.ExtraFriends
+        - hat.hat
+        - iDisguise.object.*
+      Creative:
+        permissions:
+        - plots.permpack.basicflags
+        - plots.plot.2
   voter:
     options:
       prefix: '&b[Voter] &r'
@@ -313,25 +331,11 @@ users:
       last-login-time: '1523069447'
   cb380fa7-e260-4b58-b33a-c17fbb5196d7:
     group:
-    - helper
+    - vip
     options:
       name: ashlynz_
       last-logout-time: '1523125909'
       last-login-time: '1523119487'
-  84c6c5c9-0a73-4b84-a127-37161c243d3c:
-    group: []
-    options:
-      name: twinsane1029
-      last-logout-time: '1523070297'
-      last-login-time: '1523069563'
-  4104ed29-de30-4aef-b9c6-19cdc7b1bec5:
-    group:
-    - member
-    options:
-      name: im22
-      prefix: ''
-      last-logout-time: '1523198436'
-      last-login-time: '1523197669'
   a8e37e40-b4fe-4a77-ab37-e473b32c8303:
     group:
     - builder
@@ -341,7 +345,7 @@ users:
       last-login-time: '1523200633'
   37e6bd3a-0e16-4d05-95e3-988d32576a1c:
     group:
-    - helper
+    - vip
     options:
       name: DJB1011
       last-logout-time: '1523150737'
@@ -353,7 +357,7 @@ users:
       name: EmmaPowee
   b133ed03-8276-41c2-96ba-ec6cc8ad0df9:
     group:
-    - helper
+    - vip
     options:
       name: JONHOBBITTON
   0a531873-df03-4a82-afae-1bdd41e18fc2:
