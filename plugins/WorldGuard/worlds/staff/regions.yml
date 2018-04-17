@@ -12,7 +12,7 @@
 regions:
     __global__:
         members: {}
-        flags: {}
+        flags: {build: deny}
         owners: {}
         type: global
         priority: 0

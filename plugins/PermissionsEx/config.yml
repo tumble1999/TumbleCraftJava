@@ -8,11 +8,11 @@ permissions:
   createUserRecords: false
   backend: file
   informplayers:
-    changes: true
+    changes: false
   basedir: plugins/PermissionsEx
   backends:
     file:
       type: file
       file: permissions.yml
 updater: true
-alwaysUpdate: true
+alwaysUpdate: false

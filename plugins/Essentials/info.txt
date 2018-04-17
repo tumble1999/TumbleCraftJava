@@ -21,7 +21,7 @@ It can contain chapters like the Chapter1 below:
 Lines starting with # begin a new chapter
 The user has to type /info Chapter1 to read this chapter
 
-If the file starts with a # then the user is shown a chapter selection, 
+If the file starts with a # then the user is shown a chapter selection,
 when he does not select a chapter.
 
 #Colors
@@ -30,7 +30,7 @@ Minecraft colors:
 &4 &&4  &5 &&5  &6 &&6  &7 &&7
 &8 &&8  &9 &&9  &a &&a  &b &&b
 &c &&c  &d &&d  &e &&e  &f &&f
-&0 
+&0
 &&k &kMagic&r   &&l &lBold
 &&m &mStrike&r  &&n &nUline
 &&o &oItalic&r   &&r &rReset
@@ -54,3 +54,31 @@ Minecraft colors:
 &6Date of world:&r {WORLDDATE}
 &6Plugin list:&r {PLUGINS}
 &6Version of CraftBukkit:&r {VERSION}
+
+#ranks
+==&4STAFF&r==
+&c[Admin]
+&a[Mod]
+&9[Helper]
+
+==&aTRUSTED&r==
+&e[Builder]
+&b[&aVIP&b]
+
+==FREE==
+&b[Voter]
+&7[Member]
+
+#allranks
+&4[Owner] &c{USERNAME}: hello
+&c[Admin] {USERNAME}: hello
+&2[Mod] &a{USERNAME}: hello
+&1[Helper] &9{USERNAME}: hello
+&6[Builder] &e{USERNAME}: hello
+&b[&aVIP&b] &r{USERNAME}: hello
+&b[Voter] &r{USERNAME}: hello
+&7{USERNAME}: hello
+
+#apply
+&l Apply Here:
+&a http://tumblecraft.tumblenet.ga/apply/

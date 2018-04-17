@@ -73,7 +73,7 @@ groups:
         permissions:
         - plots.plot.8
     inheritance:
-    - builder
+    - helper
   helper:
     options:
       prefix: '&1[Helper] &9'
@@ -88,8 +88,7 @@ groups:
         - essentials.sethome.multiple
         - essentials.kits.diamond
         - Friends.ExtraFriends
-        - hat.hat
-        - iDisguise.object.*
+        - essentials.warp.list
       Creative:
         permissions:
         - plots.permpack.basicflags
@@ -98,7 +97,7 @@ groups:
     - builder
   builder:
     options:
-      prefix: '&1[Builder] &9'
+      prefix: '&6[Builder] &e'
       rank: '60'
       rank-ladder: Ranks
       weight: '60'
@@ -160,18 +159,23 @@ groups:
         - iDisguise.others
       Creative:
         permissions:
-      - plots.plot.4
+        - plots.plot.4
   vip:
     options:
       prefix: '&b[&aVIP&b] &r'
       rank: '4'
       rank-ladder: Ranks
       weight: '4'
+    inheritance:
+    - voter
     permissions:
-      - essentials.kits.color
-      - essentials.msg.color
-      - essentials.chat.color
-      - essentials.nick.magic
+    - essentials.kits.color
+    - essentials.msg.color
+    - essentials.chat.color
+    - essentials.nick.magic
+    - essentials.warp
+    - hat.hat
+    - iDisguise.object.*
     worlds:
       Survival:
         permissions:
@@ -216,6 +220,7 @@ groups:
       rank-ladder: Ranks
       weight: '80'
     permissions:
+    - chestcommands.open.server.yml
     - essentials.customtext
     - essentials.home.list
     - friends.commands.toggle.chat
@@ -228,7 +233,6 @@ groups:
     - friends.commands.remove
     - friends.commands.add
     - friends.use
-    - essentials.warp.list
     - essentials.tptoggle
     - essentials.msg
     - essentials.afk
@@ -239,9 +243,6 @@ groups:
     - essentials.me
     - essentials.realname
     - essentials.spawn
-    - essentials.warps.cave
-    - essentials.warps.spawn
-    - essentials.warp
     - essentials.rules
     - essentials.seen
     - friend.commands.add
@@ -365,6 +366,8 @@ users:
       name: Maxwell_Plays
     group:
     - builder
-  snouzuless:
+  47b29ff7-bff7-461f-8402-748654ebd53a:
     group:
     - mod
+    options:
+      name: Snouzuless

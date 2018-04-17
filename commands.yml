@@ -35,6 +35,10 @@ aliases:
   - pex user $$1 group set member
   tmprank:
   - pex user $$1 group add $$2 "" $$3
+  ranks:
+  - einfo ranks $1
+  allranks:
+  - einfo allranks $1
   shop:
   - warp shop $1
   restart:
@@ -48,4 +52,4 @@ aliases:
   notwork:
   - mail send TumbleGamer This isnt working; $$1-
   apply:
-  - mail send TumbleGamer $$1 wants to apply for $$2; $$3-
+  - einfo apply

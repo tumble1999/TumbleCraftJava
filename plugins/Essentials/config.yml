@@ -295,23 +295,23 @@ pastebin-createkit: false
 
 enabledSigns:
   - color
-  - balance
+  #- balance
   - buy
   - sell
   - trade
   - free
   - disposal
-  - warp
-  - kit
-  - mail
-  - enchant
-  - gamemode
-  - heal
-  - info
-  - spawnmob
-  - repair
-  - time
-  - weather
+  #- warp
+  #- kit
+  #- mail
+  #- enchant
+  #- gamemode
+  #- heal
+  #- info
+  #- spawnmob
+  #- repair
+  #- time
+  #- weather
 
 # How many times per second can Essentials signs be interacted with per player.
 # Values should be between 1-20, 20 being virtually no lag protection.
@@ -343,8 +343,9 @@ per-warp-permission: false
 # Detailed instructions and examples can be found on the wiki: http://wiki.ess3.net/wiki/List
 list:
     # To merge groups, list the groups you wish to merge
-    #Staff: owner admin moderator
-    Admins: owner admin
+    Staff: owner admin mod helper
+    Trusted: builder vip
+    #Admins: owner admin
     # To limit groups, set a max user limit
     #builder: 20
     # To hide groups, set the group as hidden

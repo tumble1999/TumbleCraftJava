@@ -89,3 +89,7 @@ kits:
     - DIAMOND_BOOTS 1
     - COOKED_BEEF 64
     - GOLDEN_APPLE:1 64
+  serverstart:
+    delay: 0
+    items:
+    - WATCH 1 name:&eServer_Selector
