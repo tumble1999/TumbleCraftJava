@@ -1,385 +1,365 @@
-[12:56:19] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[12:56:19] [Server thread/INFO]: Loading properties
-[12:56:19] [Server thread/INFO]: Default game type: SURVIVAL
-[12:56:19] [Server thread/INFO]: This server is running Paper version git-Paper-1383 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[12:56:20] [Server thread/INFO]: Debug logging is disabled
-[12:56:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:56:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:56:20] [Server thread/INFO]: Generating keypair
-[12:56:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:56:24] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[12:56:25] [Server thread/INFO]: [github.scarsz.discordsrv.dependencies.reflections.Reflections] Reflections took 440 ms to scan 14 urls, producing 13 keys and 21 values 
-[12:56:25] [Server thread/INFO]: [Wild] Loading Wild v3.13.1
-[12:56:25] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.7
-[12:56:25] [Server thread/INFO]: [TumbleCraftAdminSummon] Loading TumbleCraftAdminSummon v1.0
-[12:56:25] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.2.0
-[12:56:25] [Server thread/INFO]: [Votifier] [Votifier] Loading Votifier v1.9
-[12:56:25] [Server thread/INFO]: [Friends3_0] Loading Friends3_0 v3.0.2.5
-[12:56:25] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v18.04.15-d1231fb-1064-19.4.27
-[12:56:25] [Server thread/INFO]: [iDisguise] Loading iDisguise v5.6.4
-[12:56:25] [Server thread/INFO]: [HeadDrops] Loading HeadDrops v2.0
-[12:56:25] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[12:56:25] [Server thread/INFO]: [PlayerNameSigns] Loading PlayerNameSigns v1.0
-[12:56:25] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
-[12:56:25] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, waiting for boot. (late-bind)
-[12:56:25] [Server thread/INFO]: [Hats] Loading Hats v1.6
-[12:56:25] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
-[12:56:25] [Server thread/INFO]: [Announcements] Loading Announcements v1.0
-[12:56:25] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v2.3.1
-[12:56:25] [Server thread/INFO]: [WorldChat] Loading WorldChat v1.0
-[12:56:25] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.3.5
-[12:56:25] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
-[12:56:25] [Server thread/INFO]: [Essentials] Loading Essentials v2.15.0.1
-[12:56:25] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v1.11.5
-[12:56:26] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v18.04.15-9fe1e53-1979
-[12:56:26] [Server thread/INFO]: [Marriage] Loading Marriage v2.0.17
-[12:56:26] [Server thread/INFO]: [Marriage] Completed plugin pre-load stage.
-[12:56:26] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
-[12:56:26] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.1;84bc322
-[12:56:26] [Server thread/INFO]: [Vote] Loading Vote v2.0.1
-[12:56:26] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.22-SNAPSHOT (build 1537)
-[12:56:26] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
-[12:56:26] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.16.1
-[12:56:26] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v2.4-b523
-[12:56:26] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.15.0.1
-[12:56:26] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.15.0.1
-[12:56:26] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.15.0.1
-[12:56:26] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5.0-b751
-[12:56:26] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.15.0.1
-[12:56:26] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.8
-[12:56:26] [Server thread/INFO]: [EnjinMinecraftPlugin] Loading EnjinMinecraftPlugin v3.4.3
-[12:56:26] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.2.6
-[12:56:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:56:26] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v18.04.15-d1231fb-1064-19.4.27
-[12:56:27] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
-[12:56:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[12:56:28] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[12:56:28] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[12:56:28] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[12:56:28] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
-[12:56:28] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v2.3.1
-[12:56:28] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.3.5
-[12:56:28] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v18.04.15-9fe1e53-1979
-[12:56:28] [Server thread/INFO]: Version is PlotSquared-18.4.15-9fe1e53-1979
-[12:56:29] [Server thread/INFO]: [P2] Metrics enabled.
-[12:56:29] [Server thread/INFO]: [P2]  PlotSquared is using online UUIDs
-[12:56:29] [Server thread/INFO]: PlotSquared hooked into WorldEdit.
-[12:56:29] [Server thread/INFO]: [P2] Key: plot-expiry, Value: false
-[12:56:29] [Server thread/INFO]: [P2] Key: kill-road-mobs, Value: false
-[12:56:29] [Server thread/INFO]: [P2] Key: worlds, Value: false
-[12:56:29] [Server thread/INFO]: [P2] Key: worldedit-restrictions, Value: true
-[12:56:29] [Server thread/INFO]: [P2] Key: database-purger, Value: false
-[12:56:29] [Server thread/INFO]: [P2] Key: economy, Value: true
-[12:56:29] [Server thread/INFO]: [P2] Key: block-cache, Value: true
-[12:56:29] [Server thread/INFO]: [P2] Key: kill-road-vehicles, Value: false
-[12:56:29] [Server thread/INFO]: [P2] Key: persistent-meta, Value: true
-[12:56:29] [Server thread/INFO]: [P2] Key: ban-deleter, Value: false
-[12:56:29] [Server thread/INFO]: [P2] Key: updater, Value: true
-[12:56:29] [Server thread/INFO]: [P2] Key: database, Value: true
-[12:56:29] [Server thread/INFO]: [P2] Key: plotme-converter, Value: true
-[12:56:29] [Server thread/INFO]: [P2] Key: permission-cache, Value: true
-[12:56:29] [Server thread/INFO]: [P2] Key: rating-cache, Value: true
-[12:56:29] [Server thread/INFO]: [P2] Key: comment-notifier, Value: false
-[12:56:29] [Server thread/INFO]: [P2] Key: metrics, Value: true
-[12:56:29] [Server thread/INFO]: [P2] Key: chunk-processor, Value: false
-[12:56:29] [Server thread/INFO]: [P2] Key: uuid-cache, Value: true
-[12:56:29] [Server thread/INFO]: [P2] Key: events, Value: true
-[12:56:29] [Server thread/INFO]: [P2] Key: commands, Value: true
-[12:56:29] [Server thread/INFO]: PlotSquared is now enabled
-[12:56:29] [Server thread/INFO]: [P2] Metrics enabled.
-[12:56:29] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[12:56:29] [Server thread/INFO]: Preparing level "Survival"
-[12:56:29] [Server thread/INFO]: -------- World Settings For [Survival] --------
-[12:56:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:56:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:56:29] [Server thread/INFO]: Item Merge Radius: 3.5
-[12:56:29] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:56:29] [Server thread/INFO]: View Distance: 4
-[12:56:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[12:56:29] [Server thread/INFO]: Experience Merge Radius: 6.0
-[12:56:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:56:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[12:56:29] [Server thread/INFO]: Mob Spawn Range: 3
-[12:56:29] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
-[12:56:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:56:29] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:56:29] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:56:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:56:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:56:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:56:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:56:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:56:29] [Server thread/INFO]: Vine Growth Modifier: 100%
-[12:56:29] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[12:56:29] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
-[12:56:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:56:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[12:56:29] [Server thread/INFO]: Random Lighting Updates: false
-[12:56:29] [Server thread/INFO]: Structure Info Saving: true
-[12:56:29] [Server thread/INFO]: Max TNT Explosions: 100
-[12:56:30] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
-[12:56:30] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3338580988281408739)
-[12:56:30] [Server thread/INFO]: [Wild] Enabling Wild v3.13.1
-[12:56:31] [Server thread/INFO]: [Wild] GriefPrevention hook enabled
-[12:56:31] [Server thread/INFO]: [Wild] Already Converted
-[12:56:31] [Server thread/INFO]: [Wild] Changes from version 3.11.0 to 3.12.0 include: +
+[15:27:36] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[15:27:36] [Server thread/INFO]: Loading properties
+[15:27:36] [Server thread/INFO]: Default game type: SURVIVAL
+[15:27:36] [Server thread/INFO]: This server is running Paper version git-Paper-1383 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[15:27:36] [Server thread/INFO]: Debug logging is disabled
+[15:27:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:27:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:27:37] [Server thread/INFO]: Generating keypair
+[15:27:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:27:38] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[15:27:39] [Server thread/INFO]: [github.scarsz.discordsrv.dependencies.reflections.Reflections] Reflections took 343 ms to scan 14 urls, producing 13 keys and 21 values 
+[15:27:39] [Server thread/INFO]: [Wild] Loading Wild v3.13.1
+[15:27:39] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.7
+[15:27:39] [Server thread/INFO]: [TumbleCraftAdminSummon] Loading TumbleCraftAdminSummon v1.0
+[15:27:39] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.2.0
+[15:27:39] [Server thread/INFO]: [Votifier] [Votifier] Loading Votifier v1.9
+[15:27:39] [Server thread/INFO]: [Friends3_0] Loading Friends3_0 v3.0.2.5
+[15:27:39] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v18.04.15-d1231fb-1064-19.4.27
+[15:27:39] [Server thread/INFO]: [iDisguise] Loading iDisguise v5.6.4
+[15:27:39] [Server thread/INFO]: [HeadDrops] Loading HeadDrops v2.0
+[15:27:39] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[15:27:39] [Server thread/INFO]: [PlayerNameSigns] Loading PlayerNameSigns v1.0
+[15:27:39] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
+[15:27:39] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, waiting for boot. (late-bind)
+[15:27:39] [Server thread/INFO]: [Hats] Loading Hats v1.6
+[15:27:39] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[15:27:39] [Server thread/INFO]: [Announcements] Loading Announcements v1.0
+[15:27:39] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v2.3.1
+[15:27:39] [Server thread/INFO]: [WorldChat] Loading WorldChat v1.0
+[15:27:39] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.3.5
+[15:27:39] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[15:27:39] [Server thread/INFO]: [Essentials] Loading Essentials v2.15.0.1
+[15:27:39] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v1.11.5
+[15:27:39] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v18.04.15-9fe1e53-1979
+[15:27:39] [Server thread/INFO]: [Marriage] Loading Marriage v2.0.17
+[15:27:39] [Server thread/INFO]: [Marriage] Completed plugin pre-load stage.
+[15:27:39] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
+[15:27:39] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.1;84bc322
+[15:27:39] [Server thread/INFO]: [Vote] Loading Vote v2.0.1
+[15:27:39] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.22-SNAPSHOT (build 1537)
+[15:27:39] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+[15:27:39] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.16.1
+[15:27:39] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v2.4-b523
+[15:27:40] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.15.0.1
+[15:27:40] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.15.0.1
+[15:27:40] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.15.0.1
+[15:27:40] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.5.0-b751
+[15:27:40] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.15.0.1
+[15:27:40] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.8
+[15:27:40] [Server thread/INFO]: [EnjinMinecraftPlugin] Loading EnjinMinecraftPlugin v3.4.3
+[15:27:40] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.2.6
+[15:27:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:27:40] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v18.04.15-d1231fb-1064-19.4.27
+[15:27:42] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[15:27:43] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:27:43] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[15:27:43] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:27:43] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[15:27:43] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[15:27:43] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v2.3.1
+[15:27:43] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.3.5
+[15:27:43] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v18.04.15-9fe1e53-1979
+[15:27:43] [Server thread/INFO]: Version is PlotSquared-18.4.15-9fe1e53-1979
+[15:27:45] [Server thread/INFO]: [P2] Metrics enabled.
+[15:27:45] [Server thread/INFO]: [P2]  PlotSquared is using online UUIDs
+[15:27:45] [Server thread/INFO]: PlotSquared hooked into WorldEdit.
+[15:27:45] [Server thread/INFO]: [P2] Key: plot-expiry, Value: false
+[15:27:45] [Server thread/INFO]: [P2] Key: kill-road-mobs, Value: false
+[15:27:45] [Server thread/INFO]: [P2] Key: worlds, Value: false
+[15:27:45] [Server thread/INFO]: [P2] Key: worldedit-restrictions, Value: true
+[15:27:45] [Server thread/INFO]: [P2] Key: database-purger, Value: false
+[15:27:45] [Server thread/INFO]: [P2] Key: economy, Value: true
+[15:27:45] [Server thread/INFO]: [P2] Key: block-cache, Value: true
+[15:27:45] [Server thread/INFO]: [P2] Key: kill-road-vehicles, Value: false
+[15:27:45] [Server thread/INFO]: [P2] Key: persistent-meta, Value: true
+[15:27:45] [Server thread/INFO]: [P2] Key: ban-deleter, Value: false
+[15:27:45] [Server thread/INFO]: [P2] Key: updater, Value: true
+[15:27:45] [Server thread/INFO]: [P2] Key: database, Value: true
+[15:27:45] [Server thread/INFO]: [P2] Key: plotme-converter, Value: true
+[15:27:45] [Server thread/INFO]: [P2] Key: permission-cache, Value: true
+[15:27:45] [Server thread/INFO]: [P2] Key: rating-cache, Value: true
+[15:27:45] [Server thread/INFO]: [P2] Key: comment-notifier, Value: false
+[15:27:45] [Server thread/INFO]: [P2] Key: metrics, Value: true
+[15:27:45] [Server thread/INFO]: [P2] Key: chunk-processor, Value: false
+[15:27:45] [Server thread/INFO]: [P2] Key: uuid-cache, Value: true
+[15:27:45] [Server thread/INFO]: [P2] Key: events, Value: true
+[15:27:45] [Server thread/INFO]: [P2] Key: commands, Value: true
+[15:27:45] [Server thread/INFO]: PlotSquared is now enabled
+[15:27:45] [Server thread/INFO]: [P2] Metrics enabled.
+[15:27:45] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[15:27:45] [Server thread/INFO]: Preparing level "Survival"
+[15:27:45] [Server thread/INFO]: -------- World Settings For [Survival] --------
+[15:27:45] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:27:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:27:45] [Server thread/INFO]: Item Merge Radius: 3.5
+[15:27:45] [Server thread/INFO]: View Distance: 4
+[15:27:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:27:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:27:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:27:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:27:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:27:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:27:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:27:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:27:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:27:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:27:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:27:45] [Server thread/INFO]: Mob Spawn Range: 3
+[15:27:45] [Server thread/INFO]: Max TNT Explosions: 100
+[15:27:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:27:45] [Server thread/INFO]: Structure Info Saving: true
+[15:27:45] [Server thread/INFO]: Random Lighting Updates: false
+[15:27:45] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[15:27:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:27:45] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
+[15:27:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:27:45] [Server thread/INFO]: Experience Merge Radius: 6.0
+[15:27:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:27:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:27:46] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
+[15:27:46] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3338580988281408739)
+[15:27:46] [Server thread/INFO]: [Wild] Enabling Wild v3.13.1
+[15:27:46] [Server thread/INFO]: [Wild] GriefPrevention hook enabled
+[15:27:46] [Server thread/INFO]: [Wild] Already Converted
+[15:27:46] [Server thread/INFO]: [Wild] Changes from version 3.11.0 to 3.12.0 include: +
 * Reworked gui +
 * Fixed NPE from refundPlayer
-[12:56:31] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.7
-[12:56:31] [Server thread/INFO]: [ClearLag] Loading modules...
-[12:56:31] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[12:56:31] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[12:56:31] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[12:56:31] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
-[12:56:31] [Server thread/INFO]: [TumbleCraftAdminSummon] Enabling TumbleCraftAdminSummon v1.0
-[12:56:31] [Server thread/INFO]: [TumbleCraftAdminSummon] TumbleCraftAdminSummon Enabled.
-[12:56:31] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.2.0
-[12:56:31] [Server thread/INFO]: [NametagEdit] Found PermissionsEx! Hooking in.
-[12:56:31] [Server thread/INFO]: [Votifier] [Votifier] Enabling Votifier v1.9
-[12:56:31] [Server thread/INFO]: [Votifier] [Votifier] Votifier enabled.
-[12:56:31] [Server thread/INFO]: [Friends3_0] Enabling Friends3_0 v3.0.2.5
-[12:56:32] [Server thread/INFO]: Friends | A new update is available!
-[12:56:32] [Server thread/INFO]: Friends | Please update your plugin!
-[12:56:32] [Server thread/INFO]: Friends | You will get no support for this version!
-[12:56:32] [Server thread/INFO]: Friends | The plugin was successfully loaded! < FlatFile >
-[12:56:32] [Server thread/INFO]: [iDisguise] Enabling iDisguise v5.6.4
-[12:56:32] [Server thread/INFO]: [iDisguise] iDisguise 5.6.4 enabled!
-[12:56:32] [Server thread/INFO]: [HeadDrops] Enabling HeadDrops v2.0
-[12:56:32] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[12:56:32] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[12:56:32] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[12:56:33] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[12:56:33] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
-[12:56:33] [Server thread/INFO]: [PlayerNameSigns] Enabling PlayerNameSigns v1.0
-[12:56:33] [Server thread/INFO]: [PlayerNameSigns] PlayerNameSigns Enabled
-[12:56:33] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.3.0
-[12:56:33] [Server thread/INFO]: [Hats] Enabling Hats v1.6
-[12:56:33] [Server thread/INFO]: [Hats] *************** HATS ****************
-[12:56:33] [Server thread/INFO]: [Hats] # Version : 1.6
-[12:56:33] [Server thread/INFO]: [Hats] # Autor   : bernatixer
-[12:56:33] [Server thread/INFO]: [Hats] # Webpage : www.bernatixer.com
-[12:56:33] [Server thread/INFO]: [Hats] *************************************
-[12:56:33] [Server thread/INFO]: [Announcements] Enabling Announcements v1.0
-[12:56:33] [Server thread/INFO]: [Announcements] Hello.
-[12:56:33] [Server thread/INFO]: [WorldChat] Enabling WorldChat v1.0
-[12:56:33] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
-[12:56:33] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[12:56:33] [Thread-9/INFO]: [ClearLag] No updates found!
-[12:56:33] [Thread-11/WARN]: Exception in thread "Thread-11" java.lang.NullPointerException
-[12:56:33] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
-[12:56:33] [Thread-11/WARN]: 	at de.timolia.headdrops.Updater$1.run(Updater.java:52)
-[12:56:33] [Thread-11/WARN]: 	at java.lang.Thread.run(Unknown Source)
-[12:56:33] [Server thread/INFO]: [Essentials] Enabling Essentials v2.15.0.1
-[12:56:34] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[12:56:34] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[12:56:34] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[12:56:34] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
-[12:56:34] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[12:56:34] [Server thread/INFO]: [Essentials] Using locale en_GB
-[12:56:34] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
-[12:56:34] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[12:56:34] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
-[12:56:34] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
-[12:56:34] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v1.11.5
-[12:56:34] [Server thread/INFO]: [PerWorldInventory] Registering listeners...
-[12:56:34] [Server thread/INFO]: [PerWorldInventory] Listeners registered!
-[12:56:35] [Server thread/INFO]: [PerWorldInventory] Registering commands...
-[12:56:35] [Server thread/INFO]: [PerWorldInventory] Commands registered!
-[12:56:35] [Server thread/INFO]: [PerWorldInventory] Vault found! Hooking into it...
-[12:56:35] [Server thread/INFO]: [PerWorldInventory] Hooked into Vault!
-[12:56:35] [Server thread/INFO]: [Marriage] Enabling Marriage v2.0.17
-[12:56:35] [Server thread/INFO]: [Marriage] Loading config...
-[12:56:35] [Server thread/INFO]: [Marriage] Hooked with PermissionsEx using Vault!
-[12:56:35] [Server thread/INFO]: [Marriage] Loading dependencies...
-[12:56:35] [Server thread/INFO]: [Marriage] Loading commands...
-[12:56:35] [Server thread/INFO]: [Marriage] Loading listeners...
-[12:56:35] [Server thread/INFO]: [Marriage] Hooking with PlotSquared v18.04.15-9fe1e53-1979
-[12:56:35] [Server thread/INFO]: [Marriage] Loading database...
-[12:56:35] [Server thread/INFO]: [Marriage] Loading updater...
-[12:56:35] [Server thread/INFO]: [Marriage] Loading converter...
-[12:56:35] [Server thread/INFO]: [Marriage] Completed plugin load stage.
-[12:56:35] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
-[12:56:37] [Server thread/INFO]: [P2]  - schematic: false
-[12:56:37] [Server thread/INFO]: -------- World Settings For [Creative] --------
-[12:56:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:56:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:56:37] [Server thread/INFO]: Item Merge Radius: 3.5
-[12:56:37] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:56:37] [Server thread/INFO]: View Distance: 4
-[12:56:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[12:56:37] [Server thread/INFO]: Experience Merge Radius: 6.0
-[12:56:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:56:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[12:56:37] [Server thread/INFO]: Mob Spawn Range: 3
-[12:56:37] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
-[12:56:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:56:37] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:56:37] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:56:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:56:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:56:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:56:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:56:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:56:37] [Server thread/INFO]: Vine Growth Modifier: 100%
-[12:56:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[12:56:37] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
-[12:56:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:56:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[12:56:37] [Server thread/INFO]: Random Lighting Updates: false
-[12:56:37] [Server thread/INFO]: Structure Info Saving: true
-[12:56:37] [Server thread/INFO]: Max TNT Explosions: 100
-[12:56:37] [Server thread/INFO]: [P2] Detected world load for 'Creative'
-[12:56:37] [Server thread/INFO]: [P2]  - generator: PlotSquared>PlotSquared
-[12:56:37] [Server thread/INFO]: [P2]  - plotworld: com.intellectualcrafters.plot.generator.HybridPlotWorld
-[12:56:37] [Server thread/INFO]: [P2]  - manager: com.intellectualcrafters.plot.generator.HybridPlotManager
-[12:56:37] [Server thread/INFO]: [P2]  - schematic: false
-[12:56:37] [Server thread/INFO]: World possibly already loaded: Creative
-[12:56:37] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6330577853313346332)
-[12:56:38] [Server thread/INFO]: Preparing spawn area for Creative, 80%
-[12:56:40] [Server thread/INFO]: [P2]  - schematic: false
-[12:56:40] [Server thread/INFO]: -------- World Settings For [Staff] --------
-[12:56:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:56:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:56:40] [Server thread/INFO]: Item Merge Radius: 3.5
-[12:56:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:56:40] [Server thread/INFO]: View Distance: 4
-[12:56:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[12:56:40] [Server thread/INFO]: Experience Merge Radius: 6.0
-[12:56:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:56:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[12:56:40] [Server thread/INFO]: Mob Spawn Range: 3
-[12:56:40] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
-[12:56:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:56:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:56:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:56:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:56:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:56:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:56:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:56:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:56:40] [Server thread/INFO]: Vine Growth Modifier: 100%
-[12:56:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[12:56:40] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
-[12:56:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:56:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[12:56:40] [Server thread/INFO]: Random Lighting Updates: false
-[12:56:40] [Server thread/INFO]: Structure Info Saving: true
-[12:56:40] [Server thread/INFO]: Max TNT Explosions: 100
-[12:56:42] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
-[12:56:42] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8624399134769984105)
-[12:56:44] [Server thread/INFO]: -------- World Settings For [DrCraft] --------
-[12:56:44] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:56:44] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:56:44] [Server thread/INFO]: Item Merge Radius: 3.5
-[12:56:44] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:56:44] [Server thread/INFO]: View Distance: 4
-[12:56:44] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[12:56:44] [Server thread/INFO]: Experience Merge Radius: 6.0
-[12:56:44] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:56:44] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[12:56:44] [Server thread/INFO]: Mob Spawn Range: 3
-[12:56:44] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
-[12:56:44] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:56:44] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:56:44] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:56:44] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:56:44] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:56:44] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:56:44] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:56:44] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:56:44] [Server thread/INFO]: Vine Growth Modifier: 100%
-[12:56:44] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[12:56:44] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
-[12:56:44] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:56:44] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[12:56:44] [Server thread/INFO]: Random Lighting Updates: false
-[12:56:44] [Server thread/INFO]: Structure Info Saving: true
-[12:56:44] [Server thread/INFO]: Max TNT Explosions: 100
-[12:56:44] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
-[12:56:44] [Server thread/INFO]: Preparing start region for level 3 (Seed: 1406291257435953756)
-[12:56:45] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[12:56:45] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
-[12:56:45] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.1;84bc322
-[12:56:46] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
-[12:56:46] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
-[12:56:46] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is blocked.
-[12:56:46] [Server thread/INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
-[12:56:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
-[12:56:46] [Server thread/INFO]: [WorldGuard] (Creative) TNT ignition is PERMITTED.
-[12:56:46] [Server thread/INFO]: [WorldGuard] (Creative) Lighters are PERMITTED.
-[12:56:46] [Server thread/INFO]: [WorldGuard] (Creative) Lava fire is blocked.
-[12:56:46] [Server thread/INFO]: [WorldGuard] (Creative) Fire spread is UNRESTRICTED.
-[12:56:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Creative'
-[12:56:46] [Server thread/INFO]: [WorldGuard] (Staff) TNT ignition is PERMITTED.
-[12:56:46] [Server thread/INFO]: [WorldGuard] (Staff) Lighters are PERMITTED.
-[12:56:46] [Server thread/INFO]: [WorldGuard] (Staff) Lava fire is blocked.
-[12:56:46] [Server thread/INFO]: [WorldGuard] (Staff) Fire spread is UNRESTRICTED.
-[12:56:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Staff'
-[12:56:46] [Server thread/INFO]: [WorldGuard] (DrCraft) TNT ignition is PERMITTED.
-[12:56:46] [Server thread/INFO]: [WorldGuard] (DrCraft) Lighters are PERMITTED.
-[12:56:46] [Server thread/INFO]: [WorldGuard] (DrCraft) Lava fire is blocked.
-[12:56:46] [Server thread/INFO]: [WorldGuard] (DrCraft) Fire spread is UNRESTRICTED.
-[12:56:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'DrCraft'
-[12:56:46] [Server thread/INFO]: [WorldGuard] Loading region data...
-[12:56:47] [Server thread/INFO]: [Vote] Enabling Vote v2.0.1
-[12:56:47] [Server thread/INFO]: [LOG]  [Vote] Has been enabled!
-[12:56:47] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.22-SNAPSHOT (build 1537)
-[12:56:48] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4
-[12:56:48] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.16.1
-[12:56:48] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v2.4-b523
-[12:56:48] [Server thread/INFO]: [Multiverse-SignPortals] - Version 2.4-b523 Enabled - By Rigby and fernferret
-[12:56:48] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.15.0.1
-[12:56:48] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.15.0.1
-[12:56:50] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
-[12:56:50] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.15.0.1
-[12:56:50] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.5.0-b751
-[12:56:50] [Server thread/INFO]: [Multiverse-Portals] - Version 2.5.0-b751 Enabled - By Rigby and fernferret
-[12:56:52] [Server thread/INFO]: [MVPLogging] 0 - Portals(s) loaded
-[12:56:52] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[12:56:52] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.15.0.1
-[12:56:52] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.8
-[12:56:53] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[12:56:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (4fc493c3a51ba98706c6c31ed736d164ec81872d)
-[12:56:54] [Server thread/INFO]: [GriefPrevention] 11 total claims loaded.
-[12:56:54] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[12:56:54] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
-[12:56:54] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[12:56:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Language initialized as English
-[12:56:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Thank you so much to these people for allowing DiscordSRV to grow to what it is: Ac3dUd3, Androkai, anton8604, buildblox, Bysokar, CoreyD97, DeeKay, Diamondman121314/DMAN, FataL, Foxy, geekhideout, Helmic, KaizenWorlds, LDSG Ghost, Mick, mikedmd, mikedmd again, Mitecraft, PChard, Rui, Ryan (The Loyal One), Sicnus
-[12:56:55] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[12:56:55] [Server thread/INFO]: [EnjinMinecraftPlugin] Enabling EnjinMinecraftPlugin v3.4.3
-[12:56:55] [Server thread/INFO]: [com.enjin.bukkit.EnjinMinecraftPlugin] Initializing for the first time.
-[12:56:55] [Server thread/INFO]: [com.enjin.bukkit.EnjinMinecraftPlugin] Log4j 2 handler detected: com.enjin.common.compatibility.CurrentLog4j2Handler
-[12:56:57] [Server thread/INFO]: [com.enjin.shaded.reflections.Reflections] Reflections took 144 ms to scan 1 urls, producing 2 keys and 10 values 
-[12:56:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[12:56:57] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
-[12:56:57] [Server thread/WARN]: Could not register alias restart because it contains commands that do not exist: autore in 1:m
-[12:56:57] [Server thread/WARN]: Could not register alias restart-on because it contains commands that do not exist: autore start
-[12:56:57] [Server thread/WARN]: Could not register alias restart-off because it contains commands that do not exist: autore pause
-[12:56:57] [Server thread/WARN]: Could not register alias restart-info because it contains commands that do not exist: autore time
-[12:56:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[12:56:59] [Server thread/INFO]: Done (30.257s)! For help, type "help" or "?"
-[12:56:59] [Server thread/INFO]: Using default channel type
-[12:57:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Tumble Network(337887798889545728)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcome(338025080317804544)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:about(338019443319898114)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:announcements(338020007684472842)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(337887798889545728)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:random(338023793333239809)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:doctorbatmanwho(434539208221392916)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblegamer(434539228295200798)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:help(434535137019953152)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft(434064099257745409)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblecraft-console(434064718110392346)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tweet-log(338020659303153675)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-log(338026003840630784)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:git-log(338021938469404674)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mod-log(434536352177192980)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:tumblecraft-console(434064718110392346)
-[12:57:00] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
-[12:57:00] [Server thread/INFO]: Timings Reset
-[12:57:00] [Craft Scheduler Thread - 14/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+[15:27:46] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.7
+[15:27:47] [Server thread/INFO]: [ClearLag] Loading modules...
+[15:27:47] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[15:27:47] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[15:27:47] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[15:27:47] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
+[15:27:47] [Server thread/INFO]: [TumbleCraftAdminSummon] Enabling TumbleCraftAdminSummon v1.0
+[15:27:47] [Server thread/INFO]: [TumbleCraftAdminSummon] TumbleCraftAdminSummon Enabled.
+[15:27:47] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.2.0
+[15:27:47] [Server thread/INFO]: [NametagEdit] Found PermissionsEx! Hooking in.
+[15:27:47] [Server thread/INFO]: [Votifier] [Votifier] Enabling Votifier v1.9
+[15:27:47] [Server thread/INFO]: [Votifier] [Votifier] Votifier enabled.
+[15:27:47] [Server thread/INFO]: [Friends3_0] Enabling Friends3_0 v3.0.2.5
+[15:27:47] [Server thread/INFO]: Friends | A new update is available!
+[15:27:47] [Server thread/INFO]: Friends | Please update your plugin!
+[15:27:47] [Server thread/INFO]: Friends | You will get no support for this version!
+[15:27:47] [Server thread/INFO]: Friends | The plugin was successfully loaded! < FlatFile >
+[15:27:47] [Server thread/INFO]: [iDisguise] Enabling iDisguise v5.6.4
+[15:27:47] [Server thread/INFO]: [iDisguise] iDisguise 5.6.4 enabled!
+[15:27:47] [Server thread/INFO]: [HeadDrops] Enabling HeadDrops v2.0
+[15:27:47] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[15:27:47] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[15:27:47] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[15:27:47] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[15:27:47] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[15:27:47] [Server thread/INFO]: [PlayerNameSigns] Enabling PlayerNameSigns v1.0
+[15:27:47] [Server thread/INFO]: [PlayerNameSigns] PlayerNameSigns Enabled
+[15:27:47] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.3.0
+[15:27:47] [Server thread/INFO]: [Hats] Enabling Hats v1.6
+[15:27:47] [Server thread/INFO]: [Hats] *************** HATS ****************
+[15:27:47] [Server thread/INFO]: [Hats] # Version : 1.6
+[15:27:47] [Server thread/INFO]: [Hats] # Autor   : bernatixer
+[15:27:47] [Server thread/INFO]: [Hats] # Webpage : www.bernatixer.com
+[15:27:47] [Server thread/INFO]: [Hats] *************************************
+[15:27:47] [Server thread/INFO]: [Announcements] Enabling Announcements v1.0
+[15:27:47] [Server thread/INFO]: [Announcements] Hello.
+[15:27:47] [Server thread/INFO]: [WorldChat] Enabling WorldChat v1.0
+[15:27:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[15:27:47] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[15:27:48] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[15:27:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.15.0.1
+[15:27:48] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:27:48] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:27:48] [Thread-11/WARN]: Exception in thread "Thread-11" java.lang.NullPointerException
+[15:27:48] [Thread-9/INFO]: [ClearLag] No updates found!
+[15:27:48] [Thread-11/WARN]: 	at de.timolia.headdrops.Updater$1.run(Updater.java:52)
+[15:27:48] [Thread-11/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[15:27:48] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[15:27:48] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[15:27:48] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[15:27:49] [Server thread/INFO]: [Essentials] Using locale en_GB
+[15:27:49] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[15:27:49] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:27:49] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[15:27:49] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[15:27:49] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v1.11.5
+[15:27:49] [Server thread/INFO]: [PerWorldInventory] Registering listeners...
+[15:27:49] [Server thread/INFO]: [PerWorldInventory] Listeners registered!
+[15:27:49] [Server thread/INFO]: [PerWorldInventory] Registering commands...
+[15:27:49] [Server thread/INFO]: [PerWorldInventory] Commands registered!
+[15:27:49] [Server thread/INFO]: [PerWorldInventory] Vault found! Hooking into it...
+[15:27:49] [Server thread/INFO]: [PerWorldInventory] Hooked into Vault!
+[15:27:49] [Server thread/INFO]: [Marriage] Enabling Marriage v2.0.17
+[15:27:49] [Server thread/INFO]: [Marriage] Loading config...
+[15:27:49] [Server thread/INFO]: [Marriage] Hooked with PermissionsEx using Vault!
+[15:27:49] [Server thread/INFO]: [Marriage] Loading dependencies...
+[15:27:49] [Server thread/INFO]: [Marriage] Loading commands...
+[15:27:49] [Server thread/INFO]: [Marriage] Loading database...
+[15:27:49] [Server thread/INFO]: [Marriage] Loading listeners...
+[15:27:49] [Server thread/INFO]: [Marriage] Hooking with PlotSquared v18.04.15-9fe1e53-1979
+[15:27:49] [Server thread/INFO]: [Marriage] Loading updater...
+[15:27:49] [Server thread/INFO]: [Marriage] Loading converter...
+[15:27:49] [Server thread/INFO]: [Marriage] Completed plugin load stage.
+[15:27:49] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
+[15:27:50] [Server thread/INFO]: [P2]  - schematic: false
+[15:27:50] [Server thread/INFO]: -------- World Settings For [Creative] --------
+[15:27:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:27:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:27:50] [Server thread/INFO]: Item Merge Radius: 3.5
+[15:27:50] [Server thread/INFO]: View Distance: 4
+[15:27:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:27:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Mob Spawn Range: 3
+[15:27:50] [Server thread/INFO]: Max TNT Explosions: 100
+[15:27:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:27:50] [Server thread/INFO]: Structure Info Saving: true
+[15:27:50] [Server thread/INFO]: Random Lighting Updates: false
+[15:27:50] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[15:27:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:27:50] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
+[15:27:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:27:50] [Server thread/INFO]: Experience Merge Radius: 6.0
+[15:27:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:27:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:27:50] [Server thread/INFO]: [P2] Detected world load for 'Creative'
+[15:27:50] [Server thread/INFO]: [P2]  - generator: PlotSquared>PlotSquared
+[15:27:50] [Server thread/INFO]: [P2]  - plotworld: com.intellectualcrafters.plot.generator.HybridPlotWorld
+[15:27:50] [Server thread/INFO]: [P2]  - manager: com.intellectualcrafters.plot.generator.HybridPlotManager
+[15:27:50] [Server thread/INFO]: [P2]  - schematic: false
+[15:27:50] [Server thread/INFO]: World possibly already loaded: Creative
+[15:27:50] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6330577853313346332)
+[15:27:50] [Server thread/INFO]: [P2]  - schematic: false
+[15:27:50] [Server thread/INFO]: -------- World Settings For [DrCraft] --------
+[15:27:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:27:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:27:50] [Server thread/INFO]: Item Merge Radius: 3.5
+[15:27:50] [Server thread/INFO]: View Distance: 4
+[15:27:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:27:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:27:50] [Server thread/INFO]: Mob Spawn Range: 3
+[15:27:50] [Server thread/INFO]: Max TNT Explosions: 100
+[15:27:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:27:50] [Server thread/INFO]: Structure Info Saving: true
+[15:27:50] [Server thread/INFO]: Random Lighting Updates: false
+[15:27:50] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[15:27:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:27:50] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
+[15:27:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:27:50] [Server thread/INFO]: Experience Merge Radius: 6.0
+[15:27:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:27:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:27:50] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
+[15:27:50] [Server thread/INFO]: Preparing start region for level 2 (Seed: 1406291257435953756)
+[15:27:51] [Server thread/INFO]: -------- World Settings For [Staff] --------
+[15:27:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:27:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:27:51] [Server thread/INFO]: Item Merge Radius: 3.5
+[15:27:51] [Server thread/INFO]: View Distance: 4
+[15:27:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:27:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:27:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:27:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:27:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:27:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:27:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:27:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:27:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:27:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:27:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:27:51] [Server thread/INFO]: Mob Spawn Range: 3
+[15:27:51] [Server thread/INFO]: Max TNT Explosions: 100
+[15:27:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:27:51] [Server thread/INFO]: Structure Info Saving: true
+[15:27:51] [Server thread/INFO]: Random Lighting Updates: false
+[15:27:51] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[15:27:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:27:51] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
+[15:27:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:27:51] [Server thread/INFO]: Experience Merge Radius: 6.0
+[15:27:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:27:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[15:27:51] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
+[15:27:51] [Server thread/INFO]: Preparing start region for level 3 (Seed: -8624399134769984105)
+[15:27:51] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[15:27:51] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
+[15:27:51] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.1;84bc322
+[15:27:51] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
+[15:27:51] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
+[15:27:51] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is blocked.
+[15:27:51] [Server thread/INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
+[15:27:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
+[15:27:51] [Server thread/INFO]: [WorldGuard] (Creative) TNT ignition is PERMITTED.
+[15:27:51] [Server thread/INFO]: [WorldGuard] (Creative) Lighters are PERMITTED.
+[15:27:51] [Server thread/INFO]: [WorldGuard] (Creative) Lava fire is blocked.
+[15:27:51] [Server thread/INFO]: [WorldGuard] (Creative) Fire spread is UNRESTRICTED.
+[15:27:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Creative'
+[15:27:52] [Server thread/INFO]: [WorldGuard] (DrCraft) TNT ignition is PERMITTED.
+[15:27:52] [Server thread/INFO]: [WorldGuard] (DrCraft) Lighters are PERMITTED.
+[15:27:52] [Server thread/INFO]: [WorldGuard] (DrCraft) Lava fire is blocked.
+[15:27:52] [Server thread/INFO]: [WorldGuard] (DrCraft) Fire spread is UNRESTRICTED.
+[15:27:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'DrCraft'
+[15:27:52] [Server thread/INFO]: [WorldGuard] (Staff) TNT ignition is PERMITTED.
+[15:27:52] [Server thread/INFO]: [WorldGuard] (Staff) Lighters are PERMITTED.
+[15:27:52] [Server thread/INFO]: [WorldGuard] (Staff) Lava fire is blocked.
+[15:27:52] [Server thread/INFO]: [WorldGuard] (Staff) Fire spread is UNRESTRICTED.
+[15:27:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Staff'
+[15:27:52] [Server thread/INFO]: [WorldGuard] Loading region data...
+[15:27:52] [Server thread/INFO]: [Vote] Enabling Vote v2.0.1
+[15:27:52] [Server thread/INFO]: [LOG]  [Vote] Has been enabled!
+[15:27:52] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.22-SNAPSHOT (build 1537)
+[15:27:52] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4
+[15:27:52] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.16.1
+[15:27:52] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v2.4-b523
+[15:27:52] [Server thread/INFO]: [Multiverse-SignPortals] - Version 2.4-b523 Enabled - By Rigby and fernferret
+[15:27:52] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.15.0.1
+[15:27:52] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.15.0.1
+[15:27:53] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[15:27:53] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.15.0.1
+[15:27:53] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.5.0-b751
+[15:27:53] [Server thread/INFO]: [Multiverse-Portals] - Version 2.5.0-b751 Enabled - By Rigby and fernferret
+[15:27:53] [Server thread/INFO]: [MVPLogging] 0 - Portals(s) loaded
+[15:27:53] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[15:27:53] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.15.0.1
+[15:27:53] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.8
+[15:27:53] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[15:27:55] [Server thread/INFO]: [GriefPrevention] 11 total claims loaded.
+[15:27:55] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[15:27:55] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[15:27:55] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[15:27:55] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[15:27:55] [Server thread/INFO]: [EnjinMinecraftPlugin] Enabling EnjinMinecraftPlugin v3.4.3
+[15:27:55] [Server thread/INFO]: [com.enjin.bukkit.EnjinMinecraftPlugin] Initializing for the first time.
+[15:27:55] [Server thread/INFO]: [com.enjin.bukkit.EnjinMinecraftPlugin] Log4j 2 handler detected: com.enjin.common.compatibility.CurrentLog4j2Handler
+[15:27:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (4fc493c3a51ba98706c6c31ed736d164ec81872d)
+[15:27:56] [Server thread/INFO]: [com.enjin.shaded.reflections.Reflections] Reflections took 59 ms to scan 1 urls, producing 2 keys and 10 values 
+[15:27:56] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
+[15:27:56] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Language initialized as English
+[15:27:56] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Thank you so much to these people for allowing DiscordSRV to grow to what it is: Ac3dUd3, Androkai, anton8604, buildblox, Bysokar, CoreyD97, DeeKay, Diamondman121314/DMAN, FataL, Foxy, geekhideout, Helmic, KaizenWorlds, LDSG Ghost, Mick, mikedmd, mikedmd again, Mitecraft, PChard, Rui, Ryan (The Loyal One), Sicnus
+[15:27:56] [Server thread/WARN]: Could not register alias restart because it contains commands that do not exist: autore in 1:m
+[15:27:56] [Server thread/WARN]: Could not register alias restart-on because it contains commands that do not exist: autore start
+[15:27:56] [Server thread/WARN]: Could not register alias restart-off because it contains commands that do not exist: autore pause
+[15:27:56] [Server thread/WARN]: Could not register alias restart-info because it contains commands that do not exist: autore time
+[15:27:56] [Server thread/INFO]: Done (11.067s)! For help, type "help" or "?"
+[15:27:56] [Server thread/INFO]: Using default channel type
+[15:27:57] [Server thread/INFO]: Timings Reset
+[15:27:57] [Craft Scheduler Thread - 16/INFO]: [Marriage] Purged 0 player entries in 1ms
+[15:27:57] [Craft Scheduler Thread - 10/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
 java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
 	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
 	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
@@ -390,42 +370,53 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[12:57:00] [Craft Scheduler Thread - 20/INFO]: [Marriage] Purged 0 player entries in 151ms
-[12:57:00] [Craft Scheduler Thread - 11/INFO]: [Wild] There is an update available please go download it
-[12:57:01] [Server thread/INFO]: (FAWE) Plugin 'WorldGuard' found. Using it now.
-[12:57:01] [Server thread/INFO]: (FAWE) Plugin 'GriefPrevention' found. Using it now.
-[12:57:01] [Server thread/INFO]: (FAWE) Optimizing PlotSquared
-[12:57:01] [Server thread/INFO]: (FAWE)  - QueueProvider: class com.boydti.fawe.regions.general.plot.FaweLocalBlockQueue
-[12:57:01] [Server thread/INFO]: (FAWE)  - HybridPlotManager.REGENERATIVE_CLEAR: false
-[12:57:01] [Server thread/INFO]: (FAWE)  - SchematicHandler: com.boydti.fawe.regions.general.plot.FaweSchematicHandler@7037b036
-[12:57:01] [Server thread/INFO]: (FAWE)  - ChunkManager: com.boydti.fawe.regions.general.plot.FaweChunkManager@18d808f7
-[12:57:01] [Server thread/INFO]: (FAWE) Plugin 'PlotSquared' found. Using it now.
-[12:57:01] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
-[12:57:01] [Server thread/INFO]: [ViaVersion] Enabling PaperSpigot/TacoSpigot patch: Fixes block placement.
-[12:57:02] [Server thread/INFO]: [Citizens] Loaded 12 NPCs.
-[12:57:02] [Server thread/INFO]: CONSOLE issued server command: /einfo apply
-[12:57:02] [Server thread/INFO]:  ---- Einfo: apply -- Page 1 of 1 ----
-[12:57:02] [Server thread/INFO]:  Apply Here:
-[12:57:02] [Server thread/INFO]:  http://tumblecraft.tumblenet.ga/apply/
-[12:57:02] [Server thread/INFO]: CONSOLE issued server command: /einfo apply
-[12:57:02] [Server thread/INFO]:  ---- Einfo: apply -- Page 1 of 1 ----
-[12:57:02] [Server thread/INFO]:  Apply Here:
-[12:57:02] [Server thread/INFO]:  http://tumblecraft.tumblenet.ga/apply/
-[12:57:02] [Craft Scheduler Thread - 16/INFO]: [Vault] Checking for Updates ... 
-[12:57:03] [Craft Scheduler Thread - 16/INFO]: [Vault] No new version available
-[12:57:03] [Server thread/INFO]: Starting UUID caching
-[12:57:03] [Craft Scheduler Thread - 11/INFO]: [P2] Starting player data caching for: Survival
-[12:57:03] [Craft Scheduler Thread - 11/INFO]: Fast mode UUID caching enabled!
-[12:57:03] [Craft Scheduler Thread - 11/INFO]: [P2] Cached a total of: 3 UUIDs
-[12:57:05] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[13:02:08] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
-[13:03:45] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[13:04:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[13:04:47] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[13:07:15] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
-[13:11:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[13:12:13] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[13:12:15] [Craft Scheduler Thread - 51/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+[15:27:57] [Server thread/INFO]: (FAWE) Plugin 'WorldGuard' found. Using it now.
+[15:27:57] [Server thread/INFO]: (FAWE) Plugin 'GriefPrevention' found. Using it now.
+[15:27:57] [Server thread/INFO]: (FAWE) Optimizing PlotSquared
+[15:27:57] [Server thread/INFO]: (FAWE)  - QueueProvider: class com.boydti.fawe.regions.general.plot.FaweLocalBlockQueue
+[15:27:57] [Server thread/INFO]: (FAWE)  - HybridPlotManager.REGENERATIVE_CLEAR: false
+[15:27:57] [Server thread/INFO]: (FAWE)  - SchematicHandler: com.boydti.fawe.regions.general.plot.FaweSchematicHandler@4b65a72b
+[15:27:57] [Server thread/INFO]: (FAWE)  - ChunkManager: com.boydti.fawe.regions.general.plot.FaweChunkManager@6592967f
+[15:27:57] [Server thread/INFO]: (FAWE) Plugin 'PlotSquared' found. Using it now.
+[15:27:57] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[15:27:57] [Server thread/INFO]: [ViaVersion] Enabling PaperSpigot/TacoSpigot patch: Fixes block placement.
+[15:27:57] [Craft Scheduler Thread - 7/INFO]: [Wild] There is an update available please go download it
+[15:27:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[15:27:57] [Server thread/INFO]: [Citizens] Loaded 12 NPCs.
+[15:27:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[15:27:58] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
+[15:27:58] [Server thread/INFO]: Starting UUID caching
+[15:27:58] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
+[15:27:58] [Craft Scheduler Thread - 2/INFO]: [P2] Starting player data caching for: Survival
+[15:27:58] [Craft Scheduler Thread - 2/INFO]: Fast mode UUID caching enabled!
+[15:27:58] [Craft Scheduler Thread - 2/INFO]: [P2] Cached a total of: 3 UUIDs
+[15:27:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Tumble Network(337887798889545728)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcome(338025080317804544)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:about(338019443319898114)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:announcements(338020007684472842)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(337887798889545728)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:random(338023793333239809)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:doctorbatmanwho(434539208221392916)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblegamer(434539228295200798)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:help(434535137019953152)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft(434064099257745409)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblecraft-console(434064718110392346)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tweet-log(338020659303153675)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-log(338026003840630784)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:git-log(338021938469404674)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mod-log(434536352177192980)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:tumblecraft-console(434064718110392346)
+[15:27:58] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
+[15:28:02] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[15:33:03] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[15:34:38] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[15:35:18] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[15:35:38] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[15:38:04] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[15:42:20] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[15:43:00] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[15:43:00] [Craft Scheduler Thread - 32/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
 java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
 	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
 	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
@@ -436,15 +427,15 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[13:12:18] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
-[13:12:33] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[13:17:20] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
-[13:19:15] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[13:19:55] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[13:20:15] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[13:22:21] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
-[13:26:57] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[13:27:19] [Craft Scheduler Thread - 69/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+[15:43:05] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[15:43:20] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[15:48:07] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[15:50:02] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[15:50:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[15:51:02] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[15:53:08] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[15:57:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[15:58:05] [Craft Scheduler Thread - 50/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
 java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
 	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
 	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
@@ -455,15 +446,15 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[13:27:22] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply
-[13:27:37] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[13:27:58] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[13:34:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[13:35:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[13:35:43] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[13:37:28] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[13:42:25] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[13:42:26] [Craft Scheduler Thread - 108/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+[15:58:09] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply
+[15:58:24] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[15:58:45] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:05:26] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:06:07] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:06:27] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:08:12] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[16:13:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:13:09] [Craft Scheduler Thread - 74/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
 java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
 	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
 	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
@@ -474,16 +465,15 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[13:42:30] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
-[13:43:06] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[13:43:26] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[13:47:33] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
-[13:50:09] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[13:50:49] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[13:51:09] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[13:52:34] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
-[13:57:32] [Craft Scheduler Thread - 128/INFO]: [Marriage] Purged 0 player entries in 138ms
-[13:57:32] [Craft Scheduler Thread - 127/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+[16:13:14] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[16:13:49] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:14:09] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:18:15] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[16:20:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:21:31] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:21:51] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:23:16] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[16:28:13] [Craft Scheduler Thread - 101/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
 java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
 	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
 	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
@@ -494,16 +484,17 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[13:57:36] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
-[13:57:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[13:58:31] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[13:58:51] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[14:02:38] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
-[14:05:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[14:06:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[14:06:34] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[14:07:40] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply
-[14:12:37] [Craft Scheduler Thread - 144/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+[16:28:13] [Craft Scheduler Thread - 102/INFO]: [Marriage] Purged 0 player entries in 14ms
+[16:28:17] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[16:28:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:29:13] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:29:33] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:33:19] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[16:36:15] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:36:55] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:37:15] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:38:20] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply
+[16:43:17] [Craft Scheduler Thread - 124/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
 java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
 	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
 	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
@@ -514,7 +505,290 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[14:13:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[14:13:57] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[14:14:17] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[14:17:43] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[16:43:57] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:44:37] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:44:57] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:48:23] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[16:51:39] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:52:19] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:52:39] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:53:25] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[16:58:21] [Craft Scheduler Thread - 151/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:58:26] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[16:59:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:00:02] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:00:22] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:03:28] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[17:07:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:07:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:08:04] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:08:29] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[17:13:26] [Craft Scheduler Thread - 174/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[17:13:31] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[17:14:46] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:15:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:15:47] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:18:33] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply
+[17:22:29] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:22:39] [User Authenticator #1/INFO]: UUID of player EmmaPowee is 30b98f1f-49f5-4d05-91c1-7f0ce9eda2a7
+[17:22:40] [Server thread/INFO]: [DiscordSRV] Player EmmaPowee joined with silent joining permission, not sending a join message
+[17:22:40] [Server thread/INFO]: EmmaPowee[/82.44.12.229:59535] logged in with entity id 51848 at ([Creative]-34.77723506051406, 76.6183020148442, 49.69999998807907)
+[17:23:09] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:23:29] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:28:30] [Craft Scheduler Thread - 203/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[17:28:30] [Craft Scheduler Thread - 204/INFO]: [Marriage] Purged 0 player entries in 5ms
+[17:28:34] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[17:30:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:30:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:31:10] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:33:24] [Server thread/INFO]: EmmaPowee issued server command: /clear
+[17:33:35] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[17:37:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:38:31] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:38:36] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[17:38:51] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:43:32] [Craft Scheduler Thread - 226/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[17:43:37] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[17:45:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:46:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:46:32] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:48:37] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[17:53:13] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:53:38] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[17:53:53] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:54:13] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:58:34] [Craft Scheduler Thread - 252/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[17:58:39] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply
+[18:00:54] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:01:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:01:54] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:04:01] [Server thread/INFO]: EmmaPowee lost connection: Disconnected
+[18:04:01] [Server thread/INFO]: [DiscordSRV] Player EmmaPowee quit with silent quitting permission, not sending a quit message
+[18:04:01] [Server thread/INFO]: EmmaPowee left the game
+[18:08:36] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:08:41] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[18:09:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:09:36] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:13:38] [Craft Scheduler Thread - 277/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[18:13:43] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[18:16:19] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:16:59] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:17:19] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:18:44] [Server thread/INFO]: [TumbleCraft] Why not vote for us with '/vote'
+[18:23:46] [Server thread/INFO]: [TumbleCraft] Keep your house safe with chests
+[18:24:01] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:24:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:25:02] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:28:43] [Craft Scheduler Thread - 303/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[18:28:43] [Craft Scheduler Thread - 304/INFO]: [Marriage] Purged 0 player entries in 29ms
+[18:28:48] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[18:31:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:32:24] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:32:44] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:33:49] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[18:38:50] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply
+[18:39:26] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:40:06] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:40:26] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:43:30] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)...
+[18:43:30] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[18:43:32] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[18:43:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[18:43:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Successfully resumed Session!
+[18:43:47] [Craft Scheduler Thread - 329/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[18:45:02] [Netty Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[18:47:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:47:26] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)...
+[18:47:26] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[18:47:28] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[18:47:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:47:59] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[18:47:59] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[18:48:08] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:48:25] [JDA RateLimit-Queue Pool - Thread 4/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[18:48:25] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 4s
+[18:48:29] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[18:48:30] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[18:48:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Successfully resumed Session!
+[18:48:53] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[18:51:37] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)...
+[18:51:37] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[18:51:39] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[18:51:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[18:52:46] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)...
+[18:52:46] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[18:52:48] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[18:53:13] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[18:53:13] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[18:53:25] [JDA RateLimit-Queue Pool - Thread 3/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[18:53:25] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[18:53:42] [Netty Server IO #1/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[18:53:46] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 4s
+[18:53:50] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[18:53:55] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[18:54:19] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 8s
+[18:54:27] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[18:54:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:54:53] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 16s
+[18:55:09] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[18:55:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[18:55:10] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)... Appending session to reconnect queue
+[18:55:10] [SessionControllerAdapter-Worker/WARN]: [DiscordSRV] [JDA] Queue is attempting to reconnect a shard...
+[18:55:10] [SessionControllerAdapter-Worker/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[18:55:12] [SessionControllerAdapter-Worker/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[18:55:22] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[18:55:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished (Re)Loading!
+[18:55:30] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:55:50] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:56:23] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)...
+[18:56:23] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[18:56:25] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[18:56:32] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[18:56:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Successfully resumed Session!
+[18:56:44] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[18:56:44] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[18:56:56] [Server thread/INFO]: Stopping the server
+[18:56:56] [Server thread/INFO]: Stopping server
+[18:56:56] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v2.2.6
+[18:56:56] [Server thread/INFO]: [EnjinMinecraftPlugin] Disabling EnjinMinecraftPlugin v3.4.3
+[18:56:56] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.8
+[18:56:56] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[18:56:56] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.15.0.1
+[18:56:56] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v2.5.0-b751
+[18:56:56] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.15.0.1
+[18:56:56] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.15.0.1
+[18:56:56] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.15.0.1
+[18:56:56] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v2.4-b523
+[18:56:56] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
+[18:56:56] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.16.1
+[18:56:56] [Server thread/INFO]: [DiscordSRV] Saved linked accounts in 11ms
+[18:56:56] [Server thread/INFO]: [DiscordSRV] Saved metrics in 3ms
+[18:56:56] [Server thread/INFO]: [DiscordSRV] Shutdown completed in 252ms
+[18:56:56] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
+[18:56:56] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.22-SNAPSHOT (build 1537)
+[18:56:56] [Server thread/INFO]: [Vote] Disabling Vote v2.0.1
+[18:56:56] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.1;84bc322
+[18:56:56] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[18:56:56] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b719
+[18:56:56] [Server thread/INFO]: [Marriage] Disabling Marriage v2.0.17
+[18:56:56] [Server thread/INFO]: [Marriage] Loading database...
+[18:56:56] [Server thread/INFO]: [Marriage] Plugin has been completely disabled.
+[18:56:56] [Server thread/INFO]: [PlotSquared] Disabling PlotSquared v18.04.15-9fe1e53-1979
+[18:56:56] [Server thread/INFO]: All DB transactions during this session are being validated (This may take a while if corrections need to be made)
+[18:56:56] [Server thread/INFO]: [PerWorldInventory] Disabling PerWorldInventory v1.11.5
+[18:56:56] [Server thread/INFO]: [Essentials] Disabling Essentials v2.15.0.1
+[18:56:56] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[18:56:56] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[18:56:56] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v1.3.5
+[18:56:56] [Server thread/INFO]: [WorldChat] Disabling WorldChat v1.0
+[18:56:56] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v2.3.1
+[18:56:56] [Server thread/INFO]: [Announcements] Disabling Announcements v1.0
+[18:56:56] [Server thread/INFO]: [Announcements] Goodbye.
+[18:56:56] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[18:56:56] [Server thread/INFO]: [Hats] Disabling Hats v1.6
+[18:56:56] [Server thread/INFO]: [Hats] Hats has been desactivated!
+[18:56:56] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.3.0
+[18:56:56] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:56:56] [Server thread/INFO]: [PlayerNameSigns] Disabling PlayerNameSigns v1.0
+[18:56:56] [Server thread/INFO]: [PlayerNameSigns] PlayerNameSigns Disabled
+[18:56:56] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[18:56:56] [Server thread/INFO]: [HeadDrops] Disabling HeadDrops v2.0
+[18:56:56] [Server thread/INFO]: [iDisguise] Disabling iDisguise v5.6.4
+[18:56:56] [Server thread/INFO]: [iDisguise] iDisguise 5.6.4 disabled!
+[18:56:56] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v18.04.15-d1231fb-1064-19.4.27
+[18:56:56] [Server thread/INFO]: [Friends3_0] Disabling Friends3_0 v3.0.2.5
+[18:56:56] [Server thread/INFO]: [Votifier] [Votifier] Disabling Votifier v1.9
+[18:56:56] [Server thread/INFO]: [Votifier] [Votifier] Votifier disabled.
+[18:56:56] [Thread-10/WARN]: [Votifier] [Votifier] Protocol error. Ignoring packet - socket closed
+[18:56:56] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.2.0
+[18:56:56] [Server thread/INFO]: [TumbleCraftAdminSummon] Disabling TumbleCraftAdminSummon v1.0
+[18:56:56] [Server thread/INFO]: [TumbleCraftAdminSummon] TumbleCraftAdminSummon Disabled
+[18:56:56] [Server thread/INFO]: [ClearLag] Disabling ClearLag v2.9.7
+[18:56:56] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[18:56:56] [Server thread/INFO]: [Wild] Disabling Wild v3.13.1
+[18:56:56] [Server thread/INFO]: Saving players
+[18:56:56] [Server thread/INFO]: Saving worlds
+[18:56:56] [Server thread/INFO]: Saving chunks for level 'Survival'/overworld
+[18:56:57] [Server thread/INFO]: Saving chunks for level 'Creative'/overworld
+[18:56:57] [Server thread/INFO]: Saving chunks for level 'DrCraft'/overworld
+[18:56:57] [Server thread/INFO]: Saving chunks for level 'Staff'/overworld
