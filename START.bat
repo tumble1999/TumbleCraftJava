@@ -2,7 +2,7 @@
 (echo @echo off
 echo echo.^>restart.tmp
 echo call gsync.bat
-echo goto :eof
+echo exit
 )>restart.bat
 :restart
 call spigot.bat
