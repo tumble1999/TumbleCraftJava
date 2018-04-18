@@ -8,6 +8,15 @@ groups:
     inheritance:
     - mod
     permissions:
+    - -ab.kick.exempt
+    - -ab.ban.exempt
+    - -ab.tempban.exempt
+    - -ab.ipban.exempt
+    - -ab.tempipban.exempt
+    - -ab.mute.exempt
+    - -ab.tempmute.exempt
+    - -ab.warn.exempt
+    - -ab.tempwarn.exempt
     - '*'
   mod:
     options:

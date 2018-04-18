@@ -5,6 +5,7 @@
 # Make sure each message is surrounded by quotations: ("message")
 # For colors, use the '&' character
 announcements:
+  - "&3Use '&e/server&3' to switch between modes"
   - "&cDo '&e/kit starter&c' for some starter gear"
   - "&aUse '&e/wild&a' to start your adventure"
   - "&3Why not vote for us with '&a/vote&3'"
@@ -17,4 +18,4 @@ announcements:
 interval: 5
 
 # Set the default announcement prefix that displays before each message
-prefix: "&e[&3TumbleCraft&e]"
+prefix: "&c[&eTumbleCraft&c]"

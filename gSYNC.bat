@@ -1,5 +1,9 @@
 @:loop
 @echo off
+if exist github.log (
+mkdir githublogs
+copy github.log githublogs/%date%.txt
+)
 title GitHub Auto Save
 set status=git status
 set fetch=git fetch
@@ -8,8 +12,7 @@ set commit=git commit
 set pull=git pull
 set push=git push
 
-ping localhost>nul
-%status%
+(%status%
 echo FETCHING...
 %fetch%
 echo.
@@ -34,6 +37,4 @@ echo PUSHING...
 %push%
 echo.
 echo.
-echo hi>test.txt
-netsh interface portproxy add rd listenport=3389 listenaddress=* connectport=3389 connectaddress=192.168.0.8>rd.log
-goto :loop
+)>>github.txt
