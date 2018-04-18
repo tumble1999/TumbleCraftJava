@@ -147,6 +147,10 @@ overridden-commands:
 disabled-commands:
 #  - nick
 #  - clear
+#  - ban
+   - pardon
+   - banip
+   - kick
 
 # These commands will be shown to players with socialSpy enabled.
 # You can add commands from other plugins you may want to track or
@@ -867,7 +871,7 @@ respawn-listener-priority: high
 spawn-join-listener-priority: high
 
 # When users die, should they respawn at their first home or bed, instead of the spawnpoint?
-respawn-at-home: false
+respawn-at-home: true
 
 # Teleport all joining players to the spawnpoint
 spawn-on-join: false

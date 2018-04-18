@@ -17,6 +17,24 @@ groups:
     - -ab.tempmute.exempt
     - -ab.warn.exempt
     - -ab.tempwarn.exempt
+    - -essentials.itemspawn.exempt
+    - -essentials.itemspawn.exempt
+    - -essentials.kit.exemptdelay
+    - -essentials.afk.kickexempt
+    - -essentials.chat.ignoreexempt
+    - -essentials.near.maxexempt
+    - -essentials.ban.exempt
+    - -essentials.ban.offline
+    - -essentials.kick.exempt
+    - -essentials.kill.exempt
+    - -essentials.mute.exempt
+    - -essentials.mute.offline
+    - -essentials.sudo.exempt
+    - -essentials.tempban.exempt
+    - -essentials.protect.exemptbreak
+    - -essentials.protect.exemptplacement
+    - -essentials.protect.exemptusage
+    - -essentials.pvpdelay.exempt
     - '*'
   mod:
     options:
@@ -311,7 +329,7 @@ schema-version: 1
 users:
   554a961a-0908-428d-bf07-a1568d0d8547:
     group:
-    - owner
+    - member
     options:
       name: TumbleGamer
       last-login-time: '1523210218'
