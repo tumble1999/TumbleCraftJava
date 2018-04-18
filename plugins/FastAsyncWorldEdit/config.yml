@@ -1,9 +1,9 @@
 # These first 6 aren't configurable
 issues: "https://github.com/boy0001/FastAsyncWorldedit/issues"
 wiki: "https://github.com/boy0001/FastAsyncWorldedit/wiki/"
-date: "14 May 2018 23:00:00 GMT"
-build: "https://ci.athion.net/job/FastAsyncWorldEdit/1064"
-commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/d1231fb"
+date: "17 May 2018 23:00:00 GMT"
+build: "https://ci.athion.net/job/FastAsyncWorldEdit/1074"
+commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/b4bb0dd"
 platform: "bukkit"
 # Options: de, ru, tr
 # Create a PR to contribute a translation: https://github.com/boy0001/FastAsyncWorldedit/new/master/core/src/main/resources
@@ -213,6 +213,7 @@ history:
 
 # Paths for various directories
 paths:
+  tokens: "tokens"
   # Put any minecraft or mod jars for FAWE to be aware of block textures
   textures: "textures"
   heightmap: "heightmap"

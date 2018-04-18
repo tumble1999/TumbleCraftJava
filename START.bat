@@ -1,10 +1,10 @@
 @echo off
 (echo @echo off
 echo echo.^>restart.tmp
+echo call gsync.bat
 echo goto :eof
 )>restart.bat
 :restart
-call gsync.bat
 call spigot.bat
 if exist restart.tmp (
 del restart.tmp
