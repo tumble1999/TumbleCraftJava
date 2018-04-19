@@ -44,7 +44,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: waypoints,equipment,gravity,spawned,anchors,mounttrait,lookclose,text,type,inventory,owner,location,speech
+    traitnames: gravity,equipment,inventory,text,anchors,owner,location,speech,waypoints,spawned,lookclose,mounttrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -89,7 +89,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: text,equipment,gravity,type,spawned,anchors,mounttrait,lookclose,inventory,owner,location,speech
+    traitnames: gravity,speech,spawned,equipment,lookclose,inventory,mounttrait,text,anchors,owner,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -121,7 +121,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: equipment,gravity,type,spawned,mounttrait,lookclose,inventory,owner,location
+    traitnames: gravity,equipment,spawned,lookclose,inventory,mounttrait,owner,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -153,7 +153,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: equipment,gravity,type,spawned,mounttrait,lookclose,inventory,owner,location
+    traitnames: gravity,spawned,equipment,lookclose,inventory,mounttrait,owner,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -185,7 +185,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: equipment,gravity,type,spawned,mounttrait,lookclose,inventory,owner,location
+    traitnames: gravity,equipment,spawned,lookclose,inventory,mounttrait,owner,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -217,7 +217,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: equipment,gravity,type,spawned,mounttrait,lookclose,inventory,owner,location
+    traitnames: gravity,equipment,spawned,lookclose,inventory,mounttrait,owner,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -244,7 +244,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: equipment,gravity,type,spawned,mounttrait,lookclose,inventory,owner,location
+    traitnames: gravity,spawned,equipment,lookclose,inventory,mounttrait,owner,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -276,7 +276,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: equipment,gravity,type,spawned,mounttrait,lookclose,inventory,owner,location
+    traitnames: gravity,spawned,equipment,lookclose,inventory,mounttrait,owner,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -308,7 +308,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: equipment,gravity,type,spawned,mounttrait,lookclose,inventory,owner,location
+    traitnames: gravity,spawned,equipment,lookclose,inventory,mounttrait,owner,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -345,7 +345,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: equipment,gravity,type,spawned,mounttrait,lookclose,inventory,owner,location
+    traitnames: gravity,spawned,equipment,lookclose,inventory,mounttrait,owner,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -377,7 +377,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: equipment,gravity,type,spawned,mounttrait,lookclose,inventory,owner,location
+    traitnames: gravity,equipment,spawned,lookclose,inventory,mounttrait,owner,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -409,7 +409,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: equipment,gravity,type,spawned,mounttrait,lookclose,inventory,owner,location
+    traitnames: gravity,equipment,spawned,lookclose,inventory,mounttrait,owner,location,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
