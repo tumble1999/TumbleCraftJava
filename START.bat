@@ -1,7 +1,8 @@
 @echo off
 del restart.tmp
 del restart.bat
-start gsync.bat
+call gsync.bat
+title [Server] TumbleCraft
 (echo @echo off
 echo echo.^>restart.tmp
 )>restart.bat
