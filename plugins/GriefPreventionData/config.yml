@@ -2,14 +2,16 @@
 GriefPrevention:
   SeaLevelOverrides:
     Survival: -1
+    Survival_the_end: -1
     Creative: -1
-    DrCraft: -1
     Staff: -1
+    DrCraft: -1
   Claims:
     Mode:
       DrCraft: Survival
       Survival: Survival
       Staff: Survival
+      Survival_the_end: Survival
       Creative: Disabled
     PreventGlobalMonsterEggs: true
     PreventTheft: true
@@ -67,9 +69,10 @@ GriefPrevention:
   PvP:
     RulesEnabledInWorld:
       Survival: true
+      Survival_the_end: true
       Creative: false
-      DrCraft: true
       Staff: false
+      DrCraft: true
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15
