@@ -10,7 +10,7 @@ echo goto :eof
 
 :restart
 call spigot.bat
-start cmd /c gsync.bat
+gsync.bat
 if exist restart.tmp (
 del restart.tmp
 goto :restart
