@@ -3,9 +3,11 @@ del restart.tmp
 del restart.bat
 call gsync.bat
 title [Server] TumbleCraft
+
 (echo @echo off
 echo echo.^>restart.tmp
 )>restart.bat
+
 :restart
 call spigot.bat
 call gsync.bat
@@ -14,4 +16,4 @@ del restart.tmp
 goto :restart
 )
 del restart.bat
-got :eof
+goto :eof
