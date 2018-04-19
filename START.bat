@@ -2,6 +2,7 @@
 if "%1"=="restart" (
 goto :restart
 )
+del restart.tmp
 del restart.bat
 call gsync.bat
 
