@@ -11,20 +11,6 @@
 
 verbose: false
 config-version: 13
-settings:
-  enable-player-collisions: true
-  player-auto-save-rate: -1
-  max-player-auto-save-per-tick: -1
-  load-permissions-yml-before-plugins: true
-  bungee-online-mode: true
-  region-file-cache-size: 256
-  save-empty-scoreboard-teams: false
-  remove-invalid-statistics: false
-  incoming-packet-spam-threshold: 300
-  sleep-between-chunk-saves: false
-  suggest-player-names-when-null-tab-completions: true
-  save-player-data: true
-  min-chunk-load-threads: 2
 timings:
   enabled: true
   verbose: true
@@ -34,11 +20,25 @@ timings:
   - settings.bungeecord-addresses
   history-interval: 300
   history-length: 3600
+settings:
+  enable-player-collisions: true
+  player-auto-save-rate: -1
+  max-player-auto-save-per-tick: -1
+  save-player-data: true
+  min-chunk-load-threads: 2
+  load-permissions-yml-before-plugins: true
+  bungee-online-mode: true
+  sleep-between-chunk-saves: false
+  suggest-player-names-when-null-tab-completions: true
+  save-empty-scoreboard-teams: false
+  region-file-cache-size: 256
+  remove-invalid-statistics: false
+  incoming-packet-spam-threshold: 300
 messages:
   kick:
+    authentication-servers-down: ''
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
-    authentication-servers-down: ''
 world-settings:
   default:
     auto-save-interval: -1
