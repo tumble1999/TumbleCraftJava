@@ -15,19 +15,6 @@ settings:
   debug: false
   save-user-cache-on-stop-only: false
   sample-count: 12
-  filter-creative-items: true
-  moved-wrongly-threshold: 0.0625
-  moved-too-quickly-multiplier: 10.0
-  item-dirty-ticks: 20
-  int-cache-limit: 1024
-  late-bind: true
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: START.bat
-  netty-threads: 4
-  bungeecord: false
-  player-shuffle: 0
-  user-cache-size: 1000
   attribute:
     maxHealth:
       max: 2048.0
@@ -35,21 +22,34 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  int-cache-limit: 1024
+  item-dirty-ticks: 20
+  netty-threads: 4
+  player-shuffle: 0
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: START.bat
+  bungeecord: false
+  late-bind: true
+  user-cache-size: 1000
+  filter-creative-items: true
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-multiplier: 10.0
 messages:
   whitelist: |
-    '&c[&eTumbleCraft&c]\n &7This server is having matainence and/or testing.\n &7\n &7\n &7Want to help out?\n &7Apply: &b&nhttp://tumblecraft.tumblenet.ga/apply\n &7\n &7Website: &b&nhttp://tumblecraft.tumblenet.ga\n'
+    &c[&eTumbleCraft&c]\n &7This server is having matainence and/or testing.\n &7\n &7\n &7Want to help out?\n &7Apply: &b&nhttp://tumblecraft.tumblenet.ga/apply\n &7\n &7Website: &b&nhttp://tumblecraft.tumblenet.ga\n
   unknown-command: Unknown command. Type "/help" for help.
   server-full: |
-    '&c[&eTumbleCraft&c]\n &7The server is full\n &7\n &7\n &7Vote: &b&nhttp;//tumblecraft.tumblenet.ga/vote\n &7Apply: &b&nhttp://tumblecraft.tumblenet.ga/apply\n &7\n &7Website: &b&nhttp://tumblecraft.tumblenet.ga\n'
+    &c[&eTumbleCraft&c]\n&7The server is full\n&7\n&7\n&7Vote: &b&nhttp;//tumblecraft.tumblenet.ga/vote\n&7Apply: &b&nhttp://tumblecraft.tumblenet.ga/apply\n&7\n&7Website: &b&nhttp://tumblecraft.tumblenet.ga\n
   outdated-client: |
-    '&c[&eTumbleCraft&c]\n &7Your Minecraft is out of date. Please Upgrade\n &7\n &7\n &7Whe are on.\n &7Version: &c{0}\n &7\n &7Website: &b&nhttp://tumblecraft.tumblenet.ga\n'
+    &c[&eTumbleCraft&c]\n&7Your Minecraft is out of date. Please Upgrade\n &7\n &7\n &7Whe are on.\n &7Version: &c{0}\n &7\n &7Website: &b&nhttp://tumblecraft.tumblenet.ga\n'
   outdated-server: |
-    '&c[&eTumbleCraft&c]\n &7This server is out of date. Please Downgrade\n &7\n &7\n &7Version: &c{0}\n &7How to Chage versions: https://help.mojang.com/customer/portal/articles/1475923\n &7\n &7Website: &b&nhttp://tumblecraft.tumblenet.ga\n'
+    &c[&eTumbleCraft&c]\n&7This server is out of date. Please Downgrade\n&7\n&7\n&7Version: &c{0}\n&7How to Chage versions: https://help.mojang.com/customer/portal/articles/1475923\n&7\n&7Website: &b&nhttp://tumblecraft.tumblenet.ga\n
   restart: |
-    '&c[&eTumbleCraft&c]\n &7The server is restarting\n &7We will be back online shortly\n &7\n &7Vote: &b&nhttp;//tumblecraft.tumblenet.ga/vote\n &7Apply: &b&nhttp://tumblecraft.tumblenet.ga/apply\n &7\n &7Website: &b&nhttp://tumblecraft.tumblenet.ga\n'
+    &c[&eTumbleCraft&c]\n&7The server is restarting\n &7We will be back online shortly\n&7\n&7Vote: &b&nhttp;//tumblecraft.tumblenet.ga/vote\n &7Apply: &b&nhttp://tumblecraft.tumblenet.ga/apply\n&7\n&7Website: &b&nhttp://tumblecraft.tumblenet.ga\n
 commands:
   tab-complete: 0
-  silent-commandblock-console: false
+  log: true
   replace-commands:
   - setblock
   - summon
@@ -57,34 +57,33 @@ commands:
   - tellraw
   spam-exclusions:
   - /skill
-  log: true
+  silent-commandblock-console: false
+stats:
+  disable-saving: false
+  forced-stats: {}
 advancements:
   disable-saving: false
   disabled:
   - minecraft:story/disabled
-stats:
-  disable-saving: false
-  forced-stats: {}
 world-settings:
   default:
     verbose: true
     enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
-    hanging-tick-frequency: 100
+    arrow-despawn-rate: 1200
+    nerf-spawner-mobs: false
     item-despawn-rate: 6000
     merge-radius:
       item: 3.5
       exp: 6.0
     view-distance: 4
-    arrow-despawn-rate: 1200
-    nerf-spawner-mobs: false
+    wither-spawn-sound-radius: 0
+    hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
-    dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-feature: 14357617
     seed-monument: 10387313
     seed-slime: 987234911
-    mob-spawn-range: 3
+    dragon-death-sound-radius: 0
     entity-tracking-range:
       players: 48
       animals: 48
@@ -95,8 +94,7 @@ world-settings:
       hopper-transfer: 24
       hopper-check: 24
     hopper-amount: 3
-    random-light-updates: false
-    save-structure-info: true
+    mob-spawn-range: 3
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -113,9 +111,6 @@ world-settings:
       monsters: 16
       misc: 2
       tick-inactive-villagers: true
-    squid-spawn-range:
-      min: 45.0
-    max-tnt-per-tick: 100
     hunger:
       jump-walk-exhaustion: 0.05
       jump-sprint-exhaustion: 0.2
@@ -127,4 +122,9 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
+    random-light-updates: false
+    max-tnt-per-tick: 100
+    squid-spawn-range:
+      min: 45.0
+    save-structure-info: true
     max-entity-collisions: 1
