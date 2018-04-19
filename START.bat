@@ -8,7 +8,7 @@ echo echo.^>restart.tmp
 )>restart.bat
 :restart
 call spigot.bat
-start gsync.bat
+call gsync.bat
 if exist restart.tmp (
 del restart.tmp
 goto :restart
