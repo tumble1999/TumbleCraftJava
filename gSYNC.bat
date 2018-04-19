@@ -1,25 +1,23 @@
 @:loop
 @echo off
-if exist github.log (
-mkdir githublogs
-copy github.log githublogs/%date%.txt
-)
 title GitHub Auto Save
+if exist .git\index.lock del .git\index.lock
 set status=git status
 set fetch=git fetch
-set add=git add
+set add=git add .
 set commit=git commit
 set pull=git pull
 set push=git push
 
-(%status%
+
+%status%
 echo FETCHING...
 %fetch%
 echo.
 echo.
 %status%
 echo ADDING...
-%add% .
+%add%
 echo.
 echo.
 %status%
@@ -37,4 +35,3 @@ echo PUSHING...
 %push%
 echo.
 echo.
-)>>github.txt

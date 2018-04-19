@@ -265,6 +265,8 @@ groups:
     - essentials.afk
     - essentials.balence
     - essentials.last
+    - essentials.info
+    - essentials.help
     - essentials.mail
     - essentials.mail.send
     - essentials.me
@@ -329,11 +331,13 @@ schema-version: 1
 users:
   554a961a-0908-428d-bf07-a1568d0d8547:
     group:
-    - member
+    - voter
+    - owner
     options:
       name: TumbleGamer
       last-login-time: '1523210218'
       last-logout-time: '1523221815'
+      group-voter-until: '1524179036'
     permissions:
     - permissions.*
     - nte.yt
