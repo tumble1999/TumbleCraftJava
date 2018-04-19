@@ -15,16 +15,9 @@ settings:
   debug: false
   save-user-cache-on-stop-only: false
   sample-count: 12
-  user-cache-size: 1000
-  bungeecord: false
-  item-dirty-ticks: 20
-  int-cache-limit: 1024
-  late-bind: true
-  player-shuffle: 0
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: START.bat
-  netty-threads: 4
+  moved-wrongly-threshold: 0.0625
+  filter-creative-items: true
+  moved-too-quickly-multiplier: 10.0
   attribute:
     maxHealth:
       max: 2048.0
@@ -32,39 +25,81 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  moved-too-quickly-multiplier: 10.0
-  moved-wrongly-threshold: 0.0625
-  filter-creative-items: true
-messages:
-  whitelist: |
-    &c[&eTumbleCraft&c]\n&7This server is having matainence and/or testing.\n&7\n&7\n&7Want to help out?\n&7Apply: &b&nhttp://tumblecraft.tumblenet.ga/apply\n&7\n&7Website: &b&nhttp://tumblecraft.tumblenet.ga\n
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: |
-    &c[&eTumbleCraft&c]\n&7The server is full\n&7\n&7\n&7Vote: &b&nhttp;//tumblecraft.tumblenet.ga/vote\n&7Apply: &b&nhttp://tumblecraft.tumblenet.ga/apply\n&7\n&7Website: &b&nhttp://tumblecraft.tumblenet.ga\n
-  outdated-client: |
-    &c[&eTumbleCraft&c]\n&7Your Minecraft is out of date. Please Upgrade\n &7\n &7\n &7Whe are on.\n &7Version: &c{0}\n &7\n &7Website: &b&nhttp://tumblecraft.tumblenet.ga\n'
-  outdated-server: |
-    &c[&eTumbleCraft&c]\n&7This server is out of date. Please Downgrade\n&7\n&7\n&7Version: &c{0}\n&7How to Chage versions: https://help.mojang.com/customer/portal/articles/1475923\n&7\n&7Website: &b&nhttp://tumblecraft.tumblenet.ga\n
-  restart: |
-    &c[&eTumbleCraft&c]\n&7The server is restarting\n &7We will be back online shortly\n&7\n&7Vote: &b&nhttp;//tumblecraft.tumblenet.ga/vote\n &7Apply: &b&nhttp://tumblecraft.tumblenet.ga/apply\n&7\n&7Website: &b&nhttp://tumblecraft.tumblenet.ga\n
+  netty-threads: 4
+  bungeecord: false
+  user-cache-size: 1000
+  late-bind: true
+  item-dirty-ticks: 20
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: START.bat
+  int-cache-limit: 1024
+  player-shuffle: 0
 commands:
   tab-complete: 0
-  log: true
+  silent-commandblock-console: false
+  spam-exclusions:
+  - /skill
   replace-commands:
   - setblock
   - summon
   - testforblock
   - tellraw
-  spam-exclusions:
-  - /skill
-  silent-commandblock-console: false
-stats:
-  disable-saving: false
-  forced-stats: {}
+  log: true
+messages:
+  whitelist: |
+    &c[&eTumbleCraft&c]
+    &7This server is having matainence and/or testing.
+    &7
+    &7
+    &7Want to help out?
+    &7Apply: &b&nhttp://tumblecraft.tumblenet.ga/apply
+    &7
+    &7Website: &b&nhttp://tumblecraft.tumblenet.ga
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: |
+    &c[&eTumbleCraft&c]
+    &7The server is full
+    &7
+    &7
+    &7Vote: &b&nhttp;//tumblecraft.tumblenet.ga/vote
+    &7Apply: &b&nhttp://tumblecraft.tumblenet.ga/apply
+    &7
+    &7Website: &b&nhttp://tumblecraft.tumblenet.ga
+  outdated-client: |
+    &c[&eTumbleCraft&c]
+    &7Your Minecraft is out of date. Please Upgrade
+    &7
+    &7
+    &7Whe are on.
+    &7Version: &c{0}
+    &7
+    &7Website: &b&nhttp://tumblecraft.tumblenet.ga
+  outdated-server: |
+    &c[&eTumbleCraft&c]
+    &7This server is out of date. Please Downgrade
+    &7
+    &7
+    &7Version: &c{0}
+    &7How to Chage versions: https://help.mojang.com/customer/portal/articles/1475923
+    &7
+    &7Website: &b&nhttp://tumblecraft.tumblenet.ga
+  restart: |
+    &c[&eTumbleCraft&c]
+    &7The server is restarting
+    &7We will be back online shortly
+    &7
+    &7Vote: &b&nhttp;//tumblecraft.tumblenet.ga/vote
+    &7Apply: &b&nhttp://tumblecraft.tumblenet.ga/apply
+    &7
+    &7Website: &b&nhttp://tumblecraft.tumblenet.ga
 advancements:
   disable-saving: false
   disabled:
   - minecraft:story/disabled
+stats:
+  disable-saving: false
+  forced-stats: {}
 world-settings:
   default:
     verbose: true
