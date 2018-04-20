@@ -31,10 +31,25 @@ settings:
   player-shuffle: 0
   timeout-time: 60
   restart-on-crash: true
+<<<<<<< HEAD
   restart-script: START.bat
   netty-threads: 4
   item-dirty-ticks: 20
   int-cache-limit: 1024
+=======
+  restart-script: test.bat
+commands:
+  tab-complete: 0
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  log: true
+  spam-exclusions:
+  - /skill
+>>>>>>> 2671417de2b71113df0e78e0c9b94d90f0a9726a
 messages:
   whitelist: |
     &c[&eTumbleCraft&c]

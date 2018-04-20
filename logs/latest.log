@@ -1,0 +1,157 @@
+[11:33:17] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[11:33:17] [Server thread/INFO]: Loading properties
+[11:33:17] [Server thread/INFO]: Default game type: SURVIVAL
+[11:33:17] [Server thread/INFO]: This server is running Paper version git-Paper-1383 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[11:33:18] [Server thread/ERROR]: Could not load spigot.yml, please correct your syntax errors
+org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
+ in 'string', line 34, column 1:
+    <<<<<<< HEAD
+    ^
+could not find expected ':'
+ in 'string', line 35, column 17:
+      restart-script: START.bat
+                    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:162) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:130) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.spigotmc.SpigotConfig.init(SpigotConfig.java:59) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:200) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'string', line 34, column 1:
+    <<<<<<< HEAD
+    ^
+could not find expected ':'
+ in 'string', line 35, column 17:
+      restart-script: START.bat
+                    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:140) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[PaperSpigot.jar:git-Paper-1383]
+	... 6 more
+[11:33:18] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.RuntimeException: org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
+ in 'string', line 34, column 1:
+    <<<<<<< HEAD
+    ^
+could not find expected ':'
+ in 'string', line 35, column 17:
+      restart-script: START.bat
+                    ^
+
+	at com.google.common.base.Throwables.propagate(Throwables.java:240) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.spigotmc.SpigotConfig.init(SpigotConfig.java:65) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:200) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
+ in 'string', line 34, column 1:
+    <<<<<<< HEAD
+    ^
+could not find expected ':'
+ in 'string', line 35, column 17:
+      restart-script: START.bat
+                    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:162) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:130) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.spigotmc.SpigotConfig.init(SpigotConfig.java:59) ~[PaperSpigot.jar:git-Paper-1383]
+	... 3 more
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'string', line 34, column 1:
+    <<<<<<< HEAD
+    ^
+could not find expected ':'
+ in 'string', line 35, column 17:
+      restart-script: START.bat
+                    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:140) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:162) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:130) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.spigotmc.SpigotConfig.init(SpigotConfig.java:59) ~[PaperSpigot.jar:git-Paper-1383]
+	... 3 more
+[11:33:18] [Server thread/ERROR]: 	Cause of unexpected exception was
+org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
+ in 'string', line 34, column 1:
+    <<<<<<< HEAD
+    ^
+could not find expected ':'
+ in 'string', line 35, column 17:
+      restart-script: START.bat
+                    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:162) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:130) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.spigotmc.SpigotConfig.init(SpigotConfig.java:59) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:200) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'string', line 34, column 1:
+    <<<<<<< HEAD
+    ^
+could not find expected ':'
+ in 'string', line 35, column 17:
+      restart-script: START.bat
+                    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:557) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:140) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:524) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[PaperSpigot.jar:git-Paper-1383]
+	... 6 more
+[11:33:18] [Server thread/ERROR]: This crash report has been saved to: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\.\crash-reports\crash-2018-04-20_11.33.18-server.txt
+[11:33:18] [Server thread/INFO]: Stopping server
+[11:33:18] [Server thread/INFO]: Saving players
