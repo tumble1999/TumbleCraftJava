@@ -1,3 +1,3 @@
 @echo off
-start cmd /c bin\spigot.bat
+start cmd /k bin\spigot.bat
 bin\gsync.bat
