@@ -16,14 +16,14 @@ settings:
   max-player-auto-save-per-tick: -1
   enable-player-collisions: true
   bungee-online-mode: true
-  min-chunk-load-threads: 2
-  save-player-data: true
   load-permissions-yml-before-plugins: true
-  remove-invalid-statistics: false
+  save-player-data: true
+  min-chunk-load-threads: 2
   sleep-between-chunk-saves: false
-  incoming-packet-spam-threshold: 300
-  save-empty-scoreboard-teams: false
   region-file-cache-size: 256
+  save-empty-scoreboard-teams: false
+  incoming-packet-spam-threshold: 300
+  remove-invalid-statistics: false
   suggest-player-names-when-null-tab-completions: true
 timings:
   enabled: true
