@@ -1,8 +1,8 @@
-[11:33:17] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[11:33:17] [Server thread/INFO]: Loading properties
-[11:33:17] [Server thread/INFO]: Default game type: SURVIVAL
-[11:33:17] [Server thread/INFO]: This server is running Paper version git-Paper-1383 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[11:33:18] [Server thread/ERROR]: Could not load spigot.yml, please correct your syntax errors
+[15:01:46] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[15:01:46] [Server thread/INFO]: Loading properties
+[15:01:46] [Server thread/INFO]: Default game type: SURVIVAL
+[15:01:46] [Server thread/INFO]: This server is running Paper version git-Paper-1383 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[15:01:46] [Server thread/ERROR]: Could not load spigot.yml, please correct your syntax errors
 org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
  in 'string', line 34, column 1:
     <<<<<<< HEAD
@@ -47,7 +47,7 @@ could not find expected ':'
 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[PaperSpigot.jar:git-Paper-1383]
 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[PaperSpigot.jar:git-Paper-1383]
 	... 6 more
-[11:33:18] [Server thread/ERROR]: Encountered an unexpected exception
+[15:01:46] [Server thread/ERROR]: Encountered an unexpected exception
 java.lang.RuntimeException: org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
  in 'string', line 34, column 1:
     <<<<<<< HEAD
@@ -107,7 +107,7 @@ could not find expected ':'
 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:130) ~[PaperSpigot.jar:git-Paper-1383]
 	at org.spigotmc.SpigotConfig.init(SpigotConfig.java:59) ~[PaperSpigot.jar:git-Paper-1383]
 	... 3 more
-[11:33:18] [Server thread/ERROR]: 	Cause of unexpected exception was
+[15:01:46] [Server thread/ERROR]: 	Cause of unexpected exception was
 org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
  in 'string', line 34, column 1:
     <<<<<<< HEAD
@@ -152,6 +152,6 @@ could not find expected ':'
 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:437) ~[PaperSpigot.jar:git-Paper-1383]
 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:53) ~[PaperSpigot.jar:git-Paper-1383]
 	... 6 more
-[11:33:18] [Server thread/ERROR]: This crash report has been saved to: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\.\crash-reports\crash-2018-04-20_11.33.18-server.txt
-[11:33:18] [Server thread/INFO]: Stopping server
-[11:33:18] [Server thread/INFO]: Saving players
+[15:01:46] [Server thread/ERROR]: This crash report has been saved to: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\.\crash-reports\crash-2018-04-20_15.01.46-server.txt
+[15:01:46] [Server thread/INFO]: Stopping server
+[15:01:46] [Server thread/INFO]: Saving players
