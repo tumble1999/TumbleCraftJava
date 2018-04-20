@@ -34,7 +34,7 @@ settings:
   int-cache-limit: 1024
   timeout-time: 60
   restart-on-crash: true
-  restart-script: START.bat
+  restart-script: test.bat
 commands:
   tab-complete: 0
   silent-commandblock-console: false
