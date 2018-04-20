@@ -19,8 +19,8 @@
 #
 # DiscordToMinecraftAllRolesSeparator: the separator used in between roles in %allroles%
 #
-DiscordToMinecraftChatMessageFormat: "[&bDiscord&r:&e#%channelname%&r] [%toprolecolor%%toprole%] %username%: %message%"
-DiscordToMinecraftChatMessageFormatNoRole: "[&bDiscord&r:&e#%channelname%&r] &7%username%: %message%"
+DiscordToMinecraftChatMessageFormat: "[&e#%channelname%&r] %toprolecolor%[%toprole%]&r %username%: %message%"
+DiscordToMinecraftChatMessageFormatNoRole: "[&e#%channelname%&r] &7%username%: %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
 
 # Minecraft -> Discord message
@@ -180,7 +180,7 @@ ChannelTopicUpdaterConsoleChannelTopicAtServerShutdownFormat: "@everyone Server 
 # Discord command message
 # This is the message sent to players when they run "/discord". It's recommended to leave command syntax as a part of this
 #
-DiscordCommandFormat: "&bJoin us on Discord at https://discord.gg/kQmnHjX. For command help, do \"/discord ?\""
+DiscordCommandFormat: "&bJoin us on Discord at https://discord.gg/mRtyJA9. For command help, do \"/discord ?\""
 
 # Server startup/shutdown messages
 # DiscordChatChannelServerStartupMessage: message to be sent when server starts; leave blank to disable

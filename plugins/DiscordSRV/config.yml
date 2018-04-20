@@ -55,7 +55,7 @@ DiscordChatChannelMinecraftToDiscord: true
 DiscordChatChannelTruncateLength: 256
 DiscordChatChannelTranslateMentions: true
 DiscordChatChannelPrefix: ""
-DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Developer", "Owner", "Admin", "Moderator"]
+DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Developer", "Owner", "Admin", "Mod","TN"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: true
 DiscordChatChannelRequireLinkedAccount: true
 DiscordChatChannelBlockBots: false
@@ -81,7 +81,10 @@ DiscordChatChannelColorTranslations: {
   "A84300": "&6",
   "992D22": "&4",
   "979C9F": "&7",
-  "546E7A": "&8"
+  "546E7A": "&8",
+  "F44336": "&4",
+  "FFC107": "&e",
+  "36F443": "&a"
 }
 
 # Console channel information
@@ -175,7 +178,7 @@ ChannelTopicUpdaterRateInMinutes: 5
 # If you do not want any canned responses, set this to just {}
 # PlaceholderAPI placeholders are supported for the values
 #
-DiscordCannedResponses: {"!ip": "yourserveripchange.me", "!site": "http://yoursiteurl.net"}
+DiscordCannedResponses: {"!ip": "me.tumblenet.ga", "!site": "http://tumblecraft.tumblenet.ga"}
 
 # Minecraft to Discord account linking
 # These are the config options pertaining to how linking a Minecraft account to a Discord account functions
@@ -232,6 +235,6 @@ ServerWatchdogMessageCount: 3
 # BanSynchronizationDiscordToMinecraftReason: the message to be used as the ban reason for banning players from the Minecraft server
 # BanSynchronizationMinecraftToDiscord: whether or not to ban people on the Discord server if they get banned from the Minecraft server
 #
-BanSynchronizationDiscordToMinecraft: false
+BanSynchronizationDiscordToMinecraft: true
 BanSynchronizationDiscordToMinecraftReason: "&cYou have been banned until further notice from the server because you were banned on our Discord server."
-BanSynchronizationMinecraftToDiscord: false
+BanSynchronizationMinecraftToDiscord: true
