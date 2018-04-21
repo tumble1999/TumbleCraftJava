@@ -1,7 +1,7 @@
 channels:
   adminchat:
-    command: 'ac'
-    format: '&c[ADMIN CHAT]:&r {NAME}: &c{MESSAGE}'
+    command: 'sc'
+    format: '&4[STAFF CHAT]:&r {NAME}: &c{MESSAGE}'
   main:
     formatted-name: true
     command: 'main'

@@ -41,14 +41,6 @@ aliases:
   - einfo allranks $1
   shop:
   - warp shop $1
-  restart:
-  - autore in 1:m
-  restart-on:
-  - autore start
-  restart-off:
-  - autore pause
-  restart-info:
-  - autore time
   notwork:
   - mail send TumbleGamer This isnt working; $$1-
   apply:

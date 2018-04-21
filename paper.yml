@@ -15,16 +15,16 @@ settings:
   player-auto-save-rate: -1
   max-player-auto-save-per-tick: -1
   enable-player-collisions: true
-  load-permissions-yml-before-plugins: true
   bungee-online-mode: true
-  sleep-between-chunk-saves: false
-  region-file-cache-size: 256
-  save-empty-scoreboard-teams: false
-  incoming-packet-spam-threshold: 300
-  remove-invalid-statistics: false
-  suggest-player-names-when-null-tab-completions: true
   min-chunk-load-threads: 2
   save-player-data: true
+  load-permissions-yml-before-plugins: true
+  save-empty-scoreboard-teams: false
+  sleep-between-chunk-saves: false
+  suggest-player-names-when-null-tab-completions: true
+  incoming-packet-spam-threshold: 300
+  region-file-cache-size: 256
+  remove-invalid-statistics: false
 timings:
   enabled: true
   verbose: true
@@ -36,9 +36,9 @@ timings:
   history-length: 3600
 messages:
   kick:
+    authentication-servers-down: ''
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
-    authentication-servers-down: ''
 world-settings:
   default:
     keep-spawn-loaded-range: 8

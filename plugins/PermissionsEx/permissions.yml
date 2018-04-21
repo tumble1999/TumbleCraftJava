@@ -44,8 +44,6 @@ groups:
       weight: '2'
     permissions:
     - essentials.nick.color
-    - griefprevention.admin.chat.*
-    - griefprevention.admin.chat.eavesdrop
     - essentials.ban
     - essentials.ban.notify
     - essentials.ban.offline
@@ -109,6 +107,8 @@ groups:
       weight: '3'
     permissions:
     - nte.helper
+    - griefprevention.admin.chat.*
+    - griefprevention.admin.chat.eavesdrop
     worlds:
       Survival:
         permissions:
