@@ -15,16 +15,16 @@ settings:
   enable-player-collisions: true
   player-auto-save-rate: -1
   max-player-auto-save-per-tick: -1
-  load-permissions-yml-before-plugins: true
-  min-chunk-load-threads: 2
-  save-player-data: true
   bungee-online-mode: true
-  sleep-between-chunk-saves: false
-  save-empty-scoreboard-teams: false
-  remove-invalid-statistics: false
-  incoming-packet-spam-threshold: 300
+  load-permissions-yml-before-plugins: true
   region-file-cache-size: 256
+  sleep-between-chunk-saves: false
+  incoming-packet-spam-threshold: 300
+  save-empty-scoreboard-teams: false
   suggest-player-names-when-null-tab-completions: true
+  remove-invalid-statistics: false
+  save-player-data: true
+  min-chunk-load-threads: 2
 timings:
   enabled: true
   verbose: true
@@ -36,36 +36,65 @@ timings:
   history-length: 3600
 messages:
   kick:
-    authentication-servers-down: ''
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
+    authentication-servers-down: ''
 world-settings:
   default:
     keep-spawn-loaded-range: 8
     auto-save-interval: -1
-    nether-ceiling-void-damage: false
-    allow-non-player-entities-on-scoreboards: false
-    container-update-tick-rate: 3
-    hopper:
-      push-based: false
-      cooldown-when-full: true
-      disable-move-event: false
-    game-mechanics:
-      disable-end-credits: false
-      disable-player-crits: false
-      disable-chest-cat-detection: true
-    parrots-are-unaffected-by-player-movement: false
-    elytra-hit-wall-damage: true
-    disable-explosion-knockback: false
     frosted-ice:
       enabled: true
       delay:
         min: 20
         max: 40
+    game-mechanics:
+      disable-end-credits: false
+      disable-player-crits: false
+      disable-chest-cat-detection: true
+    container-update-tick-rate: 3
+    parrots-are-unaffected-by-player-movement: false
+    elytra-hit-wall-damage: true
+    disable-explosion-knockback: false
+    hopper:
+      push-based: false
+      cooldown-when-full: true
+      disable-move-event: false
+    nether-ceiling-void-damage: false
+    allow-non-player-entities-on-scoreboards: false
     use-alternate-fallingblock-onGround-detection: false
     non-player-arrow-despawn-rate: -1
     prevent-tnt-from-moving-in-water: false
-    experience-merge-max-value: -1
+    grass-spread-tick-rate: 3
+    armor-stands-do-collision-entity-lookups: true
+    keep-spawn-loaded: true
+    disable-ice-and-snow: false
+    skeleton-horse-thunder-spawn-chance: 0.01
+    fire-physics-event-for-redstone: trye
+    spawner-nerfed-mobs-should-jump: false
+    baby-zombie-movement-speed: 0.5
+    mob-spawner-tick-rate: 2
+    allow-leashing-undead-horse: false
+    squid-spawn-height:
+      maximum: 0.0
+    all-chunks-are-slime-chunks: false
+    disable-teleportation-suffocation-check: false
+    enable-treasure-maps: true
+    treasure-maps-return-already-discovered: false
+    generator-settings:
+      canyon: true
+      caves: true
+      dungeon: true
+      fortress: true
+      mineshaft: true
+      monument: true
+      stronghold: true
+      temple: true
+      village: true
+      flat-bedrock: false
+      disable-extreme-hills-emeralds: false
+      disable-extreme-hills-monster-eggs: false
+      disable-mesa-additional-gold: false
     anti-xray:
       enabled: false
       engine-mode: 1
@@ -88,47 +117,23 @@ world-settings:
       replacement-blocks:
       - stone
       - planks
+    experience-merge-max-value: -1
     disable-thunder: false
-    grass-spread-tick-rate: 3
-    allow-leashing-undead-horse: false
-    spawner-nerfed-mobs-should-jump: false
-    baby-zombie-movement-speed: 0.5
-    mob-spawner-tick-rate: 2
-    all-chunks-are-slime-chunks: false
-    squid-spawn-height:
-      maximum: 0.0
-    keep-spawn-loaded: true
-    armor-stands-do-collision-entity-lookups: true
-    disable-ice-and-snow: false
-    fire-physics-event-for-redstone: trye
-    skeleton-horse-thunder-spawn-chance: 0.01
-    generator-settings:
-      canyon: true
-      caves: true
-      dungeon: true
-      fortress: true
-      mineshaft: true
-      monument: true
-      stronghold: true
-      temple: true
-      village: true
-      flat-bedrock: false
-      disable-extreme-hills-emeralds: false
-      disable-extreme-hills-monster-eggs: false
-      disable-mesa-additional-gold: false
-    disable-teleportation-suffocation-check: false
-    enable-treasure-maps: true
-    treasure-maps-return-already-discovered: false
-    queue-light-updates: true
     use-vanilla-world-scoreboard-name-coloring: false
     remove-corrupt-tile-entities: false
     use-chunk-inhabited-timer: true
+    queue-light-updates: true
     portal-search-radius: 128
-    optimize-explosions: true
     delay-chunk-unloads-by: 10s
-    max-auto-save-chunks-per-tick: 24
-    water-over-lava-flow-speed: 5
     save-queue-limit-for-auto-save: 50
+    max-chunk-sends-per-tick: 81
+    optimize-explosions: true
+    max-growth-height:
+      cactus: 3
+      reeds: 3
+    max-auto-save-chunks-per-tick: 24
+    max-chunk-gens-per-tick: 10
+    filter-nbt-data-from-spawn-eggs-and-related: true
     lootables:
       auto-replenish: false
       restrict-player-reloot: true
@@ -136,25 +141,20 @@ world-settings:
       max-refills: -1
       refresh-min: 12h
       refresh-max: 2d
-    max-growth-height:
-      cactus: 3
-      reeds: 3
-    max-chunk-sends-per-tick: 81
-    max-chunk-gens-per-tick: 10
-    filter-nbt-data-from-spawn-eggs-and-related: true
+    water-over-lava-flow-speed: 5
     max-entity-collisions: 8
     disable-creeper-lingering-effect: false
-    lava-flow-speed:
-      normal: 30
-      nether: 10
-    despawn-ranges:
-      soft: 32
-      hard: 128
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 600
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     fast-drain:
       lava: false
       water: false
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 600
+    despawn-ranges:
+      soft: 32
+      hard: 128
+    lava-flow-speed:
+      normal: 30
+      nether: 10

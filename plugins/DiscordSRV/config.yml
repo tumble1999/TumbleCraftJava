@@ -57,7 +57,7 @@ DiscordChatChannelTranslateMentions: true
 DiscordChatChannelPrefix: ""
 DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Developer", "Owner", "Admin", "Mod","TN"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: true
-DiscordChatChannelRequireLinkedAccount: true
+DiscordChatChannelRequireLinkedAccount: false
 DiscordChatChannelBlockBots: false
 DiscordChatChannelBlockedIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
 DiscordChatChannelColorTranslations: {
@@ -237,4 +237,4 @@ ServerWatchdogMessageCount: 3
 #
 BanSynchronizationDiscordToMinecraft: true
 BanSynchronizationDiscordToMinecraftReason: "&cYou have been banned until further notice from the server because you were banned on our Discord server."
-BanSynchronizationMinecraftToDiscord: true
+BanSynchronizationMinecraftToDiscord: false

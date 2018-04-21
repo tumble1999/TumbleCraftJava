@@ -327,7 +327,16 @@ groups:
       prefix: '&4[Owner] &c'
     inheritance:
     - admin
-
+  headbuilder:
+    options:
+      prefix: '&6[Head Builder] &e'
+    permissions:
+    - worldguard.region.wand.*
+    - worldguard.region.claim.*
+    - worldguard.region.unlimited.*
+    - worldguard.region.list.*
+    inheritance:
+    - builder
 schema-version: 1
 users:
   554a961a-0908-428d-bf07-a1568d0d8547:
@@ -401,3 +410,8 @@ users:
     - mod
     options:
       name: Snouzuless
+  895b92f9-ce11-40d5-b449-02296cad9f22:
+    group:
+    - headbuilder
+    options:
+      name: funman123
