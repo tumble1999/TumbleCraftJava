@@ -1,8 +1,8 @@
 lastAccountName: DrBatmanWho
 timestamps:
-  login: 1524304758753
-  logout: 1524304969065
-  lastteleport: 1524243628323
+  login: 1524309225146
+  logout: 1524309753253
+  lastteleport: 1524309883522
   kits:
     diamond: 1523100457289
     color: 1523102038950
@@ -18,20 +18,20 @@ timestamps:
 ipAddress: 82.41.40.145
 lastlocation:
   world: Survival
-  x: 35557.04542640866
-  y: 62.9375
-  z: 32906.77085859511
-  yaw: -4.4989038
-  pitch: 4.500047
+  x: 131.31400209802752
+  y: 76.0
+  z: 542.2843678729072
+  yaw: -346.94955
+  pitch: 4.949947
 geolocation: United Kingdom
 afk: false
 logoutlocation:
   world: Survival
-  x: 35554.15678780702
+  x: 1497.297698754638
   y: 71.0
-  z: 32952.11624512639
-  yaw: 189.30258
-  pitch: 6.150289
+  z: 49584.73637553527
+  yaw: 75.83719
+  pitch: 3.9142551
 money: '8822.0'
 homes:
   home:
@@ -57,3 +57,6 @@ homes:
     pitch: -1.4999799
 jailed: false
 muted: false
+powertools:
+  '4':
+  - minecraft:kill @e[type=zombie,r=5]
