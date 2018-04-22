@@ -39,14 +39,14 @@ VanishStateFeatures:
   ReappearOnQuit: false
   # Should invisible players reappear automatically
   # when they change their world and don't have the permission 'sv.use' anymore?
-  CheckPermissionOnWorldChange: false
+  CheckPermissionOnWorldChange: true
   # Should invisible players reappear automatically
   # when they leave the server and don't have the permission 'sv.use' anymore?
-  CheckPermissionOnQuit: false
+  CheckPermissionOnQuit: true
   # Should invisible players reappear automatically
   # when they join the server and don't have the permission 'sv.use' anymore?
   # Doesn't work if you use GroupManager for permissions
-  CheckPermissionOnLogin: false
+  CheckPermissionOnLogin: true
 
 ############## Indication Features ###############
 IndicationFeatures:
@@ -77,7 +77,7 @@ MessageOptions:
     BroadcastFakeJoinOnReappear: false
     # Should players with the permission 'sv.see' get a different message when a player vanishs/reappears?
     # You can change this message in the messages.yml file.
-    AnnounceVanishReappearToAdmins: true
+    AnnounceVanishReappearToAdmins: false
     # Should only players with the permission 'sv.see' receive fake join/quit messages?
     SendMessageOnlyToAdmins: false
     # Should only players without the permission 'sv.see' receive fake join/quit messages?
