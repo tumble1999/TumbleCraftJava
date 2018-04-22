@@ -1,8 +1,8 @@
 lastAccountName: DrBatmanWho
 timestamps:
-  login: 1524326907901
-  logout: 1524327327591
-  lastteleport: 1524326760795
+  login: 1524399664778
+  logout: 1524399667674
+  lastteleport: 1524399725300
   kits:
     diamond: 1523100457289
     color: 1523102038950
@@ -17,21 +17,21 @@ timestamps:
   mute: 0
 ipAddress: 82.41.40.145
 lastlocation:
-  world: Creative
-  x: -83.33859257592485
-  y: 65.0
-  z: -75.35188214397544
-  yaw: 252.75006
-  pitch: 7.799999
+  world: Survival
+  x: 72.23934858149369
+  y: 72.0
+  z: 506.3558679148806
+  yaw: 114.86749
+  pitch: 4.6501346
 geolocation: United Kingdom
 afk: false
 logoutlocation:
   world: Survival
-  x: 35517.13153372229
-  y: 70.0
-  z: 32939.834287634636
-  yaw: 270.59412
-  pitch: 5.2501903
+  x: 62.08529706104997
+  y: 71.0
+  z: 503.81862017685876
+  yaw: 324.86792
+  pitch: 2.700042
 money: '8822.0'
 homes:
   home:
@@ -55,8 +55,67 @@ homes:
     z: 1641.5
     yaw: 152.24243
     pitch: -1.4999799
+  villagethree:
+    world: Survival
+    x: 35548.296025093616
+    y: 62.9375
+    z: 32916.86374901987
+    yaw: 253.2003
+    pitch: 2.1761656E-5
+  winterwonderland:
+    world: Survival
+    x: 1496.5
+    y: 71.0
+    z: 49572.5
+    yaw: 34.738274
+    pitch: -23.985735
+  alternativespawn:
+    world: Survival
+    x: -0.5
+    y: 76.0
+    z: 474.5
+    yaw: 347.05692
+    pitch: 4.799779
+  mine:
+    world: Survival
+    x: 47.5
+    y: 39.0
+    z: 734.5
+    yaw: -114.26408
+    pitch: 2.8499153
+  mineshaft:
+    world: Survival
+    x: 44.5
+    y: 19.0
+    z: 733.5
+    yaw: -275.06387
+    pitch: 5.6999483
+  library:
+    world: Survival
+    x: 36518.5
+    y: 64.0
+    z: 27205.5
+    yaw: 60.000763
+    pitch: -8.699853
+  newlibrary:
+    world: Survival
+    x: 36517.5
+    y: 64.0
+    z: 27196.5
+    yaw: -0.2992747
+    pitch: 4.500145
+  drcraft_spawn:
+    world: DrCraft
+    x: -67.5
+    y: 72.0
+    z: 30.5
+    yaw: 207.0
+    pitch: 32.849995
 jailed: false
 muted: false
 powertools:
   '4':
   - minecraft:kill @e[type=zombie,r=5]
+mail:
+- §6[§rTumbleGamer§6] §rplease use /sethome <name> and /home <name> to make personal
+  warps

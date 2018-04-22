@@ -196,6 +196,7 @@ groups:
     inheritance:
     - voter
     permissions:
+    - plots.permpack.basicflags
     - essentials.kits.color
     - essentials.msg.color
     - essentials.chat.color
@@ -247,6 +248,9 @@ groups:
       rank-ladder: Ranks
       weight: '80'
     permissions:
+    - plots.permpack.basicinbox
+    - plots.permpack.basic
+    - plots.use
     - chestcommands.open.server.yml
     - essentials.customtext
     - essentials.home.list
@@ -295,6 +299,9 @@ groups:
     - multiverse.exempt.*
     - multiverse.core.list.who
     - nte.member
+    - discordsrv.link
+    - discordsrv.unlink
+    - discordsrv.linked
     worlds:
       Survival:
         permissions:
@@ -327,16 +334,14 @@ groups:
       prefix: '&4[Owner] &c'
     inheritance:
     - admin
-  headbuilder:
+  employer:
     options:
-      prefix: '&6[Head Builder] &e'
-    permissions:
-    - worldguard.region.wand.*
-    - worldguard.region.claim.*
-    - worldguard.region.unlimited.*
-    - worldguard.region.list.*
+      prefix: '&c[Employer] '
     inheritance:
-    - builder
+    - mod
+    permissions:
+    - nte.Employer
+    - permissions.*
 schema-version: 1
 users:
   554a961a-0908-428d-bf07-a1568d0d8547:
@@ -410,8 +415,13 @@ users:
     - mod
     options:
       name: Snouzuless
-  895b92f9-ce11-40d5-b449-02296cad9f22:
+  dcf20b5a-df89-4555-99a6-fb224bd88079:
     group:
-    - headbuilder
+    - employer
     options:
-      name: funman123
+      name: Jakt
+  c31593a2-12f8-4abf-b5f9-2670376fd8c9:
+    group:
+    - admin
+    options:
+      name: AbrasiveRose

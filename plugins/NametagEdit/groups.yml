@@ -7,27 +7,27 @@ Groups:
     Permission: nte.admin
     Prefix: '&c[Admin] '
     SortPriority: 2
+  employer:
+    Permission: nte.employer
+    Prefix: '&c[Employer] '
+    SortPriority: 3
   mod:
     Permission: nte.mod
     Prefix: '&6[Mod] &e'
-    SortPriority: 3
+    SortPriority: 4
   builder:
     Permission: nte.builder
     Prefix: '&a[Builder] &r'
-    SortPriority: 4
+    SortPriority: 5
   helper:
     Permission: nte.helper
     Prefix: '&3[Helper] &b'
-    SortPriority: 5
-  yt:
-    Permission: nte.yt
-    Suffix: '&e[&rY&eT]'
     SortPriority: 6
   voter:
     Permission: nte.voter
     Prefix: '&b[Voter] &r'
-    SortPriority: 7
+    SortPriority: 8
   member:
     Permission: nte.member
     Prefix: '&7'
-    SortPriority: 8
+    SortPriority: 9
