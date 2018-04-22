@@ -338,8 +338,6 @@ groups:
     - permissions.*
 schema-version: 1
 users:
-  TumbleGamer:
-    group: owner
   019c39a2-24ce-4563-b04b-c094c9bee042:
     group:
     - owner
@@ -411,3 +409,7 @@ users:
     - admin
     options:
       name: AbrasiveRose
+  554a961a-0908-428d-bf07-a1568d0d8547:
+    group: owner
+    options:
+      name: TumbleGamer
