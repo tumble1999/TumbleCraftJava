@@ -1,3 +1,44 @@
 {
-  "playerPerms": {}
+  "playerPerms": {
+    "TumbleGamer": {
+      "uuid": "554a961a-0908-428d-bf07-a1568d0d8547",
+      "worlds": {
+        "*": [
+          "owner"
+        ],
+        "Creative": [
+          "owner"
+        ],
+        "Survival": [
+          "owner"
+        ],
+        "Staff": [
+          "owner"
+        ],
+        "DrCraft": [
+          "owner"
+        ]
+      }
+    },
+    "JJdaGreat": {
+      "uuid": "ca34a678-499f-4ce4-a25e-e2232c375865",
+      "worlds": {
+        "*": [
+          "builder-interview"
+        ],
+        "Creative": [
+          "builder-interview"
+        ],
+        "Survival": [
+          "builder-interview"
+        ],
+        "Staff": [
+          "builder-interview"
+        ],
+        "DrCraft": [
+          "builder-interview"
+        ]
+      }
+    }
+  }
 }
