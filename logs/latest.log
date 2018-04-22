@@ -540,3 +540,186 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [15:12:34] [Server thread/INFO]: JJdaGreat issued server command: /warp s-survival JJdaGreat
 [15:12:40] [Server thread/INFO]: JJdaGreat issued server command: /creative
 [15:12:40] [Server thread/INFO]: [Essentials] JJdaGreat was denied access to command.
+[15:13:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[15:13:48] [Server thread/INFO]: JJdaGreat issued server command: /server
+[15:13:49] [Server thread/INFO]: JJdaGreat issued server command: /warp s-creative JJdaGreat
+[15:14:00] [Server thread/INFO]: JJdaGreat issued server command: /plot help
+[15:14:04] [Server thread/INFO]: JJdaGreat issued server command: /plot help claiming
+[15:14:09] [Server thread/INFO]: JJdaGreat issued server command: /plot auto
+[15:14:13] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[15:14:17] [Server thread/INFO]: JJdaGreat issued server command: /plot claim
+[15:14:24] [Server thread/INFO]: JJdaGreat issued server command: /plot home
+[15:14:28] [Server thread/INFO]: JJdaGreat issued server command: /plot
+[15:14:33] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[15:14:35] [Server thread/INFO]: JJdaGreat issued server command: /plotme auto
+[15:16:38] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[15:18:23] [Server thread/INFO]: JJdaGreat issued server command: /server
+[15:18:24] [Server thread/INFO]: JJdaGreat issued server command: /warp s-survival JJdaGreat
+[15:18:28] [Server thread/INFO]: JJdaGreat issued server command: /creative
+[15:18:28] [Server thread/INFO]: [Essentials] JJdaGreat was denied access to command.
+[15:18:32] [Server thread/INFO]: JJdaGreat issued server command: /gamemode creative
+[15:20:24] [Server thread/INFO]: JJdaGreat has made the advancement [Monster Hunter]
+[15:21:10] [Server thread/INFO]: JJdaGreat issued server command: /warp
+[15:21:10] [Server thread/INFO]: [Essentials] JJdaGreat was denied access to command.
+[15:21:13] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[15:21:15] [Server thread/INFO]: JJdaGreat issued server command: /kits
+[15:21:17] [Server thread/INFO]: JJdaGreat issued server command: /kit
+[15:21:21] [Server thread/INFO]: JJdaGreat issued server command: /kit claim
+[15:21:27] [Netty Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[15:21:27] [Server thread/INFO]: JJdaGreat issued server command: /kit starter
+[15:21:34] [Server thread/INFO]: JJdaGreat issued server command: /vault 1
+[15:21:37] [Server thread/INFO]: JJdaGreat issued server command: /enderchest
+[15:21:37] [Server thread/INFO]: [Essentials] JJdaGreat was denied access to command.
+[15:21:38] [Server thread/INFO]: [TumbleCraft]  Something not working? Tell us /notwork <information>
+[15:21:53] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[15:21:57] [Server thread/INFO]: JJdaGreat lost connection: Disconnected
+[15:21:57] [Server thread/INFO]: JJdaGreat left the game
+[15:22:13] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
+[15:26:38] [Server thread/INFO]: [TumbleCraft] Want to help us? Apply today /apply
+[15:28:53] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[15:29:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[15:29:53] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[15:34:41] [Server thread/INFO]: [PermissionsEx] version [1.23.4]
+[15:34:41] [Server thread/INFO]: Usage:
+[15:34:41] [Server thread/INFO]: /pex - Display help
+[15:34:41] [Server thread/INFO]: /pex reload - Reload environment
+[15:34:41] [Server thread/INFO]: /pex report - Report an issue with PEX
+[15:34:41] [Server thread/INFO]: /pex config <node> [value] - Print or set <node> [value]
+[15:34:41] [Server thread/INFO]: /pex backend - Print currently used backend
+[15:34:41] [Server thread/INFO]: /pex backend <backend> - Change permission backend on the fly (Use with caution!)
+[15:34:41] [Server thread/INFO]: /pex hierarchy [world] - Print complete user/group hierarchy
+[15:34:41] [Server thread/INFO]: /pex import <backend> - Import data from <backend> into currently selected backend
+[15:34:41] [Server thread/INFO]: /pex convert uuid - Bulk convert user data to UUID-based storage
+[15:34:41] [Server thread/INFO]: /pex toggle debug - Enable/disable debug mode
+[15:34:41] [Server thread/INFO]: /pex help [page] [count] - PermissionsEx commands help
+[15:34:41] [Server thread/INFO]: /pex users list - List all registered users
+[15:34:41] [Server thread/INFO]: /pex users - List all registered users (alias)
+[15:34:41] [Server thread/INFO]: /pex user - List all registered users (alias)
+[15:34:41] [Server thread/INFO]: /pex user <user> - List user permissions (list alias)
+[15:34:41] [Server thread/INFO]: /pex user <user> list [world] - List user permissions
+[15:34:41] [Server thread/INFO]: /pex user <user> superperms - List user actual superperms
+[15:34:41] [Server thread/INFO]: /pex user <user> prefix [newprefix] [world] - Get or set <user> prefix
+[15:34:41] [Server thread/INFO]: /pex user <user> suffix [newsuffix] [world] - Get or set <user> suffix
+[15:34:41] [Server thread/INFO]: /pex user <user> toggle debug - Toggle debug only for <user>
+[15:34:41] [Server thread/INFO]: /pex user <user> check <permission> [world] - Checks player for <permission>
+[15:34:41] [Server thread/INFO]: /pex user <user> get <option> [world] - Toggle debug only for <user>
+[15:34:41] [Server thread/INFO]: /pex user <user> delete - Remove <user>
+[15:34:41] [Server thread/INFO]: /pex user <user> add <permission> [world] - Add <permission> to <user> in [world]
+[15:34:41] [Server thread/INFO]: /pex user <user> remove <permission> [world] - Remove permission from <user> in [world]
+[15:34:41] [Server thread/INFO]: /pex user <user> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself
+[15:34:41] [Server thread/INFO]: /pex user <user> timed add <permission> [lifetime] [world] - Add timed <permissions> to <user> for [lifetime] seconds in [world]
+[15:34:41] [Server thread/INFO]: /pex user <user> timed remove <permission> [world] - Remove timed <permission> from <user> in [world]
+[15:34:41] [Server thread/INFO]: /pex user <user> set <option> <value> [world] - Set <option> to <value> in [world]
+[15:34:41] [Server thread/INFO]: /pex user <user> group list [world] - List all <user> groups
+[15:34:41] [Server thread/INFO]: /pex user <user> group add <group> [world] [lifetime] - Add <user> to <group>
+[15:34:41] [Server thread/INFO]: /pex user <user> group set <group> [world] - Set <group> for <user>
+[15:34:41] [Server thread/INFO]: /pex user <user> group remove <group> [world] - Remove <user> from <group>
+[15:34:41] [Server thread/INFO]: /pex users cleanup <group> [threshold] - Clean users of specified group, which last login was before threshold (in days). By default threshold is 30 days.
+[15:34:41] [Server thread/INFO]: /pex group <group> swap <permission> <targetPermission> [world] - Swap <permission> and <targetPermission> in permission list. Could be number or permission itself
+[15:34:41] [Server thread/INFO]: /pex groups list [world] - List all registered groups
+[15:34:41] [Server thread/INFO]: /pex groups - List all registered groups (alias)
+[15:34:41] [Server thread/INFO]: /pex group - List all registered groups (alias)
+[15:34:41] [Server thread/INFO]: /pex group <group> weight [weight] - Print or set group weight
+[15:34:41] [Server thread/INFO]: /pex group <group> toggle debug - Toggle debug mode for group
+[15:34:41] [Server thread/INFO]: /pex group <group> prefix [newprefix] [world] - Get or set <group> prefix.
+[15:34:41] [Server thread/INFO]: /pex group <group> suffix [newsuffix] [world] - Get or set <group> suffix
+[15:34:41] [Server thread/INFO]: /pex group <group> create [parents] - Create <group> and/or set [parents]
+[15:34:41] [Server thread/INFO]: /pex group <group> delete - Remove <group>
+[15:34:41] [Server thread/INFO]: /pex group <group> parents [world] - List parents for <group> (alias)
+[15:34:41] [Server thread/INFO]: /pex group <group> parents list [world] - List parents for <group>
+[15:34:41] [Server thread/INFO]: /pex group <group> parents set <parents> [world] - Set parent(s) for <group> (single or comma-separated list)
+[15:34:41] [Server thread/INFO]: /pex group <group> parents add <parents> [world] - Set parent(s) for <group> (single or comma-separated list)
+[15:34:41] [Server thread/INFO]: /pex group <group> parents remove <parents> [world] - Set parent(s) for <group> (single or comma-separated list)
+[15:34:41] [Server thread/INFO]: /pex group <group> - List all <group> permissions (alias)
+[15:34:41] [Server thread/INFO]: /pex group <group> list [world] - List all <group> permissions in [world]
+[15:34:41] [Server thread/INFO]: /pex group <group> add <permission> [world] - Add <permission> to <group> in [world]
+[15:34:41] [Server thread/INFO]: /pex group <group> set <option> <value> [world] - Set <option> <value> for <group> in [world]
+[15:34:41] [Server thread/INFO]: /pex group <group> remove <permission> [world] - Remove <permission> from <group> in [world]
+[15:34:41] [Server thread/INFO]: /pex group <group> timed add <permission> [lifetime] [world] - Add timed <permission> to <group> with [lifetime] in [world]
+[15:34:41] [Server thread/INFO]: /pex group <group> timed remove <permission> [world] - Remove timed <permissions> for <group> in [world]
+[15:34:41] [Server thread/INFO]: /pex group <group> users - List all users in <group>
+[15:34:41] [Server thread/INFO]: /pex group <group> user add <user> [world] - Add <user> (single or comma-separated list) to <group>
+[15:34:41] [Server thread/INFO]: /pex group <group> user remove <user> [world] - Add <user> (single or comma-separated list) to <group>
+[15:34:41] [Server thread/INFO]: /pex default group [world] - Print default groups for specified world
+[15:34:41] [Server thread/INFO]: /pex set default group <group> <value> [world] - Set whether a group is default for specified worlds
+[15:34:41] [Server thread/INFO]: /pex group <group> rank [rank] [ladder] - Get or set <group> [rank] [ladder]
+[15:34:41] [Server thread/INFO]: /pex promote <user> [ladder] - Promotes <user> to next group on [ladder]
+[15:34:41] [Server thread/INFO]: /pex demote <user> [ladder] - Demotes <user> to previous group or [ladder]
+[15:34:41] [Server thread/INFO]: /pex worlds - Print loaded worlds
+[15:34:41] [Server thread/INFO]: /pex world <world> - Print <world> inheritance info
+[15:34:41] [Server thread/INFO]: /pex world <world> inherit <parentWorlds> - Set <parentWorlds> for <world>
+[15:34:44] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[15:34:44] [Server thread/INFO]: Permissions reloaded
+[15:34:49] [User Authenticator #4/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[15:34:49] [Server thread/INFO]: TumbleGamer[/82.44.12.229:52322] logged in with entity id 18954 at ([Creative]-67.5, 65.0, -132.5)
+[15:34:52] [Async Chat Thread - #1/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[15:34:52] [Async Chat Thread - #1/INFO]: [L]<TumbleGamer> .
+[15:34:52] [Async Chat Thread - #1/INFO]: TumbleGamer: .
+[15:35:01] [Server thread/INFO]: TumbleGamer issued server command: /PLOT
+[15:35:13] [Server thread/INFO]: TumbleGamer issued server command: /plot auto
+[15:35:23] [Server thread/INFO]: TumbleGamer issued server command: /plot tp
+[15:36:26] [User Authenticator #5/INFO]: UUID of player JJdaGreat is ca34a678-499f-4ce4-a25e-e2232c375865
+[15:36:26] [Server thread/INFO]: JJdaGreat[/100.40.106.195:59492] logged in with entity id 19330 at ([Survival]127.54960180774121, 76.0, 543.8266714475446)
+[15:36:31] [Server thread/INFO]: JJdaGreat issued server command: /server creative
+[15:36:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[15:36:35] [Server thread/INFO]: JJdaGreat issued server command: /server
+[15:36:36] [Server thread/INFO]: JJdaGreat issued server command: /warp s-creative JJdaGreat
+[15:36:39] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[15:36:45] [Server thread/INFO]: JJdaGreat issued server command: /plot auto
+[15:36:59] [Server thread/INFO]: JJdaGreat issued server command: /plot home
+[15:37:07] [Server thread/INFO]: TumbleGamer issued server command: /tp JJdaGreat
+[15:37:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[15:37:34] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[15:37:42] [Server thread/INFO]: TumbleGamer issued server command: /owner TumbleGamer
+[15:37:51] [Server thread/INFO]: User groups set!
+[15:38:57] [Server thread/INFO]: TumbleGamer issued server command: /nick DjDeathrow Testing
+[15:39:02] [User Authenticator #6/INFO]: Disconnecting /127.0.0.1:52467: Failed to verify username!
+[15:39:02] [User Authenticator #6/ERROR]: Username 'DjDeathrow' tried to join with an invalid session
+[15:39:02] [Server thread/INFO]: /127.0.0.1:52467 lost connection: Failed to verify username!
+[15:39:11] [User Authenticator #6/INFO]: Disconnecting /127.0.0.1:52471: Failed to verify username!
+[15:39:11] [User Authenticator #6/ERROR]: Username 'DjDeathrow' tried to join with an invalid session
+[15:39:11] [Server thread/INFO]: /127.0.0.1:52471 lost connection: Failed to verify username!
+[15:40:55] [Server thread/INFO]: TumbleGamer issued server command: /plot auto
+[15:40:55] [Server thread/INFO]: JJdaGreat issued server command: /plot auto
+[15:40:56] [Server thread/WARN]: TumbleGamer moved too quickly! -131.40845918553595,-14.728197933880224,12.929953726823413
+[15:40:59] [Server thread/INFO]: JJdaGreat issued server command: /plot home
+[15:41:03] [Server thread/INFO]: TumbleGamer issued server command: /plot setowner JJdaGreat
+[15:41:09] [Server thread/INFO]: TumbleGamer issued server command: /plot setowner JJdaGreat
+[15:41:28] [Async Chat Thread - #2/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[15:41:28] [Async Chat Thread - #2/INFO]: [L]<TumbleGamer> try /plot tp now
+[15:41:28] [Async Chat Thread - #2/INFO]: [Owner] TumbleGamer: try /plot tp now
+[15:41:37] [Server thread/INFO]: JJdaGreat issued server command: /plot tp
+[15:41:40] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[15:41:54] [Server thread/WARN]: TumbleGamer moved too quickly! -16.492522378483727,8.437503000615749,6.909970373741231
