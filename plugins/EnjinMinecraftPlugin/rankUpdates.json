@@ -1,3 +1,24 @@
 {
-  "playerPerms": {}
+  "playerPerms": {
+    "getmemoney": {
+      "uuid": "12a68a0d-0b28-4b2d-8470-7a2b664a7482",
+      "worlds": {
+        "*": [
+          "member"
+        ],
+        "Creative": [
+          "member"
+        ],
+        "Survival": [
+          "member"
+        ],
+        "DrCraft": [
+          "member"
+        ],
+        "Staff": [
+          "member"
+        ]
+      }
+    }
+  }
 }
