@@ -244,6 +244,8 @@ groups:
       rank-ladder: Ranks
       weight: '80'
     permissions:
+    - plots.permpack.basicinbox
+    - plots.permpack.basic
     - chestcommands.open.server.yml
     - essentials.customtext
     - essentials.home.list
@@ -320,8 +322,6 @@ groups:
         - essentials.build.interact.323
       Creative:
         permissions:
-        - plots.permpack.basicinbox
-        - plots.permpack.basic
         - essentials.build
   owner:
     options:
