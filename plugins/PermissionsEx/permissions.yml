@@ -336,6 +336,14 @@ groups:
     permissions:
     - nte.Employer
     - permissions.*
+  builder-interview:
+    options:
+      prefix: '&7[Builder Interviewee] '
+    permissions:
+    - worldedit.*
+    - fawe.admin
+  inheritance:
+  - member
 schema-version: 1
 users:
   019c39a2-24ce-4563-b04b-c094c9bee042:
