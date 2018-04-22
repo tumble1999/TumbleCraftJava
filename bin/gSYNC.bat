@@ -9,7 +9,7 @@ set commit=git commit
 set pull=git pull
 set push=git push
 
-
+:loop
 %status%
 echo FETCHING...
 %fetch%
@@ -35,3 +35,4 @@ echo PUSHING...
 %push%
 echo.
 echo.
+goto loop
