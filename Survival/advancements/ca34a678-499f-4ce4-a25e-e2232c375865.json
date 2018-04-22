@@ -1,25 +1,31 @@
 {
-  "minecraft:recipes/tools/stone_shovel": {
+  "minecraft:recipes/tools/fishing_rod": {
     "criteria": {
-      "has_cobblestone": "2018-04-22 00:08:33 +0100"
+      "has_string": "2018-04-22 15:21:03 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_planks": {
+  "minecraft:recipes/combat/bow": {
     "criteria": {
-      "has_log": "2018-04-22 00:04:36 +0100"
+      "has_string": "2018-04-22 15:21:03 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/tools/stone_hoe": {
+  "minecraft:recipes/building_blocks/string_to_wool": {
     "criteria": {
-      "has_cobblestone": "2018-04-22 00:08:33 +0100"
+      "has_string": "2018-04-22 15:21:03 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
-      "entered_water": "2018-04-22 00:08:18 +0100"
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_wool": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
     },
     "done": true
   },
@@ -29,21 +35,39 @@
     },
     "done": true
   },
-  "minecraft:husbandry/balanced_diet": {
+  "minecraft:adventure/kill_a_mob": {
     "criteria": {
-      "bread": "2018-04-22 00:01:38 +0100"
+      "zombie": "2018-04-22 15:20:24 +0100"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_wool": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_wool": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_wool": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
+    },
+    "done": true
   },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2018-04-22 00:08:33 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2018-04-22 00:08:33 +0100"
     },
     "done": true
   },
@@ -53,9 +77,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs": {
+  "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
-      "has_cobblestone": "2018-04-22 00:08:33 +0100"
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
     },
     "done": true
   },
@@ -67,9 +91,15 @@
     },
     "done": false
   },
-  "minecraft:recipes/building_blocks/birch_planks": {
+  "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
-      "has_log": "2018-04-22 00:19:32 +0100"
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_wool": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
     },
     "done": true
   },
@@ -97,9 +127,9 @@
     },
     "done": true
   },
-  "minecraft:story/upgrade_tools": {
+  "minecraft:recipes/decorations/painting": {
     "criteria": {
-      "stone_pickaxe": "2018-04-21 23:53:50 +0100"
+      "has_wool": "2018-04-22 15:20:40 +0100"
     },
     "done": true
   },
@@ -127,9 +157,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/stone_axe": {
+  "minecraft:recipes/building_blocks/cyan_wool": {
     "criteria": {
-      "has_cobblestone": "2018-04-22 00:08:33 +0100"
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
     },
     "done": true
   },
@@ -154,6 +184,128 @@
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "entered_water": "2018-04-22 00:08:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_wool": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2018-04-22 00:08:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2018-04-22 00:04:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2018-04-22 00:08:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2018-04-22 00:08:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_wool": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_wool": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "zombie": "2018-04-22 15:20:24 +0100",
+      "spider": "2018-04-22 15:21:00 +0100",
+      "creeper": "2018-04-22 15:20:31 +0100"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2018-04-22 00:01:38 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2018-04-22 00:08:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2018-04-22 00:08:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2018-04-22 15:21:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_log": "2018-04-22 00:19:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2018-04-21 23:53:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_wool": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_wool": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2018-04-22 00:08:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_wool": {
+    "criteria": {
+      "has_white_wool": "2018-04-22 15:20:40 +0100"
     },
     "done": true
   }
