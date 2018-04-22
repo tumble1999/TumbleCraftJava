@@ -342,8 +342,6 @@ groups:
     permissions:
     - worldedit.*
     - fawe.admin
-  inheritance:
-  - member
 schema-version: 1
 users:
   019c39a2-24ce-4563-b04b-c094c9bee042:
@@ -422,3 +420,8 @@ users:
     - owner
     options:
       name: TumbleGamer
+  ca34a678-499f-4ce4-a25e-e2232c375865:
+    group:
+    - builder-interview
+    options:
+      name: JJdaGreat
