@@ -71,10 +71,10 @@ MessageOptions:
   FakeJoinQuitMessages:
     # Should SV broadcast a fake quit message when a player vanishs?
     # You can change this message in the messages.yml file.
-    BroadcastFakeQuitOnVanish: true
+    BroadcastFakeQuitOnVanish: false
     # Should SV broadcast a fake join message when a player reappears?
     # You can change this message in the messages.yml file.
-    BroadcastFakeJoinOnReappear: true
+    BroadcastFakeJoinOnReappear: false
     # Should players with the permission 'sv.see' get a different message when a player vanishs/reappears?
     # You can change this message in the messages.yml file.
     AnnounceVanishReappearToAdmins: true
