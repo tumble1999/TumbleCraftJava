@@ -196,7 +196,6 @@ groups:
     inheritance:
     - voter
     permissions:
-    - plots.permpack.basicflags
     - essentials.kits.color
     - essentials.msg.color
     - essentials.chat.color
@@ -235,9 +234,6 @@ groups:
         - iDisguise.random
         - iDisguise.undisguise
         - headdrops.playerheaddrops
-      Creative:
-        permissions:
-        - plots.permpack.basicinbox
     inheritance:
     - member
   member:
@@ -248,8 +244,6 @@ groups:
       rank-ladder: Ranks
       weight: '80'
     permissions:
-    - plots.permpack.basicinbox
-    - plots.permpack.basic
     - plots.use
     - chestcommands.open.server.yml
     - essentials.customtext
@@ -327,6 +321,7 @@ groups:
         - essentials.build.interact.323
       Creative:
         permissions:
+        - plots.permpack.basicinbox
         - plots.permpack.basic
         - essentials.build
   owner:
