@@ -1497,3 +1497,22 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [16:24:37] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
 [16:24:52] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
 [16:25:20] [Server thread/INFO]: xValtrux issued server command: //undo
+[16:26:21] [Async Chat Thread - #11/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:26:22] [Async Chat Thread - #11/INFO]: [L]<xValtrux> ok the trunk is ugly but the top looks good
+[16:26:22] [Async Chat Thread - #11/INFO]: [Builder] xValtrux: ok the trunk is ugly but the top looks good
