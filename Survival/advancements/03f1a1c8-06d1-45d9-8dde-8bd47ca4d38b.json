@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2018-04-24 23:33:11 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/purple_stained_glass_pane": {
     "criteria": {
       "has_glass": "2018-04-24 23:21:56 +0100"
@@ -431,6 +437,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2018-04-24 23:33:11 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/speckled_melon": {
     "criteria": {
       "has_melon": "2018-04-24 22:20:59 +0100"
@@ -572,6 +584,18 @@
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_sand": "2018-04-24 22:55:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2018-04-24 23:33:11 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_string": "2018-04-24 23:33:11 +0100"
     },
     "done": true
   },
