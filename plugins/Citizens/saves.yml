@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 59
+last-created-npc-id: 61
 npc:
   '0':
     metadata:
@@ -27,7 +27,7 @@ npc:
         x: '112.5'
         y: '70.5'
         z: '544.5'
-        yaw: '35.668495178222656'
+        yaw: '135.12347412109375'
         pitch: '0.0'
       type: PLAYER
       spawned: true
@@ -83,7 +83,7 @@ npc:
         x: '144.5'
         y: '70.5'
         z: '544.5'
-        yaw: '-43.302852630615234'
+        yaw: '141.03399658203125'
         pitch: '0.0'
       type: PLAYER
       owner:
@@ -110,7 +110,7 @@ npc:
         x: '128.5'
         y: '70.5'
         z: '560.5'
-        yaw: '-118.22291564941406'
+        yaw: '-138.41085815429688'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -142,7 +142,7 @@ npc:
         x: '1826.5'
         y: '55.5'
         z: '-739.5'
-        yaw: '-129.4310302734375'
+        yaw: '-114.8859634399414'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -174,7 +174,7 @@ npc:
         x: '1826.5'
         y: '55.5'
         z: '-747.5'
-        yaw: '-56.19889450073242'
+        yaw: '-44.8779182434082'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -206,7 +206,7 @@ npc:
         x: '1840.5'
         y: '55.5'
         z: '-733.5'
-        yaw: '146.4761962890625'
+        yaw: '139.45697021484375'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -237,7 +237,7 @@ npc:
         x: '1822.5'
         y: '55.5'
         z: '-747.5'
-        yaw: '-52.56303024291992'
+        yaw: '-42.197593688964844'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -271,7 +271,7 @@ npc:
         x: '1832.5'
         y: '55.5'
         z: '-733.5'
-        yaw: '-140.892578125'
+        yaw: '-148.33607482910156'
         pitch: '0.0'
       owner:
         owner: server
@@ -307,7 +307,7 @@ npc:
         x: '1840.5'
         y: '55.5'
         z: '-729.5'
-        yaw: '145.66827392578125'
+        yaw: '140.9025421142578'
         pitch: '0.0'
       spawned: true
       owner:
@@ -339,7 +339,7 @@ npc:
         x: '128.5'
         y: '70.5'
         z: '528.5'
-        yaw: '31.65191650390625'
+        yaw: '89.3564453125'
         pitch: '0.0'
       spawned: true
       owner:
@@ -372,7 +372,7 @@ npc:
         x: '1846.5'
         y: '55.5'
         z: '-747.5'
-        yaw: '54.55229187011719'
+        yaw: '49.77891540527344'
         pitch: '0.0'
       owner:
         owner: server
@@ -396,7 +396,7 @@ npc:
         x: '1822.5'
         y: '55.5'
         z: '-739.5'
-        yaw: '-126.99166870117188'
+        yaw: '-132.61471557617188'
         pitch: '0.0'
       spawned: true
       type: PLAYER
@@ -428,7 +428,7 @@ npc:
         x: '1818.5'
         y: '55.5'
         z: '-747.5'
-        yaw: '-47.411155700683594'
+        yaw: '-51.47224426269531'
         pitch: '0.0'
       spawned: true
       type: PLAYER
@@ -439,6 +439,35 @@ npc:
         enabled: true
         realisticlooking: false
     traitnames: gravity,location,mounttrait,lookclose,type,spawned,equipment,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '60':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ2MDA1NTEzNjQsInByb2ZpbGVJZCI6ImU4OGQyMTM3NDAyZDRjN2NhYjMwMjljODlkNWIyNjFmIiwicHJvZmlsZU5hbWUiOiJ3b2xmeWJsb3g1ODkiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjZGMyZTk0Y2I0MjI1NzMyYThkZDE4NGRlMTJlOTA2NDE1ZWYzNjg5ZjY1ZDg0MGUyMmU4YmZiNGM0MzkzIn19fQ==
+      cached-skin-uuid-name: wolfyblox589
+      cached-skin-uuid: e88d2137-402d-4c7c-ab30-29c89d5b261f
+      player-skin-signature: P86mI2hA7/zSaBmNSBrae/M7hADn+q21q7Y3xt76gVoKlhRCVZcP6nqViEMIVnLZoECE8lSBVJMRBa5k2NhkBlWIUflm3KHgWG2gXY0DbUaqMtuDxFBf4okbDLq0sPOz14hH8nrMywovp1yXn0ElmGbO6t1KD14nSYCLoE4dlsatcPzRyW8EY/jnLg4YbxB/qeHvKD0yQ98d3Ep7ehdjyqYKCL5smxkR/gOG24RZuSBgg/7j8q5GeNKsaxi+85H574BXbtCgYC65XwmRYWF/8n1PC9+N3TMdQLZUJS7kTNGyorrbNgLeR25KOGX+meAxzHM2tzZuRkeH+pSrzwtd9fjpbZTXeQ/Ma2aXkT/dY2jcwTnrKLCXugHVRUGz+zCwifN/4YAVG/VpxYlSq0gEnvYVIKhTNk2ixh5CKW8FaV5Z8sjOwpasEDLk7Be2Hqdyxn6W7qb2UkRJbIiuSrEBBdXuUdpMdrvV48I3h1kq4mkRP2B2DWQVmuIZ9hu8B/pC8/375PU9nRWsWd56DU7nfFNIx031sftoV2sVTHxDDZNdOFAXOQc6RBM9CYzBIErf+9LbKqGjFs3YOQqk2hNr3ouIzOwQ6PgfCPdZQFUuy9z0xwAPj9gUKH5pUbPBChtq/IA8H/RiI8hMTxWI1K+0vz8XauJZEYC000pOiY8EBMM=
+    name: wolfyblox589
+    uuid: ad295952-c7f8-4181-87c3-1e276261ac00
+    traits:
+      gravity:
+        enabled: false
+      location:
+        world: Staff
+        x: '1832.5'
+        y: '55.5'
+        z: '-753.5'
+        yaw: '-35.47660446166992'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+      type: PLAYER
+      spawned: true
+    traitnames: gravity,location,mounttrait,lookclose,type,spawned,inventory,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
