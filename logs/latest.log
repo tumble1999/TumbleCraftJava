@@ -1991,3 +1991,162 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [21:18:40] [Server thread/INFO]: TumbleGamer issued server command: /gm c
 [21:18:44] [Server thread/INFO]: TumbleGamer issued server command: /i water
 [21:18:58] [Server thread/INFO]: TumbleGamer issued server command: /i water_bucket
+[21:20:35] [Server thread/INFO]: TumbleGamer issued server command: /tpo Untrimmed
+[21:20:53] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[21:21:19] [Server thread/INFO]: TumbleGamer issued server command: /invsee Untrimmed
+[21:21:30] [Server thread/INFO]: TumbleGamer issued server command: /invsee Untrimmed
+[21:21:51] [User Authenticator #11/INFO]: UUID of player Hayd is 03f1a1c8-06d1-45d9-8dde-8bd47ca4d38b
+[21:21:52] [Server thread/INFO]: Hayd[/81.96.127.214:53470] logged in with entity id 179714 at ([Survival]134.5, 86.0, 537.5)
+[21:21:52] [pool-14-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\03f1a1c8-06d1-45d9-8dde-8bd47ca4d38b.yml
+[21:21:52] [Server thread/INFO]: Hayd has made the advancement [Getting an Upgrade]
+[21:22:01] [Server thread/INFO]: TumbleGamer issued server command: /tpo Hayd
+[21:22:27] [Server thread/INFO]: TumbleGamer issued server command: /msg Hayd hello fellow british
+[21:22:38] [Async Chat Thread - #15/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:22:38] [Async Chat Thread - #15/INFO]: [L]<TumbleGamer> welcome
+[21:22:38] [Async Chat Thread - #15/INFO]: [Owner] TumbleGamer: welcome
+[21:22:46] [Async Chat Thread - #15/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:22:46] [Async Chat Thread - #15/INFO]: [L]<Hayd> ate
+[21:22:46] [Async Chat Thread - #15/INFO]: Hayd: ate
+[21:22:48] [Async Chat Thread - #15/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:22:48] [Async Chat Thread - #15/INFO]: [L]<Hayd> aye
+[21:22:48] [Async Chat Thread - #15/INFO]: Hayd: aye
+[21:22:49] [Async Chat Thread - #15/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:22:49] [Async Chat Thread - #15/INFO]: [L]<Hayd> lmao
+[21:22:49] [Async Chat Thread - #15/INFO]: Hayd: lmao
+[21:22:52] [Server thread/INFO]: TumbleGamer issued server command: /i compas
+[21:22:54] [Server thread/INFO]: TumbleGamer issued server command: /i compass
+[21:23:04] [Server thread/INFO]: Hayd issued server command: /server
+[21:23:06] [Server thread/INFO]: Hayd issued server command: /warp s-survival Hayd
+[21:23:06] [Server thread/INFO]: TumbleGamer issued server command: /v
+[21:23:08] [Server thread/INFO]: TumbleGamer issued server command: /v
+[21:23:16] [Server thread/INFO]: TumbleGamer issued server command: /tpo Hayd
+[21:23:54] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[21:24:34] [Server thread/INFO]: TumbleGamer issued server command: /tpo Untrimmed
+[21:24:45] [Server thread/INFO]: TumbleGamer issued server command: /invsee Untrimmed
+[21:25:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:25:23] [Server thread/INFO]: TumbleGamer issued server command: /invsee Untrimmed
+[21:25:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:25:53] [Server thread/INFO]: Untrimmed has made the advancement [Stone Age]
+[21:26:10] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
+[21:26:21] [Server thread/INFO]: TumbleGamer issued server command: /invsee Untrimmed
+[21:27:36] [Server thread/INFO]: TumbleGamer issued server command: /i diamond_ore
+[21:28:07] [Server thread/INFO]: TumbleGamer issued server command: /replacenear 5 stone diamond_ore
+[21:28:10] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[21:28:18] [Server thread/INFO]: Untrimmed fell from a high place
+[21:28:26] [Server thread/INFO]: TumbleGamer issued server command: /tpohere Untrimmed
+[21:28:43] [Server thread/INFO]: TumbleGamer issued server command: /replacenear 1 stone diamond_ore
+[21:28:48] [Server thread/INFO]: Hayd lost connection: Disconnected
+[21:28:48] [Server thread/INFO]: Hayd left the game
+[21:29:23] [Server thread/INFO]: TumbleGamer issued server command: /replacenear 1 stone diamond_ore
+[21:29:53] [Server thread/INFO]: Untrimmed has made the advancement [Acquire Hardware]
+[21:29:55] [Server thread/INFO]: TumbleGamer issued server command: /gmsp
+[21:29:56] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[21:29:59] [Server thread/INFO]: Untrimmed has made the advancement [Isn't It Iron Pick]
+[21:30:02] [Server thread/INFO]: Untrimmed has made the advancement [Diamonds!]
+[21:30:06] [Server thread/INFO]: TumbleGamer issued server command: /gmc
+[21:30:21] [Server thread/INFO]: TumbleGamer issued server command: /setbloc emerald_ore
+[21:30:26] [Server thread/INFO]: TumbleGamer issued server command: /setblock ~ ~ ~ emerald_ore
+[21:30:26] [Server thread/INFO]: [TumbleGamer: Block placed]
+[21:30:31] [Server thread/INFO]: TumbleGamer issued server command: /gm sp
+[21:30:33] [Server thread/INFO]: Untrimmed has made the advancement [Monster Hunter]
+[21:30:39] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[21:30:51] [Server thread/INFO]: TumbleGamer issued server command: /gm c
+[21:32:04] [Server thread/INFO]: TumbleGamer issued server command: /replacenear 1 stone diamond_ore
+[21:32:51] [Server thread/INFO]: TumbleGamer issued server command: /replacenear 1 stone iron_ore
+[21:32:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:32:57] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[21:33:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:33:53] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[21:35:05] [Server thread/INFO]: TumbleGamer issued server command: /setblock ~ ~ ~-2 air
+[21:35:05] [Server thread/INFO]: [TumbleGamer: Block placed]
+[21:35:09] [Server thread/INFO]: TumbleGamer issued server command: /gm sp
+[21:35:17] [Server thread/INFO]: TumbleGamer issued server command: /gm c
+[21:35:26] [Server thread/INFO]: TumbleGamer issued server command: /gm sp
+[21:35:35] [Server thread/INFO]: TumbleGamer issued server command: /gm c
+[21:35:52] [Server thread/INFO]: TumbleGamer issued server command: /kit iron
+[21:35:54] [Craft Scheduler Thread - 1121/INFO]: [Marriage] Purged 0 player entries in 520ms
+[21:35:58] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[21:36:06] [Server thread/INFO]: TumbleGamer issued server command: //wand
+[21:36:15] [Server thread/INFO]: TumbleGamer issued server command: //set stone
+[21:36:18] [Server thread/INFO]: TumbleGamer issued server command: /gm sp
+[21:36:29] [Server thread/INFO]: TumbleGamer issued server command: /gm c
+[21:38:20] [User Authenticator #12/INFO]: UUID of player Hayd is 03f1a1c8-06d1-45d9-8dde-8bd47ca4d38b
+[21:38:20] [Server thread/INFO]: Hayd[/81.96.127.214:53839] logged in with entity id 184933 at ([Survival]141.52249074008654, 70.0, 540.8186184526876)
+[21:38:53] [Server thread/INFO]: Hayd issued server command: /server
+[21:38:54] [Server thread/INFO]: Hayd issued server command: /warp s-survival Hayd
+[21:38:59] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[21:39:02] [Server thread/INFO]: Hayd issued server command: /wild
+[21:40:26] [Server thread/INFO]: Untrimmed issued server command: /wild
+[21:40:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:40:43] [Server thread/INFO]: Hayd issued server command: /wild
+[21:40:51] [Server thread/INFO]: TumbleGamer issued server command: /sethome reward
+[21:41:03] [Server thread/INFO]: Untrimmed issued server command: /wild
+[21:41:10] [Server thread/INFO]: Untrimmed issued server command: /wild
+[21:41:15] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:41:35] [Server thread/INFO]: [ClearLag] Removed 22 Entities!
+[21:42:00] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[21:42:15] [Server thread/INFO]: TumbleGamer issued server command: /tpo Untrimmed
