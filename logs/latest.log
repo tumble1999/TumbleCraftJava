@@ -442,3 +442,26 @@ javax.crypto.BadPaddingException: Decryption error
 	at javax.crypto.Cipher.doFinal(Cipher.java:2164) ~[?:1.8.0_171]
 	at com.vexsoftware.votifier.crypto.RSA.decrypt(RSA.java:65) ~[votifier-1.9.jar:?]
 	at com.vexsoftware.votifier.net.VoteReceiver.run(VoteReceiver.java:130) [votifier-1.9.jar:?]
+[11:33:54] [Thread-11/WARN]: [Votifier] [Votifier] Unable to decrypt vote record. Make sure that that your public key
+[11:33:54] [Thread-11/WARN]: [Votifier] [Votifier] matches the one you gave the server list.
+javax.crypto.BadPaddingException: Decryption error
+	at sun.security.rsa.RSAPadding.unpadV15(Unknown Source) ~[?:1.8.0_161]
+	at sun.security.rsa.RSAPadding.unpad(Unknown Source) ~[?:1.8.0_161]
+	at com.sun.crypto.provider.RSACipher.doFinal(RSACipher.java:363) ~[sunjce_provider.jar:1.8.0_171]
+	at com.sun.crypto.provider.RSACipher.engineDoFinal(RSACipher.java:389) ~[sunjce_provider.jar:1.8.0_171]
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164) ~[?:1.8.0_171]
+	at com.vexsoftware.votifier.crypto.RSA.decrypt(RSA.java:65) ~[votifier-1.9.jar:?]
+	at com.vexsoftware.votifier.net.VoteReceiver.run(VoteReceiver.java:130) [votifier-1.9.jar:?]
+[11:35:16] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[11:38:17] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[11:38:46] [Server thread/INFO]: [Server] .
+[11:38:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:39:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:39:52] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:41:17] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[11:44:17] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[11:46:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:47:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:47:32] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:50:18] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[11:53:19] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
