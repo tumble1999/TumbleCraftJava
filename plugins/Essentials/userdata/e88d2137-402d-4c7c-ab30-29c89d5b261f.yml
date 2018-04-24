@@ -5,6 +5,7 @@ timestamps:
   - pattern: .*( .*)?
     expiry: 1524531786253
   lastteleport: 1524529334997
+  logout: 1524531848363
 ipAddress: 100.40.106.195
 geolocation: United States
 lastlocation:
@@ -14,3 +15,10 @@ lastlocation:
   z: 546.4774027966843
   yaw: 28.76825
   pitch: 1.6500342
+logoutlocation:
+  world: Creative
+  x: -3.5731146776020863
+  y: 67.49389623719117
+  z: -105.21619861413083
+  yaw: 273.14975
+  pitch: 6.5999465
