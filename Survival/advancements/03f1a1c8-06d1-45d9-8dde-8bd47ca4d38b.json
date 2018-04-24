@@ -124,6 +124,8 @@
       "forest_hills": "2018-04-24 22:09:49 +0100",
       "plains": "2018-04-24 21:21:52 +0100",
       "savanna": "2018-04-24 21:54:36 +0100",
+      "jungle_hills": "2018-04-24 22:24:16 +0100",
+      "jungle_edge": "2018-04-24 22:19:35 +0100",
       "ice_mountains": "2018-04-24 21:40:51 +0100",
       "taiga": "2018-04-24 22:03:19 +0100",
       "taiga_hills": "2018-04-24 22:05:19 +0100",
@@ -133,6 +135,7 @@
       "extreme_hills": "2018-04-24 21:48:56 +0100",
       "roofed_forest": "2018-04-24 22:04:53 +0100",
       "river": "2018-04-24 21:40:48 +0100",
+      "jungle": "2018-04-24 22:19:44 +0100",
       "desert": "2018-04-24 21:57:23 +0100",
       "stone_beach": "2018-04-24 21:50:59 +0100"
     },
@@ -171,6 +174,12 @@
   "minecraft:recipes/redstone/trapdoor": {
     "criteria": {
       "has_planks": "2018-04-24 21:51:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2018-04-24 22:20:59 +0100"
     },
     "done": true
   },
@@ -415,6 +424,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/melon_block": {
+    "criteria": {
+      "has_melon": "2018-04-24 22:20:59 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2018-04-24 21:45:53 +0100"
@@ -424,6 +439,12 @@
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2018-04-24 21:58:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/speckled_melon": {
+    "criteria": {
+      "has_melon": "2018-04-24 22:20:59 +0100"
     },
     "done": true
   },
