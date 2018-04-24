@@ -106,6 +106,9 @@ groups:
       rank-ladder: Ranks
       weight: '3'
     permissions:
+    - ab.kick.use
+    - essentials.tpohere
+    - essentials.tpo
     - bukkit.command.*
     - nte.helper
     - griefprevention.admin.chat.*
