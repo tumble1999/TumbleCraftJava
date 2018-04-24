@@ -3,6 +3,9 @@ lastAccountName: JJdaGreat
 timestamps:
   login: 1524528976086
   lastteleport: 1524529029404
+  command-cooldowns:
+  - pattern: .*( .*)?
+    expiry: 1524529080640
 ipAddress: 100.40.106.195
 lastlocation:
   world: Survival
