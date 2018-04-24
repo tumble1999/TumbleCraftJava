@@ -365,13 +365,20 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "skeleton": "2018-04-24 21:30:33 +0100"
+      "skeleton": "2018-04-24 21:30:33 +0100",
+      "zombie": "2018-04-24 21:36:10 +0100"
     },
     "done": false
   },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2018-04-24 21:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_stone": "2018-04-24 21:38:23 +0100"
     },
     "done": true
   },
