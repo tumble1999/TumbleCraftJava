@@ -113,6 +113,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2018-04-24 21:45:39 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/trapdoor": {
     "criteria": {
       "has_planks": "2018-04-24 21:29:04 +0100"
@@ -341,6 +347,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/speckled_melon": {
+    "criteria": {
+      "has_melon": "2018-04-24 21:45:39 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_block": {
     "criteria": {
       "has_the_recipe": "2018-04-24 21:31:59 +0100"
@@ -508,13 +520,18 @@
       "forest": "2018-04-24 21:41:15 +0100",
       "deep_ocean": "2018-04-24 21:43:26 +0100",
       "beaches": "2018-04-24 21:41:55 +0100",
+      "desert_hills": "2018-04-24 21:47:59 +0100",
       "forest_hills": "2018-04-24 21:40:58 +0100",
       "plains": "2018-04-24 21:12:37 +0100",
+      "jungle_hills": "2018-04-24 21:45:01 +0100",
+      "jungle_edge": "2018-04-24 21:47:46 +0100",
       "taiga": "2018-04-24 21:19:55 +0100",
       "taiga_hills": "2018-04-24 21:23:35 +0100",
       "ocean": "2018-04-24 21:42:49 +0100",
       "extreme_hills": "2018-04-24 21:18:05 +0100",
-      "river": "2018-04-24 21:19:51 +0100"
+      "river": "2018-04-24 21:19:51 +0100",
+      "jungle": "2018-04-24 21:44:33 +0100",
+      "desert": "2018-04-24 21:47:49 +0100"
     },
     "done": false
   },
@@ -705,6 +722,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/melon_block": {
+    "criteria": {
+      "has_melon": "2018-04-24 21:45:39 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2018-04-24 21:42:43 +0100"
@@ -720,6 +743,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_cobblestone": "2018-04-24 21:25:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2018-04-24 21:46:17 +0100"
     },
     "done": true
   },
