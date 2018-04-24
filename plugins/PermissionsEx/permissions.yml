@@ -106,6 +106,10 @@ groups:
       rank-ladder: Ranks
       weight: '3'
     permissions:
+    - ab.history
+    - ab.banlist
+    - ab.tmpmute.notify
+    - ab.tmpmute.use
     - ab.tmpban.notify
     - ab.tmpban.use
     - ab.warn.notify
