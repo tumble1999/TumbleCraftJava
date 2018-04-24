@@ -1,7 +1,25 @@
 {
-  "minecraft:recipes/decorations/torch": {
+  "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
-      "has_stone_pickaxe": "2018-04-24 21:12:36 +0100"
+      "has_log": "2018-04-24 21:20:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2018-04-24 21:19:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2018-04-24 21:20:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2018-04-24 21:19:51 +0100"
     },
     "done": true
   },
@@ -11,10 +29,55 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2018-04-24 21:12:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2018-04-24 21:19:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2018-04-24 21:20:21 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2018-04-24 21:20:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2018-04-24 21:19:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2018-04-24 21:19:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2018-04-24 21:19:51 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "plains": "2018-04-24 21:12:37 +0100",
-      "extreme_hills": "2018-04-24 21:18:05 +0100"
+      "taiga": "2018-04-24 21:19:55 +0100",
+      "taiga_hills": "2018-04-24 21:23:35 +0100",
+      "extreme_hills": "2018-04-24 21:18:05 +0100",
+      "river": "2018-04-24 21:19:51 +0100"
     },
     "done": false
   }
