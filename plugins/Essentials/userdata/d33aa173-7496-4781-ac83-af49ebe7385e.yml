@@ -1,12 +1,15 @@
 lastAccountName: SandoGO
 timestamps:
   login: 1524580713688
+  command-cooldowns:
+  - pattern: .*( .*)?
+    expiry: 1524580832232
 ipAddress: 86.93.132.223
 geolocation: Netherlands
 lastlocation:
   world: Survival
-  x: 128.0
+  x: 128.38098234567357
   y: 76.0
-  z: 544.0
-  yaw: 0.0
-  pitch: 0.0
+  z: 543.6709457444819
+  yaw: 12.567413
+  pitch: 17.850025
