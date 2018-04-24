@@ -110,6 +110,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2018-04-24 22:35:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "ice_flats": "2018-04-24 21:42:22 +0100",
@@ -117,6 +123,7 @@
       "taiga_cold_hills": "2018-04-24 21:42:32 +0100",
       "forest": "2018-04-24 22:02:59 +0100",
       "birch_forest": "2018-04-24 21:39:50 +0100",
+      "swampland": "2018-04-24 22:35:18 +0100",
       "deep_ocean": "2018-04-24 21:52:22 +0100",
       "beaches": "2018-04-24 21:53:51 +0100",
       "extreme_hills_with_trees": "2018-04-24 21:50:41 +0100",
@@ -369,6 +376,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2018-04-24 22:35:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2018-04-24 21:45:44 +0100"
@@ -397,6 +410,12 @@
   "minecraft:recipes/decorations/fence": {
     "criteria": {
       "has_planks": "2018-04-24 21:51:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lit_pumpkin": {
+    "criteria": {
+      "has_pumpkin": "2018-04-24 22:35:41 +0100"
     },
     "done": true
   },
