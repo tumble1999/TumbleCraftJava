@@ -3,7 +3,7 @@ timestamps:
   login: 1524609448914
   command-cooldowns:
   - pattern: .*( .*)?
-    expiry: 1524616408557
+    expiry: 1524616510593
   logout: 1523410706834
   mute: 0
   lastteleport: 1524614113924
@@ -29,3 +29,11 @@ logoutlocation:
 muted: false
 afk: false
 nickname: Quan
+homes:
+  home:
+    world: Survival
+    x: 37744.69999998808
+    y: 71.0625
+    z: 40323.814736861255
+    yaw: 258.7473
+    pitch: 27.600008
