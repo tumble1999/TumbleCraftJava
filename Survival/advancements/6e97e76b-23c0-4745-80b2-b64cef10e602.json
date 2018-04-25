@@ -518,6 +518,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2018-04-25 01:55:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2018-04-08 02:19:15 +0100"
@@ -647,6 +653,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2018-04-08 01:31:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2018-04-25 01:55:01 +0100"
     },
     "done": true
   },
@@ -940,9 +952,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2018-04-25 01:57:26 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/wooden_pressure_plate": {
     "criteria": {
       "has_planks": "2018-04-07 23:06:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2018-04-25 01:55:01 +0100"
     },
     "done": true
   },
@@ -1057,6 +1081,12 @@
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2018-04-08 01:30:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2018-04-25 01:55:01 +0100"
     },
     "done": true
   },
