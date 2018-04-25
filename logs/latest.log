@@ -2443,3 +2443,64 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [20:50:27] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
 [20:50:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [20:51:02] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[20:53:27] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[20:54:47] [Netty Server IO #1/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[20:56:28] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[20:57:43] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[20:58:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[20:58:43] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[21:02:29] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[21:05:24] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:05:29] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[21:06:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:06:24] [Server thread/INFO]: [ClearLag] Removed 2 Entities!
+[21:08:24] [Craft Scheduler Thread - 931/INFO]: [Marriage] Purged 0 player entries in 19ms
+[21:08:26] [Craft Scheduler Thread - 919/INFO]: (FAWE) Updated FAWE to 18.04.25-8e3e5b0-1086-19.5.20
+[21:08:26] [Craft Scheduler Thread - 919/INFO]: (FAWE) Restart to update FAWE with these changes: /fawe changelog or https://empcraft.com/fawe/cl?13b5ded
+[21:08:29] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[21:11:22] [User Authenticator #23/INFO]: UUID of player JJdaGreat is ca34a678-499f-4ce4-a25e-e2232c375865
+[21:11:22] [Server thread/INFO]: JJdaGreat[/100.40.106.195:51647] logged in with entity id 281716 at ([Survival]7.843824389642942, 94.0, 467.4725156617426)
+[21:11:29] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[21:11:41] [Server thread/INFO]: JJdaGreat issued server command: /fl
+[21:11:44] [Server thread/INFO]: JJdaGreat issued server command: /fly
+[21:12:01] [Server thread/INFO]: JJdaGreat issued server command: /spawn
+[21:13:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:13:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:13:47] [User Authenticator #24/INFO]: UUID of player wolfyblox589 is e88d2137-402d-4c7c-ab30-29c89d5b261f
+[21:13:47] [Server thread/INFO]: wolfyblox589[/100.40.106.195:62354] logged in with entity id 282908 at ([Survival]-1.5048567317178685, 92.74329435484786, 521.5768220128112)
+[21:14:05] [Server thread/INFO]: [ClearLag] Removed 2 Entities!
+[21:14:21] [Server thread/INFO]: wolfyblox589 issued server command: /gamemode c
+[21:14:30] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[21:14:35] [Server thread/INFO]: wolfyblox589 issued server command: /nick Wolfyblox wolfyblox589
+[21:15:05] [Server thread/INFO]: wolfyblox589 issued server command: /tpo Hayd
+[21:15:08] [Server thread/INFO]: wolfyblox589 issued server command: /v
+[21:15:12] [Async Chat Thread - #12/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:15:12] [Async Chat Thread - #12/INFO]: [L]<Hayd> hey
+[21:15:12] [Async Chat Thread - #12/INFO]: Hayd: hey
+[21:15:21] [Server thread/INFO]: wolfyblox589 issued server command: /v
+[21:16:24] [Server thread/INFO]: JJdaGreat issued server command: /server
+[21:16:26] [Server thread/INFO]: JJdaGreat issued server command: /warp s-creative JJdaGreat
+[21:16:51] [Server thread/INFO]: JJdaGreat issued server command: /plot tp
+[21:17:05] [Server thread/INFO]: (FAWE) Running 1.12 registry dumper!
+[21:17:05] [Server thread/INFO]: (FAWE) Using adapter: com.boydti.fawe.bukkit.v1_12.FaweAdapter_1_12@1fa7b2e4
+[21:17:05] [Server thread/INFO]: (FAWE) =========================================
+[21:18:11] [Server thread/INFO]: JJdaGreat lost connection: Disconnected
+[21:18:11] [Server thread/INFO]: JJdaGreat left the game
+[21:20:10] [Server thread/INFO]: [GriefPrevention] wolfyblox589 placed a sign @ Survival: x30656, z35999;---------------;You guys did not;claim this ;---------------
+[21:20:17] [Server thread/INFO]: [GriefPrevention] wolfyblox589 placed a sign @ Survival: x30656, z35999;it 
