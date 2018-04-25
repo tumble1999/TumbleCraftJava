@@ -1,3 +1,44 @@
 {
-  "playerPerms": {}
+  "playerPerms": {
+    "MiniTecno": {
+      "uuid": "6e97e76b-23c0-4745-80b2-b64cef10e602",
+      "worlds": {
+        "*": [
+          "builder-interview"
+        ],
+        "Creative": [
+          "builder-interview"
+        ],
+        "Survival": [
+          "builder-interview"
+        ],
+        "Staff": [
+          "builder-interview"
+        ],
+        "DrCraft": [
+          "builder-interview"
+        ]
+      }
+    },
+    "Hayd": {
+      "uuid": "03f1a1c8-06d1-45d9-8dde-8bd47ca4d38b",
+      "worlds": {
+        "*": [
+          "member"
+        ],
+        "Creative": [
+          "member"
+        ],
+        "Survival": [
+          "member"
+        ],
+        "Staff": [
+          "member"
+        ],
+        "DrCraft": [
+          "member"
+        ]
+      }
+    }
+  }
 }
