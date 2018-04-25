@@ -345,6 +345,7 @@
     "criteria": {
       "cooked_beef": "2018-04-24 22:48:44 +0100",
       "clownfish": "2018-04-25 22:01:35 +0100",
+      "apple": "2018-04-25 22:54:48 +0100",
       "bread": "2018-04-24 21:20:21 +0100"
     },
     "done": false
@@ -832,6 +833,7 @@
       "zombie_villager": "2018-04-25 21:46:45 +0100",
       "skeleton": "2018-04-24 21:30:33 +0100",
       "zombie": "2018-04-24 21:36:10 +0100",
+      "witch": "2018-04-25 22:53:21 +0100",
       "spider": "2018-04-25 01:32:34 +0100",
       "creeper": "2018-04-25 01:40:56 +0100",
       "enderman": "2018-04-25 01:43:19 +0100"
@@ -1511,6 +1513,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "entered_water": "2018-04-24 21:19:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2018-04-25 22:53:19 +0100"
     },
     "done": true
   },
