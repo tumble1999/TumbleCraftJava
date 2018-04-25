@@ -686,6 +686,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2018-04-25 14:38:38 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_stained_glass_pane": {
     "criteria": {
       "has_glass": "2018-04-24 23:21:56 +0100"
@@ -697,6 +703,7 @@
       "skeleton": "2018-04-25 00:14:59 +0100",
       "zombie": "2018-04-24 21:58:37 +0100",
       "silverfish": "2018-04-25 00:38:53 +0100",
+      "witch": "2018-04-25 14:38:35 +0100",
       "spider": "2018-04-24 22:00:20 +0100"
     },
     "done": false
@@ -1055,6 +1062,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2018-04-25 14:38:38 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2018-04-25 02:27:52 +0100"
@@ -1294,6 +1307,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "entered_water": "2018-04-24 21:50:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2018-04-25 14:38:31 +0100"
     },
     "done": true
   },
