@@ -106,6 +106,8 @@ groups:
       rank-ladder: Ranks
       weight: '3'
     permissions:
+    - sv.see.*
+    - sv.see
     - sv.use
     - essentials.tpohere
     - essentials.tpo
