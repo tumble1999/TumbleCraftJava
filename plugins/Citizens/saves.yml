@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 61
+last-created-npc-id: 80
 npc:
   '0':
     metadata:
@@ -27,7 +27,7 @@ npc:
         x: '112.5'
         y: '70.5'
         z: '544.5'
-        yaw: '145.03521728515625'
+        yaw: '-52.69044494628906'
         pitch: '0.0'
       type: PLAYER
       spawned: true
@@ -83,7 +83,7 @@ npc:
         x: '144.5'
         y: '70.5'
         z: '544.5'
-        yaw: '115.24472045898438'
+        yaw: '-43.26791763305664'
         pitch: '0.0'
       type: PLAYER
       owner:
@@ -110,7 +110,7 @@ npc:
         x: '128.5'
         y: '70.5'
         z: '560.5'
-        yaw: '-47.39179611206055'
+        yaw: '46.97731018066406'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -142,7 +142,7 @@ npc:
         x: '1826.5'
         y: '55.5'
         z: '-739.5'
-        yaw: '-127.06637573242188'
+        yaw: '-136.0797576904297'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -174,7 +174,7 @@ npc:
         x: '1826.5'
         y: '55.5'
         z: '-747.5'
-        yaw: '-55.859779357910156'
+        yaw: '-60.788291931152344'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -206,7 +206,7 @@ npc:
         x: '1840.5'
         y: '55.5'
         z: '-733.5'
-        yaw: '48.07991027832031'
+        yaw: '140.5577392578125'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -237,7 +237,7 @@ npc:
         x: '1822.5'
         y: '55.5'
         z: '-747.5'
-        yaw: '-52.16147232055664'
+        yaw: '-55.56232833862305'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -271,7 +271,7 @@ npc:
         x: '1832.5'
         y: '55.5'
         z: '-733.5'
-        yaw: '-51.00624465942383'
+        yaw: '-146.611083984375'
         pitch: '0.0'
       owner:
         owner: server
@@ -307,7 +307,7 @@ npc:
         x: '1840.5'
         y: '55.5'
         z: '-729.5'
-        yaw: '98.90240478515625'
+        yaw: '122.31846618652344'
         pitch: '0.0'
       spawned: true
       owner:
@@ -339,7 +339,7 @@ npc:
         x: '128.5'
         y: '70.5'
         z: '528.5'
-        yaw: '47.1036376953125'
+        yaw: '-151.20526123046875'
         pitch: '0.0'
       spawned: true
       owner:
@@ -372,7 +372,7 @@ npc:
         x: '1846.5'
         y: '55.5'
         z: '-747.5'
-        yaw: '56.28582763671875'
+        yaw: '51.703338623046875'
         pitch: '0.0'
       owner:
         owner: server
@@ -396,7 +396,7 @@ npc:
         x: '1822.5'
         y: '55.5'
         z: '-739.5'
-        yaw: '-124.53433990478516'
+        yaw: '-128.4971923828125'
         pitch: '0.0'
       spawned: true
       type: PLAYER
@@ -428,7 +428,7 @@ npc:
         x: '1818.5'
         y: '55.5'
         z: '-747.5'
-        yaw: '-55.79051971435547'
+        yaw: '-50.33387756347656'
         pitch: '0.0'
       spawned: true
       type: PLAYER
@@ -459,7 +459,7 @@ npc:
         x: '1832.5'
         y: '55.5'
         z: '-753.5'
-        yaw: '-35.34953689575195'
+        yaw: '-34.90663146972656'
         pitch: '0.0'
       lookclose:
         range: '5.0'
@@ -468,6 +468,444 @@ npc:
       type: PLAYER
       spawned: true
     traitnames: equipment,spawned,mounttrait,type,location,gravity,lookclose,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '78':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzY3ODU1ODMsInByb2ZpbGVJZCI6ImEzYWVlMzc2YjIxNzRkYmZhM2ViYTExOTJlYWVmY2EzIiwicHJvZmlsZU5hbWUiOiJCb2R5Z3VhcmQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlMjc5ZTJmZTRkZjVhZDA2NTlkZmI5NDlmZDM4MmJmYWZjMmVjMjE3OWE3MjgxMzFlZGM0MmIyODhlMzMyIn19fQ==
+      cached-skin-uuid-name: bodyguard
+      cached-skin-uuid: a3aee376-b217-4dbf-a3eb-a1192eaefca3
+      player-skin-signature: YRANu6kEfE540hSdLpsPcpCjsoenowBlQunA/TygrWKMJQqDxBa8vhtgVhr5lYzDG7Yx0drNBhsTjBGih94piA2bm+ImvaB/H6MbsHWJh36ey/DBzHt1YNYBKSH2g01eTKzRc/AxilF6iBfa81a9bF7xwEmY9BDMd7UXVklvFwuaeTUSpXEO/6HRtJbcheYRXU6AdspCWDO0igYbXvxeVSNpX6qcIdH+9IeVXq5E4UrF4cjX0FGqbTrARX/k/dlAuCQkK1D4+T9UjCRSwsgcD6c3EfCAn+pVLFM8Bv7oneR5rv7BuITjgdJBjkpG++o6hhAQYvjfg7JCdPsogFqRRidC+q4Q2pKIH9gh9o3vbhjEBL7XyJziGyPCWTgZq5/xVpdNvsYGv9/bdQM0VQI9rqHfy7DUoEOJ6kITwsrverNOUjptUqI1MAa5WmMsD8pozOjWBvTbIMOa4EnkoGsQpVGKhJ4eaivUKEIJZMNKLRSSi6xGvmsXNiDlqynGhP6gDB9fTRXNtpPf6/XqVyH5FnYY2avAcw3fexStcpc/1RpC1noiRwKa55t+PMzojtUMwK6lF9NWAj/jDa8ZerI9HQJmT0KoO51diRJ2vWxzUutPzgJl3pp8UhGza5Iq1Xzouzmipu/EfMxrALemD/7jvyjTc+IGCN5KmRSWhlFfN7g=
+    name: Bodyguard
+    uuid: 3cd0107b-9afd-4260-adeb-b328903a61fc
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        world: Survival
+        x: '37732.7661'
+        y: '70.0'
+        z: '40316.3318'
+        yaw: '1.8662033081054688'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: Survival
+                x: '37732.0'
+                y: '68.0'
+                z: '40332.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '1':
+              location:
+                world: Survival
+                x: '37754.0'
+                y: '69.0'
+                z: '40333.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '2':
+              location:
+                world: Survival
+                x: '37755.0'
+                y: '67.0'
+                z: '40315.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '3':
+              location:
+                world: Survival
+                x: '37744.0'
+                y: '69.0'
+                z: '40313.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '4':
+              location:
+                world: Survival
+                x: '37732.0'
+                y: '69.0'
+                z: '40315.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+    traitnames: spawned,equipment,mounttrait,type,location,gravity,waypoints,lookclose,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '76':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzY3ODU1ODMsInByb2ZpbGVJZCI6ImEzYWVlMzc2YjIxNzRkYmZhM2ViYTExOTJlYWVmY2EzIiwicHJvZmlsZU5hbWUiOiJCb2R5Z3VhcmQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlMjc5ZTJmZTRkZjVhZDA2NTlkZmI5NDlmZDM4MmJmYWZjMmVjMjE3OWE3MjgxMzFlZGM0MmIyODhlMzMyIn19fQ==
+      cached-skin-uuid-name: bodyguard
+      cached-skin-uuid: a3aee376-b217-4dbf-a3eb-a1192eaefca3
+      player-skin-signature: YRANu6kEfE540hSdLpsPcpCjsoenowBlQunA/TygrWKMJQqDxBa8vhtgVhr5lYzDG7Yx0drNBhsTjBGih94piA2bm+ImvaB/H6MbsHWJh36ey/DBzHt1YNYBKSH2g01eTKzRc/AxilF6iBfa81a9bF7xwEmY9BDMd7UXVklvFwuaeTUSpXEO/6HRtJbcheYRXU6AdspCWDO0igYbXvxeVSNpX6qcIdH+9IeVXq5E4UrF4cjX0FGqbTrARX/k/dlAuCQkK1D4+T9UjCRSwsgcD6c3EfCAn+pVLFM8Bv7oneR5rv7BuITjgdJBjkpG++o6hhAQYvjfg7JCdPsogFqRRidC+q4Q2pKIH9gh9o3vbhjEBL7XyJziGyPCWTgZq5/xVpdNvsYGv9/bdQM0VQI9rqHfy7DUoEOJ6kITwsrverNOUjptUqI1MAa5WmMsD8pozOjWBvTbIMOa4EnkoGsQpVGKhJ4eaivUKEIJZMNKLRSSi6xGvmsXNiDlqynGhP6gDB9fTRXNtpPf6/XqVyH5FnYY2avAcw3fexStcpc/1RpC1noiRwKa55t+PMzojtUMwK6lF9NWAj/jDa8ZerI9HQJmT0KoO51diRJ2vWxzUutPzgJl3pp8UhGza5Iq1Xzouzmipu/EfMxrALemD/7jvyjTc+IGCN5KmRSWhlFfN7g=
+    name: Bodyguard
+    uuid: d6d1a26c-a23e-46e3-9886-85b36a90a2e8
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        world: Survival
+        x: '37732.6331'
+        y: '70.0'
+        z: '40320.4184'
+        yaw: '1.868255615234375'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: Survival
+                x: '37732.0'
+                y: '68.0'
+                z: '40332.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '1':
+              location:
+                world: Survival
+                x: '37754.0'
+                y: '69.0'
+                z: '40333.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '2':
+              location:
+                world: Survival
+                x: '37755.0'
+                y: '67.0'
+                z: '40315.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '3':
+              location:
+                world: Survival
+                x: '37744.0'
+                y: '69.0'
+                z: '40313.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '4':
+              location:
+                world: Survival
+                x: '37732.0'
+                y: '69.0'
+                z: '40315.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+    traitnames: spawned,equipment,mounttrait,type,location,gravity,waypoints,lookclose,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '75':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzY3ODU1ODMsInByb2ZpbGVJZCI6ImEzYWVlMzc2YjIxNzRkYmZhM2ViYTExOTJlYWVmY2EzIiwicHJvZmlsZU5hbWUiOiJCb2R5Z3VhcmQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlMjc5ZTJmZTRkZjVhZDA2NTlkZmI5NDlmZDM4MmJmYWZjMmVjMjE3OWE3MjgxMzFlZGM0MmIyODhlMzMyIn19fQ==
+      cached-skin-uuid-name: bodyguard
+      cached-skin-uuid: a3aee376-b217-4dbf-a3eb-a1192eaefca3
+      player-skin-signature: YRANu6kEfE540hSdLpsPcpCjsoenowBlQunA/TygrWKMJQqDxBa8vhtgVhr5lYzDG7Yx0drNBhsTjBGih94piA2bm+ImvaB/H6MbsHWJh36ey/DBzHt1YNYBKSH2g01eTKzRc/AxilF6iBfa81a9bF7xwEmY9BDMd7UXVklvFwuaeTUSpXEO/6HRtJbcheYRXU6AdspCWDO0igYbXvxeVSNpX6qcIdH+9IeVXq5E4UrF4cjX0FGqbTrARX/k/dlAuCQkK1D4+T9UjCRSwsgcD6c3EfCAn+pVLFM8Bv7oneR5rv7BuITjgdJBjkpG++o6hhAQYvjfg7JCdPsogFqRRidC+q4Q2pKIH9gh9o3vbhjEBL7XyJziGyPCWTgZq5/xVpdNvsYGv9/bdQM0VQI9rqHfy7DUoEOJ6kITwsrverNOUjptUqI1MAa5WmMsD8pozOjWBvTbIMOa4EnkoGsQpVGKhJ4eaivUKEIJZMNKLRSSi6xGvmsXNiDlqynGhP6gDB9fTRXNtpPf6/XqVyH5FnYY2avAcw3fexStcpc/1RpC1noiRwKa55t+PMzojtUMwK6lF9NWAj/jDa8ZerI9HQJmT0KoO51diRJ2vWxzUutPzgJl3pp8UhGza5Iq1Xzouzmipu/EfMxrALemD/7jvyjTc+IGCN5KmRSWhlFfN7g=
+    name: Bodyguard
+    uuid: bcb4f30c-796c-41d4-8fa5-f7f0c5eadadf
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        world: Survival
+        x: '37732.5627'
+        y: '70.0'
+        z: '40322.5758'
+        yaw: '1.8689193725585938'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: Survival
+                x: '37732.0'
+                y: '68.0'
+                z: '40332.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '1':
+              location:
+                world: Survival
+                x: '37754.0'
+                y: '69.0'
+                z: '40333.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '2':
+              location:
+                world: Survival
+                x: '37755.0'
+                y: '67.0'
+                z: '40315.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '3':
+              location:
+                world: Survival
+                x: '37744.0'
+                y: '69.0'
+                z: '40313.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '4':
+              location:
+                world: Survival
+                x: '37732.0'
+                y: '69.0'
+                z: '40315.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+    traitnames: spawned,equipment,mounttrait,type,location,gravity,waypoints,lookclose,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '73':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzY3ODU1ODMsInByb2ZpbGVJZCI6ImEzYWVlMzc2YjIxNzRkYmZhM2ViYTExOTJlYWVmY2EzIiwicHJvZmlsZU5hbWUiOiJCb2R5Z3VhcmQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlMjc5ZTJmZTRkZjVhZDA2NTlkZmI5NDlmZDM4MmJmYWZjMmVjMjE3OWE3MjgxMzFlZGM0MmIyODhlMzMyIn19fQ==
+      cached-skin-uuid-name: bodyguard
+      cached-skin-uuid: a3aee376-b217-4dbf-a3eb-a1192eaefca3
+      player-skin-signature: YRANu6kEfE540hSdLpsPcpCjsoenowBlQunA/TygrWKMJQqDxBa8vhtgVhr5lYzDG7Yx0drNBhsTjBGih94piA2bm+ImvaB/H6MbsHWJh36ey/DBzHt1YNYBKSH2g01eTKzRc/AxilF6iBfa81a9bF7xwEmY9BDMd7UXVklvFwuaeTUSpXEO/6HRtJbcheYRXU6AdspCWDO0igYbXvxeVSNpX6qcIdH+9IeVXq5E4UrF4cjX0FGqbTrARX/k/dlAuCQkK1D4+T9UjCRSwsgcD6c3EfCAn+pVLFM8Bv7oneR5rv7BuITjgdJBjkpG++o6hhAQYvjfg7JCdPsogFqRRidC+q4Q2pKIH9gh9o3vbhjEBL7XyJziGyPCWTgZq5/xVpdNvsYGv9/bdQM0VQI9rqHfy7DUoEOJ6kITwsrverNOUjptUqI1MAa5WmMsD8pozOjWBvTbIMOa4EnkoGsQpVGKhJ4eaivUKEIJZMNKLRSSi6xGvmsXNiDlqynGhP6gDB9fTRXNtpPf6/XqVyH5FnYY2avAcw3fexStcpc/1RpC1noiRwKa55t+PMzojtUMwK6lF9NWAj/jDa8ZerI9HQJmT0KoO51diRJ2vWxzUutPzgJl3pp8UhGza5Iq1Xzouzmipu/EfMxrALemD/7jvyjTc+IGCN5KmRSWhlFfN7g=
+    name: Bodyguard
+    uuid: 50b9e1e8-5a43-45ee-acdd-81ad4ea323e1
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        world: Survival
+        x: '37733.9466'
+        y: '69.0'
+        z: '40331.6333'
+        yaw: '-77.6890869140625'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: Survival
+                x: '37732.0'
+                y: '68.0'
+                z: '40332.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '1':
+              location:
+                world: Survival
+                x: '37754.0'
+                y: '69.0'
+                z: '40333.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '2':
+              location:
+                world: Survival
+                x: '37755.0'
+                y: '67.0'
+                z: '40315.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '3':
+              location:
+                world: Survival
+                x: '37744.0'
+                y: '69.0'
+                z: '40313.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '4':
+              location:
+                world: Survival
+                x: '37732.0'
+                y: '69.0'
+                z: '40315.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+    traitnames: spawned,equipment,mounttrait,type,location,gravity,waypoints,lookclose,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '70':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzY3ODU1ODMsInByb2ZpbGVJZCI6ImEzYWVlMzc2YjIxNzRkYmZhM2ViYTExOTJlYWVmY2EzIiwicHJvZmlsZU5hbWUiOiJCb2R5Z3VhcmQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlMjc5ZTJmZTRkZjVhZDA2NTlkZmI5NDlmZDM4MmJmYWZjMmVjMjE3OWE3MjgxMzFlZGM0MmIyODhlMzMyIn19fQ==
+      cached-skin-uuid-name: bodyguard
+      cached-skin-uuid: a3aee376-b217-4dbf-a3eb-a1192eaefca3
+      player-skin-signature: YRANu6kEfE540hSdLpsPcpCjsoenowBlQunA/TygrWKMJQqDxBa8vhtgVhr5lYzDG7Yx0drNBhsTjBGih94piA2bm+ImvaB/H6MbsHWJh36ey/DBzHt1YNYBKSH2g01eTKzRc/AxilF6iBfa81a9bF7xwEmY9BDMd7UXVklvFwuaeTUSpXEO/6HRtJbcheYRXU6AdspCWDO0igYbXvxeVSNpX6qcIdH+9IeVXq5E4UrF4cjX0FGqbTrARX/k/dlAuCQkK1D4+T9UjCRSwsgcD6c3EfCAn+pVLFM8Bv7oneR5rv7BuITjgdJBjkpG++o6hhAQYvjfg7JCdPsogFqRRidC+q4Q2pKIH9gh9o3vbhjEBL7XyJziGyPCWTgZq5/xVpdNvsYGv9/bdQM0VQI9rqHfy7DUoEOJ6kITwsrverNOUjptUqI1MAa5WmMsD8pozOjWBvTbIMOa4EnkoGsQpVGKhJ4eaivUKEIJZMNKLRSSi6xGvmsXNiDlqynGhP6gDB9fTRXNtpPf6/XqVyH5FnYY2avAcw3fexStcpc/1RpC1noiRwKa55t+PMzojtUMwK6lF9NWAj/jDa8ZerI9HQJmT0KoO51diRJ2vWxzUutPzgJl3pp8UhGza5Iq1Xzouzmipu/EfMxrALemD/7jvyjTc+IGCN5KmRSWhlFfN7g=
+    name: Bodyguard
+    uuid: 8badec18-95ed-4ee1-b21d-1edc2a787651
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        world: Survival
+        x: '37746.8441'
+        y: '70.0'
+        z: '40333.5197'
+        yaw: '-90.17001342773438'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: Survival
+                x: '37732.0'
+                y: '68.0'
+                z: '40332.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '1':
+              location:
+                world: Survival
+                x: '37754.0'
+                y: '69.0'
+                z: '40333.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '2':
+              location:
+                world: Survival
+                x: '37755.0'
+                y: '67.0'
+                z: '40315.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '3':
+              location:
+                world: Survival
+                x: '37744.0'
+                y: '69.0'
+                z: '40313.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '4':
+              location:
+                world: Survival
+                x: '37732.0'
+                y: '69.0'
+                z: '40315.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+    traitnames: spawned,equipment,mounttrait,type,location,gravity,waypoints,lookclose,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '64':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzY3ODU1ODMsInByb2ZpbGVJZCI6ImEzYWVlMzc2YjIxNzRkYmZhM2ViYTExOTJlYWVmY2EzIiwicHJvZmlsZU5hbWUiOiJCb2R5Z3VhcmQiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFlMjc5ZTJmZTRkZjVhZDA2NTlkZmI5NDlmZDM4MmJmYWZjMmVjMjE3OWE3MjgxMzFlZGM0MmIyODhlMzMyIn19fQ==
+      cached-skin-uuid-name: bodyguard
+      cached-skin-uuid: a3aee376-b217-4dbf-a3eb-a1192eaefca3
+      player-skin-signature: YRANu6kEfE540hSdLpsPcpCjsoenowBlQunA/TygrWKMJQqDxBa8vhtgVhr5lYzDG7Yx0drNBhsTjBGih94piA2bm+ImvaB/H6MbsHWJh36ey/DBzHt1YNYBKSH2g01eTKzRc/AxilF6iBfa81a9bF7xwEmY9BDMd7UXVklvFwuaeTUSpXEO/6HRtJbcheYRXU6AdspCWDO0igYbXvxeVSNpX6qcIdH+9IeVXq5E4UrF4cjX0FGqbTrARX/k/dlAuCQkK1D4+T9UjCRSwsgcD6c3EfCAn+pVLFM8Bv7oneR5rv7BuITjgdJBjkpG++o6hhAQYvjfg7JCdPsogFqRRidC+q4Q2pKIH9gh9o3vbhjEBL7XyJziGyPCWTgZq5/xVpdNvsYGv9/bdQM0VQI9rqHfy7DUoEOJ6kITwsrverNOUjptUqI1MAa5WmMsD8pozOjWBvTbIMOa4EnkoGsQpVGKhJ4eaivUKEIJZMNKLRSSi6xGvmsXNiDlqynGhP6gDB9fTRXNtpPf6/XqVyH5FnYY2avAcw3fexStcpc/1RpC1noiRwKa55t+PMzojtUMwK6lF9NWAj/jDa8ZerI9HQJmT0KoO51diRJ2vWxzUutPzgJl3pp8UhGza5Iq1Xzouzmipu/EfMxrALemD/7jvyjTc+IGCN5KmRSWhlFfN7g=
+    name: Bodyguard
+    uuid: 6874adf1-1853-4bed-8e4a-96e1f794a679
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        world: Survival
+        x: '37750.4909'
+        y: '70.0'
+        z: '40314.4769'
+        yaw: '88.66508483886719'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                world: Survival
+                x: '37732.0'
+                y: '68.0'
+                z: '40332.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '1':
+              location:
+                world: Survival
+                x: '37754.0'
+                y: '69.0'
+                z: '40333.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '2':
+              location:
+                world: Survival
+                x: '37755.0'
+                y: '67.0'
+                z: '40315.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '3':
+              location:
+                world: Survival
+                x: '37744.0'
+                y: '69.0'
+                z: '40313.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '4':
+              location:
+                world: Survival
+                x: '37732.0'
+                y: '69.0'
+                z: '40315.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+    traitnames: spawned,equipment,mounttrait,type,location,gravity,waypoints,lookclose,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
