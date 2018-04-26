@@ -8,6 +8,7 @@ groups:
     inheritance:
     - mod
     permissions:
+    - -phoenix.bypass.*
     - -ab.kick.exempt
     - -ab.ban.exempt
     - -ab.tempban.exempt
