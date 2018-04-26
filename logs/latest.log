@@ -1,1 +1,1825 @@
 [00:00:28] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[00:01:17] [User Authenticator #3/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[00:01:17] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to Baymax vAlpha-101
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:255) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: com.comphenix.protocol.reflect.FieldAccessException: No field with type int exists in class PacketPlayOutKeepAlive.
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:348) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[?:?]
+	at eu.gurudev.baymax.j.q.a(q.java:36) ~[?:?]
+	at eu.gurudev.baymax.g.a.a(a.java:24) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor514.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 15 more
+[00:01:17] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
+[00:01:17] [Server thread/INFO]: TumbleGamer[cpc105210-live33-2-0-cust228.17-2.cable.virginm.net/82.44.12.229:50515] logged in with entity id 7525 at ([Survival]37748.712509069985, 70.0, 40335.35689783183)
+[00:01:38] [Server thread/INFO]: TumbleGamer was slain by Bodyguard
+[00:01:44] [Server thread/INFO]: TumbleGamer issued server command: /back
+[00:02:14] [Server thread/ERROR]: Could not pass event InventoryClickEvent to PAC v1.3.0
+org.bukkit.event.EventException: null
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:36) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1981) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:14) ~[PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:843) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_161]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_161]
+	at npnp.cU.a(cU.java:83) ~[?:?]
+	at npnp.bB.b(bB.java:56) ~[?:?]
+	at npnp.O.b(O.java:2) ~[?:?]
+	at npnp.ak.b(ak.java:29) ~[?:?]
+	at com.destroystokyo.paper.event.executor.StaticMethodHandleEventExecutor.execute(StaticMethodHandleEventExecutor.java:34) ~[PaperSpigot.jar:git-Paper-1383]
+	... 16 more
+[00:02:17] [Server thread/INFO]: PAC: TumbleGamer failed Inventory check [VL: 2] [Ping: 1] [Info: missing packet]
+[00:02:19] [Server thread/INFO]: PAC: TumbleGamer failed Inventory check [VL: 3] [Ping: 2] [Info: missing packet]
+[00:02:21] [Server thread/INFO]: PAC: TumbleGamer failed Inventory check [VL: 4] [Ping: 2] [Info: missing packet]
+[00:02:22] [Server thread/INFO]: PAC: TumbleGamer failed Inventory check [VL: 5] [Ping: 2] [Info: missing packet]
+[00:02:26] [Server thread/INFO]: PAC: TumbleGamer failed Inventory check [VL: 6] [Ping: 2] [Info: missing packet]
+[00:02:27] [Server thread/INFO]: PAC: TumbleGamer failed Inventory check [VL: 7] [Ping: 2] [Info: missing packet]
+[00:02:30] [Server thread/INFO]: PAC: TumbleGamer failed Inventory check [VL: 8] [Ping: 2] [Info: missing packet]
+[00:02:33] [Server thread/INFO]: TumbleGamer issued server command: /pac
+[00:02:40] [Server thread/INFO]: TumbleGamer issued server command: /pac menu
+[00:03:24] [Server thread/WARN]: TumbleGamer moved wrongly!
+[00:03:29] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[00:03:46] [Server thread/INFO]: TumbleGamer was slain by Bodyguard
+[00:03:51] [Server thread/INFO]: TumbleGamer issued server command: /back
+[00:04:08] [Server thread/INFO]: TumbleGamer issued server command: /back
+[00:04:25] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:04:45] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception number 8192 occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:05:02] [Server thread/INFO]: TumbleGamer issued server command: /npc select
+[00:05:05] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:05:08] [Server thread/INFO]: TumbleGamer issued server command: /npc select
+[00:05:15] [Server thread/INFO]: TumbleGamer issued server command: /npc select
+[00:05:23] [Server thread/INFO]: TumbleGamer issued server command: /sentinel
+[00:05:25] [Server thread/INFO]: [ClearLag] Removed 6 Entities!
+[00:05:32] [Server thread/INFO]: TumbleGamer issued server command: /npc equip
+[00:05:41] [Server thread/INFO]: TumbleGamer issued server command: /kit
+[00:05:49] [Server thread/INFO]: TumbleGamer issued server command: /i bow
+[00:06:20] [Server thread/INFO]: TumbleGamer issued server command: /enchant infarrows
+[00:06:26] [Server thread/INFO]: TumbleGamer issued server command: /enchant infarrows 1
+[00:06:31] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[00:06:35] [Server thread/INFO]: TumbleGamer issued server command: /enchant punch 5
+[00:06:36] [Server thread/INFO]: TumbleGamer issued server command: /enchant punch 2
+[00:06:47] [Server thread/INFO]: TumbleGamer issued server command: /enchant alldamage
+[00:06:50] [Server thread/INFO]: TumbleGamer issued server command: /enchant alldamage 5
+[00:06:59] [Server thread/INFO]: TumbleGamer issued server command: /i arrow 1
+[00:07:33] [Server thread/INFO]: TumbleGamer issued server command: /sentinel
+[00:07:40] [Server thread/INFO]: TumbleGamer issued server command: /npc help
+[00:07:41] [Server thread/INFO]: TumbleGamer issued server command: /npc help 2
+[00:07:42] [Server thread/INFO]: TumbleGamer issued server command: /npc help 3
+[00:07:43] [Server thread/INFO]: TumbleGamer issued server command: /npc help 4
+[00:07:45] [Server thread/INFO]: TumbleGamer issued server command: /npc help 5
+[00:07:50] [Server thread/INFO]: TumbleGamer issued server command: /npc help 6
+[00:07:53] [Server thread/INFO]: TumbleGamer issued server command: /npc help 7
+[00:08:00] [Server thread/INFO]: TumbleGamer issued server command: /npp inventory
+[00:08:06] [Server thread/INFO]: TumbleGamer issued server command: /npc inventory
+[00:08:35] [Server thread/INFO]: TumbleGamer issued server command: /npc inventory
+[00:09:08] [Server thread/INFO]: TumbleGamer issued server command: /npc inventory
+[00:09:15] [Server thread/INFO]: TumbleGamer issued server command: /npc inventory
+[00:09:28] [Server thread/INFO]: TumbleGamer issued server command: /i bow
+[00:09:31] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[00:09:58] [Server thread/INFO]: TumbleGamer issued server command: /replay 0
+[00:09:58] [Craft Scheduler Thread - 83/WARN]: [Baymax] Plugin Baymax vAlpha-101 generated an exception while executing task 26345
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source) ~[?:1.8.0_161]
+	at java.util.ArrayList.get(Unknown Source) ~[?:1.8.0_161]
+	at eu.gurudev.baymax.m.b.c.a(c.java:154) ~[?:?]
+	at eu.gurudev.baymax.m.f.run(f.java:61) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:10:27] [Server thread/INFO]: TumbleGamer issued server command: /npc inventory
+[00:10:37] [Server thread/INFO]: TumbleGamer issued server command: /replay 1
+[00:10:37] [Craft Scheduler Thread - 94/WARN]: [Baymax] Plugin Baymax vAlpha-101 generated an exception while executing task 27253
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source) ~[?:1.8.0_161]
+	at java.util.ArrayList.get(Unknown Source) ~[?:1.8.0_161]
+	at eu.gurudev.baymax.m.b.c.a(c.java:154) ~[?:?]
+	at eu.gurudev.baymax.m.f.run(f.java:61) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:10:55] [Server thread/INFO]: TumbleGamer issued server command: /npc equip
+[00:10:59] [Server thread/INFO]: TumbleGamer issued server command: /npc inventory
+[00:11:20] [Server thread/INFO]: TumbleGamer issued server command: /replay
+[00:11:20] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing 'replay' in eu.gurudev.baymax.d.b(replay)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:160) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1472) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1277) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:14) ~[PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:843) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at eu.gurudev.baymax.d.b.execute(b.java:27) ~[?:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:151) ~[PaperSpigot.jar:git-Paper-1383]
+	... 14 more
+[00:11:24] [Server thread/INFO]: TumbleGamer issued server command: /replay help
+[00:11:24] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Unhandled exception executing 'replay help' in eu.gurudev.baymax.d.b(replay)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:160) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.handleCommand(PlayerConnection.java:1472) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1277) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:14) ~[PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:843) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NumberFormatException: For input string: "help"
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:1.8.0_161]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_161]
+	at java.lang.Integer.parseInt(Unknown Source) ~[?:1.8.0_161]
+	at eu.gurudev.baymax.d.b.execute(b.java:24) ~[?:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:151) ~[PaperSpigot.jar:git-Paper-1383]
+	... 14 more
+[00:11:26] [Server thread/INFO]: TumbleGamer issued server command: /replay 1
+[00:11:26] [Craft Scheduler Thread - 93/WARN]: [Baymax] Plugin Baymax vAlpha-101 generated an exception while executing task 28084
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source) ~[?:1.8.0_161]
+	at java.util.ArrayList.get(Unknown Source) ~[?:1.8.0_161]
+	at eu.gurudev.baymax.m.b.c.a(c.java:154) ~[?:?]
+	at eu.gurudev.baymax.m.f.run(f.java:61) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:11:43] [Server thread/INFO]: TumbleGamer issued server command: /replay 1
+[00:11:43] [Craft Scheduler Thread - 94/WARN]: [Baymax] Plugin Baymax vAlpha-101 generated an exception while executing task 28224
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source) ~[?:1.8.0_161]
+	at java.util.ArrayList.get(Unknown Source) ~[?:1.8.0_161]
+	at eu.gurudev.baymax.m.b.c.a(c.java:154) ~[?:?]
+	at eu.gurudev.baymax.m.f.run(f.java:61) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:11:45] [Server thread/INFO]: TumbleGamer issued server command: /replay 0
+[00:11:45] [Craft Scheduler Thread - 96/WARN]: [Baymax] Plugin Baymax vAlpha-101 generated an exception while executing task 28235
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source) ~[?:1.8.0_161]
+	at java.util.ArrayList.get(Unknown Source) ~[?:1.8.0_161]
+	at eu.gurudev.baymax.m.b.c.a(c.java:154) ~[?:?]
+	at eu.gurudev.baymax.m.f.run(f.java:61) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:12:00] [Server thread/INFO]: TumbleGamer issued server command: /replay 2
+[00:12:00] [Craft Scheduler Thread - 93/WARN]: [Baymax] Plugin Baymax vAlpha-101 generated an exception while executing task 28818
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source) ~[?:1.8.0_161]
+	at java.util.ArrayList.get(Unknown Source) ~[?:1.8.0_161]
+	at eu.gurudev.baymax.m.b.c.a(c.java:154) ~[?:?]
+	at eu.gurudev.baymax.m.f.run(f.java:61) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:12:07] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:12:26] [Server thread/INFO]: PAC: TumbleGamer failed Speed check [VL: 1] [Ping: 11] [Info: flags:'jump' speed:'0.55853' expected:'0.26925']
+[00:12:28] [Server thread/INFO]: TumbleGamer issued server command: /god
+[00:12:30] [Craft Scheduler Thread - 100/INFO]: (FAWE) Updated FAWE to 18.04.26-eaa8fbf-1087-19.5.21
+[00:12:30] [Craft Scheduler Thread - 100/INFO]: (FAWE) Restart to update FAWE with these changes: /fawe changelog or https://empcraft.com/fawe/cl?8e3e5b0
+[00:12:32] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[00:12:33] [Server thread/INFO]: TumbleGamer has made the advancement [Take Aim]
+[00:12:38] [Server thread/INFO]: TumbleGamer lost connection: ===================================
+
+You've been kicked by Baymax
+Reason »  Multidirectional Sprint 
+
+===================================
+[00:12:38] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer quit with silent quitting permission, not sending a quit message
+[00:12:38] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to Baymax vAlpha-101
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:414) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityPlayer.die(EntityPlayer.java:458) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.setHealth(CraftLivingEntity.java:106) [PaperSpigot.jar:git-Paper-1383]
+	at me.ryanhamshire.GriefPrevention.PlayerEventHandler.onPlayerQuit(PlayerEventHandler.java:931) [GriefPrevention.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:35) [PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.disconnect(PlayerList.java:429) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1147) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.disconnect(PlayerConnection.java:271) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer.kickPlayer(CraftPlayer.java:332) [PaperSpigot.jar:git-Paper-1383]
+	at eu.gurudev.baymax.n.h.b.run(b.java:24) [Baymax-Alpha-101.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at eu.gurudev.baymax.a.e.a(e.java:113) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor512.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 25 more
+[00:12:38] [Server thread/INFO]: TumbleGamer died
+[00:12:38] [Server thread/INFO]: TumbleGamer left the game
+[00:12:38] [Server thread/WARN]: handleDisconnection() called twice
+[00:12:42] [User Authenticator #4/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[00:12:42] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to Baymax vAlpha-101
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:255) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: com.comphenix.protocol.reflect.FieldAccessException: No field with type int exists in class PacketPlayOutKeepAlive.
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:348) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[?:?]
+	at eu.gurudev.baymax.j.q.a(q.java:36) ~[?:?]
+	at eu.gurudev.baymax.g.a.a(a.java:24) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor514.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 15 more
+[00:12:42] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
+[00:12:43] [Server thread/INFO]: TumbleGamer[cpc105210-live33-2-0-cust228.17-2.cable.virginm.net/82.44.12.229:50708] logged in with entity id 11738 at ([Survival]37753.79389453992, 70.0, 40326.80257975343)
+[00:12:47] [Server thread/INFO]: PAC: TumbleGamer failed Speed check [VL: 1] [Ping: 0] [Info: flags:'normal' speed:'30215.07034' expected:'0.21597']
+[00:12:47] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:13:06] [Server thread/INFO]: TumbleGamer issued server command: /bacl
+[00:13:08] [Server thread/INFO]: [ClearLag] Removed 32 Entities!
+[00:13:08] [Server thread/INFO]: TumbleGamer issued server command: /back
+[00:13:11] [Server thread/INFO]: TumbleGamer issued server command: /god
+[00:13:22] [Server thread/INFO]: TumbleGamer issued server command: /god
+[00:13:39] [Server thread/INFO]: TumbleGamer issued server command: /kit diamond
+[00:13:48] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[00:13:52] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[00:13:59] [Server thread/INFO]: PAC: TumbleGamer failed Speed check [VL: 1] [Ping: 176] [Info: flags:'sprint, jump' speed:'0.6092' expected:'0.35756']
+[00:13:59] [Server thread/WARN]: TumbleGamer moved wrongly!
+[00:14:06] [Server thread/INFO]: PAC: TumbleGamer failed Speed check [VL: 3] [Ping: 146] [Info: flags:'sprint, jump' speed:'0.53233' expected:'0.35756']
+[00:14:06] [Server thread/WARN]: TumbleGamer moved wrongly!
+[00:14:11] [Server thread/INFO]: PAC: TumbleGamer failed Speed check [VL: 4] [Ping: 146] [Info: flags:'sprint, jump' speed:'0.61638' expected:'0.35756']
+[00:14:11] [Server thread/WARN]: TumbleGamer moved wrongly!
+[00:14:36] [Server thread/INFO]: TumbleGamer issued server command: /replay 3
+[00:14:36] [Craft Scheduler Thread - 127/WARN]: [Baymax] Plugin Baymax vAlpha-101 generated an exception while executing task 33287
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(Unknown Source) ~[?:1.8.0_161]
+	at java.util.ArrayList.get(Unknown Source) ~[?:1.8.0_161]
+	at eu.gurudev.baymax.m.b.c.a(c.java:154) ~[?:?]
+	at eu.gurudev.baymax.m.f.run(f.java:61) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:15:02] [Server thread/INFO]: TumbleGamer issued server command: /baymax
+[00:15:26] [Server thread/INFO]: PAC: TumbleGamer failed Speed check [VL: 1] [Ping: 37] [Info: flags:'sprint' speed:'0.32885' expected:'0.28681']
+[00:16:02] [Server thread/INFO]: TumbleGamer issued server command: /lag
+[00:16:05] [Server thread/INFO]: PAC: TumbleGamer failed Speed check [VL: 1] [Ping: 21] [Info: flags:'sprint, jump' speed:'0.53659' expected:'0.35756']
+[00:16:09] [Server thread/INFO]: TumbleGamer issued server command: /speed 10
+[00:16:17] [Server thread/INFO]: TumbleGamer issued server command: /speed jump 10
+[00:16:20] [Server thread/INFO]: TumbleGamer issued server command: /speed
+[00:16:22] [Server thread/INFO]: TumbleGamer issued server command: /speed type
+[00:16:26] [Server thread/INFO]: TumbleGamer issued server command: /speed fall 1p
+[00:16:27] [Server thread/INFO]: TumbleGamer issued server command: /speed fall 10
+[00:16:29] [Server thread/INFO]: TumbleGamer issued server command: /speed fall 10 TumbleGamer
+[00:16:35] [Server thread/INFO]: TumbleGamer issued server command: /speed jump 10 TumbleGamer
+[00:16:37] [Server thread/INFO]: PAC: TumbleGamer failed Speed check [VL: 1] [Ping: 14] [Info: flags:'sprint' speed:'1.40049' expected:'1.34925']
+[00:16:59] [Server thread/INFO]: TumbleGamer issued server command: /speed 999
+[00:17:01] [Server thread/INFO]: PAC: TumbleGamer failed Speed check [VL: 1] [Ping: 14] [Info: flags:'normal' speed:'1.07814' expected:'1.016']
+[00:17:02] [Server thread/WARN]: TumbleGamer moved wrongly!
+[00:17:03] [Server thread/INFO]: TumbleGamer issued server command: /speed 999
+[00:17:07] [Server thread/INFO]: TumbleGamer issued server command: /speed 100
+[00:17:11] [Server thread/INFO]: TumbleGamer issued server command: /speed 99999
+[00:17:14] [Server thread/INFO]: TumbleGamer issued server command: /speed 20
+[00:17:17] [Server thread/INFO]: TumbleGamer issued server command: /speed 11
+[00:17:22] [Netty Server IO #1/ERROR]: [Baymax] Unhandled exception number 16384 occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:17:22] [Server thread/INFO]: PAC: TumbleGamer failed Speed check [VL: 1] [Ping: 33] [Info: flags:'normal' speed:'1.07761' expected:'1.016']
+[00:17:24] [Server thread/WARN]: TumbleGamer moved wrongly!
+[00:18:37] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[00:18:41] [Server thread/INFO]: PAC: TumbleGamer failed Speed check [VL: 1] [Ping: 326] [Info: flags:'normal' speed:'1.06451' expected:'1.016']
+[00:18:48] [Server thread/INFO]: PAC: TumbleGamer failed Speed check [VL: 2] [Ping: 326] [Info: flags:'normal' speed:'1.06235' expected:'1.016']
+[00:19:07] [Server thread/INFO]: PAC: TumbleGamer failed Speed check [VL: 3] [Ping: 629] [Info: flags:'normal' speed:'1.07645' expected:'1.016']
+[00:19:34] [Server thread/INFO]: TumbleGamer issued server command: /effect speed 100
+[00:19:34] [Server thread/INFO]: [TumbleGamer: Entity 'speed' cannot be found]
+[00:19:35] [Server thread/WARN]: TumbleGamer was kicked due to keepalive timeout!
+[00:19:35] [Server thread/INFO]: TumbleGamer lost connection: Timed out
+[00:19:37] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer quit with silent quitting permission, not sending a quit message
+[00:19:44] [Server thread/INFO]: TumbleGamer left the game
+[00:19:44] [Server thread/WARN]: handleDisconnection() called twice
+[00:20:19] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:20:45] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:20:57] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:21:36] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[00:23:05] [User Authenticator #5/INFO]: UUID of player MiniTecno is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[00:23:07] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to Baymax vAlpha-101
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:255) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: com.comphenix.protocol.reflect.FieldAccessException: No field with type int exists in class PacketPlayOutKeepAlive.
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:348) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[?:?]
+	at eu.gurudev.baymax.j.q.a(q.java:36) ~[?:?]
+	at eu.gurudev.baymax.g.a.a(a.java:24) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor514.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 15 more
+[00:23:10] [Server thread/INFO]: MiniTecno[98.29.147.129/98.29.147.129:49738] logged in with entity id 15599 at ([Survival]37755.835751697734, 72.90779718977033, 40328.51002113181)
+[00:23:19] [Netty Server IO #2/WARN]: java.lang.IllegalStateException: Asynchronous Async Chunk Load! Blocking thread until it returns 
+[00:23:19] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_12_R1.MCUtil.ensureMain(MCUtil.java:54)
+[00:23:19] [Netty Server IO #2/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:18)
+[00:23:19] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:164)
+[00:23:19] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:147)
+[00:23:19] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:143)
+[00:23:19] [Netty Server IO #2/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getChunkAt(CraftWorld.java:181)
+[00:23:19] [Netty Server IO #2/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getBlockAt(CraftWorld.java:118)
+[00:23:19] [Netty Server IO #2/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getBlockAt(CraftWorld.java:613)
+[00:23:19] [Netty Server IO #2/WARN]: 	at org.bukkit.Location.getBlock(Location.java:91)
+[00:23:19] [Netty Server IO #2/WARN]: 	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:56)
+[00:23:19] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114)
+[00:23:19] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67)
+[00:23:19] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590)
+[00:23:21] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557)
+[00:23:21] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352)
+[00:23:21] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317)
+[00:23:21] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531)
+[00:23:21] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[00:23:21] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[00:23:21] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[00:23:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:23:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:23:23] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:23:23] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[00:23:23] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+[00:23:23] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:23:23] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:23:23] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:23:23] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263)
+[00:23:23] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:23:23] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:23:23] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:23:23] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[00:23:23] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[00:23:23] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[00:23:23] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[00:23:24] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[00:23:24] [Netty Server IO #2/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[00:23:43] [Server thread/INFO]: MiniTecno lost connection: Disconnected
+[00:23:43] [Netty Server IO #2/WARN]: java.io.IOException: An established connection was aborted by the software in your host machine
+[00:23:43] [Netty Server IO #2/WARN]: 	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+[00:23:43] [Netty Server IO #2/WARN]: 	at sun.nio.ch.SocketDispatcher.write(Unknown Source)
+[00:23:43] [Netty Server IO #2/WARN]: 	at sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+[00:23:43] [Netty Server IO #2/WARN]: 	at sun.nio.ch.IOUtil.write(Unknown Source)
+[00:23:43] [Netty Server IO #2/WARN]: 	at sun.nio.ch.SocketChannelImpl.write(Unknown Source)
+[00:23:43] [Netty Server IO #2/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doWrite(NioSocketChannel.java:403)
+[00:23:45] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:934)
+[00:23:45] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.flush0(AbstractNioChannel.java:362)
+[00:23:45] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:901)
+[00:23:45] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1376)
+[00:23:45] [Async Chat Thread - #2/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor131.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:23:45] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.ChannelDuplexHandler.flush(ChannelDuplexHandler.java:117)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:115)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:115)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:115)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:115)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:115)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:768)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:749)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.ChannelOutboundHandlerAdapter.flush(ChannelOutboundHandlerAdapter.java:115)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:776)
+[00:23:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:802)
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:814)
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:794)
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:831)
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1051)
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:300)
+[00:23:48] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.netty.ChannelProxy.writeAndFlush(ChannelProxy.java:327)
+[00:23:48] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_12_R1.NetworkManager$4.run(NetworkManager.java:206)
+[00:23:48] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.netty.ChannelInjector$5$3.run(ChannelInjector.java:330)
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463)
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[00:23:48] [Netty Server IO #2/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[00:23:48] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:48] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:48] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:48] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:48] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:48] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:48] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:48] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:48] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Async Chat Thread - #2/INFO]: [L]<MiniTecno> .
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Async Chat Thread - #2/INFO]: [Builder] MiniTecno: .
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Server thread/INFO]: MiniTecno left the game
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:50] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:50] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:51] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:51] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:53] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:53] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:53] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:53] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:53] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:53] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:53] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:54] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:54] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:54] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:54] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:54] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:54] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:56] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:56] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:56] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:56] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:56] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:56] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:56] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:56] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:56] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:56] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:56] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:56] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:56] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:56] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:57] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:57] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:57] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:57] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:57] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:57] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:57] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:57] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:57] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:57] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:57] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:57] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:57] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:57] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:59] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:59] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:59] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:59] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:59] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:59] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:59] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:23:59] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:23:59] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:00] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:00] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:00] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:00] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:00] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:00] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:00] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:00] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:00] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:00] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:00] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:00] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:00] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:00] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:00] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:02] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:02] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:02] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:02] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:02] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:02] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:02] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:02] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:02] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:02] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:02] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:02] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:02] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:02] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:03] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:03] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:03] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:03] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:03] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:03] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:03] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:03] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:03] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:03] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:03] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:03] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:04] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:04] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:04] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:04] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:04] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:04] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:04] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:04] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:04] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:04] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:04] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:04] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:04] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:04] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:04] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:04] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:04] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:04] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:04] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:04] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:04] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:04] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:04] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:04] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:06] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:06] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:07] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:07] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:09] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:09] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:10] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:10] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:12] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:12] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:13] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:13] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:15] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:15] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:16] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:16] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:18] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:18] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:19] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:19] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:21] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:21] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:22] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:22] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:24] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:25] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:27] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:28] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:30] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:30] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:24:30] [Netty Server IO #2/WARN]: java.nio.channels.ClosedChannelException
+[00:24:30] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[00:25:13] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[00:27:21] [User Authenticator #6/INFO]: UUID of player MiniTecno is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[00:27:23] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to Baymax vAlpha-101
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:255) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: com.comphenix.protocol.reflect.FieldAccessException: No field with type int exists in class PacketPlayOutKeepAlive.
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:348) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[?:?]
+	at eu.gurudev.baymax.j.q.a(q.java:36) ~[?:?]
+	at eu.gurudev.baymax.g.a.a(a.java:24) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor514.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 15 more
+[00:27:27] [Netty Server IO #0/WARN]: java.lang.OutOfMemoryError: Java heap space
+[00:27:27] [Netty Server IO #0/WARN]: 	at io.netty.util.internal.PlatformDependent.allocateUninitializedArray(PlatformDependent.java:200)
+[00:27:27] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PoolArena$HeapArena.newByteArray(PoolArena.java:676)
+[00:27:27] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PoolArena$HeapArena.newChunk(PoolArena.java:686)
+[00:27:27] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PoolArena.allocateNormal(PoolArena.java:244)
+[00:27:27] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PoolArena.allocate(PoolArena.java:214)
+[00:27:27] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PoolArena.allocate(PoolArena.java:146)
+[00:27:27] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PooledByteBufAllocator.newHeapBuffer(PooledByteBufAllocator.java:307)
+[00:27:27] [Netty Server IO #0/WARN]: 	at io.netty.buffer.AbstractByteBufAllocator.heapBuffer(AbstractByteBufAllocator.java:166)
+[00:27:27] [Netty Server IO #0/WARN]: 	at io.netty.buffer.AbstractByteBufAllocator.heapBuffer(AbstractByteBufAllocator.java:157)
+[00:27:27] [Netty Server IO #0/WARN]: 	at net.minecraft.server.v1_12_R1.PacketEncryptionHandler.a(SourceFile:31)
+[00:27:27] [Netty Server IO #0/WARN]: 	at net.minecraft.server.v1_12_R1.PacketDecrypter.a(SourceFile:19)
+[00:27:28] [Netty Server IO #0/WARN]: 	at net.minecraft.server.v1_12_R1.PacketDecrypter.decode(SourceFile:10)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[00:27:28] [Netty Server IO #0/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[00:27:28] [Netty Server IO #0/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[00:27:30] [Server thread/INFO]: MiniTecno[98.29.147.129/98.29.147.129:49745] logged in with entity id 16687 at ([Survival]37746.460416233575, 76.53998327010927, 40322.93731429555)
+[00:27:34] [Server thread/INFO]: MiniTecno lost connection: Internal Exception: java.lang.OutOfMemoryError: Java heap space
+[00:27:36] [Server thread/INFO]: MiniTecno left the game
+[00:27:48] [User Authenticator #6/INFO]: UUID of player MiniTecno is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[00:27:49] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@2afdf8b2[id=6e97e76b-23c0-4745-80b2-b64cef10e602,name=MiniTecno,properties={textures=[com.mojang.authlib.properties.Property@60e1f466]},legacy=false] (98.29.147.129/98.29.147.129:49747): You must wait 11 seconds before logging-in again.
+[00:27:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@2afdf8b2[id=6e97e76b-23c0-4745-80b2-b64cef10e602,name=MiniTecno,properties={textures=[com.mojang.authlib.properties.Property@60e1f466]},legacy=false] (98.29.147.129/98.29.147.129:49747) lost connection: You must wait 11 seconds before logging-in again.
+[00:27:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:27:56] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[00:28:06] [User Authenticator #6/INFO]: UUID of player MiniTecno is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[00:28:09] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to Baymax vAlpha-101
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:255) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: com.comphenix.protocol.reflect.FieldAccessException: No field with type int exists in class PacketPlayOutKeepAlive.
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:348) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[?:?]
+	at eu.gurudev.baymax.j.q.a(q.java:36) ~[?:?]
+	at eu.gurudev.baymax.g.a.a(a.java:24) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor514.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 15 more
+[00:28:13] [Server thread/INFO]: MiniTecno[98.29.147.129/98.29.147.129:49749] logged in with entity id 16799 at ([Survival]37746.460416233575, 76.5, 40322.93731429555)
+[00:28:21] [Netty Server IO #2/WARN]: java.lang.IllegalStateException: Asynchronous Async Chunk Load! Blocking thread until it returns 
+[00:28:22] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_12_R1.MCUtil.ensureMain(MCUtil.java:54)
+[00:28:22] [Netty Server IO #2/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:18)
+[00:28:22] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:164)
+[00:28:22] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:147)
+[00:28:24] [Netty Server IO #2/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:143)
+[00:28:24] [Netty Server IO #2/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getChunkAt(CraftWorld.java:181)
+[00:28:24] [Netty Server IO #2/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getBlockAt(CraftWorld.java:118)
+[00:28:24] [Netty Server IO #2/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getBlockAt(CraftWorld.java:613)
+[00:28:24] [Netty Server IO #2/WARN]: 	at eu.gurudev.baymax.n.p.a(p.java:142)
+[00:28:24] [Netty Server IO #2/WARN]: 	at eu.gurudev.baymax.h.c.onPacketReceiving(c.java:194)
+[00:28:25] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114)
+[00:28:25] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67)
+[00:28:25] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590)
+[00:28:25] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557)
+[00:28:25] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352)
+[00:28:25] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317)
+[00:28:25] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531)
+[00:28:25] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[00:28:25] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[00:28:25] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[00:28:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:28:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:28:25] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:28:25] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[00:28:25] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+[00:28:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:28:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:28:27] [Server thread/INFO]: MiniTecno issued server command: /gm 1
+[00:28:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:28:27] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263)
+[00:28:27] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:28:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:28:28] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:28:28] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[00:28:28] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[00:28:28] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[00:28:28] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[00:28:29] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:28:29] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:28:29] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:28:29] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+[00:28:29] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:28:29] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:28:29] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:28:29] [Netty Server IO #2/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[00:28:29] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:28:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:28:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[00:28:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[00:28:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[00:28:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[00:28:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[00:28:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[00:28:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[00:28:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[00:28:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[00:28:31] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[00:28:31] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[00:28:32] [Netty Server IO #2/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[00:28:53] [Async Chat Thread - #3/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor131.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:28:53] [Async Chat Thread - #3/INFO]: [L]<MiniTecno> y
+[00:28:54] [Async Chat Thread - #3/INFO]: [Builder] MiniTecno: y
+[00:29:04] [Server thread/WARN]: MiniTecno was kicked due to keepalive timeout!
+[00:29:04] [Server thread/INFO]: MiniTecno lost connection: Timed out
+[00:29:13] [Async Chat Thread - #3/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor131.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:29:13] [Async Chat Thread - #3/INFO]: [L]<MiniTecno> YES
+[00:29:13] [Async Chat Thread - #3/INFO]: [Builder] MiniTecno: YES
+[00:29:15] [Async Chat Thread - #4/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor131.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:29:15] [Server thread/INFO]: MiniTecno left the game
+[00:29:15] [Async Chat Thread - #4/INFO]: [L]<MiniTecno> rno
+[00:29:15] [Async Chat Thread - #4/INFO]: [Builder] MiniTecno: rno
+[00:29:25] [Server thread/INFO]: com.mojang.authlib.GameProfile@d613f77[id=<null>,name=MiniTecno,properties={},legacy=false] (98.29.147.129/98.29.147.129:49753) lost connection: Disconnected
+[00:29:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:30:13] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:32:27] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[00:37:26] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:38:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:38:30] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:38:58] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[00:42:16] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[00:45:30] [Craft Scheduler Thread - 251/INFO]: [Marriage] Purged 0 player entries in 1543ms
+[00:45:36] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[00:45:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:46:39] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:46:58] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:48:58] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[00:52:18] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
