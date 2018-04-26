@@ -581,3 +581,47 @@
 [18:51:40] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
 [18:52:20] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [18:52:40] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:53:45] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[18:53:59] [Netty Server IO #0/WARN]: java.io.IOException: An existing connection was forcibly closed by the remote host
+[18:53:59] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[18:53:59] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[18:53:59] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[18:53:59] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[18:53:59] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[18:53:59] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[18:53:59] [Netty Server IO #0/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[18:53:59] [Netty Server IO #0/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[18:54:00] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+[18:54:00] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[18:54:00] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[18:54:00] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[18:54:00] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[18:54:00] [Netty Server IO #0/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[18:54:00] [Netty Server IO #0/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[18:54:00] [Server thread/INFO]: Hayd lost connection: Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host
+[18:54:00] [Server thread/INFO]: Hayd left the game
+[18:56:45] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[18:59:03] [User Authenticator #3/INFO]: UUID of player Untrimmed is ab980a7f-d1da-48e1-8007-4ae6b52aaef1
+[18:59:03] [Server thread/INFO]: Untrimmed[/71.94.118.14:64319] logged in with entity id 67614 at ([Survival]46321.30000001192, 68.0, 23299.69999998808)
+[18:59:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:59:46] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[19:00:01] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:00:21] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
+[19:01:05] [Server thread/INFO]: Untrimmed lost connection: Disconnected
+[19:01:05] [Server thread/INFO]: Untrimmed left the game
+[19:02:46] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[19:05:46] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[19:07:01] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:07:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:08:01] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[19:11:42] [Craft Scheduler Thread - 244/INFO]: [Marriage] Purged 0 player entries in 7ms
+[19:11:47] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[19:14:43] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:14:48] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[19:15:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:15:43] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[19:17:48] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[19:20:48] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[19:22:24] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:23:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:23:24] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
