@@ -1172,3 +1172,1475 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [01:19:40] [Async Chat Thread - #25/INFO]: [L]<TumbleGamer> ill use yoyr pallete
 [01:19:40] [Async Chat Thread - #25/INFO]: [Owner] TumbleGamer: ill use yoyr pallete
 [01:19:54] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
+[01:20:56] [Async Chat Thread - #26/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:20:56] [Async Chat Thread - #26/INFO]: [L]<TumbleGamer> look here
+[01:20:56] [Async Chat Thread - #26/INFO]: [Owner] TumbleGamer: look here
+[01:20:59] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[01:21:05] [Async Chat Thread - #26/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:21:05] [Async Chat Thread - #26/INFO]: [L]<MiniTecno> uhh
+[01:21:05] [Async Chat Thread - #26/INFO]: [Builder Interviewee] ~Quan: uhh
+[01:21:05] [Async Chat Thread - #26/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:21:05] [Async Chat Thread - #26/INFO]: [L]<TumbleGamer> this is what your pallet means that you chose
+[01:21:05] [Async Chat Thread - #26/INFO]: [Owner] TumbleGamer: this is what your pallet means that you chose
+[01:21:28] [Async Chat Thread - #26/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:21:28] [Async Chat Thread - #26/INFO]: [L]<MiniTecno> im just gonna build wat i build
+[01:21:28] [Async Chat Thread - #26/INFO]: [Builder Interviewee] ~Quan: im just gonna build wat i build
+[01:21:59] [Async Chat Thread - #26/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:21:59] [Async Chat Thread - #26/INFO]: [L]<TumbleGamer> ok
+[01:21:59] [Async Chat Thread - #26/INFO]: [Owner] TumbleGamer: ok
+[01:22:03] [Server thread/INFO]: MiniTecno issued server command: //remove
+[01:22:27] [Netty Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[01:22:34] [Server thread/INFO]: MiniTecno issued server command: /remove Grass 7r2365
+[01:22:37] [Server thread/INFO]: MiniTecno issued server command: /remove Grass 7
+[01:22:42] [Netty Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[01:22:52] [Netty Server IO #0/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[01:23:59] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[01:24:20] [Async Chat Thread - #27/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:24:20] [Async Chat Thread - #27/INFO]: [L]<MiniTecno> how do i set wood'
+[01:24:20] [Async Chat Thread - #27/INFO]: [Builder Interviewee] ~Quan: how do i set wood'
+[01:24:26] [Server thread/INFO]: TumbleGamer issued server command: //set
+[01:24:34] [Async Chat Thread - #27/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:24:34] [Async Chat Thread - #27/INFO]: [L]<TumbleGamer> .//set <block>
+[01:24:34] [Async Chat Thread - #27/INFO]: [Owner] TumbleGamer: .//set <block>
+[01:24:41] [Server thread/INFO]: MiniTecno issued server command: //set oak wood
+[01:24:48] [Server thread/INFO]: TumbleGamer issued server command: //wamd
+[01:24:49] [Server thread/INFO]: MiniTecno issued server command: //set oakwood
+[01:24:51] [Server thread/INFO]: TumbleGamer issued server command: //wand
+[01:24:54] [Server thread/INFO]: MiniTecno issued server command: /ppaterns
+[01:24:57] [Server thread/INFO]: TumbleGamer issued server command: //set air
+[01:24:59] [Server thread/INFO]: MiniTecno issued server command: //patterns
+[01:25:01] [Server thread/INFO]: TumbleGamer issued server command: //set air
+[01:25:04] [Server thread/INFO]: TumbleGamer issued server command: //set air
+[01:25:09] [Server thread/INFO]: TumbleGamer issued server command: //set air
+[01:25:12] [Server thread/INFO]: MiniTecno issued server command: //set oakwood
+[01:26:21] [Server thread/INFO]: TumbleGamer issued server command: //set red_sandstone
+[01:26:27] [Server thread/INFO]: TumbleGamer issued server command: //set red_sandstonea
+[01:26:32] [Server thread/INFO]: TumbleGamer issued server command: //set red_sandstonea
+[01:26:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:26:36] [Server thread/INFO]: TumbleGamer issued server command: //set red_sandstonea
+[01:26:40] [Server thread/INFO]: TumbleGamer issued server command: //set red_sandstonea
+[01:26:44] [Server thread/INFO]: TumbleGamer issued server command: //set red_sandstonea
+[01:26:59] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[01:27:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:27:34] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[01:28:15] [Server thread/INFO]: Hayd lost connection: Disconnected
+[01:28:15] [Server thread/INFO]: Hayd left the game
+[01:28:55] [Server thread/INFO]: MiniTecno issued server command: /marry
+[01:31:12] [User Authenticator #36/INFO]: UUID of player Hayd is 03f1a1c8-06d1-45d9-8dde-8bd47ca4d38b
+[01:31:12] [Server thread/INFO]: Hayd[/81.96.127.214:63732] logged in with entity id 404128 at ([Survival]30675.508529785162, 63.09375, 36010.820700589225)
+[01:31:18] [Server thread/INFO]: MiniTecno issued server command: /marry hayd
+[01:32:27] [Server thread/INFO]: TumbleGamer issued server command: //stack 3
+[01:32:31] [Server thread/INFO]: TumbleGamer issued server command: //stack 6
+[01:32:35] [Server thread/INFO]: TumbleGamer issued server command: //stack 69
+[01:32:38] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:32:41] [Server thread/INFO]: TumbleGamer issued server command: //stack 9
+[01:32:47] [Server thread/INFO]: TumbleGamer issued server command: //stack 10
+[01:32:59] [Server thread/INFO]: TumbleGamer issued server command: //stack 11
+[01:32:59] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[01:34:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:34:55] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:35:15] [Server thread/INFO]: [ClearLag] Removed 4 Entities!
+[01:36:00] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[01:39:00] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[01:39:27] [Server thread/INFO]: Untrimmed lost connection: Disconnected
+[01:39:28] [Server thread/INFO]: Untrimmed left the game
+[01:40:22] [Server thread/INFO]: Hayd lost connection: Disconnected
+[01:40:22] [Server thread/INFO]: Hayd left the game
+[01:40:39] [Async Chat Thread - #28/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:40:39] [Async Chat Thread - #28/INFO]: [L]<MiniTecno> TumbleGamer
+[01:40:39] [Async Chat Thread - #28/INFO]: [Builder Interviewee] ~Quan: TumbleGamer
+[01:40:52] [Async Chat Thread - #28/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:40:52] [Async Chat Thread - #28/INFO]: [L]<MiniTecno> can I place spawn eggs like Ocelots and WOlfs
+[01:40:52] [Async Chat Thread - #28/INFO]: [Builder Interviewee] ~Quan: can I place spawn eggs like Ocelots and WOlfs
+[01:40:55] [Async Chat Thread - #28/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:40:55] [Async Chat Thread - #28/INFO]: [L]<MiniTecno> for my housee?
+[01:40:55] [Async Chat Thread - #28/INFO]: [Builder Interviewee] ~Quan: for my housee?
+[01:41:12] [Server thread/INFO]: TumbleGamer issued server command: //replace glass glass_pane
+[01:41:55] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:41:56] [Server thread/INFO]: TumbleGamer issued server command: //copy
+[01:42:00] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[01:42:04] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[01:42:07] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:42:16] [Server thread/INFO]: TumbleGamer issued server command: //copy
+[01:42:22] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[01:42:35] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:42:40] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[01:42:45] [Server thread/INFO]: MiniTecno has made the advancement [Local Brewery]
+[01:42:52] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[01:42:55] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:43:28] [User Authenticator #37/INFO]: UUID of player Untrimmed is ab980a7f-d1da-48e1-8007-4ae6b52aaef1
+[01:43:28] [Server thread/INFO]: Untrimmed[/71.94.118.14:60057] logged in with entity id 409761 at ([Survival]30677.41039839276, 66.0, 36001.53402588215)
+[01:43:40] [User Authenticator #37/INFO]: UUID of player Hayd is 03f1a1c8-06d1-45d9-8dde-8bd47ca4d38b
+[01:43:40] [Server thread/INFO]: Hayd[/81.96.127.214:63778] logged in with entity id 409797 at ([Survival]30679.189341904003, 63.0, 36009.56641864011)
+[01:44:39] [Async Chat Thread - #29/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:44:39] [Async Chat Thread - #29/INFO]: [L]<MiniTecno> uhhh
+[01:44:39] [Async Chat Thread - #29/INFO]: [Builder Interviewee] ~Quan: uhhh
+[01:45:00] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[01:45:40] [Server thread/INFO]: TumbleGamer issued server command: //replace grass path,grass,dirt,course_dirt,podsil
+[01:45:46] [Server thread/INFO]: TumbleGamer issued server command: //replace grass path,grass,dirt,course_dirt,podzil
+[01:45:48] [Server thread/INFO]: TumbleGamer issued server command: //replace grass path,grass,dirt,course_dirt,podzoil
+[01:45:52] [Server thread/INFO]: TumbleGamer issued server command: //replace grass path,grass,dirt,course_dirt,podzel
+[01:46:00] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,course_dirt,podzel
+[01:46:04] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,corse_dirt,podzel
+[01:46:09] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,corse,podzel
+[01:46:19] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse,podzel
+[01:46:22] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coars,podzel
+[01:46:28] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dort,podzel
+[01:46:31] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzel
+[01:46:43] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol
+[01:46:48] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:46:52] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol.grass
+[01:46:56] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass
+[01:46:59] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:47:07] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol
+[01:47:16] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:47:27] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol
+[01:47:34] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:47:49] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path
+[01:47:55] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:47:58] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:48:00] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:48:02] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:48:04] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:48:05] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:48:06] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:48:06] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:48:07] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:48:08] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:48:10] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:48:11] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:48:12] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:48:12] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:48:13] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:48:14] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:48:14] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:48:23] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:48:25] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:48:48] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:49:02] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:49:06] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:49:08] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:49:08] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:49:09] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:49:11] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:49:12] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:49:13] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:49:14] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:49:14] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:49:15] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:49:32] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:49:35] [Server thread/INFO]: Untrimmed has made the advancement [A Seedy Place]
+[01:49:35] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:49:36] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:49:42] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:49:45] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:49:52] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:50:15] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:50:17] [Server thread/INFO]: TumbleGamer issued server command: //replace grass grass_path,grass,dirt,coarse_dirt,podzol,grass,grass,grass_path,grass_path,grass_path
+[01:50:35] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[01:50:43] [Server thread/INFO]: TumbleGamer issued server command: //pos2
+[01:50:56] [Server thread/INFO]: TumbleGamer issued server command: //pos2
+[01:51:00] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[01:51:02] [Server thread/INFO]: TumbleGamer issued server command: //copy
+[01:51:06] [Server thread/INFO]: TumbleGamer issued server command: //rotate 90
+[01:51:14] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[01:51:38] [Server thread/INFO]: TumbleGamer issued server command: //pos2
+[01:51:47] [Server thread/INFO]: TumbleGamer issued server command: //cut
+[01:51:50] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[01:51:53] [Async Chat Thread - #30/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:51:53] [Async Chat Thread - #30/INFO]: [L]<MiniTecno> BRUH
+[01:51:53] [Async Chat Thread - #30/INFO]: [Builder Interviewee] ~Quan: BRUH
+[01:52:01] [Async Chat Thread - #30/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:52:01] [Async Chat Thread - #30/INFO]: [L]<MiniTecno> wat
+[01:52:01] [Async Chat Thread - #30/INFO]: [Builder Interviewee] ~Quan: wat
+[01:52:05] [Async Chat Thread - #30/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:52:05] [Async Chat Thread - #30/INFO]: [L]<MiniTecno> UHH
+[01:52:05] [Async Chat Thread - #30/INFO]: [Builder Interviewee] ~Quan: UHH
+[01:52:07] [Server thread/INFO]: TumbleGamer issued server command: //stack 2
+[01:52:12] [Async Chat Thread - #30/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:52:12] [Async Chat Thread - #30/INFO]: [L]<MiniTecno> ....
+[01:52:12] [Async Chat Thread - #30/INFO]: [Builder Interviewee] ~Quan: ....
+[01:52:28] [Server thread/INFO]: TumbleGamer issued server command: //wwand
+[01:52:30] [Server thread/INFO]: TumbleGamer issued server command: //wand
+[01:52:35] [Server thread/INFO]: TumbleGamer issued server command: //set grass
+[01:52:44] [Server thread/INFO]: TumbleGamer issued server command: //stack 3
+[01:53:09] [Server thread/INFO]: Untrimmed issued server command: /trust hayd
+[01:53:25] [Server thread/INFO]: TumbleGamer issued server command: //stack 3
+[01:53:27] [Server thread/INFO]: TumbleGamer issued server command: //stack 4
+[01:53:33] [Server thread/INFO]: TumbleGamer issued server command: //stack 5
+[01:54:01] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[01:54:08] [Async Chat Thread - #31/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:54:08] [Async Chat Thread - #31/INFO]: [L]<MiniTecno> wat did u do to my house?
+[01:54:08] [Async Chat Thread - #31/INFO]: [Builder Interviewee] ~Quan: wat did u do to my house?
+[01:54:20] [Async Chat Thread - #31/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:54:20] [Async Chat Thread - #31/INFO]: [L]<TumbleGamer> less square
+[01:54:20] [Async Chat Thread - #31/INFO]: [Owner] TumbleGamer: less square
+[01:54:45] [Server thread/INFO]: TumbleGamer issued server command: //stack u 10
+[01:55:11] [Server thread/INFO]: TumbleGamer issued server command: //pos2
+[01:55:19] [Server thread/INFO]: TumbleGamer issued server command: //stack 3
+[01:55:27] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:55:36] [Server thread/INFO]: TumbleGamer issued server command: //stack 2
+[01:55:48] [Server thread/INFO]: TumbleGamer issued server command: //pos2
+[01:55:51] [Server thread/INFO]: TumbleGamer issued server command: //stack 2
+[01:55:54] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:55:57] [Server thread/INFO]: TumbleGamer issued server command: //stack 1
+[01:56:05] [Async Chat Thread - #32/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:56:05] [Async Chat Thread - #32/INFO]: [L]<MiniTecno> OMG
+[01:56:05] [Async Chat Thread - #32/INFO]: [Builder Interviewee] ~Quan: OMG
+[01:56:06] [Server thread/INFO]: TumbleGamer issued server command: //stack 1
+[01:56:06] [Async Chat Thread - #32/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:56:06] [Async Chat Thread - #32/INFO]: [L]<MiniTecno> TF
+[01:56:06] [Async Chat Thread - #32/INFO]: [Builder Interviewee] ~Quan: TF
+[01:56:12] [Server thread/INFO]: TumbleGamer issued server command: //stack 1
+[01:56:13] [Async Chat Thread - #32/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:56:13] [Async Chat Thread - #32/INFO]: [L]<MiniTecno> uhh
+[01:56:13] [Async Chat Thread - #32/INFO]: [Builder Interviewee] ~Quan: uhh
+[01:56:16] [Async Chat Thread - #32/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:56:16] [Async Chat Thread - #32/INFO]: [L]<MiniTecno> is this a villagee?
+[01:56:16] [Async Chat Thread - #32/INFO]: [Builder Interviewee] ~Quan: is this a villagee?
+[01:56:22] [Server thread/INFO]: TumbleGamer issued server command: /undo
+[01:56:25] [Server thread/INFO]: TumbleGamer issued server command: /undo
+[01:56:26] [Server thread/INFO]: TumbleGamer issued server command: /undo
+[01:56:27] [Server thread/INFO]: TumbleGamer issued server command: /undo
+[01:56:33] [Server thread/INFO]: TumbleGamer issued server command: //stack 100
+[01:56:50] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:56:59] [Server thread/INFO]: TumbleGamer issued server command: //pos2
+[01:57:01] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[01:57:05] [Server thread/INFO]: TumbleGamer issued server command: //stack 100
+[01:57:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:57:51] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:57:56] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:58:07] [Async Chat Thread - #33/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:58:07] [Async Chat Thread - #33/INFO]: [L]<MiniTecno> why is my house being pasted?
+[01:58:07] [Async Chat Thread - #33/INFO]: [Builder Interviewee] ~Quan: why is my house being pasted?
+[01:58:16] [Server thread/INFO]: [ClearLag] Removed 2 Entities!
+[01:58:20] [Server thread/INFO]: TumbleGamer issued server command: /stack u 10
+[01:58:26] [Server thread/INFO]: TumbleGamer issued server command: /stack 10 u
+[01:58:30] [Server thread/INFO]: TumbleGamer issued server command: /stack
+[01:58:39] [Server thread/INFO]: TumbleGamer issued server command: //stack 1 u
+[01:58:46] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:58:51] [Server thread/INFO]: TumbleGamer issued server command: //up 1
+[01:59:09] [Server thread/INFO]: TumbleGamer issued server command: //copy
+[01:59:14] [Server thread/INFO]: TumbleGamer issued server command: //up 2
+[01:59:17] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[01:59:30] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:59:37] [Server thread/INFO]: TumbleGamer issued server command: //redo
+[01:59:40] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[01:59:41] [Async Chat Thread - #34/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:59:41] [Async Chat Thread - #34/INFO]: [L]<MiniTecno> WAT
+[01:59:41] [Async Chat Thread - #34/INFO]: [Builder Interviewee] ~Quan: WAT
+[02:00:01] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[02:00:11] [Server thread/INFO]: TumbleGamer issued server command: /replacenear air 1 stone
+[02:00:26] [Async Chat Thread - #34/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:00:26] [Async Chat Thread - #34/INFO]: [L]<MiniTecno> till i im not scared anymore im staying in my house :p
+[02:00:26] [Async Chat Thread - #34/INFO]: [Builder Interviewee] ~Quan: till i im not scared anymore im staying in my house :p
+[02:00:31] [Server thread/INFO]: TumbleGamer issued server command: /replacenear 3 air atone,diamond
+[02:00:37] [Server thread/INFO]: TumbleGamer issued server command: /replacenear 3 air stone,diamond
+[02:00:51] [Async Chat Thread - #34/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:00:51] [Async Chat Thread - #34/INFO]: [L]<MiniTecno> OMG
+[02:00:51] [Async Chat Thread - #34/INFO]: [Builder Interviewee] ~Quan: OMG
+[02:00:54] [Async Chat Thread - #34/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:00:54] [Async Chat Thread - #34/INFO]: [L]<MiniTecno> IDEA
+[02:00:54] [Async Chat Thread - #34/INFO]: [Builder Interviewee] ~Quan: IDEA
+[02:01:03] [Async Chat Thread - #34/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:01:03] [Async Chat Thread - #34/INFO]: [L]<TumbleGamer> undp
+[02:01:03] [Async Chat Thread - #34/INFO]: [Owner] TumbleGamer: undp
+[02:01:07] [Async Chat Thread - #34/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:01:07] [Async Chat Thread - #34/INFO]: [L]<TumbleGamer> undo
+[02:01:07] [Async Chat Thread - #34/INFO]: [Owner] TumbleGamer: undo
+[02:01:10] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:01:10] [Async Chat Thread - #34/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:01:10] [Async Chat Thread - #34/INFO]: [L]<MiniTecno> ?
+[02:01:10] [Async Chat Thread - #34/INFO]: [Builder Interviewee] ~Quan: ?
+[02:01:27] [Server thread/INFO]: TumbleGamer issued server command: /replacenear 3 air stone,diamond
+[02:01:36] [Async Chat Thread - #34/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:01:36] [Async Chat Thread - #34/INFO]: [L]<MiniTecno> bruh'
+[02:01:36] [Async Chat Thread - #34/INFO]: [Builder Interviewee] ~Quan: bruh'
+[02:01:37] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:01:46] [Server thread/INFO]: TumbleGamer issued server command: //redo
+[02:01:51] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:02:24] [Server thread/INFO]: TumbleGamer issued server command: /sudo MiniTecno /replacenear air 3 wood,stone
+[02:02:41] [Server thread/INFO]: TumbleGamer issued server command: /sudo MiniTecno /replacenear 3 air wood,stone
+[02:02:44] [Server thread/INFO]: TumbleGamer issued server command: //unco
+[02:02:47] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:02:54] [Server thread/INFO]: TumbleGamer issued server command: /sudo MiniTecno /undo
+[02:03:02] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[02:03:07] [Server thread/INFO]: TumbleGamer issued server command: /sudo MiniTecno /replacenear 3 air wood,stone
+[02:03:09] [Server thread/INFO]: TumbleGamer issued server command: /sudo MiniTecno /undo
+[02:03:48] [Server thread/INFO]: TumbleGamer issued server command: //copy
+[02:04:00] [Server thread/INFO]: TumbleGamer issued server command: //pos2
+[02:04:10] [Server thread/INFO]: TumbleGamer issued server command: //copy
+[02:04:24] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[02:04:49] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:04:57] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[02:04:57] [Server thread/INFO]: TumbleGamer issued server command: /down 3
+[02:05:09] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[02:05:37] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[02:05:40] [Server thread/INFO]: TumbleGamer issued server command: /tpohere MiniTecno
+[02:05:57] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[02:05:57] [Server thread/INFO]: TumbleGamer issued server command: /tpohere MiniTecno
+[02:06:11] [Async Chat Thread - #35/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:06:11] [Async Chat Thread - #35/INFO]: [L]<MiniTecno> WAT have u done to my beautiful house?
+[02:06:11] [Async Chat Thread - #35/INFO]: [Builder Interviewee] ~Quan: WAT have u done to my beautiful house?
+[02:06:15] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:06:29] [Server thread/INFO]: TumbleGamer issued server command: /scale
+[02:06:33] [Server thread/INFO]: TumbleGamer issued server command: //scale
+[02:06:34] [Server thread/INFO]: TumbleGamer issued server command: //help
+[02:07:14] [Async Chat Thread - #36/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:07:14] [Async Chat Thread - #36/INFO]: [L]<MiniTecno> like my house/
+[02:07:14] [Async Chat Thread - #36/INFO]: [Builder Interviewee] ~Quan: like my house/
+[02:07:17] [Async Chat Thread - #36/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:07:17] [Async Chat Thread - #36/INFO]: [L]<MiniTecno> bc im done
+[02:07:17] [Async Chat Thread - #36/INFO]: [Builder Interviewee] ~Quan: bc im done
+[02:07:33] [Server thread/INFO]: TumbleGamer issued server command: //replacce carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:07:36] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)...
+[02:07:36] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[02:07:38] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[02:07:38] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[02:07:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Successfully resumed Session!
+[02:07:48] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:07:52] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:07:58] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:01] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:02] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:03] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:04] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:04] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:05] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:05] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:06] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:08] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:08] [Async Chat Thread - #36/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:08:08] [Async Chat Thread - #36/INFO]: [L]<MiniTecno> omg
+[02:08:08] [Async Chat Thread - #36/INFO]: [Builder Interviewee] ~Quan: omg
+[02:08:08] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:09] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:10] [Async Chat Thread - #36/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:08:10] [Async Chat Thread - #36/INFO]: [L]<MiniTecno> wow
+[02:08:10] [Async Chat Thread - #36/INFO]: [Builder Interviewee] ~Quan: wow
+[02:08:14] [Async Chat Thread - #36/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:08:14] [Async Chat Thread - #36/INFO]: [L]<MiniTecno> how?
+[02:08:14] [Async Chat Thread - #36/INFO]: [Builder Interviewee] ~Quan: how?
+[02:08:24] [Async Chat Thread - #36/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:08:24] [Async Chat Thread - #36/INFO]: [L]<TumbleGamer> .//replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:24] [Async Chat Thread - #36/INFO]: [Owner] TumbleGamer: .//replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:33] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:34] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:35] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:36] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:38] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple/
+[02:08:40] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple
+[02:08:41] [Server thread/INFO]: MiniTecno issued server command: //replace carpet carpet:red
+[02:08:44] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,stone
+[02:08:45] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,stone
+[02:08:46] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,stone
+[02:08:48] [Server thread/INFO]: MiniTecno issued server command: //wand
+[02:08:49] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:08:50] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:08:50] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:08:55] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,wool
+[02:08:57] [Craft Scheduler Thread - 1417/INFO]: [Marriage] Purged 0 player entries in 20ms
+[02:08:59] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:02] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[02:09:07] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:07] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:08] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:09] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:10] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:10] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:11] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:12] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:15] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:15] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:16] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:17] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:18] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:18] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:19] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:20] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:21] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:22] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:23] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:23] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:24] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:24] [Server thread/INFO]: TumbleGamer issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow,carpet:green,carpet:blue,carpet:purple,air
+[02:09:25] [Server thread/INFO]: TumbleGamer issued server command: /
+[02:09:29] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:31] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:32] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:33] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:34] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:34] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:34] [Server thread/INFO]: TumbleGamer issued server command: //undo/
+[02:09:35] [Server thread/INFO]: TumbleGamer issued server command: /
+[02:09:36] [Server thread/INFO]: TumbleGamer issued server command: /
+[02:09:36] [Server thread/INFO]: TumbleGamer issued server command: /
+[02:09:39] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:39] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:40] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:41] [Server thread/INFO]: TumbleGamer issued server command: //undo/
+[02:09:43] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:43] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:44] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:44] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:45] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:46] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:47] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:47] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:48] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:49] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:50] [Server thread/INFO]: TumbleGamer issued server command: //undo/
+[02:09:52] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:52] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:53] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:53] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:54] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:09:56] [Server thread/INFO]: TumbleGamer issued server command: /
+[02:09:59] [Server thread/INFO]: TumbleGamer issued server command: //undo 3
+[02:10:00] [Server thread/INFO]: TumbleGamer issued server command: //undo 3
+[02:10:02] [Server thread/INFO]: TumbleGamer issued server command: //undo 3
+[02:10:03] [Server thread/INFO]: TumbleGamer issued server command: //undo 3
+[02:10:03] [Server thread/INFO]: TumbleGamer issued server command: //undo 3
+[02:10:04] [Server thread/INFO]: TumbleGamer issued server command: //undo 3
+[02:10:06] [Server thread/INFO]: MiniTecno issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow.carpet:green,carpet:blue,carpet:purple
+[02:10:09] [Server thread/INFO]: MiniTecno issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow.carpet:green,carpet:blue,carpet:purple
+[02:10:09] [Server thread/INFO]: MiniTecno issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow.carpet:green,carpet:blue,carpet:purple
+[02:10:10] [Server thread/INFO]: MiniTecno issued server command: //replace carpet carpet:red,carpet:orange,carpet:yellow.carpet:green,carpet:blue,carpet:purple
+[02:10:15] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:10:15] [Async Chat Thread - #37/INFO]: [L]<MiniTecno> its not working
+[02:10:15] [Async Chat Thread - #37/INFO]: [Builder Interviewee] ~Quan: its not working
+[02:10:26] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:10:26] [Async Chat Thread - #37/INFO]: [L]<MiniTecno> welp
+[02:10:26] [Async Chat Thread - #37/INFO]: [Builder Interviewee] ~Quan: welp
+[02:10:30] [Server thread/INFO]: TumbleGamer issued server command: //pos2
+[02:10:31] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:10:31] [Async Chat Thread - #37/INFO]: [L]<MiniTecno> like it?
+[02:10:31] [Async Chat Thread - #37/INFO]: [Builder Interviewee] ~Quan: like it?
+[02:10:34] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:10:34] [Async Chat Thread - #37/INFO]: [L]<MiniTecno> my house?'d
+[02:10:34] [Async Chat Thread - #37/INFO]: [Builder Interviewee] ~Quan: my house?'d
+[02:10:40] [Server thread/INFO]: TumbleGamer issued server command: //stack 2
+[02:10:56] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:11:11] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:11:15] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:11:15] [Async Chat Thread - #37/INFO]: [L]<MiniTecno> like?
+[02:11:15] [Async Chat Thread - #37/INFO]: [Builder Interviewee] ~Quan: like?
+[02:11:25] [Server thread/INFO]: TumbleGamer issued server command: //redo
+[02:11:28] [Server thread/INFO]: TumbleGamer issued server command: //redo
+[02:11:30] [Server thread/INFO]: TumbleGamer issued server command: //redo
+[02:11:34] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:11:50] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:11:50] [Async Chat Thread - #37/INFO]: [L]<MiniTecno> like my house?
+[02:11:50] [Async Chat Thread - #37/INFO]: [Builder Interviewee] ~Quan: like my house?
+[02:11:54] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:11:54] [Async Chat Thread - #37/INFO]: [L]<TumbleGamer> it came to a point where i didnt know what i was undoing
+[02:11:54] [Async Chat Thread - #37/INFO]: [Owner] TumbleGamer: it came to a point where i didnt know what i was undoing
+[02:12:02] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[02:12:07] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:12:07] [Async Chat Thread - #37/INFO]: [L]<MiniTecno> like my house tho?
+[02:12:07] [Async Chat Thread - #37/INFO]: [Builder Interviewee] ~Quan: like my house tho?
+[02:12:17] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:12:17] [Async Chat Thread - #37/INFO]: [L]<TumbleGamer> maybe
+[02:12:17] [Async Chat Thread - #37/INFO]: [Owner] TumbleGamer: maybe
+[02:12:21] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:12:21] [Async Chat Thread - #37/INFO]: [L]<MiniTecno> :D
+[02:12:21] [Async Chat Thread - #37/INFO]: [Builder Interviewee] ~Quan: :D
+[02:12:37] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[02:12:38] [Server thread/INFO]: TumbleGamer issued server command: /up 8
+[02:12:54] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:12:54] [Async Chat Thread - #37/INFO]: [L]<MiniTecno> so
+[02:12:54] [Async Chat Thread - #37/INFO]: [Builder Interviewee] ~Quan: so
+[02:12:58] [Server thread/INFO]: TumbleGamer issued server command: /stack 3 d
+[02:13:03] [Server thread/INFO]: TumbleGamer issued server command: /stack 3
+[02:13:08] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:13:08] [Async Chat Thread - #37/INFO]: [L]<MiniTecno> we done? with Interviewee?
+[02:13:08] [Async Chat Thread - #37/INFO]: [Builder Interviewee] ~Quan: we done? with Interviewee?
+[02:13:17] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[02:13:18] [Server thread/INFO]: TumbleGamer issued server command: //stack 3 d
+[02:13:29] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:13:29] [Async Chat Thread - #37/INFO]: [L]<TumbleGamer> i just made a down stairs
+[02:13:29] [Async Chat Thread - #37/INFO]: [Owner] TumbleGamer: i just made a down stairs
+[02:13:35] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:13:35] [Async Chat Thread - #37/INFO]: [L]<MiniTecno> ?
+[02:13:35] [Async Chat Thread - #37/INFO]: [Builder Interviewee] ~Quan: ?
+[02:13:37] [Server thread/INFO]: [ClearLag] Removed 2 Entities!
+[02:13:43] [Async Chat Thread - #37/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:13:43] [Async Chat Thread - #37/INFO]: [L]<TumbleGamer> in the floor
+[02:13:43] [Async Chat Thread - #37/INFO]: [Owner] TumbleGamer: in the floor
+[02:14:00] [Server thread/INFO]: TumbleGamer issued server command: //stack 10 d
+[02:14:42] [Server thread/INFO]: TumbleGamer issued server command: //stack 10 d
+[02:14:44] [Async Chat Thread - #38/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:14:44] [Async Chat Thread - #38/INFO]: [L]<MiniTecno> Ahh
+[02:14:44] [Async Chat Thread - #38/INFO]: [Builder Interviewee] ~Quan: Ahh
+[02:14:49] [Async Chat Thread - #38/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:14:49] [Async Chat Thread - #38/INFO]: [L]<MiniTecno> IM IN THE VOid
+[02:14:49] [Async Chat Thread - #38/INFO]: [Builder Interviewee] ~Quan: IM IN THE VOid
+[02:14:54] [Server thread/INFO]: MiniTecno fell out of the world
+[02:15:02] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[02:15:11] [Server thread/INFO]: TumbleGamer issued server command: /tpohere MiniTecno
+[02:15:22] [Server thread/INFO]: TumbleGamer issued server command: /tpohere MiniTecno
+[02:15:41] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:15:57] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:16:07] [Server thread/INFO]: TumbleGamer issued server command: //redo
+[02:16:11] [Server thread/INFO]: TumbleGamer issued server command: //redo
+[02:16:15] [Server thread/INFO]: TumbleGamer issued server command: //stack 10 d
+[02:16:17] [Async Chat Thread - #39/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:16:17] [Async Chat Thread - #39/INFO]: [L]<MiniTecno> lets forget thats 50000k of my houses underground XD
+[02:16:17] [Async Chat Thread - #39/INFO]: [Builder Interviewee] ~Quan: lets forget thats 50000k of my houses underground XD
+[02:16:24] [Server thread/INFO]: TumbleGamer issued server command: //stack 10 d
+[02:16:44] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:16:49] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[02:16:59] [Async Chat Thread - #39/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:16:59] [Async Chat Thread - #39/INFO]: [L]<MiniTecno> so
+[02:16:59] [Async Chat Thread - #39/INFO]: [Builder Interviewee] ~Quan: so
+[02:17:00] [Server thread/INFO]: TumbleGamer issued server command: /gmsp
+[02:17:09] [Server thread/INFO]: TumbleGamer issued server command: /gmsp MiniTecno
+[02:17:13] [Async Chat Thread - #39/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:17:13] [Async Chat Thread - #39/INFO]: [L]<MiniTecno> we donee with the interviwee?
+[02:17:13] [Async Chat Thread - #39/INFO]: [Builder Interviewee] ~Quan: we donee with the interviwee?
+[02:17:14] [Server thread/INFO]: TumbleGamer issued server command: /tpohere MiniTecno
+[02:17:20] [Server thread/INFO]: TumbleGamer issued server command: /tpohere MiniTecno
+[02:17:29] [Async Chat Thread - #39/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor133.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:17:29] [Async Chat Thread - #39/INFO]: [L]<MiniTecno> wow
+[02:17:29] [Async Chat Thread - #39/INFO]: [Builder Interviewee] ~Quan: wow
+[02:17:35] [Server thread/INFO]: TumbleGamer issued server command: //stack 10 d
+[02:18:02] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[02:18:14] [Server thread/INFO]: TumbleGamer issued server command: /speed
+[02:18:24] [Server thread/INFO]: TumbleGamer issued server command: /speed 100 fly MiniTecno
+[02:18:41] [Server thread/INFO]: TumbleGamer issued server command: /speed fly 100 MiniTecno
+[02:18:57] [Server thread/INFO]: TumbleGamer issued server command: /speed walk 10 MiniTecno
+[02:19:01] [Server thread/INFO]: TumbleGamer issued server command: /tpohere MiniTecno
+[02:19:07] [Server thread/INFO]: TumbleGamer issued server command: /gmc MiniTecno
+[02:19:08] [Server thread/INFO]: TumbleGamer issued server command: /tpohere MiniTecno
+[02:19:40] [Server thread/INFO]: TumbleGamer issued server command: /speed walk 9999 MiniTecno
+[02:19:53] [Server thread/INFO]: TumbleGamer issued server command: /speed fly 0.1 MiniTecno
+[02:20:03] [Server thread/INFO]: TumbleGamer issued server command: /tpohere MiniTecno
+[02:20:18] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
