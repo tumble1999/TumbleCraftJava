@@ -1,179 +1,109 @@
 # Notifications
 notification:
   enabled: true
-  # Send notifications to console
   console: true
-  # You can block notification spam by increasing delay (1000ms = 1 second)
   delay: 800
-
-# Messages
 messages:
   tag: '&7[&aPAC&7] &2'
   no-perm: '&4You dont have permission !'
-
-# NPC Check
 killaura:
   enabled: true
   values:
-    # Minimum distance between 2 players
     min-distance: 0.8
-    # Deny hits when KillAura detected (1000ms = 1 second)
     deny-hit-delay: 3000
-    # Allow hit for <delay> after creating fake NPCs
     allow-delay: 200
-    # Creating 4 NPC around enemy.
     4npc:
-      # Remove NPCs after <delay> (20 tick = 1 second)
       delay: 10
-      # Positions
       locxz: 0.4
       locy: 0.1
-    # Creating 2 NPC by calculating attackers angle
     2npc:
-      # Remove NPCs after <delay> (20 tick = 1 second)
       delay: 60
-      # Distance multiplier
       distance: 2
-      # Angle value
       angle: 40
   actions:
     a: cancel::notify
-
-# Limits the speed of sending command/message
 spam:
   enabled: true
   values:
-    # 1000ms = 1 second
-    # You can change spam message at messages.yml
     chat:
       delay: 1000
     command:
       delay: 1000
   actions:
     a: cancel::pacmessage &cPlease talk slowly.
-
-# Blocks unknown characters
 ascii-characters:
   enabled: true
-  # If you have different characters in your language, use whitelist.
-  # Example:
-  # - a
-  # - b
   whitelist:
   - some_different_chars_in_your_language
   actions:
     a: cancel::notify::pacmessage &cUnknown Characters are not allowed !
-
-# SkinBlinker
 skinblinker:
   enabled: true
   actions:
     a: cancel::notify
-
-# Prevents from using bow too quickly
 fastbow:
   enabled: true
   values:
     kick: 4
-    # Player can shoot bow with force 1.0 in <delay>
     delay: 1000
   actions:
     a: cancel::notify
-
-# Blocks impossible angles
 headroll:
   enabled: true
   actions:
     a: cancel::notify::kick <player> <tag>&cHeadRoll &bis not allowed !
-
-# Blocks liquid interact
 impossibleinteract:
   enabled: true
   actions:
     a: cancel::notify
-
-# Impossible Packets
 impossiblepackets:
   enabled: true
   values:
-    # UPDATE_SIGN packet check
     sign: true
   actions:
     a: cancel::notify
-
-# Checks packets
 morepackets:
   enabled: true
   values:
-    # Limits movement packets
     movement:
-      # Max movement packets in <delay>
       max_packets: 23
-      # 1000ms = 1 second
       delay: 1000
-    # Limits custom_payload packets
     custompayload:
-      # Max custom_payload packets in <delay>
       max_packets: 1
-      # 1000ms = 1 second
       delay: 200
-    # Limits sneak packets
     sneak:
-      # Max sneak packets in <delay>
       max_packets: 18
-      # 1000ms = 1 second
       delay: 1000
-    # Limits tab complete packets
     tabcomplete:
-      # Max tab complete packets in <delay>
       max_packets: 5
-      # 1000ms = 1 second
       delay: 1000
   actions:
     a: cancel::notify
-
-# AutoArmor, MoreInventory check
 inventory:
   enabled: true
   actions:
     a: cancel::notify
-
-# Speed
 speed:
   enabled: true
   values:
     violation:
-      # Min violations before cancelling movement
       min_vl: 2.0
-      # Violation multiplier
       vl_multiplier: 8.0
   actions:
     a: cancel::notify
-
-# FastFall
 movement:
-   enabled: true
-   actions:
-     a: cancel::notify
-
-# DamageIndicators/HealthESP
+  enabled: true
+  actions:
+    a: cancel::notify
 damageindicators:
   enabled: true
   values:
     fake_health: 1
-
-# Limits incoming connections
 botattack:
   enabled: true
   values:
-    # 1000ms = 1 second
     delay: 500
-    # Max connections in <delay>
     max-connections: 3
-    # Use "MC|Brand" packet for whitelist
     mc_brand: true
-    # Blacklist if connections coming from same IP
     blacklist: true
-
-# Do not change this value !
 pac_version: 1.3.0
