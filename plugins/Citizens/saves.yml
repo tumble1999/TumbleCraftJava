@@ -44,7 +44,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: text,owner,waypoints,spawned,inventory,gravity,type,lookclose,equipment,location,mounttrait,anchors,speech
+    traitnames: waypoints,anchors,spawned,speech,type,gravity,owner,equipment,text,lookclose,location,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -89,7 +89,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,text,lookclose,location,equipment,mounttrait,owner,spawned,anchors,speech,inventory
+    traitnames: owner,equipment,anchors,spawned,text,speech,type,lookclose,gravity,location,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -121,7 +121,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,equipment,location,mounttrait,owner,spawned,inventory
+    traitnames: owner,equipment,spawned,type,lookclose,gravity,location,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -153,7 +153,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,location,equipment,mounttrait,owner,spawned,inventory
+    traitnames: owner,equipment,spawned,type,lookclose,location,gravity,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -185,7 +185,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,location,equipment,mounttrait,owner,spawned,inventory
+    traitnames: owner,equipment,spawned,type,lookclose,location,gravity,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -217,7 +217,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,equipment,location,mounttrait,owner,spawned,inventory
+    traitnames: owner,equipment,spawned,type,lookclose,location,gravity,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -244,7 +244,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,equipment,location,mounttrait,owner,spawned,inventory
+    traitnames: owner,equipment,spawned,type,lookclose,gravity,location,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -276,7 +276,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,location,equipment,mounttrait,owner,spawned,inventory
+    traitnames: owner,equipment,spawned,type,lookclose,location,gravity,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -313,7 +313,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,location,equipment,mounttrait,owner,spawned,inventory
+    traitnames: owner,equipment,spawned,type,lookclose,location,gravity,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -345,7 +345,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,equipment,location,mounttrait,owner,spawned,inventory
+    traitnames: owner,equipment,spawned,type,lookclose,location,gravity,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -377,7 +377,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,equipment,location,mounttrait,owner,spawned,inventory
+    traitnames: owner,equipment,spawned,type,lookclose,gravity,location,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -409,7 +409,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,location,equipment,mounttrait,owner,spawned,inventory
+    traitnames: owner,equipment,spawned,type,lookclose,location,gravity,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -438,7 +438,7 @@ npc:
         range: '5.0'
         enabled: true
         realisticlooking: false
-    traitnames: gravity,type,lookclose,location,equipment,mounttrait,spawned,inventory
+    traitnames: equipment,spawned,type,lookclose,location,gravity,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -467,7 +467,7 @@ npc:
         realisticlooking: false
       type: PLAYER
       spawned: true
-    traitnames: gravity,type,lookclose,location,equipment,mounttrait,spawned,inventory
+    traitnames: equipment,spawned,type,lookclose,location,gravity,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -487,11 +487,11 @@ npc:
       type: PLAYER
       location:
         world: Survival
-        x: '37755.8937'
-        y: '68.0'
-        z: '40314.5809'
-        yaw: '101.62615966796875'
-        pitch: '0.0'
+        x: '37733.1939'
+        y: '71.0'
+        z: '40305.3395'
+        yaw: '56.20903015136719'
+        pitch: '-4.522919178009033'
       gravity:
         enabled: false
       waypoints:
@@ -543,26 +543,26 @@ npc:
         '36':
           type: DIAMOND_BOOTS
           amount: 1
-          durability: 87
-          mdata: 87
+          durability: 2
+          mdata: 2
         '37':
           type: DIAMOND_LEGGINGS
           amount: 1
-          durability: 87
-          mdata: 87
+          durability: 2
+          mdata: 2
         '38':
           type: DIAMOND_CHESTPLATE
           amount: 1
-          durability: 87
-          mdata: 87
+          durability: 2
+          mdata: 2
         '39':
           type: DIAMOND_HELMET
           amount: 1
-          durability: 87
-          mdata: 87
+          durability: 2
+          mdata: 2
       sentinel:
-        stats_ticksSpawned: 12718
-        stats_timesSpawned: 1
+        stats_ticksSpawned: 32583
+        stats_timesSpawned: 5
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -570,10 +570,10 @@ npc:
         stats_eggsThrown: 0
         stats_skullsThrown: 0
         stats_pearlsUsed: 0
-        stats_punches: 36
-        stats_attackAttempts: 248
-        stats_damageTaken: 42.7
-        stats_damageGiven: 244.2020001411438
+        stats_punches: 89
+        stats_attackAttempts: 985
+        stats_damageTaken: 87.1578873932362
+        stats_damageGiven: 601.4420018196106
         range: 20.0
         damage: -1.0
         armor: -1.0
@@ -634,11 +634,11 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,equipment,location,sentinel,mounttrait,owner,spawned,waypoints,inventory
+    traitnames: owner,waypoints,equipment,spawned,sentinel,type,lookclose,gravity,location,mounttrait,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '84':
     metadata:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzgyMDg2MTcsInByb2ZpbGVJZCI6IjAxOWMzOWEyMjRjZTQ1NjNiMDRiYzA5NGM5YmVlMDQyIiwicHJvZmlsZU5hbWUiOiJEckJhdG1hbldobyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcxNmFhOTk4ZjVkYWQ5MWQzNjQwMzk4YmQ0MDE1ZjI2MDI1N2U4MDExYzMxMWY0YWM3OWUyMWFhMjU1YiJ9fX0=
@@ -659,7 +659,7 @@ npc:
         x: '47952.5143'
         y: '63.0'
         z: '12117.7343'
-        yaw: '-124.96089172363281'
+        yaw: '99.46380615234375'
         pitch: '0.0'
       type: PLAYER
       inventory:
@@ -689,8 +689,8 @@ npc:
           durability: 0
           mdata: 0
       sentinel:
-        stats_ticksSpawned: 45940
-        stats_timesSpawned: 5
+        stats_ticksSpawned: 48065
+        stats_timesSpawned: 6
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -765,7 +765,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,equipment,location,sentinel,mounttrait,owner,spawned,inventory
+    traitnames: owner,equipment,spawned,sentinel,type,lookclose,gravity,location,mounttrait,inventory
     navigator:
       pathfindingrange: '100.0'
       speedmodifier: '1.0'
@@ -821,8 +821,8 @@ npc:
           durability: 0
           mdata: 0
       sentinel:
-        stats_ticksSpawned: 36029
-        stats_timesSpawned: 4
+        stats_ticksSpawned: 38535
+        stats_timesSpawned: 6
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -896,7 +896,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,location,equipment,sentinel,mounttrait,owner,spawned,inventory
+    traitnames: owner,equipment,spawned,sentinel,type,lookclose,gravity,location,mounttrait,inventory
     navigator:
       pathfindingrange: '100.0'
       speedmodifier: '1.0'
@@ -952,8 +952,8 @@ npc:
           durability: 0
           mdata: 0
       sentinel:
-        stats_ticksSpawned: 36029
-        stats_timesSpawned: 3
+        stats_ticksSpawned: 38535
+        stats_timesSpawned: 5
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -1027,7 +1027,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,type,lookclose,location,equipment,sentinel,mounttrait,owner,spawned,inventory
+    traitnames: owner,equipment,spawned,sentinel,type,lookclose,location,gravity,mounttrait,inventory
     navigator:
       pathfindingrange: '100.0'
       speedmodifier: '1.0'
