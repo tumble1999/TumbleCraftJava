@@ -63,7 +63,7 @@ impossiblepackets:
   actions:
     a: cancel::notify
 morepackets:
-  enabled: true
+  enabled: false
   values:
     movement:
       max_packets: 23
@@ -92,7 +92,7 @@ speed:
   actions:
     a: cancel::notify
 movement:
-  enabled: true
+  enabled: false
   actions:
     a: cancel::notify
 damageindicators:
