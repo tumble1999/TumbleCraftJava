@@ -44,7 +44,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: location,owner,waypoints,type,inventory,equipment,lookclose,spawned,speech,mounttrait,anchors,gravity,text
+    traitnames: anchors,owner,speech,waypoints,text,location,lookclose,gravity,mounttrait,equipment,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -89,7 +89,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: lookclose,location,owner,type,inventory,equipment,spawned,speech,mounttrait,gravity,anchors,text
+    traitnames: gravity,anchors,owner,speech,mounttrait,text,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -121,7 +121,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: lookclose,location,owner,type,inventory,equipment,spawned,mounttrait,gravity
+    traitnames: gravity,owner,mounttrait,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -153,7 +153,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: lookclose,location,owner,type,inventory,equipment,spawned,mounttrait,gravity
+    traitnames: gravity,owner,mounttrait,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -185,7 +185,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: lookclose,location,owner,type,inventory,equipment,spawned,mounttrait,gravity
+    traitnames: gravity,owner,mounttrait,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -217,7 +217,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: lookclose,location,owner,type,inventory,equipment,spawned,mounttrait,gravity
+    traitnames: gravity,owner,mounttrait,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -244,7 +244,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: lookclose,location,owner,type,inventory,equipment,spawned,mounttrait,gravity
+    traitnames: gravity,owner,mounttrait,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -276,7 +276,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: lookclose,location,owner,type,inventory,equipment,spawned,mounttrait,gravity
+    traitnames: gravity,owner,mounttrait,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -313,7 +313,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: lookclose,location,owner,type,inventory,equipment,spawned,mounttrait,gravity
+    traitnames: gravity,owner,mounttrait,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -345,7 +345,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: lookclose,location,owner,type,inventory,equipment,spawned,mounttrait,gravity
+    traitnames: gravity,owner,mounttrait,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -377,7 +377,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: lookclose,location,owner,type,inventory,equipment,spawned,mounttrait,gravity
+    traitnames: gravity,owner,mounttrait,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -409,7 +409,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: lookclose,location,owner,type,inventory,equipment,spawned,mounttrait,gravity
+    traitnames: gravity,owner,mounttrait,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -438,7 +438,7 @@ npc:
         range: '5.0'
         enabled: true
         realisticlooking: false
-    traitnames: lookclose,location,type,inventory,equipment,spawned,mounttrait,gravity
+    traitnames: gravity,mounttrait,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -467,7 +467,7 @@ npc:
         realisticlooking: false
       type: PLAYER
       spawned: true
-    traitnames: lookclose,location,type,inventory,equipment,spawned,mounttrait,gravity
+    traitnames: gravity,mounttrait,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -487,9 +487,9 @@ npc:
       type: PLAYER
       location:
         world: Survival
-        x: '37755.8938'
+        x: '37755.8937'
         y: '68.0'
-        z: '40314.581'
+        z: '40314.5809'
         yaw: '101.62615966796875'
         pitch: '0.0'
       gravity:
@@ -534,9 +534,6 @@ npc:
         range: '5.0'
         enabled: true
         realisticlooking: false
-      owner:
-        owner: server
-        uuid: ''
       inventory:
         '0':
           type: DIAMOND_SWORD
@@ -577,11 +574,6 @@ npc:
         stats_attackAttempts: 248
         stats_damageTaken: 42.7
         stats_damageGiven: 244.2020001411438
-        targets:
-          '0': MOB
-          '1': MONSTER
-        ignores:
-          '0': OWNER
         range: 20.0
         damage: -1.0
         armor: -1.0
@@ -608,6 +600,11 @@ npc:
         autoswitch: false
         accuracy: 0.0
         realistic: true
+        targets:
+          '0': MOB
+          '1': MONSTER
+        ignores:
+          '0': OWNER
       equipment:
         hand:
           type: DIAMOND_SWORD
@@ -634,7 +631,10 @@ npc:
           amount: 1
           durability: 0
           mdata: 0
-    traitnames: lookclose,location,waypoints,owner,type,inventory,sentinel,equipment,spawned,mounttrait,gravity
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: gravity,owner,mounttrait,waypoints,sentinel,equipment,location,lookclose,spawned,inventory,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -656,14 +656,11 @@ npc:
         realisticlooking: false
       location:
         world: Survival
-        x: '47965.2446'
-        y: '68.0'
-        z: '12100.2723'
-        yaw: '178.3264923095703'
+        x: '47952.5143'
+        y: '63.0'
+        z: '12117.7343'
+        yaw: '-124.96089172363281'
         pitch: '0.0'
-      owner:
-        owner: server
-        uuid: ''
       type: PLAYER
       inventory:
         '0':
@@ -692,8 +689,8 @@ npc:
           durability: 0
           mdata: 0
       sentinel:
-        stats_ticksSpawned: 37199
-        stats_timesSpawned: 3
+        stats_ticksSpawned: 44729
+        stats_timesSpawned: 4
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -701,14 +698,10 @@ npc:
         stats_eggsThrown: 0
         stats_skullsThrown: 0
         stats_pearlsUsed: 0
-        stats_punches: 35
-        stats_attackAttempts: 1521
+        stats_punches: 41
+        stats_attackAttempts: 1552
         stats_damageTaken: 0.0
-        stats_damageGiven: 162.99600011110306
-        targets:
-          '0': MOB
-        ignores:
-          '0': OWNER
+        stats_damageGiven: 204.99600011110306
         range: 20.0
         damage: -1.0
         armor: -1.0
@@ -735,6 +728,11 @@ npc:
         autoswitch: false
         accuracy: 0.0
         realistic: false
+        targets:
+          '0': MOB
+          '1': OWNER
+        ignores:
+          '0': OWNER
       equipment:
         hand:
           type: DIAMOND_SWORD
@@ -764,12 +762,15 @@ npc:
       spawned: true
       gravity:
         enabled: false
-    traitnames: lookclose,location,owner,type,inventory,sentinel,equipment,spawned,mounttrait,gravity
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: gravity,owner,mounttrait,sentinel,equipment,location,lookclose,spawned,inventory,type
     navigator:
       pathfindingrange: '100.0'
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '83':
     metadata:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzgyMDg2MTcsInByb2ZpbGVJZCI6IjAxOWMzOWEyMjRjZTQ1NjNiMDRiYzA5NGM5YmVlMDQyIiwicHJvZmlsZU5hbWUiOiJEckJhdG1hbldobyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcxNmFhOTk4ZjVkYWQ5MWQzNjQwMzk4YmQ0MDE1ZjI2MDI1N2U4MDExYzMxMWY0YWM3OWUyMWFhMjU1YiJ9fX0=
@@ -792,9 +793,137 @@ npc:
         z: '12071.5169'
         yaw: '-114.09735107421875'
         pitch: '0.0'
+      type: PLAYER
+      inventory:
+        '0':
+          type: DIAMOND_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+        '36':
+          type: DIAMOND_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+        '37':
+          type: DIAMOND_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        '38':
+          type: DIAMOND_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        '39':
+          type: DIAMOND_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+      sentinel:
+        stats_ticksSpawned: 36029
+        stats_timesSpawned: 3
+        stats_arrowsFired: 0
+        stats_potionsThrow: 0
+        stats_fireballsFired: 0
+        stats_snowballsThrown: 0
+        stats_eggsThrown: 0
+        stats_skullsThrown: 0
+        stats_pearlsUsed: 0
+        stats_punches: 35
+        stats_attackAttempts: 1363
+        stats_damageTaken: 0.0
+        stats_damageGiven: 162.88400012254715
+        range: 20.0
+        damage: -1.0
+        armor: -1.0
+        health: 20.0
+        ranged_chase: false
+        close_chase: true
+        invincible: true
+        fightback: true
+        attackRate: 30
+        attackRateRanged: 30
+        healRate: 30
+        guardingUpper: 116031058969773411
+        guardingLower: -5743285154508513214
+        needsAmmo: false
+        safeShot: true
+        respawnTime: 100
+        chaseRange: 100.0
+        enemyDrops: false
+        enemyTargetTime: 0
+        speed: 1.0
+        warning_text: ''
+        greeting_text: ''
+        greet_range: 10.0
+        autoswitch: false
+        accuracy: 0.0
+        realistic: false
+        targets:
+          '0': MOB
+        ignores:
+          '0': OWNER
+      equipment:
+        hand:
+          type: DIAMOND_SWORD
+          amount: 1
+          durability: 0
+          mdata: 0
+        helmet:
+          type: DIAMOND_HELMET
+          amount: 1
+          durability: 0
+          mdata: 0
+        chestplate:
+          type: DIAMOND_CHESTPLATE
+          amount: 1
+          durability: 0
+          mdata: 0
+        leggings:
+          type: DIAMOND_LEGGINGS
+          amount: 1
+          durability: 0
+          mdata: 0
+        boots:
+          type: DIAMOND_BOOTS
+          amount: 1
+          durability: 0
+          mdata: 0
+      spawned: true
+      gravity:
+        enabled: false
       owner:
         owner: server
         uuid: ''
+    traitnames: gravity,owner,mounttrait,sentinel,equipment,location,lookclose,spawned,inventory,type
+    navigator:
+      pathfindingrange: '100.0'
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '82':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzgyMDg2MTcsInByb2ZpbGVJZCI6IjAxOWMzOWEyMjRjZTQ1NjNiMDRiYzA5NGM5YmVlMDQyIiwicHJvZmlsZU5hbWUiOiJEckJhdG1hbldobyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcxNmFhOTk4ZjVkYWQ5MWQzNjQwMzk4YmQ0MDE1ZjI2MDI1N2U4MDExYzMxMWY0YWM3OWUyMWFhMjU1YiJ9fX0=
+      cached-skin-uuid-name: drbatmanwho
+      cached-skin-uuid: 019c39a2-24ce-4563-b04b-c094c9bee042
+      protected: true
+      player-skin-signature: iCgMT1ChBI3I0uyUp3h9IbZZ5eh5MKp6NJ7yeQQBe+wPO7vx5p+9OPPDLh3bF9adUaF4kWkREvVmenkyr59y6e7vM43ihCd29orT11QAG4QKoEGgMfOXKSpxx+bMX3GA6gzgskUhW8D/llhSw3fwBpwH5/0ueBzLYtOtVEnMdXbSyApXOXdVXdazsz9IUX8szPKf7ABSg4m+FNS8gHnQsw54TUrhXU/RxFELzrW8gL/VOvQmf+jHXHEzOGMWMK5kSEUCQRnKbdcf2+Ry2nqezEzmIYqiOqim7dYtcjw8D9MS2BtZ9kbUhcvs7ugtMzTKTLUNSCJEwL4GSkYJa5jDIBplz8jASRMZdtRtJRprIxz1nbLLkl/VggSrKkoWziCuKIdEwm81Uxg0c6SK6FRPoY37YMfNzKmvVvGxXZlSoGBk5LmGOEhCArfcr3LjZsfDyt9ofIH0u098mtP4JxvEDL7jMg2tyFHzxRE9jJLFntgHHdKD2mGhTM0l3fPaeeMhbOTiZU17hJcHtiYUKFBFD2FOdhAbKiAVdB0sRWWOjbzZN74MJ0WEoR1r6dg6fAW6ua+7qZutOdNDwBRb2S9wBVj5hYfzQNrsknS5m9ahBOYA9EWN1LiFcDxosWFqqVVPxujzTiGG0i9hQb/gBQJArX1w0oqRRv2To7zJTeEenNk=
+      swim: true
+    name: DrBatmanWho
+    uuid: ebe41bdc-624b-4d28-ba95-6c7d62c680f1
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+      location:
+        world: Survival
+        x: '48021.898'
+        y: '69.0'
+        z: '12071.0728'
+        yaw: '-102.08067321777344'
+        pitch: '0.0'
       type: PLAYER
       inventory:
         '0':
@@ -832,145 +961,10 @@ npc:
         stats_eggsThrown: 0
         stats_skullsThrown: 0
         stats_pearlsUsed: 0
-        stats_punches: 35
-        stats_attackAttempts: 1363
-        stats_damageTaken: 0.0
-        stats_damageGiven: 162.88400012254715
-        targets:
-          '0': MOB
-        ignores:
-          '0': OWNER
-        range: 20.0
-        damage: -1.0
-        armor: -1.0
-        health: 20.0
-        ranged_chase: false
-        close_chase: true
-        invincible: true
-        fightback: true
-        attackRate: 30
-        attackRateRanged: 30
-        healRate: 30
-        guardingUpper: 116031058969773411
-        guardingLower: -5743285154508513214
-        needsAmmo: false
-        safeShot: true
-        respawnTime: 100
-        chaseRange: 100.0
-        enemyDrops: false
-        enemyTargetTime: 0
-        speed: 1.0
-        warning_text: ''
-        greeting_text: ''
-        greet_range: 10.0
-        autoswitch: false
-        accuracy: 0.0
-        realistic: false
-      equipment:
-        hand:
-          type: DIAMOND_SWORD
-          amount: 1
-          durability: 0
-          mdata: 0
-        helmet:
-          type: DIAMOND_HELMET
-          amount: 1
-          durability: 0
-          mdata: 0
-        chestplate:
-          type: DIAMOND_CHESTPLATE
-          amount: 1
-          durability: 0
-          mdata: 0
-        leggings:
-          type: DIAMOND_LEGGINGS
-          amount: 1
-          durability: 0
-          mdata: 0
-        boots:
-          type: DIAMOND_BOOTS
-          amount: 1
-          durability: 0
-          mdata: 0
-      spawned: true
-      gravity:
-        enabled: false
-    traitnames: lookclose,location,owner,type,inventory,sentinel,equipment,spawned,mounttrait,gravity
-    navigator:
-      pathfindingrange: '100.0'
-      speedmodifier: '1.0'
-      avoidwater: false
-      usedefaultstuckaction: false
-  '82':
-    metadata:
-      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzgyMDg2MTcsInByb2ZpbGVJZCI6IjAxOWMzOWEyMjRjZTQ1NjNiMDRiYzA5NGM5YmVlMDQyIiwicHJvZmlsZU5hbWUiOiJEckJhdG1hbldobyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcxNmFhOTk4ZjVkYWQ5MWQzNjQwMzk4YmQ0MDE1ZjI2MDI1N2U4MDExYzMxMWY0YWM3OWUyMWFhMjU1YiJ9fX0=
-      cached-skin-uuid-name: drbatmanwho
-      cached-skin-uuid: 019c39a2-24ce-4563-b04b-c094c9bee042
-      protected: true
-      player-skin-signature: iCgMT1ChBI3I0uyUp3h9IbZZ5eh5MKp6NJ7yeQQBe+wPO7vx5p+9OPPDLh3bF9adUaF4kWkREvVmenkyr59y6e7vM43ihCd29orT11QAG4QKoEGgMfOXKSpxx+bMX3GA6gzgskUhW8D/llhSw3fwBpwH5/0ueBzLYtOtVEnMdXbSyApXOXdVXdazsz9IUX8szPKf7ABSg4m+FNS8gHnQsw54TUrhXU/RxFELzrW8gL/VOvQmf+jHXHEzOGMWMK5kSEUCQRnKbdcf2+Ry2nqezEzmIYqiOqim7dYtcjw8D9MS2BtZ9kbUhcvs7ugtMzTKTLUNSCJEwL4GSkYJa5jDIBplz8jASRMZdtRtJRprIxz1nbLLkl/VggSrKkoWziCuKIdEwm81Uxg0c6SK6FRPoY37YMfNzKmvVvGxXZlSoGBk5LmGOEhCArfcr3LjZsfDyt9ofIH0u098mtP4JxvEDL7jMg2tyFHzxRE9jJLFntgHHdKD2mGhTM0l3fPaeeMhbOTiZU17hJcHtiYUKFBFD2FOdhAbKiAVdB0sRWWOjbzZN74MJ0WEoR1r6dg6fAW6ua+7qZutOdNDwBRb2S9wBVj5hYfzQNrsknS5m9ahBOYA9EWN1LiFcDxosWFqqVVPxujzTiGG0i9hQb/gBQJArX1w0oqRRv2To7zJTeEenNk=
-      swim: true
-    name: DrBatmanWho
-    uuid: ebe41bdc-624b-4d28-ba95-6c7d62c680f1
-    traits:
-      lookclose:
-        range: '5.0'
-        enabled: true
-        realisticlooking: false
-      location:
-        world: Survival
-        x: '48021.898'
-        y: '69.0'
-        z: '12071.0729'
-        yaw: '-102.08067321777344'
-        pitch: '0.0'
-      owner:
-        owner: server
-        uuid: ''
-      type: PLAYER
-      inventory:
-        '0':
-          type: DIAMOND_SWORD
-          amount: 1
-          durability: 0
-          mdata: 0
-        '36':
-          type: DIAMOND_BOOTS
-          amount: 1
-          durability: 0
-          mdata: 0
-        '37':
-          type: DIAMOND_LEGGINGS
-          amount: 1
-          durability: 0
-          mdata: 0
-        '38':
-          type: DIAMOND_CHESTPLATE
-          amount: 1
-          durability: 0
-          mdata: 0
-        '39':
-          type: DIAMOND_HELMET
-          amount: 1
-          durability: 0
-          mdata: 0
-      sentinel:
-        stats_ticksSpawned: 36029
-        stats_timesSpawned: 1
-        stats_arrowsFired: 0
-        stats_potionsThrow: 0
-        stats_fireballsFired: 0
-        stats_snowballsThrown: 0
-        stats_eggsThrown: 0
-        stats_skullsThrown: 0
-        stats_pearlsUsed: 0
         stats_punches: 32
         stats_attackAttempts: 1464
         stats_damageTaken: 0.0
         stats_damageGiven: 134.78800040483475
-        targets:
-          '0': MOB
-        ignores:
-          '0': OWNER
         range: 20.0
         damage: -1.0
         armor: -1.0
@@ -997,6 +991,10 @@ npc:
         autoswitch: false
         accuracy: 0.0
         realistic: false
+        targets:
+          '0': MOB
+        ignores:
+          '0': OWNER
       equipment:
         hand:
           type: DIAMOND_SWORD
@@ -1026,7 +1024,10 @@ npc:
       spawned: true
       gravity:
         enabled: false
-    traitnames: lookclose,location,owner,type,inventory,sentinel,equipment,spawned,mounttrait,gravity
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: gravity,owner,mounttrait,sentinel,equipment,location,lookclose,spawned,inventory,type
     navigator:
       pathfindingrange: '100.0'
       speedmodifier: '1.0'
