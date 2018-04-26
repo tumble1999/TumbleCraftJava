@@ -380,6 +380,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2018-04-26 21:53:20 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2018-04-08 01:29:07 +0100"
@@ -811,7 +817,8 @@
       "shulker": "2018-04-26 21:16:22 +0100",
       "skeleton": "2018-04-08 03:16:39 +0100",
       "cave_spider": "2018-04-08 01:31:06 +0100",
-      "zombie": "2018-04-08 03:17:23 +0100"
+      "zombie": "2018-04-08 03:17:23 +0100",
+      "creeper": "2018-04-26 21:52:20 +0100"
     },
     "done": false
   },
@@ -1163,6 +1170,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2018-04-26 21:53:20 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_log": "2018-04-07 23:05:18 +0100"
@@ -1232,6 +1245,12 @@
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2018-04-25 01:55:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2018-04-26 21:53:20 +0100"
     },
     "done": true
   },
