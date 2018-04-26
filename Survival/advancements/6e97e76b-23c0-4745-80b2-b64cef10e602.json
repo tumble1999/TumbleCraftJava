@@ -59,6 +59,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/snow": {
+    "criteria": {
+      "has_snowball": "2018-04-26 21:18:50 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2018-04-25 01:01:51 +0100"
@@ -802,6 +808,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "shulker": "2018-04-26 21:16:22 +0100",
       "skeleton": "2018-04-08 03:16:39 +0100",
       "cave_spider": "2018-04-08 01:31:06 +0100",
       "zombie": "2018-04-08 03:17:23 +0100"
@@ -907,6 +914,12 @@
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2018-04-08 02:18:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2018-04-26 21:18:22 +0100"
     },
     "done": true
   },
@@ -1111,6 +1124,12 @@
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2018-04-08 01:30:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow_layer": {
+    "criteria": {
+      "has_snowball": "2018-04-26 21:18:50 +0100"
     },
     "done": true
   },
@@ -1544,6 +1563,12 @@
   "minecraft:recipes/decorations/red_stained_glass_pane": {
     "criteria": {
       "has_glass": "2018-04-25 01:14:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2018-04-26 21:17:01 +0100"
     },
     "done": true
   },
