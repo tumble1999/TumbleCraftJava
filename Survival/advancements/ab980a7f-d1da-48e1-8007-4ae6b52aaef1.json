@@ -352,6 +352,7 @@
       "cooked_beef": "2018-04-24 22:48:44 +0100",
       "clownfish": "2018-04-25 22:01:35 +0100",
       "apple": "2018-04-25 22:54:48 +0100",
+      "cooked_cod": "2018-04-26 04:12:26 +0100",
       "bread": "2018-04-24 21:20:21 +0100"
     },
     "done": false
@@ -668,6 +669,12 @@
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2018-04-24 21:29:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2018-04-26 04:12:41 +0100"
     },
     "done": true
   },
