@@ -2557,3 +2557,10 @@ java.lang.OutOfMemoryError: Java heap space
 [03:08:40] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
 [03:08:46] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
 [03:08:50] [SessionControllerAdapter-Worker/WARN]: [DiscordSRV] [JDA] Queue is attempting to reconnect a shard...
+[03:09:05] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[03:09:05] [SessionControllerAdapter-Worker/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[03:09:05] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+[03:09:05] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[03:09:08] [SessionControllerAdapter-Worker/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[03:09:08] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[03:09:12] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
