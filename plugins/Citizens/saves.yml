@@ -487,10 +487,10 @@ npc:
       type: PLAYER
       location:
         world: Survival
-        x: '37733.1938'
-        y: '71.0'
-        z: '40305.3395'
-        yaw: '-4.207489013671875'
+        x: '37748.5684'
+        y: '70.0'
+        z: '40334.5114'
+        yaw: '-90.08303833007812'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -543,26 +543,26 @@ npc:
         '36':
           type: DIAMOND_BOOTS
           amount: 1
-          durability: 0
-          mdata: 0
+          durability: 7
+          mdata: 7
         '37':
           type: DIAMOND_LEGGINGS
           amount: 1
-          durability: 0
-          mdata: 0
+          durability: 7
+          mdata: 7
         '38':
           type: DIAMOND_CHESTPLATE
           amount: 1
-          durability: 0
-          mdata: 0
+          durability: 7
+          mdata: 7
         '39':
           type: DIAMOND_HELMET
           amount: 1
-          durability: 0
-          mdata: 0
+          durability: 7
+          mdata: 7
       sentinel:
-        stats_ticksSpawned: 32585
-        stats_timesSpawned: 11
+        stats_ticksSpawned: 34929
+        stats_timesSpawned: 12
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -570,10 +570,10 @@ npc:
         stats_eggsThrown: 0
         stats_skullsThrown: 0
         stats_pearlsUsed: 0
-        stats_punches: 89
-        stats_attackAttempts: 985
-        stats_damageTaken: 87.1578873932362
-        stats_damageGiven: 601.4420018196106
+        stats_punches: 98
+        stats_attackAttempts: 1050
+        stats_damageTaken: 92.95788739323619
+        stats_damageGiven: 664.2180018424988
         range: 20.0
         damage: -1.0
         armor: -1.0
@@ -638,7 +638,7 @@ npc:
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: false
+      usedefaultstuckaction: true
   '84':
     metadata:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzgyMDg2MTcsInByb2ZpbGVJZCI6IjAxOWMzOWEyMjRjZTQ1NjNiMDRiYzA5NGM5YmVlMDQyIiwicHJvZmlsZU5hbWUiOiJEckJhdG1hbldobyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcxNmFhOTk4ZjVkYWQ5MWQzNjQwMzk4YmQ0MDE1ZjI2MDI1N2U4MDExYzMxMWY0YWM3OWUyMWFhMjU1YiJ9fX0=
