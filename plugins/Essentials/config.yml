@@ -41,13 +41,13 @@ change-displayname: true
 
 # When this option is enabled, the (tab) player list will be updated with the displayname.
 # The value of change-displayname (above) has to be true.
-#change-playerlist: true
+change-playerlist: true
 
 # When EssentialsChat.jar isn't used, force essentials to add the prefix and suffix from permission plugins to displayname.
 # This setting is ignored if EssentialsChat.jar is used, and defaults to 'true'.
 # The value of change-displayname (above) has to be true.
 # Do not edit this setting unless you know what you are doing!
-#add-prefix-suffix: false
+add-prefix-suffix: false
 
 # When this option is enabled, player prefixes will be shown in the playerlist.
 # This feature only works for Minecraft version 1.8 and higher.
@@ -55,7 +55,7 @@ change-displayname: true
 #add-prefix-in-playerlist: true
 
 # When this option is enabled, player suffixes will be shown in the playerlist.
-# This feature only works for Minecraft version 1.8 and higher. 
+# This feature only works for Minecraft version 1.8 and higher.
 # This value of change-playerlist has to be true
 #add-suffix-in-playerlist: true
 
@@ -117,11 +117,11 @@ spawnmob-limit: 10
 warn-on-smite: true
 
 # Shall we drop items instead of adding to inventory if the target inventory is full?
-drop-items-if-full: false
+drop-items-if-full: true
 
 # Essentials Mail Notification
 # Should we notify players if they have no new mail?
-notify-no-new-mail: true
+notify-no-new-mail: false
 
 # Specifies the duration (in seconds) between each time a player is notified of mail they have.
 # Useful for servers with a lot of mail traffic.
@@ -396,7 +396,7 @@ cancel-afk-on-interact: true
 # Disable this to reduce server lag.
 cancel-afk-on-move: true
 
-# Set the player's list name when they are AFK. This is none by default which specifies that Essentials 
+# Set the player's list name when they are AFK. This is none by default which specifies that Essentials
 # should not interfere with the AFK player's list name.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
 afk-list-name: "none"
@@ -466,11 +466,11 @@ mails-per-minute: 1000
 # Set to -1 to disable, and essentials.tempban.unlimited can be used to override.
 max-tempban-time: -1
 
-# Changes /reply functionality. If true, /r goes to the person you messaged last, otherwise the first person that messaged you. 
+# Changes /reply functionality. If true, /r goes to the person you messaged last, otherwise the first person that messaged you.
 # If false, /r goes to the last person that messaged you.
 last-message-reply-recipient: true
 
-# If last-message-reply-recipient is true, this specifies the duration, in seconds, that would need to elapse for the 
+# If last-message-reply-recipient is true, this specifies the duration, in seconds, that would need to elapse for the
 # reply-recipient to update when receiving a message.
 # Default is 180 (3 minutes)
 last-message-reply-recipient-timeout: 180
@@ -581,7 +581,7 @@ command-costs:
   #kit-tools: 1500
 
 # Set this to a currency symbol you want to use.
-# Remember, if you want to use special characters in this document, 
+# Remember, if you want to use special characters in this document,
 # such as accented letters, you MUST save the file as UTF-8, not ANSI.
 currency-symbol: '$'
 
@@ -599,7 +599,7 @@ economy-log-enabled: false
 # Use this option to force superperms-based permissions handler regardless of detected installed perms plugin.
 # This is useful if you want superperms-based permissions (with wildcards) for custom permissions plugins.
 # If you wish to use EssentialsX' built-in permissions using the `player-commands` section above, set this to false.
-# Default is true. 
+# Default is true.
 use-bukkit-permissions: true
 
 # Minimum acceptable amount to be used in /pay.
@@ -872,7 +872,7 @@ respawn-at-home: false
 spawn-on-join: false
 # The following value of `guests` states that all players in group `guests` will be teleported to spawn when joining.
 #spawn-on-join: guests
-# The following list value states that all players in group `guests` and `admin` are to be teleported to spawn when joining. 
+# The following list value states that all players in group `guests` and `admin` are to be teleported to spawn when joining.
 #spawn-on-join:
 #- guests
 #- admin
