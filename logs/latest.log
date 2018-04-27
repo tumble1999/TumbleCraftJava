@@ -2548,3 +2548,12 @@ java.lang.OutOfMemoryError: Java heap space
 [03:08:20] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263)
 [03:08:27] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)... Appending session to reconnect queue
 [03:08:30] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[03:08:40] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[03:08:40] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[03:08:40] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[03:08:40] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[03:08:40] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[03:08:40] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[03:08:40] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[03:08:46] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[03:08:50] [SessionControllerAdapter-Worker/WARN]: [DiscordSRV] [JDA] Queue is attempting to reconnect a shard...
