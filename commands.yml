@@ -20,9 +20,10 @@ aliases:
   demote:
   - lp user $$1 deomote Ranks
   rank:
-  - pex user $$1 group set $$2
+  - lp user $$1 parent set $$2
   helper:
   - pex user $$1 group set helper
+  - 
   builder:
   - pex user $$1 group set builder
   mod:
