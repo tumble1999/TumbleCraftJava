@@ -2435,3 +2435,116 @@ Caused by: com.comphenix.protocol.reflect.FieldAccessException: No field with ty
 [02:37:10] [Netty Server IO #0/WARN]: java.io.IOException: An established connection was aborted by the software in your host machine
 [02:37:32] [Paper Watchdog Thread/ERROR]: 	Stack:
 [02:38:24] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[02:39:01] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[02:39:14] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:39:14] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[02:39:28] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[02:39:44] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketException
+[02:39:50] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[02:40:10] [Paper Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.objects.threads.ConsoleMessageQueueWorker.run(ConsoleMessageQueueWorker.java:55)
+[02:40:16] [JDA RateLimit-Queue Pool - Thread 3/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:40:22] [JDA RateLimit-Queue Pool - Thread 2/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:40:32] [Server thread/INFO]: MiniTecno left the game
+[02:40:41] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketException
+[02:40:41] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[02:40:52] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:40:55] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketException
+[02:41:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[02:41:53] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:42:33] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[02:42:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@7a1a3df1[id=6e97e76b-23c0-4745-80b2-b64cef10e602,name=MiniTecno,properties={textures=[com.mojang.authlib.properties.Property@12aef2c4]},legacy=false] (98.29.147.129/98.29.147.129:50147) lost connection: Disconnected
+[02:42:47] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketException
+[02:44:00] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)...
+[02:44:37] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[02:44:37] [Paper Watchdog Thread/ERROR]: Current Thread: JDA MainWS-KeepAlive Thread
+[02:44:43] [Server thread/INFO]: com.mojang.authlib.GameProfile@5b4ccac6[id=<null>,name=MiniTecno,properties={},legacy=false] (98.29.147.129/98.29.147.129:50149) lost connection: Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine
+[02:45:11] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:48:50] [JDA RateLimit-Queue Pool - Thread 4/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:48:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@edf1909[id=<null>,name=MiniTecno,properties={},legacy=false] (98.29.147.129/98.29.147.129:50446) lost connection: Disconnected
+[02:49:26] [Craft Scheduler Thread - 576/WARN]: [PerWorldInventory] Plugin PerWorldInventory v1.11.5 generated an exception while executing task 81973
+java.lang.OutOfMemoryError: Java heap space
+[02:49:42] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[02:49:19] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: javax.net.ssl.SSLHandshakeException
+[02:49:19] [Craft Scheduler Thread - 574/WARN]: [Essentials] Plugin Essentials v2.15.0.1 generated an exception while executing task 81971
+java.lang.OutOfMemoryError: Java heap space
+[02:50:34] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:50:32] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[02:50:38] [Server thread/INFO]: com.mojang.authlib.GameProfile@c282cd9[id=<null>,name=MiniTecno,properties={},legacy=false] (98.29.147.129/98.29.147.129:50564) lost connection: Disconnected
+[02:50:56] [Craft Scheduler Thread - 575/WARN]: [PerWorldInventory] Plugin PerWorldInventory v1.11.5 generated an exception while executing task 81972
+java.lang.OutOfMemoryError: Java heap space
+[02:50:57] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: javax.net.ssl.SSLHandshakeException
+[02:51:39] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:52:49] [Netty Server IO #0/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[02:53:06] [JDA RateLimit-Queue Pool - Thread 3/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:54:43] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[02:55:13] [Netty Server IO #0/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[02:55:21] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: javax.net.ssl.SSLHandshakeException
+[02:55:24] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: javax.net.ssl.SSLHandshakeException
+[02:56:52] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:57:05] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+[02:57:05] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: javax.net.ssl.SSLHandshakeException
+[02:58:22] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: javax.net.ssl.SSLHandshakeException
+[02:58:35] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[02:58:35] [JDA RateLimit-Queue Pool - Thread 4/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:58:42] [JDA RateLimit-Queue Pool - Thread 2/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[03:00:02] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[03:00:47] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[03:00:47] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: javax.net.ssl.SSLHandshakeException
+[03:01:12] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: javax.net.ssl.SSLHandshakeException
+[03:01:49] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketException
+[03:01:49] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[03:02:26] [JDA RateLimit-Queue Pool - Thread 2/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[03:02:39] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[03:02:59] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[03:03:00] [JDA RateLimit-Queue Pool - Thread 3/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[03:03:24] [Netty Server IO #0/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[03:03:25] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: javax.net.ssl.SSLHandshakeException
+[03:03:28] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketException
+[03:03:47] [JDA RateLimit-Queue Pool - Thread 4/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[03:04:42] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 4s
+[03:04:45] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[03:04:48] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketException
+[03:04:53] [Netty Server IO #0/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[03:05:19] [JDA RateLimit-Queue Pool - Thread 2/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[03:05:22] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketException
+[03:05:28] [Netty Server IO #1/WARN]: java.lang.IllegalStateException: Asynchronous Async Chunk Load! Blocking thread until it returns 
+[03:05:37] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[03:05:53] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketException
+[03:06:33] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[03:06:37] [JDA RateLimit-Queue Pool - Thread 3/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[03:06:37] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.MCUtil.ensureMain(MCUtil.java:54)
+[03:06:37] [Netty Server IO #1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:18)
+[03:06:37] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:164)
+[03:06:46] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:147)
+[03:06:46] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:143)
+[03:06:50] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: javax.net.ssl.SSLHandshakeException
+[03:06:50] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketException
+[03:06:59] [Netty Server IO #1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getChunkAt(CraftWorld.java:181)
+[03:07:05] [Netty Server IO #1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getBlockAt(CraftWorld.java:118)
+[03:07:05] [Netty Server IO #1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getBlockAt(CraftWorld.java:613)
+[03:07:09] [Netty Server IO #1/WARN]: 	at org.bukkit.Location.getBlock(Location.java:91)
+[03:07:09] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 8s
+[03:07:23] [Netty Server IO #1/WARN]: 	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:56)
+[03:07:25] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114)
+[03:07:25] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67)
+[03:07:31] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[03:07:31] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590)
+[03:07:31] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557)
+[03:07:47] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352)
+[03:07:49] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317)
+[03:07:53] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531)
+[03:07:53] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[03:07:53] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[03:07:53] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[03:07:53] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[03:07:53] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[03:07:53] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[03:07:53] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[03:07:53] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+[03:07:56] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[03:07:56] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[03:07:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[03:08:05] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[03:08:20] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263)
+[03:08:27] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)... Appending session to reconnect queue
+[03:08:30] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
