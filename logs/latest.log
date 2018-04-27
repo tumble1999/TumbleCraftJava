@@ -2641,3 +2641,22 @@ java.lang.OutOfMemoryError: Java heap space
 [03:11:28] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
 [03:11:33] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
 [03:11:33] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[03:11:34] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[03:11:34] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[03:11:34] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[03:11:34] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[03:11:36] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[03:11:40] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[03:11:42] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[03:11:45] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+[03:11:45] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[03:11:45] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[03:11:45] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[03:11:46] [Netty Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[03:11:49] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[03:11:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[03:11:53] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[03:11:53] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[03:11:56] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[03:11:56] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[03:11:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Successfully resumed Session!
