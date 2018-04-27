@@ -34,8 +34,7 @@ aliases:
   unrank:
   - rank $$1 member
   tmprank:
-  - pex user $$1 group add $$2 "" $$3
-  - pex 
+  - lp user $$1 parent addtemp $$2 "" $$3
   ranks:
   - einfo ranks $1
   allranks:
