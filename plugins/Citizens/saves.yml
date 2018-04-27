@@ -487,10 +487,10 @@ npc:
       type: PLAYER
       location:
         world: Survival
-        x: '37748.5684'
+        x: '37753.0755'
         y: '70.0'
-        z: '40334.5114'
-        yaw: '-90.08303833007812'
+        z: '40334.5043'
+        yaw: '-90.10379028320312'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -543,26 +543,26 @@ npc:
         '36':
           type: DIAMOND_BOOTS
           amount: 1
-          durability: 7
-          mdata: 7
+          durability: 0
+          mdata: 0
         '37':
           type: DIAMOND_LEGGINGS
           amount: 1
-          durability: 7
-          mdata: 7
+          durability: 0
+          mdata: 0
         '38':
           type: DIAMOND_CHESTPLATE
           amount: 1
-          durability: 7
-          mdata: 7
+          durability: 0
+          mdata: 0
         '39':
           type: DIAMOND_HELMET
           amount: 1
-          durability: 7
-          mdata: 7
+          durability: 0
+          mdata: 0
       sentinel:
-        stats_ticksSpawned: 34929
-        stats_timesSpawned: 12
+        stats_ticksSpawned: 37018
+        stats_timesSpawned: 13
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
