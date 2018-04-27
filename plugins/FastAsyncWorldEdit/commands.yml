@@ -1796,6 +1796,12 @@ WorldEditCommands:
     - cl
     usage: ''
     desc: View the FAWE changelog
+  update:
+    help: ''
+    aliases:
+    - update
+    usage: ''
+    desc: Update the plugin
 SchematicCommands:
   schematic:
     help: ''
