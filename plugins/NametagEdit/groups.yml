@@ -15,13 +15,17 @@ Groups:
     Permission: nte.mod
     Prefix: '&6[Mod] &e'
     SortPriority: 4
-  builder:
-    Permission: nte.builder
-    Prefix: '&a[Builder] &r'
-    SortPriority: 5
   helper:
     Permission: nte.helper
     Prefix: '&3[Helper] &b'
+    SortPriority: 5
+  builder:
+    Permission: nte.builder
+    Prefix: '&a[Builder] &r'
+    SortPriority: 6
+  vip:
+    Permission: nte.vip
+    Prefix: '&a[Builder] &r'
     SortPriority: 6
   voter:
     Permission: nte.voter
