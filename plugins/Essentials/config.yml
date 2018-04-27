@@ -406,7 +406,7 @@ cancel-afk-on-move: true
 # Set the player's list name when they are AFK. This is none by default which specifies that Essentials
 # should not interfere with the AFK player's list name.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-afk-list-name: "none"
+afk-list-name: "&7[AFK] {PLAYER}"
 
 # You can disable the death messages of Minecraft here.
 death-messages: true
@@ -418,11 +418,11 @@ allow-silent-join-quit: false
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-join-message: "none"
+custom-join-message: "+{PLAYER}"
 
 # You can set a custom quit message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
-custom-quit-message: "none"
+custom-quit-message: "-{PLAYER}"
 
 # Add worlds to this list, if you want to automatically disable god mode there.
 no-god-in-worlds:
@@ -590,7 +590,7 @@ command-costs:
 # Set this to a currency symbol you want to use.
 # Remember, if you want to use special characters in this document,
 # such as accented letters, you MUST save the file as UTF-8, not ANSI.
-currency-symbol: '$'
+currency-symbol: '£'
 
 # Set the maximum amount of money a player can have.
 # The amount is always limited to 10 trillion because of the limitations of a java double.
@@ -662,7 +662,7 @@ chat:
   # For more information of chat formatting, check out the wiki: http://wiki.ess3.net/wiki/Chat_Formatting
   # For EssentialsX changes, take a look at the EssentialsX wiki: https://github.com/EssentialsX/Essentials/wiki
 
-  format: '<{DISPLAYNAME}> {MESSAGE}'
+  format: '{DISPLAYNAME}: {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
