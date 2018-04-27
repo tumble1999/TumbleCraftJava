@@ -44,7 +44,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: text,location,equipment,inventory,waypoints,gravity,owner,lookclose,speech,mounttrait,anchors,spawned,type
+    traitnames: speech,mounttrait,spawned,gravity,anchors,waypoints,equipment,owner,lookclose,location,text,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -89,7 +89,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: text,gravity,owner,lookclose,speech,mounttrait,anchors,location,spawned,equipment,inventory,type
+    traitnames: equipment,speech,owner,mounttrait,spawned,lookclose,gravity,location,text,type,inventory,anchors
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -121,7 +121,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,equipment,inventory,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -153,7 +153,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,equipment,inventory,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -185,7 +185,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,equipment,inventory,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -217,7 +217,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,equipment,inventory,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -244,7 +244,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,equipment,inventory,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -276,7 +276,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,equipment,inventory,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -313,7 +313,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,equipment,inventory,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -345,7 +345,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,equipment,inventory,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -377,7 +377,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,equipment,inventory,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -409,7 +409,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,equipment,inventory,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -438,7 +438,7 @@ npc:
         range: '5.0'
         enabled: true
         realisticlooking: false
-    traitnames: gravity,lookclose,mounttrait,location,spawned,equipment,inventory,type
+    traitnames: equipment,mounttrait,spawned,lookclose,gravity,location,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -467,7 +467,7 @@ npc:
         realisticlooking: false
       type: PLAYER
       spawned: true
-    traitnames: gravity,lookclose,mounttrait,location,spawned,equipment,inventory,type
+    traitnames: equipment,mounttrait,spawned,lookclose,gravity,location,type,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -562,7 +562,7 @@ npc:
           mdata: 0
       sentinel:
         stats_ticksSpawned: 32585
-        stats_timesSpawned: 6
+        stats_timesSpawned: 7
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -634,7 +634,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,sentinel,equipment,inventory,waypoints,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,sentinel,inventory,waypoints
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -644,7 +644,7 @@ npc:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzgyMDg2MTcsInByb2ZpbGVJZCI6IjAxOWMzOWEyMjRjZTQ1NjNiMDRiYzA5NGM5YmVlMDQyIiwicHJvZmlsZU5hbWUiOiJEckJhdG1hbldobyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcxNmFhOTk4ZjVkYWQ5MWQzNjQwMzk4YmQ0MDE1ZjI2MDI1N2U4MDExYzMxMWY0YWM3OWUyMWFhMjU1YiJ9fX0=
       cached-skin-uuid-name: drbatmanwho
       cached-skin-uuid: 019c39a2-24ce-4563-b04b-c094c9bee042
-      protected: false
+      protected: true
       player-skin-signature: iCgMT1ChBI3I0uyUp3h9IbZZ5eh5MKp6NJ7yeQQBe+wPO7vx5p+9OPPDLh3bF9adUaF4kWkREvVmenkyr59y6e7vM43ihCd29orT11QAG4QKoEGgMfOXKSpxx+bMX3GA6gzgskUhW8D/llhSw3fwBpwH5/0ueBzLYtOtVEnMdXbSyApXOXdVXdazsz9IUX8szPKf7ABSg4m+FNS8gHnQsw54TUrhXU/RxFELzrW8gL/VOvQmf+jHXHEzOGMWMK5kSEUCQRnKbdcf2+Ry2nqezEzmIYqiOqim7dYtcjw8D9MS2BtZ9kbUhcvs7ugtMzTKTLUNSCJEwL4GSkYJa5jDIBplz8jASRMZdtRtJRprIxz1nbLLkl/VggSrKkoWziCuKIdEwm81Uxg0c6SK6FRPoY37YMfNzKmvVvGxXZlSoGBk5LmGOEhCArfcr3LjZsfDyt9ofIH0u098mtP4JxvEDL7jMg2tyFHzxRE9jJLFntgHHdKD2mGhTM0l3fPaeeMhbOTiZU17hJcHtiYUKFBFD2FOdhAbKiAVdB0sRWWOjbzZN74MJ0WEoR1r6dg6fAW6ua+7qZutOdNDwBRb2S9wBVj5hYfzQNrsknS5m9ahBOYA9EWN1LiFcDxosWFqqVVPxujzTiGG0i9hQb/gBQJArX1w0oqRRv2To7zJTeEenNk=
       swim: true
     name: DrBatmanWho
@@ -690,7 +690,7 @@ npc:
           mdata: 0
       sentinel:
         stats_ticksSpawned: 57342
-        stats_timesSpawned: 7
+        stats_timesSpawned: 8
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -765,7 +765,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,sentinel,equipment,inventory,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,sentinel,inventory
     navigator:
       pathfindingrange: '100.0'
       speedmodifier: '1.0'
@@ -776,7 +776,7 @@ npc:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzgyMDg2MTcsInByb2ZpbGVJZCI6IjAxOWMzOWEyMjRjZTQ1NjNiMDRiYzA5NGM5YmVlMDQyIiwicHJvZmlsZU5hbWUiOiJEckJhdG1hbldobyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcxNmFhOTk4ZjVkYWQ5MWQzNjQwMzk4YmQ0MDE1ZjI2MDI1N2U4MDExYzMxMWY0YWM3OWUyMWFhMjU1YiJ9fX0=
       cached-skin-uuid-name: drbatmanwho
       cached-skin-uuid: 019c39a2-24ce-4563-b04b-c094c9bee042
-      protected: false
+      protected: true
       player-skin-signature: iCgMT1ChBI3I0uyUp3h9IbZZ5eh5MKp6NJ7yeQQBe+wPO7vx5p+9OPPDLh3bF9adUaF4kWkREvVmenkyr59y6e7vM43ihCd29orT11QAG4QKoEGgMfOXKSpxx+bMX3GA6gzgskUhW8D/llhSw3fwBpwH5/0ueBzLYtOtVEnMdXbSyApXOXdVXdazsz9IUX8szPKf7ABSg4m+FNS8gHnQsw54TUrhXU/RxFELzrW8gL/VOvQmf+jHXHEzOGMWMK5kSEUCQRnKbdcf2+Ry2nqezEzmIYqiOqim7dYtcjw8D9MS2BtZ9kbUhcvs7ugtMzTKTLUNSCJEwL4GSkYJa5jDIBplz8jASRMZdtRtJRprIxz1nbLLkl/VggSrKkoWziCuKIdEwm81Uxg0c6SK6FRPoY37YMfNzKmvVvGxXZlSoGBk5LmGOEhCArfcr3LjZsfDyt9ofIH0u098mtP4JxvEDL7jMg2tyFHzxRE9jJLFntgHHdKD2mGhTM0l3fPaeeMhbOTiZU17hJcHtiYUKFBFD2FOdhAbKiAVdB0sRWWOjbzZN74MJ0WEoR1r6dg6fAW6ua+7qZutOdNDwBRb2S9wBVj5hYfzQNrsknS5m9ahBOYA9EWN1LiFcDxosWFqqVVPxujzTiGG0i9hQb/gBQJArX1w0oqRRv2To7zJTeEenNk=
       swim: true
     name: DrBatmanWho
@@ -822,7 +822,7 @@ npc:
           mdata: 0
       sentinel:
         stats_ticksSpawned: 38535
-        stats_timesSpawned: 6
+        stats_timesSpawned: 7
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -896,7 +896,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,sentinel,equipment,inventory,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,sentinel,inventory
     navigator:
       pathfindingrange: '100.0'
       speedmodifier: '1.0'
@@ -907,7 +907,7 @@ npc:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ3NzgyMDg2MTcsInByb2ZpbGVJZCI6IjAxOWMzOWEyMjRjZTQ1NjNiMDRiYzA5NGM5YmVlMDQyIiwicHJvZmlsZU5hbWUiOiJEckJhdG1hbldobyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcxNmFhOTk4ZjVkYWQ5MWQzNjQwMzk4YmQ0MDE1ZjI2MDI1N2U4MDExYzMxMWY0YWM3OWUyMWFhMjU1YiJ9fX0=
       cached-skin-uuid-name: drbatmanwho
       cached-skin-uuid: 019c39a2-24ce-4563-b04b-c094c9bee042
-      protected: false
+      protected: true
       player-skin-signature: iCgMT1ChBI3I0uyUp3h9IbZZ5eh5MKp6NJ7yeQQBe+wPO7vx5p+9OPPDLh3bF9adUaF4kWkREvVmenkyr59y6e7vM43ihCd29orT11QAG4QKoEGgMfOXKSpxx+bMX3GA6gzgskUhW8D/llhSw3fwBpwH5/0ueBzLYtOtVEnMdXbSyApXOXdVXdazsz9IUX8szPKf7ABSg4m+FNS8gHnQsw54TUrhXU/RxFELzrW8gL/VOvQmf+jHXHEzOGMWMK5kSEUCQRnKbdcf2+Ry2nqezEzmIYqiOqim7dYtcjw8D9MS2BtZ9kbUhcvs7ugtMzTKTLUNSCJEwL4GSkYJa5jDIBplz8jASRMZdtRtJRprIxz1nbLLkl/VggSrKkoWziCuKIdEwm81Uxg0c6SK6FRPoY37YMfNzKmvVvGxXZlSoGBk5LmGOEhCArfcr3LjZsfDyt9ofIH0u098mtP4JxvEDL7jMg2tyFHzxRE9jJLFntgHHdKD2mGhTM0l3fPaeeMhbOTiZU17hJcHtiYUKFBFD2FOdhAbKiAVdB0sRWWOjbzZN74MJ0WEoR1r6dg6fAW6ua+7qZutOdNDwBRb2S9wBVj5hYfzQNrsknS5m9ahBOYA9EWN1LiFcDxosWFqqVVPxujzTiGG0i9hQb/gBQJArX1w0oqRRv2To7zJTeEenNk=
       swim: true
     name: DrBatmanWho
@@ -953,7 +953,7 @@ npc:
           mdata: 0
       sentinel:
         stats_ticksSpawned: 38535
-        stats_timesSpawned: 5
+        stats_timesSpawned: 6
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -1027,7 +1027,7 @@ npc:
       owner:
         owner: server
         uuid: ''
-    traitnames: gravity,owner,lookclose,mounttrait,location,spawned,sentinel,equipment,inventory,type
+    traitnames: equipment,owner,mounttrait,spawned,lookclose,gravity,location,type,sentinel,inventory
     navigator:
       pathfindingrange: '100.0'
       speedmodifier: '1.0'
