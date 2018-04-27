@@ -22,18 +22,17 @@ aliases:
   rank:
   - lp user $$1 parent set $$2
   helper:
-  - pex user $$1 group set helper
-  - 
+  - rank $$1 helper
   builder:
-  - pex user $$1 group set builder
+  - rank $$1 builder
   mod:
-  - pex user $$1 group set mod
+  - rank $$1 mod
   admin:
-  - pex user $$1 group set admin
+  - rank $$1 admin
   owner:
-  - pex user $$1 group set owner
+  -- rank $$1 owner
   unrank:
-  - pex user $$1 group set member
+  - rank $$1 member
   tmprank:
   - pex user $$1 group add $$2 "" $$3
   ranks:
