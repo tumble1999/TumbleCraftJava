@@ -2583,3 +2583,36 @@ java.lang.OutOfMemoryError: Java heap space
 [03:10:20] [Netty Server IO #1/WARN]: 	at java.lang.Thread.run(Unknown Source)
 [03:10:23] [pool-14-thread-1/WARN]: Exception in thread "Paper Watchdog Thread" Exception in thread "pool-14-thread-1" java.lang.OutOfMemoryError: Java heap space
 [03:10:24] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[03:10:30] [pool-14-thread-1/WARN]: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.addConditionWaiter(Unknown Source)
+[03:10:32] [pool-14-thread-1/WARN]: 	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+[03:10:32] [pool-14-thread-1/WARN]: 	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[03:10:36] [pool-14-thread-1/WARN]: 	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[03:10:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished (Re)Loading!
+[03:10:38] [pool-14-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[03:10:41] [pool-14-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[03:10:41] [pool-14-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[03:10:41] [pool-14-thread-1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[03:10:41] [Abandoned connection cleanup thread/WARN]: Exception in thread "Abandoned connection cleanup thread" java.lang.OutOfMemoryError: Java heap space
+[03:10:41] [Thread-73/WARN]: Exception in thread "Thread-73" java.lang.OutOfMemoryError: Java heap space
+[03:10:41] [Thread-73/WARN]: 	at java.util.ArrayList.iterator(Unknown Source)
+[03:10:41] [Thread-73/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+[03:10:41] [Thread-73/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+[03:10:41] [Thread-73/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+[03:10:42] [Thread-73/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(Unknown Source)
+[03:10:42] [Thread-73/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(Unknown Source)
+[03:10:42] [Thread-73/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(Unknown Source)
+[03:10:42] [Thread-73/WARN]: 	at github.scarsz.discordsrv.objects.metrics.BStats.sendData(BStats.java:307)
+[03:10:42] [Thread-73/WARN]: 	at github.scarsz.discordsrv.objects.metrics.BStats.access$200(BStats.java:46)
+[03:10:45] [Thread-73/WARN]: 	at github.scarsz.discordsrv.objects.metrics.BStats$2.run(BStats.java:267)
+[03:10:45] [Thread-73/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[03:10:45] [Netty Server IO #1/WARN]: java.lang.IllegalStateException: Asynchronous Async Chunk Load! Blocking thread until it returns 
+[03:10:47] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.MCUtil.ensureMain(MCUtil.java:54)
+[03:10:47] [Netty Server IO #1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:18)
+[03:10:47] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:164)
+[03:10:48] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:147)
+[03:10:53] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:143)
+[03:10:53] [Netty Server IO #1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getChunkAt(CraftWorld.java:181)
+[03:10:54] [Netty Server IO #1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getBlockAt(CraftWorld.java:118)
+[03:10:56] [Netty Server IO #1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getBlockAt(CraftWorld.java:613)
+[03:10:56] [Netty Server IO #1/WARN]: 	at org.bukkit.Location.getBlock(Location.java:91)
+[03:10:56] [Netty Server IO #1/WARN]: 	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:56)
