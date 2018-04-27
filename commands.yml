@@ -15,3 +15,35 @@ unrestricted-advancements: false
 aliases:
   icanhasbukkit:
   - version $1-
+  promote:
+  - lp user $$1 promote Ranks
+  demote:
+  - lp user $$1 deomote Ranks
+  rank:
+  - lp user $$1 parent set $$2
+  helper:
+  - rank $$1 helper
+  builder:
+  - rank $$1 builder
+  mod:
+  - rank $$1 mod
+  admin:
+  - rank $$1 admin
+  owner:
+  - rank $$1 owner
+  unrank:
+  - rank $$1 member
+  tmprank:
+  - lp user $$1 parent addtemp $$2 "" $$3
+  ranks:
+  - einfo ranks $1
+  allranks:
+  - einfo allranks $1
+  shop:
+  - warp shop $1
+  notwork:
+  - mail send TumbleGamer This isnt working; $$1-
+  apply:
+  - einfo apply
+  tp:
+  - einfo tp
