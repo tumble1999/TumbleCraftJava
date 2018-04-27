@@ -1868,3 +1868,570 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [01:51:02] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
 [01:51:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [01:52:03] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:55:33] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[01:58:36] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[01:58:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:59:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:59:50] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[02:01:39] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[02:01:52] [Netty Server IO #1/WARN]: java.io.IOException: An established connection was aborted by the software in your host machine
+[02:01:52] [Netty Server IO #1/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[02:01:52] [Netty Server IO #1/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[02:01:52] [Netty Server IO #1/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[02:01:52] [Netty Server IO #1/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[02:01:52] [Netty Server IO #1/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[02:01:52] [Netty Server IO #1/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[02:01:52] [Netty Server IO #1/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[02:01:52] [Netty Server IO #1/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[02:01:52] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+[02:01:52] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[02:01:52] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[02:01:52] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[02:01:52] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[02:01:52] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[02:01:52] [Netty Server IO #1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[02:04:46] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[02:06:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[02:07:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[02:07:45] [Server thread/INFO]: com.mojang.authlib.GameProfile@79bcec62[id=<null>,name=MiniTecno,properties={},legacy=false] (98.29.147.129/98.29.147.129:50063) lost connection: Disconnected
+[02:07:58] [User Authenticator #7/INFO]: UUID of player MiniTecno is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[02:08:01] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to Baymax vAlpha-101
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:255) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: com.comphenix.protocol.reflect.FieldAccessException: No field with type int exists in class PacketPlayOutKeepAlive.
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:348) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[?:?]
+	at eu.gurudev.baymax.j.q.a(q.java:36) ~[?:?]
+	at eu.gurudev.baymax.g.a.a(a.java:24) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor514.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 15 more
+[02:08:04] [Server thread/INFO]: MiniTecno[98.29.147.129/98.29.147.129:50065] logged in with entity id 41516 at ([Survival]37755.03228229695, 69.0, 40321.91649787959)
+[02:08:08] [Server thread/INFO]: MiniTecno lost connection: Disconnected
+[02:08:10] [Server thread/INFO]: MiniTecno left the game
+[02:08:11] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[02:08:17] [User Authenticator #7/INFO]: UUID of player MiniTecno is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[02:08:19] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@50e1bd86[id=6e97e76b-23c0-4745-80b2-b64cef10e602,name=MiniTecno,properties={textures=[com.mojang.authlib.properties.Property@3dc0f032]},legacy=false] (98.29.147.129/98.29.147.129:50100): You must wait 16 seconds before logging-in again.
+[02:08:19] [Server thread/INFO]: com.mojang.authlib.GameProfile@50e1bd86[id=6e97e76b-23c0-4745-80b2-b64cef10e602,name=MiniTecno,properties={textures=[com.mojang.authlib.properties.Property@3dc0f032]},legacy=false] (98.29.147.129/98.29.147.129:50100) lost connection: You must wait 16 seconds before logging-in again.
+[02:08:19] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[02:08:39] [User Authenticator #7/INFO]: UUID of player MiniTecno is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[02:08:44] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to Baymax vAlpha-101
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:255) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: com.comphenix.protocol.reflect.FieldAccessException: No field with type int exists in class PacketPlayOutKeepAlive.
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:348) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[?:?]
+	at eu.gurudev.baymax.j.q.a(q.java:36) ~[?:?]
+	at eu.gurudev.baymax.g.a.a(a.java:24) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor514.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 15 more
+[02:08:47] [Server thread/INFO]: MiniTecno[98.29.147.129/98.29.147.129:50102] logged in with entity id 41548 at ([Survival]37755.03228229695, 69.0, 40321.91649787959)
+[02:09:03] [Netty Server IO #1/WARN]: java.lang.IllegalStateException: Asynchronous Async Chunk Load! Blocking thread until it returns 
+[02:09:04] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.MCUtil.ensureMain(MCUtil.java:54)
+[02:09:04] [Netty Server IO #1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:18)
+[02:09:06] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:164)
+[02:09:06] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:147)
+[02:09:07] [Netty Server IO #1/WARN]: 	at net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:143)
+[02:09:07] [Netty Server IO #1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getChunkAt(CraftWorld.java:181)
+[02:09:08] [Netty Server IO #1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getBlockAt(CraftWorld.java:118)
+[02:09:08] [Netty Server IO #1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getBlockAt(CraftWorld.java:613)
+[02:09:10] [Netty Server IO #1/WARN]: 	at org.bukkit.Location.getBlock(Location.java:91)
+[02:09:10] [Netty Server IO #1/WARN]: 	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:56)
+[02:09:11] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114)
+[02:09:13] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67)
+[02:09:13] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590)
+[02:09:14] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557)
+[02:09:16] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352)
+[02:09:16] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317)
+[02:09:17] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531)
+[02:09:19] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[02:09:20] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[02:09:23] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[02:09:24] [Async Chat Thread - #5/ERROR]: Could not pass event AsyncPlayerChatEvent to WorldChat v1.0
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at me.gamingod.Main.onChat(Main.java:23) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor131.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.chat(PlayerConnection.java:1387) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1302) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PacketPlayInChat$1.run(PacketPlayInChat.java:39) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:09:26] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:09:29] [Async Chat Thread - #5/INFO]: [L]<MiniTecno> ..
+[02:09:34] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:09:37] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[02:09:39] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[02:09:40] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+[02:09:42] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:09:45] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:09:45] [Async Chat Thread - #5/INFO]: [Builder] MiniTecno: ..
+[02:09:45] [Server thread/INFO]: MiniTecno issued server command: /gm 1
+[02:09:45] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[02:09:45] [Netty Server IO #1/WARN]: 	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263)
+[02:09:51] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:09:52] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:09:52] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[02:09:53] [Paper Watchdog Thread/ERROR]: The server has stopped responding!
+[02:09:55] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[02:09:56] [Paper Watchdog Thread/ERROR]: Please report this to https://aquifermc.org/
+[02:09:58] [Paper Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[02:09:58] [Paper Watchdog Thread/ERROR]: Paper version: git-Paper-1383 (MC: 1.12.2)
+[02:09:58] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[02:09:59] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:09:59] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[02:09:59] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[02:09:59] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[02:10:01] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:01] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:10:01] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[02:10:01] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:10:01] [Paper Watchdog Thread/ERROR]: 	PID: 19 | Suspended: false | Native: false | State: RUNNABLE
+[02:10:01] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[02:10:01] [Netty Server IO #1/WARN]: 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+[02:10:01] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:02] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:10:02] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.<init>(Unknown Source)
+[02:10:03] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:10:06] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[02:10:06] [Paper Watchdog Thread/ERROR]: 		java.net.SocketImpl.<init>(Unknown Source)
+[02:10:06] [Netty Server IO #1/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[02:10:06] [Paper Watchdog Thread/ERROR]: 		java.net.AbstractPlainSocketImpl.<init>(Unknown Source)
+[02:10:06] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:10:06] [Paper Watchdog Thread/ERROR]: 		java.net.PlainSocketImpl.<init>(Unknown Source)
+[02:10:06] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:10:06] [Paper Watchdog Thread/ERROR]: 		java.net.SocksSocketImpl.<init>(Unknown Source)
+[02:10:08] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[02:10:08] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[02:10:08] [Paper Watchdog Thread/ERROR]: 		java.net.Socket.setImpl(Unknown Source)
+[02:10:08] [Paper Watchdog Thread/ERROR]: 		java.net.Socket.<init>(Unknown Source)
+[02:10:08] [Paper Watchdog Thread/ERROR]: 		net.citizensnpcs.nms.v1_12_R1.network.EmptySocket.<init>(EmptySocket.java:9)
+[02:10:08] [Paper Watchdog Thread/ERROR]: 		net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.initialise(EntityHumanNPC.java:302)
+[02:10:08] [Paper Watchdog Thread/ERROR]: 		net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.<init>(EntityHumanNPC.java:93)
+[02:10:08] [Paper Watchdog Thread/ERROR]: 		net.citizensnpcs.nms.v1_12_R1.entity.HumanController.createEntity(HumanController.java:81)
+[02:10:08] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:10:09] [Netty Server IO #1/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		net.citizensnpcs.npc.AbstractEntityController.spawn(AbstractEntityController.java:41)
+[02:10:09] [Netty Server IO #1/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[02:10:09] [User Authenticator #7/INFO]: UUID of player MiniTecno is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		net.citizensnpcs.npc.CitizensNPC.spawn(CitizensNPC.java:198)
+[02:10:09] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[02:10:09] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		net.citizensnpcs.EventListen.spawn(EventListen.java:594)
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		net.citizensnpcs.EventListen.respawnAllFromCoord(EventListen.java:564)
+[02:10:09] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[02:10:09] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		net.citizensnpcs.EventListen.onChunkLoad(EventListen.java:141)
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor367.execute(Unknown Source)
+[02:10:09] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70)
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+[02:10:09] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+[02:10:09] [Server thread/INFO]: com.mojang.authlib.GameProfile@3ef736b9[id=6e97e76b-23c0-4745-80b2-b64cef10e602,name=MiniTecno,properties={textures=[com.mojang.authlib.properties.Property@7a32e870]},legacy=false] (98.29.147.129/98.29.147.129:50140) lost connection: Disconnected
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515)
+[02:10:09] [Netty Server IO #1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500)
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.Chunk.loadNearby(Chunk.java:995)
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:54)
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:16)
+[02:10:09] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.util.AsynchronousExecutor$Task.finish(AsynchronousExecutor.java:188)
+[02:10:11] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.util.AsynchronousExecutor.finishActive(AsynchronousExecutor.java:347)
+[02:10:11] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.chunkio.ChunkIOExecutor.tick(ChunkIOExecutor.java:36)
+[02:10:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:859)
+[02:10:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426)
+[02:10:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767)
+[02:10:11] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665)
+[02:10:11] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:10:11] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:11] [Paper Watchdog Thread/ERROR]: Entire Thread Dump:
+[02:10:11] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:11] [Paper Watchdog Thread/ERROR]: Current Thread: Keep-Alive-Timer
+[02:10:11] [Paper Watchdog Thread/ERROR]: 	PID: 962 | Suspended: false | Native: false | State: TIMED_WAITING
+[02:10:11] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:11] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[02:10:11] [Paper Watchdog Thread/ERROR]: 		sun.net.www.http.KeepAliveCache.run(Unknown Source)
+[02:10:11] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:10:11] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:11] [Server thread/INFO]: MiniTecno lost connection: You logged in from another location
+[02:10:11] [Paper Watchdog Thread/ERROR]: Current Thread: pool-20-thread-2
+[02:10:11] [Paper Watchdog Thread/ERROR]: 	PID: 960 | Suspended: false | Native: false | State: TIMED_WAITING
+[02:10:11] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:11] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[02:10:13] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[02:10:13] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+[02:10:16] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingDeque.pollFirst(Unknown Source)
+[02:10:17] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingDeque.poll(Unknown Source)
+[02:10:17] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[02:10:17] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[02:10:17] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[02:10:17] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:10:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:17] [Paper Watchdog Thread/ERROR]: Current Thread: Async Chat Thread - #5
+[02:10:17] [Paper Watchdog Thread/ERROR]: 	PID: 957 | Suspended: false | Native: false | State: TIMED_WAITING
+[02:10:17] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:19] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[02:10:19] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[02:10:19] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[02:10:19] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[02:10:19] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[02:10:19] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[02:10:19] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[02:10:19] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[02:10:19] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:10:19] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:19] [Paper Watchdog Thread/ERROR]: Current Thread: User Authenticator #7
+[02:10:19] [Paper Watchdog Thread/ERROR]: 	PID: 940 | Suspended: false | Native: false | State: TIMED_WAITING
+[02:10:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:20] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[02:10:20] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+[02:10:20] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+[02:10:20] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+[02:10:20] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+[02:10:20] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[02:10:20] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[02:10:20] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[02:10:20] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:10:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:22] [Paper Watchdog Thread/ERROR]: Current Thread: Okio Watchdog
+[02:10:22] [Paper Watchdog Thread/ERROR]: 	PID: 933 | Suspended: false | Native: false | State: TIMED_WAITING
+[02:10:22] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:22] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[02:10:22] [Paper Watchdog Thread/ERROR]: 		okio.AsyncTimeout.awaitTimeout(AsyncTimeout.java:347)
+[02:10:22] [Paper Watchdog Thread/ERROR]: 		okio.AsyncTimeout$Watchdog.run(AsyncTimeout.java:312)
+[02:10:22] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:22] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #3
+[02:10:22] [Paper Watchdog Thread/ERROR]: 	PID: 136 | Suspended: false | Native: true | State: RUNNABLE
+[02:10:22] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[02:10:22] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[02:10:22] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[02:10:22] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[02:10:22] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:23] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[02:10:23] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[02:10:23] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[02:10:23] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[02:10:23] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[02:10:23] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[02:10:23] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+[02:10:23] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+[02:10:23] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+[02:10:23] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[02:10:23] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:10:23] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:23] [Paper Watchdog Thread/ERROR]: Current Thread: pool-13-thread-1
+[02:10:25] [Paper Watchdog Thread/ERROR]: 	PID: 130 | Suspended: false | Native: false | State: WAITING
+[02:10:25] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:25] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[02:10:25] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[02:10:25] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[02:10:25] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[02:10:25] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[02:10:25] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[02:10:25] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[02:10:25] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:10:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:25] [Paper Watchdog Thread/ERROR]: Current Thread: Chunk I/O Executor Thread-2
+[02:10:25] [Paper Watchdog Thread/ERROR]: 	PID: 129 | Suspended: false | Native: false | State: WAITING
+[02:10:28] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:29] [Paper Watchdog Thread/ERROR]: Current Thread: Chunk I/O Executor Thread-1
+[02:10:29] [Paper Watchdog Thread/ERROR]: 	PID: 128 | Suspended: false | Native: false | State: WAITING
+[02:10:29] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:29] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #2
+[02:10:29] [Paper Watchdog Thread/ERROR]: 	PID: 123 | Suspended: false | Native: true | State: RUNNABLE
+[02:10:29] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[02:10:29] [Paper Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[02:10:31] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(Unknown Source)
+[02:10:31] [Server thread/INFO]: MiniTecno left the game
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:753)
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:409)
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:10:31] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:31] [Paper Watchdog Thread/ERROR]: Current Thread: File IO Thread
+[02:10:31] [Paper Watchdog Thread/ERROR]: 	PID: 122 | Suspended: false | Native: false | State: TIMED_WAITING
+[02:10:31] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.FileIOThread.c(FileIOThread.java:55)
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.FileIOThread.run(FileIOThread.java:28)
+[02:10:31] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:10:32] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:32] [Paper Watchdog Thread/ERROR]: Current Thread: ProtocolLib-StructureCompiler 0
+[02:10:32] [Paper Watchdog Thread/ERROR]: 	PID: 120 | Suspended: false | Native: false | State: WAITING
+[02:10:32] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:32] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[02:10:32] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[02:10:32] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[02:10:32] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+[02:10:32] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[02:10:32] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[02:10:32] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[02:10:32] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:10:32] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:10:32] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #1
+[02:10:32] [Paper Watchdog Thread/ERROR]: 	PID: 119 | Suspended: false | Native: false | State: WAITING
+[02:10:32] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:10:32] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[02:10:32] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Unknown Source)
+[02:10:32] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.util.Waitable.get(Waitable.java:39)
+[02:10:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.MCUtil.ensureMain(MCUtil.java:63)
+[02:10:33] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:18)
+[02:10:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:164)
+[02:10:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:147)
+[02:10:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_12_R1.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:143)
+[02:10:33] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getChunkAt(CraftWorld.java:181)
+[02:10:33] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getBlockAt(CraftWorld.java:118)
+[02:10:33] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_12_R1.CraftWorld.getBlockAt(CraftWorld.java:613)
+[02:10:33] [Paper Watchdog Thread/ERROR]: 		org.bukkit.Location.getBlock(Location.java:91)
+[02:10:33] [Paper Watchdog Thread/ERROR]: 		eu.gurudev.baymax.m.c.onPacketReceiving(c.java:56)
+[02:10:35] [Paper Watchdog Thread/ERROR]: 		com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114)
+[02:10:36] [Paper Watchdog Thread/ERROR]: 		com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67)
+[02:10:36] [Paper Watchdog Thread/ERROR]: 		com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590)
+[02:10:38] [Paper Watchdog Thread/ERROR]: 		com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557)
+[02:10:38] [Paper Watchdog Thread/ERROR]: 		com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352)
+[02:10:38] [Paper Watchdog Thread/ERROR]: 		com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317)
+[02:10:39] [Paper Watchdog Thread/ERROR]: 		com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531)
+[02:10:41] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489)
+[02:10:42] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428)
+[02:10:42] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[02:10:44] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:10:44] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:10:44] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[02:10:44] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[02:10:44] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284)
+[02:10:45] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:10:45] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:10:45] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[02:10:47] [Paper Watchdog Thread/ERROR]: 		com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263)
+[02:10:47] [Server thread/WARN]: [Marriage] Player MiniTecno was not in cache, and will be loaded on the main thread.
+[02:10:47] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:10:47] [Server thread/INFO]: [Marriage] If this message shows often, report to dev
+[02:10:47] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:10:47] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[02:10:47] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310)
+[02:10:47] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297)
+[02:10:47] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413)
+[02:10:47] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265)
+[02:10:47] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:10:48] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:10:48] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[02:10:49] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+[02:10:49] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:10:51] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:10:51] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[02:10:52] [Paper Watchdog Thread/ERROR]: 		io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[02:10:54] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:10:55] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:10:57] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to Baymax vAlpha-101
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:255) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: com.comphenix.protocol.reflect.FieldAccessException: No field with type int exists in class PacketPlayOutKeepAlive.
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:348) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[?:?]
+	at eu.gurudev.baymax.j.q.a(q.java:36) ~[?:?]
+	at eu.gurudev.baymax.g.a.a(a.java:24) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor514.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 15 more
+[02:10:57] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+[02:10:57] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414)
+[02:10:57] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+[02:10:58] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+[02:10:58] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945)
+[02:11:00] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141)
+[02:11:01] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[02:11:01] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[02:11:03] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[02:11:04] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[02:11:04] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[02:11:05] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:11:08] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:11:08] [Paper Watchdog Thread/ERROR]: Current Thread: JDA RateLimit-Queue Pool - Thread 5
+[02:11:10] [Paper Watchdog Thread/ERROR]: 	PID: 118 | Suspended: false | Native: false | State: WAITING
+[02:11:10] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:11:10] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[02:11:10] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[02:11:10] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[02:11:10] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[02:11:11] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[02:11:13] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[02:11:13] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[02:11:16] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[02:11:16] [Paper Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.dependencies.jda.core.requests.RateLimiter$RateLimitThreadFactory.lambda$newThread$0(RateLimiter.java:129)
+[02:11:17] [Paper Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.dependencies.jda.core.requests.RateLimiter$RateLimitThreadFactory$$Lambda$278/235568325.run(Unknown Source)
+[02:11:19] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:11:19] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:11:20] [Paper Watchdog Thread/ERROR]: Current Thread: JDA RateLimit-Queue Pool - Thread 4
+[02:11:20] [Paper Watchdog Thread/ERROR]: 	PID: 117 | Suspended: false | Native: false | State: WAITING
+[02:11:21] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:11:21] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[02:11:23] [Server thread/INFO]: MiniTecno[98.29.147.129/98.29.147.129:50143] logged in with entity id 41588 at ([Survival]37751.70697059529, 70.33319999363422, 40331.62024560029)
+[02:11:23] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[02:11:23] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[02:11:30] [User Authenticator #7/INFO]: UUID of player MiniTecno is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[02:11:38] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[02:11:48] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[02:11:48] [Netty Server IO #0/WARN]: java.io.IOException: An established connection was aborted by the software in your host machine
+[02:11:54] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[02:11:55] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[02:11:55] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[02:11:57] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[02:11:58] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[02:11:58] [Paper Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.dependencies.jda.core.requests.RateLimiter$RateLimitThreadFactory.lambda$newThread$0(RateLimiter.java:129)
+[02:12:00] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[02:12:00] [Paper Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.dependencies.jda.core.requests.RateLimiter$RateLimitThreadFactory$$Lambda$278/235568325.run(Unknown Source)
+[02:12:00] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[02:12:01] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:12:02] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[02:12:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:12:04] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[02:12:05] [Paper Watchdog Thread/ERROR]: Current Thread: Timer-5
+[02:12:05] [Netty Server IO #0/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[02:12:07] [Paper Watchdog Thread/ERROR]: 	PID: 116 | Suspended: false | Native: false | State: TIMED_WAITING
+[02:12:07] [Netty Server IO #0/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[02:12:08] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:12:08] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+[02:12:08] [Paper Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[02:12:09] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[02:12:12] [Paper Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Unknown Source)
+[02:12:12] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[02:12:14] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[02:12:14] [Paper Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Unknown Source)
+[02:12:17] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[02:12:17] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:12:18] [Netty Server IO #0/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[02:12:20] [Paper Watchdog Thread/ERROR]: Current Thread: DiscordSRV - Channel Topic Updater
+[02:12:20] [Netty Server IO #0/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[02:12:26] [Paper Watchdog Thread/ERROR]: 	PID: 115 | Suspended: false | Native: false | State: TIMED_WAITING
+[02:12:27] [Server thread/INFO]: MiniTecno lost connection: Disconnected
+[02:12:31] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:12:36] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[02:13:05] [Paper Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.objects.threads.ChannelTopicUpdater.run(ChannelTopicUpdater.java:66)
+[02:13:24] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:13:51] [Paper Watchdog Thread/ERROR]: Current Thread: JDA RateLimit-Queue Pool - Thread 3
+[02:14:13] [Paper Watchdog Thread/ERROR]: 	PID: 113 | Suspended: false | Native: false | State: WAITING
+[02:14:13] [Netty Server IO #0/WARN]: java.io.IOException: An established connection was aborted by the software in your host machine
+[02:14:39] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[02:14:39] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:15:40] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[02:15:40] [Paper Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[02:15:40] [User Authenticator #8/INFO]: Disconnecting com.mojang.authlib.GameProfile@edf1909[id=<null>,name=MiniTecno,properties={},legacy=false] (98.29.147.129/98.29.147.129:50446): Authentication servers are down. Please try again later, sorry!
+[02:16:40] [User Authenticator #8/ERROR]: Couldn't verify username because servers are unavailable
+[02:16:44] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[02:16:44] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.park(Unknown Source)
+[02:18:05] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[02:18:40] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+[02:18:50] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[02:19:29] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[02:19:34] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[02:21:25] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+[02:21:28] [Netty Server IO #0/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[02:23:00] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+[02:23:02] [Netty Server IO #0/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[02:24:24] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:24:27] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[02:24:36] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+[02:26:26] [Paper Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[02:26:30] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[02:27:33] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[02:27:37] [Paper Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.dependencies.jda.core.requests.RateLimiter$RateLimitThreadFactory.lambda$newThread$0(RateLimiter.java:129)
+[02:27:38] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketException
+[02:28:57] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[02:29:46] [Paper Watchdog Thread/ERROR]: 		github.scarsz.discordsrv.dependencies.jda.core.requests.RateLimiter$RateLimitThreadFactory$$Lambda$278/235568325.run(Unknown Source)
+[02:30:07] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[02:30:36] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:30:47] [Netty Server IO #0/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[02:31:00] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[02:31:35] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketException
+[02:32:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[02:32:17] [Netty Server IO #0/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[02:33:17] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[02:34:44] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: javax.net.ssl.SSLHandshakeException
+[02:34:44] [Netty Server IO #2/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[02:34:46] [Paper Watchdog Thread/ERROR]: Current Thread: DiscordSRV - Console Message Queue Worker
+[02:36:44] [Netty Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[02:36:47] [Paper Watchdog Thread/ERROR]: 	PID: 112 | Suspended: false | Native: false | State: TIMED_WAITING
+[02:37:03] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)...
+[02:37:10] [Netty Server IO #0/WARN]: java.io.IOException: An established connection was aborted by the software in your host machine
+[02:37:32] [Paper Watchdog Thread/ERROR]: 	Stack:
+[02:38:24] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
