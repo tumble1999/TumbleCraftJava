@@ -490,8 +490,8 @@ npc:
         x: '37733.1939'
         y: '71.0'
         z: '40305.3395'
-        yaw: '56.20903015136719'
-        pitch: '-4.522919178009033'
+        yaw: '-4.207489013671875'
+        pitch: '0.0'
       gravity:
         enabled: false
       waypoints:
@@ -543,26 +543,26 @@ npc:
         '36':
           type: DIAMOND_BOOTS
           amount: 1
-          durability: 2
-          mdata: 2
+          durability: 0
+          mdata: 0
         '37':
           type: DIAMOND_LEGGINGS
           amount: 1
-          durability: 2
-          mdata: 2
+          durability: 0
+          mdata: 0
         '38':
           type: DIAMOND_CHESTPLATE
           amount: 1
-          durability: 2
-          mdata: 2
+          durability: 0
+          mdata: 0
         '39':
           type: DIAMOND_HELMET
           amount: 1
-          durability: 2
-          mdata: 2
+          durability: 0
+          mdata: 0
       sentinel:
-        stats_ticksSpawned: 32583
-        stats_timesSpawned: 5
+        stats_ticksSpawned: 32585
+        stats_timesSpawned: 6
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
