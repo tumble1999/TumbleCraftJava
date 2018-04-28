@@ -351,13 +351,15 @@ groups:
       prefix: '&4[Owner] &c'
     inheritance:
     - admin
+    permissions:
+    - nte.owner
   employer:
     options:
       prefix: '&c[Employer] '
     inheritance:
     - mod
     permissions:
-    - nte.Employer
+    - nte.employer
     - permissions.*
   builder-interview:
     options:
