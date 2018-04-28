@@ -145,9 +145,9 @@ groups:
   builder:
     options:
       prefix: '&6[Builder] &e'
-      rank: '60'
+      rank: '4'
       rank-ladder: Ranks
-      weight: '60'
+      weight: '4'
     inheritance:
     - vip
     permissions:
@@ -214,9 +214,9 @@ groups:
   vip:
     options:
       prefix: '&b[&aVIP&b] &r'
-      rank: '4'
+      rank: '5'
       rank-ladder: Ranks
-      weight: '4'
+      weight: '5'
     inheritance:
     - voter
     permissions:
@@ -265,9 +265,9 @@ groups:
     options:
       default: true
       prefix: '&7'
-      rank: '80'
+      rank: '7'
       rank-ladder: Ranks
-      weight: '80'
+      weight: '7'
     permissions:
     - plots.plot.1
     - chestcommands.open.server.yml
