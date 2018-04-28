@@ -1,10 +1,4 @@
 {
-  "minecraft:recipes/building_blocks/mossy_stonebrick": {
-    "criteria": {
-      "has_mossy_cobblestone": "2018-04-28 23:17:53 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2018-04-28 23:18:43 +0100"
@@ -17,9 +11,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/root": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "consumed_item": "2018-04-28 00:35:48 +0100"
+      "entered_water": "2018-04-28 23:22:27 +0100"
     },
     "done": true
   },
@@ -29,9 +23,81 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2018-04-28 23:17:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2018-04-28 23:11:44 +0100",
+      "bread": "2018-04-28 23:17:02 +0100",
+      "cooked_chicken": "2018-04-28 00:35:48 +0100",
+      "enchanted_golden_apple": "2018-04-28 23:20:39 +0100"
+    },
+    "done": false
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2018-04-28 23:25:13 +0100",
+      "beaches": "2018-04-28 23:21:52 +0100",
+      "plains": "2018-04-28 00:33:33 +0100",
+      "ocean": "2018-04-28 23:22:28 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/mossy_stonebrick": {
+    "criteria": {
+      "has_mossy_cobblestone": "2018-04-28 23:17:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2018-04-28 00:35:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2018-04-28 23:22:40 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2018-04-28 00:34:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2018-04-28 23:22:27 +0100"
     },
     "done": true
   },
@@ -68,36 +134,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2018-04-28 23:22:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_red_flower": "2018-04-28 23:24:34 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2018-04-28 23:18:43 +0100"
     },
     "done": true
   },
-  "minecraft:story/obtain_armor": {
-    "criteria": {
-      "iron_helmet": "2018-04-28 23:17:53 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "cooked_beef": "2018-04-28 23:11:44 +0100",
-      "bread": "2018-04-28 23:17:02 +0100",
-      "cooked_chicken": "2018-04-28 00:35:48 +0100",
-      "enchanted_golden_apple": "2018-04-28 23:20:39 +0100"
-    },
-    "done": false
-  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2018-04-28 23:18:43 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2018-04-28 23:18:43 +0100"
     },
     "done": true
   },
@@ -107,9 +164,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
+  "minecraft:recipes/transportation/boat": {
     "criteria": {
-      "has_cobblestone": "2018-04-28 23:18:43 +0100"
+      "entered_water": "2018-04-28 23:22:27 +0100"
     },
     "done": true
   },
@@ -119,22 +176,16 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/furnace": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "has_cobblestone": "2018-04-28 23:18:43 +0100"
+      "entered_water": "2018-04-28 23:22:27 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs": {
+  "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "has_cobblestone": "2018-04-28 23:18:43 +0100"
+      "entered_water": "2018-04-28 23:22:27 +0100"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "plains": "2018-04-28 00:33:33 +0100"
-    },
-    "done": false
   }
 }
