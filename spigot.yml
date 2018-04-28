@@ -15,13 +15,14 @@ settings:
   debug: false
   save-user-cache-on-stop-only: false
   sample-count: 12
-  bungeecord: false
+  int-cache-limit: 1024
   late-bind: true
-  user-cache-size: 1000
-  item-dirty-ticks: 20
+  player-shuffle: 0
   timeout-time: 60
   restart-on-crash: true
   restart-script: START.bat
+  user-cache-size: 1000
+  netty-threads: 4
   attribute:
     maxHealth:
       max: 2048.0
@@ -29,12 +30,11 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  netty-threads: 4
-  player-shuffle: 0
-  int-cache-limit: 1024
+  bungeecord: false
+  item-dirty-ticks: 20
+  moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   filter-creative-items: true
-  moved-wrongly-threshold: 0.0625
 messages:
   whitelist: |
     &c[&eTumbleCraft&c]
@@ -84,7 +84,6 @@ messages:
     &7Website: &b&nhttp://tumblecraft.tumblenet.ga
 commands:
   tab-complete: 0
-  log: true
   spam-exclusions:
   - /skill
   replace-commands:
@@ -92,6 +91,7 @@ commands:
   - summon
   - testforblock
   - tellraw
+  log: true
   silent-commandblock-console: false
 stats:
   disable-saving: false
@@ -103,39 +103,17 @@ advancements:
 world-settings:
   default:
     verbose: true
-    enable-zombie-pigmen-portal-spawns: true
-    merge-radius:
-      exp: 6.0
-      item: 3.5
-    item-despawn-rate: 6000
-    view-distance: 4
-    arrow-despawn-rate: 1200
     nerf-spawner-mobs: false
-    hanging-tick-frequency: 100
+    item-despawn-rate: 6000
+    merge-radius:
+      item: 3.5
+      exp: 6.0
+    view-distance: 4
+    enable-zombie-pigmen-portal-spawns: true
+    arrow-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
     wither-spawn-sound-radius: 0
-    mob-spawn-range: 3
-    hunger:
-      jump-walk-exhaustion: 0.05
-      jump-sprint-exhaustion: 0.2
-      combat-exhaustion: 0.1
-      regen-exhaustion: 6.0
-      swim-multiplier: 0.01
-      sprint-multiplier: 0.1
-      other-multiplier: 0.0
-    max-tick-time:
-      tile: 50
-      entity: 50
-    save-structure-info: true
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
-    squid-spawn-range:
-      min: 45.0
-    max-tnt-per-tick: 100
+    hanging-tick-frequency: 100
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -147,16 +125,38 @@ world-settings:
       netherwart-modifier: 100
       vine-modifier: 100
       cocoa-modifier: 100
+    random-light-updates: false
+    squid-spawn-range:
+      min: 45.0
+    mob-spawn-range: 3
+    max-tick-time:
+      tile: 50
+      entity: 50
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    ticks-per:
+      hopper-transfer: 24
+      hopper-check: 24
+    hopper-amount: 3
     entity-activation-range:
       animals: 6
       monsters: 16
       misc: 2
       tick-inactive-villagers: true
-    random-light-updates: false
-    ticks-per:
-      hopper-transfer: 24
-      hopper-check: 24
-    hopper-amount: 3
+    save-structure-info: true
+    max-tnt-per-tick: 100
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
     dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-feature: 14357617
