@@ -1,20 +1,31 @@
 {
-  "minecraft:recipes/decorations/torch": {
+  "minecraft:recipes/building_blocks/mossy_stonebrick": {
     "criteria": {
-      "has_stone_pickaxe": "2018-04-28 00:33:32 +0100"
+      "has_mossy_cobblestone": "2018-04-28 23:17:53 +0100"
     },
     "done": true
   },
-  "minecraft:husbandry/balanced_diet": {
+  "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
-      "cooked_beef": "2018-04-28 23:11:44 +0100",
-      "cooked_chicken": "2018-04-28 00:35:48 +0100"
+      "has_cobblestone": "2018-04-28 23:18:43 +0100"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
   },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2018-04-28 00:35:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2018-04-28 23:18:43 +0100"
     },
     "done": true
   },
@@ -24,15 +35,99 @@
     },
     "done": true
   },
-  "minecraft:adventure/root": {
+  "minecraft:story/shiny_gear": {
     "criteria": {
-      "killed_by_something": "2018-04-28 00:36:43 +0100"
+      "diamond_leggings": "2018-04-28 23:20:37 +0100",
+      "diamond_helmet": "2018-04-28 23:20:37 +0100",
+      "diamond_chestplate": "2018-04-28 23:20:37 +0100",
+      "diamond_boots": "2018-04-28 23:20:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2018-04-28 23:18:43 +0100"
     },
     "done": true
   },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2018-04-28 00:33:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2018-04-28 00:33:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2018-04-28 23:17:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2018-04-28 23:11:44 +0100",
+      "bread": "2018-04-28 23:17:02 +0100",
+      "cooked_chicken": "2018-04-28 00:35:48 +0100",
+      "enchanted_golden_apple": "2018-04-28 23:20:39 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2018-04-28 00:36:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2018-04-28 23:17:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2018-04-28 23:18:43 +0100"
     },
     "done": true
   },
