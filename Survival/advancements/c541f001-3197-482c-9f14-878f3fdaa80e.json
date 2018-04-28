@@ -45,8 +45,10 @@
     "criteria": {
       "forest": "2018-04-28 23:25:13 +0100",
       "beaches": "2018-04-28 23:21:52 +0100",
+      "extreme_hills_with_trees": "2018-04-29 00:39:32 +0100",
       "plains": "2018-04-28 00:33:33 +0100",
-      "ocean": "2018-04-28 23:22:28 +0100"
+      "ocean": "2018-04-28 23:22:28 +0100",
+      "extreme_hills": "2018-04-29 00:39:00 +0100"
     },
     "done": false
   },
@@ -206,6 +208,12 @@
   "minecraft:recipes/redstone/wooden_button": {
     "criteria": {
       "has_planks": "2018-04-28 23:29:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2018-04-29 00:35:38 +0100"
     },
     "done": true
   },
