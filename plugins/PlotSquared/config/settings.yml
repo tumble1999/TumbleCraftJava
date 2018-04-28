@@ -1,9 +1,9 @@
 # These first 4 aren't configurable
 issues: "https://github.com/IntellectualSites/PlotSquared/issues"
 wiki: "https://github.com/IntellectualSites/PlotSquared/wiki"
-date: "14 May 2018 23:00:00 GMT"
-build: "https://ci.athion.net/job/PlotSquared/1979"
-commit: "https://github.com/IntellectualSites/PlotSquared/commit/9fe1e53"
+date: "26 May 2018 23:00:00 GMT"
+build: "https://ci.athion.net/job/PlotSquared/1981"
+commit: "https://github.com/IntellectualSites/PlotSquared/commit/5f9bd85"
 platform: "Bukkit"
 # Show additional information in console
 debug: true
@@ -47,6 +47,8 @@ enabled-components:
   chunk-processor: false
   # Kill mobs on roads
   kill-road-mobs: false
+  # Kill items on roads
+  kill-road-items: false
   # Kill vehicles on roads
   kill-road-vehicles: false
   # Notify a player of any missed comments upon plot entry
