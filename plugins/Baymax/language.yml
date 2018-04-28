@@ -1,0 +1,34 @@
+commands:
+    player-not-connected: "Seems like something's wrong ... Oh that player isn't connected !"
+
+packets:
+    # {0} -> number of packets
+    packets-sent: "He sent {0} packets in the last 10 seconds "
+
+warnings:
+    # {0} -> Player Name
+    # {1} -> Hack name
+    warning: "&e{0} &7 is suspected of using &c{1}&7. "
+    # {0} -> Percentage
+    sure: "&7I am &6{0} &7sure. "
+    image:
+        # %s -> url of the uploaded image
+        uploaded: "You may want to check this graphic log : {0} . "
+        not-uploaded: "Check the graphic log in the \"graphics\" folder for more information. "
+    # {0} -> ID of the replay
+    replay:
+        saved: "Type /replay {0} to watch the replay. "
+        unavailable: "Replay is unavailable. "
+
+replay:
+    loading: "&eLoading replay..."
+    generating: "&eGenerating replay terrain..."
+    loading-entities: "&eLoading entities..."
+    start: "&aReplaying !"
+    cancelled: "&cCancelled replay."
+    finished: "&cReplay finished."
+    non-existent:  "&cInvalid replay ID."
+
+# {0} -> Reason
+kick: "&m&r===================================\n\n&rYou''ve been kicked by &b&lBaymax\n&rReason &b» &c&n {0} \n\n&m&r==================================="
+
