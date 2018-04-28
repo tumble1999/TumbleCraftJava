@@ -1,10 +1,10 @@
 # This is the commands configuration file for Bukkit.
 # For documentation on how to make use of this file, check out the Bukkit Wiki at
 # http://wiki.bukkit.org/Commands.yml
-# 
+#
 # If you need help on this file, feel free to join us on irc or leave a message
 # on the forums asking for advice.
-# 
+#
 # IRC: #spigot @ irc.spi.gt
 #    (If this means nothing to you, just go to http://www.spigotmc.org/pages/irc/ )
 # Forums: http://www.spigotmc.org/
@@ -15,3 +15,35 @@ unrestricted-advancements: false
 aliases:
   icanhasbukkit:
   - version $1-
+  promote:
+  - pex promote $$1 Ranks
+  demote:
+  - pex demote $$1 Ranks
+  rank:
+  - pex user $$1 group set $$2
+  helper:
+  - pex user $$1 group set helper
+  builder:
+  - pex user $$1 group set builder
+  mod:
+  - pex user $$1 group set mod
+  admin:
+  - pex user $$1 group set admin
+  owner:
+  - pex user $$1 group set owner
+  unrank:
+  - pex user $$1 group set member
+  tmprank:
+  - pex user $$1 group add $$2 "" $$3
+  ranks:
+  - einfo ranks $1
+  allranks:
+  - einfo allranks $1
+  shop:
+  - warp shop $1
+  notwork:
+  - mail send TumbleGamer This isnt working; $$1-
+  apply:
+  - einfo apply
+  tp:
+  - einfo tp
