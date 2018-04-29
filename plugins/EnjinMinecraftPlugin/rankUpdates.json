@@ -1,3 +1,44 @@
 {
-  "playerPerms": {}
+  "playerPerms": {
+    "BeaverGaming": {
+      "uuid": "a72cf72e-dfef-4925-aae1-aece104e39c0",
+      "worlds": {
+        "*": [
+          "member"
+        ],
+        "Creative": [
+          "member"
+        ],
+        "Survival": [
+          "member"
+        ],
+        "Staff": [
+          "member"
+        ],
+        "DrCraft": [
+          "member"
+        ]
+      }
+    },
+    "MineRacer_8": {
+      "uuid": "c541f001-3197-482c-9f14-878f3fdaa80e",
+      "worlds": {
+        "*": [
+          "helper"
+        ],
+        "Creative": [
+          "helper"
+        ],
+        "Survival": [
+          "helper"
+        ],
+        "Staff": [
+          "helper"
+        ],
+        "DrCraft": [
+          "helper"
+        ]
+      }
+    }
+  }
 }
