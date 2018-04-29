@@ -71,8 +71,10 @@
       "beaches": "2018-04-28 23:21:52 +0100",
       "extreme_hills_with_trees": "2018-04-29 00:39:32 +0100",
       "plains": "2018-04-28 00:33:33 +0100",
+      "taiga": "2018-04-29 18:32:56 +0100",
       "ocean": "2018-04-28 23:22:28 +0100",
-      "extreme_hills": "2018-04-29 00:39:00 +0100"
+      "extreme_hills": "2018-04-29 00:39:00 +0100",
+      "river": "2018-04-29 18:32:49 +0100"
     },
     "done": false
   },
@@ -280,6 +282,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "zombie_villager": "2018-04-29 15:56:39 +0100",
+      "skeleton": "2018-04-29 18:34:18 +0100",
       "zombie": "2018-04-29 01:07:14 +0100"
     },
     "done": false
@@ -326,6 +329,12 @@
   "minecraft:recipes/building_blocks/chiseled_quartz_block": {
     "criteria": {
       "has_quartz_block": "2018-04-28 23:36:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2018-04-29 18:34:19 +0100"
     },
     "done": true
   },
