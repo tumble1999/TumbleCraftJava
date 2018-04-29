@@ -120,7 +120,8 @@ groups:
     - ab.kick.use
     - ab.ban.notify
     - ab.kick.notify
-    - ab.ipban.notify 
+    - ab.ipban.notify
+    - ab.tempipban.notify
     worlds:
       Survival:
         permissions:
