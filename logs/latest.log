@@ -1996,3 +1996,413 @@ com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. 
 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:51:47] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception number 1024 occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:52:38] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception number 2048 occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:53:37] [Server thread/INFO]: EmmaPowee issued server command: /npc create Sqashey Quack
+[10:53:38] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[10:54:30] [Server thread/INFO]: EmmaPowee issued server command: /npc rename SqasheyQuack
+[10:54:45] [Server thread/INFO]: EmmaPowee issued server command: /mpc remove
+[10:55:06] [Server thread/INFO]: EmmaPowee issued server command: /npc remove
+[10:55:43] [Server thread/INFO]: EmmaPowee issued server command: /npc create stampylongnose
+[10:56:39] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[10:57:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[10:57:48] [Server thread/INFO]: EmmaPowee issued server command: /npc create BillasticSqiud
+[10:57:54] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[10:58:14] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[10:58:36] [Server thread/INFO]: EmmaPowee issued server command: /npc rename BilasticSquid
+[10:59:02] [Server thread/INFO]: EmmaPowee issued server command: /npc remove
+[10:59:35] [User Authenticator #2/INFO]: UUID of player Frank_TonyLani is 389727af-149f-46c0-891e-eb50210b99ae
+[10:59:35] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to Baymax vAlpha-101
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:255) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: com.comphenix.protocol.reflect.FieldAccessException: No field with type int exists in class PacketPlayOutKeepAlive.
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:348) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[?:?]
+	at eu.gurudev.baymax.j.q.a(q.java:36) ~[?:?]
+	at eu.gurudev.baymax.g.a.a(a.java:24) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor578.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 15 more
+[10:59:35] [Server thread/INFO]: Frank_TonyLani[110.138.149.139/110.138.149.139:55761] logged in with entity id 2610 at ([Survival]127.7683762299153, 70.0, 519.6432897647273)
+[10:59:35] [Server thread/INFO]: +Frank_TonyLani
+[10:59:39] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[10:59:41] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception number 4096 occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:59:46] [Server thread/WARN]: Frank_TonyLani moved wrongly!
+[11:00:14] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN -> log once id=-435353577
+[11:00:14] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] [java.lang.Thread.getStackTrace(Unknown Source), fr.neatmonster.nocheatplus.utilities.CheckUtils.improperAPIAccess(CheckUtils.java:55), fr.neatmonster.nocheatplus.utilities.CheckUtils.hasBypass(CheckUtils.java:194), fr.neatmonster.nocheatplus.utilities.CheckUtils.hasBypass(CheckUtils.java:155), fr.neatmonster.nocheatplus.checks.Check.isEnabled(Check.java:221), fr.neatmonster.nocheatplus.checks.inventory.Open.check(Open.java:65), fr.neatmonster.nocheatplus.checks.inventory.InventoryListener.onPlayerTeleport(InventoryListener.java:472), com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor402.execute(Unknown Source), org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70), co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74), org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62), org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515), org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500), org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer.teleport(CraftPlayer.java:623), org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity.teleport(CraftEntity.java:303), npnp.cT.onPacketReceiving(cT.java:81), com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114), com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67), com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590), com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557), com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352), com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317), com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531), io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489), io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428), io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310), io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310), io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297), io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413), io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945), io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141), io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645), io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580), io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497), io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886), java.lang.Thread.run(Unknown Source)]
+[11:00:14] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN -> log once id=-928399120
+[11:00:14] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] [java.lang.Thread.getStackTrace(Unknown Source), fr.neatmonster.nocheatplus.utilities.CheckUtils.improperAPIAccess(CheckUtils.java:55), fr.neatmonster.nocheatplus.utilities.CheckUtils.hasBypass(CheckUtils.java:194), fr.neatmonster.nocheatplus.utilities.CheckUtils.hasBypass(CheckUtils.java:155), fr.neatmonster.nocheatplus.checks.Check.isEnabled(Check.java:221), fr.neatmonster.nocheatplus.checks.inventory.Open.check(Open.java:65), fr.neatmonster.nocheatplus.checks.inventory.InventoryListener.onPlayerTeleport(InventoryListener.java:472), com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor402.execute(Unknown Source), org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70), co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74), org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62), org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515), org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500), org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer.teleport(CraftPlayer.java:623), org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity.teleport(CraftEntity.java:303), npnp.cT.onPacketReceiving(cT.java:81), com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114), com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67), com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590), com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557), com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352), com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317), com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531), io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489), io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428), io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310), io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310), io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945), io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141), io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645), io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580), io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497), io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886), java.lang.Thread.run(Unknown Source)]
+[11:00:14] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:14] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:14] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:14] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:14] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:15] [Craft Scheduler Thread - 48/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:15] [Craft Scheduler Thread - 48/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:15] [Craft Scheduler Thread - 48/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:15] [Craft Scheduler Thread - 48/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN -> log once id=-2054059405
+[11:00:15] [Craft Scheduler Thread - 48/ERROR]: [NoCheatPlus] [java.lang.Thread.getStackTrace(Unknown Source), fr.neatmonster.nocheatplus.utilities.CheckUtils.improperAPIAccess(CheckUtils.java:55), fr.neatmonster.nocheatplus.utilities.CheckUtils.hasBypass(CheckUtils.java:194), fr.neatmonster.nocheatplus.utilities.CheckUtils.hasBypass(CheckUtils.java:155), fr.neatmonster.nocheatplus.checks.Check.isEnabled(Check.java:221), fr.neatmonster.nocheatplus.checks.inventory.Open.check(Open.java:65), fr.neatmonster.nocheatplus.checks.inventory.InventoryListener.onPlayerTeleport(InventoryListener.java:472), com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor402.execute(Unknown Source), org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70), co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74), org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62), org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515), org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500), org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer.teleport(CraftPlayer.java:623), org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity.teleport(CraftEntity.java:303), npnp.cT.onPacketReceiving(cT.java:111), com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114), com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67), com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590), com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557), com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352), com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317), com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531), io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489), io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428), io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310), io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310), io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945), io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141), io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645), io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580), io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497), io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886), java.lang.Thread.run(Unknown Source)]
+[11:00:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:28] [Craft Scheduler Thread - 48/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:29] [Craft Scheduler Thread - 48/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:29] [Craft Scheduler Thread - 48/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:29] [Craft Scheduler Thread - 48/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:29] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:29] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:29] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:29] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:29] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:29] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:29] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:29] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:29] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:30] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:31] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:31] [Netty Server IO #0/INFO]: PAC: Frank_TonyLani failed MorePackets check [VL: 1] [Ping: 198] [Info: sent 24 movement packets]
+[11:00:31] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:31] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN -> log once id=-1969019682
+[11:00:31] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] [java.lang.Thread.getStackTrace(Unknown Source), fr.neatmonster.nocheatplus.utilities.CheckUtils.improperAPIAccess(CheckUtils.java:55), fr.neatmonster.nocheatplus.utilities.CheckUtils.hasBypass(CheckUtils.java:194), fr.neatmonster.nocheatplus.utilities.CheckUtils.hasBypass(CheckUtils.java:155), fr.neatmonster.nocheatplus.checks.Check.isEnabled(Check.java:221), fr.neatmonster.nocheatplus.checks.inventory.Open.check(Open.java:65), fr.neatmonster.nocheatplus.checks.inventory.InventoryListener.onPlayerTeleport(InventoryListener.java:472), com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor402.execute(Unknown Source), org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70), co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:74), org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62), org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515), org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500), org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer.teleport(CraftPlayer.java:623), org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity.teleport(CraftEntity.java:303), npnp.cT.onPacketReceiving(cT.java:111), com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114), com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67), com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590), com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557), com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352), com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317), com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531), io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489), io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428), io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310), io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310), io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297), io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413), io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340), io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362), io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348), io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945), io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141), io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645), io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580), io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497), io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886), java.lang.Thread.run(Unknown Source)]
+[11:00:31] [Craft Scheduler Thread - 10/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:32] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:35] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:35] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:35] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:35] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:35] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:35] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:35] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:35] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:36] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:36] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:36] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:36] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:37] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:37] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:37] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:37] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:37] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:38] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:38] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:38] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:38] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:38] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:38] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:38] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:38] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:45] [Craft Scheduler Thread - 48/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:45] [Craft Scheduler Thread - 48/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:45] [Craft Scheduler Thread - 48/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:45] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:45] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:45] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:46] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:46] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:46] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:46] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:46] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:46] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:47] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:49] [Server thread/INFO]: Frank_TonyLani issued server command: /hub
+[11:00:52] [Server thread/INFO]: Frank_TonyLani issued server command: /spawn
+[11:00:55] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:55] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:55] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:00:55] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:55] [Craft Scheduler Thread - 53/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:55] [Craft Scheduler Thread - 48/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:00:58] [Server thread/INFO]: EmmaPowee issued server command: /npc create LforLeeeee
+[11:01:08] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:01:08] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:08] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:08] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:08] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:10] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:01:10] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:01:10] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:01:10] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:10] [Craft Scheduler Thread - 52/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:27] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:01:27] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:27] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:27] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:28] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:28] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:01:28] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:01:28] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:28] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:29] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:29] [Craft Scheduler Thread - 50/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:29] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:01:29] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-435353577
+[11:01:29] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:29] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:29] [Craft Scheduler Thread - 51/ERROR]: [NoCheatPlus] Off primary thread call to hasByPass for INVENTORY_OPEN See earlier in this log, search for -> log once id=-928399120
+[11:01:34] [Server thread/INFO]: Frank_TonyLani lost connection: Disconnected
+[11:01:35] [Server thread/INFO]: -Frank_TonyLani
+[11:01:44] [Server thread/INFO]: EmmaPowee issued server command: /npc rename LforLeeee
+[11:02:14] [Server thread/INFO]: EmmaPowee issued server command: /npc remove
+[11:02:40] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[11:03:02] [Server thread/INFO]: EmmaPowee issued server command: /npc create AmyLee33
+[11:04:00] [Server thread/INFO]: EmmaPowee issued server command: /npc create TumbleGammer
+[11:04:42] [Server thread/INFO]: EmmaPowee issued server command: /ncp remove
+[11:04:55] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:04:57] [Server thread/INFO]: EmmaPowee issued server command: /npc remove
+[11:05:14] [Server thread/INFO]: EmmaPowee issued server command: /npc remove
+[11:05:35] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:05:37] [Server thread/INFO]: EmmaPowee issued server command: /npc remove
+[11:05:55] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:06:41] [Server thread/INFO]: EmmaPowee issued server command: /npc rename AmyLeethirty3
+[11:07:16] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception number 8192 occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:08:18] [Server thread/INFO]: EmmaPowee issued server command: /npc remove AmyLee33
+[11:08:41] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[11:08:45] [Server thread/INFO]: EmmaPowee issued server command: /npc remove stampylongnose
+[11:11:41] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[11:12:36] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
