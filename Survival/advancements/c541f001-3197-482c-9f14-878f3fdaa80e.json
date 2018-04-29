@@ -1,7 +1,19 @@
 {
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2018-04-29 01:10:27 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2018-04-29 01:07:14 +0100"
     },
     "done": true
   },
@@ -23,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2018-04-29 01:08:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2018-04-28 23:18:43 +0100"
@@ -32,6 +50,12 @@
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2018-04-29 01:10:27 +0100"
     },
     "done": true
   },
@@ -73,6 +97,12 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2018-04-28 00:35:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stonebrick": "2018-04-29 01:07:54 +0100"
     },
     "done": true
   },
@@ -181,6 +211,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2018-04-29 01:10:27 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "entered_water": "2018-04-28 23:22:27 +0100"
@@ -211,6 +247,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2018-04-29 01:10:27 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2018-04-29 00:35:38 +0100"
@@ -228,6 +270,12 @@
       "entered_water": "2018-04-28 23:22:27 +0100"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "zombie": "2018-04-29 01:07:14 +0100"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/fence": {
     "criteria": {
@@ -313,6 +361,24 @@
   "minecraft:recipes/decorations/mossy_cobblestone_wall": {
     "criteria": {
       "has_mossy_cobblestone": "2018-04-28 23:17:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stonebrick": {
+    "criteria": {
+      "has_stonebrick": "2018-04-29 01:07:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stonebrick": "2018-04-29 01:07:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2018-04-29 01:10:27 +0100"
     },
     "done": true
   }
