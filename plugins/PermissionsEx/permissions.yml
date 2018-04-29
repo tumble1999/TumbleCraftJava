@@ -101,9 +101,14 @@ groups:
     - sv.use
     - essentials.tpohere
     - essentials.tpo
-    - ab.help
+    - bukkit.command.*
+    - nte.helper
+    - griefprevention.admin.chat.*
+    - griefprevention.admin.chat.eavesdrop
+    - ab.warns.own
+    - ab.check
     - ab.history
-    - ab.banlist
+    - ab.help
     - ab.tmpmute.notify
     - ab.tmpmute.use
     - ab.tmpban.notify
@@ -112,14 +117,6 @@ groups:
     - ab.warn.use
     - ab.kick.notify
     - ab.kick.use
-    - bukkit.command.*
-    - nte.helper
-    - griefprevention.admin.chat.*
-    - griefprevention.admin.chat.eavesdrop
-    - ab.check
-    - ab.check
-    - ab.history
-    - ab.help
     worlds:
       Survival:
         permissions:
