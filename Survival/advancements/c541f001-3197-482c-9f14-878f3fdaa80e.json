@@ -1,4 +1,22 @@
 {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2018-04-29 21:48:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2018-04-29 21:48:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_string": "2018-04-29 21:48:46 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2018-04-29 21:37:03 +0100"
@@ -50,6 +68,12 @@
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2018-04-29 21:47:01 +0100"
     },
     "done": true
   },
@@ -289,7 +313,9 @@
     "criteria": {
       "zombie_villager": "2018-04-29 15:56:39 +0100",
       "skeleton": "2018-04-29 18:34:18 +0100",
-      "zombie": "2018-04-29 01:07:14 +0100"
+      "zombie": "2018-04-29 01:07:14 +0100",
+      "spider": "2018-04-29 21:48:45 +0100",
+      "creeper": "2018-04-29 21:49:37 +0100"
     },
     "done": false
   },
@@ -329,6 +355,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_cobblestone": "2018-04-28 23:18:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2018-04-29 21:48:46 +0100"
     },
     "done": true
   },
