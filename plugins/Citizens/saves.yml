@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 90
+last-created-npc-id: 92
 npc:
   '0':
     metadata:
@@ -27,7 +27,7 @@ npc:
         x: '112.5'
         y: '70.5'
         z: '544.5'
-        yaw: '-99.35189819335938'
+        yaw: '135.9285888671875'
         pitch: '0.0'
       type: PLAYER
       spawned: true
@@ -339,7 +339,7 @@ npc:
         x: '128.5'
         y: '70.5'
         z: '528.5'
-        yaw: '11.187431335449219'
+        yaw: '-147.09991455078125'
         pitch: '0.0'
       spawned: true
       owner:
@@ -1033,3 +1033,61 @@ npc:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: false
+  '92':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ5OTU3NDg0OTcsInByb2ZpbGVJZCI6ImE2YjE0NjUxZWVhNjQzYWE5MDBmZGY2MTlkNGIwMmRhIiwicHJvZmlsZU5hbWUiOiJzdGFtcHlsb25nbm9zZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4NDYzYmU4MDIyM2FkNjExMWNkNWZhOGY5ZDA5NGUxYjdkZDEwZDZlMjVkYjE0NzRlNTRiZDE1NGM1MmY4In19fQ==
+      cached-skin-uuid-name: stampylongnose
+      cached-skin-uuid: a6b14651-eea6-43aa-900f-df619d4b02da
+      player-skin-signature: u1xPnVN2Vhofs0kN0ZLZ+F1eXtZjuiLF3woIwIetCfw4FfBLei8ai0YmKYE8O22DtGgwFScSRWOVyPoXzs1aGRGtErt1IVWHP0qs1Txmmxper95jKQOhG6Akggq3Tu8Vz8k74MDENB/jg7j6JCYKdtV/rcBVzg2nCGiorY4As241vR0D+Trt+OjvzYGbYThzQsK3XHhWjJeYS6izNH7iArsNSdkeS2amX3SOCwpBL/rYvbqWcY+qGrUQ6pvTeNss7Bwu/bUBFcvxvUKhOtsm/hPWBQx9ac9/wD5+avCTd43C+M0r3U1H30of+TBRq9YvnS1XwPoB7m4DnqxVUx1qB1anCqcTnQb/sV8JBkdNjEywV7gpcK3KUu2PeHK3EZ4N7L90t3uEiJ4OE4+XKj+7eePEcNBI27382b/jUSGX8TLwqw0X6EblRihtMFoeLMVv2YdnxiAFq78I67eV5Q4R07VS4dNLxIa63x5FOatVwBMDjcxD8uqDh2uJCfvWMME/15mH7XNsNxMUW+I9xjP1TxSZOZEcnzESMNP7wflh2BofLMjjMf5g+1oAcBiFwlujwIVTz6xPyED0rGBKeerrqiNbYuwuA69kRUEIqAXffVu2JyTqlTwgQnEFzEnDzX+bQLzYdb9bZa+Hxv8n3MuVqW6mZFSmj+iK80ueUJd1O5o=
+    name: stampylongnose
+    uuid: 4f70bbdb-2fef-4bab-81d4-24a3bd2e70df
+    traits:
+      gravity:
+        enabled: false
+      type: PLAYER
+      location:
+        world: Creative
+        x: '-18.8637'
+        y: '65.0'
+        z: '40.3775'
+        yaw: '152.78369140625'
+        pitch: '0.0'
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+    traitnames: gravity,type,location,spawned,lookclose,mounttrait,inventory,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '91':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ5OTU3NDg0OTcsInByb2ZpbGVJZCI6ImE2YjE0NjUxZWVhNjQzYWE5MDBmZGY2MTlkNGIwMmRhIiwicHJvZmlsZU5hbWUiOiJzdGFtcHlsb25nbm9zZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4NDYzYmU4MDIyM2FkNjExMWNkNWZhOGY5ZDA5NGUxYjdkZDEwZDZlMjVkYjE0NzRlNTRiZDE1NGM1MmY4In19fQ==
+      cached-skin-uuid-name: stampylongnose
+      cached-skin-uuid: a6b14651-eea6-43aa-900f-df619d4b02da
+      player-skin-signature: u1xPnVN2Vhofs0kN0ZLZ+F1eXtZjuiLF3woIwIetCfw4FfBLei8ai0YmKYE8O22DtGgwFScSRWOVyPoXzs1aGRGtErt1IVWHP0qs1Txmmxper95jKQOhG6Akggq3Tu8Vz8k74MDENB/jg7j6JCYKdtV/rcBVzg2nCGiorY4As241vR0D+Trt+OjvzYGbYThzQsK3XHhWjJeYS6izNH7iArsNSdkeS2amX3SOCwpBL/rYvbqWcY+qGrUQ6pvTeNss7Bwu/bUBFcvxvUKhOtsm/hPWBQx9ac9/wD5+avCTd43C+M0r3U1H30of+TBRq9YvnS1XwPoB7m4DnqxVUx1qB1anCqcTnQb/sV8JBkdNjEywV7gpcK3KUu2PeHK3EZ4N7L90t3uEiJ4OE4+XKj+7eePEcNBI27382b/jUSGX8TLwqw0X6EblRihtMFoeLMVv2YdnxiAFq78I67eV5Q4R07VS4dNLxIa63x5FOatVwBMDjcxD8uqDh2uJCfvWMME/15mH7XNsNxMUW+I9xjP1TxSZOZEcnzESMNP7wflh2BofLMjjMf5g+1oAcBiFwlujwIVTz6xPyED0rGBKeerrqiNbYuwuA69kRUEIqAXffVu2JyTqlTwgQnEFzEnDzX+bQLzYdb9bZa+Hxv8n3MuVqW6mZFSmj+iK80ueUJd1O5o=
+    name: stampylongnose
+    uuid: 96620023-5641-41bc-a843-a3ca07c15f2e
+    traits:
+      gravity:
+        enabled: false
+      type: PLAYER
+      location:
+        world: Survival
+        x: '90.5216'
+        y: '71.0'
+        z: '520.6668'
+        yaw: '-93.86274719238281'
+        pitch: '0.0'
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+    traitnames: gravity,type,location,spawned,lookclose,mounttrait,inventory,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
