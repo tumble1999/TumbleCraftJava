@@ -46,10 +46,6 @@ groups:
       weight: '2'
     permissions:
     - essentials.nick.color
-    - essentials.ban
-    - essentials.ban.notify
-    - essentials.ban.offline
-    - essentials.banip
     - essentials.broadcast
     - essentials.burn
     - essentials.clearinventory.others
@@ -59,10 +55,6 @@ groups:
     - essentials.ext
     - essentials.invsee
     - essentials.jails
-    - essentials.kick
-    - essentials.kick.notify
-    - essentials.kickall
-    - essentials.kill
     - essentials.lightning
     - essentials.lightning.others
     - essentials.mute
