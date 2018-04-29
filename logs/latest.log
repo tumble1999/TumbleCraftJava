@@ -1,0 +1,1842 @@
+[10:49:49] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[10:49:49] [Server thread/INFO]: Loading properties
+[10:49:49] [Server thread/INFO]: Default game type: SURVIVAL
+[10:49:49] [Server thread/INFO]: This server is running Paper version git-Paper-1383 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[10:49:49] [Server thread/INFO]: Debug logging is disabled
+[10:49:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:49:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:49:49] [Server thread/INFO]: Generating keypair
+[10:49:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:49:52] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[10:49:53] [Server thread/INFO]: [github.scarsz.discordsrv.dependencies.reflections.Reflections] Reflections took 429 ms to scan 14 urls, producing 13 keys and 21 values 
+[10:49:53] [Server thread/INFO]: [Wild] Loading Wild v3.13.1
+[10:49:53] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.7
+[10:49:53] [Server thread/INFO]: [TumbleCraftAdminSummon] Loading TumbleCraftAdminSummon v1.0
+[10:49:53] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.4
+[10:49:53] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.1.4-RELEASE
+[10:49:53] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.2.0
+[10:49:53] [Server thread/INFO]: [Votifier] [Votifier] Loading Votifier v1.9
+[10:49:53] [Server thread/INFO]: [Friends3_0] Loading Friends3_0 v3.0.2.5
+[10:49:53] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v18.04.27-2ec9a92-1089-19.5.23
+[10:49:53] [Server thread/INFO]: [iDisguise] Loading iDisguise v5.6.4
+[10:49:53] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[10:49:54] [Server thread/INFO]: [PlayerNameSigns] Loading PlayerNameSigns v1.0
+[10:49:54] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
+[10:49:54] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, waiting for boot. (late-bind)
+[10:49:54] [Server thread/INFO]: [Hats] Loading Hats v1.6
+[10:49:54] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[10:49:54] [Server thread/INFO]: [Announcements] Loading Announcements v1.0
+[10:49:54] [Server thread/INFO]: [StaffPlus] Loading StaffPlus v3.2.2
+[10:49:54] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v2.3.1
+[10:49:54] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.3.5
+[10:49:54] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[10:49:54] [Server thread/INFO]: [Essentials] Loading Essentials v2.15.0.1
+[10:49:54] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v1.11.5
+[10:49:54] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v18.04.28-154bad6-1983
+[10:49:54] [Server thread/INFO]: [Marriage] Loading Marriage v2.0.17
+[10:49:54] [Server thread/INFO]: [Marriage] Completed plugin pre-load stage.
+[10:49:54] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
+[10:49:54] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.3.0
+[10:49:54] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.12.2) has not yet been tested! Proceed with caution.
+[10:49:54] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.1;84bc322
+[10:49:54] [Server thread/INFO]: [NoCheatPlus] Loading NoCheatPlus v3.16.0-RC-sMD5NET-b1134
+[10:49:54] [Server thread/INFO]: [NoCheatPlus] onLoad: Early set up of static API, configuration, logging.
+[10:49:55] [Server thread/INFO]: [NoCheatPlus] Logging system initialized.
+[10:49:55] [Server thread/INFO]: [NoCheatPlus] Detected Minecraft version: 1.12.2
+[10:49:55] [Server thread/INFO]: [Vote] Loading Vote v2.0.1
+[10:49:55] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.22-SNAPSHOT (build 1537)
+[10:49:55] [Server thread/INFO]: [Sentinel] Loading Sentinel v1.4.5 (build 155)
+[10:49:55] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+[10:49:55] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.16.1
+[10:49:55] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.15.0.1
+[10:49:55] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.15.0.1
+[10:49:56] [Server thread/INFO]: [INFO] [TrollCommands++] Enabling support for iDisguise.
+[10:49:56] [Server thread/INFO]: [INFO] [TrollCommands++] Enabling support for ProtocolLib.
+[10:49:56] [Server thread/INFO]: [WARN] [TrollCommands++] PowerNBT was not found. The /troll attachcommand command has been disabled.
+[10:49:57] [Server thread/INFO]: [PAC] Loading PAC v1.3.0
+[10:49:57] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.0.5
+[10:49:57] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.15.0.1
+[10:49:57] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.8
+[10:49:57] [Server thread/INFO]: [EnjinMinecraftPlugin] Loading EnjinMinecraftPlugin v3.4.3
+[10:49:57] [Server thread/INFO]: [Baymax] Loading Baymax vAlpha-101
+[10:49:57] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.2.6
+[10:49:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:49:57] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v18.04.27-2ec9a92-1089-19.5.23
+[10:50:05] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[10:50:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[10:50:06] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[10:50:06] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:50:06] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[10:50:06] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[10:50:06] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v2.3.1
+[10:50:06] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.3.5
+[10:50:07] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v18.04.28-154bad6-1983
+[10:50:07] [Server thread/INFO]: Version is PlotSquared-18.4.28-154bad6-1983
+[10:50:12] [Server thread/INFO]: [P2] Metrics enabled.
+[10:50:12] [Server thread/INFO]: [P2]  PlotSquared is using online UUIDs
+[10:50:12] [Server thread/INFO]: PlotSquared hooked into WorldEdit.
+[10:50:12] [Server thread/INFO]: [P2] Key: plot-expiry, Value: false
+[10:50:13] [Server thread/INFO]: [P2] Key: kill-road-mobs, Value: false
+[10:50:13] [Server thread/INFO]: [P2] Key: kill-road-items, Value: false
+[10:50:13] [Server thread/INFO]: [P2] Key: worlds, Value: false
+[10:50:13] [Server thread/INFO]: [P2] Key: worldedit-restrictions, Value: true
+[10:50:13] [Server thread/INFO]: [P2] Key: database-purger, Value: false
+[10:50:13] [Server thread/INFO]: [P2] Key: economy, Value: true
+[10:50:13] [Server thread/INFO]: [P2] Key: block-cache, Value: true
+[10:50:13] [Server thread/INFO]: [P2] Key: kill-road-vehicles, Value: false
+[10:50:13] [Server thread/INFO]: [P2] Key: persistent-meta, Value: true
+[10:50:13] [Server thread/INFO]: [P2] Key: ban-deleter, Value: false
+[10:50:13] [Server thread/INFO]: [P2] Key: updater, Value: true
+[10:50:13] [Server thread/INFO]: [P2] Key: database, Value: true
+[10:50:13] [Server thread/INFO]: [P2] Key: plotme-converter, Value: true
+[10:50:13] [Server thread/INFO]: [P2] Key: permission-cache, Value: true
+[10:50:13] [Server thread/INFO]: [P2] Key: rating-cache, Value: true
+[10:50:13] [Server thread/INFO]: [P2] Key: comment-notifier, Value: false
+[10:50:13] [Server thread/INFO]: [P2] Key: metrics, Value: true
+[10:50:13] [Server thread/INFO]: [P2] Key: chunk-processor, Value: false
+[10:50:13] [Server thread/INFO]: [P2] Key: uuid-cache, Value: true
+[10:50:13] [Server thread/INFO]: [P2] Key: events, Value: true
+[10:50:13] [Server thread/INFO]: [P2] Key: commands, Value: true
+[10:50:13] [Server thread/INFO]: PlotSquared is now enabled
+[10:50:13] [Server thread/INFO]: [P2] Metrics enabled.
+[10:50:13] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.3.0
+[10:50:13] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[10:50:13] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[10:50:13] [Server thread/INFO]: Preparing level "Survival"
+[10:50:13] [Server thread/INFO]: -------- World Settings For [Survival] --------
+[10:50:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:50:13] [Server thread/INFO]: Item Merge Radius: 3.5
+[10:50:13] [Server thread/INFO]: View Distance: 4
+[10:50:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:50:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:50:13] [Server thread/INFO]: Mob Spawn Range: 3
+[10:50:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:50:13] [Server thread/INFO]: Max TNT Explosions: 100
+[10:50:13] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[10:50:13] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
+[10:50:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:50:13] [Server thread/INFO]: Random Lighting Updates: false
+[10:50:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:50:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:50:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:50:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:50:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:50:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:50:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:50:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:50:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:50:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:50:13] [Server thread/INFO]: Structure Info Saving: true
+[10:50:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:50:13] [Server thread/INFO]: Experience Merge Radius: 6.0
+[10:50:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:50:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:50:14] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
+[10:50:14] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3338580988281408739)
+[10:50:15] [Server thread/INFO]: Preparing spawn area: 1%
+[10:50:15] [Server thread/INFO]: [Wild] Enabling Wild v3.13.1
+[10:50:15] [Server thread/INFO]: [Wild] GriefPrevention hook enabled
+[10:50:16] [Server thread/INFO]: [Wild] Already Converted
+[10:50:16] [Server thread/INFO]: [Wild] Changes from version 3.11.0 to 3.12.0 include: +
+* Reworked gui +
+* Fixed NPE from refundPlayer
+[10:50:16] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.7
+[10:50:16] [Server thread/INFO]: [ClearLag] Loading modules...
+[10:50:16] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[10:50:16] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[10:50:16] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[10:50:16] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
+[10:50:16] [Server thread/INFO]: [TumbleCraftAdminSummon] Enabling TumbleCraftAdminSummon v1.0
+[10:50:16] [Server thread/INFO]: [TumbleCraftAdminSummon] TumbleCraftAdminSummon Enabled.
+[10:50:16] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.4
+[10:50:16] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.1.4-RELEASE
+[10:50:17] [Thread-9/INFO]: [ClearLag] No updates found!
+[10:50:17] [Server thread/INFO]: 
+[10:50:17] [Server thread/INFO]:  
+[10:50:17] [Server thread/INFO]: []=====[Enabling AdvancedBan]=====[]
+[10:50:17] [Server thread/INFO]: | Information:
+[10:50:17] [Server thread/INFO]: |   Name: AdvancedBan
+[10:50:17] [Server thread/INFO]: |   Developer: Leoko
+[10:50:17] [Server thread/INFO]: |   Version: 2.1.4-RELEASE
+[10:50:17] [Server thread/INFO]: |   Storage: HSQLDB (local)
+[10:50:17] [Server thread/INFO]: | Support:
+[10:50:17] [Server thread/INFO]: |   Skype: Leoko33
+[10:50:17] [Server thread/INFO]: |   Mail: Leoko4433@gmail.com
+[10:50:17] [Server thread/INFO]: | Update:
+[10:50:17] [Server thread/INFO]: |   There is a new version available! [2.1.3-RELEASE]
+[10:50:17] [Server thread/INFO]: []================================[]
+[10:50:17] [Server thread/INFO]:  
+[10:50:17] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.2.0
+[10:50:17] [Server thread/INFO]: [NametagEdit] Found PermissionsEx! Hooking in.
+[10:50:17] [Server thread/INFO]: [Votifier] [Votifier] Enabling Votifier v1.9
+[10:50:17] [Server thread/INFO]: [Votifier] [Votifier] Votifier enabled.
+[10:50:17] [Server thread/INFO]: [Friends3_0] Enabling Friends3_0 v3.0.2.5
+[10:50:17] [Server thread/INFO]: Friends | A new update is available!
+[10:50:17] [Server thread/INFO]: Friends | Please update your plugin!
+[10:50:17] [Server thread/INFO]: Friends | You will get no support for this version!
+[10:50:17] [Server thread/INFO]: Friends | The plugin was successfully loaded! < FlatFile >
+[10:50:17] [Server thread/INFO]: [iDisguise] Enabling iDisguise v5.6.4
+[10:50:18] [Server thread/INFO]: [iDisguise] iDisguise 5.6.4 enabled!
+[10:50:18] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[10:50:18] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[10:50:18] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[10:50:18] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[10:50:18] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[10:50:18] [Server thread/INFO]: [PlayerNameSigns] Enabling PlayerNameSigns v1.0
+[10:50:18] [Server thread/INFO]: [PlayerNameSigns] PlayerNameSigns Enabled
+[10:50:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.3.0
+[10:50:18] [Server thread/INFO]: [Hats] Enabling Hats v1.6
+[10:50:18] [Server thread/INFO]: [Hats] *************** HATS ****************
+[10:50:18] [Server thread/INFO]: [Hats] # Version : 1.6
+[10:50:18] [Server thread/INFO]: [Hats] # Autor   : bernatixer
+[10:50:18] [Server thread/INFO]: [Hats] # Webpage : www.bernatixer.com
+[10:50:18] [Server thread/INFO]: [Hats] *************************************
+[10:50:18] [Server thread/INFO]: [Announcements] Enabling Announcements v1.0
+[10:50:18] [Server thread/INFO]: [Announcements] Hello.
+[10:50:18] [Server thread/INFO]: [StaffPlus] Enabling StaffPlus v3.2.2
+[10:50:18] [Server thread/INFO]: [APIManager] API class 'org.inventivetalent.packetlistener.PacketListenerAPI' is not yet initialized. Creating new instance.
+[10:50:18] [Server thread/WARN]: [ReflectionHelper] Failed to find version enum for 'org.bukkit.craftbukkit.v1_12_R1'/'v1_12_R1.'
+[10:50:18] [Server thread/INFO]: [ReflectionHelper] Generating dynamic constant...
+[10:50:18] [Server thread/INFO]: [ReflectionHelper] Injected dynamic version v1_12_R1 (#10201).
+[10:50:18] [Server thread/INFO]: [ReflectionHelper] Please inform inventivetalent about the outdated version, as this is not guaranteed to work.
+[10:50:18] [Server thread/INFO]: [ReflectionHelper] Version is v1_12_R1 (10201)
+[10:50:18] [Server thread/INFO]: [PacketListenerAPI] Using INChannel
+[10:50:18] [Server thread/INFO]: [PacketListenerAPI] Injected custom channel handlers.
+[10:50:18] [Server thread/INFO]: [PacketListenerAPI] Adding channels for online players...
+[10:50:18] [Server thread/INFO]: [Staff+] This version of Minecraft is not supported! If you have just updated to a brand new server version, check the Spigot plugin page.
+[10:50:18] [Server thread/INFO]: [StaffPlus] Disabling StaffPlus v3.2.2
+[10:50:18] [Server thread/INFO]: [Staff+] Staff+ is now disabling!
+[10:50:18] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[10:50:18] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[10:50:18] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[10:50:18] [Server thread/INFO]: [Essentials] Enabling Essentials v2.15.0.1
+[10:50:19] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[10:50:19] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[10:50:19] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[10:50:19] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[10:50:19] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[10:50:19] [Server thread/INFO]: [Essentials] Using locale en_GB
+[10:50:19] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[10:50:19] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[10:50:19] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[10:50:19] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[10:50:19] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v1.11.5
+[10:50:19] [Server thread/INFO]: [PerWorldInventory] Registering listeners...
+[10:50:19] [Server thread/INFO]: [PerWorldInventory] Listeners registered!
+[10:50:20] [Server thread/INFO]: [PerWorldInventory] Registering commands...
+[10:50:20] [Server thread/INFO]: [PerWorldInventory] Commands registered!
+[10:50:20] [Server thread/INFO]: [PerWorldInventory] Vault found! Hooking into it...
+[10:50:20] [Server thread/INFO]: [PerWorldInventory] Hooked into Vault!
+[10:50:20] [Server thread/INFO]: [Marriage] Enabling Marriage v2.0.17
+[10:50:20] [Server thread/INFO]: [Marriage] Loading config...
+[10:50:20] [Server thread/INFO]: [Marriage] Hooked with PermissionsEx using Vault!
+[10:50:20] [Server thread/INFO]: [Marriage] Loading dependencies...
+[10:50:20] [Server thread/INFO]: [Marriage] Loading commands...
+[10:50:20] [Server thread/INFO]: [Marriage] Loading database...
+[10:50:20] [Server thread/INFO]: [Marriage] Loading listeners...
+[10:50:20] [Server thread/INFO]: [Marriage] Hooking with PlotSquared v18.04.28-154bad6-1983
+[10:50:20] [Server thread/INFO]: [Marriage] Loading updater...
+[10:50:20] [Server thread/INFO]: [Marriage] Loading converter...
+[10:50:20] [Server thread/INFO]: [Marriage] Completed plugin load stage.
+[10:50:20] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
+[10:50:20] [Server thread/INFO]: [P2]  - schematic: false
+[10:50:20] [Server thread/INFO]: -------- World Settings For [Creative] --------
+[10:50:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:50:20] [Server thread/INFO]: Item Merge Radius: 3.5
+[10:50:20] [Server thread/INFO]: View Distance: 4
+[10:50:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:50:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:50:20] [Server thread/INFO]: Mob Spawn Range: 3
+[10:50:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:50:20] [Server thread/INFO]: Max TNT Explosions: 100
+[10:50:20] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[10:50:20] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
+[10:50:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:50:20] [Server thread/INFO]: Random Lighting Updates: false
+[10:50:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:50:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:50:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:50:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:50:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:50:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:50:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:50:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:50:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:50:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:50:20] [Server thread/INFO]: Structure Info Saving: true
+[10:50:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:50:20] [Server thread/INFO]: Experience Merge Radius: 6.0
+[10:50:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:50:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:50:20] [Server thread/INFO]: [P2] Detected world load for 'Creative'
+[10:50:20] [Server thread/INFO]: [P2]  - generator: PlotSquared>PlotSquared
+[10:50:20] [Server thread/INFO]: [P2]  - plotworld: com.intellectualcrafters.plot.generator.HybridPlotWorld
+[10:50:20] [Server thread/INFO]: [P2]  - manager: com.intellectualcrafters.plot.generator.HybridPlotManager
+[10:50:20] [Server thread/INFO]: [P2]  - schematic: false
+[10:50:20] [Server thread/INFO]: World possibly already loaded: Creative
+[10:50:20] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6330577853313346332)
+[10:50:21] [Server thread/INFO]: [P2]  - schematic: false
+[10:50:21] [Server thread/INFO]: -------- World Settings For [Staff] --------
+[10:50:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:50:21] [Server thread/INFO]: Item Merge Radius: 3.5
+[10:50:21] [Server thread/INFO]: View Distance: 4
+[10:50:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:50:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:50:21] [Server thread/INFO]: Mob Spawn Range: 3
+[10:50:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:50:21] [Server thread/INFO]: Max TNT Explosions: 100
+[10:50:21] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[10:50:21] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
+[10:50:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:50:21] [Server thread/INFO]: Random Lighting Updates: false
+[10:50:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:50:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:50:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:50:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:50:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:50:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:50:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:50:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:50:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:50:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:50:21] [Server thread/INFO]: Structure Info Saving: true
+[10:50:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:50:21] [Server thread/INFO]: Experience Merge Radius: 6.0
+[10:50:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:50:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:50:21] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
+[10:50:21] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8624399134769984105)
+[10:50:22] [Server thread/INFO]: -------- World Settings For [DrCraft] --------
+[10:50:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:50:22] [Server thread/INFO]: Item Merge Radius: 3.5
+[10:50:22] [Server thread/INFO]: View Distance: 4
+[10:50:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:50:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[10:50:22] [Server thread/INFO]: Mob Spawn Range: 3
+[10:50:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:50:22] [Server thread/INFO]: Max TNT Explosions: 100
+[10:50:22] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[10:50:22] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
+[10:50:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:50:22] [Server thread/INFO]: Random Lighting Updates: false
+[10:50:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:50:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:50:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:50:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:50:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:50:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:50:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:50:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:50:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:50:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:50:22] [Server thread/INFO]: Structure Info Saving: true
+[10:50:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:50:22] [Server thread/INFO]: Experience Merge Radius: 6.0
+[10:50:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[10:50:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:50:22] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
+[10:50:22] [Server thread/INFO]: Preparing start region for level 3 (Seed: 1406291257435953756)
+[10:50:22] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[10:50:22] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
+[10:50:22] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.1;84bc322
+[10:50:23] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
+[10:50:23] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
+[10:50:23] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is blocked.
+[10:50:23] [Server thread/INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
+[10:50:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
+[10:50:23] [Server thread/INFO]: [WorldGuard] (Creative) TNT ignition is PERMITTED.
+[10:50:23] [Server thread/INFO]: [WorldGuard] (Creative) Lighters are PERMITTED.
+[10:50:23] [Server thread/INFO]: [WorldGuard] (Creative) Lava fire is blocked.
+[10:50:23] [Server thread/INFO]: [WorldGuard] (Creative) Fire spread is UNRESTRICTED.
+[10:50:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Creative'
+[10:50:23] [Server thread/INFO]: [WorldGuard] (Staff) TNT ignition is PERMITTED.
+[10:50:23] [Server thread/INFO]: [WorldGuard] (Staff) Lighters are PERMITTED.
+[10:50:23] [Server thread/INFO]: [WorldGuard] (Staff) Lava fire is blocked.
+[10:50:23] [Server thread/INFO]: [WorldGuard] (Staff) Fire spread is UNRESTRICTED.
+[10:50:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Staff'
+[10:50:23] [Server thread/INFO]: [WorldGuard] (DrCraft) TNT ignition is PERMITTED.
+[10:50:23] [Server thread/INFO]: [WorldGuard] (DrCraft) Lighters are PERMITTED.
+[10:50:23] [Server thread/INFO]: [WorldGuard] (DrCraft) Lava fire is blocked.
+[10:50:23] [Server thread/INFO]: [WorldGuard] (DrCraft) Fire spread is UNRESTRICTED.
+[10:50:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'DrCraft'
+[10:50:23] [Server thread/INFO]: [WorldGuard] Loading region data...
+[10:50:23] [Server thread/INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.16.0-RC-sMD5NET-b1134
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.12-1.12.2 / Spigot-CB-1.12_R1
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.9 blocks.
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.10 blocks.
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.11 blocks.
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.12 blocks.
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Update block-info: WATER_LILY block shape patch for multi client protocol support around 1.7.x - 1.11.x.
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Adding packet level hooks for ProtocolLib (MC 1.12.2)...
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Confirm teleport packet available (via name): TELEPORT_ACCEPT[class=PacketPlayInTeleportAccept, id=0]
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter | SoundDistance
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Force disable FastHeal on Minecraft 1.9 and later.
+[10:50:24] [Server thread/INFO]: [NoCheatPlus] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+[10:50:24] [Server thread/INFO]: [Vote] Enabling Vote v2.0.1
+[10:50:24] [Server thread/INFO]: [LOG]  [Vote] Has been enabled!
+[10:50:24] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.22-SNAPSHOT (build 1537)
+[10:50:25] [Server thread/INFO]: [Sentinel] Enabling Sentinel v1.4.5 (build 155)
+[10:50:25] [Server thread/INFO]: [Sentinel] Sentinel loading...
+[10:50:25] [Server thread/INFO]: [Sentinel] Sentinel loaded!
+[10:50:25] [Server thread/INFO]: [Sentinel] Vault linked! Group targets will work.
+[10:50:25] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4
+[10:50:26] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.16.1
+[10:50:26] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.15.0.1
+[10:50:26] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.15.0.1
+[10:50:27] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[10:50:27] [Server thread/INFO]: [INFO] [TrollCommands++] Enabling support for BungeeCord.
+[10:50:29] [DiscordSRV - Initialization/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (4fc493c3a51ba98706c6c31ed736d164ec81872d)
+[10:50:29] [Server thread/INFO]: [INFO]   _______        _ _  _____                                          _                 
+[10:50:29] [Server thread/INFO]: [INFO]  |__   __|      | | |/ ____|                                        | |      _     _   
+[10:50:29] [Server thread/INFO]: [INFO]     | |_ __ ___ | | | |     ___  _ __ ___  _ __ ___   __ _ _ __   __| |___ _| |_ _| |_ 
+[10:50:29] [Server thread/INFO]: [INFO]     | | '__/ _ \| | | |    / _ \| '_ ` _ \| '_ ` _ \ / _` | '_ \ / _` / __|_   _|_   _|
+[10:50:29] [Server thread/INFO]: [INFO]     | | | | (_) | | | |___| (_) | | | | | | | | | | | (_| | | | | (_| \__ \ |_|   |_|  
+[10:50:29] [Server thread/INFO]: [INFO]     |_|_|  \___/|_|_|\_____\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_|___/            
+[10:50:29] [Server thread/INFO]: [INFO] [Version 6.28.53] 98 commands 124 events 104 permissions 30 tick handlers 1 message handlers
+[10:50:29] [Server thread/INFO]: [INFO] [TrollCommands++] Attempting to load compatibility with Bukkit version 1.12.2
+[10:50:29] [Server thread/INFO]: [PAC] Enabling PAC v1.3.0
+[10:50:29] [Server thread/INFO]: [PAC] Enabled 14 modules
+[10:50:29] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.0.5
+[10:50:29] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Language initialized as English
+[10:50:29] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Thank you so much to these people for allowing DiscordSRV to grow to what it is: Ac3dUd3, Androkai, anton8604, buildblox, Bysokar, CoreyD97, DeeKay, Diamondman121314/DMAN, FataL, Foxy, geekhideout, Helmic, KaizenWorlds, LDSG Ghost, Mick, mikedmd, mikedmd again, Mitecraft, PChard, Rui, Ryan (The Loyal One), Sicnus
+[10:50:29] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[10:50:29] [Server thread/INFO]: [SuperVanish] Hooked into Citizens
+[10:50:29] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.15.0.1
+[10:50:29] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.8
+[10:50:29] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[10:50:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[10:50:30] [Server thread/INFO]: [GriefPrevention] 18 total claims loaded.
+[10:50:30] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[10:50:30] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[10:50:30] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[10:50:30] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[10:50:30] [Server thread/INFO]: [EnjinMinecraftPlugin] Enabling EnjinMinecraftPlugin v3.4.3
+[10:50:30] [Server thread/INFO]: [com.enjin.bukkit.EnjinMinecraftPlugin] Initializing for the first time.
+[10:50:31] [Server thread/INFO]: [com.enjin.bukkit.EnjinMinecraftPlugin] Log4j 2 handler detected: com.enjin.common.compatibility.CurrentLog4j2Handler
+[10:50:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[10:50:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Tumble Network(337887798889545728)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcome(338025080317804544)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:about(338019443319898114)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:announcements(338020007684472842)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(337887798889545728)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:random(338023793333239809)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:doctorbatmanwho(434539208221392916)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblegamer(434539228295200798)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:help(434535137019953152)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:future-discussion(437656067002859520)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft(434064099257745409)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblecraft-console(434064718110392346)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:doublethepsycho(437360428293685259)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mineracer(439916363558027264)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff-public(437304249886441492)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff-private(437304351011110912)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:admin-public(437304463066398740)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:admin-private(437304535300440066)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tn-public(437304697808879617)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tn-private(437304753173692427)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tweet-log(338020659303153675)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-log(338026003840630784)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:git-log(338021938469404674)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mod-log(434536352177192980)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:tumblecraft-console(434064718110392346)
+[10:50:31] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
+[10:50:31] [Server thread/INFO]: [com.enjin.shaded.reflections.Reflections] Reflections took 53 ms to scan 1 urls, producing 2 keys and 10 values 
+[10:50:32] [Server thread/INFO]: [Baymax] Enabling Baymax vAlpha-101
+[10:50:32] [Server thread/INFO]: [Baymax] Setting up configuration
+[10:50:32] [Server thread/INFO]: [Baymax] ProtocolLib loaded.
+[10:50:32] [Server thread/INFO]: [Baymax] Fetching network ...
+[10:50:32] [Server thread/INFO]: [Baymax]   Using public network ...
+[10:50:32] [Server thread/INFO]: [Baymax] Commands successfully registered.
+[10:50:32] [Server thread/INFO]: [Baymax] Graphics folder created.
+[10:50:32] [Server thread/INFO]: [Baymax] Setting up MovementGraphics...
+[10:50:32] [Server thread/INFO]: [Baymax] Done.
+[10:50:32] [Server thread/INFO]: [Baymax] Registering Listeners...
+[10:50:32] [Server thread/INFO]: [Baymax] Done.
+[10:50:32] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
+[10:50:32] [Server thread/INFO]: [HolographicDisplays] Found ProtocolLib, using new version.
+[10:50:32] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[10:50:32] [Server thread/INFO]: Done (19.515s)! For help, type "help" or "?"
+[10:50:32] [Server thread/INFO]: Using default channel type
+[10:50:32] [Server thread/INFO]: Timings Reset
+[10:50:32] [Craft Scheduler Thread - 26/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[10:50:32] [Craft Scheduler Thread - 21/INFO]: [Marriage] Purged 0 player entries in 7ms
+[10:50:33] [Server thread/INFO]: (FAWE) Plugin 'WorldGuard' found. Using it now.
+[10:50:33] [Server thread/INFO]: (FAWE) Plugin 'GriefPrevention' found. Using it now.
+[10:50:33] [Server thread/INFO]: (FAWE) Optimizing PlotSquared
+[10:50:33] [Server thread/INFO]: (FAWE)  - QueueProvider: class com.boydti.fawe.regions.general.plot.FaweLocalBlockQueue
+[10:50:33] [Server thread/INFO]: (FAWE)  - HybridPlotManager.REGENERATIVE_CLEAR: false
+[10:50:33] [Server thread/INFO]: (FAWE)  - SchematicHandler: com.boydti.fawe.regions.general.plot.FaweSchematicHandler@4a16dc4a
+[10:50:33] [Server thread/INFO]: (FAWE)  - ChunkManager: com.boydti.fawe.regions.general.plot.FaweChunkManager@28b91c2c
+[10:50:33] [Server thread/INFO]: (FAWE) Plugin 'PlotSquared' found. Using it now.
+[10:50:33] [Craft Scheduler Thread - 12/INFO]: [Wild] There is an update available please go download it
+[10:50:33] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[10:50:33] [Server thread/INFO]: [ViaVersion] Enabling PaperSpigot/TacoSpigot patch: Fixes block placement.
+[10:50:33] [Server thread/INFO]: [NoCheatPlus] Post-enable running...
+[10:50:33] [Craft Scheduler Thread - 13/INFO]: [PlugMan] No update was found.
+[10:50:34] [Server thread/INFO]: [NoCheatPlus] Post-enable finished.
+[10:50:35] [Server thread/INFO]: [Citizens] Loaded 18 NPCs.
+[10:50:36] [Craft Scheduler Thread - 13/INFO]: [Vault] Checking for Updates ... 
+[10:50:36] [Craft Scheduler Thread - 5/INFO]: (FAWE) Updated FAWE to 18.04.29-81a76df-1092-19.5.26 @ null
+[10:50:36] [Craft Scheduler Thread - 5/INFO]: (FAWE) /restart to update FAWE with these changes: /fawe changelog or https://empcraft.com/fawe/cl?2ec9a92
+[10:50:36] [Server thread/INFO]: Starting UUID caching
+[10:50:36] [Craft Scheduler Thread - 30/INFO]: [P2] Starting player data caching for: Survival
+[10:50:36] [Craft Scheduler Thread - 30/INFO]: Fast mode UUID caching enabled!
+[10:50:36] [Craft Scheduler Thread - 13/INFO]: [Vault] No new version available
+[10:50:36] [Craft Scheduler Thread - 30/INFO]: [P2] Cached a total of: 7 UUIDs
+[10:50:37] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[10:50:44] [User Authenticator #1/INFO]: UUID of player EmmaPowee is 30b98f1f-49f5-4d05-91c1-7f0ce9eda2a7
+[10:50:44] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to Baymax vAlpha-101
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:255) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:941) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: com.comphenix.protocol.reflect.FieldAccessException: No field with type int exists in class PacketPlayOutKeepAlive.
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:348) ~[?:?]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[?:?]
+	at eu.gurudev.baymax.j.q.a(q.java:36) ~[?:?]
+	at eu.gurudev.baymax.g.a.a(a.java:24) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor578.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 15 more
+[10:50:44] [Server thread/INFO]: [DiscordSRV] Player EmmaPowee joined with silent joining permission, not sending a join message
+[10:50:45] [Server thread/INFO]: EmmaPowee[cpc105210-live33-2-0-cust228.17-2.cable.virginm.net/82.44.12.229:51712] logged in with entity id 349 at ([Creative]-36.126324346817114, 73.5, 48.47652463129777)
+[10:50:45] [Server thread/INFO]: +[Admin] ~E_Powee
+[10:50:45] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.b.c.b(c.java:132) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.e.b(e.java:66) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.e.a(e.java:103) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:62) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:45] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPositionLook@685714c0[
+    x=-36.126324346817114
+    y=73.5
+    z=48.47652463129777
+    yaw=-270.89917
+    pitch=27.75007
+    f=false
+    hasPos=true
+    hasLook=true
+  ]
+
+[10:50:46] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.l.a(l.java:76) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:87) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:46] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInHeldItemSlot@4d7a2705[
+    itemInHandIndex=6
+  ]
+
+[10:50:46] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:46] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPositionLook@d3fb804[
+    x=-36.126324346817114
+    y=73.5
+    z=48.47652463129777
+    yaw=-270.89917
+    pitch=27.75007
+    f=false
+    hasPos=true
+    hasLook=true
+  ]
+
+[10:50:46] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:46] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying@43b95e4b[
+    x=0.0
+    y=0.0
+    z=0.0
+    yaw=0.0
+    pitch=0.0
+    f=true
+    hasPos=false
+    hasLook=false
+  ]
+
+[10:50:46] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:46] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPosition@78c49c24[
+    x=-36.126324346817114
+    y=73.5
+    z=48.47652463129777
+    yaw=0.0
+    pitch=0.0
+    f=true
+    hasPos=true
+    hasLook=false
+  ]
+
+[10:50:47] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:47] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPosition@2a2cc63e[
+    x=-36.126324346817114
+    y=73.5
+    z=48.47652463129777
+    yaw=0.0
+    pitch=0.0
+    f=true
+    hasPos=true
+    hasLook=false
+  ]
+
+[10:50:48] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:48] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInLook@101b4829[
+    x=0.0
+    y=0.0
+    z=0.0
+    yaw=-271.19916
+    pitch=27.75007
+    f=true
+    hasPos=false
+    hasLook=true
+  ]
+
+[10:50:48] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:48] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInLook@e920d8d[
+    x=0.0
+    y=0.0
+    z=0.0
+    yaw=-270.14914
+    pitch=28.05007
+    f=true
+    hasPos=false
+    hasLook=true
+  ]
+
+[10:50:48] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:48] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPositionLook@521c56b6[
+    x=-36.126324346817114
+    y=73.5
+    z=48.47652463129777
+    yaw=-253.79913
+    pitch=30.150068
+    f=true
+    hasPos=true
+    hasLook=true
+  ]
+
+[10:50:48] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:48] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInLook@41757396[
+    x=0.0
+    y=0.0
+    z=0.0
+    yaw=-205.94914
+    pitch=32.100067
+    f=true
+    hasPos=false
+    hasLook=true
+  ]
+
+[10:50:48] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:48] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInLook@17587f63[
+    x=0.0
+    y=0.0
+    z=0.0
+    yaw=-199.94914
+    pitch=31.800068
+    f=true
+    hasPos=false
+    hasLook=true
+  ]
+
+[10:50:48] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:48] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInLook@9b8e660[
+    x=0.0
+    y=0.0
+    z=0.0
+    yaw=-197.09914
+    pitch=30.600069
+    f=true
+    hasPos=false
+    hasLook=true
+  ]
+
+[10:50:48] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:48] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInLook@3921a807[
+    x=0.0
+    y=0.0
+    z=0.0
+    yaw=-196.64914
+    pitch=30.600069
+    f=true
+    hasPos=false
+    hasLook=true
+  ]
+
+[10:50:48] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:48] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInLook@53a28576[
+    x=0.0
+    y=0.0
+    z=0.0
+    yaw=-194.54913
+    pitch=31.650068
+    f=true
+    hasPos=false
+    hasLook=true
+  ]
+
+[10:50:48] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:48] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInLook@7d54b06[
+    x=0.0
+    y=0.0
+    z=0.0
+    yaw=-189.74913
+    pitch=34.050068
+    f=true
+    hasPos=false
+    hasLook=true
+  ]
+
+[10:50:48] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:48] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPositionLook@4990367a[
+    x=-36.12631495118569
+    y=73.5
+    z=48.37852464131135
+    yaw=-179.99913
+    pitch=38.40007
+    f=true
+    hasPos=true
+    hasLook=true
+  ]
+
+[10:50:48] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:48] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPositionLook@3a0b7d24[
+    x=-36.115046382960486
+    y=73.5
+    z=48.22766666903085
+    yaw=-173.39912
+    pitch=41.10007
+    f=true
+    hasPos=true
+    hasLook=true
+  ]
+
+[10:50:48] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:48] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPositionLook@17ab8c18[
+    x=-36.075931626650735
+    y=73.5
+    z=48.05300791689835
+    yaw=-160.34912
+    pitch=46.20007
+    f=true
+    hasPos=true
+    hasLook=true
+  ]
+
+[10:50:48] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:48] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPosition@5f404b71[
+    x=-36.02161284988084
+    y=73.5
+    z=47.865353937457236
+    yaw=0.0
+    pitch=0.0
+    f=true
+    hasPos=true
+    hasLook=false
+  ]
+
+[10:50:49] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception number 32 occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[10:50:51] [Netty Server IO #3/ERROR]: [Baymax] Unhandled exception number 64 occured in onPacketReceiving(PacketEvent) for Baymax
+com.comphenix.protocol.reflect.FieldAccessException: Field index out of bounds. (Index: 1, Size: 1)
+	at com.comphenix.protocol.reflect.StructureModifier.writeInternal(StructureModifier.java:352) ~[ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.reflect.StructureModifier.write(StructureModifier.java:328) ~[ProtocolLib.jar:4.3.0]
+	at eu.gurudev.baymax.j.o.a(o.java:71) ~[Baymax-Alpha-101.jar:?]
+	at eu.gurudev.baymax.m.c.onPacketReceiving(c.java:68) ~[Baymax-Alpha-101.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1414) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:945) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:141) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [PaperSpigot.jar:git-Paper-1383]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
