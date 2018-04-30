@@ -1,2 +1,14 @@
-Items: {}
+Items:
+  '1':
+    Price: 10
+    Seller: TumbleGamer
+    Time-Till-Expire: 1525292710356
+    Full-Time: 1525983910356
+    StoreID: 594982
+    Biddable: false
+    TopBidder: None
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: COBBLESTONE
+      amount: 64
 OutOfTime/Cancelled: {}
