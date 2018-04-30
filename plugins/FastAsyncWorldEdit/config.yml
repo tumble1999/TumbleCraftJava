@@ -183,12 +183,12 @@ history:
   # The maximum time in milliseconds to wait for a chunk to load for an edit.
   #  (50ms = 1 server tick, 0 = Fastest).
   #  The default value of 100 should be safe for most cases.
-  #
+  # 
   # Actions which require loaded chunks (e.g. copy) which do not load in time
   #  will use the last chunk as filler, which may appear as bands of duplicated blocks.
   # Actions usually wait about 25-50ms for the chunk to load, more if the server is lagging.
   # A value of 100ms does not force it to wait 100ms if the chunk loads in 10ms.
-  #
+  # 
   # This value is a timeout in case a chunk is never going to load (for whatever odd reason).
   # If the action times out, the operation continues by using the previous chunk as filler,
   #  and displaying an error message.  In this case, either copy a smaller section,
@@ -225,7 +225,7 @@ paths:
   per-player-schematics: true
 # The "default" limit group affects those without a specific limit permission.
 # To grant someone different limits, copy the default limits group
-# and give it a different name (e.g. newbie). Then give the user the limit
+# and give it a different name (e.g. newbie). Then give the user the limit 
 # permission node with that limit name (e.g. fawe.limit.newbie  )
 limits:
   default:
@@ -241,8 +241,8 @@ limits:
     max-iterations: 1000
     # Max allowed entities (e.g. cows)
     max-entities: 1337
-    # Blockstates include Banner, Beacon, BrewingStand, Chest, CommandBlock,
-    # CreatureSpawner, Dispenser, Dropper, EndGateway, Furnace, Hopper, Jukebox,
+    # Blockstates include Banner, Beacon, BrewingStand, Chest, CommandBlock, 
+    # CreatureSpawner, Dispenser, Dropper, EndGateway, Furnace, Hopper, Jukebox, 
     # NoteBlock, Sign, Skull, Structure
     max-blockstates: 1337
     # Maximum size of the player's history in Megabytes:
