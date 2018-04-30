@@ -532,3 +532,227 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [23:21:29] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [23:21:50] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
 [23:22:55] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[23:25:55] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[23:26:11] [Server thread/INFO]: TumbleGamer issued server command: /sethome obsidian3
+[23:26:14] [Server thread/INFO]: TumbleGamer issued server command: /home home
+[23:27:40] [Server thread/INFO]: TumbleGamer issued server command: /sell
+[23:27:48] [Server thread/INFO]: TumbleGamer issued server command: /sell hand
+[23:27:48] [Server thread/INFO]: [Essentials] [Owner] TumbleGamer sold cobblestone for £209 (209 items at £1 each).
+[23:28:02] [Server thread/INFO]: TumbleGamer issued server command: /sell hand
+[23:28:02] [Server thread/INFO]: [Essentials] [Owner] TumbleGamer sold cobblestone for £448 (448 items at £1 each).
+[23:28:20] [Server thread/INFO]: TumbleGamer issued server command: /sell hand
+[23:28:20] [Server thread/INFO]: [Essentials] [Owner] TumbleGamer sold stone for £285 (95 items at £3 each).
+[23:28:22] [Server thread/INFO]: TumbleGamer issued server command: /sell hand
+[23:28:22] [Server thread/INFO]: [Essentials] [Owner] TumbleGamer sold gravel for £54 (54 items at £1 each).
+[23:28:30] [Server thread/INFO]: TumbleGamer issued server command: /sell hand
+[23:28:30] [Server thread/INFO]: [Essentials] [Owner] TumbleGamer sold stone for £417 (139 items at £3 each).
+[23:28:31] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[23:28:31] [Server thread/INFO]: TumbleGamer issued server command: /sell hand
+[23:28:31] [Server thread/INFO]: [Essentials] [Owner] TumbleGamer sold stone for £453 (151 items at £3 each).
+[23:28:51] [Craft Scheduler Thread - 107/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[23:28:51] [Craft Scheduler Thread - 111/INFO]: 
+[23:28:56] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[23:29:08] [Server thread/INFO]: TumbleGamer issued server command: /AH
+[23:29:11] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[23:29:29] [Server thread/INFO]: TumbleGamer issued server command: /ah sell 300
+[23:29:31] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[23:29:34] [Server thread/INFO]: TumbleGamer issued server command: /ah sell 300
+[23:29:38] [Server thread/INFO]: TumbleGamer issued server command: /ah sell 300
+[23:29:40] [Server thread/INFO]: TumbleGamer issued server command: /ah sell 300
+[23:30:13] [Server thread/INFO]: TumbleGamer issued server command: /home obsidian3
+[23:30:35] [Server thread/INFO]: TumbleGamer issued server command: /gmsp
+[23:30:38] [Server thread/INFO]: TumbleGamer issued server command: /v
+[23:31:26] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[23:31:28] [Server thread/INFO]: TumbleGamer issued server command: /v
+[23:32:27] [Server thread/INFO]: TumbleGamer issued server command: /sethome diamonds
+[23:32:36] [Server thread/INFO]: TumbleGamer issued server command: /gmsp]
+[23:32:38] [Server thread/INFO]: TumbleGamer issued server command: /gmsp
+[23:32:40] [Server thread/INFO]: TumbleGamer issued server command: /v
+[23:32:48] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[23:32:52] [Server thread/INFO]: TumbleGamer issued server command: /gmsp
+[23:32:56] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[23:33:04] [Server thread/INFO]: TumbleGamer issued server command: /v
+[23:33:26] [Server thread/INFO]: TumbleGamer issued server command: /sethome diamonds2
+[23:33:31] [Server thread/INFO]: TumbleGamer issued server command: /home
+[23:34:04] [Server thread/INFO]: TumbleGamer issued server command: /home home
+[23:34:44] [Server thread/INFO]: TumbleGamer issued server command: /home
+[23:34:56] [Server thread/INFO]: TumbleGamer issued server command: /home obsidien
+[23:34:57] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[23:35:05] [Server thread/INFO]: TumbleGamer issued server command: /sethome obsidian
+[23:35:13] [Server thread/INFO]: TumbleGamer issued server command: /delhome obsidien
+[23:35:18] [Server thread/INFO]: TumbleGamer issued server command: /home
+[23:36:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[23:36:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[23:37:12] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[23:37:55] [Server thread/INFO]: TumbleGamer issued server command: /home home
+[23:37:57] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[23:38:20] [Server thread/INFO]: TumbleGamer issued server command: /home obsidian
+[23:39:03] [Server thread/INFO]: TumbleGamer issued server command: /home home
+[23:39:13] [Server thread/INFO]: TumbleGamer issued server command: /home obsidian
+[23:40:27] [Server thread/INFO]: TumbleGamer issued server command: /home home
+[23:40:58] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[23:43:53] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[23:43:54] [Craft Scheduler Thread - 146/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[23:43:54] [Craft Scheduler Thread - 150/INFO]: 
+[23:43:58] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[23:44:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[23:44:53] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[23:44:56] [Server thread/INFO]: TumbleGamer issued server command: /ah
+[23:45:12] [Server thread/INFO]: TumbleGamer issued server command: /i cow
+[23:45:17] [Server thread/INFO]: TumbleGamer issued server command: /i spawn:cow
+[23:45:21] [Server thread/INFO]: TumbleGamer issued server command: /i spawn
+[23:45:25] [Server thread/INFO]: TumbleGamer issued server command: /i spawn_egg:cow
+[23:46:59] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[23:47:00] [Server thread/INFO]: TumbleGamer issued server command: /minecraft:say @e[type=cow]
+[23:47:00] [Server thread/INFO]: [TumbleGamer: Selector '@e[type=cow]' found nothing]
+[23:47:11] [Server thread/INFO]: TumbleGamer issued server command: /minecraft:say @e[type='Cow']
+[23:47:11] [Server thread/INFO]: [TumbleGamer: Selector '@e[type='Cow']' found nothing]
+[23:47:14] [Server thread/INFO]: TumbleGamer issued server command: /minecraft:say @e[type=Cow]
+[23:47:14] [Server thread/INFO]: [TumbleGamer: Selector '@e[type=Cow]' found nothing]
+[23:47:18] [Server thread/INFO]: TumbleGamer issued server command: /minecraft:say @e[type=player]
+[23:47:18] [Server thread/INFO]: [TumbleGamer] TumbleGamer, Maxwell_Plays, AbrasiveRose, xValtrux, Snouzuless, Xgk, mineracer_8, TumbleGamer, wolfyblox589, DrBatmanWho, EmmaPowee, TumbleGamer, xValtrux, Maxwell_Plays, DrBatmanWho and IDemoniicHypeI
+[23:47:42] [Server thread/INFO]: TumbleGamer issued server command: /minecraft:say @e[type=Cow]
+[23:47:42] [Server thread/INFO]: [TumbleGamer: Selector '@e[type=Cow]' found nothing]
+[23:48:28] [Server thread/INFO]: TumbleGamer issued server command: /summon cow
+[23:48:28] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:35] [Server thread/INFO]: TumbleGamer issued server command: /powertool /summon cow
+[23:48:41] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: //summon cow
+[23:48:41] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: //summon cow
+[23:48:41] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: //summon cow
+[23:48:42] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: //summon cow
+[23:48:42] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: //summon cow
+[23:48:45] [Server thread/INFO]: TumbleGamer issued server command: /powertool summon cow
+[23:48:46] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:46] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:47] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:47] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:47] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:47] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:47] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:47] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:47] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:47] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:47] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:47] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:48] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:48] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:48] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:48] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:48] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:48] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:48] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:48] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:49] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:49] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:49] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:49] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:49] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:49] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:50] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:50] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:50] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:50] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:50] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:50] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:50] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:50] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:50] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:50] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:50] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:50] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:50] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:50] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:50] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:50] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:51] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:51] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:51] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:51] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:52] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:52] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:52] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:52] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:52] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:52] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:53] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:53] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:53] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:53] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:54] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:54] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:54] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:54] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:54] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:54] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:54] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:54] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:54] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:54] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:55] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:55] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:55] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:55] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:55] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:55] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:55] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:55] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:55] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:55] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:55] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:55] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:56] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:56] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:56] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:56] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:56] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:56] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:56] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:56] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:56] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:56] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:56] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:56] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:56] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:56] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:57] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:57] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:57] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:57] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:57] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:57] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:57] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:57] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:57] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:57] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:57] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:57] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:48:58] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[23:48:58] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /summon cow
+[23:49:03] [Server thread/INFO]: TumbleGamer issued server command: /powertool
+[23:49:42] [Server thread/INFO]: TumbleGamer issued server command: /home home
+[23:50:31] [Server thread/INFO]: TumbleGamer issued server command: /I BOOK
+[23:51:35] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[23:52:09] [Server thread/INFO]: TumbleGamer has made the advancement [Enchanter]
+[23:52:15] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[23:52:35] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[23:53:00] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
