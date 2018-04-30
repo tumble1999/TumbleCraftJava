@@ -47,6 +47,18 @@ Items:
       ==: org.bukkit.inventory.ItemStack
       type: COBBLESTONE
       amount: 64
+  '5':
+    Price: 300
+    Seller: TumbleGamer
+    Time-Till-Expire: 1525300169591
+    Full-Time: 1525991369591
+    StoreID: 583011
+    Biddable: false
+    TopBidder: None
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: REDSTONE
+      amount: 64
 OutOfTime/Cancelled:
   '1':
     Seller: TumbleGamer
