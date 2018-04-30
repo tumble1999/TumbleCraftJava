@@ -851,6 +851,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2018-04-30 16:48:34 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2018-04-25 01:07:51 +0100"
@@ -878,6 +884,12 @@
   "minecraft:recipes/decorations/pink_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2018-04-25 01:07:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2018-04-30 16:48:34 +0100"
     },
     "done": true
   },
@@ -998,6 +1010,12 @@
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
       "has_white_wool": "2018-04-08 01:21:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2018-04-30 16:48:34 +0100"
     },
     "done": true
   },
@@ -1373,6 +1391,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2018-04-30 16:48:34 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/noteblock": {
     "criteria": {
       "has_redstone": "2018-04-13 22:13:07 +0100"
@@ -1406,6 +1430,12 @@
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "spider": "2018-04-04 21:53:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2018-04-30 16:48:34 +0100"
     },
     "done": true
   },
@@ -1467,6 +1497,12 @@
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2018-04-25 01:07:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2018-04-30 16:48:34 +0100"
     },
     "done": true
   },
