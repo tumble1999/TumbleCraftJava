@@ -1,21 +1,17 @@
-Items:
-  '1':
-    Price: 256
-    Seller: TumbleGamer
-    Time-Till-Expire: 1525293073401
-    Full-Time: 1525984273401
-    StoreID: 142657
-    Biddable: false
-    TopBidder: None
-    Item:
-      ==: org.bukkit.inventory.ItemStack
-      type: COBBLESTONE
-      amount: 64
+Items: {}
 OutOfTime/Cancelled:
   '1':
     Seller: TumbleGamer
     Full-Time: 1525983910356
     StoreID: 594982
+    Item:
+      ==: org.bukkit.inventory.ItemStack
+      type: COBBLESTONE
+      amount: 64
+  '2':
+    Seller: TumbleGamer
+    Full-Time: 1525984273401
+    StoreID: 142657
     Item:
       ==: org.bukkit.inventory.ItemStack
       type: COBBLESTONE
