@@ -1,8 +1,0 @@
-channels:
-  adminchat:
-    command: 'sc'
-    format: '&4[STAFF CHAT]:&r {NAME}: &c{MESSAGE}'
-  main:
-    formatted-name: true
-    command: 'main'
-    format: '{PREFIX}{DISPLAYNAME}&f: {SUFFIX}{MESSAGE}'
