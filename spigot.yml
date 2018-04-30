@@ -15,16 +15,15 @@ settings:
   debug: false
   save-user-cache-on-stop-only: false
   sample-count: 12
-  bungeecord: false
   player-shuffle: 0
-  user-cache-size: 1000
-  late-bind: true
-  item-dirty-ticks: 20
   int-cache-limit: 1024
-  netty-threads: 4
+  item-dirty-ticks: 20
   timeout-time: 60
   restart-on-crash: true
   restart-script: START.bat
+  bungeecord: false
+  late-bind: true
+  user-cache-size: 1000
   attribute:
     maxHealth:
       max: 2048.0
@@ -32,6 +31,7 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  netty-threads: 4
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   filter-creative-items: true
