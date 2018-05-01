@@ -584,3 +584,122 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [13:07:26] [Server thread/INFO]: TumbleGamer issued server command: //paste
 [13:07:34] [Server thread/INFO]: TumbleGamer issued server command: //rotate 90
 [13:07:38] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[13:09:36] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[13:12:31] [Craft Scheduler Thread - 165/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:12:31] [Craft Scheduler Thread - 166/INFO]: [Marriage] Purged 0 player entries in 1ms
+[13:12:31] [Craft Scheduler Thread - 170/INFO]: 
+[13:12:36] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[13:12:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:13:31] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:13:51] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:14:35] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[13:14:41] [Server thread/INFO]: TumbleGamer issued server command: //set 0
+[13:14:47] [Server thread/INFO]: TumbleGamer issued server command: //set 0
+[13:14:58] [Server thread/INFO]: TumbleGamer issued server command: //set 0
+[13:15:36] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[13:17:17] [Server thread/INFO]: TumbleGamer issued server command: //copy
+[13:17:22] [Server thread/INFO]: TumbleGamer issued server command: //flip
+[13:17:27] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[13:17:50] [Server thread/INFO]: TumbleGamer issued server command: //copy
+[13:17:53] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[13:18:13] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:18:37] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[13:19:05] [Server thread/INFO]: TumbleGamer issued server command: //pos 2
+[13:19:07] [Server thread/INFO]: TumbleGamer issued server command: //pos2
+[13:19:36] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrick,air,cobblestone,cobblestone
+[13:19:42] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:20:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:20:49] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrick,air,cobblestone,cobblestone,stonebrickstairs,stonebrickslabs,cobblestonestairs,cobblestoneslabs
+[13:21:00] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrick,air,cobblestone,cobblestone,stonebrickstairs,stonebrickslab,cobblestonestairs,cobblestoneslab
+[13:21:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:21:15] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrick,air,cobblestone,cobblestone,stonebrickstairs,stonebrickslab,cobblestonestairs,cobblestoneslab
+[13:21:26] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick slabb
+[13:21:28] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:21:32] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[13:21:37] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrickslab
+[13:21:46] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick slab:stonebrick
+[13:21:50] [Server thread/INFO]: TumbleGamer issued server command: /undo
+[13:22:12] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick slab:5
+[13:22:14] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:22:38] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrick,air,cobblestone,cobblestone,stonebrickstairs,stonebrickslab,cobblestonestairs,slab:3
+[13:23:00] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrick,air,cobblestone,cobblestone,stonebrickstairs,slab:5,cobblestonestairs,slab:3
+[13:23:10] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:23:18] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrick,air,cobblestone,cobblestone,stonebrickstairs,cobblestonestairs,
+[13:23:38] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:23:47] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrickcobblestone,cobblestone,stonebrickstairs,cobblestonestairs,
+[13:23:52] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrickcobblestone,cobblestone,stonebrickstairs,cobblestonestairs
+[13:24:02] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrick,cobblestone,cobblestone,stonebrickstairs,cobblestonestairs
+[13:24:15] [Server thread/INFO]: TumbleGamer issued server command: /undo
+[13:24:34] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrick,stonebrick,cobblestone,cobblestone,
+[13:24:37] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[13:24:46] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:24:47] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrick,stonebrick,cobblestone,cobblestone,
+[13:25:13] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:25:29] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrick,stonebrick,cobblestone,cobblestone,crackedstonebrick
+[13:25:48] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrick,stonebrick,stonebrick,stonebrick,cobblestone,cobblestone,stonebrick:2
+[13:26:42] [Server thread/INFO]: TumbleGamer issued server command: //replace stonebrick stonebrickstairs,cobblestonestairs
+[13:26:45] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:26:59] [Server thread/INFO]: TumbleGamer issued server command: //replace cobblestonestairs stonebrickstairs,cobblestonestairs
+[13:27:16] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:27:32] [Server thread/INFO]: TumbleGamer issued server command: //replace cobblestonestairs:1 stonebrickstairs:1,cobblestonestairs:1
+[13:27:32] [Craft Scheduler Thread - 203/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:27:33] [Craft Scheduler Thread - 207/INFO]: 
+[13:27:37] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[13:27:40] [Server thread/INFO]: TumbleGamer issued server command: //replace cobblestonestairs:2 stonebrickstairs:2,cobblestonestairs:2
+[13:27:48] [Server thread/INFO]: TumbleGamer issued server command: //replace cobblestonestairs:3 stonebrickstairs:3,cobblestonestairs:3
+[13:27:55] [Server thread/INFO]: TumbleGamer issued server command: //replace cobblestonestairs:4 stonebrickstairs:4,cobblestonestairs:4
+[13:28:02] [Server thread/INFO]: TumbleGamer issued server command: //replace cobblestonestairs:5 stonebrickstairs:5,cobblestonestairs:5
+[13:28:10] [Server thread/INFO]: TumbleGamer issued server command: //replace cobblestonestairs:6 stonebrickstairs:6,cobblestonestairs:6
+[13:28:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:28:17] [Server thread/INFO]: TumbleGamer issued server command: //replace cobblestonestairs:7 stonebrickstairs:7,cobblestonestairs:7
+[13:28:25] [Server thread/INFO]: TumbleGamer issued server command: //replace cobblestonestairs:8 stonebrickstairs:8,cobblestonestairs:8
+[13:28:40] [Server thread/INFO]: TumbleGamer issued server command: /setblock stairs
+[13:28:45] [Server thread/INFO]: TumbleGamer issued server command: /setblock ~ ~ ~ stairs
+[13:28:45] [Server thread/INFO]: [TumbleGamer: There is no such block with name minecraft:stairs]
+[13:28:50] [Server thread/INFO]: TumbleGamer issued server command: /set stairs
+[13:28:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:28:55] [Server thread/INFO]: TumbleGamer issued server command: //set stairs
+[13:28:58] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:29:03] [Server thread/INFO]: TumbleGamer issued server command: //set stonestairs
+[13:29:06] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:29:12] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:29:13] [Server thread/INFO]: TumbleGamer issued server command: //set cobblestonestairs
+[13:29:28] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:29:38] [Server thread/INFO]: TumbleGamer issued server command: //set cobblestonestairs:1
+[13:29:39] [Server thread/INFO]: TumbleGamer issued server command: //set cobblestonestairs:2
+[13:29:42] [Server thread/INFO]: TumbleGamer issued server command: //set cobblestonestairs:3
+[13:29:43] [Server thread/INFO]: TumbleGamer issued server command: //set cobblestonestairs:4
+[13:29:50] [Server thread/INFO]: TumbleGamer issued server command: /thru
+[13:29:53] [Server thread/INFO]: TumbleGamer issued server command: /thru
+[13:29:57] [Server thread/INFO]: TumbleGamer issued server command: //set cobblestonestairs:5
+[13:29:59] [Server thread/INFO]: TumbleGamer issued server command: //set cobblestonestairs:6
+[13:30:05] [Server thread/INFO]: TumbleGamer issued server command: //undo 3
+[13:30:07] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:30:07] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:30:08] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[13:30:38] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[13:33:38] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[13:35:53] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:36:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:36:38] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[13:36:53] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
