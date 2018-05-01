@@ -1,14 +1,14 @@
 lastAccountName: TumbleGamer
 timestamps:
-  login: 1525125533506
-  logout: 1525127559594
-  lastteleport: 1525128582166
+  login: 1525168229804
+  logout: 1525171222585
+  lastteleport: 1525131268331
   kits:
     diamond: 1525033658623
     firework: 1523065527412
     color: 1524325833656
     starter: 1525106263797
-    claim: 1525109530087
+    claim: 1525131919271
     iron: 1524672791574
     notch: 1523065029218
     dtools: 1522716798006
@@ -22,18 +22,18 @@ timestamps:
 ipAddress: 127.0.0.1
 lastlocation:
   world: Survival
-  x: 12858.465293642908
-  y: 72.0
-  z: 6139.015679107846
-  yaw: 29.424072
-  pitch: 16.20068
+  x: 12495.689169882698
+  y: 11.0
+  z: 6014.807643877464
+  yaw: -252.91003
+  pitch: 6.1505585
 logoutlocation:
   world: Survival
-  x: 12614.300000011921
-  y: 11.0
-  z: 6018.482289019972
-  yaw: 269.25476
-  pitch: 28.950663
+  x: 12685.050298571621
+  y: 57.0
+  z: 6084.681591889785
+  yaw: -257.6538
+  pitch: -21.00023
 afk: false
 money: '1966.0'
 homes:
@@ -93,7 +93,7 @@ homes:
     z: 6008.5
     yaw: -179.39505
     pitch: 33.750877
-godmode: true
+godmode: false
 powertools:
   '95':
   - strike DrBatmanWho
@@ -101,5 +101,7 @@ powertools:
   - sudo minitecno summon pig
   '290':
   - /undo
+  '403':
+  - summon minecraft:zombie
 socialspy: true
 powertoolsenabled: true
