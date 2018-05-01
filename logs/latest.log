@@ -1254,3 +1254,469 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [21:36:59] [Server thread/INFO]: [ClearLag] Removed 31 Entities!
 [21:37:17] [Server thread/INFO]: DrBatmanWho issued server command: /warp s-spawn
 [21:37:21] [Server thread/INFO]: DrBatmanWho issued server command: /warp s-survival
+[21:38:30] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor140.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[21:38:45] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[21:38:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: hello
+[21:38:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: im GMT
+[21:39:29] [Thread-11/WARN]: [Votifier] [Votifier] Unable to decrypt vote record. Make sure that that your public key
+[21:39:29] [Thread-11/WARN]: [Votifier] [Votifier] matches the one you gave the server list.
+javax.crypto.BadPaddingException: Decryption error
+	at sun.security.rsa.RSAPadding.unpadV15(Unknown Source) ~[?:1.8.0_161]
+	at sun.security.rsa.RSAPadding.unpad(Unknown Source) ~[?:1.8.0_161]
+	at com.sun.crypto.provider.RSACipher.doFinal(RSACipher.java:363) ~[sunjce_provider.jar:1.8.0_171]
+	at com.sun.crypto.provider.RSACipher.engineDoFinal(RSACipher.java:389) ~[sunjce_provider.jar:1.8.0_171]
+	at javax.crypto.Cipher.doFinal(Cipher.java:2164) ~[?:1.8.0_171]
+	at com.vexsoftware.votifier.crypto.RSA.decrypt(RSA.java:65) ~[votifier-1.9.jar:?]
+	at com.vexsoftware.votifier.net.VoteReceiver.run(VoteReceiver.java:130) [votifier-1.9.jar:?]
+[21:40:23] [Server thread/INFO]: [Server] ho
+[21:40:24] [Server thread/INFO]: DrBatmanWho issued server command: /warp myvillage
+[21:40:26] [Server thread/INFO]: [Server] hello?
+[21:41:01] [User Authenticator #7/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[21:41:01] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
+[21:41:01] [Server thread/INFO]: TumbleGamer[/127.0.0.1:62395] logged in with entity id 51903 at ([Survival]12746.614452694126, 71.0, 6040.711105366883)
+[21:41:01] [Server thread/INFO]: +[Owner] TumbleGamer
+[21:41:12] [Server thread/INFO]: [Owner] TumbleGamer: hello
+[21:41:15] [Server thread/INFO]: TumbleGamer issued server command: /gmc
+[21:41:20] [Server thread/INFO]: TumbleGamer issued server command: /tpo DrBatmanWho
+[21:41:41] [Craft Scheduler Thread - 255/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:41:41] [Craft Scheduler Thread - 259/INFO]: 
+[21:41:46] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[21:41:47] [Server thread/INFO]: TumbleGamer issued server command: /gms DrBatmanWho
+[21:41:55] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[21:41:56] [Server thread/INFO]: DrBatmanWho issued server command: /gm c
+[21:42:09] [Server thread/INFO]: [Owner] TumbleGamer: is it ok if i live stream?
+[21:42:14] [Server thread/INFO]: [Owner] DrBatmanWho: hi
+[21:42:18] [Server thread/INFO]: [Owner] TumbleGamer: hello
+[21:42:19] [Server thread/INFO]: [Owner] DrBatmanWho: im not staying long
+[21:42:22] [Server thread/INFO]: [Owner] DrBatmanWho: five minutes
+[21:42:26] [Server thread/INFO]: [Owner] TumbleGamer: do /ah
+[21:42:28] [Server thread/INFO]: DrBatmanWho issued server command: /ah
+[21:42:32] [Server thread/INFO]: [Owner] DrBatmanWho: oh
+[21:42:36] [Server thread/INFO]: [Owner] DrBatmanWho: where are the villagers
+[21:42:39] [Server thread/INFO]: [Owner] TumbleGamer: and then do /ah sell <price>
+[21:42:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] Frodo: oof EST
+[21:42:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: hello
+[21:43:03] [Server thread/INFO]: [Owner] DrBatmanWho: thetr all gone
+[21:43:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] Frodo: Hey hey hwey
+[21:43:11] [Server thread/INFO]: TumbleGamer issued server command: /summon minecraft:villager
+[21:43:11] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[21:43:11] [Server thread/INFO]: TumbleGamer issued server command: /summon minecraft:villager
+[21:43:11] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[21:43:12] [Server thread/INFO]: TumbleGamer issued server command: /summon minecraft:villager
+[21:43:12] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[21:43:12] [Server thread/INFO]: TumbleGamer issued server command: /summon minecraft:villager
+[21:43:12] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[21:43:12] [Server thread/INFO]: TumbleGamer issued server command: /
+[21:43:13] [Server thread/INFO]: TumbleGamer issued server command: /
+[21:43:13] [Server thread/INFO]: [Owner] DrBatmanWho: can you stop this npc me from killing mobs please
+[21:43:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: hello
+[21:43:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:43:53] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor140.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 29 more
+[21:43:54] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor140.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 29 more
+[21:43:57] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor140.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 29 more
+[21:43:58] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor140.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 29 more
+[21:43:59] [Server thread/INFO]: [Owner] DrBatmanWho: tumble!!!
+[21:44:00] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor140.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 29 more
+[21:44:00] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor140.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 29 more
+[21:44:01] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor140.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 29 more
+[21:44:05] [Server thread/INFO]: [Owner] DrBatmanWho: stop them
+[21:44:07] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor140.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 29 more
+[21:44:07] [Server thread/INFO]: TumbleGamer issued server command: /npc select
+[21:44:12] [Server thread/INFO]: TumbleGamer issued server command: /sentinal
+[21:44:15] [Server thread/INFO]: TumbleGamer issued server command: /sentinal hel[
+[21:44:17] [Server thread/INFO]: DrBatmanWho issued server command: /s-spawn
+[21:44:19] [Server thread/INFO]: TumbleGamer issued server command: /sentinel help
+[21:44:21] [Server thread/INFO]: DrBatmanWho issued server command: /warp s-spawn
+[21:44:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:44:26] [Server thread/INFO]: DrBatmanWho issued server command: /warp s-survival
+[21:44:26] [Server thread/INFO]: TumbleGamer issued server command: /sentinel 2
+[21:44:29] [Server thread/INFO]: TumbleGamer issued server command: /sentinel 3
+[21:44:32] [Server thread/INFO]: TumbleGamer issued server command: /sentinel 1
+[21:44:34] [Server thread/INFO]: TumbleGamer issued server command: /sentinel 2
+[21:44:41] [Server thread/INFO]: [ClearLag] Removed 47 Entities!
+[21:44:43] [Server thread/INFO]: TumbleGamer issued server command: /sentinel removetarget VILLAGER
+[21:44:46] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[21:44:55] [Server thread/INFO]: TumbleGamer issued server command: /sentinel removetarget MOB
+[21:45:03] [Server thread/INFO]: TumbleGamer issued server command: /sentinel addtarget MONSTER
+[21:45:11] [Server thread/INFO]: [Owner] TumbleGamer: try now
+[21:45:18] [Server thread/INFO]: [Owner] TumbleGamer: also can it still kill bad guys
+[21:45:22] [Server thread/INFO]: TumbleGamer issued server command: /sentinel addtarget PLAYER
+[21:45:22] [Server thread/INFO]: [Owner] DrBatmanWho: yed
+[21:45:24] [Server thread/INFO]: [Owner] DrBatmanWho: yeah
+[21:45:43] [Server thread/INFO]: [Owner] DrBatmanWho: Bye
+[21:45:44] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[21:45:44] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[21:45:45] [Server thread/INFO]: -[Owner] DrBatmanWho
+[21:45:48] [Server thread/INFO]: [Owner] TumbleGamer: no see if it can still kill bad guys adter a change i just made
+[21:46:08] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[21:46:10] [Server thread/INFO]: TumbleGamer issued server command: /gmc
+[21:46:44] [Server thread/INFO]: TumbleGamer issued server command: /spawn
+[21:50:49] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[21:51:05] [Server thread/INFO]: TumbleGamer issued server command: /home
+[21:51:09] [Server thread/INFO]: TumbleGamer issued server command: /home home
+[21:51:24] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:52:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:52:23] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[21:52:25] [Server thread/INFO]: [ClearLag] Removed 7 Entities!
+[21:52:26] [Server thread/INFO]: TumbleGamer issued server command: /god
+[21:52:27] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[21:52:29] [Server thread/INFO]: TumbleGamer issued server command: /god
+[21:52:36] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[21:52:37] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[21:53:51] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[21:56:49] [Craft Scheduler Thread - 274/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:56:49] [Craft Scheduler Thread - 278/INFO]: 
+[21:56:54] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[21:59:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:59:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:59:55] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[22:00:10] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[22:02:56] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[22:06:54] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:07:35] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:07:55] [Server thread/INFO]: [ClearLag] Removed 5 Entities!
