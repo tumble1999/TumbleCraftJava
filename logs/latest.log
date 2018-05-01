@@ -970,3 +970,158 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [19:48:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [19:49:11] [Server thread/INFO]: [ClearLag] Removed 24 Entities!
 [19:50:17] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[19:53:19] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[19:54:37] [User Authenticator #4/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[19:54:37] [Server thread/INFO]: Protone[/79.69.136.229:56121] logged in with entity id 13109 at ([Survival]120.5, 86.0, 544.5)
+[19:54:37] [Server thread/INFO]: +Protone
+[19:54:37] [pool-18-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\b87bf5a1-a34d-41ae-8aac-ca1ae29877b9.yml
+[19:54:37] [Server thread/INFO]: Protone has made the advancement [Getting an Upgrade]
+[19:54:39] [Netty Server IO #2/WARN]: Protone sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[19:54:39] [Server thread/INFO]: Protone lost connection: Timed out
+[19:54:39] [Server thread/INFO]: -Protone
+[19:55:08] [User Authenticator #4/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[19:55:08] [Server thread/INFO]: Protone[/79.69.136.229:56176] logged in with entity id 13359 at ([Survival]128.5, 76.0, 544.5)
+[19:55:08] [Server thread/INFO]: +Protone
+[19:55:09] [Netty Server IO #0/WARN]: Protone sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[19:55:09] [Server thread/INFO]: Protone lost connection: Timed out
+[19:55:09] [Server thread/INFO]: -Protone
+[19:55:13] [User Authenticator #4/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[19:55:13] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@908ce41[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@53411ff1]},legacy=false] (/79.69.136.229:56199): You must wait 26 seconds before logging-in again.
+[19:55:13] [Server thread/INFO]: com.mojang.authlib.GameProfile@908ce41[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@53411ff1]},legacy=false] (/79.69.136.229:56199) lost connection: You must wait 26 seconds before logging-in again.
+[19:55:27] [User Authenticator #4/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[19:55:27] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@796b2c3d[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@437f0695]},legacy=false] (/79.69.136.229:56216): You must wait 11 seconds before logging-in again.
+[19:55:27] [Server thread/INFO]: com.mojang.authlib.GameProfile@796b2c3d[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@437f0695]},legacy=false] (/79.69.136.229:56216) lost connection: You must wait 11 seconds before logging-in again.
+[19:55:33] [User Authenticator #4/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[19:55:33] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@34d6d53b[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@50377779]},legacy=false] (/79.69.136.229:56227): You must wait 5 seconds before logging-in again.
+[19:55:34] [Server thread/INFO]: com.mojang.authlib.GameProfile@34d6d53b[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@50377779]},legacy=false] (/79.69.136.229:56227) lost connection: You must wait 5 seconds before logging-in again.
+[19:55:41] [User Authenticator #4/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[19:55:41] [Server thread/INFO]: Protone[/79.69.136.229:56236] logged in with entity id 13623 at ([Survival]128.5, 76.0, 544.5)
+[19:55:41] [Server thread/INFO]: +Protone
+[19:55:42] [Netty Server IO #2/WARN]: Protone sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[19:55:42] [Server thread/INFO]: Protone lost connection: Timed out
+[19:55:42] [Server thread/INFO]: -Protone
+[19:55:56] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[19:56:16] [Craft Scheduler Thread - 116/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[19:56:17] [Craft Scheduler Thread - 120/INFO]: 
+[19:56:20] [User Authenticator #4/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[19:56:20] [Server thread/INFO]: Protone[/79.69.136.229:56278] logged in with entity id 13864 at ([Survival]128.5, 76.0, 544.5)
+[19:56:20] [Server thread/INFO]: +Protone
+[19:56:21] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[19:56:21] [Netty Server IO #0/WARN]: Protone sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[19:56:21] [Server thread/INFO]: Protone lost connection: Timed out
+[19:56:22] [Server thread/INFO]: -Protone
+[19:56:36] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[19:56:56] [Server thread/INFO]: [ClearLag] Removed 18 Entities!
+[19:57:15] [User Authenticator #4/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[19:57:15] [Server thread/INFO]: Protone[/79.69.136.229:56328] logged in with entity id 14285 at ([Survival]128.5, 76.0, 544.5)
+[19:57:15] [Server thread/INFO]: +Protone
+[19:57:16] [Netty Server IO #1/WARN]: Protone sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[19:57:16] [Server thread/INFO]: Protone lost connection: Timed out
+[19:57:16] [Server thread/INFO]: -Protone
+[19:57:47] [User Authenticator #4/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[19:57:47] [Server thread/INFO]: Protone[/79.69.136.229:56345] logged in with entity id 14498 at ([Survival]128.5, 76.0, 544.5)
+[19:57:47] [Server thread/INFO]: +Protone
+[19:57:48] [Netty Server IO #1/WARN]: Protone sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[19:57:48] [Server thread/INFO]: Protone lost connection: Timed out
+[19:57:48] [Server thread/INFO]: -Protone
+[19:59:02] [Server thread/INFO]: [Owner] TumbleGamer: .
+[20:02:25] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[20:03:33] [Server thread/INFO]: TumbleGamer issued server command: //copy
+[20:03:33] [Craft Scheduler Thread - 141/INFO]: (FAWE) Running 1.12 registry dumper!
+[20:03:33] [Craft Scheduler Thread - 141/INFO]: (FAWE) Using adapter: com.boydti.fawe.bukkit.v1_12.FaweAdapter_1_12@507082b8
+[20:03:33] [Craft Scheduler Thread - 141/INFO]: (FAWE) =========================================
+[20:03:37] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[20:03:37] [Server thread/INFO]: (FAWE) Having `parallel-threads` > 1 interferes with the timings.
+[20:03:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[20:04:22] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[20:04:42] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
+[20:05:26] [Server thread/INFO]: TumbleGamer issued server command: /sethome newhome
+[20:05:28] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[20:08:06] [Server thread/INFO]: TumbleGamer issued server command: /ah
+[20:08:30] [Server thread/INFO]: TumbleGamer issued server command: /home newhome
+[20:08:31] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[20:08:47] [Server thread/INFO]: TumbleGamer issued server command: /home home
+[20:09:12] [Server thread/INFO]: TumbleGamer issued server command: /sethome
+[20:09:14] [Server thread/INFO]: TumbleGamer issued server command: /hoe
+[20:09:36] [Server thread/INFO]: TumbleGamer issued server command: /home newhome
+[20:10:00] [Server thread/INFO]: TumbleGamer issued server command: /kit
+[20:10:06] [Server thread/INFO]: TumbleGamer issued server command: /unrank TumbleGamer
+[20:10:07] [Server thread/INFO]: TumbleGamer issued server command: /kit
+[20:10:12] [Server thread/INFO]: com.mojang.authlib.GameProfile@308e8557[id=<null>,name=SAMETPRO58,properties={},legacy=false] (/212.133.249.95:53792) lost connection: Disconnected
+[20:10:15] [Server thread/INFO]: TumbleGamer issued server command: /promote TumbleGamer
+[20:10:17] [User Authenticator #5/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[20:10:17] [Server thread/INFO]: Protone[/79.69.136.229:56903] logged in with entity id 19311 at ([Survival]128.5, 76.0, 544.5)
+[20:10:17] [Server thread/INFO]: +Protone
+[20:10:19] [Netty Server IO #3/WARN]: Protone sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[20:10:19] [Server thread/INFO]: Protone lost connection: Timed out
+[20:10:19] [Server thread/INFO]: -Protone
+[20:10:31] [User Authenticator #5/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[20:10:31] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3de0efa6[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@258b0240]},legacy=false] (/79.69.136.229:56918): You must wait 16 seconds before logging-in again.
+[20:10:31] [Server thread/INFO]: com.mojang.authlib.GameProfile@3de0efa6[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@258b0240]},legacy=false] (/79.69.136.229:56918) lost connection: You must wait 16 seconds before logging-in again.
+[20:10:44] [User Authenticator #5/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[20:10:44] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4b200df2[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@e213c9e]},legacy=false] (/79.69.136.229:56928): You must wait 3 seconds before logging-in again.
+[20:10:44] [Server thread/INFO]: com.mojang.authlib.GameProfile@4b200df2[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@e213c9e]},legacy=false] (/79.69.136.229:56928) lost connection: You must wait 3 seconds before logging-in again.
+[20:11:19] [User Authenticator #5/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[20:11:19] [Server thread/INFO]: Protone[/79.69.136.229:57003] logged in with entity id 19746 at ([Survival]128.5, 76.0, 544.5)
+[20:11:19] [Server thread/INFO]: +Protone
+[20:11:20] [Netty Server IO #2/WARN]: Protone sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[20:11:20] [Server thread/INFO]: Protone lost connection: Timed out
+[20:11:21] [Server thread/INFO]: -Protone
+[20:11:26] [Server thread/INFO]: TumbleGamer issued server command: /owner TumbleGamer
+[20:11:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[20:11:27] [Craft Scheduler Thread - 155/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[20:11:28] [Craft Scheduler Thread - 159/INFO]: 
+[20:11:32] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[20:11:41] [User Authenticator #5/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[20:11:41] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@374f6b25[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@7c69422b]},legacy=false] (/79.69.136.229:57032): You must wait 9 seconds before logging-in again.
+[20:11:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@374f6b25[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@7c69422b]},legacy=false] (/79.69.136.229:57032) lost connection: You must wait 9 seconds before logging-in again.
+[20:11:48] [User Authenticator #5/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[20:11:48] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@74bf0943[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@4c21dc69]},legacy=false] (/79.69.136.229:57035): You must wait 2 seconds before logging-in again.
+[20:11:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@74bf0943[id=b87bf5a1-a34d-41ae-8aac-ca1ae29877b9,name=Protone,properties={textures=[com.mojang.authlib.properties.Property@4c21dc69]},legacy=false] (/79.69.136.229:57035) lost connection: You must wait 2 seconds before logging-in again.
+[20:12:00] [User Authenticator #5/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[20:12:00] [Server thread/INFO]: Protone[/79.69.136.229:57069] logged in with entity id 19947 at ([Survival]128.5, 76.0, 544.5)
+[20:12:00] [Server thread/INFO]: +Protone
+[20:12:02] [Netty Server IO #0/WARN]: Protone sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[20:12:02] [Server thread/INFO]: Protone lost connection: Timed out
+[20:12:02] [Server thread/INFO]: -Protone
+[20:12:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[20:12:14] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[20:12:14] [Server thread/INFO]: Permissions reloaded
+[20:12:28] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[20:12:46] [User Authenticator #5/INFO]: UUID of player Protone is b87bf5a1-a34d-41ae-8aac-ca1ae29877b9
+[20:12:46] [Server thread/INFO]: Protone[/79.69.136.229:57090] logged in with entity id 20317 at ([Survival]128.5, 76.0, 544.5)
+[20:12:46] [Server thread/INFO]: +Protone
+[20:12:47] [Netty Server IO #2/WARN]: Protone sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[20:12:47] [Server thread/INFO]: Protone lost connection: Timed out
+[20:12:47] [Server thread/INFO]: -Protone
+[20:13:42] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[20:13:42] [Server thread/INFO]: Permissions reloaded
+[20:13:48] [Server thread/INFO]: TumbleGamer issued server command: /owner TumbleGamer
+[20:14:33] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[20:18:00] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
+[20:18:00] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer quit with silent quitting permission, not sending a quit message
+[20:18:00] [Server thread/INFO]: -[Owner] TumbleGamer
+[20:19:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[20:19:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[20:20:10] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[20:20:35] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
