@@ -364,3 +364,99 @@
 [15:42:58] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.16.1
 [15:42:58] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v1.2.4
 [15:42:59] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.15.0.1
+[15:42:59] [Server thread/INFO]: [INFO] [TrollCommands++] Enabling support for BungeeCord.
+[15:43:00] [Server thread/INFO]: [INFO]   _______        _ _  _____                                          _                 
+[15:43:00] [Server thread/INFO]: [INFO]  |__   __|      | | |/ ____|                                        | |      _     _   
+[15:43:00] [Server thread/INFO]: [INFO]     | |_ __ ___ | | | |     ___  _ __ ___  _ __ ___   __ _ _ __   __| |___ _| |_ _| |_ 
+[15:43:00] [Server thread/INFO]: [INFO]     | | '__/ _ \| | | |    / _ \| '_ ` _ \| '_ ` _ \ / _` | '_ \ / _` / __|_   _|_   _|
+[15:43:00] [Server thread/INFO]: [INFO]     | | | | (_) | | | |___| (_) | | | | | | | | | | | (_| | | | | (_| \__ \ |_|   |_|  
+[15:43:00] [Server thread/INFO]: [INFO]     |_|_|  \___/|_|_|\_____\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_|___/            
+[15:43:00] [Server thread/INFO]: [INFO] [Version 6.28.53] 98 commands 124 events 104 permissions 30 tick handlers 1 message handlers
+[15:43:00] [Server thread/INFO]: [INFO] [TrollCommands++] Attempting to load compatibility with Bukkit version 1.12.2
+[15:43:00] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.0.5
+[15:43:00] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[15:43:00] [Server thread/INFO]: [SuperVanish] Hooked into Citizens
+[15:43:00] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.15.0.1
+[15:43:00] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.8
+[15:43:00] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[15:43:00] [Server thread/INFO]: [GriefPrevention] 21 total claims loaded.
+[15:43:00] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[15:43:00] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[15:43:00] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[15:43:00] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[15:43:00] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
+[15:43:00] [Server thread/INFO]: [HolographicDisplays] Found ProtocolLib, using new version.
+[15:43:00] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[15:43:00] [Server thread/INFO]: Done (6.102s)! For help, type "help" or "?"
+[15:43:00] [Server thread/INFO]: Using default channel type
+[15:43:00] [Server thread/INFO]: Timings Reset
+[15:43:00] [Craft Scheduler Thread - 18/INFO]: [Marriage] Purged 0 player entries in 5ms
+[15:43:00] [Craft Scheduler Thread - 12/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[15:43:00] [Server thread/INFO]: (FAWE) Plugin 'WorldGuard' found. Using it now.
+[15:43:01] [Server thread/INFO]: (FAWE) Plugin 'GriefPrevention' found. Using it now.
+[15:43:01] [Server thread/INFO]: (FAWE) Optimizing PlotSquared
+[15:43:01] [Server thread/INFO]: (FAWE)  - QueueProvider: class com.boydti.fawe.regions.general.plot.FaweLocalBlockQueue
+[15:43:01] [Server thread/INFO]: (FAWE)  - HybridPlotManager.REGENERATIVE_CLEAR: false
+[15:43:01] [Server thread/INFO]: (FAWE)  - SchematicHandler: com.boydti.fawe.regions.general.plot.FaweSchematicHandler@29e040b0
+[15:43:01] [Server thread/INFO]: (FAWE)  - ChunkManager: com.boydti.fawe.regions.general.plot.FaweChunkManager@1c5743a3
+[15:43:01] [Server thread/INFO]: (FAWE) Plugin 'PlotSquared' found. Using it now.
+[15:43:01] [Craft Scheduler Thread - 25/INFO]: 
+[15:43:01] [Craft Scheduler Thread - 9/INFO]: [PlugMan] No update was found.
+[15:43:01] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[15:43:01] [Server thread/INFO]: [ViaVersion] Enabling PaperSpigot/TacoSpigot patch: Fixes block placement.
+[15:43:01] [Server thread/INFO]: [Citizens] Loaded 19 NPCs.
+[15:43:01] [Craft Scheduler Thread - 8/INFO]: [Wild] There is an update available please go download it
+[15:43:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (4fc493c3a51ba98706c6c31ed736d164ec81872d)
+[15:43:01] [Craft Scheduler Thread - 8/INFO]: [Vault] Checking for Updates ... 
+[15:43:01] [Craft Scheduler Thread - 8/INFO]: [Vault] No new version available
+[15:43:01] [Server thread/INFO]: Starting UUID caching
+[15:43:01] [Craft Scheduler Thread - 9/INFO]: [P2] Starting player data caching for: Survival
+[15:43:01] [Craft Scheduler Thread - 9/INFO]: Fast mode UUID caching enabled!
+[15:43:01] [Craft Scheduler Thread - 9/INFO]: [P2] Cached a total of: 8 UUIDs
+[15:43:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Language initialized as English
+[15:43:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Thank you so much to these people for allowing DiscordSRV to grow to what it is: Ac3dUd3, Androkai, anton8604, buildblox, Bysokar, CoreyD97, DeeKay, Diamondman121314/DMAN, FataL, Foxy, geekhideout, Helmic, KaizenWorlds, LDSG Ghost, Mick, mikedmd, mikedmd again, Mitecraft, PChard, Rui, Ryan (The Loyal One), Sicnus
+[15:43:02] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[15:43:03] [Craft Scheduler Thread - 1/INFO]: (FAWE) Updated FAWE to 18.04.29-d32bcaa-1096-19.7.1 @ null
+[15:43:03] [Craft Scheduler Thread - 1/INFO]: (FAWE) /restart to update FAWE with these changes: /fawe changelog or https://empcraft.com/fawe/cl?2ec9a92
+[15:43:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[15:43:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Tumble Network(337887798889545728)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcome(338025080317804544)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:about(338019443319898114)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:announcements(338020007684472842)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(337887798889545728)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:random(338023793333239809)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:doctorbatmanwho(434539208221392916)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblegamer(434539228295200798)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:help(434535137019953152)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:future-discussion(437656067002859520)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft(434064099257745409)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblecraft-console(434064718110392346)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:doublethepsycho(437360428293685259)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mineracer(439916363558027264)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff-public(437304249886441492)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff-private(437304351011110912)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:admin-public(437304463066398740)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:admin-private(437304535300440066)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tn-public(437304697808879617)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tn-private(437304753173692427)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tweet-log(338020659303153675)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-log(338026003840630784)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:git-log(338021938469404674)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mod-log(434536352177192980)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:kou(440136672810762240)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:idemoniichypei(440627945896280075)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:spiderblowsup(440824988912844809)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:tumblecraft-console(434064718110392346)
+[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
+[15:43:05] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
