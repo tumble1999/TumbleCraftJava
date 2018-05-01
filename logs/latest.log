@@ -1,812 +1,703 @@
-[15:42:51] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[15:42:51] [Server thread/INFO]: Loading properties
-[15:42:51] [Server thread/INFO]: Default game type: SURVIVAL
-[15:42:51] [Server thread/INFO]: This server is running Paper version git-Paper-1383 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[15:42:51] [Server thread/INFO]: Debug logging is disabled
-[15:42:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:42:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:42:51] [Server thread/INFO]: Generating keypair
-[15:42:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:42:52] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[15:42:52] [Server thread/INFO]: [github.scarsz.discordsrv.dependencies.reflections.Reflections] Reflections took 71 ms to scan 14 urls, producing 13 keys and 21 values 
-[15:42:52] [Server thread/INFO]: [Wild] Loading Wild v3.13.1
-[15:42:52] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.7
-[15:42:52] [Server thread/INFO]: [TumbleCraftAdminSummon] Loading TumbleCraftAdminSummon v1.0
-[15:42:52] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.4
-[15:42:52] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.1.4-RELEASE
-[15:42:52] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.2.0
-[15:42:52] [Server thread/INFO]: [Votifier] [Votifier] Loading Votifier v1.9
-[15:42:52] [Server thread/INFO]: [Friends3_0] Loading Friends3_0 v3.0.2.5
-[15:42:52] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v18.04.27-2ec9a92-1089-19.5.23
-[15:42:52] [Server thread/INFO]: [iDisguise] Loading iDisguise v5.6.4
-[15:42:52] [Server thread/INFO]: [HeadDrops] Loading HeadDrops v2.0
-[15:42:52] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
-[15:42:52] [Server thread/INFO]: [PlayerNameSigns] Loading PlayerNameSigns v1.0
-[15:42:52] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
-[15:42:52] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, waiting for boot. (late-bind)
-[15:42:52] [Server thread/INFO]: [Hats] Loading Hats v1.6
-[15:42:52] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
-[15:42:52] [Server thread/INFO]: [Announcements] Loading Announcements v1.0
-[15:42:52] [Server thread/INFO]: [StaffPlus] Loading StaffPlus v3.2.5.1
-[15:42:52] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v2.3.1
-[15:42:52] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.3.5
-[15:42:52] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.7;dd00bb1
-[15:42:52] [Server thread/INFO]: [Essentials] Loading Essentials v2.15.0.1
-[15:42:52] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v1.11.5
-[15:42:52] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v18.04.28-154bad6-1983
-[15:42:52] [Server thread/INFO]: [Marriage] Loading Marriage v2.0.17
-[15:42:52] [Server thread/INFO]: [Marriage] Completed plugin pre-load stage.
-[15:42:52] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
-[15:42:52] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.3.0
-[15:42:52] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.12.2) has not yet been tested! Proceed with caution.
-[15:42:52] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.1;84bc322
-[15:42:52] [Server thread/INFO]: [Vote] Loading Vote v2.0.1
-[15:42:52] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.22-SNAPSHOT (build 1537)
-[15:42:52] [Server thread/INFO]: [Sentinel] Loading Sentinel v1.4.5 (build 155)
-[15:42:52] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
-[15:42:52] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.16.1
-[15:42:52] [Server thread/INFO]: [CrazyAuctions] Loading CrazyAuctions v1.2.4
-[15:42:52] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.15.0.1
-[15:42:53] [Server thread/INFO]: [INFO] [TrollCommands++] Enabling support for iDisguise.
-[15:42:53] [Server thread/INFO]: [INFO] [TrollCommands++] Enabling support for ProtocolLib.
-[15:42:53] [Server thread/INFO]: [WARN] [TrollCommands++] PowerNBT was not found. The /troll attachcommand command has been disabled.
-[15:42:53] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.0.5
-[15:42:53] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.15.0.1
-[15:42:53] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.8
-[15:42:53] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.2.6
-[15:42:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:42:53] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v18.04.27-2ec9a92-1089-19.5.23
-[15:42:53] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
-[15:42:53] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[15:42:53] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
-[15:42:53] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[15:42:53] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
-[15:42:53] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
-[15:42:53] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v2.3.1
-[15:42:53] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.3.5
-[15:42:54] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v18.04.28-154bad6-1983
-[15:42:54] [Server thread/INFO]: Version is PlotSquared-18.4.28-154bad6-1983
-[15:42:54] [Server thread/INFO]: [P2] Metrics enabled.
-[15:42:54] [Server thread/INFO]: [P2]  PlotSquared is using online UUIDs
-[15:42:54] [Server thread/INFO]: PlotSquared hooked into WorldEdit.
-[15:42:54] [Server thread/INFO]: [P2] Key: plot-expiry, Value: false
-[15:42:54] [Server thread/INFO]: [P2] Key: kill-road-mobs, Value: false
-[15:42:54] [Server thread/INFO]: [P2] Key: kill-road-items, Value: false
-[15:42:54] [Server thread/INFO]: [P2] Key: worlds, Value: false
-[15:42:54] [Server thread/INFO]: [P2] Key: worldedit-restrictions, Value: true
-[15:42:54] [Server thread/INFO]: [P2] Key: database-purger, Value: false
-[15:42:54] [Server thread/INFO]: [P2] Key: economy, Value: true
-[15:42:54] [Server thread/INFO]: [P2] Key: block-cache, Value: true
-[15:42:54] [Server thread/INFO]: [P2] Key: kill-road-vehicles, Value: false
-[15:42:54] [Server thread/INFO]: [P2] Key: persistent-meta, Value: true
-[15:42:54] [Server thread/INFO]: [P2] Key: ban-deleter, Value: false
-[15:42:54] [Server thread/INFO]: [P2] Key: updater, Value: true
-[15:42:54] [Server thread/INFO]: [P2] Key: database, Value: true
-[15:42:54] [Server thread/INFO]: [P2] Key: plotme-converter, Value: true
-[15:42:54] [Server thread/INFO]: [P2] Key: permission-cache, Value: true
-[15:42:54] [Server thread/INFO]: [P2] Key: rating-cache, Value: true
-[15:42:54] [Server thread/INFO]: [P2] Key: comment-notifier, Value: false
-[15:42:54] [Server thread/INFO]: [P2] Key: metrics, Value: true
-[15:42:54] [Server thread/INFO]: [P2] Key: chunk-processor, Value: false
-[15:42:54] [Server thread/INFO]: [P2] Key: uuid-cache, Value: true
-[15:42:54] [Server thread/INFO]: [P2] Key: events, Value: true
-[15:42:54] [Server thread/INFO]: [P2] Key: commands, Value: true
-[15:42:54] [Server thread/INFO]: PlotSquared is now enabled
-[15:42:54] [Server thread/INFO]: [P2] Metrics enabled.
-[15:42:54] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.3.0
-[15:42:54] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
-[15:42:54] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[15:42:54] [Server thread/INFO]: Preparing level "Survival"
-[15:42:54] [Server thread/INFO]: -------- World Settings For [Survival] --------
-[15:42:54] [Server thread/INFO]: View Distance: 10
-[15:42:54] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:42:54] [Server thread/INFO]: Item Merge Radius: 3.5
-[15:42:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:42:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:42:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:42:54] [Server thread/INFO]: Experience Merge Radius: 6.0
-[15:42:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:42:54] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
-[15:42:54] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
-[15:42:54] [Server thread/INFO]: Random Lighting Updates: false
-[15:42:54] [Server thread/INFO]: Structure Info Saving: true
-[15:42:54] [Server thread/INFO]: Mob Spawn Range: 3
-[15:42:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:42:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:42:54] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:42:54] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:42:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:42:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:42:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:42:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:42:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:42:54] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:42:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:42:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:42:54] [Server thread/INFO]: Max TNT Explosions: 100
-[15:42:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:42:54] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
-[15:42:54] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3338580988281408739)
-[15:42:55] [Server thread/INFO]: [Wild] Enabling Wild v3.13.1
-[15:42:55] [Server thread/INFO]: [Wild] GriefPrevention hook enabled
-[15:42:55] [Server thread/INFO]: [Wild] Already Converted
-[15:42:55] [Server thread/INFO]: [Wild] Changes from version 3.11.0 to 3.12.0 include: +
+[19:25:41] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[19:25:41] [Server thread/INFO]: Loading properties
+[19:25:41] [Server thread/INFO]: Default game type: SURVIVAL
+[19:25:41] [Server thread/INFO]: This server is running Paper version git-Paper-1383 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[19:25:41] [Server thread/INFO]: Debug logging is disabled
+[19:25:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:25:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:25:41] [Server thread/INFO]: Generating keypair
+[19:25:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:25:41] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:25:42] [Server thread/INFO]: [github.scarsz.discordsrv.dependencies.reflections.Reflections] Reflections took 80 ms to scan 14 urls, producing 13 keys and 21 values 
+[19:25:42] [Server thread/INFO]: [Wild] Loading Wild v3.13.1
+[19:25:42] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.9.7
+[19:25:42] [Server thread/INFO]: [TumbleCraftAdminSummon] Loading TumbleCraftAdminSummon v1.0
+[19:25:42] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.4
+[19:25:42] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.1.4-RELEASE
+[19:25:42] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.2.0
+[19:25:42] [Server thread/INFO]: [Votifier] [Votifier] Loading Votifier v1.9
+[19:25:42] [Server thread/INFO]: [Friends3_0] Loading Friends3_0 v3.0.2.5
+[19:25:42] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v18.04.27-2ec9a92-1089-19.5.23
+[19:25:42] [Server thread/INFO]: [iDisguise] Loading iDisguise v5.6.4
+[19:25:42] [Server thread/INFO]: [HeadDrops] Loading HeadDrops v2.0
+[19:25:42] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[19:25:42] [Server thread/INFO]: [PlayerNameSigns] Loading PlayerNameSigns v1.0
+[19:25:42] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.3.0
+[19:25:42] [Server thread/INFO]: [ViaVersion] ViaVersion 1.3.0 is now loaded, waiting for boot. (late-bind)
+[19:25:42] [Server thread/INFO]: [Hats] Loading Hats v1.6
+[19:25:42] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[19:25:42] [Server thread/INFO]: [Announcements] Loading Announcements v1.0
+[19:25:42] [Server thread/INFO]: [StaffPlus] Loading StaffPlus v3.2.5.1
+[19:25:42] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v2.3.1
+[19:25:42] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.3.5
+[19:25:42] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.7;dd00bb1
+[19:25:42] [Server thread/INFO]: [Essentials] Loading Essentials v2.15.0.1
+[19:25:42] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v1.11.5
+[19:25:42] [Server thread/INFO]: [PlotSquared] Loading PlotSquared v18.05.01-d49bfa6-1985
+[19:25:42] [Server thread/INFO]: [Marriage] Loading Marriage v2.0.17
+[19:25:42] [Server thread/INFO]: [Marriage] Completed plugin pre-load stage.
+[19:25:42] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b719
+[19:25:42] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.3.0
+[19:25:42] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.12.2) has not yet been tested! Proceed with caution.
+[19:25:42] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.1;84bc322
+[19:25:42] [Server thread/INFO]: [Vote] Loading Vote v2.0.1
+[19:25:42] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.22-SNAPSHOT (build 1537)
+[19:25:42] [Server thread/INFO]: [Sentinel] Loading Sentinel v1.4.5 (build 155)
+[19:25:42] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+[19:25:42] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.16.1
+[19:25:42] [Server thread/INFO]: [CrazyAuctions] Loading CrazyAuctions v1.2.4
+[19:25:42] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.15.0.1
+[19:25:43] [Server thread/INFO]: [INFO] [TrollCommands++] Enabling support for iDisguise.
+[19:25:43] [Server thread/INFO]: [INFO] [TrollCommands++] Enabling support for ProtocolLib.
+[19:25:43] [Server thread/INFO]: [WARN] [TrollCommands++] PowerNBT was not found. The /troll attachcommand command has been disabled.
+[19:25:43] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.0.5
+[19:25:43] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.15.0.1
+[19:25:43] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.8
+[19:25:43] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.2.6
+[19:25:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:25:43] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v18.04.27-2ec9a92-1089-19.5.23
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\554a961a-0908-428d-bf07-a1568d0d8547\204.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\554a961a-0908-428d-bf07-a1568d0d8547\205.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\554a961a-0908-428d-bf07-a1568d0d8547\205.nbtt has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\554a961a-0908-428d-bf07-a1568d0d8547\206.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\554a961a-0908-428d-bf07-a1568d0d8547\206.nbtt has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\554a961a-0908-428d-bf07-a1568d0d8547\207.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\1.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\10.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\100.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\101.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\102.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\103.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\104.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\105.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\106.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\107.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\108.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\109.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\11.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\110.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\111.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\112.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\113.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\114.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\115.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\116.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\117.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\118.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\119.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\12.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\120.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\121.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\122.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\123.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\124.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\125.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\126.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\127.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\128.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\129.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\13.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\130.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\131.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\131.entf has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\132.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\132.entf has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\133.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\134.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\135.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\136.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\137.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\138.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\139.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\14.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\140.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\141.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\142.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\143.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\144.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\145.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\146.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\147.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\148.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\149.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\15.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\150.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\151.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\152.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\153.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\154.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\155.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\156.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\157.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\158.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\159.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\16.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\160.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\161.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\162.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\163.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\164.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\165.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\166.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\167.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\168.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\169.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\17.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\170.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\171.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\172.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\173.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\174.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\175.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\176.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\177.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\178.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\179.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\18.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\180.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\181.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\182.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\183.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\184.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\185.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\186.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\187.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\188.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\189.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\19.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\190.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\191.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\192.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\193.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\194.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\195.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\196.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\197.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\198.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\199.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\2.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\20.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\200.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\201.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\202.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\203.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\204.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\205.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\206.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\207.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\208.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\209.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\21.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\210.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\211.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\212.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\213.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\214.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\215.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\216.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\217.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\218.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\219.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\22.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\220.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\221.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\222.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\223.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\224.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\225.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\226.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\227.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\228.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\229.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\23.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\230.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\231.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\232.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\233.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\234.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\235.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\236.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\237.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\238.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\239.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\24.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\240.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\241.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\242.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\243.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\244.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\245.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\246.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\247.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\248.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\249.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\25.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\250.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\251.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\252.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\253.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\254.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\255.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\256.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\257.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\258.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\259.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\26.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\260.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\261.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\262.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\263.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\264.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\265.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\266.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\267.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\268.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\269.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\27.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\270.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\271.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\272.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\273.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\274.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\275.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\276.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\277.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\278.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\279.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\28.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\280.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\281.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\282.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\283.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\284.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\285.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\286.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\287.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\288.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\289.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\29.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\290.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\291.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\292.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\293.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\294.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\295.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\296.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\297.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\298.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\299.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\3.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\30.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\300.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\301.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\302.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\303.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\304.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\305.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\306.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\307.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\308.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\309.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\31.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\310.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\311.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\312.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\313.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\314.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\315.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\316.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\317.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\318.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\319.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\32.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\320.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\321.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\322.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\323.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\324.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\325.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\326.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\327.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\328.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\329.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\33.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\330.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\331.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\332.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\333.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\334.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\335.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\336.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\337.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\338.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\339.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\34.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\340.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\341.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\342.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\343.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\344.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\345.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\346.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\347.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\348.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\349.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\35.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\350.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\351.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\352.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\353.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\354.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\355.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\356.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\357.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\358.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\359.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\36.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\360.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\361.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\362.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\363.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\364.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\365.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\366.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\367.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\368.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\369.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\37.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\370.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\371.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\372.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\373.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\374.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\375.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\376.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\377.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\378.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\379.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\38.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\380.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\381.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\382.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\383.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\384.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\385.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\386.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\387.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\388.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\389.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\39.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\390.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\391.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\392.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\393.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\394.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\395.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\396.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\397.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\398.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\399.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\4.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\40.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\400.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\401.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\402.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\403.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\404.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\405.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\406.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\407.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\408.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\409.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\41.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\410.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\411.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\412.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\413.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\414.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\415.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\416.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\417.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\418.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\419.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\42.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\420.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\421.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\422.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\423.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\424.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\43.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\44.bd has been deleted.
+[19:25:43] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\45.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\46.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\47.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\48.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\49.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\5.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\50.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\51.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\52.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\53.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\54.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\55.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\56.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\57.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\58.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\59.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\6.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\60.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\61.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\62.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\63.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\64.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\65.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\66.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\67.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\68.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\69.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\7.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\70.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\71.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\72.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\73.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\74.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\75.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\76.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\77.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\78.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\79.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\8.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\80.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\81.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\82.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\83.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\84.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\85.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\86.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\87.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\88.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\89.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\9.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\90.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\91.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\92.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\93.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\94.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\95.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\96.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\97.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\98.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\99.bd has been deleted.
+[19:25:44] [Server thread/INFO]: (FAWE) plugins\FastAsyncWorldEdit\history\survival\9d41cc84-c13a-41c5-b5b2-8456053df895\index has been deleted.
+[19:25:45] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[19:25:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[19:25:45] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[19:25:45] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:25:45] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[19:25:45] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[19:25:45] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v2.3.1
+[19:25:45] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.3.5
+[19:25:45] [Server thread/INFO]: [PlotSquared] Enabling PlotSquared v18.05.01-d49bfa6-1985
+[19:25:47] [Server thread/INFO]: Version is PlotSquared-18.5.1-d49bfa6-1985
+[19:25:48] [Server thread/INFO]: [P2] Metrics enabled.
+[19:25:48] [Server thread/INFO]: [P2]  PlotSquared is using online UUIDs
+[19:25:48] [Server thread/INFO]: PlotSquared hooked into WorldEdit.
+[19:25:48] [Server thread/INFO]: [P2] Key: plot-expiry, Value: false
+[19:25:48] [Server thread/INFO]: [P2] Key: kill-road-mobs, Value: false
+[19:25:48] [Server thread/INFO]: [P2] Key: kill-road-items, Value: false
+[19:25:48] [Server thread/INFO]: [P2] Key: worlds, Value: false
+[19:25:48] [Server thread/INFO]: [P2] Key: worldedit-restrictions, Value: true
+[19:25:48] [Server thread/INFO]: [P2] Key: database-purger, Value: false
+[19:25:48] [Server thread/INFO]: [P2] Key: economy, Value: true
+[19:25:48] [Server thread/INFO]: [P2] Key: block-cache, Value: true
+[19:25:48] [Server thread/INFO]: [P2] Key: kill-road-vehicles, Value: false
+[19:25:48] [Server thread/INFO]: [P2] Key: persistent-meta, Value: true
+[19:25:48] [Server thread/INFO]: [P2] Key: ban-deleter, Value: false
+[19:25:48] [Server thread/INFO]: [P2] Key: updater, Value: true
+[19:25:48] [Server thread/INFO]: [P2] Key: database, Value: true
+[19:25:48] [Server thread/INFO]: [P2] Key: plotme-converter, Value: true
+[19:25:48] [Server thread/INFO]: [P2] Key: permission-cache, Value: true
+[19:25:48] [Server thread/INFO]: [P2] Key: rating-cache, Value: true
+[19:25:48] [Server thread/INFO]: [P2] Key: comment-notifier, Value: false
+[19:25:48] [Server thread/INFO]: [P2] Key: metrics, Value: true
+[19:25:48] [Server thread/INFO]: [P2] Key: chunk-processor, Value: false
+[19:25:48] [Server thread/INFO]: [P2] Key: uuid-cache, Value: true
+[19:25:48] [Server thread/INFO]: [P2] Key: events, Value: true
+[19:25:48] [Server thread/INFO]: [P2] Key: commands, Value: true
+[19:25:48] [Server thread/INFO]: PlotSquared is now enabled
+[19:25:48] [Server thread/INFO]: [P2] Metrics enabled.
+[19:25:48] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.3.0
+[19:25:48] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[19:25:48] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:25:48] [Server thread/INFO]: Preparing level "Survival"
+[19:25:48] [Server thread/INFO]: -------- World Settings For [Survival] --------
+[19:25:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:25:48] [Server thread/INFO]: Item Merge Radius: 3.5
+[19:25:48] [Server thread/INFO]: View Distance: 10
+[19:25:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:25:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:25:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:25:48] [Server thread/INFO]: Experience Merge Radius: 6.0
+[19:25:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:25:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[19:25:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:25:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:25:48] [Server thread/INFO]: Structure Info Saving: true
+[19:25:48] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[19:25:48] [Server thread/INFO]: Random Lighting Updates: false
+[19:25:48] [Server thread/INFO]: Max TNT Explosions: 100
+[19:25:48] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
+[19:25:48] [Server thread/INFO]: Mob Spawn Range: 3
+[19:25:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:25:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:25:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:25:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:25:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:25:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:25:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:25:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:25:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:25:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:25:48] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
+[19:25:48] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3338580988281408739)
+[19:25:49] [Server thread/INFO]: [Wild] Enabling Wild v3.13.1
+[19:25:49] [Server thread/INFO]: [Wild] GriefPrevention hook enabled
+[19:25:49] [Server thread/INFO]: [Wild] Already Converted
+[19:25:49] [Server thread/INFO]: [Wild] Changes from version 3.11.0 to 3.12.0 include: +
 * Reworked gui +
 * Fixed NPE from refundPlayer
-[15:42:55] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.7
-[15:42:55] [Server thread/INFO]: [ClearLag] Loading modules...
-[15:42:55] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[15:42:55] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[15:42:55] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[15:42:55] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
-[15:42:55] [Server thread/INFO]: [TumbleCraftAdminSummon] Enabling TumbleCraftAdminSummon v1.0
-[15:42:55] [Server thread/INFO]: [TumbleCraftAdminSummon] TumbleCraftAdminSummon Enabled.
-[15:42:55] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.4
-[15:42:55] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.1.4-RELEASE
-[15:42:55] [Server thread/INFO]: 
-[15:42:55] [Server thread/INFO]:  
-[15:42:55] [Server thread/INFO]: []=====[Enabling AdvancedBan]=====[]
-[15:42:55] [Server thread/INFO]: | Information:
-[15:42:55] [Server thread/INFO]: |   Name: AdvancedBan
-[15:42:55] [Server thread/INFO]: |   Developer: Leoko
-[15:42:55] [Server thread/INFO]: |   Version: 2.1.4-RELEASE
-[15:42:55] [Server thread/INFO]: |   Storage: HSQLDB (local)
-[15:42:55] [Server thread/INFO]: | Support:
-[15:42:55] [Server thread/INFO]: |   Skype: Leoko33
-[15:42:55] [Server thread/INFO]: |   Mail: Leoko4433@gmail.com
-[15:42:55] [Server thread/INFO]: | Update:
-[15:42:55] [Server thread/INFO]: |   There is a new version available! [2.1.3-RELEASE]
-[15:42:55] [Server thread/INFO]: []================================[]
-[15:42:55] [Server thread/INFO]:  
-[15:42:55] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.2.0
-[15:42:55] [Server thread/INFO]: [NametagEdit] Found PermissionsEx! Hooking in.
-[15:42:55] [Server thread/INFO]: [Votifier] [Votifier] Enabling Votifier v1.9
-[15:42:55] [Server thread/INFO]: [Votifier] [Votifier] Votifier enabled.
-[15:42:55] [Server thread/INFO]: [Friends3_0] Enabling Friends3_0 v3.0.2.5
-[15:42:56] [Server thread/INFO]: Friends | A new update is available!
-[15:42:56] [Server thread/INFO]: Friends | Please update your plugin!
-[15:42:56] [Server thread/INFO]: Friends | You will get no support for this version!
-[15:42:56] [Server thread/INFO]: Friends | The plugin was successfully loaded! < FlatFile >
-[15:42:56] [Server thread/INFO]: [iDisguise] Enabling iDisguise v5.6.4
-[15:42:56] [Server thread/INFO]: [iDisguise] iDisguise 5.6.4 enabled!
-[15:42:56] [Server thread/INFO]: [HeadDrops] Enabling HeadDrops v2.0
-[15:42:56] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
-[15:42:56] [Server thread/INFO]: [PermissionsEx] Initializing file backend
-[15:42:56] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
-[15:42:56] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
-[15:42:56] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
-[15:42:56] [Server thread/INFO]: [PlayerNameSigns] Enabling PlayerNameSigns v1.0
-[15:42:56] [Server thread/INFO]: [PlayerNameSigns] PlayerNameSigns Enabled
-[15:42:56] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.3.0
-[15:42:56] [Server thread/INFO]: [Hats] Enabling Hats v1.6
-[15:42:56] [Server thread/INFO]: [Hats] *************** HATS ****************
-[15:42:56] [Server thread/INFO]: [Hats] # Version : 1.6
-[15:42:56] [Server thread/INFO]: [Hats] # Autor   : bernatixer
-[15:42:56] [Server thread/INFO]: [Hats] # Webpage : www.bernatixer.com
-[15:42:56] [Server thread/INFO]: [Hats] *************************************
-[15:42:56] [Server thread/INFO]: [Announcements] Enabling Announcements v1.0
-[15:42:56] [Server thread/INFO]: [Announcements] Hello.
-[15:42:56] [Server thread/INFO]: [StaffPlus] Enabling StaffPlus v3.2.5.1
-[15:42:56] [Server thread/INFO]: [APIManager] API class 'org.inventivetalent.packetlistener.PacketListenerAPI' is not yet initialized. Creating new instance.
-[15:42:56] [Server thread/INFO]: [ReflectionHelper] Version is v1_12_R1 (11201)
-[15:42:56] [Server thread/INFO]: [PacketListenerAPI] Using INChannel
-[15:42:56] [Server thread/INFO]: [PacketListenerAPI] Injected custom channel handlers.
-[15:42:56] [Server thread/INFO]: [PacketListenerAPI] Adding channels for online players...
-[15:42:56] [Server thread/INFO]: [Staff+] Version protocol set to 'v1_12_R1'.
-[15:42:56] [Server thread/INFO]: [Staff+] Staff+ has been enabled! Initialization took 38ms.
-[15:42:56] [Server thread/INFO]: [Staff+] Plugin created by Shortninja.
-[15:42:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.7;dd00bb1
-[15:42:56] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
-[15:42:56] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R1 as the Bukkit adapter
-[15:42:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.15.0.1
-[15:42:56] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:42:56] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:42:56] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[15:42:56] [Thread-9/INFO]: [ClearLag] No updates found!
-[15:42:56] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
-[15:42:56] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[15:42:56] [Server thread/INFO]: [Essentials] Using locale en_GB
-[15:42:56] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
-[15:42:56] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:42:56] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
-[15:42:56] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
-[15:42:56] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v1.11.5
-[15:42:56] [Server thread/INFO]: [PerWorldInventory] Registering listeners...
-[15:42:56] [Server thread/INFO]: [PerWorldInventory] Listeners registered!
-[15:42:56] [Server thread/INFO]: [PerWorldInventory] Registering commands...
-[15:42:56] [Server thread/INFO]: [PerWorldInventory] Commands registered!
-[15:42:56] [Server thread/INFO]: [PerWorldInventory] Vault found! Hooking into it...
-[15:42:56] [Server thread/INFO]: [PerWorldInventory] Hooked into Vault!
-[15:42:56] [Server thread/INFO]: [Marriage] Enabling Marriage v2.0.17
-[15:42:56] [Server thread/INFO]: [Marriage] Loading config...
-[15:42:56] [Thread-12/WARN]: Exception in thread "Thread-12" java.lang.NullPointerException
-[15:42:56] [Thread-12/WARN]: 	at de.timolia.headdrops.Updater$1.run(Updater.java:52)
-[15:42:56] [Thread-12/WARN]: 	at java.lang.Thread.run(Unknown Source)
-[15:42:56] [Server thread/INFO]: [Marriage] Hooked with PermissionsEx using Vault!
-[15:42:56] [Server thread/INFO]: [Marriage] Loading dependencies...
-[15:42:56] [Server thread/INFO]: [Marriage] Loading database...
-[15:42:56] [Server thread/INFO]: [Marriage] Loading commands...
-[15:42:56] [Server thread/INFO]: [Marriage] Loading listeners...
-[15:42:56] [Server thread/INFO]: [Marriage] Hooking with PlotSquared v18.04.28-154bad6-1983
-[15:42:56] [Server thread/INFO]: [Marriage] Loading updater...
-[15:42:56] [Server thread/INFO]: [Marriage] Loading converter...
-[15:42:56] [Server thread/INFO]: [Marriage] Completed plugin load stage.
-[15:42:56] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
-[15:42:57] [Server thread/INFO]: [P2]  - schematic: false
-[15:42:57] [Server thread/INFO]: -------- World Settings For [Creative] --------
-[15:42:57] [Server thread/INFO]: View Distance: 10
-[15:42:57] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:42:57] [Server thread/INFO]: Item Merge Radius: 3.5
-[15:42:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:42:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:42:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:42:57] [Server thread/INFO]: Experience Merge Radius: 6.0
-[15:42:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:42:57] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
-[15:42:57] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
-[15:42:57] [Server thread/INFO]: Random Lighting Updates: false
-[15:42:57] [Server thread/INFO]: Structure Info Saving: true
-[15:42:57] [Server thread/INFO]: Mob Spawn Range: 3
-[15:42:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:42:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:42:57] [Server thread/INFO]: Max TNT Explosions: 100
-[15:42:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:42:57] [Server thread/INFO]: [P2] Detected world load for 'Creative'
-[15:42:57] [Server thread/INFO]: [P2]  - generator: PlotSquared>PlotSquared
-[15:42:57] [Server thread/INFO]: [P2]  - plotworld: com.intellectualcrafters.plot.generator.HybridPlotWorld
-[15:42:57] [Server thread/INFO]: [P2]  - manager: com.intellectualcrafters.plot.generator.HybridPlotManager
-[15:42:57] [Server thread/INFO]: [P2]  - schematic: false
-[15:42:57] [Server thread/INFO]: World possibly already loaded: Creative
-[15:42:57] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6330577853313346332)
-[15:42:57] [Server thread/INFO]: [P2]  - schematic: false
-[15:42:57] [Server thread/INFO]: -------- World Settings For [Staff] --------
-[15:42:57] [Server thread/INFO]: View Distance: 10
-[15:42:57] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:42:57] [Server thread/INFO]: Item Merge Radius: 3.5
-[15:42:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:42:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:42:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:42:57] [Server thread/INFO]: Experience Merge Radius: 6.0
-[15:42:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:42:57] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
-[15:42:57] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
-[15:42:57] [Server thread/INFO]: Random Lighting Updates: false
-[15:42:57] [Server thread/INFO]: Structure Info Saving: true
-[15:42:57] [Server thread/INFO]: Mob Spawn Range: 3
-[15:42:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:42:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:42:57] [Server thread/INFO]: Max TNT Explosions: 100
-[15:42:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:42:57] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
-[15:42:57] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8624399134769984105)
-[15:42:57] [Server thread/INFO]: -------- World Settings For [DrCraft] --------
-[15:42:57] [Server thread/INFO]: View Distance: 10
-[15:42:57] [Server thread/INFO]: Item Despawn Rate: 6000
-[15:42:57] [Server thread/INFO]: Item Merge Radius: 3.5
-[15:42:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[15:42:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[15:42:57] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[15:42:57] [Server thread/INFO]: Experience Merge Radius: 6.0
-[15:42:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[15:42:57] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
-[15:42:57] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
-[15:42:57] [Server thread/INFO]: Random Lighting Updates: false
-[15:42:57] [Server thread/INFO]: Structure Info Saving: true
-[15:42:57] [Server thread/INFO]: Mob Spawn Range: 3
-[15:42:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[15:42:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Cane Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Melon Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Vine Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[15:42:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[15:42:57] [Server thread/INFO]: Max TNT Explosions: 100
-[15:42:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[15:42:57] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
-[15:42:57] [Server thread/INFO]: Preparing start region for level 3 (Seed: 1406291257435953756)
-[15:42:58] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[15:42:58] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
-[15:42:58] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.1;84bc322
-[15:42:58] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
-[15:42:58] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
-[15:42:58] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is blocked.
-[15:42:58] [Server thread/INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
-[15:42:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
-[15:42:58] [Server thread/INFO]: [WorldGuard] (Creative) TNT ignition is PERMITTED.
-[15:42:58] [Server thread/INFO]: [WorldGuard] (Creative) Lighters are PERMITTED.
-[15:42:58] [Server thread/INFO]: [WorldGuard] (Creative) Lava fire is blocked.
-[15:42:58] [Server thread/INFO]: [WorldGuard] (Creative) Fire spread is UNRESTRICTED.
-[15:42:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Creative'
-[15:42:58] [Server thread/INFO]: [WorldGuard] (Staff) TNT ignition is PERMITTED.
-[15:42:58] [Server thread/INFO]: [WorldGuard] (Staff) Lighters are PERMITTED.
-[15:42:58] [Server thread/INFO]: [WorldGuard] (Staff) Lava fire is blocked.
-[15:42:58] [Server thread/INFO]: [WorldGuard] (Staff) Fire spread is UNRESTRICTED.
-[15:42:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Staff'
-[15:42:58] [Server thread/INFO]: [WorldGuard] (DrCraft) TNT ignition is PERMITTED.
-[15:42:58] [Server thread/INFO]: [WorldGuard] (DrCraft) Lighters are PERMITTED.
-[15:42:58] [Server thread/INFO]: [WorldGuard] (DrCraft) Lava fire is blocked.
-[15:42:58] [Server thread/INFO]: [WorldGuard] (DrCraft) Fire spread is UNRESTRICTED.
-[15:42:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'DrCraft'
-[15:42:58] [Server thread/INFO]: [WorldGuard] Loading region data...
-[15:42:58] [Server thread/INFO]: [Vote] Enabling Vote v2.0.1
-[15:42:58] [Server thread/INFO]: [LOG]  [Vote] Has been enabled!
-[15:42:58] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.22-SNAPSHOT (build 1537)
-[15:42:58] [Server thread/INFO]: [Sentinel] Enabling Sentinel v1.4.5 (build 155)
-[15:42:58] [Server thread/INFO]: [Sentinel] Sentinel loading...
-[15:42:58] [Server thread/INFO]: [Sentinel] Sentinel loaded!
-[15:42:58] [Server thread/INFO]: [Sentinel] Vault linked! Group targets will work.
-[15:42:58] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4
-[15:42:58] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.16.1
-[15:42:58] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v1.2.4
-[15:42:59] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.15.0.1
-[15:42:59] [Server thread/INFO]: [INFO] [TrollCommands++] Enabling support for BungeeCord.
-[15:43:00] [Server thread/INFO]: [INFO]   _______        _ _  _____                                          _                 
-[15:43:00] [Server thread/INFO]: [INFO]  |__   __|      | | |/ ____|                                        | |      _     _   
-[15:43:00] [Server thread/INFO]: [INFO]     | |_ __ ___ | | | |     ___  _ __ ___  _ __ ___   __ _ _ __   __| |___ _| |_ _| |_ 
-[15:43:00] [Server thread/INFO]: [INFO]     | | '__/ _ \| | | |    / _ \| '_ ` _ \| '_ ` _ \ / _` | '_ \ / _` / __|_   _|_   _|
-[15:43:00] [Server thread/INFO]: [INFO]     | | | | (_) | | | |___| (_) | | | | | | | | | | | (_| | | | | (_| \__ \ |_|   |_|  
-[15:43:00] [Server thread/INFO]: [INFO]     |_|_|  \___/|_|_|\_____\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_|___/            
-[15:43:00] [Server thread/INFO]: [INFO] [Version 6.28.53] 98 commands 124 events 104 permissions 30 tick handlers 1 message handlers
-[15:43:00] [Server thread/INFO]: [INFO] [TrollCommands++] Attempting to load compatibility with Bukkit version 1.12.2
-[15:43:00] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.0.5
-[15:43:00] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
-[15:43:00] [Server thread/INFO]: [SuperVanish] Hooked into Citizens
-[15:43:00] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.15.0.1
-[15:43:00] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.8
-[15:43:00] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[15:43:00] [Server thread/INFO]: [GriefPrevention] 21 total claims loaded.
-[15:43:00] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[15:43:00] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
-[15:43:00] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[15:43:00] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[15:43:00] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
-[15:43:00] [Server thread/INFO]: [HolographicDisplays] Found ProtocolLib, using new version.
-[15:43:00] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
-[15:43:00] [Server thread/INFO]: Done (6.102s)! For help, type "help" or "?"
-[15:43:00] [Server thread/INFO]: Using default channel type
-[15:43:00] [Server thread/INFO]: Timings Reset
-[15:43:00] [Craft Scheduler Thread - 18/INFO]: [Marriage] Purged 0 player entries in 5ms
-[15:43:00] [Craft Scheduler Thread - 12/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[15:43:00] [Server thread/INFO]: (FAWE) Plugin 'WorldGuard' found. Using it now.
-[15:43:01] [Server thread/INFO]: (FAWE) Plugin 'GriefPrevention' found. Using it now.
-[15:43:01] [Server thread/INFO]: (FAWE) Optimizing PlotSquared
-[15:43:01] [Server thread/INFO]: (FAWE)  - QueueProvider: class com.boydti.fawe.regions.general.plot.FaweLocalBlockQueue
-[15:43:01] [Server thread/INFO]: (FAWE)  - HybridPlotManager.REGENERATIVE_CLEAR: false
-[15:43:01] [Server thread/INFO]: (FAWE)  - SchematicHandler: com.boydti.fawe.regions.general.plot.FaweSchematicHandler@29e040b0
-[15:43:01] [Server thread/INFO]: (FAWE)  - ChunkManager: com.boydti.fawe.regions.general.plot.FaweChunkManager@1c5743a3
-[15:43:01] [Server thread/INFO]: (FAWE) Plugin 'PlotSquared' found. Using it now.
-[15:43:01] [Craft Scheduler Thread - 25/INFO]: 
-[15:43:01] [Craft Scheduler Thread - 9/INFO]: [PlugMan] No update was found.
-[15:43:01] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
-[15:43:01] [Server thread/INFO]: [ViaVersion] Enabling PaperSpigot/TacoSpigot patch: Fixes block placement.
-[15:43:01] [Server thread/INFO]: [Citizens] Loaded 19 NPCs.
-[15:43:01] [Craft Scheduler Thread - 8/INFO]: [Wild] There is an update available please go download it
-[15:43:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (4fc493c3a51ba98706c6c31ed736d164ec81872d)
-[15:43:01] [Craft Scheduler Thread - 8/INFO]: [Vault] Checking for Updates ... 
-[15:43:01] [Craft Scheduler Thread - 8/INFO]: [Vault] No new version available
-[15:43:01] [Server thread/INFO]: Starting UUID caching
-[15:43:01] [Craft Scheduler Thread - 9/INFO]: [P2] Starting player data caching for: Survival
-[15:43:01] [Craft Scheduler Thread - 9/INFO]: Fast mode UUID caching enabled!
-[15:43:01] [Craft Scheduler Thread - 9/INFO]: [P2] Cached a total of: 8 UUIDs
-[15:43:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Language initialized as English
-[15:43:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Thank you so much to these people for allowing DiscordSRV to grow to what it is: Ac3dUd3, Androkai, anton8604, buildblox, Bysokar, CoreyD97, DeeKay, Diamondman121314/DMAN, FataL, Foxy, geekhideout, Helmic, KaizenWorlds, LDSG Ghost, Mick, mikedmd, mikedmd again, Mitecraft, PChard, Rui, Ryan (The Loyal One), Sicnus
-[15:43:02] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
-[15:43:03] [Craft Scheduler Thread - 1/INFO]: (FAWE) Updated FAWE to 18.04.29-d32bcaa-1096-19.7.1 @ null
-[15:43:03] [Craft Scheduler Thread - 1/INFO]: (FAWE) /restart to update FAWE with these changes: /fawe changelog or https://empcraft.com/fawe/cl?2ec9a92
-[15:43:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[15:43:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Tumble Network(337887798889545728)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcome(338025080317804544)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:about(338019443319898114)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:announcements(338020007684472842)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(337887798889545728)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:random(338023793333239809)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:doctorbatmanwho(434539208221392916)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblegamer(434539228295200798)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:help(434535137019953152)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:future-discussion(437656067002859520)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft(434064099257745409)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblecraft-console(434064718110392346)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:doublethepsycho(437360428293685259)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mineracer(439916363558027264)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff-public(437304249886441492)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff-private(437304351011110912)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:admin-public(437304463066398740)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:admin-private(437304535300440066)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tn-public(437304697808879617)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tn-private(437304753173692427)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tweet-log(338020659303153675)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:bot-log(338026003840630784)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:git-log(338021938469404674)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mod-log(434536352177192980)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:kou(440136672810762240)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:idemoniichypei(440627945896280075)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:spiderblowsup(440824988912844809)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:tumblecraft-console(434064718110392346)
-[15:43:03] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
-[15:43:05] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
-[15:46:06] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[15:49:06] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
-[15:49:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[15:50:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] Bootista: Hello
-[15:50:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[15:50:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] Bootista: Do you still need a story writer?
-[15:50:41] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[15:52:07] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
-[15:55:07] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
-[15:57:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[15:58:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[15:58:03] [Craft Scheduler Thread - 60/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[15:58:04] [Craft Scheduler Thread - 64/INFO]: 
-[15:58:23] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[16:01:09] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
-[16:02:18] [User Authenticator #1/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
-[16:02:19] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
-[16:02:19] [Server thread/INFO]: TumbleGamer[/127.0.0.1:53482] logged in with entity id 5284 at ([Survival]12718.708550040097, 69.0, 6063.118078439087)
-[16:02:19] [Server thread/INFO]: +[Owner] TumbleGamer
-[16:02:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [World Painter] Jacob50505: I believe so, You'll probably have to speak to @TumbleGamer
-[16:02:53] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
-[16:02:53] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer quit with silent quitting permission, not sending a quit message
-[16:02:53] [Server thread/INFO]: -[Owner] TumbleGamer
-[16:03:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: hi
-[16:03:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: @Bootista hello?
-[16:03:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] Bootista: Yes hi
-[16:03:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] Bootista: Sorry I was afk
-[16:04:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: thanks jacob
-[16:04:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [World Painter] Jacob50505: np :smiley:
-[16:04:10] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[16:05:05] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[16:05:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] Bootista: So do you still need a Story Writer?
-[16:05:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: yes please
-[16:05:45] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[16:06:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] Bootista: I can help you with that then.
-[16:06:05] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[16:06:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: ok
-[16:07:10] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
-[16:10:11] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
-[16:12:46] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[16:13:06] [Craft Scheduler Thread - 105/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[16:13:06] [Craft Scheduler Thread - 109/INFO]: 
-[16:13:08] [Craft Scheduler Thread - 99/INFO]: Updated PlotSquared to 18.05.01-d49bfa6-1985
-[16:13:08] [Craft Scheduler Thread - 99/INFO]: Restart to update PlotSquared with these changes: /plot changelog or http://empcraft.com/plots/cl?154bad6
-[16:13:11] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
-[16:13:26] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[16:13:46] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[16:19:12] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
-[16:20:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[16:21:07] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[16:21:27] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[16:22:12] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[16:25:13] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
-[16:28:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[16:28:08] [Craft Scheduler Thread - 143/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[16:28:08] [Craft Scheduler Thread - 147/INFO]: 
-[16:28:13] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
-[16:28:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[16:29:08] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[16:31:14] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
-[16:35:49] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[16:36:29] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[16:36:49] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[16:37:14] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
-[16:40:14] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[16:43:10] [Craft Scheduler Thread - 183/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[16:43:10] [Craft Scheduler Thread - 184/INFO]: [Marriage] Purged 0 player entries in 2ms
-[16:43:10] [Craft Scheduler Thread - 188/INFO]: 
-[16:43:15] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
-[16:43:30] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[16:44:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[16:44:30] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[16:46:15] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
-[16:46:18] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
-[16:49:15] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
-[16:51:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[16:51:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[16:52:10] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[16:55:16] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
-[16:58:11] [Craft Scheduler Thread - 223/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[16:58:11] [Craft Scheduler Thread - 227/INFO]: 
-[16:58:16] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[16:58:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[16:59:31] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[16:59:51] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[17:01:17] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
-[17:04:17] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
-[17:06:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[17:07:13] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[17:07:18] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
-[17:07:33] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[17:13:14] [Craft Scheduler Thread - 264/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[17:13:14] [Craft Scheduler Thread - 268/INFO]: 
-[17:13:18] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
-[17:14:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[17:14:54] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[17:15:14] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[17:16:19] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[17:19:19] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
-[17:21:55] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[17:22:20] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
-[17:22:35] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[17:22:55] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[17:25:20] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
-[17:28:11] [User Authenticator #2/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
-[17:28:12] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
-[17:28:12] [Server thread/INFO]: TumbleGamer[/127.0.0.1:59686] logged in with entity id 28134 at ([Survival]12742.317408443052, 69.0, 6049.952350947835)
-[17:28:12] [Server thread/INFO]: +[Owner] TumbleGamer
-[17:28:15] [Craft Scheduler Thread - 301/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[17:28:16] [Craft Scheduler Thread - 305/INFO]: 
-[17:28:43] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
-[17:28:43] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer quit with silent quitting permission, not sending a quit message
-[17:28:43] [Server thread/INFO]: -[Owner] TumbleGamer
-[17:29:36] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[17:30:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[17:30:36] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[17:31:21] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
-[17:34:21] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[17:37:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[17:37:21] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
-[17:37:57] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[17:38:17] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[17:40:22] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
-[17:43:17] [Craft Scheduler Thread - 343/INFO]: [Marriage] Purged 0 player entries in 0ms
-[17:43:17] [Craft Scheduler Thread - 342/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[17:43:18] [Craft Scheduler Thread - 347/INFO]: 
-[17:43:20] [Craft Scheduler Thread - 335/INFO]: (FAWE) Updated FAWE to 18.05.01-0331836-1097-19.7.2 @ null
-[17:43:20] [Craft Scheduler Thread - 335/INFO]: (FAWE) /restart to update FAWE with these changes: /fawe changelog or https://empcraft.com/fawe/cl?2ec9a92
-[17:43:22] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
-[17:44:57] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[17:45:37] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[17:45:57] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[17:49:23] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
-[17:50:22] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
-[17:52:23] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[17:52:38] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[17:53:19] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[17:53:39] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[17:55:24] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
-[17:57:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#%channelname%] [Tumble Network Team] TumbleGamer: https://cdn.discordapp.com/attachments/338023793333239809/440919817642442752/unknown.png
-[17:57:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [Tumble Network Team] TumbleGamer: oh no
-[17:58:20] [Craft Scheduler Thread - 382/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[17:58:20] [Craft Scheduler Thread - 386/INFO]: 
-[17:58:25] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
-[18:00:20] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[18:01:00] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[18:01:20] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[18:01:25] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
-[18:02:05] [User Authenticator #3/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
-[18:02:05] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
-[18:02:05] [Server thread/INFO]: TumbleGamer[/127.0.0.1:63367] logged in with entity id 37221 at ([Survival]12744.136448467561, 74.0, 6049.592611544046)
-[18:02:05] [Server thread/INFO]: +[Owner] TumbleGamer
-[18:03:33] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#announcements] [Tumble Network Team] TumbleGamer: @everyone might livestream on this server
-[18:06:05] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
-[18:06:05] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer quit with silent quitting permission, not sending a quit message
-[18:06:05] [Server thread/INFO]: -[Owner] TumbleGamer
-[18:07:26] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
-[18:08:01] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[18:08:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[18:09:01] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[18:10:27] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[18:12:32] [User Authenticator #4/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
-[18:12:32] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
-[18:12:32] [Server thread/INFO]: TumbleGamer[/127.0.0.1:64135] logged in with entity id 40265 at ([Survival]12755.82385807025, 71.0, 6080.5312977509675)
-[18:12:32] [Server thread/INFO]: +[Owner] TumbleGamer
-[18:13:22] [Craft Scheduler Thread - 407/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[18:13:22] [Craft Scheduler Thread - 411/INFO]: 
-[18:13:27] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
-[18:15:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[18:16:22] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[18:16:27] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
-[18:16:42] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
-[18:19:05] [Server thread/INFO]: TumbleGamer issued server command: /gmc
-[18:19:10] [Server thread/INFO]: TumbleGamer issued server command: /spawn
-[18:19:28] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
-[18:19:48] [Server thread/INFO]: TumbleGamer issued server command: /home
-[18:19:50] [Server thread/INFO]: TumbleGamer issued server command: /home home
-[18:19:56] [Server thread/INFO]: TumbleGamer issued server command: /gms
-[18:23:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[18:24:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[18:24:23] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[18:25:28] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
-[18:28:24] [Craft Scheduler Thread - 421/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[18:28:24] [Craft Scheduler Thread - 425/INFO]: 
-[18:28:28] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[18:31:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[18:31:29] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
-[18:31:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[18:32:04] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[18:34:29] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
-[18:37:29] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
-[18:38:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[18:39:24] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[18:39:44] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[18:43:24] [Craft Scheduler Thread - 438/INFO]: [Marriage] Purged 0 player entries in 1ms
-[18:43:24] [Craft Scheduler Thread - 437/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[18:43:25] [Craft Scheduler Thread - 442/INFO]: 
-[18:43:29] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
-[18:46:24] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[18:46:29] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[18:47:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[18:47:24] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[18:49:30] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
-[18:52:30] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
-[18:53:39] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
-[18:54:05] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[18:54:45] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[18:55:05] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[18:55:30] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
-[18:55:55] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
-[18:55:55] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer quit with silent quitting permission, not sending a quit message
-[18:55:55] [Server thread/INFO]: -[Owner] TumbleGamer
-[18:58:26] [Craft Scheduler Thread - 457/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
-java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
-	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
-	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
-	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[18:58:26] [Craft Scheduler Thread - 461/INFO]: 
-[19:01:31] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
-[19:01:46] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
-[19:02:26] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
-[19:02:46] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
-[19:04:31] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
-[19:07:32] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[19:25:49] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.9.7
+[19:25:49] [Server thread/INFO]: [ClearLag] Loading modules...
+[19:25:49] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[19:25:49] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[19:25:49] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[19:25:49] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.12]...
+[19:25:49] [Server thread/INFO]: [TumbleCraftAdminSummon] Enabling TumbleCraftAdminSummon v1.0
+[19:25:49] [Server thread/INFO]: [TumbleCraftAdminSummon] TumbleCraftAdminSummon Enabled.
+[19:25:49] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.4
+[19:25:49] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.1.4-RELEASE
+[19:25:50] [Server thread/INFO]: 
+[19:25:50] [Server thread/INFO]:  
+[19:25:50] [Server thread/INFO]: []=====[Enabling AdvancedBan]=====[]
+[19:25:50] [Server thread/INFO]: | Information:
+[19:25:50] [Server thread/INFO]: |   Name: AdvancedBan
+[19:25:50] [Server thread/INFO]: |   Developer: Leoko
+[19:25:50] [Server thread/INFO]: |   Version: 2.1.4-RELEASE
+[19:25:50] [Server thread/INFO]: |   Storage: HSQLDB (local)
+[19:25:50] [Server thread/INFO]: | Support:
+[19:25:50] [Server thread/INFO]: |   Skype: Leoko33
+[19:25:50] [Server thread/INFO]: |   Mail: Leoko4433@gmail.com
+[19:25:50] [Server thread/INFO]: | Update:
+[19:25:50] [Server thread/INFO]: |   There is a new version available! [2.1.3-RELEASE]
+[19:25:50] [Server thread/INFO]: []================================[]
+[19:25:50] [Server thread/INFO]:  
+[19:25:50] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.2.0
+[19:25:50] [Server thread/INFO]: [NametagEdit] Found PermissionsEx! Hooking in.
+[19:25:50] [Server thread/INFO]: [Votifier] [Votifier] Enabling Votifier v1.9
+[19:25:50] [Server thread/INFO]: [Votifier] [Votifier] Votifier enabled.
+[19:25:50] [Server thread/INFO]: [Friends3_0] Enabling Friends3_0 v3.0.2.5
+[19:25:50] [Server thread/INFO]: Friends | A new update is available!
+[19:25:50] [Server thread/INFO]: Friends | Please update your plugin!
+[19:25:50] [Server thread/INFO]: Friends | You will get no support for this version!
+[19:25:50] [Server thread/INFO]: Friends | The plugin was successfully loaded! < FlatFile >
+[19:25:50] [Server thread/INFO]: [iDisguise] Enabling iDisguise v5.6.4
+[19:25:50] [Server thread/INFO]: [iDisguise] iDisguise 5.6.4 enabled!
+[19:25:50] [Server thread/INFO]: [HeadDrops] Enabling HeadDrops v2.0
+[19:25:50] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[19:25:50] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[19:25:50] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[19:25:50] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[19:25:50] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[19:25:50] [Server thread/INFO]: [PlayerNameSigns] Enabling PlayerNameSigns v1.0
+[19:25:50] [Server thread/INFO]: [PlayerNameSigns] PlayerNameSigns Enabled
+[19:25:50] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.3.0
+[19:25:50] [Server thread/INFO]: [Hats] Enabling Hats v1.6
+[19:25:50] [Server thread/INFO]: [Hats] *************** HATS ****************
+[19:25:50] [Server thread/INFO]: [Hats] # Version : 1.6
+[19:25:50] [Server thread/INFO]: [Hats] # Autor   : bernatixer
+[19:25:50] [Server thread/INFO]: [Hats] # Webpage : www.bernatixer.com
+[19:25:50] [Server thread/INFO]: [Hats] *************************************
+[19:25:50] [Server thread/INFO]: [Announcements] Enabling Announcements v1.0
+[19:25:50] [Server thread/INFO]: [Announcements] Hello.
+[19:25:50] [Server thread/INFO]: [StaffPlus] Enabling StaffPlus v3.2.5.1
+[19:25:50] [Server thread/INFO]: [APIManager] API class 'org.inventivetalent.packetlistener.PacketListenerAPI' is not yet initialized. Creating new instance.
+[19:25:50] [Server thread/INFO]: [ReflectionHelper] Version is v1_12_R1 (11201)
+[19:25:50] [Server thread/INFO]: [PacketListenerAPI] Using INChannel
+[19:25:50] [Server thread/INFO]: [PacketListenerAPI] Injected custom channel handlers.
+[19:25:50] [Server thread/INFO]: [PacketListenerAPI] Adding channels for online players...
+[19:25:50] [Server thread/INFO]: [Staff+] Version protocol set to 'v1_12_R1'.
+[19:25:51] [Server thread/INFO]: [Staff+] Staff+ has been enabled! Initialization took 52ms.
+[19:25:51] [Server thread/INFO]: [Staff+] Plugin created by Shortninja.
+[19:25:51] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.7;dd00bb1
+[19:25:51] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[19:25:51] [Thread-9/INFO]: [ClearLag] No updates found!
+[19:25:51] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R1 as the Bukkit adapter
+[19:25:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.15.0.1
+[19:25:51] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[19:25:51] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[19:25:51] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[19:25:51] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[19:25:51] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[19:25:51] [Server thread/INFO]: [Essentials] Using locale en_GB
+[19:25:51] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[19:25:51] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[19:25:51] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[19:25:51] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[19:25:51] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v1.11.5
+[19:25:51] [Server thread/INFO]: [PerWorldInventory] Registering listeners...
+[19:25:51] [Server thread/INFO]: [PerWorldInventory] Listeners registered!
+[19:25:51] [Server thread/INFO]: [PerWorldInventory] Registering commands...
+[19:25:51] [Server thread/INFO]: [PerWorldInventory] Commands registered!
+[19:25:51] [Server thread/INFO]: [PerWorldInventory] Vault found! Hooking into it...
+[19:25:51] [Server thread/INFO]: [PerWorldInventory] Hooked into Vault!
+[19:25:51] [Server thread/INFO]: [Marriage] Enabling Marriage v2.0.17
+[19:25:51] [Server thread/INFO]: [Marriage] Loading config...
+[19:25:51] [Thread-12/WARN]: Exception in thread "Thread-12" java.lang.NullPointerException
+[19:25:51] [Thread-12/WARN]: 	at de.timolia.headdrops.Updater$1.run(Updater.java:52)
+[19:25:51] [Thread-12/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[19:25:51] [Server thread/INFO]: [Marriage] Hooked with PermissionsEx using Vault!
+[19:25:51] [Server thread/INFO]: [Marriage] Loading dependencies...
+[19:25:51] [Server thread/INFO]: [Marriage] Loading commands...
+[19:25:51] [Server thread/INFO]: [Marriage] Loading listeners...
+[19:25:51] [Server thread/INFO]: [Marriage] Hooking with PlotSquared v18.05.01-d49bfa6-1985
+[19:25:51] [Server thread/INFO]: [Marriage] Loading database...
+[19:25:51] [Server thread/INFO]: [Marriage] Loading updater...
+[19:25:51] [Server thread/INFO]: [Marriage] Loading converter...
+[19:25:51] [Server thread/INFO]: [Marriage] Completed plugin load stage.
+[19:25:51] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
+[19:25:51] [Server thread/INFO]: [P2]  - schematic: false
+[19:25:52] [Server thread/INFO]: -------- World Settings For [Creative] --------
+[19:25:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:25:52] [Server thread/INFO]: Item Merge Radius: 3.5
+[19:25:52] [Server thread/INFO]: View Distance: 10
+[19:25:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:25:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:25:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:25:52] [Server thread/INFO]: Experience Merge Radius: 6.0
+[19:25:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:25:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[19:25:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:25:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:25:52] [Server thread/INFO]: Structure Info Saving: true
+[19:25:52] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[19:25:52] [Server thread/INFO]: Random Lighting Updates: false
+[19:25:52] [Server thread/INFO]: Max TNT Explosions: 100
+[19:25:52] [Server thread/INFO]: Hopper Transfer: 24 Hopper Check: 24 Hopper Amount: 3
+[19:25:52] [Server thread/INFO]: Mob Spawn Range: 3
+[19:25:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:25:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:25:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:25:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:25:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:25:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:25:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:25:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:25:52] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:25:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:25:52] [Server thread/INFO]: [P2] Detected world load for 'Creative'
+[19:25:52] [Server thread/INFO]: [P2]  - generator: PlotSquared>PlotSquared
+[19:25:52] [Server thread/INFO]: [P2]  - plotworld: com.intellectualcrafters.plot.generator.HybridPlotWorld
+[19:25:52] [Server thread/INFO]: [P2]  - manager: com.intellectualcrafters.plot.generator.HybridPlotManager
+[19:25:52] [Server thread/INFO]: [P2]  - schematic: false
+[19:25:52] [Server thread/INFO]: World possibly already loaded: Creative
+[19:25:52] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6330577853313346332)
