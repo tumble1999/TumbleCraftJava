@@ -662,3 +662,48 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
 [06:21:46] [Craft Scheduler Thread - 1330/INFO]: 
 [06:21:50] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[06:23:46] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[06:24:26] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[06:24:46] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[06:27:51] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[06:30:51] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[06:31:26] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[06:32:06] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[06:32:26] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[06:33:51] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[06:36:47] [Craft Scheduler Thread - 1363/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[06:36:47] [Craft Scheduler Thread - 1367/INFO]: 
+[06:36:52] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[06:39:07] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[06:39:47] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[06:39:52] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[06:40:07] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[06:45:52] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[06:46:47] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[06:47:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[06:47:47] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[06:48:53] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[06:51:48] [Craft Scheduler Thread - 1404/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[06:51:48] [Craft Scheduler Thread - 1408/INFO]: 
+[06:51:53] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[06:52:40] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
