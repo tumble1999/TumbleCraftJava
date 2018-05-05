@@ -1,1 +1,365 @@
 [00:01:49] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[00:04:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:04:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:04:49] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[00:05:04] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:07:50] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[00:10:50] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[00:11:46] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:12:26] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:12:46] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:13:46] [User Authenticator #30/INFO]: UUID of player LemonLimeSoda is f042fd5b-87d3-4852-98bd-7e9ae13898e2
+[00:13:46] [Server thread/INFO]: LemonLimeSoda[/189.146.183.215:63917] logged in with entity id 1903131 at ([Survival]133.5, 86.0, 543.5)
+[00:13:46] [Server thread/INFO]: +LemonLimeSoda
+[00:13:46] [pool-18-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\f042fd5b-87d3-4852-98bd-7e9ae13898e2.yml
+[00:13:46] [Server thread/INFO]: LemonLimeSoda has made the advancement [Getting an Upgrade]
+[00:13:46] [Craft Scheduler Thread - 12686/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:13:47] [Craft Scheduler Thread - 12690/INFO]: 
+[00:13:47] [Server thread/WARN]: LemonLimeSoda moved too quickly! -120.0,-11.0,-536.0
+[00:13:47] [Server thread/WARN]: LemonLimeSoda moved too quickly! -120.0,-12.176000022888218,-536.0
+[00:13:47] [Server thread/WARN]: LemonLimeSoda moved too quickly! -120.0,-12.37200002670292,-536.0
+[00:13:47] [Server thread/WARN]: LemonLimeSoda moved too quickly! -120.0,-12.470000028610272,-536.0
+[00:13:47] [Server thread/WARN]: LemonLimeSoda moved too quickly! -120.0,-12.568000030517624,-536.0
+[00:13:47] [Server thread/WARN]: LemonLimeSoda moved too quickly! -120.0,-12.666000032424975,-536.0
+[00:13:47] [Netty Server IO #0/WARN]: LemonLimeSoda sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[00:13:48] [Server thread/INFO]: LemonLimeSoda lost connection: Timed out
+[00:13:48] [Server thread/INFO]: -LemonLimeSoda
+[00:14:25] [User Authenticator #30/INFO]: UUID of player LemonLimeSoda is f042fd5b-87d3-4852-98bd-7e9ae13898e2
+[00:14:25] [Server thread/INFO]: LemonLimeSoda[/189.146.183.215:63932] logged in with entity id 1904576 at ([Survival]128.5, 76.0, 544.5)
+[00:14:25] [Server thread/INFO]: +LemonLimeSoda
+[00:14:27] [Netty Server IO #2/WARN]: LemonLimeSoda sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[00:14:27] [Server thread/WARN]: LemonLimeSoda moved too quickly! -120.0,-11.0,-536.0
+[00:14:27] [Server thread/INFO]: LemonLimeSoda lost connection: Timed out
+[00:14:27] [Server thread/INFO]: -LemonLimeSoda
+[00:15:03] [User Authenticator #30/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[00:15:03] [Server thread/INFO]: QuanTuan[/98.29.147.129:51266] logged in with entity id 1905986 at ([Staff]1835.4543102679881, 55.0, -753.7179895105603)
+[00:15:03] [Server thread/INFO]: +[Helper] QuanTuan
+[00:15:12] [Server thread/INFO]: QuanTuan issued server command: /tpo TumbleGamer
+[00:15:16] [User Authenticator #30/INFO]: UUID of player LemonLimeSoda is f042fd5b-87d3-4852-98bd-7e9ae13898e2
+[00:15:16] [Server thread/INFO]: LemonLimeSoda[/189.146.183.215:63965] logged in with entity id 1906440 at ([Survival]128.5, 76.0, 544.5)
+[00:15:16] [Server thread/INFO]: +LemonLimeSoda
+[00:15:17] [Netty Server IO #0/WARN]: LemonLimeSoda sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[00:15:17] [Server thread/WARN]: LemonLimeSoda moved too quickly! -120.0,-11.0,-536.0
+[00:15:17] [Server thread/INFO]: LemonLimeSoda lost connection: Timed out
+[00:15:18] [Server thread/INFO]: -LemonLimeSoda
+[00:15:21] [Server thread/INFO]: QuanTuan issued server command: /tpohere
+[00:15:27] [Server thread/INFO]: TumbleGamer issued server command: /msg QuanTuan im livestreaming
+[00:15:37] [Server thread/INFO]: QuanTuan issued server command: /msg tu on ur server?
+[00:15:42] [Server thread/INFO]: TumbleGamer issued server command: /r yes
+[00:15:54] [Server thread/INFO]: QuanTuan issued server command: /msg TumbleGamer Oh
+[00:16:12] [User Authenticator #30/INFO]: UUID of player LemonLimeSoda is f042fd5b-87d3-4852-98bd-7e9ae13898e2
+[00:16:12] [Server thread/INFO]: LemonLimeSoda[/189.146.183.215:63995] logged in with entity id 1908801 at ([Survival]128.5, 76.0, 544.5)
+[00:16:12] [Server thread/INFO]: +LemonLimeSoda
+[00:16:13] [Netty Server IO #1/WARN]: LemonLimeSoda sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[00:16:13] [Server thread/WARN]: LemonLimeSoda moved too quickly! -120.0,-11.0,-536.0
+[00:16:13] [Server thread/INFO]: LemonLimeSoda lost connection: Timed out
+[00:16:14] [Server thread/INFO]: -LemonLimeSoda
+[00:16:40] [Server thread/INFO]: QuanTuan issued server command: /gamemode 1
+[00:16:52] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[00:17:02] [User Authenticator #30/INFO]: UUID of player LemonLimeSoda is f042fd5b-87d3-4852-98bd-7e9ae13898e2
+[00:17:02] [Server thread/INFO]: LemonLimeSoda[/189.146.183.215:64013] logged in with entity id 1911393 at ([Survival]128.5, 76.0, 544.5)
+[00:17:02] [Server thread/INFO]: +LemonLimeSoda
+[00:17:03] [Server thread/WARN]: LemonLimeSoda moved too quickly! -120.0,-11.0,-536.0
+[00:17:03] [Server thread/WARN]: LemonLimeSoda moved too quickly! -120.0,-12.666000032424975,-536.0
+[00:17:03] [Netty Server IO #3/WARN]: LemonLimeSoda sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[00:17:03] [Server thread/INFO]: LemonLimeSoda lost connection: Timed out
+[00:17:03] [Server thread/INFO]: -LemonLimeSoda
+[00:17:35] [Server thread/INFO]: QuanTuan issued server command: /msg TumbleGamer so am i in ur vid?
+[00:17:39] [Server thread/INFO]: [Owner] TumbleGamer: yes
+[00:17:42] [Server thread/INFO]: [Helper] QuanTuan: wow
+[00:17:43] [Server thread/INFO]: [Helper] QuanTuan: cool
+[00:18:00] [Server thread/INFO]: TumbleGamer issued server command: /r https://www.youtube.com/watch?v=4kSpOopETeA and http://twitch.tv/tumblegamer
+[00:19:01] [Server thread/INFO]: [Owner] TumbleGamer: theres a /staff command if needed
+[00:19:05] [Server thread/INFO]: QuanTuan issued server command: /staff
+[00:19:13] [Server thread/INFO]: QuanTuan issued server command: /powertool
+[00:19:17] [Server thread/INFO]: TumbleGamer issued server command: /staff
+[00:19:17] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[00:19:17] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[00:19:25] [Server thread/INFO]: QuanTuan issued server command: /powertool
+[00:19:26] [User Authenticator #31/INFO]: UUID of player LemonLimeSoda is f042fd5b-87d3-4852-98bd-7e9ae13898e2
+[00:19:26] [Server thread/INFO]: LemonLimeSoda[/189.146.183.215:64155] logged in with entity id 1918222 at ([Survival]128.5, 76.0, 544.5)
+[00:19:26] [Server thread/INFO]: +LemonLimeSoda
+[00:19:27] [Netty Server IO #2/WARN]: LemonLimeSoda sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[00:19:27] [Server thread/INFO]: LemonLimeSoda lost connection: Timed out
+[00:19:27] [Server thread/INFO]: -LemonLimeSoda
+[00:19:28] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:19:36] [Server thread/INFO]: [Helper] QuanTuan: hi
+[00:19:38] [Server thread/INFO]: [Helper] QuanTuan: ...
+[00:19:53] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[00:19:59] [Server thread/INFO]: QuanTuan issued server command: /powertool smite TumbleGamer
+[00:20:01] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[00:20:01] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:20:02] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[00:20:02] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[00:20:02] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:20:02] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[00:20:02] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:20:03] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[00:20:03] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:20:03] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[00:20:03] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:20:03] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[00:20:03] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:20:04] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[00:20:04] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:20:04] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[00:20:04] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:20:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:20:10] [Server thread/INFO]: [Helper] QuanTuan: gimmie access to smite :p
+[00:20:28] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:20:39] [Server thread/INFO]: [Owner] TumbleGamer: ok
+[00:20:42] [Server thread/INFO]: [Helper] QuanTuan: done?
+[00:20:54] [User Authenticator #32/INFO]: UUID of player LemonLimeSoda is f042fd5b-87d3-4852-98bd-7e9ae13898e2
+[00:20:54] [Server thread/INFO]: LemonLimeSoda[/189.146.183.215:64270] logged in with entity id 1919205 at ([Survival]128.5, 76.0, 544.5)
+[00:20:54] [Server thread/INFO]: +LemonLimeSoda
+[00:20:55] [Server thread/INFO]: TumbleGamer issued server command: /smite
+[00:20:57] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[00:20:57] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:20:57] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[00:20:57] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:20:57] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[00:20:57] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:21:01] [Server thread/INFO]: [Helper] QuanTuan: welcome
+[00:21:08] [Async Chat Thread - #4/INFO]: [GriefPrevention] Muted pre-movement chat.
+[00:21:08] [Server thread/INFO]: LemonLimeSoda: eyy
+[00:21:19] [Server thread/INFO]: [Server] hi
+[00:21:20] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[00:21:20] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:21:22] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[00:21:22] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:21:27] [Server thread/INFO]: [Server] wait
+[00:21:28] [Server thread/INFO]: [Helper] QuanTuan: gimmie access to smite plz
+[00:21:37] [Server thread/INFO]: Permission "essentials.lightning" added to group "helper"!
+[00:21:42] [Server thread/INFO]: Permission "essentials.lightning.others" added to group "helper"!
+[00:21:44] [Server thread/INFO]: QuanTuan issued server command: /tpo LemonLimeSoda
+[00:21:50] [Server thread/INFO]: LemonLimeSoda: heyo
+[00:21:53] [Server thread/INFO]: [Helper] QuanTuan: hey
+[00:21:57] [Server thread/INFO]: Permission "essentials.protect.damage.lightning" added to group "member"!
+[00:22:02] [Server thread/INFO]: [Owner] TumbleGamer: hello
+[00:22:05] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:08] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:08] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:08] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:08] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:08] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:09] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:09] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:09] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:09] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:09] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:10] [Server thread/INFO]: LemonLimeSoda: uhh
+[00:22:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:11] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:11] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:11] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:11] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[00:22:13] [Server thread/INFO]: TumbleGamer issued server command: /staff
+[00:22:13] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[00:22:13] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[00:22:21] [Server thread/INFO]: TumbleGamer issued server command: /tpo LemonLimeSoda
+[00:22:23] [Server thread/INFO]: QuanTuan issued server command: /powertool smite LemonLimeSoda
+[00:22:23] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:23] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:23] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:24] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:24] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:24] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:24] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:24] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:25] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:25] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:25] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:25] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:26] [Server thread/INFO]: LemonLimeSoda died
+[00:22:26] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:26] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:26] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:26] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:26] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:27] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:27] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:29] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:29] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:29] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:29] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:29] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:30] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:30] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:30] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:30] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:30] [Server thread/INFO]: LemonLimeSoda: k
+[00:22:31] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:31] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:31] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:31] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:31] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:32] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:32] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:32] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:32] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:33] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:34] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:34] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:34] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:34] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:35] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:35] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:36] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:36] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:36] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:36] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:37] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:37] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:37] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:37] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:37] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:38] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:38] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:38] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:38] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:38] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:39] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:39] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:39] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:39] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:41] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:41] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:41] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:41] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:45] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:49] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:49] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite LemonLimeSoda
+[00:22:53] [Server thread/INFO]: QuanTuan lost connection: Disconnected
+[00:22:54] [Server thread/INFO]: -[Helper] QuanTuan
+[00:22:54] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[00:23:01] [Server thread/INFO]: LemonLimeSoda issued server command: /wild
+[00:23:04] [Server thread/INFO]: TumbleGamer issued server command: /tp LemonLimeSoda
+[00:23:07] [Server thread/INFO]: TumbleGamer issued server command: /tpo LemonLimeSoda
+[00:24:01] [Server thread/INFO]: TumbleGamer issued server command: /vip LemonLimeSoda
+[00:24:10] [Server thread/INFO]: TumbleGamer issued server command: /rank LemonLimeSoda vip
+[00:24:58] [Server thread/INFO]: TumbleGamer issued server command: /tpo LemonLimeSoda
+[00:25:01] [Server thread/INFO]: TumbleGamer issued server command: /v
+[00:25:02] [Server thread/INFO]: [VIP] LemonLimeSoda: pls no
+[00:25:12] [Server thread/INFO]: [VIP] LemonLimeSoda: y am i vip :P
+[00:25:16] [Server thread/INFO]: [Owner] TumbleGamer: yes
+[00:25:17] [Server thread/INFO]: [VIP] LemonLimeSoda: uh
+[00:25:30] [Server thread/INFO]: [Owner] TumbleGamer: do /kit
+[00:25:32] [Server thread/INFO]: TumbleGamer issued server command: /kit
+[00:25:33] [Server thread/INFO]: LemonLimeSoda issued server command: /kit
+[00:25:39] [Server thread/INFO]: [VIP] LemonLimeSoda: k
+[00:25:40] [Server thread/INFO]: [VIP] LemonLimeSoda: and?
+[00:25:42] [Server thread/INFO]: [VIP] LemonLimeSoda: :|
+[00:25:54] [Server thread/INFO]: [Owner] TumbleGamer: you get access to a new kit "iron"
+[00:25:56] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[00:25:59] [Server thread/INFO]: LemonLimeSoda issued server command: /kit
+[00:26:03] [Server thread/INFO]: [VIP] LemonLimeSoda: o yee
+[00:26:03] [Server thread/INFO]: TumbleGamer issued server command: /home home
+[00:26:07] [Server thread/INFO]: LemonLimeSoda issued server command: /kit iron
+[00:26:07] [Server thread/INFO]: LemonLimeSoda has made the advancement [Suit Up]
+[00:26:07] [Server thread/INFO]: LemonLimeSoda has made the advancement [Isn't It Iron Pick]
+[00:26:18] [Server thread/INFO]: [VIP] LemonLimeSoda: eyy :D
+[00:27:05] [Server thread/INFO]: [Owner] TumbleGamer: theres a /ah
+[00:27:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:27:16] [Server thread/INFO]: [VIP] LemonLimeSoda: which does :P
+[00:27:27] [Server thread/INFO]: [Owner] TumbleGamer: auction house
+[00:27:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:28:03] [Server thread/INFO]: [Owner] TumbleGamer: you can sell things with /ah sell and it sells the items you are holding
+[00:28:10] [Server thread/INFO]: TumbleGamer issued server command: /ah sell
+[00:28:12] [Server thread/INFO]: [ClearLag] Removed 48 Entities!
+[00:28:21] [Server thread/INFO]: LemonLimeSoda issued server command: /ah sell
+[00:28:23] [Server thread/INFO]: [Owner] TumbleGamer: you can sell things with /ah sell <price> and it sells the items you are holding
+[00:28:29] [Server thread/INFO]: TumbleGamer issued server command: /ah
+[00:28:38] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[00:28:41] [Server thread/INFO]: TumbleGamer issued server command: /ah
+[00:28:44] [Server thread/INFO]: TumbleGamer issued server command: /ah
+[00:28:45] [Server thread/INFO]: LemonLimeSoda issued server command: /CA Sell 100000000000000000 1
+[00:28:52] [Craft Scheduler Thread - 12741/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:28:52] [Craft Scheduler Thread - 12742/INFO]: [Marriage] Purged 0 player entries in 1ms
+[00:28:52] [Craft Scheduler Thread - 12746/INFO]: 
+[00:28:57] [Server thread/INFO]: LemonLimeSoda issued server command: /CA Sell 1000000 1
+[00:28:57] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[00:29:18] [Server thread/INFO]: TumbleGamer issued server command: /v
+[00:29:32] [Server thread/INFO]: TumbleGamer issued server command: /fly LemonLimeSoda
+[00:29:39] [Server thread/INFO]: TumbleGamer issued server command: /v
+[00:29:41] [Server thread/INFO]: TumbleGamer issued server command: /gmc
+[00:29:43] [Server thread/INFO]: TumbleGamer issued server command: /tpo LemonLimeSoda
+[00:29:59] [Server thread/INFO]: TumbleGamer issued server command: /sethome LemonLimeSoda:home
+[00:30:04] [Server thread/INFO]: TumbleGamer issued server command: /sethome LemonLimeSoda
+[00:30:09] [Server thread/INFO]: TumbleGamer issued server command: /sethome LemonLimeSoda:home
+[00:30:30] [Server thread/INFO]: TumbleGamer issued server command: /invsee LemonLimeSoda
+[00:30:43] [Server thread/INFO]: [VIP] LemonLimeSoda: wot
+[00:30:45] [Server thread/INFO]: TumbleGamer issued server command: /invsee LemonLimeSoda
+[00:31:44] [Server thread/INFO]: [VIP] LemonLimeSoda: uh
+[00:31:49] [Server thread/INFO]: TumbleGamer issued server command: /invsee LemonLimeSoda
+[00:31:57] [Server thread/INFO]: [VIP] LemonLimeSoda: uhm
+[00:32:01] [Server thread/INFO]: TumbleGamer issued server command: /home home
+[00:32:02] [Server thread/INFO]: TumbleGamer issued server command: /v
+[00:32:05] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[00:32:24] [Server thread/INFO]: [VIP] LemonLimeSoda: uhh
+[00:32:33] [Server thread/INFO]: [VIP] LemonLimeSoda: wut
+[00:33:03] [Server thread/INFO]: TumbleGamer issued server command: /v
+[00:33:07] [Server thread/INFO]: TumbleGamer issued server command: /v
+[00:33:10] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[00:33:46] [Server thread/INFO]: [Owner] TumbleGamer: theres creative if you do /server
+[00:34:54] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:34:59] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[00:35:32] [Server thread/INFO]: [Owner] TumbleGamer: did you know this is self hosted and it does fine
+[00:35:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:35:54] [Server thread/INFO]: [ClearLag] Removed 11 Entities!
+[00:36:28] [Server thread/INFO]: [Owner] TumbleGamer: it does fine while im streaming and theres 2 other minecraft server running
+[00:36:39] [Server thread/INFO]: TumbleGamer issued server command: /cps
+[00:36:42] [Server thread/INFO]: TumbleGamer issued server command: /cps
+[00:36:47] [Server thread/INFO]: TumbleGamer issued server command: /tps
+[00:37:59] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[00:39:10] [Server thread/INFO]: TumbleGamer issued server command: /ah
+[00:41:00] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[00:42:36] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
