@@ -27,7 +27,7 @@ npc:
         x: '112.5'
         y: '70.5'
         z: '544.5'
-        yaw: '-23.36505126953125'
+        yaw: '137.52847290039062'
         pitch: '0.0'
       type: PLAYER
       spawned: true
@@ -83,7 +83,7 @@ npc:
         x: '144.5'
         y: '70.5'
         z: '544.5'
-        yaw: '132.42953491210938'
+        yaw: '35.150390625'
         pitch: '0.0'
       type: PLAYER
       owner:
@@ -110,7 +110,7 @@ npc:
         x: '128.5'
         y: '70.5'
         z: '560.5'
-        yaw: '45.921112060546875'
+        yaw: '-139.46905517578125'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -339,7 +339,7 @@ npc:
         x: '128.5'
         y: '70.5'
         z: '528.5'
-        yaw: '55.5766487121582'
+        yaw: '24.89093780517578'
         pitch: '0.0'
       spawned: true
       owner:
@@ -430,7 +430,7 @@ npc:
         x: '1832.5'
         y: '55.5'
         z: '-753.5'
-        yaw: '-37.578102111816406'
+        yaw: '-42.79364776611328'
         pitch: '0.0'
       lookclose:
         range: '5.0'
@@ -762,10 +762,10 @@ npc:
         realisticlooking: false
       location:
         world: Survival
-        x: '126.2094'
-        y: '68.0'
-        z: '672.618'
-        yaw: '-157.75057983398438'
+        x: '84.5838'
+        y: '70.0'
+        z: '536.1363'
+        yaw: '-29.582778930664062'
         pitch: '0.0'
       type: PLAYER
       inventory:
@@ -795,7 +795,7 @@ npc:
           durability: 0
           mdata: 0
       sentinel:
-        stats_ticksSpawned: 7042984
+        stats_ticksSpawned: 7114984
         stats_timesSpawned: 29
         stats_arrowsFired: 0
         stats_potionsThrow: 0
@@ -804,10 +804,10 @@ npc:
         stats_eggsThrown: 0
         stats_skullsThrown: 0
         stats_pearlsUsed: 0
-        stats_punches: 126
-        stats_attackAttempts: 4887
+        stats_punches: 128
+        stats_attackAttempts: 5084
         stats_damageTaken: 0.0
-        stats_damageGiven: 785.5560005307198
+        stats_damageGiven: 799.5560005307198
         range: 20.0
         damage: -1.0
         armor: -1.0
@@ -875,7 +875,7 @@ npc:
       pathfindingrange: '100.0'
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: false
+      usedefaultstuckaction: true
   '92':
     metadata:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ5OTU3NDg0OTcsInByb2ZpbGVJZCI6ImE2YjE0NjUxZWVhNjQzYWE5MDBmZGY2MTlkNGIwMmRhIiwicHJvZmlsZU5hbWUiOiJzdGFtcHlsb25nbm9zZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4NDYzYmU4MDIyM2FkNjExMWNkNWZhOGY5ZDA5NGUxYjdkZDEwZDZlMjVkYjE0NzRlNTRiZDE1NGM1MmY4In19fQ==
@@ -922,7 +922,7 @@ npc:
         x: '1840.5'
         y: '55.5'
         z: '-753.5'
-        yaw: '37.83833312988281'
+        yaw: '27.33843231201172'
         pitch: '0.0'
       spawned: true
       type: PLAYER
