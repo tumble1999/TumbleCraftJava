@@ -363,3 +363,277 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [00:39:10] [Server thread/INFO]: TumbleGamer issued server command: /ah
 [00:41:00] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
 [00:42:36] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:43:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:43:36] [Server thread/INFO]: [ClearLag] Removed 6 Entities!
+[00:43:56] [Craft Scheduler Thread - 12784/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:43:57] [Craft Scheduler Thread - 12788/INFO]: 
+[00:44:01] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[00:45:31] [User Authenticator #33/INFO]: UUID of player triple_craft is a00872d2-18bf-4548-a0fb-93014671db29
+[00:45:31] [Server thread/INFO]: triple_craft[/110.140.189.239:61377] logged in with entity id 1933657 at ([Survival]131.5, 86.0, 543.5)
+[00:45:31] [Server thread/INFO]: +triple_craft
+[00:45:31] [pool-18-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\a00872d2-18bf-4548-a0fb-93014671db29.yml
+[00:45:31] [Server thread/INFO]: triple_craft has made the advancement [Getting an Upgrade]
+[00:45:33] [Netty Server IO #2/WARN]: triple_craft sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[00:45:33] [Server thread/INFO]: triple_craft lost connection: Timed out
+[00:45:33] [Server thread/INFO]: -triple_craft
+[00:45:38] [Server thread/INFO]: [VIP] LemonLimeSoda: Hey
+[00:45:40] [Server thread/INFO]: [Owner] TumbleGamer: hello
+[00:45:46] [Server thread/INFO]: [VIP] LemonLimeSoda: You like my treehouse?
+[00:45:51] [Server thread/INFO]: [Owner] TumbleGamer: lets see
+[00:45:58] [Server thread/INFO]: TumbleGamer issued server command: /gmc
+[00:46:03] [Server thread/INFO]: TumbleGamer issued server command: /tpa LemonLimeSoda
+[00:46:06] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[00:46:07] [Server thread/INFO]: LemonLimeSoda issued server command: /tpaccept
+[00:46:21] [Server thread/INFO]: [Owner] TumbleGamer: hello
+[00:46:26] [Server thread/INFO]: [VIP] LemonLimeSoda: hiya
+[00:46:27] [Server thread/INFO]: [Owner] TumbleGamer: im in survival
+[00:46:30] [Server thread/INFO]: [VIP] LemonLimeSoda: me too
+[00:46:30] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[00:46:32] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[00:47:02] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[00:47:39] [Server thread/INFO]: [Owner] TumbleGamer: have you done /sethome?
+[00:47:46] [Server thread/INFO]: LemonLimeSoda issued server command: /sethome
+[00:47:51] [Server thread/INFO]: [VIP] LemonLimeSoda: yep
+[00:47:55] [Server thread/INFO]: [Owner] TumbleGamer: have you claimed it yet with a chest?
+[00:48:09] [Server thread/INFO]: [VIP] LemonLimeSoda: no :P
+[00:48:19] [Server thread/INFO]: [VIP] LemonLimeSoda: how do I do that XD
+[00:48:36] [Server thread/INFO]: [Owner] TumbleGamer: place a cheat
+[00:48:38] [Server thread/INFO]: [Owner] TumbleGamer: place a chest
+[00:48:42] [Server thread/INFO]: [VIP] LemonLimeSoda: ye
+[00:48:50] [User Authenticator #34/INFO]: UUID of player triple_craft is a00872d2-18bf-4548-a0fb-93014671db29
+[00:48:50] [Server thread/INFO]: triple_craft[/110.140.189.239:61852] logged in with entity id 1935002 at ([Survival]128.5, 76.0, 544.5)
+[00:48:50] [Server thread/INFO]: +triple_craft
+[00:48:56] [Server thread/INFO]: [VIP] LemonLimeSoda: ey
+[00:48:59] [Server thread/INFO]: [VIP] LemonLimeSoda: triple
+[00:49:00] [Server thread/INFO]: [Owner] TumbleGamer: hello
+[00:49:14] [Async Chat Thread - #11/INFO]: [GriefPrevention] Muted pre-movement chat.
+[00:49:14] [Server thread/INFO]: triple_craft: hey
+[00:49:24] [Server thread/INFO]: LemonLimeSoda issued server command: /kit claim
+[00:49:31] [Server thread/INFO]: triple_craft: is pvp eneabled
+[00:49:37] [Server thread/INFO]: triple_craft issued server command: /tpa TumbleGamer
+[00:49:42] [Server thread/INFO]: [Owner] TumbleGamer: you should apply to be a builder LemonLimeSoda
+[00:49:45] [Server thread/INFO]: TumbleGamer issued server command: /tpaccept
+[00:49:48] [Server thread/INFO]: [VIP] LemonLimeSoda: rly?
+[00:49:52] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[00:49:59] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[00:50:00] [Server thread/INFO]: TumbleGamer issued server command: /god
+[00:50:19] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:50:24] [Server thread/INFO]: [Owner] TumbleGamer: yes
+[00:50:59] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:51:15] [Server thread/INFO]: [Owner] TumbleGamer: you can be friends with /friend
+[00:51:18] [Server thread/INFO]: triple_craft: ahhhh
+[00:51:19] [Server thread/INFO]: [ClearLag] Removed 6 Entities!
+[00:51:25] [Server thread/INFO]: LemonLimeSoda issued server command: /friend TumbleGamer
+[00:51:31] [Server thread/INFO]: LemonLimeSoda issued server command: /friend TumbleGamer
+[00:51:34] [Server thread/INFO]: triple_craft: what did you do dat for
+[00:51:42] [Server thread/INFO]: LemonLimeSoda issued server command: /friend triple_craft
+[00:51:47] [Server thread/INFO]: LemonLimeSoda issued server command: /friends help
+[00:52:04] [Server thread/INFO]: LemonLimeSoda issued server command: /f add TumbleGamer
+[00:52:14] [Server thread/INFO]: LemonLimeSoda issued server command: /f add TumbleGamer triple_craft
+[00:52:21] [Server thread/INFO]: LemonLimeSoda issued server command: /f add triple_craft
+[00:52:27] [Server thread/INFO]: triple_craft issued server command: /friend accept LemonLimeSoda
+[00:52:28] [Server thread/INFO]: triple_craft issued server command: /
+[00:53:02] [Server thread/INFO]: TumbleGamer issued server command: /friend accept LemonLimeSoda
+[00:53:05] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[00:53:06] [Server thread/INFO]: [VIP] LemonLimeSoda: yay :D
+[00:53:07] [Server thread/INFO]: TumbleGamer issued server command: /pex reload
+[00:53:07] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[00:53:15] [Server thread/INFO]: [Owner] TumbleGamer: you can /back now if you die
+[00:53:20] [Server thread/INFO]: triple_craft: can i get v.i.p
+[00:53:30] [Server thread/INFO]: [Owner] TumbleGamer: apply
+[00:53:32] [Server thread/INFO]: triple_craft: xD
+[00:53:37] [Server thread/INFO]: triple_craft: where do i apply?
+[00:53:44] [Server thread/INFO]: [Owner] TumbleGamer: /apply
+[00:53:47] [Server thread/INFO]: LemonLimeSoda issued server command: /apply
+[00:53:48] [Server thread/INFO]: triple_craft issued server command: /apply
+[00:53:55] [Server thread/INFO]: [Owner] TumbleGamer: can vips use color text?
+[00:54:36] [Server thread/INFO]: [Owner] TumbleGamer: right click here with a stick
+[00:55:35] [Server thread/INFO]: [Owner] TumbleGamer: https://discord.gg/mRtyJA9
+[00:55:43] [Server thread/INFO]: [VIP] LemonLimeSoda: m8
+[00:55:53] [Server thread/INFO]: [VIP] LemonLimeSoda: it says can i build better than grian
+[00:55:55] [Server thread/INFO]: [VIP] LemonLimeSoda: :P
+[00:56:01] [Server thread/INFO]: [VIP] LemonLimeSoda: what do you think
+[00:56:02] [Server thread/INFO]: [VIP] LemonLimeSoda: ?
+[00:56:07] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[00:56:23] [Server thread/INFO]: [Owner] TumbleGamer: rightclick here
+[00:56:38] [Server thread/INFO]: [Owner] TumbleGamer: and then look over the edge
+[00:56:47] [Server thread/INFO]: [VIP] LemonLimeSoda: ye
+[00:56:48] [Server thread/INFO]: [VIP] LemonLimeSoda: o
+[00:56:51] [Server thread/INFO]: [VIP] LemonLimeSoda: thats small
+[00:57:19] [Server thread/INFO]: [Owner] TumbleGamer: you can use a golden shovel from /kit claim to resize
+[00:57:35] [Server thread/INFO]: TumbleGamer issued server command: /home home
+[00:58:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:58:27] [Server thread/INFO]: TumbleGamer issued server command: /friend chat
+[00:58:32] [Server thread/INFO]: TumbleGamer issued server command: /friend chat
+[00:58:38] [Server thread/INFO]: TumbleGamer issued server command: /friend
+[00:58:43] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:59:03] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:59:03] [Craft Scheduler Thread - 12828/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:59:04] [Craft Scheduler Thread - 12832/INFO]: 
+[00:59:08] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[00:59:17] [Server thread/INFO]: [Owner] TumbleGamer: do /friend to se your friends and teleport to them and set nick names
+[00:59:27] [Server thread/INFO]: [Owner] TumbleGamer: and set favourites
+[01:00:23] [Server thread/INFO]: triple_craft: I submited
+[01:00:27] [Server thread/INFO]: [Owner] TumbleGamer: ok
+[01:00:30] [Server thread/INFO]: triple_craft: my application
+[01:00:37] [Server thread/INFO]: triple_craft: 4 helper
+[01:00:41] [Server thread/INFO]: [Owner] TumbleGamer: im on it now
+[01:00:44] [Server thread/INFO]: triple_craft: k
+[01:01:08] [Server thread/INFO]: [VIP] LemonLimeSoda: and mine for builder :P
+[01:01:14] [Server thread/INFO]: [Owner] TumbleGamer: ok
+[01:01:26] [Server thread/INFO]: [VIP] LemonLimeSoda: Sorry m8
+[01:01:29] [Server thread/INFO]: [VIP] LemonLimeSoda: bur i gtg
+[01:01:32] [Server thread/INFO]: [Owner] TumbleGamer: ok
+[01:01:32] [Server thread/INFO]: [VIP] LemonLimeSoda: but *
+[01:01:34] [Server thread/INFO]: triple_craft: :(
+[01:01:38] [Server thread/INFO]: TumbleGamer issued server command: /home home
+[01:01:41] [Server thread/INFO]: [VIP] LemonLimeSoda: See you tommorrow!!
+[01:01:46] [Server thread/INFO]: triple_craft: Bye
+[01:01:52] [Server thread/INFO]: [VIP] LemonLimeSoda: Ill be on 8:00 UTC-5
+[01:01:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [Tumble Network Team] TumbleGamer: bye
+[01:01:53] [User Authenticator #35/INFO]: UUID of player MineRacer_8 is c541f001-3197-482c-9f14-878f3fdaa80e
+[01:01:54] [Server thread/INFO]: MineRacer_8[/74.105.27.34:50450] logged in with entity id 1940288 at ([Survival]-12.887792517064296, 68.0, 617.8397771958939)
+[01:01:54] [Server thread/INFO]: +[Helper] MineRacer_8
+[01:01:55] [Netty Server IO #2/WARN]: MineRacer_8 sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[01:01:55] [Server thread/WARN]: MineRacer_8 moved too quickly! 21.387792517064298,-3.0,-609.3397771958939
+[01:01:55] [Server thread/INFO]: MineRacer_8 lost connection: Timed out
+[01:01:55] [Server thread/INFO]: -[Helper] MineRacer_8
+[01:01:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [Tumble Network Team] TumbleGamer: ok
+[01:02:01] [Server thread/INFO]: LemonLimeSoda lost connection: Disconnected
+[01:02:01] [Server thread/INFO]: -[VIP] LemonLimeSoda
+[01:02:10] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[01:02:14] [Server thread/INFO]: TumbleGamer issued server command: /friend add triple_craft
+[01:02:15] [User Authenticator #35/INFO]: UUID of player MineRacer_8 is c541f001-3197-482c-9f14-878f3fdaa80e
+[01:02:15] [Server thread/INFO]: triple_craft issued server command: /kit
+[01:02:15] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@43e70acf[id=c541f001-3197-482c-9f14-878f3fdaa80e,name=MineRacer_8,properties={textures=[com.mojang.authlib.properties.Property@19cbd688]},legacy=false] (/74.105.27.34:50453): You must wait 9 seconds before logging-in again.
+[01:02:15] [Server thread/INFO]: com.mojang.authlib.GameProfile@43e70acf[id=c541f001-3197-482c-9f14-878f3fdaa80e,name=MineRacer_8,properties={textures=[com.mojang.authlib.properties.Property@19cbd688]},legacy=false] (/74.105.27.34:50453) lost connection: You must wait 9 seconds before logging-in again.
+[01:02:17] [Server thread/INFO]: triple_craft issued server command: /friend accept TumbleGamer
+[01:02:20] [Server thread/INFO]: triple_craft issued server command: /kit claim
+[01:02:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] Soda: Hello
+[01:02:45] [Server thread/INFO]: triple_craft: Hi
+[01:02:48] [User Authenticator #35/INFO]: UUID of player MineRacer_8 is c541f001-3197-482c-9f14-878f3fdaa80e
+[01:02:48] [Server thread/INFO]: MineRacer_8[/74.105.27.34:50529] logged in with entity id 1940854 at ([Survival]-12.887792517064296, 68.0, 617.8397771958939)
+[01:02:48] [Server thread/INFO]: +[Helper] MineRacer_8
+[01:02:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] Soda: This is LemonLimeSoda
+[01:02:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] Soda: and bye
+[01:02:55] [Server thread/INFO]: [Helper] MineRacer_8: hey
+[01:02:58] [Server thread/INFO]: MineRacer_8 issued server command: /spawn
+[01:03:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] Soda: Hey
+[01:03:13] [Server thread/INFO]: [Owner] TumbleGamer: hello
+[01:03:14] [Server thread/INFO]: MineRacer_8 issued server command: /why did you demote me tumble?
+[01:03:19] [Server thread/INFO]: [Helper] MineRacer_8: why did i get demoted
+[01:03:23] [Server thread/INFO]: TumbleGamer issued server command: /promote MineRacer_8
+[01:03:23] [Server thread/INFO]: [PermissionsEx] User c541f001-3197-482c-9f14-878f3fdaa80e/MineRacer_8 has been promoted to mod group on Ranks ladder by TumbleGamer
+[01:03:24] [Server thread/INFO]: triple_craft: ?
+[01:03:28] [Server thread/INFO]: [Mod] MineRacer_8: can i be mod again plz
+[01:03:31] [Server thread/INFO]: [Mod] MineRacer_8: oh thx
+[01:03:31] [Server thread/INFO]: [Owner] TumbleGamer: no
+[01:03:41] [Server thread/INFO]: triple_craft: did my application go through
+[01:03:45] [Server thread/INFO]: [Owner] TumbleGamer: yes
+[01:03:48] [Server thread/INFO]: [Mod] MineRacer_8: uh
+[01:03:55] [Server thread/INFO]: [Mod] MineRacer_8: can i tp to you guys
+[01:03:58] [Server thread/INFO]: triple_craft: sure
+[01:04:04] [Server thread/INFO]: [Owner] TumbleGamer: tpa triple_craft
+[01:04:06] [Server thread/INFO]: [Mod] MineRacer_8: whats the stream link?
+[01:04:09] [Server thread/INFO]: MineRacer_8 issued server command: /tpa triple_craft
+[01:04:17] [Server thread/INFO]: triple_craft: lemme get ack up
+[01:04:26] [Server thread/INFO]: MineRacer_8 issued server command: /gmc
+[01:04:28] [Server thread/INFO]: MineRacer_8 issued server command: /clear
+[01:04:33] [Server thread/INFO]: [Owner] TumbleGamer: just search tumblegamer on eaither yt or twitch
+[01:04:34] [Server thread/INFO]: triple_craft issued server command: /tpaccept
+[01:04:40] [Server thread/INFO]: [Mod] MineRacer_8: hey
+[01:04:44] [Server thread/INFO]: triple_craft: HEy
+[01:04:47] [Server thread/INFO]: TumbleGamer issued server command: /tpa triple_craft
+[01:04:50] [Server thread/INFO]: triple_craft issued server command: /tpaccept
+[01:04:57] [Server thread/INFO]: TumbleGamer issued server command: /friend add MineRacer_8
+[01:05:08] [Server thread/INFO]: MineRacer_8 issued server command: /friend accept TumbleGamer
+[01:05:12] [Server thread/INFO]: triple_craft: Was my application good?
+[01:05:12] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[01:05:47] [Server thread/INFO]: MineRacer_8 has made the advancement [Diamonds!]
+[01:05:47] [Server thread/INFO]: triple_craft: Was my application good?
+[01:05:47] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:06:04] [Server thread/INFO]: triple_craft has made the advancement [Diamonds!]
+[01:06:13] [Server thread/INFO]: triple_craft: brb
+[01:06:17] [Server thread/INFO]: [Mod] MineRacer_8: you stream is cool
+[01:06:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:06:29] [Server thread/INFO]: MineRacer_8 issued server command: /INVISEE triple_Craft
+[01:06:32] [Server thread/INFO]: triple_craft: ikr so good
+[01:06:39] [Server thread/INFO]: MineRacer_8 issued server command: /invsee triple_craft
+[01:06:40] [Server thread/INFO]: triple_craft: brb
+[01:06:48] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:06:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: hello
+[01:07:01] [Server thread/INFO]: [Mod] MineRacer_8: give me back the diamonds
+[01:07:06] [Server thread/INFO]: [Mod] MineRacer_8: you get 5 of them
+[01:07:13] [Server thread/INFO]: triple_craft: you keep em
+[01:07:22] [Server thread/INFO]: [Mod] MineRacer_8: its a good stream
+[01:07:29] [Server thread/INFO]: [Mod] MineRacer_8: its a reward
+[01:07:59] [Server thread/INFO]: TumbleGamer issued server command: /gms MineRacer_8
+[01:07:59] [Server thread/INFO]: triple_craft: Was my application good?????
+[01:08:05] [Server thread/INFO]: MineRacer_8 issued server command: /god
+[01:08:07] [Server thread/INFO]: MineRacer_8 issued server command: /god
+[01:08:13] [Server thread/INFO]: MineRacer_8 issued server command: /god
+[01:08:14] [Server thread/INFO]: MineRacer_8 issued server command: /gmc
+[01:08:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: @Soda  hello?
+[01:08:22] [Server thread/INFO]: triple_craft: hi
+[01:08:26] [Server thread/INFO]: MineRacer_8 issued server command: /gms
+[01:08:33] [Server thread/INFO]: MineRacer_8 issued server command: /
+[01:08:36] [Server thread/INFO]: MineRacer_8 issued server command: /gmc
+[01:08:39] [Server thread/INFO]: triple_craft: ok
+[01:08:41] [Server thread/INFO]: [Mod] MineRacer_8: sry
+[01:08:46] [Server thread/INFO]: MineRacer_8 issued server command: /gms
+[01:08:53] [Server thread/INFO]: MineRacer_8 issued server command: /god
+[01:08:55] [Server thread/INFO]: MineRacer_8 issued server command: /god
+[01:08:59] [User Authenticator #36/INFO]: UUID of player Triple_Craft_2 is 010d5d32-7c00-418e-bdd0-6da29210f3e2
+[01:08:59] [Server thread/INFO]: Triple_Craft_2[/110.140.189.239:63792] logged in with entity id 1943411 at ([Survival]136.5, 86.0, 545.5)
+[01:08:59] [pool-18-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\010d5d32-7c00-418e-bdd0-6da29210f3e2.yml
+[01:08:59] [Server thread/INFO]: +Triple_Craft_2
+[01:08:59] [Server thread/INFO]: Triple_Craft_2 has made the advancement [Getting an Upgrade]
+[01:09:01] [Server thread/INFO]: triple_craft: brb
+[01:09:08] [Server thread/INFO]: MineRacer_8 issued server command: /gmc
+[01:09:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [Tumble Network Team] TumbleGamer: hello tripple craft
+[01:09:47] [Server thread/INFO]: [Mod] MineRacer_8: can you accept
+[01:10:02] [Server thread/INFO]: MineRacer_8 issued server command: /tpahere Triple_Craft_2
+[01:10:09] [Server thread/INFO]: Triple_Craft_2 issued server command: /msg TumbleGamer im triple_craft alt if my alt gets helper can i get helper to so if we are on different pc
+[01:10:13] [Server thread/INFO]: Triple_Craft_2 issued server command: /tpaccept
+[01:11:05] [Server thread/INFO]: Triple_Craft_2 issued server command: /
+[01:11:08] [Server thread/INFO]: Triple_Craft_2 issued server command: /CLAIM
+[01:11:14] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[01:11:16] [Server thread/INFO]: TumbleGamer issued server command: /r ok...
+[01:11:21] [Server thread/INFO]: Triple_Craft_2 issued server command: /r ok thx
+[01:11:29] [Server thread/INFO]: [Mod] MineRacer_8: never mind
+[01:11:42] [Server thread/INFO]: Triple_Craft_2 issued server command: /w
+[01:11:43] [Server thread/INFO]: [Owner] TumbleGamer: ok
+[01:11:44] [Server thread/INFO]: [Mod] MineRacer_8: dont take anything from this chest
+[01:11:58] [Server thread/INFO]: MineRacer_8 issued server command: /gms
+[01:12:06] [Server thread/INFO]: triple_craft issued server command: /
+[01:12:09] [Server thread/INFO]: triple_craft issued server command: /
+[01:12:13] [Server thread/INFO]: Triple_Craft_2 issued server command: /
+[01:12:15] [Server thread/INFO]: [Owner] TumbleGamer: claims are protected i think
+[01:12:17] [Server thread/INFO]: [Mod] MineRacer_8: pvp
+[01:12:18] [Server thread/INFO]: triple_craft: did my application get accepted
+[01:12:38] [Server thread/INFO]: Triple_Craft_2 was slain by MineRacer_8
+[01:12:42] [Server thread/INFO]: [Mod] MineRacer_8: OHNO
+[01:12:46] [Server thread/INFO]: [Owner] TumbleGamer: thers /back
+[01:12:46] [Server thread/INFO]: [Mod] MineRacer_8: how did you die
+[01:12:47] [Server thread/INFO]: triple_craft: abuse
+[01:12:49] [Server thread/INFO]: MineRacer_8 issued server command: /gmc
