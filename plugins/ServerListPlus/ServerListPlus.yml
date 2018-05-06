@@ -114,7 +114,7 @@ Personalized:
 --- !Plugin
 Stats: true
 PlayerTracking:
-  Enabled: true
+  Enabled: false
   Storage: !JSONStorage
     Enabled: true
     SaveDelay: 5m
