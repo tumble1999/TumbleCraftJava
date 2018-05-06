@@ -2404,3 +2404,156 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [11:25:37] [Server thread/INFO]: +[Owner] TumbleGamer
 [11:26:01] [Server thread/INFO]: TumbleGamer issued server command: /help home
 [11:26:15] [Server thread/INFO]: TumbleGamer issued server command: /spawn
+[11:27:55] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[11:28:30] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:29:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:29:30] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:30:49] [Server thread/INFO]: TumbleGamer issued server command: /home home
+[11:30:50] [Craft Scheduler Thread - 14524/INFO]: [Marriage] Purged 0 player entries in 1ms
+[11:30:50] [Craft Scheduler Thread - 14523/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:30:51] [Craft Scheduler Thread - 14528/INFO]: 
+[11:30:53] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[11:30:55] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[11:30:55] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[11:30:56] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[11:30:58] [Server thread/INFO]: TumbleGamer issued server command: /god
+[11:31:00] [Server thread/INFO]: TumbleGamer issued server command: /god
+[11:31:54] [Server thread/INFO]: TumbleGamer issued server command: /plot auto
+[11:31:55] [Server thread/INFO]: (FAWE) Running 1.12 registry dumper!
+[11:31:55] [Server thread/INFO]: (FAWE) Using adapter: com.boydti.fawe.bukkit.v1_12.FaweAdapter_1_12@4e126da4
+[11:31:55] [Server thread/INFO]: (FAWE) =========================================
+[11:31:55] [Server thread/INFO]: (FAWE) Having `parallel-threads` > 1 interferes with the timings.
+[11:33:55] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[11:36:11] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:36:30] [Server thread/INFO]: TumbleGamer issued server command: //wand
+[11:36:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:36:56] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[11:37:11] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:37:42] [Server thread/INFO]: TumbleGamer issued server command: //copy
+[11:37:46] [Server thread/INFO]: TumbleGamer issued server command: //flip
+[11:37:51] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[11:38:40] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[11:38:49] [Server thread/INFO]: TumbleGamer issued server command: //set 0
+[11:39:33] [Server thread/INFO]: TumbleGamer issued server command: //set furnace
+[11:39:37] [Server thread/INFO]: TumbleGamer issued server command: //set furnace:1
+[11:39:39] [Server thread/INFO]: TumbleGamer issued server command: //set furnace:2
+[11:39:40] [Server thread/INFO]: TumbleGamer issued server command: //set furnace:3
+[11:39:42] [Server thread/INFO]: TumbleGamer issued server command: //set furnace:4
+[11:40:02] [Server thread/INFO]: TumbleGamer issued server command: //set hopper 1
+[11:40:06] [Server thread/INFO]: TumbleGamer issued server command: //set hopper:1
+[11:40:06] [Craft Scheduler Thread - 14542/ERROR]: [WorldEdit] An unexpected error occurred while handling a FAWE command
+java.lang.IllegalArgumentException: Cannot set property BlockStateDirection{name=facing, clazz=class net.minecraft.server.v1_12_R1.EnumDirection, values=[down, north, south, west, east]} to up on block minecraft:hopper, it is not an allowed value
+	at net.minecraft.server.v1_12_R1.BlockStateList$BlockData.set(SourceFile:184) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.BlockHopper.fromLegacyData(SourceFile:188) ~[PaperSpigot.jar:git-Paper-1383]
+	at com.boydti.fawe.bukkit.v1_12.BukkitChunk_1_12.optimize(BukkitChunk_1_12.java:173) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.boydti.fawe.object.FaweQueue.setBlocks(FaweQueue.java:161) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.EditSession.setBlocks(EditSession.java:1615) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.EditSession.setBlocks(EditSession.java:1652) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.command.RegionCommands.set(RegionCommands.java:330) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_161]
+	at com.sk89q.worldedit.util.command.parametric.ParametricCallable.call(ParametricCallable.java:245) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.util.command.SimpleDispatcher.call(SimpleDispatcher.java:125) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.extension.platform.CommandManager.handleCommandOnCurrentThread(CommandManager.java:383) [FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.extension.platform.CommandManager$2$1.run(CommandManager.java:468) [FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.boydti.fawe.object.FawePlayer$2.run(FawePlayer.java:230) [FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.boydti.fawe.object.FawePlayer.queueAction(FawePlayer.java:258) [FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.boydti.fawe.object.FawePlayer.runAction(FawePlayer.java:305) [FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.extension.platform.CommandManager$2.run(CommandManager.java:465) [FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:40:12] [Server thread/INFO]: TumbleGamer issued server command: //set hopper:1
+[11:40:12] [Craft Scheduler Thread - 14542/ERROR]: [WorldEdit] An unexpected error occurred while handling a FAWE command
+java.lang.IllegalArgumentException: Cannot set property BlockStateDirection{name=facing, clazz=class net.minecraft.server.v1_12_R1.EnumDirection, values=[down, north, south, west, east]} to up on block minecraft:hopper, it is not an allowed value
+	at net.minecraft.server.v1_12_R1.BlockStateList$BlockData.set(SourceFile:184) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.BlockHopper.fromLegacyData(SourceFile:188) ~[PaperSpigot.jar:git-Paper-1383]
+	at com.boydti.fawe.bukkit.v1_12.BukkitChunk_1_12.optimize(BukkitChunk_1_12.java:173) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.boydti.fawe.object.FaweQueue.setBlocks(FaweQueue.java:161) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.EditSession.setBlocks(EditSession.java:1615) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.EditSession.setBlocks(EditSession.java:1652) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.command.RegionCommands.set(RegionCommands.java:330) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_161]
+	at com.sk89q.worldedit.util.command.parametric.ParametricCallable.call(ParametricCallable.java:245) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.util.command.SimpleDispatcher.call(SimpleDispatcher.java:125) ~[FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.extension.platform.CommandManager.handleCommandOnCurrentThread(CommandManager.java:383) [FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.extension.platform.CommandManager$2$1.run(CommandManager.java:468) [FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.boydti.fawe.object.FawePlayer$2.run(FawePlayer.java:230) [FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.boydti.fawe.object.FawePlayer.queueAction(FawePlayer.java:258) [FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.boydti.fawe.object.FawePlayer.runAction(FawePlayer.java:305) [FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at com.sk89q.worldedit.extension.platform.CommandManager$2.run(CommandManager.java:465) [FastAsyncWorldEdit-bukkit-18.03.26-48992d2-1054-19.4.17.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:40:15] [Server thread/INFO]: TumbleGamer issued server command: //set hopper:north
+[11:40:23] [Server thread/INFO]: TumbleGamer issued server command: //set hopper:west
+[11:41:08] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
+[11:41:08] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer quit with silent quitting permission, not sending a quit message
+[11:41:08] [Server thread/INFO]: -[Owner] TumbleGamer
+[11:41:19] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[11:42:57] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[11:43:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:44:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:44:52] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:45:44] [User Authenticator #44/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[11:45:44] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
+[11:45:44] [Server thread/INFO]: TumbleGamer[/127.0.0.1:49977] logged in with entity id 2198985 at ([Creative]80.20614341063803, 68.27268487525512, 31.68051477375583)
+[11:45:44] [Server thread/INFO]: +[Owner] TumbleGamer
+[11:45:52] [Craft Scheduler Thread - 14571/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:45:53] [Craft Scheduler Thread - 14575/INFO]: 
+[11:45:53] [Server thread/INFO]: TumbleGamer issued server command: /time set day
+[11:45:57] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[11:48:58] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[11:50:32] [Server thread/INFO]: TumbleGamer issued server command: //copy
+[11:50:40] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[11:51:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:51:51] [Server thread/INFO]: TumbleGamer issued server command: //wand
+[11:51:58] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[11:52:13] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:52:33] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:53:34] [Server thread/INFO]: TumbleGamer issued server command: //extend 1
+[11:53:37] [Server thread/INFO]: TumbleGamer issued server command: /extend 1
+[11:53:44] [Server thread/INFO]: TumbleGamer issued server command: //extend
+[11:53:47] [Server thread/INFO]: TumbleGamer issued server command: //extend u 1
+[11:54:36] [Server thread/INFO]: TumbleGamer issued server command: //copy
+[11:54:40] [Server thread/INFO]: TumbleGamer issued server command: //flip
+[11:54:46] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[11:54:51] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[11:54:55] [Server thread/INFO]: TumbleGamer issued server command: //paste
+[11:54:58] [Server thread/INFO]: TumbleGamer issued server command: //indo
+[11:54:58] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[11:55:02] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[11:55:41] [Server thread/INFO]: TumbleGamer issued server command: //copy
+[11:55:46] [Server thread/INFO]: TumbleGamer issued server command: //flip
+[11:55:52] [Server thread/INFO]: TumbleGamer issued server command: //paste
