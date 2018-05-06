@@ -3,10 +3,10 @@
 # with caution, and make sure you know what each option does before configuring.
 # For a reference for any variable inside this file, check out the Spigot wiki at
 # http://www.spigotmc.org/wiki/spigot-configuration/
-# 
+#
 # If you need help with the configuration or have any questions related to Spigot,
 # join us at the IRC or drop by our forums and leave a post.
-# 
+#
 # IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
 # Forums: http://www.spigotmc.org/
 
@@ -147,8 +147,8 @@ world-settings:
     random-light-updates: false
     max-tnt-per-tick: 100
     ticks-per:
-      hopper-transfer: 24
-      hopper-check: 24
+      hopper-transfer: 8
+      hopper-check: 1
     hopper-amount: 3
     squid-spawn-range:
       min: 45.0
