@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2018-05-06 01:05:47 +0100"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2018-04-28 23:18:43 +0100"
@@ -74,6 +80,12 @@
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_stone": "2018-04-29 21:47:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2018-05-06 01:05:47 +0100"
     },
     "done": true
   },
@@ -105,9 +117,16 @@
       "ocean": "2018-04-28 23:22:28 +0100",
       "extreme_hills": "2018-04-29 00:39:00 +0100",
       "river": "2018-04-29 18:32:49 +0100",
+      "jungle": "2018-05-06 01:04:35 +0100",
       "stone_beach": "2018-04-29 22:33:14 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2018-05-06 01:05:47 +0100"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/mossy_stonebrick": {
     "criteria": {
@@ -220,6 +239,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2018-05-06 01:05:47 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2018-04-28 23:29:00 +0100"
@@ -280,6 +305,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2018-05-06 01:05:47 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2018-04-28 23:18:43 +0100"
@@ -304,6 +335,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_at_least_9_diamond": "2018-05-06 01:05:47 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
       "has_cobblestone": "2018-04-28 23:18:43 +0100"
@@ -316,6 +353,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2018-05-06 01:05:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2018-05-06 01:05:47 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "zombie_villager": "2018-04-29 15:56:39 +0100",
@@ -325,6 +374,12 @@
       "creeper": "2018-04-29 21:49:37 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2018-05-06 01:05:47 +0100"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/fence": {
     "criteria": {
@@ -395,6 +450,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2018-05-06 01:05:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2018-05-06 01:05:47 +0100"
+    },
+    "done": true
+  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2018-04-28 00:33:32 +0100"
@@ -404,6 +471,12 @@
   "minecraft:recipes/redstone/fence_gate": {
     "criteria": {
       "has_planks": "2018-04-28 23:29:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2018-05-06 01:05:47 +0100"
     },
     "done": true
   },
