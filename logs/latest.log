@@ -2537,3 +2537,528 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [13:09:45] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
 [13:12:45] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
 [13:14:00] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:14:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:15:01] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:15:46] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[13:17:21] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[13:18:41] [Craft Scheduler Thread - 3312/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:18:42] [Craft Scheduler Thread - 3317/INFO]: 
+[13:18:46] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[13:21:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:21:47] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[13:22:22] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:22:42] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:27:48] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[13:29:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:30:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:30:23] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:30:49] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[13:30:50] [Server thread/INFO]: [Server] hello?
+[13:30:52] [Server thread/INFO]: CONSOLE issued server command: /online 
+[13:30:52] [Server thread/INFO]: There are 0 out of maximum 20 players online.
+[13:30:54] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:30:54] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:30:54] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:30:54] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:30:54] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:32:54] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:32:54] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:32:54] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:32:54] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:32:54] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:33:40] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:33:40] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:33:40] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:33:40] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:33:40] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:33:45] [Craft Scheduler Thread - 3352/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:33:45] [Craft Scheduler Thread - 3357/INFO]: 
+[13:33:50] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[13:36:50] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[13:37:05] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:37:41] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:37:41] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:37:41] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:37:41] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:37:41] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:37:45] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:38:05] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:38:17] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:38:17] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:38:17] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:38:17] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:38:17] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:38:37] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:38:37] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:38:37] [Server thread/WARN]: [ServerListPlus] [Core] Unable to parse a part of the configuration. Make sure the YAML syntax is valid!
+org.yaml.snakeyaml.scanner.ScannerException: while scanning an anchor
+ in 'reader', line 39, column 36:
+      &7       &eTumbleCraft &rby &4TN &r// &a1.12.2
+                                       ^
+expected alphabetic or numeric character, but found /(47)
+ in 'reader', line 39, column 38:
+     ...       &eTumbleCraft &rby &4TN &r// &a1.12.2
+                                         ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanAnchor(ScannerImpl.java:1455) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchAnchor(ScannerImpl.java:939) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:370) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:226) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:529) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:200) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:152) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecrell.serverlistplus.core.ConfigurationManager.reload(ConfigurationManager.java:96) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.reload(ServerListPlusCore.java:186) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.executeCommand(ServerListPlusCore.java:255) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.bukkit.BukkitPlugin$ServerListPlusCommand.onCommand(BukkitPlugin.java:171) [ServerListPlus-3.4.8-Universal.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:151) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:648) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:464) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:427) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:38:37] [Server thread/ERROR]: [ServerListPlus] [Core] Unable to parse the configuration. Make sure the YAML syntax is correct!
+org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 39, column 3:
+      &7       &eTumbleCraft &rby &4TN ... 
+      ^
+could not find expected ':'
+ in 'reader', line 40, column 3:
+      &7           &bCreative World Added
+      ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:529) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.checkNode(Composer.java:68) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.checkData(BaseConstructor.java:112) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml$1.hasNext(Yaml.java:542) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecrell.serverlistplus.core.ConfigurationManager.reload(ConfigurationManager.java:93) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.reload(ServerListPlusCore.java:186) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.executeCommand(ServerListPlusCore.java:255) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.bukkit.BukkitPlugin$ServerListPlusCommand.onCommand(BukkitPlugin.java:171) [ServerListPlus-3.4.8-Universal.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:151) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:648) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:464) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:427) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:38:37] [Server thread/INFO]: [ServerListPlus] An internal error occurred while reloading the configuration.
+[13:38:54] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:38:54] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:38:54] [Server thread/WARN]: [ServerListPlus] [Core] Unable to parse a part of the configuration. Make sure the YAML syntax is valid!
+org.yaml.snakeyaml.scanner.ScannerException: while scanning an anchor
+ in 'reader', line 39, column 36:
+      &7       &eTumbleCraft &rby &4TN &r// &a1.12.2
+                                       ^
+expected alphabetic or numeric character, but found /(47)
+ in 'reader', line 39, column 38:
+     ...       &eTumbleCraft &rby &4TN &r// &a1.12.2
+                                         ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanAnchor(ScannerImpl.java:1455) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchAnchor(ScannerImpl.java:939) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:370) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:226) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:529) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:200) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:152) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecrell.serverlistplus.core.ConfigurationManager.reload(ConfigurationManager.java:96) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.reload(ServerListPlusCore.java:186) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.executeCommand(ServerListPlusCore.java:255) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.bukkit.BukkitPlugin$ServerListPlusCommand.onCommand(BukkitPlugin.java:171) [ServerListPlus-3.4.8-Universal.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:151) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:648) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:464) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:427) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:38:54] [Server thread/ERROR]: [ServerListPlus] [Core] Unable to parse the configuration. Make sure the YAML syntax is correct!
+org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 39, column 3:
+      &7       &eTumbleCraft &rby &4TN ... 
+      ^
+could not find expected ':'
+ in 'reader', line 40, column 3:
+      &7           &bCreative World Added
+      ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:466) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:280) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:225) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry.produce(ParserImpl.java:529) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.checkNode(Composer.java:68) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.checkData(BaseConstructor.java:112) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml$1.hasNext(Yaml.java:542) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecrell.serverlistplus.core.ConfigurationManager.reload(ConfigurationManager.java:93) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.reload(ServerListPlusCore.java:186) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.executeCommand(ServerListPlusCore.java:255) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.bukkit.BukkitPlugin$ServerListPlusCommand.onCommand(BukkitPlugin.java:171) [ServerListPlus-3.4.8-Universal.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:151) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:648) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:464) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:427) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:38:54] [Server thread/INFO]: [ServerListPlus] An internal error occurred while reloading the configuration.
+[13:39:05] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:39:05] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:39:05] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:39:05] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:39:05] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:39:16] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:39:16] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:39:16] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:39:16] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:39:16] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:39:40] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:39:40] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:39:40] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:39:40] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:39:40] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:39:50] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:39:50] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:39:50] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:39:50] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:39:50] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:39:51] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[13:40:06] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:40:06] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:40:06] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:40:06] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:40:06] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:40:11] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:40:11] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:40:11] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:40:11] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:40:11] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:40:56] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:40:56] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:40:56] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:40:56] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:40:56] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:43:04] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:43:04] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:43:04] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:43:04] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:43:04] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:44:23] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:44:23] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:44:23] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:44:23] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:44:23] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:44:47] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:44:57] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:44:57] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:44:57] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:44:57] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:44:57] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:45:19] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:45:19] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:45:19] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:45:19] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:45:19] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:45:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:45:47] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:45:52] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[13:47:07] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:47:07] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:47:07] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:47:07] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:47:07] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:47:56] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:47:56] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:47:56] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:47:56] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:47:56] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:48:11] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:48:11] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:48:11] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:48:11] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:48:11] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:48:37] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:48:37] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:48:37] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:48:37] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:48:37] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:48:48] [Craft Scheduler Thread - 3391/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:48:48] [Craft Scheduler Thread - 3396/INFO]: 
+[13:48:53] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[13:49:09] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:49:09] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:49:09] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:49:09] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:49:09] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:49:19] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:49:19] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:49:19] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:49:19] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:49:19] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:49:25] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:49:25] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:49:25] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:49:25] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:49:25] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:51:36] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:51:36] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:51:36] [Server thread/WARN]: [ServerListPlus] [Core] Unable to parse a part of the configuration. Make sure the YAML syntax is valid!
+org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 37, column 3:
+      Description:
+      ^
+expected <block end>, but found Anchor
+ in 'reader', line 49, column 15:
+                  &4Here is another line
+                  ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:571) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecrell.serverlistplus.core.ConfigurationManager.reload(ConfigurationManager.java:96) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.reload(ServerListPlusCore.java:186) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.executeCommand(ServerListPlusCore.java:255) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.bukkit.BukkitPlugin$ServerListPlusCommand.onCommand(BukkitPlugin.java:171) [ServerListPlus-3.4.8-Universal.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:151) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:648) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:464) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:427) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:51:36] [Server thread/ERROR]: [ServerListPlus] [Core] Unable to parse the configuration. Make sure the YAML syntax is correct!
+org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 35, column 1:
+    Default:
+    ^
+expected <block end>, but found Anchor
+ in 'reader', line 49, column 15:
+                  &4Here is another line
+                  ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:571) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.checkNode(Composer.java:68) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.checkData(BaseConstructor.java:112) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml$1.hasNext(Yaml.java:542) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecrell.serverlistplus.core.ConfigurationManager.reload(ConfigurationManager.java:93) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.reload(ServerListPlusCore.java:186) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.executeCommand(ServerListPlusCore.java:255) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.bukkit.BukkitPlugin$ServerListPlusCommand.onCommand(BukkitPlugin.java:171) [ServerListPlus-3.4.8-Universal.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:151) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:648) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:464) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:427) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:51:36] [Server thread/INFO]: [ServerListPlus] An internal error occurred while reloading the configuration.
+[13:51:40] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:51:40] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:51:40] [Server thread/WARN]: [ServerListPlus] [Core] Unable to parse a part of the configuration. Make sure the YAML syntax is valid!
+org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 37, column 3:
+      Description:
+      ^
+expected <block end>, but found Anchor
+ in 'reader', line 49, column 15:
+                  &4Here is another line
+                  ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:571) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:227) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:249) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:240) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:228) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:154) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:84) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:123) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:547) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecrell.serverlistplus.core.ConfigurationManager.reload(ConfigurationManager.java:96) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.reload(ServerListPlusCore.java:186) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.executeCommand(ServerListPlusCore.java:255) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.bukkit.BukkitPlugin$ServerListPlusCommand.onCommand(BukkitPlugin.java:171) [ServerListPlus-3.4.8-Universal.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:151) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:648) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:464) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:427) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:51:40] [Server thread/ERROR]: [ServerListPlus] [Core] Unable to parse the configuration. Make sure the YAML syntax is correct!
+org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 35, column 1:
+    Default:
+    ^
+expected <block end>, but found Anchor
+ in 'reader', line 49, column 15:
+                  &4Here is another line
+                  ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:571) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:157) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:147) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.composer.Composer.checkNode(Composer.java:68) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.checkData(BaseConstructor.java:112) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.yaml.snakeyaml.Yaml$1.hasNext(Yaml.java:542) ~[PaperSpigot.jar:git-Paper-1383]
+	at net.minecrell.serverlistplus.core.ConfigurationManager.reload(ConfigurationManager.java:93) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.reload(ServerListPlusCore.java:186) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.core.ServerListPlusCore.executeCommand(ServerListPlusCore.java:255) [ServerListPlus-3.4.8-Universal.jar:?]
+	at net.minecrell.serverlistplus.bukkit.BukkitPlugin$ServerListPlusCommand.onCommand(BukkitPlugin.java:171) [ServerListPlus-3.4.8-Universal.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:151) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:685) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:648) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:464) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:427) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:51:40] [Server thread/INFO]: [ServerListPlus] An internal error occurred while reloading the configuration.
+[13:51:54] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[13:52:29] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:53:09] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:53:15] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:53:15] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:53:15] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:53:15] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:53:15] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:53:29] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:54:15] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:54:15] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:54:15] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:54:15] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:54:15] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:54:36] [Server thread/INFO]: [ServerListPlus] Reloading configuration...
+[13:54:36] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[13:54:36] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[13:54:36] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[13:54:36] [Server thread/INFO]: [ServerListPlus] Configuration successfully reloaded!
+[13:54:44] [User Authenticator #12/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[13:54:45] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
+[13:54:45] [Server thread/INFO]: TumbleGamer[/127.0.0.1:62563] logged in with entity id 479837 at ([Creative]-34.82846267834267, 70.18485886454324, -85.14231331735937)
+[13:54:45] [Server thread/INFO]: +[Owner] TumbleGamer
+[13:54:46] [Server thread/INFO]: [Vivecraft] NONVR[Owner] TumbleGamer
+[13:54:51] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
+[13:54:51] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer quit with silent quitting permission, not sending a quit message
+[13:54:52] [Server thread/INFO]: -[Owner] TumbleGamer
+[13:54:55] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[13:57:55] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[14:00:11] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[14:00:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[14:01:11] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[14:03:51] [Craft Scheduler Thread - 3437/INFO]: [Marriage] Purged 0 player entries in 0ms
+[14:03:51] [Craft Scheduler Thread - 3435/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[14:03:52] [Craft Scheduler Thread - 3441/INFO]: 
+[14:03:56] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[14:06:57] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[14:07:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[14:08:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[14:08:53] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[14:09:58] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[14:12:59] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
