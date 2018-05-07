@@ -83,7 +83,7 @@ npc:
         x: '144.5'
         y: '70.5'
         z: '544.5'
-        yaw: '45.510162353515625'
+        yaw: '-135.86846923828125'
         pitch: '0.0'
       type: PLAYER
       owner:
@@ -110,7 +110,7 @@ npc:
         x: '128.5'
         y: '70.5'
         z: '560.5'
-        yaw: '-173.73065185546875'
+        yaw: '-83.62410736083984'
         pitch: '0.0'
       gravity:
         enabled: false
@@ -762,10 +762,10 @@ npc:
         realisticlooking: false
       location:
         world: Survival
-        x: '-49.0342'
-        y: '66.0'
-        z: '548.8849'
-        yaw: '-67.9432601928711'
+        x: '81.2994'
+        y: '70.0'
+        z: '553.5584'
+        yaw: '55.887115478515625'
         pitch: '0.0'
       type: PLAYER
       inventory:
@@ -795,8 +795,8 @@ npc:
           durability: 0
           mdata: 0
       sentinel:
-        stats_ticksSpawned: 8719744
-        stats_timesSpawned: 40
+        stats_ticksSpawned: 8765652
+        stats_timesSpawned: 41
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -804,10 +804,10 @@ npc:
         stats_eggsThrown: 0
         stats_skullsThrown: 0
         stats_pearlsUsed: 0
-        stats_punches: 202
-        stats_attackAttempts: 5885
+        stats_punches: 205
+        stats_attackAttempts: 6137
         stats_damageTaken: 0.0
-        stats_damageGiven: 1288.2120006680489
+        stats_damageGiven: 1309.2120006680489
         range: 20.0
         damage: -1.0
         armor: -1.0
