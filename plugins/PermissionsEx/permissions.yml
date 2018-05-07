@@ -8,6 +8,7 @@ groups:
     inheritance:
     - mod
     permissions:
+    - -tcpp.immune
     - -phoenix.bypass.*
     - -ab.kick.exempt
     - -ab.ban.exempt
