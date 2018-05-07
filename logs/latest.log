@@ -3938,3 +3938,1987 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [22:03:05] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho joined with silent joining permission, not sending a join message
 [22:03:05] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:55479] logged in with entity id 691708 at ([Survival]92.71624871265531, 70.0, 545.4964051706482)
 [22:03:05] [Server thread/INFO]: +[Owner] DrBatmanWho
+[22:03:30] [Server thread/INFO]: DrBatmanWho issued server command: /npcselect
+[22:03:35] [Server thread/INFO]: DrBatmanWho issued server command: /npc selec
+[22:03:39] [Server thread/INFO]: DrBatmanWho issued server command: /npc select
+[22:04:01] [Server thread/INFO]: DrBatmanWho issued server command: /sentinel removetarget MOB
+[22:04:27] [Server thread/INFO]: DrBatmanWho issued server command: /sentinel addtargets MONSTERS
+[22:04:34] [Server thread/INFO]: DrBatmanWho issued server command: /npc select
+[22:04:41] [Server thread/INFO]: DrBatmanWho issued server command: /sentinel addtargets MONSTERS
+[22:04:49] [Server thread/INFO]: DrBatmanWho issued server command: /sentinel addtargets MONSTER
+[22:04:55] [Server thread/INFO]: DrBatmanWho issued server command: /sentinel addtargets MONSTER
+[22:05:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:05:13] [Server thread/INFO]: DrBatmanWho issued server command: /sentinel addtarget MONSTER
+[22:05:37] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityZombie.damageEntity(EntityZombie.java:163) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 31 more
+[22:05:38] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityZombie.damageEntity(EntityZombie.java:163) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 31 more
+[22:05:40] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityZombie.damageEntity(EntityZombie.java:163) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 31 more
+[22:05:43] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityZombie.damageEntity(EntityZombie.java:163) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 31 more
+[22:05:44] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityZombie.damageEntity(EntityZombie.java:163) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 31 more
+[22:05:46] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityZombie.damageEntity(EntityZombie.java:163) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 31 more
+[22:05:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:05:48] [Craft Scheduler Thread - 4729/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:05:48] [Craft Scheduler Thread - 4731/INFO]: [Marriage] Purged 0 player entries in 0ms
+[22:05:48] [Craft Scheduler Thread - 4735/INFO]: 
+[22:05:53] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[22:06:01] [Server thread/INFO]: TumbleGamer issued server command: /TPO DrBatmanWho
+[22:06:08] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[22:07:13] [Server thread/INFO]: TumbleGamer issued server command: /gmc
+[22:10:01] [Server thread/INFO]: TumbleGamer issued server command: /tpo DrBatmanWho
+[22:10:11] [Server thread/INFO]: TumbleGamer issued server command: /tpohere DrBatmanWho
+[22:11:49] [Server thread/INFO]: DrBatmanWho issued server command: /tpa TumbleGamer
+[22:11:54] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[22:12:32] [Server thread/INFO]: TumbleGamer issued server command: /sudo DrBatmanWho satff
+[22:12:37] [Server thread/INFO]: TumbleGamer issued server command: /sudo DrBatmanWho staff
+[22:12:37] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:12:37] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:12:37] [Server thread/INFO]: DrBatmanWho has made the advancement [Into Fire]
+[22:12:46] [Server thread/INFO]: TumbleGamer issued server command: /sudo DrBatmanWho staff
+[22:12:46] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:12:46] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:12:49] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:12:55] [Server thread/INFO]: TumbleGamer issued server command: /lagg
+[22:12:58] [Server thread/INFO]: TumbleGamer issued server command: /lagg clear
+[22:12:58] [Server thread/INFO]: TumbleGamer issued server command: /lagg clear
+[22:12:59] [Server thread/INFO]: TumbleGamer issued server command: /lagg clear
+[22:12:59] [Server thread/INFO]: TumbleGamer issued server command: /
+[22:12:59] [Server thread/INFO]: TumbleGamer issued server command: /
+[22:13:00] [Server thread/INFO]: TumbleGamer issued server command: /
+[22:13:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [To Be interviewed] Soda: Hi
+[22:13:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: hello
+[22:13:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [To Be interviewed] Soda: Doing hoemwork
+[22:13:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [To Be interviewed] Soda: :stuck_out_tongue:
+[22:13:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: ok
+[22:13:29] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:13:49] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[22:13:54] [Server thread/INFO]: TumbleGamer issued server command: /gms DrBatmanWho
+[22:14:05] [Server thread/INFO]: TumbleGamer issued server command: /god DrBatmanWho
+[22:14:07] [Server thread/INFO]: TumbleGamer issued server command: /god DrBatmanWho
+[22:14:13] [Server thread/INFO]: TumbleGamer issued server command: /pvp[
+[22:14:14] [Server thread/INFO]: TumbleGamer issued server command: /pvp
+[22:14:16] [Server thread/INFO]: TumbleGamer issued server command: /region
+[22:14:26] [Server thread/INFO]: TumbleGamer issued server command: /region flag set pvp enable
+[22:14:30] [Server thread/INFO]: TumbleGamer issued server command: /region flag pvp enable
+[22:14:41] [Server thread/INFO]: TumbleGamer issued server command: /region flag spawn pvp enable
+[22:14:45] [Server thread/INFO]: TumbleGamer issued server command: /region infpo
+[22:14:48] [Server thread/INFO]: TumbleGamer issued server command: /region info
+[22:14:54] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[22:14:59] [Server thread/INFO]: TumbleGamer issued server command: /region flag __global__ pvp enable
+[22:15:09] [Server thread/INFO]: TumbleGamer issued server command: /gmc DrBatmanWho
+[22:15:10] [Server thread/INFO]: TumbleGamer issued server command: /g,s
+[22:15:13] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[22:15:20] [Server thread/INFO]: TumbleGamer issued server command: /gms DrBatmanWho
+[22:15:39] [Server thread/INFO]: TumbleGamer issued server command: /kit diamond DrBatmanWho
+[22:15:48] [Server thread/INFO]: TumbleGamer issued server command: /staff
+[22:15:48] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:15:48] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:15:51] [Server thread/INFO]: TumbleGamer issued server command: /staff
+[22:15:51] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:15:51] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:15:57] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[22:15:58] [Server thread/INFO]: TumbleGamer issued server command: /gmc
+[22:16:28] [Server thread/INFO]: TumbleGamer issued server command: /gms
+[22:16:50] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:16:51] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:16:58] [Server thread/INFO]: TumbleGamer issued server command: /gms DrBatmanWho
+[22:17:33] [Server thread/INFO]: TumbleGamer issued server command: /god DrBatmanWho
+[22:17:35] [Server thread/INFO]: TumbleGamer issued server command: /god DrBatmanWho
+[22:17:45] [Server thread/INFO]: TumbleGamer issued server command: /summon minecraft:creeper
+[22:17:45] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[22:17:46] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:17:47] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:17:49] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:17:50] [Server thread/INFO]: TumbleGamer issued server command: /summon minecraft:creeper
+[22:17:50] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[22:17:51] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:17:52] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:17:54] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:17:54] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[22:17:54] [Server thread/INFO]: TumbleGamer issued server command: /summon minecraft:creeper
+[22:17:54] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[22:17:55] [Server thread/INFO]: TumbleGamer issued server command: /summon minecraft:creeper
+[22:17:55] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[22:17:56] [Server thread/INFO]: TumbleGamer issued server command: /summon minecraft:creeper
+[22:17:56] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[22:17:56] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:17:56] [Server thread/INFO]: TumbleGamer issued server command: /summon minecraft:creeper
+[22:17:56] [Server thread/INFO]: [TumbleGamer: Object successfully summoned]
+[22:17:57] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:17:59] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:18:00] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:18:02] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:18:03] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:18:40] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho huger 9 9
+[22:18:40] [Server thread/INFO]: [TumbleGamer: There is no such mob effect with ID huger]
+[22:18:41] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho huger 9 1
+[22:18:41] [Server thread/INFO]: [TumbleGamer: There is no such mob effect with ID huger]
+[22:18:44] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho hunger 9 1
+[22:18:44] [Server thread/INFO]: [TumbleGamer: Given Hunger (ID 17) * 1 to DrBatmanWho for 9 seconds]
+[22:18:49] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho hunger 99999 1
+[22:18:49] [Server thread/INFO]: [TumbleGamer: Given Hunger (ID 17) * 1 to DrBatmanWho for 99999 seconds]
+[22:19:04] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho hunger 999999 1
+[22:19:04] [Server thread/INFO]: [TumbleGamer: Given Hunger (ID 17) * 1 to DrBatmanWho for 999999 seconds]
+[22:19:11] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho hunger 1 999999
+[22:19:11] [Server thread/INFO]: [TumbleGamer: The number you have entered (999999) is too big, it must be at most 255]
+[22:19:16] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho hunger 1 255
+[22:19:16] [Server thread/INFO]: [TumbleGamer: Given Hunger (ID 17) * 255 to DrBatmanWho for 1 seconds]
+[22:19:26] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho hunger 1 255
+[22:19:26] [Server thread/INFO]: [TumbleGamer: Given Hunger (ID 17) * 255 to DrBatmanWho for 1 seconds]
+[22:19:27] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho hunger 1 255
+[22:19:27] [Server thread/INFO]: [TumbleGamer: Given Hunger (ID 17) * 255 to DrBatmanWho for 1 seconds]
+[22:19:27] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho hunger 1 255
+[22:19:27] [Server thread/INFO]: [TumbleGamer: Given Hunger (ID 17) * 255 to DrBatmanWho for 1 seconds]
+[22:19:32] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho hunger 999 266
+[22:19:32] [Server thread/INFO]: [TumbleGamer: The number you have entered (266) is too big, it must be at most 255]
+[22:19:35] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho hunger 999 255
+[22:19:35] [Server thread/INFO]: [TumbleGamer: Given Hunger (ID 17) * 255 to DrBatmanWho for 999 seconds]
+[22:19:46] [Server thread/INFO]: DrBatmanWho issued server command: /feed
+[22:20:20] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho hunger 10 255
+[22:20:20] [Server thread/INFO]: [TumbleGamer: Given Hunger (ID 17) * 255 to DrBatmanWho for 10 seconds]
+[22:20:30] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:20:32] [Server thread/INFO]: TumbleGamer issued server command: /feed DrBatmanWho
+[22:20:41] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho hunger 999 255
+[22:20:41] [Server thread/INFO]: [TumbleGamer: Given Hunger (ID 17) * 255 to DrBatmanWho for 999 seconds]
+[22:20:50] [Craft Scheduler Thread - 4772/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:20:50] [Craft Scheduler Thread - 4777/INFO]: 
+[22:20:55] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[22:20:56] [Server thread/INFO]: TumbleGamer issued server command: /powertool /feed drbatmanwho
+[22:20:56] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:20:57] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: //feed drbatmanwho
+[22:20:57] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: //feed drbatmanwho
+[22:20:57] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: //feed drbatmanwho
+[22:20:58] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: //feed drbatmanwho
+[22:20:59] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: //feed drbatmanwho
+[22:21:07] [Server thread/INFO]: TumbleGamer issued server command: /powertool /feed DrBatmanWho
+[22:21:08] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: //feed DrBatmanWho
+[22:21:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:21:11] [Server thread/INFO]: TumbleGamer issued server command: /powertool feed DrBatmanWho
+[22:21:12] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:13] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:13] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:13] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:13] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:13] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:16] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:18] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:19] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:19] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:19] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:19] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:20] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:20] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:20] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:20] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:20] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:20] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:23] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:28] [Server thread/INFO]: TumbleGamer issued server command: /tpo DrBatmanWho
+[22:21:29] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:30] [Server thread/INFO]: [ClearLag] Removed 2 Entities!
+[22:21:30] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:31] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:31] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:31] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:31] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:31] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:32] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:32] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:32] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:32] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:32] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:32] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:33] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:33] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:33] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:33] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:33] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:33] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:34] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:34] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:34] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:34] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:34] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:35] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:35] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:35] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:35] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:35] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:36] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:36] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:36] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:36] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:36] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:36] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:36] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:37] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:37] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:37] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:37] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:37] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:37] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:38] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:38] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:38] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:38] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:38] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:38] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:39] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:40] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:40] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:21:41] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:22:02] [Server thread/INFO]: TumbleGamer issued server command: /effect DrBatmanWho hunger 0
+[22:22:02] [Server thread/INFO]: [TumbleGamer: Took Hunger from DrBatmanWho]
+[22:22:03] [Server thread/INFO]: [Essentials] [PT] TumbleGamer issued server command: /feed DrBatmanWho
+[22:22:08] [Server thread/INFO]: TumbleGamer issued server command: /powertool
+[22:22:48] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[22:22:52] [Server thread/INFO]: TumbleGamer issued server command: /gmc DrBatmanWho
+[22:22:58] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[22:23:01] [Server thread/INFO]: TumbleGamer issued server command: /god
+[22:23:02] [Server thread/INFO]: TumbleGamer issued server command: /god
+[22:23:55] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[22:24:02] [Server thread/INFO]: DrBatmanWho issued server command: /ignoreclaims
+[22:24:11] [User Authenticator #17/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[22:24:12] [Server thread/INFO]: QuanTuan[/98.29.147.129:49293] logged in with entity id 703587 at ([Survival]-17.848859488566454, 11.11650136792814, 1484.5413258420667)
+[22:24:12] [Server thread/INFO]: +[Helper] QuanTuan
+[22:24:20] [Server thread/INFO]: QuanTuan issued server command: /gamemode 1
+[22:24:21] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite QuanTuan
+[22:24:32] [Server thread/INFO]: QuanTuan issued server command: /powertool smite DrBatManWho
+[22:24:33] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:24:37] [Server thread/INFO]: QuanTuan issued server command: /tpo DrBatmanWho
+[22:24:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:24:53] [Server thread/INFO]: TumbleGamer issued server command: /gmc
+[22:24:58] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:24:58] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:24:59] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:24:59] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:24:59] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:24:59] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:15] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:15] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:16] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:16] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:16] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:16] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:16] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:17] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:17] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:17] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:17] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:18] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:18] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:18] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:18] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:18] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:19] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:19] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:19] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:19] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:20] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:20] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:20] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:20] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:20] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:21] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:21] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:21] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:21] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:21] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:22] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:22] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:22] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:22] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:23] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:23] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:23] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:23] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:24] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:24] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:24] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:25] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:25] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:25] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:25] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:25] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:26] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:26] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:26] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:26] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:27] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:27] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:27] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:27] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:29] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:29] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:29] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:30] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:30] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:30] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:30] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:31] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:31] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:31] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:31] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:32] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:32] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:32] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:32] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:33] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:33] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:33] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:33] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:34] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:34] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:34] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:34] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:34] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:35] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:35] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:35] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:35] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:36] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:36] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:36] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:36] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:36] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[22:25:37] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:37] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:37] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:37] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:38] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:38] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:38] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:38] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:39] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:39] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:39] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:39] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:41] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:41] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:41] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:41] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:44] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:44] [Server thread/INFO]: TumbleGamer issued server command: /tpohere DrBatmanWho
+[22:25:44] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:44] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:45] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:45] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:45] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:49] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:49] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:49] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:50] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:50] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:50] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:50] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:51] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:51] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[22:25:51] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[22:25:51] [Server thread/INFO]: -[Owner] DrBatmanWho
+[22:25:51] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:51] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:51] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:25:52] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrBatManWho
+[22:26:03] [Server thread/INFO]: QuanTuan issued server command: /powertool smite TumbleGamer
+[22:26:03] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:03] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:03] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:04] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:04] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:04] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:04] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:05] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:05] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:05] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:05] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:06] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:06] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:06] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:06] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:08] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:08] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:08] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:08] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:09] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:12] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:13] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:14] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:14] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:14] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:15] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:15] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:15] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:15] [User Authenticator #18/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[22:26:15] [Server thread/INFO]: [Owner] TumbleGamer: well be back
+[22:26:15] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho joined with silent joining permission, not sending a join message
+[22:26:15] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:55666] logged in with entity id 704902 at ([Survival]160.509292188253, 92.0, 797.6747246807947)
+[22:26:15] [Server thread/INFO]: +[Owner] DrBatmanWho
+[22:26:16] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:20] [Server thread/INFO]: [Owner] DrBatmanWho: vtp
+[22:26:23] [Server thread/INFO]: DrBatmanWho issued server command: /vtp
+[22:26:23] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:23] [Server thread/INFO]: [Owner] TumbleGamer: ok were back
+[22:26:27] [Server thread/INFO]: [Helper] QuanTuan: ?
+[22:26:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:26:32] [Server thread/INFO]: [Helper] QuanTuan: i like smites
+[22:26:39] [Server thread/INFO]: DrBatmanWho issued server command: /tpo here
+[22:26:47] [Server thread/INFO]: DrBatmanWho issued server command: /tpo TumbleGamer
+[22:26:54] [Server thread/INFO]: QuanTuan issued server command: /kick DrBatMan are you batman?
+[22:27:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [To Be interviewed] Soda: 2 owners?
+[22:27:14] [Server thread/INFO]: TumbleGamer issued server command: /gmc DrBatmanWho
+[22:27:14] [Server thread/INFO]: QuanTuan issued server command: /kick DrBatManWHo are u batman?
+[22:27:14] [Server thread/INFO]: DrBatmanWho lost connection: [TumbleCraft]
+You have been kicked from this server
+
+
+Reason: are u batman?
+Appeal: http://tumblecraft.tumblenet.ga/appeal
+
+KickID: #FFFFFFFF
+
+ Please Note: Kicks do not need to be appealed as you can just join right back.
+[22:27:14] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[22:27:15] [Server thread/INFO]: -[Owner] DrBatmanWho
+[22:27:15] [Server thread/WARN]: handleDisconnection() called twice
+[22:27:19] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:27:20] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:27:22] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:27:24] [User Authenticator #19/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[22:27:24] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho joined with silent joining permission, not sending a join message
+[22:27:24] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:55669] logged in with entity id 705549 at ([Survival]106.04396689940921, 61.0, 768.5949314987278)
+[22:27:24] [Server thread/INFO]: +[Owner] DrBatmanWho
+[22:27:28] [Server thread/INFO]: [Helper] QuanTuan: r u?
+[22:27:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [Tumble Network Team] TumbleGamer: hello
+[22:27:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [Tumble Network Team] TumbleGamer: yes
+[22:27:36] [Server thread/INFO]: [Helper] QuanTuan: omg
+[22:27:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [To Be interviewed] Soda: wot
+[22:27:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [To Be interviewed] Soda: xD
+[22:27:48] [Server thread/INFO]: [Helper] QuanTuan: xddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+[22:28:03] [Server thread/INFO]: QuanTuan issued server command: /kick DrBatManWho Why not?
+[22:28:03] [Server thread/INFO]: DrBatmanWho lost connection: [TumbleCraft]
+You have been kicked from this server
+
+
+Reason: Why not?
+Appeal: http://tumblecraft.tumblenet.ga/appeal
+
+KickID: #FFFFFFFF
+
+ Please Note: Kicks do not need to be appealed as you can just join right back.
+[22:28:03] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[22:28:03] [Server thread/INFO]: -[Owner] DrBatmanWho
+[22:28:03] [Server thread/WARN]: handleDisconnection() called twice
+[22:28:11] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:28:12] [User Authenticator #19/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[22:28:13] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho joined with silent joining permission, not sending a join message
+[22:28:13] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:55674] logged in with entity id 705909 at ([Survival]130.41472555159913, 80.0, 796.4518107846841)
+[22:28:13] [Server thread/INFO]: +[Owner] DrBatmanWho
+[22:28:16] [Server thread/INFO]: QuanTuan issued server command: /kick DrBatManWho Why not?
+[22:28:16] [Server thread/INFO]: DrBatmanWho lost connection: [TumbleCraft]
+You have been kicked from this server
+
+
+Reason: Why not?
+Appeal: http://tumblecraft.tumblenet.ga/appeal
+
+KickID: #FFFFFFFF
+
+ Please Note: Kicks do not need to be appealed as you can just join right back.
+[22:28:16] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[22:28:16] [Server thread/INFO]: -[Owner] DrBatmanWho
+[22:28:16] [Server thread/WARN]: handleDisconnection() called twice
+[22:28:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [To Be interviewed] Soda: Yo can Quan see this?
+[22:28:20] [User Authenticator #19/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[22:28:21] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho joined with silent joining permission, not sending a join message
+[22:28:21] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:55676] logged in with entity id 705918 at ([Survival]128.19166461351497, 80.0, 795.82015383921)
+[22:28:21] [Server thread/INFO]: +[Owner] DrBatmanWho
+[22:28:21] [Server thread/INFO]: [Helper] QuanTuan: Ya
+[22:28:32] [Server thread/INFO]: [Helper] QuanTuan: Quan
+[22:28:35] [Server thread/INFO]: [Helper] QuanTuan: +
+[22:28:37] [Server thread/INFO]: [Helper] QuanTuan: Tuan
+[22:28:39] [Server thread/INFO]: [Helper] QuanTuan: =w
+[22:28:47] [Server thread/INFO]: [Helper] QuanTuan: QuanTuan
+[22:28:50] [Server thread/INFO]: [Helper] QuanTuan: :D
+[22:28:51] [Async Chat Thread - #2/INFO]: [GriefPrevention] Muted repeat message.
+[22:28:51] [Server thread/INFO]: [Helper] QuanTuan: :D
+[22:28:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:28:57] [Server thread/INFO]: QuanTuan issued server command: /kick QuanTuan idk
+[22:28:57] [Server thread/INFO]: QuanTuan lost connection: [TumbleCraft]
+You have been kicked from this server
+
+
+Reason: idk
+Appeal: http://tumblecraft.tumblenet.ga/appeal
+
+KickID: #FFFFFFFF
+
+ Please Note: Kicks do not need to be appealed as you can just join right back.
+[22:28:57] [Server thread/INFO]: -[Helper] QuanTuan
+[22:28:57] [Server thread/WARN]: handleDisconnection() called twice
+[22:29:02] [User Authenticator #19/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[22:29:02] [Server thread/INFO]: QuanTuan[/98.29.147.129:49309] logged in with entity id 706466 at ([Survival]41.72241029593592, 101.25086989133776, 651.744423120921)
+[22:29:02] [Server thread/INFO]: +[Helper] QuanTuan
+[22:29:10] [Server thread/INFO]: QuanTuan issued server command: /gamemode 1
+[22:29:11] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[22:29:12] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[22:29:13] [Server thread/INFO]: Permissions reloaded
+[22:29:23] [Server thread/INFO]: [Helper] QuanTuan: when will da players come on ?
+[22:29:25] [Server thread/INFO]: [Owner] DrBatmanWho: hey mr man kick me
+[22:29:31] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite TumbleGamer
+[22:29:39] [Server thread/INFO]: QuanTuan issued server command: /powertool DrBatManWho
+[22:29:50] [Server thread/INFO]: QuanTuan issued server command: /powertool kick DrBatManWho
+[22:29:50] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /kick DrBatManWho
+[22:29:54] [Server thread/INFO]: TumbleGamer issued server command: /smite TumbleGamer
+[22:29:55] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /kick DrBatManWho
+[22:29:55] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /kick DrBatManWho
+[22:29:56] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[22:29:57] [Server thread/INFO]: TumbleGamer issued server command: /smite TumbleGamer
+[22:29:57] [Server thread/INFO]: TumbleGamer issued server command: /smite TumbleGamer
+[22:29:58] [Server thread/INFO]: TumbleGamer issued server command: /smite TumbleGamer
+[22:29:59] [Server thread/INFO]: TumbleGamer issued server command: /smite TumbleGamer
+[22:29:59] [Server thread/INFO]: TumbleGamer issued server command: /smite TumbleGamer
+[22:30:00] [Server thread/INFO]: TumbleGamer issued server command: /
+[22:30:02] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:30:02] [Server thread/INFO]: TumbleGamer issued server command: /smite TumbleGamer
+[22:30:03] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor147.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[22:30:05] [Server thread/INFO]: QuanTuan issued server command: /powertool smite DrbatManWHo
+[22:30:06] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:06] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:06] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:06] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:08] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:08] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:08] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:08] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:09] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:09] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:09] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:09] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:09] [Server thread/INFO]: TumbleGamer issued server command: /smite QuanTuan
+[22:30:09] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:10] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:11] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:11] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:11] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:11] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:12] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:12] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:12] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:12] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:13] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:13] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:13] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:13] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:13] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:14] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:14] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:14] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:14] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:15] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:15] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:15] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:15] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:15] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:16] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:16] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:16] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:16] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:17] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:17] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:17] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:17] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:17] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:18] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:18] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:18] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:18] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:19] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:19] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:19] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:19] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:20] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:20] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:20] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:20] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:21] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:21] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:21] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:21] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:22] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:22] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:22] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:22] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:22] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:23] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:23] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:23] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:23] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:24] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:24] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:24] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:24] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:25] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:25] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:25] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:25] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:26] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:26] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:26] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:26] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:27] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:27] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:27] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:27] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:28] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:29] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:29] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:29] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:30] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:30] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:30] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:30] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:35] [Server thread/INFO]: QuanTuan issued server command: /smite DrBatManWho
+[22:30:37] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:38] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:38] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:38] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:38] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:39] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:39] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:39] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:39] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:39] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:40] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:41] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:41] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:41] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:41] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:44] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:44] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:44] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:44] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:45] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:45] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:45] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:45] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:49] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:49] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:49] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:49] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:50] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:50] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:50] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:50] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:51] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:51] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:51] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:52] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:53] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:53] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:54] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:54] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:55] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:55] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:55] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:55] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:56] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:56] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:56] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:57] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:57] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:57] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:57] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:58] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:58] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:58] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:59] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:59] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:30:59] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:00] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:00] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:00] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:00] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:03] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:03] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:03] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:03] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:04] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:04] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:04] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:04] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:04] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:05] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:05] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:05] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:05] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:06] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:06] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:06] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:06] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:07] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:07] [Server thread/INFO]: DrBatmanWho issued server command: /kick QuanTuan
+[22:31:07] [Server thread/INFO]: QuanTuan lost connection: [TumbleCraft]
+You have been kicked from this server
+
+
+Reason: none
+Appeal: http://tumblecraft.tumblenet.ga/appeal
+
+KickID: #FFFFFFFF
+
+ Please Note: Kicks do not need to be appealed as you can just join right back.
+[22:31:07] [Server thread/INFO]: -[Helper] QuanTuan
+[22:31:07] [Server thread/WARN]: handleDisconnection() called twice
+[22:31:18] [User Authenticator #20/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[22:31:18] [Server thread/INFO]: QuanTuan[/98.29.147.129:49313] logged in with entity id 707762 at ([Survival]209.44262353679656, 101.91920498361483, 725.5402432583475)
+[22:31:18] [Server thread/INFO]: +[Helper] QuanTuan
+[22:31:30] [Server thread/INFO]: QuanTuan issued server command: /kick TumbleGamer hi
+[22:31:34] [Server thread/INFO]: DrBatmanWho issued server command: /kick
+[22:31:42] [Server thread/INFO]: QuanTuan issued server command: /gamemode 1
+[22:31:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:44] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:31:49] [Server thread/INFO]: DrBatmanWho issued server command: /kick QuanTuan For being very annoying
+[22:31:49] [Server thread/INFO]: QuanTuan lost connection: [TumbleCraft]
+You have been kicked from this server
+
+
+Reason: For being very annoying
+Appeal: http://tumblecraft.tumblenet.ga/appeal
+
+KickID: #FFFFFFFF
+
+ Please Note: Kicks do not need to be appealed as you can just join right back.
+[22:31:49] [Server thread/INFO]: -[Helper] QuanTuan
+[22:31:49] [Server thread/WARN]: handleDisconnection() called twice
+[22:31:56] [User Authenticator #20/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[22:31:56] [Server thread/INFO]: QuanTuan[/98.29.147.129:49317] logged in with entity id 708199 at ([Survival]181.86654652522233, 84.15858689952535, 722.7305824105581)
+[22:31:56] [Server thread/INFO]: +[Helper] QuanTuan
+[22:32:02] [Server thread/INFO]: [Helper] QuanTuan: r u high?
+[22:32:03] [Server thread/INFO]: [Owner] DrBatmanWho: history
+[22:32:09] [Server thread/INFO]: DrBatmanWho issued server command: /history
+[22:32:12] [Server thread/INFO]: QuanTuan issued server command: /gamemode 1
+[22:32:13] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:17] [Server thread/INFO]: DrBatmanWho issued server command: /history QuanTuan
+[22:32:22] [Server thread/INFO]: [Helper] QuanTuan: thats wat u get for being high
+[22:32:22] [Server thread/INFO]: [Owner] TumbleGamer: yes i am high in the sky
+[22:32:39] [Server thread/INFO]: [Helper] QuanTuan: who is saying stuff?
+[22:32:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:42] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:43] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:44] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:44] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:44] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:44] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:44] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:45] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:45] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:45] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:45] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:46] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:47] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:48] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:49] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:49] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite DrbatManWHo
+[22:32:49] [Server thread/INFO]: DrBatmanWho issued server command: /kick QuanTuan For being very annoying
+[22:32:49] [Server thread/INFO]: QuanTuan lost connection: [TumbleCraft]
+You have been kicked from this server
+
+
+Reason: For being very annoying
+Appeal: http://tumblecraft.tumblenet.ga/appeal
+
+KickID: #FFFFFFFF
+
+ Please Note: Kicks do not need to be appealed as you can just join right back.
+[22:32:49] [Server thread/INFO]: -[Helper] QuanTuan
+[22:32:49] [Server thread/WARN]: handleDisconnection() called twice
+[22:32:54] [User Authenticator #20/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[22:32:55] [Server thread/INFO]: QuanTuan[/98.29.147.129:49319] logged in with entity id 708662 at ([Survival]182.35595672710224, 80.0, 699.9472056432444)
+[22:32:55] [Server thread/INFO]: +[Helper] QuanTuan
+[22:32:57] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[22:32:58] [Server thread/INFO]: DrBatmanWho issued server command: /kick QuanTuan For being very annoying
+[22:32:58] [Server thread/INFO]: QuanTuan lost connection: [TumbleCraft]
+You have been kicked from this server
+
+
+Reason: For being very annoying
+Appeal: http://tumblecraft.tumblenet.ga/appeal
+
+KickID: #FFFFFFFF
+
+ Please Note: Kicks do not need to be appealed as you can just join right back.
+[22:32:58] [Server thread/INFO]: -[Helper] QuanTuan
+[22:32:58] [Server thread/WARN]: handleDisconnection() called twice
+[22:33:02] [User Authenticator #20/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[22:33:02] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@5e041352[id=6e97e76b-23c0-4745-80b2-b64cef10e602,name=QuanTuan,properties={textures=[com.mojang.authlib.properties.Property@4875604c]},legacy=false] (/98.29.147.129:49321): You must wait 23 seconds before logging-in again.
+[22:33:02] [Server thread/INFO]: com.mojang.authlib.GameProfile@5e041352[id=6e97e76b-23c0-4745-80b2-b64cef10e602,name=QuanTuan,properties={textures=[com.mojang.authlib.properties.Property@4875604c]},legacy=false] (/98.29.147.129:49321) lost connection: You must wait 23 seconds before logging-in again.
+[22:33:08] [Server thread/INFO]: DrBatmanWho issued server command: /warp s-survial
+[22:33:10] [User Authenticator #20/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[22:33:10] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@767f2218[id=6e97e76b-23c0-4745-80b2-b64cef10e602,name=QuanTuan,properties={textures=[com.mojang.authlib.properties.Property@2c3fe8be]},legacy=false] (/98.29.147.129:49324): You must wait 15 seconds before logging-in again.
+[22:33:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@767f2218[id=6e97e76b-23c0-4745-80b2-b64cef10e602,name=QuanTuan,properties={textures=[com.mojang.authlib.properties.Property@2c3fe8be]},legacy=false] (/98.29.147.129:49324) lost connection: You must wait 15 seconds before logging-in again.
+[22:33:13] [Server thread/INFO]: DrBatmanWho issued server command: /warp s-survival
+[22:33:19] [Server thread/INFO]: DrBatmanWho issued server command: /server
+[22:33:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: hello @everyone
+[22:34:53] [Server thread/INFO]: DrBatmanWho issued server command: /server
+[22:34:55] [Server thread/INFO]: DrBatmanWho issued server command: /warp s-survival DrBatmanWho
+[22:35:19] [Server thread/INFO]: TumbleGamer issued server command: /smite TumbleGamer
+[22:35:23] [Server thread/INFO]: TumbleGamer issued server command: /smite TumbleGamer
+[22:35:53] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:35:53] [Craft Scheduler Thread - 4836/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:35:53] [Craft Scheduler Thread - 4841/INFO]: 
+[22:35:58] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[22:36:14] [Server thread/INFO]: TumbleGamer issued server command: /replacenear air stone,wood
+[22:36:22] [Server thread/INFO]: TumbleGamer issued server command: /replacenear 5 air stone,wood
+[22:36:22] [Server thread/INFO]: (FAWE) Having `parallel-threads` > 1 interferes with the timings.
+[22:36:24] [Server thread/INFO]: TumbleGamer issued server command: //undo
+[22:36:32] [Server thread/INFO]: TumbleGamer issued server command: /tpohere DrBatmanWho
+[22:36:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:36:39] [Server thread/INFO]: TumbleGamer issued server command: /tpohere DrBatmanWho
+[22:36:47] [Server thread/INFO]: TumbleGamer issued server command: /friend
+[22:36:53] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[22:37:07] [Server thread/INFO]: TumbleGamer issued server command: /friend
+[22:37:11] [Server thread/INFO]: DrBatmanWho issued server command: /friend
+[22:37:27] [Server thread/INFO]: TumbleGamer issued server command: /friend chat
+[22:37:41] [Server thread/INFO]: TumbleGamer issued server command: /sc
+[22:37:54] [Server thread/INFO]: TumbleGamer issued server command: /friend chat
+[22:38:58] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[22:39:19] [Server thread/INFO]: DrBatmanWho issued server command: /tpa TumbleGamer
+[22:39:24] [Server thread/INFO]: TumbleGamer issued server command: /tpaccept
+[22:39:27] [Server thread/INFO]: DrBatmanWho issued server command: /tpo TumbleGamer
+[22:39:56] [Server thread/INFO]: TumbleGamer issued server command: /home TumbleGamer
+[22:40:02] [Server thread/INFO]: TumbleGamer issued server command: /home DrBatmanWho
+[22:40:04] [Server thread/INFO]: TumbleGamer issued server command: /home DrBatmanWho:
+[22:40:17] [Server thread/INFO]: TumbleGamer issued server command: /staff
+[22:40:17] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:40:17] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:40:26] [Server thread/INFO]: DrBatmanWho issued server command: /home TumbleGamer: home
+[22:40:41] [Server thread/INFO]: TumbleGamer issued server command: /freeze DrBatmanWho
+[22:40:47] [Server thread/INFO]: DrBatmanWho issued server command: /home TumbleGamer: mushroomfarm
+[22:41:12] [Server thread/INFO]: DrBatmanWho issued server command: /home TumbleGamer:mushroomfarm
+[22:41:19] [Server thread/INFO]: TumbleGamer issued server command: /tpo DrBatmanWho
+[22:41:47] [Server thread/INFO]: TumbleGamer issued server command: /staff
+[22:41:47] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:41:47] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:41:51] [Server thread/INFO]: TumbleGamer issued server command: /gmsp
+[22:41:51] [Server thread/INFO]: DrBatmanWho issued server command: /home TumbleGamer:
+[22:41:56] [Server thread/INFO]: DrBatmanWho issued server command: /home TumbleGamer:obsidian
+[22:41:59] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[22:42:04] [Server thread/INFO]: TumbleGamer issued server command: /gmsp DrBatmanWho
+[22:42:05] [Server thread/INFO]: DrBatmanWho issued server command: /gosp
+[22:42:37] [Server thread/INFO]: TumbleGamer issued server command: /tpohere DrBatmanWho
+[22:42:59] [Server thread/INFO]: TumbleGamer issued server command: /tpohere DrBatmanWho
+[22:43:18] [Server thread/INFO]: DrBatmanWho issued server command: /gm c
+[22:43:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:44:13] [Server thread/INFO]: DrBatmanWho issued server command: /home
+[22:44:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:44:17] [Server thread/INFO]: DrBatmanWho issued server command: /home home
+[22:44:34] [Server thread/INFO]: [ClearLag] Removed 6 Entities!
+[22:44:57] [Server thread/INFO]: DrBatmanWho issued server command: /home tumblegamer
+[22:45:06] [Server thread/INFO]: DrBatmanWho issued server command: /tpo TumbleGamer
+[22:46:07] [Server thread/INFO]: TumbleGamer issued server command: /gmc
+[22:46:20] [Server thread/INFO]: TumbleGamer issued server command: /v
+[22:46:21] [Server thread/INFO]: DrBatmanWho issued server command: /ignoreclaims
+[22:47:18] [Server thread/INFO]: TumbleGamer issued server command: /tpo DrBatmanWho
+[22:47:26] [Server thread/INFO]: DrBatmanWho issued server command: /b
+[22:47:32] [Server thread/INFO]: DrBatmanWho issued server command: /v
+[22:48:00] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
