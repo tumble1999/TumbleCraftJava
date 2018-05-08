@@ -2493,3 +2493,73 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [21:31:10] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
 [21:32:25] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
 [21:33:06] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:33:26] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[21:34:11] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[21:40:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:40:08] [Craft Scheduler Thread - 6422/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:40:08] [Craft Scheduler Thread - 6427/INFO]: 
+[21:40:13] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[21:40:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:41:08] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[21:43:13] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[21:46:14] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[21:47:49] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:48:29] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:48:49] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[21:49:14] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[21:51:13] [User Authenticator #31/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[21:51:14] [Server thread/INFO]: QuanTuan[/98.29.147.129:49287] logged in with entity id 1351578 at ([Survival]28769.560908734646, 74.44426322322957, 18262.29419769802)
+[21:51:14] [Server thread/INFO]: +[Helper] QuanTuan
+[21:51:22] [Server thread/INFO]: QuanTuan issued server command: /gamemode 1
+[21:51:24] [Server thread/INFO]: [Essentials] [PT] QuanTuan issued server command: /smite smooch_
+[21:51:57] [Server thread/INFO]: QuanTuan lost connection: Disconnected
+[21:51:57] [Server thread/INFO]: -[Helper] QuanTuan
+[21:52:15] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[21:52:35] [User Authenticator #32/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[21:52:35] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
+[21:52:35] [Server thread/INFO]: TumbleGamer[/127.0.0.1:49413] logged in with entity id 1352217 at ([Survival]187.82057221478172, 72.75144052173367, 539.633315097828)
+[21:52:35] [Server thread/INFO]: +[Owner] TumbleGamer
+[21:52:36] [Server thread/INFO]: [Vivecraft] NONVR[Owner] TumbleGamer
+[21:53:21] [Server thread/INFO]: TumbleGamer issued server command: /discord
+[21:54:49] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[21:55:11] [Craft Scheduler Thread - 6442/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:55:12] [Craft Scheduler Thread - 6447/INFO]: 
+[21:55:31] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:56:11] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:56:31] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[21:57:38] [Server thread/INFO]: TumbleGamer issued server command: /discord ?
+[21:57:46] [Server thread/INFO]: TumbleGamer issued server command: /discord setpicture https://lh3.googleusercontent.com/1TyVAm3wLl-YT-67Lh1ASpNpz8lXMKZgfvrCe7NaNMqE4EwkyLq77_D2WUnT9kw0zapqSE3H8kYK7-SwrLj5VELKyDM4ix0_q95coZGsA96klr__39TBu1MLpmeSSZ_wRcRqQtynANhZJ0acfVviK2sozZV6_n61H1E7P537H3HjbcFEmIJ7cRkLlI9JOdejl4KAuIiQnU
+[21:58:12] [Server thread/INFO]: TumbleGamer issued server command: /discord setpicture https://photos.app.goo.gl/2wpfXaf6vmcVcgQx7
+[21:58:16] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[21:58:41] [Server thread/INFO]: That command doesn't exist!
+[21:59:01] [Server thread/INFO]: ?
+[22:00:07] [User Authenticator #33/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[22:00:07] [Server thread/INFO]: QuanTuan[/98.29.147.129:49414] logged in with entity id 1370356 at ([Survival]28768.993815801754, 66.28982645098822, 18259.479242367066)
+[22:00:07] [Server thread/INFO]: +[Helper] QuanTuan
+[22:00:13] [Server thread/INFO]: [Helper] QuanTuan: sah
+[22:00:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [Team Blurple] TumbleGamer: hi
+[22:00:16] [Server thread/INFO]: QuanTuan issued server command: /smite TumbleGamer
+[22:00:22] [Server thread/INFO]: QuanTuan issued server command: /tpo TumbleGamer
+[22:00:34] [Server thread/INFO]: QuanTuan lost connection: Disconnected
+[22:00:34] [Server thread/INFO]: -[Helper] QuanTuan
+[22:01:17] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
