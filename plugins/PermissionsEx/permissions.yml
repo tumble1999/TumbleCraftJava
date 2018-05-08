@@ -527,6 +527,10 @@ users:
     - mod
     options:
       name: MineRacer_8
+    worlds:
+      Survival:
+        group:
+        - vive.non-vivegroup
   a6ec82c3-f863-4f75-a6ac-d0700e96ffb0:
     group:
     - builder-interview
