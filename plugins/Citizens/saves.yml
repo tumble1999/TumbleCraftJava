@@ -762,11 +762,11 @@ npc:
         realisticlooking: false
       location:
         world: Survival
-        x: '108.8414'
-        y: '71.0'
-        z: '715.5411'
-        yaw: '142.2684326171875'
-        pitch: '0.0'
+        x: '71.5001'
+        y: '66.0'
+        z: '656.1503'
+        yaw: '0.017791748046875'
+        pitch: '0.5283150672912598'
       type: PLAYER
       inventory:
         '0':
@@ -795,8 +795,8 @@ npc:
           durability: 0
           mdata: 0
       sentinel:
-        stats_ticksSpawned: 9667858
-        stats_timesSpawned: 48
+        stats_ticksSpawned: 9672530
+        stats_timesSpawned: 49
         stats_arrowsFired: 0
         stats_potionsThrow: 0
         stats_fireballsFired: 0
@@ -804,10 +804,10 @@ npc:
         stats_eggsThrown: 0
         stats_skullsThrown: 0
         stats_pearlsUsed: 0
-        stats_punches: 241
-        stats_attackAttempts: 7459
+        stats_punches: 244
+        stats_attackAttempts: 7897
         stats_damageTaken: 0.0
-        stats_damageGiven: 1560.2040007710457
+        stats_damageGiven: 1581.2040007710457
         range: 20.0
         damage: -1.0
         armor: -1.0
@@ -875,7 +875,7 @@ npc:
       pathfindingrange: '100.0'
       speedmodifier: '1.0'
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '92':
     metadata:
       player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjQ5OTU3NDg0OTcsInByb2ZpbGVJZCI6ImE2YjE0NjUxZWVhNjQzYWE5MDBmZGY2MTlkNGIwMmRhIiwicHJvZmlsZU5hbWUiOiJzdGFtcHlsb25nbm9zZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4NDYzYmU4MDIyM2FkNjExMWNkNWZhOGY5ZDA5NGUxYjdkZDEwZDZlMjVkYjE0NzRlNTRiZDE1NGM1MmY4In19fQ==
