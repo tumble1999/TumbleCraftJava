@@ -762,11 +762,11 @@ npc:
         realisticlooking: false
       location:
         world: Survival
-        x: '71.5001'
+        x: '71.5'
         y: '66.0'
-        z: '656.1503'
-        yaw: '0.017791748046875'
-        pitch: '0.5283150672912598'
+        z: '658.5256'
+        yaw: '1.2969970703125E-4'
+        pitch: '0.0'
       type: PLAYER
       inventory:
         '0':
@@ -795,7 +795,7 @@ npc:
           durability: 0
           mdata: 0
       sentinel:
-        stats_ticksSpawned: 9672530
+        stats_ticksSpawned: 9672754
         stats_timesSpawned: 49
         stats_arrowsFired: 0
         stats_potionsThrow: 0
@@ -805,7 +805,7 @@ npc:
         stats_skullsThrown: 0
         stats_pearlsUsed: 0
         stats_punches: 244
-        stats_attackAttempts: 7897
+        stats_attackAttempts: 7898
         stats_damageTaken: 0.0
         stats_damageGiven: 1581.2040007710457
         range: 20.0
