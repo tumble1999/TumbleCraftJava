@@ -8136,3 +8136,47 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [12:52:36] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
 [12:52:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [12:53:11] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[12:55:37] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[12:58:37] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[12:59:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:00:33] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:00:53] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:01:38] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[13:04:38] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[13:07:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:07:34] [Craft Scheduler Thread - 10608/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:07:34] [Craft Scheduler Thread - 10613/INFO]: 
+[13:08:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:08:34] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:10:40] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[13:13:40] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[13:15:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[13:15:56] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[13:16:16] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[13:16:41] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[13:19:42] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[13:22:37] [Craft Scheduler Thread - 10623/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[13:22:37] [Craft Scheduler Thread - 10625/INFO]: [Marriage] Purged 0 player entries in 2ms
+[13:22:38] [Craft Scheduler Thread - 10629/INFO]: 
+[13:22:42] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[13:22:57] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
