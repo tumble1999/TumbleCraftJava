@@ -1581,3 +1581,85 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [17:25:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [17:25:36] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
 [17:25:41] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[17:31:38] [Craft Scheduler Thread - 13938/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[17:31:38] [Craft Scheduler Thread - 13940/INFO]: [Marriage] Purged 0 player entries in 1ms
+[17:31:38] [Craft Scheduler Thread - 13938/INFO]: [Vault] Checking for Updates ... 
+[17:31:38] [Craft Scheduler Thread - 13944/INFO]: 
+[17:31:38] [Craft Scheduler Thread - 13938/WARN]: [Vault] No files found, or Feed URL is bad.
+[17:31:38] [Craft Scheduler Thread - 13938/INFO]: [Vault] No new version available
+[17:31:42] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[17:32:18] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:32:58] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:33:18] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:34:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Team Blurple] TumbleGamer: !ping
+[17:34:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Team Blurple] Music: Pinging...
+[17:34:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TumbleNet: pong
+[17:34:43] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[17:36:18] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[17:37:44] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[17:39:59] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:40:39] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:40:44] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[17:40:59] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:42:49] [User Authenticator #59/INFO]: UUID of player MineRacer_8 is c541f001-3197-482c-9f14-878f3fdaa80e
+[17:42:49] [Server thread/INFO]: MineRacer_8[/74.105.27.34:62815] logged in with entity id 4389061 at ([Survival]3.6605230798509725, 76.0, 530.5154117406195)
+[17:42:50] [Server thread/INFO]: +[Mod] MineRacer_8
+[17:42:51] [Server thread/WARN]: MineRacer_8 moved too quickly! 4.8394769201490275,-11.0,-522.0154117406195
+[17:42:51] [Netty Server IO #3/WARN]: MineRacer_8 sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[17:42:51] [Server thread/INFO]: MineRacer_8 lost connection: Timed out
+[17:42:51] [Server thread/INFO]: -[Mod] MineRacer_8
+[17:43:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [Team Blurple] TumbleGamer: !test
+[17:43:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [TN Bot] Tumble Network: Invalid command
+[17:43:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [Team Blurple] TumbleGamer: !ping
+[17:43:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [TN Bot] Tumble Network: pong
+[17:43:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [Team Blurple] Music: Pinging...
+[17:43:45] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[17:46:41] [Craft Scheduler Thread - 13958/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[17:46:41] [Craft Scheduler Thread - 13963/INFO]: 
+[17:47:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:47:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [Team Blurple] TumbleGamer: !help
+[17:47:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [Team Blurple] Music: :white_check_mark: Check <https://rythmbot.co/features#list> for a list of commands
+[17:47:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [TN Bot] Tumble Network: Invalid command
+[17:48:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [Team Blurple] TumbleGamer: !comands list
+[17:48:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [TN Bot] Tumble Network: Invalid command
+[17:48:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [Team Blurple] TumbleGamer: !commands list
+[17:48:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [Team Blurple] Music: :white_check_mark: Check <https://rythmbot.co/features#list> for a list of commands
+[17:48:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [Team Blurple] TumbleGamer: !commands list
+[17:48:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [Team Blurple] Music: :white_check_mark: Check <https://rythmbot.co/features#list> for a list of commands
+[17:48:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [TN Bot] Tumble Network: Commands
+[17:48:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [TN Bot] Tumble Network:  ping
+[17:48:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [TN Bot] Tumble Network:  servers
+[17:48:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [TN Bot] Tumble Network:  say
+[17:48:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [TN Bot] Tumble Network:  commands
+[17:48:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:48:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [TN Bot] Tumble Network:  invite
+[17:48:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [TN Bot] Tumble Network:  setPrefix
+[17:48:41] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:48:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [Team Blurple] TumbleGamer: !say jdshfkdshfklhds @TumbleGamer
+[17:48:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#random] [TN Bot] Tumble Network: jdshfkdshfklhds @TumbleGamer
+[17:49:46] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[17:52:47] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[17:55:22] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:55:47] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[17:56:02] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:56:22] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
