@@ -449,3 +449,45 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [04:57:18] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [04:57:38] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
 [04:57:43] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[05:00:44] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[05:03:39] [Craft Scheduler Thread - 14706/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[05:03:39] [Craft Scheduler Thread - 14711/INFO]: 
+[05:03:44] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[05:04:19] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[05:04:59] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[05:05:19] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[05:06:44] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[05:09:45] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[05:12:00] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[05:12:40] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[05:13:00] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[05:15:46] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[05:18:41] [Craft Scheduler Thread - 14720/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[05:18:41] [Craft Scheduler Thread - 14725/INFO]: 
+[05:18:46] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[05:19:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[05:20:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[05:20:41] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[05:21:46] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[05:24:47] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[05:27:22] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
