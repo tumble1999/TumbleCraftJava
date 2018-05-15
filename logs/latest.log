@@ -1525,3 +1525,64 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [16:08:26] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
 [16:08:31] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
 [16:11:32] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[16:14:28] [Craft Scheduler Thread - 1250/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:14:28] [Craft Scheduler Thread - 1252/INFO]: [Marriage] Purged 0 player entries in 1ms
+[16:14:28] [Craft Scheduler Thread - 1256/INFO]: 
+[16:14:32] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[16:15:07] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:15:47] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:16:08] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:17:33] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[16:20:33] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[16:22:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:23:28] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:23:48] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:26:35] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[16:27:40] [Netty Server IO #0/WARN]: java.io.IOException: An existing connection was forcibly closed by the remote host
+[16:27:40] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[16:27:40] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[16:27:40] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[16:27:40] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[16:27:40] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[16:27:40] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[16:27:40] [Netty Server IO #0/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[16:27:40] [Netty Server IO #0/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[16:27:40] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+[16:27:40] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[16:27:40] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[16:27:40] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[16:27:40] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[16:27:40] [Netty Server IO #0/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[16:27:40] [Netty Server IO #0/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:29:31] [Craft Scheduler Thread - 1295/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:29:31] [Craft Scheduler Thread - 1300/INFO]: 
+[16:29:36] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[16:30:31] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:31:11] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:31:31] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:32:36] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[16:35:36] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[16:38:11] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:38:36] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[16:38:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:39:11] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
