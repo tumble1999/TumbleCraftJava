@@ -103,44 +103,22 @@ advancements:
 world-settings:
   default:
     verbose: true
-    view-distance: 10
-    item-despawn-rate: 6000
+    seed-village: 10387312
+    seed-feature: 14357617
+    seed-monument: 10387313
+    seed-slime: 987234911
+    dragon-death-sound-radius: 0
     merge-radius:
       item: 3.5
       exp: 6.0
+    item-despawn-rate: 6000
+    view-distance: 10
     enable-zombie-pigmen-portal-spawns: true
+    nerf-spawner-mobs: false
+    arrow-despawn-rate: 1200
     wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
-    arrow-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
-    nerf-spawner-mobs: false
-    max-tnt-per-tick: 100
-    max-tick-time:
-      tile: 50
-      entity: 50
-    squid-spawn-range:
-      min: 45.0
-    hunger:
-      jump-walk-exhaustion: 0.05
-      jump-sprint-exhaustion: 0.2
-      combat-exhaustion: 0.1
-      regen-exhaustion: 6.0
-      swim-multiplier: 0.01
-      sprint-multiplier: 0.1
-      other-multiplier: 0.0
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
-    entity-activation-range:
-      animals: 6
-      monsters: 16
-      misc: 2
-      tick-inactive-villagers: true
-    random-light-updates: false
-    save-structure-info: true
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -153,13 +131,35 @@ world-settings:
       vine-modifier: 100
       cocoa-modifier: 100
     mob-spawn-range: 3
+    max-tick-time:
+      tile: 50
+      entity: 50
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    entity-activation-range:
+      animals: 6
+      monsters: 16
+      misc: 2
+      tick-inactive-villagers: true
+    random-light-updates: false
+    squid-spawn-range:
+      min: 45.0
+    max-tnt-per-tick: 100
+    save-structure-info: true
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
     hopper-amount: 3
-    seed-village: 10387312
-    seed-feature: 14357617
-    seed-monument: 10387313
-    seed-slime: 987234911
-    dragon-death-sound-radius: 0
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
     max-entity-collisions: 1
