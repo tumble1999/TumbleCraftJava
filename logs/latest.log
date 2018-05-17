@@ -1878,3 +1878,58 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [16:50:48] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
 [16:51:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [16:51:23] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:53:49] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[16:58:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:58:45] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:59:05] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:59:50] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[17:02:51] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[17:05:46] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:05:47] [Craft Scheduler Thread - 2470/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[17:05:47] [Craft Scheduler Thread - 2475/INFO]: 
+[17:05:51] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[17:06:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:06:47] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:07:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =call
+[17:07:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Phone Name: Tumble Network#off-topic
+[17:07:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Joined Call (1) members - [Tumble Network#off-topic] Call Name:YFEKUB
+[17:07:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Waiting for Answer
+[17:07:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: WhoWantsToBeAMillionare<#445367959221698560> has joined the call
+[17:07:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Use =hangup to leave
+[17:08:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: WhoWantsToBeAMillionare<#445367959221698560> Disconnected
+[17:08:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: How ever you are still in a call and will need to =hangup to leave.
+[17:08:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =hangup
+[17:08:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Disconnected
+[17:08:53] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[17:11:54] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[17:13:29] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:14:09] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:14:29] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:17:10] [Server thread/INFO]: com.mojang.authlib.GameProfile@7aadf006[id=<null>,name=SahilG,properties={},legacy=false] (/157.36.253.80:54351) lost connection: Disconnected
+[17:17:22] [Server thread/INFO]: com.mojang.authlib.GameProfile@66cc8100[id=<null>,name=SahilG,properties={},legacy=false] (/157.36.253.80:54355) lost connection: Disconnected
+[17:17:55] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[17:20:51] [Craft Scheduler Thread - 2487/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[17:20:51] [Craft Scheduler Thread - 2492/INFO]: 
+[17:20:55] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[17:21:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:21:30] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
