@@ -219,3 +219,28 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
 [02:03:19] [Craft Scheduler Thread - 1288/INFO]: 
 [02:03:23] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[02:06:20] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[02:06:25] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[02:06:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: !phones
+[02:07:00] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[02:07:20] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[02:08:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =help
+[02:08:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: @TumbleGamer, Commands
+
+=call - Make a call
+=call [id] - Join a specific call
+=calls - See Active Calls
+=hangup - Dissconect from current call
+=invite - put this phone on your own server
+=members - see members of this call
+
+[02:09:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =calls
+[02:09:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =call
+[02:09:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Phone Name: Tumble Network#off-topic
+[02:09:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Joined Call (1) members id:0
+[02:09:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Waiting for Answer
+[02:09:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =hangup
+[02:09:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Disconected
+[02:09:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =calls
+[02:09:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Call (0) members
+[02:09:25] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
