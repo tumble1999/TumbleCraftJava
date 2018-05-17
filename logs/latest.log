@@ -244,3 +244,206 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [02:09:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =calls
 [02:09:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Call (0) members
 [02:09:25] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[02:14:01] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[02:14:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =phones
+[02:14:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Tumble Network#off-topic
+[02:14:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Tumble Network#welcome
+[02:14:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: DiscordTesting#general
+[02:14:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[02:14:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =phones
+[02:14:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Tumble Network#off-topic
+[02:14:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Tumble Network#welcome
+[02:14:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: DiscordTesting#general
+[02:14:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =phones
+[02:14:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Tumble Network#off-topic
+[02:14:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Tumble Network#welcome
+[02:14:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: DiscordTesting#general
+[02:15:01] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[02:15:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =callas
+[02:15:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =calls
+[02:15:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =phones
+[02:15:27] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[02:17:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =phones
+[02:17:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: There are no phones
+[02:17:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =calls
+[02:17:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: There are no calls
+[02:17:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =help
+[02:17:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: @TumbleGamer, Commands
+
+=call - Make a call
+=call [id] - Join a specific call
+=calls - See Active Calls
+=hangup - Disconnect from current call
+=invite - put this phone on your own server
+=members - see members of this call
+
+[02:18:22] [Craft Scheduler Thread - 1300/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:18:23] [Craft Scheduler Thread - 1305/INFO]: 
+[02:18:27] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[02:20:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: =call face
+[02:20:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Phone Name: Tumble Network#general
+[02:20:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Joined Call (1) members id:face
+[02:20:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Waiting for Answer
+[02:20:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: =call face
+[02:20:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Phone Name: Tumble Network#off-topic
+[02:20:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Tumble Network#off-topicJoined the call
+[02:20:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Joined Call (2) members id:face
+[02:20:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Use =hangup to leave
+[02:20:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Connected to Tumble Network#general
+[02:20:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Use =hangup to leave
+[02:20:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: my god tumble, how do you make bots so quickly lol
+[02:20:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Nicegamertag#4266: my god tumble, how do you make bots so quickly lol
+[02:21:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Do you want someone to test it with you?
+[02:21:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Nicegamertag#4266: Do you want someone to test it with you?
+[02:21:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: i think it works
+[02:21:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: tumblegamer#6140: i think it works
+[02:21:28] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[02:21:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Tumble's Bots#phone-testJoined the call
+[02:21:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Tumble's Bots#phone-testJoined the call
+[02:21:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Use =hangup to leave
+[02:21:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Use =hangup to leave
+[02:21:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: tumblegamer#6140: i can talk over here too
+[02:21:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: i can talk over here too
+[02:21:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: =call
+[02:21:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Nicegamertag#4266: =call
+[02:21:43] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[02:21:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: e
+[02:21:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Nicegamertag#4266: e
+[02:21:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: tumblegamer#6140: your in a call
+[02:21:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: your in a call
+[02:21:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: o
+[02:21:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Nicegamertag#4266: o
+[02:22:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] Nicegamertag: gen
+[02:22:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Nicegamertag#4266: gen
+[02:22:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] Nicegamertag: eral
+[02:22:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Nicegamertag#4266: eral
+[02:22:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: heh
+[02:22:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Nicegamertag#4266: heh
+[02:22:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: so,
+[02:22:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Nicegamertag#4266: so,
+[02:22:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: you can =hangup and do =call
+[02:22:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: tumblegamer#6140: you can =hangup and do =call
+[02:22:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: lovely day we got here
+[02:22:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Nicegamertag#4266: lovely day we got here
+[02:22:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: tumblegamer#6140: yes
+[02:22:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: yes
+[02:22:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[02:22:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: tumblegamer#6140: you can also do =phones and =calls
+[02:22:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: you can also do =phones and =calls
+[02:22:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Do you code in JavaScript?
+[02:22:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Nicegamertag#4266: Do you code in JavaScript?
+[02:22:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: =phones
+[02:22:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Tumble Network#general
+[02:22:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Tumble Network#off-topic
+[02:22:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Tumble's Bots#phone-test
+[02:22:43] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[02:23:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: yes well my discord bots are
+[02:23:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: tumblegamer#6140: yes well my discord bots are
+[02:23:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: The APIs are probably difficult to get used to when you start doing it on other games
+[02:23:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Nicegamertag#4266: The APIs are probably difficult to get used to when you start doing it on other games
+[02:23:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: i have anouther bot too <@445534047612043264>
+[02:23:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: tumblegamer#6140: i have anouther bot too <@445534047612043264>
+[02:24:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: You should probably make mentions put the userId in discord
+[02:24:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Nicegamertag#4266: You should probably make mentions put the userId in discord
+[02:24:28] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[02:24:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: tumblegamer#6140: just the user id by its self?
+[02:24:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: just the user id by its self?
+[02:24:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Well
+[02:24:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Nicegamertag#4266: Well
+[02:24:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Something like
+[02:24:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Nicegamertag#4266: Something like
+[02:24:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: =members
+[02:24:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Tumble Network#general
+[02:24:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Tumble Network#off-topic
+[02:24:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Tumble's Bots#phone-test
+[02:25:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: =hangup
+[02:25:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: Tumble Network#general Disconected
+[02:25:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TN Bot] TNPhone: Disconected
+[02:25:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: How ever you are still in a call and will need to !hangup to leave.
+[02:25:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: userName#4DigitId
+[02:25:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: I'm  gong to assume you use Atom, NP++ or VSC
+[02:26:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: atom
+[02:26:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Probably not VSC since most people hate it
+[02:26:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: I'd figuyre
+[02:26:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: i have normal vs for c++ and c#
+[02:26:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: I had to delete atom because it interferes with python applications on windows
+[02:26:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: how
+[02:26:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: It prevents me from opening up idle to run the code
+[02:26:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: The white interface on idle kills my eyes
+[02:27:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: I also am going to assume my HDD is messed up since I am getting memory issues...
+[02:27:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: lovely... memory issues...
+[02:27:29] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[02:27:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag:  sarcastically 
+[02:27:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: memory and storage are two diferent things
+[02:28:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: also you can ad this to your own server with =invite
+[02:28:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: I don't have any servers
+[02:28:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Well, kind of.
+[02:28:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Just don't focus on them too much
+[02:29:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: would you like to be a millionare
+[02:29:24] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[02:29:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: I prefer being a billionare
+[02:29:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: https://discord.gg/wmMUn8g
+[02:30:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[02:30:24] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[02:31:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Have you ever tried to make a bot that lets you react with your options and it continues on with the next message or something after deleting the one with the options to prevent spam"
+[02:31:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TN Bot] TNPhone: tumblegamer#6140: ?
+[02:31:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Like
+[02:32:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Something like this
+[02:32:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Look in #off-topic
+[02:32:33] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: wow that channel link work and took me accross servers
+[02:32:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Options
+
+Choose :white_check_mark: to verify
+ Choose :negative_squared_cross_mark: to deny
+[02:33:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Something like that
+[02:33:25] [Craft Scheduler Thread - 1321/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:33:25] [Craft Scheduler Thread - 1323/INFO]: [Marriage] Purged 0 player entries in 1ms
+[02:33:25] [Craft Scheduler Thread - 1327/INFO]: 
+[02:33:30] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[02:35:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: i havnt't dabbled into reaction events yet: https://discord.js.org/#/docs/main/stable/class/Client?scrollTo=e-messageReactionAdd
+[02:35:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: ah
+[02:36:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: I go into stuff pretty quickly and I forget it all later
+[02:36:31] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[02:37:06] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[02:37:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: the phone logs stuff here https://tn-discord-phone.herokuapp.com/ but i diddnt tell it to make a new line each entry
+[02:37:46] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[02:37:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: I think you can use python for that
+[02:37:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Because I do know
+[02:38:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Python permits you to write data on a new line with \n
+[02:38:06] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[02:38:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: its all in node and its outputing to a textfile that then the webserver end hosts
+[02:38:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Is there a new line function for JavaScript or something?
+[02:38:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: I know there is a println()
+[02:38:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: But that won't do good
+[02:39:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: its not a complease console read out
+[02:39:31] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[02:39:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: I think what we can do for the phone logs
+[02:39:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Is make it to where the usernames are bold with some web database code
+[02:40:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: Or something
+[02:40:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: I'm confusing myself at this point along with your probably
+[02:40:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: I'm bad at explaining
+[02:40:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: So,
+[02:40:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: anyways,
+[02:41:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: to improve upon the phone logs,
+[02:41:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: I do believe we can do something such as putting the speaker's username in bold
+[02:41:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Member] Nicegamertag: And the words they say in italic
