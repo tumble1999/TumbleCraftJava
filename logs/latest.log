@@ -2481,3 +2481,5 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
 [15:40:07] [Craft Scheduler Thread - 4240/INFO]: 
+[15:40:10] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] 50001: Missing Access
+[15:40:12] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
