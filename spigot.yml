@@ -15,12 +15,7 @@ settings:
   debug: false
   save-user-cache-on-stop-only: false
   sample-count: 12
-  user-cache-size: 1000
-  player-shuffle: 0
-  int-cache-limit: 1024
-  bungeecord: false
-  late-bind: true
-  item-dirty-ticks: 20
+  netty-threads: 4
   attribute:
     maxHealth:
       max: 2048.0
@@ -28,10 +23,15 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  int-cache-limit: 1024
+  item-dirty-ticks: 20
   timeout-time: 60
   restart-on-crash: true
   restart-script: START.bat
-  netty-threads: 4
+  user-cache-size: 1000
+  bungeecord: false
+  late-bind: true
+  player-shuffle: 0
   filter-creative-items: true
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
@@ -85,13 +85,13 @@ messages:
 commands:
   tab-complete: 0
   log: true
+  spam-exclusions:
+  - /skill
   replace-commands:
   - setblock
   - summon
   - testforblock
   - tellraw
-  spam-exclusions:
-  - /skill
   silent-commandblock-console: false
 stats:
   disable-saving: false
