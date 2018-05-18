@@ -1,9 +1,9 @@
 # These first 4 aren't configurable
 issues: "https://github.com/IntellectualSites/PlotSquared/issues"
 wiki: "https://github.com/IntellectualSites/PlotSquared/wiki"
-date: "16 Jun 2018 23:00:00 GMT"
-build: "https://ci.athion.net/job/PlotSquared/1995"
-commit: "https://github.com/IntellectualSites/PlotSquared/commit/f479a70"
+date: "17 Jun 2018 23:00:00 GMT"
+build: "https://ci.athion.net/job/PlotSquared/2001"
+commit: "https://github.com/IntellectualSites/PlotSquared/commit/4063525"
 platform: "Bukkit"
 # Show additional information in console
 debug: true
@@ -72,6 +72,8 @@ redstone:
   disable-unoccupied: false
   # Disable redstone when all owners/trusted/members are offline
   disable-offline: false
+  # Detect and cancel invalid pistons on the edge of plots (e.g. placed with WorldEdit)
+  detect-invalid-edge-pistons: false
 
 teleport:
   # Teleport to your plot on death
