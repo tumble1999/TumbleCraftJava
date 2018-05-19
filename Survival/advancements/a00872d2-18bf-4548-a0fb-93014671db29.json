@@ -426,6 +426,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2018-05-19 09:30:21 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2018-05-19 03:15:46 +0100"
@@ -493,6 +499,8 @@
       "extreme_hills_with_trees": "2018-05-19 04:20:54 +0100",
       "plains": "2018-05-06 00:45:32 +0100",
       "jungle_hills": "2018-05-06 00:53:27 +0100",
+      "savanna": "2018-05-19 09:27:43 +0100",
+      "savanna_rock": "2018-05-19 09:30:16 +0100",
       "taiga": "2018-05-19 03:45:07 +0100",
       "ocean": "2018-05-06 07:41:03 +0100",
       "extreme_hills": "2018-05-06 07:37:04 +0100",
@@ -578,6 +586,12 @@
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2018-05-19 03:17:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2018-05-19 09:30:21 +0100"
     },
     "done": true
   },
