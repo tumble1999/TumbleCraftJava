@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2018-05-19 03:14:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_wooden_slab": {
     "criteria": {
       "has_planks": "2018-05-19 03:07:52 +0100"
@@ -17,9 +23,21 @@
     },
     "done": true
   },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2018-05-19 03:14:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2018-05-06 01:06:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2018-05-19 03:14:35 +0100"
     },
     "done": true
   },
@@ -31,6 +49,7 @@
       "jungle_hills": "2018-05-06 00:53:27 +0100",
       "ocean": "2018-05-06 07:41:03 +0100",
       "extreme_hills": "2018-05-06 07:37:04 +0100",
+      "roofed_forest": "2018-05-19 03:12:59 +0100",
       "jungle": "2018-05-06 00:49:46 +0100",
       "river": "2018-05-06 07:41:09 +0100"
     },
@@ -90,9 +109,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2018-05-19 03:14:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2018-05-19 03:07:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2018-05-19 03:14:35 +0100"
     },
     "done": true
   },
@@ -111,6 +142,12 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "entered_water": "2018-05-06 01:02:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2018-05-19 03:14:35 +0100"
     },
     "done": true
   },
@@ -186,6 +223,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2018-05-19 03:14:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/jungle_fence": {
     "criteria": {
       "has_planks": "2018-05-06 00:50:24 +0100"
@@ -201,6 +244,12 @@
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_at_least_9_diamond": "2018-05-06 01:06:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2018-05-19 03:14:35 +0100"
     },
     "done": true
   },
@@ -264,6 +313,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2018-05-19 03:14:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2018-05-19 03:14:35 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_wooden_slab": {
     "criteria": {
       "has_planks": "2018-05-06 00:50:24 +0100"
@@ -303,6 +364,18 @@
   "minecraft:recipes/redstone/fence_gate": {
     "criteria": {
       "has_planks": "2018-05-19 03:07:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2018-05-19 03:12:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2018-05-19 03:14:35 +0100"
     },
     "done": true
   },
