@@ -1,1 +1,382 @@
 [00:00:58] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[00:03:54] [Craft Scheduler Thread - 352/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:03:54] [Craft Scheduler Thread - 357/INFO]: 
+[00:05:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:05:54] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:06:14] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:07:00] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[00:08:55] [Craft Scheduler Thread - 372/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:09:34] [User Authenticator #2/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[00:09:35] [Server thread/INFO]: QuanTuan[/98.29.147.129:49537] logged in with entity id 47465 at ([Survival]-615.3000000119209, 70.53292827534491, 385.30000001192093)
+[00:09:35] [Server thread/INFO]: +[Helper] QuanTuan
+[00:09:35] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[00:09:44] [Server thread/INFO]: QuanTuan issued server command: /gamemode 1
+[00:10:01] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[00:11:48] [Server thread/INFO]: QuanTuan lost connection: Disconnected
+[00:11:48] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[00:11:48] [Server thread/INFO]: -[Helper] QuanTuan
+[00:12:57] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:13:02] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[00:13:37] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:13:57] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:16:03] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[00:18:59] [Craft Scheduler Thread - 404/INFO]: [Marriage] Purged 0 player entries in 1ms
+[00:18:59] [Craft Scheduler Thread - 402/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:18:59] [Craft Scheduler Thread - 400/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:18:59] [Craft Scheduler Thread - 408/INFO]: 
+[00:19:03] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[00:19:51] [Netty Server IO #0/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[00:20:01] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[00:20:39] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:21:19] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:21:39] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:25:05] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[00:26:20] [User Authenticator #3/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[00:26:20] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho joined with silent joining permission, not sending a join message
+[00:26:20] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:53835] logged in with entity id 54637 at ([Survival]76.14859276203387, 71.0, 519.2934876068448)
+[00:26:20] [Server thread/INFO]: +[Owner] DrBatmanWho
+[00:26:41] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[00:26:41] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[00:26:41] [Server thread/INFO]: -[Owner] DrBatmanWho
+[00:26:50] [User Authenticator #3/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[00:26:50] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho joined with silent joining permission, not sending a join message
+[00:26:50] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:53856] logged in with entity id 55442 at ([Survival]86.6848021181948, 72.0, 514.082979504869)
+[00:26:50] [Server thread/INFO]: +[Owner] DrBatmanWho
+[00:28:06] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[00:28:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:29:01] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:29:01] [Craft Scheduler Thread - 432/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:29:21] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:31:07] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[00:34:03] [Craft Scheduler Thread - 447/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:34:03] [Craft Scheduler Thread - 452/INFO]: 
+[00:34:08] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[00:36:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:36:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:37:05] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:37:10] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[00:38:45] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[00:38:45] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[00:38:45] [Server thread/INFO]: -[Owner] DrBatmanWho
+[00:39:06] [Craft Scheduler Thread - 461/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:40:47] [User Authenticator #4/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[00:40:47] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho joined with silent joining permission, not sending a join message
+[00:40:47] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:54008] logged in with entity id 75637 at ([Survival]88.60416567026336, 72.0, 514.2852222841237)
+[00:40:47] [Server thread/INFO]: +[Owner] DrBatmanWho
+[00:43:12] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[00:43:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:44:28] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:44:48] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:45:12] [Server thread/INFO]: DrBatmanWho issued server command: /home getmemoney:home
+[00:45:37] [Server thread/INFO]: DrBatmanWho issued server command: /gm c
+[00:46:14] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[00:46:45] [Server thread/INFO]: DrBatmanWho issued server command: /home home
+[00:46:51] [Server thread/INFO]: DrBatmanWho issued server command: /home newhome
+[00:46:54] [Server thread/INFO]: DrBatmanWho issued server command: /gm s
+[00:46:59] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[00:46:59] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[00:46:59] [Server thread/INFO]: -[Owner] DrBatmanWho
+[00:48:37] [User Authenticator #5/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[00:48:37] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho joined with silent joining permission, not sending a join message
+[00:48:37] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:54162] logged in with entity id 85416 at ([Survival]22746.629677232933, 68.0, 19432.248521711994)
+[00:48:37] [Server thread/INFO]: +[Owner] DrBatmanWho
+[00:49:10] [Craft Scheduler Thread - 497/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:49:10] [Craft Scheduler Thread - 499/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:49:10] [Craft Scheduler Thread - 504/INFO]: 
+[00:49:15] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[00:49:54] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[00:49:54] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[00:49:54] [Server thread/INFO]: -[Owner] DrBatmanWho
+[00:50:20] [User Authenticator #6/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[00:50:20] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho joined with silent joining permission, not sending a join message
+[00:50:20] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:54455] logged in with entity id 86301 at ([Survival]22746.607989540793, 68.0, 19426.435276211425)
+[00:50:20] [Server thread/INFO]: +[Owner] DrBatmanWho
+[00:51:30] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:52:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:52:15] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[00:52:23] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[00:52:23] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[00:52:23] [Server thread/INFO]: -[Owner] DrBatmanWho
+[00:52:30] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:52:40] [User Authenticator #7/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[00:52:40] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho joined with silent joining permission, not sending a join message
+[00:52:40] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:54506] logged in with entity id 87588 at ([Survival]22746.607989540793, 68.0, 19426.435276211425)
+[00:52:40] [Server thread/INFO]: +[Owner] DrBatmanWho
+[00:55:16] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[00:55:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] None: Yo
+[00:55:53] [Async Chat Thread - #0/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[00:55:53] [Server thread/INFO]: [Owner] DrBatmanWho: yo?
+[00:55:56] [Async Chat Thread - #0/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[00:55:56] [Server thread/INFO]: [Owner] DrBatmanWho: tumble?
+[00:57:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: hello
+[00:57:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: we have 2 other veterans here who stayed here through the scilence of the first quarter of 2018 them being @Nicegamertag and @santi13
+[00:57:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] None: Oh
+[00:58:05] [Async Chat Thread - #1/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[00:58:05] [Server thread/INFO]: [Owner] DrBatmanWho: hmm
+[00:58:09] [Async Chat Thread - #1/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[00:58:09] [Server thread/INFO]: [Owner] DrBatmanWho: tumble
+[00:58:45] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[00:58:45] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[00:58:45] [Server thread/INFO]: -[Owner] DrBatmanWho
+[00:59:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: also see #about  where i explain about  verteran rank
+[00:59:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:59:12] [Craft Scheduler Thread - 526/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[00:59:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:00:12] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:01:17] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[01:01:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] None: Ok
+[01:04:13] [Craft Scheduler Thread - 543/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:04:14] [Craft Scheduler Thread - 548/INFO]: 
+[01:04:18] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[01:06:54] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:07:19] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[01:07:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:07:54] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:09:15] [Craft Scheduler Thread - 565/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:10:20] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[01:13:21] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[01:13:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleGamer: kit server info
+[01:14:37] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:15:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: wait a minute
+[01:15:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: so
+[01:15:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: whats the discord for anyway
+[01:15:17] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:15:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: TumbleNetwork and TumbleCraft
+[01:15:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: ok
+[01:15:37] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:16:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: also @None  did you change your name because i dont remember you
+[01:18:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: also i made a bot @TumblePhone
+[01:19:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] None: Yeah
+[01:19:18] [Craft Scheduler Thread - 593/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:19:18] [Craft Scheduler Thread - 591/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:19:18] [Craft Scheduler Thread - 595/INFO]: [Marriage] Purged 0 player entries in 1ms
+[01:19:18] [Craft Scheduler Thread - 599/INFO]: 
+[01:19:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] None: I was know as snails/wiid
+[01:19:23] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[01:19:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: what was your picture
+[01:19:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: also <@338011925910650890> has been replaced by @TumbleNet
+[01:21:06] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[01:22:18] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:22:23] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[01:22:58] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:23:18] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:25:24] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[01:25:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: so
+[01:25:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: basically
+[01:25:40] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: this discord
+[01:25:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: is just a discord for your minecraft server
+[01:25:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: i guess
+[01:26:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: and for the bot
+[01:26:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: and youtube channel and website and psuedo unregistered company
+[01:27:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: http://tumblenet.ga
+[01:27:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: oooh company
+[01:27:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: where do i apply for a job lmao
+[01:27:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: jk
+[01:27:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: eeeeuuuuuhh collection of websites
+[01:28:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: we have a help desk .... for some reason
+[01:28:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: http://help.tumblenet.ga
+[01:28:24] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[01:28:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: i mean
+[01:28:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: i dont know why theres a help desk
+[01:28:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: but i could help with a help desk
+[01:29:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: i mean i gues
+[01:29:20] [Craft Scheduler Thread - 619/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:29:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: oh hey look its awesome64
+[01:29:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: i just thought one day "i want a help desk" and then i scowered the web for a free help deskt service
+[01:30:00] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:30:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: lol
+[01:30:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: man those are some good server rules
+[01:30:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: i must say
+[01:30:40] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:30:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: we also have a timeline, a wiki. css frame work,  a download center
+[01:31:00] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:31:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: wait download center
+[01:31:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: yes
+[01:31:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: what even is that
+[01:31:25] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[01:31:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: a center where you download
+[01:31:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: found it
+[01:32:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: but at the center of this "This is kind of a company" bubble is 2 youtube channels. DBW and TG
+[01:32:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: heres a time line http://timeline.tumblenet.ga
+[01:33:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: i mean i have a youtube channel i plan on doing something about, like tech stuff i dont know
+[01:33:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: but that doesnt even matter
+[01:34:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: wiki: tumblenet.shoutwiki.com
+[01:34:21] [Craft Scheduler Thread - 638/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:34:21] [Craft Scheduler Thread - 643/INFO]: 
+[01:34:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: btw i gotta say
+[01:34:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: i love the loading animation
+[01:34:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: thanks
+[01:34:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: also the website is made from scratch with html css and js
+[01:35:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: ooh
+[01:35:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: we also have a search engine
+[01:35:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: i wanna learn js and css but im just really lazy
+[01:35:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: i have a good website for you
+[01:35:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: ok
+[01:35:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: https://www.w3schools.com/
+[01:36:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#%channelname%] [Tumble Network Team] TumbleGamer: https://cdn.discordapp.com/attachments/337887798889545728/447195815723925514/unknown.png
+[01:36:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: 
+[01:36:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: bookmarked for when i have time
+[01:36:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleGamer: ok
+[01:36:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Veteran] LodiLovesMuffins: or ill read it now
+[01:37:27] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[01:37:42] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
