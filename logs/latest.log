@@ -21537,3 +21537,169 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [17:35:37] [Craft Scheduler Thread - 4157/INFO]: 
 [17:35:42] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
 [17:37:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Hello
+[17:38:43] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[17:39:39] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:40:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Hello?
+[17:40:19] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:40:39] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:40:39] [Craft Scheduler Thread - 4165/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[17:40:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Where can I find the IP
+[17:41:45] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[17:44:46] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[17:47:22] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:47:24] [User Authenticator #22/INFO]: UUID of player MrBiscuits1 is bcc6f54e-b37c-4e2f-87da-6e2b579f1c03
+[17:47:24] [Server thread/INFO]: MrBiscuits1[/86.134.28.215:55171] logged in with entity id 1452127 at ([Survival]119.5, 86.0, 547.5)
+[17:47:24] [Server thread/INFO]: +MrBiscuits1
+[17:47:24] [pool-18-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\bcc6f54e-b37c-4e2f-87da-6e2b579f1c03.yml
+[17:47:24] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[17:47:24] [Server thread/INFO]: MrBiscuits1 has made the advancement [Getting an Upgrade]
+[17:47:25] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[17:47:30] [Async Chat Thread - #8/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[17:47:30] [Server thread/INFO]: MrBiscuits1: Hi
+[17:48:02] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:48:05] [Server thread/INFO]: MrBiscuits1 issued server command: /we
+[17:48:15] [Server thread/INFO]: MrBiscuits1 issued server command: //and
+[17:48:17] [Server thread/INFO]: MrBiscuits1 issued server command: //wand
+[17:48:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TG] TumbleGamer: hello
+[17:48:22] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[17:48:24] [Async Chat Thread - #8/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[17:48:24] [Server thread/INFO]: MrBiscuits1: Hello!
+[17:48:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Thanks
+[17:48:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: I applied on your website for staff
+[17:49:09] [Server thread/INFO]: MrBiscuits1 issued server command: /rtp
+[17:49:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TG] TumbleGamer: oh ok you where looking for tumblecraft ok
+[17:49:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: No
+[17:49:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: I mean
+[17:49:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Yes
+[17:49:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: TumbleCraft
+[17:50:43] [Craft Scheduler Thread - 4177/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[17:50:43] [Craft Scheduler Thread - 4175/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[17:50:43] [Craft Scheduler Thread - 4179/INFO]: [Marriage] Purged 0 player entries in 1ms
+[17:50:43] [Craft Scheduler Thread - 4183/INFO]: 
+[17:50:48] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[17:51:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: @TumbleGamer What the ip for TumbleCraft
+[17:51:21] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[17:51:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Oh ok
+[17:51:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Im on it then
+[17:51:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TG] TumbleGamer: ?
+[17:51:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Im on the server
+[17:52:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: I thought there was a different ip
+[17:52:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TG] TumbleGamer: i read it as "im not it then"
+[17:52:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TG] TumbleGamer: =help
+[17:52:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Ahh doesn’t matter - just a misunderstanding
+[17:52:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TG] TumbleGamer: ok
+[17:52:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Anyway - I applied for staff on TumbleCraft website
+[17:52:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TG] TumbleGamer: =help
+[17:52:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TNPhone] TumblePhone: @TumbleGamer, Commands
+
+=call - Make a call
+=call [name] - Join a specific call
+=calls - See Active Calls
+=hangup - Disconnect from current call
+=invite - put this phone on your own server
+=members - see members of this call
+
+Need any specific help?: https
+[17:52:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TG] TumbleGamer: !commands list
+[17:52:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleNetwork: Commands
+[17:52:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleNetwork:  ping
+[17:52:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleNetwork:  servers
+[17:52:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleNetwork:  say
+[17:52:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleNetwork:  commands
+[17:53:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleNetwork:  invite
+[17:53:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleNetwork:  setPrefix
+[17:53:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: setPrefix
+[17:53:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TG] TumbleGamer: its ! not 
+[17:53:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: oh
+[17:53:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: !setprefix
+[17:53:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleNetwork: Invalid command: !setprefix
+[17:53:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TG] TumbleGamer: i have to go
+[17:53:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Ok
+[17:53:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Bye
+[17:53:49] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[17:53:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: But later,
+[17:53:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TG] TumbleGamer: also its cpital p
+[17:54:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: can you look at my application
+[17:54:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: later
+[17:54:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: !setPrefix
+[17:54:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleNetwork: setting prefix...
+[17:54:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Tumble Network Team] TumbleNetwork: Invalid command: !setPrefix
+[17:54:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TG] TumbleGamer: somone who is @Interviewer will
+[17:54:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Ok
+[17:54:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Thanks
+[17:54:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: How will they notify me?
+[17:54:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Member] MrBiscuits1: Oh he left...
+[17:55:05] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[17:55:45] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[17:55:54] [Server thread/INFO]: MrBiscuits1 issued server command: /rtp
+[17:56:05] [Server thread/WARN]: Tried to over-fill a container
+[17:56:05] [Server thread/INFO]: [ClearLag] Removed 93 Entities!
+[17:56:50] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[17:58:47] [Server thread/INFO]: MrBiscuits1 lost connection: Disconnected
+[17:58:47] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[17:58:47] [Server thread/INFO]: -MrBiscuits1
+[17:59:51] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[18:00:47] [Craft Scheduler Thread - 4193/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[18:02:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[18:02:53] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[18:03:28] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[18:03:48] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[18:05:46] [User Authenticator #23/INFO]: UUID of player Yaboku_kami is c41152df-51cf-456c-9795-e507bba1067f
+[18:05:46] [Server thread/INFO]: Yaboku_kami[/98.195.245.111:63180] logged in with entity id 1472901 at ([Survival]121.5, 86.0, 540.5)
+[18:05:46] [Server thread/INFO]: +Yaboku_kami
+[18:05:46] [pool-18-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\c41152df-51cf-456c-9795-e507bba1067f.yml
+[18:05:46] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[18:05:46] [Server thread/INFO]: Yaboku_kami has made the advancement [Getting an Upgrade]
+[18:05:47] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[18:05:49] [Craft Scheduler Thread - 4198/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[18:05:49] [Craft Scheduler Thread - 4203/INFO]: 
