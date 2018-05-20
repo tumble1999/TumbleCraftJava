@@ -1,31 +1,19 @@
 {
-  "minecraft:recipes/misc/bone_meal_from_bone": {
-    "criteria": {
-      "has_bone": "2018-05-20 18:09:07 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2018-05-20 18:11:33 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "entered_water": "2018-05-20 18:14:08 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
+  "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
-      "has_lots_of_items": "2018-05-20 18:06:16 +0100"
+      "has_diamond": "2018-05-20 18:20:44 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
+  "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
-      "entered_water": "2018-05-20 18:14:08 +0100"
+      "has_diamond": "2018-05-20 18:20:44 +0100"
     },
     "done": true
   },
@@ -41,9 +29,90 @@
     },
     "done": false
   },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2018-05-20 18:20:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_chicken": "2018-05-20 18:11:33 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2018-05-20 18:20:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2018-05-20 18:20:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2018-05-20 18:14:35 +0100",
+      "plains": "2018-05-20 18:05:47 +0100",
+      "taiga": "2018-05-20 18:09:40 +0100",
+      "taiga_hills": "2018-05-20 18:10:07 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2018-05-20 18:20:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2018-05-20 18:09:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2018-05-20 18:11:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2018-05-20 18:06:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2018-05-20 18:14:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2018-05-20 18:20:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2018-05-20 18:20:44 +0100"
+    },
+    "done": true
+  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2018-05-20 18:05:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2018-05-20 18:20:44 +0100"
     },
     "done": true
   },
@@ -59,11 +128,11 @@
     },
     "done": true
   },
-  "minecraft:husbandry/balanced_diet": {
+  "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
-      "cooked_chicken": "2018-05-20 18:11:33 +0100"
+      "has_diamond": "2018-05-20 18:20:44 +0100"
     },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/root": {
     "criteria": {
@@ -89,13 +158,10 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/decorations/jukebox": {
     "criteria": {
-      "beaches": "2018-05-20 18:14:35 +0100",
-      "plains": "2018-05-20 18:05:47 +0100",
-      "taiga": "2018-05-20 18:09:40 +0100",
-      "taiga_hills": "2018-05-20 18:10:07 +0100"
+      "has_diamond": "2018-05-20 18:20:44 +0100"
     },
-    "done": false
+    "done": true
   }
 }
