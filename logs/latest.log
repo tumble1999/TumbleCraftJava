@@ -1835,3 +1835,111 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [11:34:36] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [11:34:56] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
 [11:35:21] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[11:39:19] [Craft Scheduler Thread - 5628/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:40:39] [User Authenticator #33/INFO]: UUID of player jacob50505 is 59d3f979-08fd-4ab6-a372-9101d7e10fba
+[11:40:39] [Server thread/INFO]: jacob50505[/80.62.116.87:36601] logged in with entity id 2402414 at ([Survival]124.5, 86.0, 534.5)
+[11:40:39] [Server thread/INFO]: +jacob50505
+[11:40:39] [pool-18-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\59d3f979-08fd-4ab6-a372-9101d7e10fba.yml
+[11:40:39] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[11:40:39] [Server thread/INFO]: jacob50505 has made the advancement [Getting an Upgrade]
+[11:40:40] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[11:41:24] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[11:41:39] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:42:12] [Server thread/INFO]: jacob50505 issued server command: /pl
+[11:42:20] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:42:37] [Server thread/INFO]: jacob50505 issued server command: /awrps
+[11:42:39] [Server thread/INFO]: jacob50505 issued server command: /warps
+[11:42:39] [Server thread/INFO]: [Essentials] jacob50505 was denied access to command.
+[11:42:40] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:43:45] [Server thread/INFO]: jacob50505 lost connection: Disconnected
+[11:43:45] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[11:43:45] [Server thread/INFO]: -jacob50505
+[11:44:20] [Craft Scheduler Thread - 5648/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:44:21] [Craft Scheduler Thread - 5653/INFO]: 
+[11:44:25] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[11:47:27] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[11:48:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TG] TumbleGamer: !interview @TumbleGamer @Admin
+[11:48:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleNetwork: @TumbleGamer, This would open and interview for tumblegamer#6140, appying for Admin
+[11:48:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TG] TumbleGamer: !interview @TumbleGamer @Admin
+[11:48:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleNetwork: @TumbleGamer, This would open and interview for tumblegamer#6140, appying for Admin
+[11:49:23] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:49:23] [Craft Scheduler Thread - 5659/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:50:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:50:24] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:50:29] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[11:51:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TG] TumbleGamer: !interview
+[11:51:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleNetwork: Invalid command: !interview
+[11:51:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TG] TumbleGamer: !interview @TumbleGamer @Admin
+[11:51:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleNetwork: @TumbleGamer, This would open and interview for tumblegamer#6140, appying for Admin
+[11:51:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TG] TumbleGamer: !interview @TumbleGamer @Admin
+[11:51:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleNetwork: @TumbleGamer, This would open and interview for tumblegamer#6140, appying for Admin
+[11:52:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TG] TumbleGamer: !interview
+[11:52:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleNetwork: Invalid command: !interview
+[11:52:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TG] TumbleGamer: !interview @TumbleGamer @Admin
+[11:52:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Tumble Network Team] TumbleNetwork: @TumbleGamer, This would open and interview for tumblegamer#6140, appying for Admin
+[11:53:30] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[11:54:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TG] TumbleGamer: thats not good this command works without being an interviewer
+[11:57:07] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[11:57:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[11:58:08] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[11:59:29] [Craft Scheduler Thread - 5670/INFO]: [Marriage] Purged 0 player entries in 1ms
+[11:59:29] [Craft Scheduler Thread - 5666/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:59:29] [Craft Scheduler Thread - 5668/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:59:29] [Craft Scheduler Thread - 5674/INFO]: 
+[11:59:34] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[12:00:39] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[12:02:35] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[12:04:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[12:05:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[12:05:37] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[12:05:52] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
