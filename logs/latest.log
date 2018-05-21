@@ -3824,3 +3824,40 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
 [22:49:34] [Craft Scheduler Thread - 6578/INFO]: 
+[22:50:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [To Be interviewed] startrooper2345: wait
+[22:50:33] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [To Be interviewed] startrooper2345: Sorry was taking a shit
+[22:50:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [TG] TumbleGamer: did you get dm?
+[22:51:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [To Be interviewed] startrooper2345: Ye
+[22:51:09] [User Authenticator #43/INFO]: UUID of player iUseVapeGG is a78d94af-71c8-453d-b8fa-2a769d50db63
+[22:51:09] [Server thread/INFO]: iUseVapeGG[/136.61.17.211:52834] logged in with entity id 2981479 at ([Survival]116.19632357884649, 70.0, 550.2135138908941)
+[22:51:09] [Server thread/INFO]: +iUseVapeGG
+[22:51:10] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[22:51:16] [Server thread/INFO]: iUseVapeGG issued server command: /restart
+[22:52:17] [Server thread/INFO]: CONSOLE issued server command: /online 
+[22:52:17] [Server thread/INFO]: There are 1 out of maximum 20 players online.
+[22:52:17] [Server thread/INFO]: vive.non-vivegroup: iUseVapeGG
+[22:52:22] [Netty Server IO #1/WARN]: java.io.IOException: An existing connection was forcibly closed by the remote host
+[22:52:22] [Netty Server IO #1/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[22:52:22] [Netty Server IO #1/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[22:52:22] [Netty Server IO #1/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[22:52:22] [Netty Server IO #1/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[22:52:22] [Netty Server IO #1/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[22:52:22] [Netty Server IO #1/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[22:52:22] [Netty Server IO #1/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[22:52:22] [Netty Server IO #1/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[22:52:22] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+[22:52:22] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[22:52:22] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[22:52:22] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[22:52:22] [Netty Server IO #1/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[22:52:22] [Netty Server IO #1/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[22:52:22] [Netty Server IO #1/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[22:52:22] [Server thread/INFO]: iUseVapeGG lost connection: Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host
+[22:52:22] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[22:52:22] [Server thread/INFO]: -iUseVapeGG
+[22:52:40] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[22:53:00] [User Authenticator #44/INFO]: UUID of player iUseVapeGG is a78d94af-71c8-453d-b8fa-2a769d50db63
+[22:53:00] [Server thread/INFO]: iUseVapeGG[/136.61.17.211:52903] logged in with entity id 2985573 at ([Survival]121.30207247813382, 74.0, 548.6999999880791)
+[22:53:00] [Server thread/INFO]: +iUseVapeGG
+[22:53:01] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[22:53:07] [Server thread/INFO]: iUseVapeGG issued server command: /restart
