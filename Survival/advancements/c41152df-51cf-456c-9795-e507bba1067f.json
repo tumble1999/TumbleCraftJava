@@ -139,15 +139,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/wooden_pressure_plate": {
-    "criteria": {
-      "has_planks": "2018-05-20 18:26:53 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2018-05-20 18:20:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2018-05-20 18:26:53 +0100"
     },
     "done": true
   },
@@ -163,15 +163,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/arrow": {
-    "criteria": {
-      "has_flint": "2018-05-20 18:31:10 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2018-05-20 18:30:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2018-05-20 18:31:10 +0100"
     },
     "done": true
   },
@@ -211,6 +211,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2018-05-20 18:25:14 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/wooden_button": {
     "criteria": {
       "has_planks": "2018-05-20 18:26:53 +0100"
@@ -223,21 +229,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/stone_shovel": {
+  "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
-      "has_cobblestone": "2018-05-20 18:25:14 +0100"
+      "has_log": "2018-05-20 18:26:03 +0100"
     },
     "done": true
   },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2018-05-20 18:45:21 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_log": "2018-05-20 18:26:03 +0100"
     },
     "done": true
   },
@@ -271,15 +271,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_axe": {
-    "criteria": {
-      "has_gold_ingot": "2018-05-20 18:55:15 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/fence": {
     "criteria": {
       "has_planks": "2018-05-20 18:26:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2018-05-20 18:55:15 +0100"
     },
     "done": true
   },
@@ -337,15 +337,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_block": {
-    "criteria": {
-      "has_the_recipe": "2018-05-20 19:15:30 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2018-05-20 18:50:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_block": {
+    "criteria": {
+      "has_the_recipe": "2018-05-20 19:15:30 +0100"
     },
     "done": true
   },
@@ -415,15 +415,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_shovel": {
-    "criteria": {
-      "has_gold_ingot": "2018-05-20 18:55:15 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2018-05-20 18:50:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2018-05-20 18:55:15 +0100"
     },
     "done": true
   },
@@ -499,15 +499,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/minecart": {
-    "criteria": {
-      "has_iron_ingot": "2018-05-20 18:50:24 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2018-05-20 18:25:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2018-05-20 18:50:24 +0100"
     },
     "done": true
   },
@@ -649,15 +649,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
-    "criteria": {
-      "has_iron_ingot": "2018-05-20 18:50:24 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_at_least_9_diamond": "2018-05-20 18:32:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2018-05-20 18:50:24 +0100"
     },
     "done": true
   },
