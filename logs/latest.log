@@ -674,3 +674,610 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [14:35:54] [Server thread/INFO]: com.mojang.authlib.GameProfile@20d4dafc[id=<null>,name=iUseVapeGG,properties={},legacy=false] (/136.61.17.211:57977) lost connection: Disconnected
 [14:36:03] [Server thread/INFO]: com.mojang.authlib.GameProfile@4aa042ba[id=<null>,name=iUseVapeGG,properties={},legacy=false] (/136.61.17.211:57985) lost connection: Disconnected
 [14:38:20] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[14:38:54] [Server thread/INFO]: CONSOLE issued server command: /help 
+[14:38:54] [Server thread/INFO]: To view help from the console, type ?.
+[14:38:56] [Server thread/INFO]: --------- Help: Index ---------------------------
+[14:38:56] [Server thread/INFO]: Use /help [n] to get page n of help.
+[14:38:56] [Server thread/INFO]: AdvancedBan: All commands for AdvancedBan
+[14:38:56] [Server thread/INFO]: Aliases: Lists command aliases
+[14:38:56] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[14:38:56] [Server thread/INFO]: ChestCommands: All commands for ChestCommands
+[14:38:56] [Server thread/INFO]: Citizens: All commands for Citizens
+[14:38:56] [Server thread/INFO]: ClearLag: All commands for ClearLag
+[14:38:56] [Server thread/INFO]: CrazyAuctions: All commands for CrazyAuctions
+[14:38:56] [Server thread/INFO]: DiscordSRV: All commands for DiscordSRV
+[14:38:56] [Server thread/INFO]: Essentials: All commands for Essentials
+[14:38:56] [Server thread/INFO]: EssentialsSpawn: All commands for EssentialsSpawn
+[14:38:56] [Server thread/INFO]: FastAsyncWorldEdit: All commands for FastAsyncWorldEdit
+[14:38:56] [Server thread/INFO]: Friends3_0: All commands for Friends3_0
+[14:38:56] [Server thread/INFO]: GriefPrevention: All commands for GriefPrevention
+[14:38:56] [Server thread/INFO]: HeadDrops: All commands for HeadDrops
+[14:38:56] [Server thread/INFO]: HolographicDisplays: All commands for HolographicDisplays
+[14:38:56] [Server thread/INFO]: iDisguise: All commands for iDisguise
+[14:38:56] [Server thread/INFO]: Marriage: All commands for Marriage
+[14:38:56] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[14:38:56] [Server thread/INFO]: Multiverse-Core: All commands for Multiverse-Core
+[14:38:56] [Server thread/INFO]: NametagEdit: All commands for NametagEdit
+[14:38:56] [Server thread/INFO]: PermissionsEx: All commands for PermissionsEx
+[14:38:56] [Server thread/INFO]: PerWorldInventory: All commands for PerWorldInventory
+[14:38:56] [Server thread/INFO]: PlotSquared: All commands for PlotSquared
+[14:38:56] [Server thread/INFO]: PlugMan: All commands for PlugMan
+[14:38:56] [Server thread/INFO]: ProtocolLib: All commands for ProtocolLib
+[14:38:56] [Server thread/INFO]: Sentinel: All commands for Sentinel
+[14:38:56] [Server thread/INFO]: ServerListPlus: All commands for ServerListPlus
+[14:38:56] [Server thread/INFO]: SuperVanish: All commands for SuperVanish
+[14:38:56] [Server thread/INFO]: TrollCommandsPlusPlus: All commands for TrollCommandsPlusPlus
+[14:38:56] [Server thread/INFO]: TumbleCraftAdminSummon: All commands for TumbleCraftAdminSummon
+[14:38:56] [Server thread/INFO]: Vault: All commands for Vault
+[14:38:56] [Server thread/INFO]: ViaVersion: All commands for ViaVersion
+[14:38:56] [Server thread/INFO]: Vivecraft-Spigot-Extensions: All commands for Vivecraft-Spigot-Extensions
+[14:38:56] [Server thread/INFO]: Vote: All commands for Vote
+[14:38:56] [Server thread/INFO]: Wild: All commands for Wild
+[14:38:56] [Server thread/INFO]: WorldEdit: All commands for WorldEdit
+[14:38:56] [Server thread/INFO]: WorldGuard: All commands for WorldGuard
+[14:38:56] [Server thread/INFO]: /.s: Execute last CraftScript
+[14:38:56] [Server thread/INFO]: //: Toggle the super pickaxe function
+[14:38:56] [Server thread/INFO]: //anvil: Anvil command
+[14:38:56] [Server thread/INFO]: //calc: Evaluate a mathematical expression
+[14:38:56] [Server thread/INFO]: //caves: Generates caves
+[14:38:56] [Server thread/INFO]: //center: Set the center block(s)
+[14:38:56] [Server thread/INFO]: //chunk: Set the selection to your current chunk.
+[14:38:56] [Server thread/INFO]: //clearhistory: Clear your history
+[14:38:56] [Server thread/INFO]: //confirm: Confirm a command
+[14:38:56] [Server thread/INFO]: //contract: Contract the selection area
+[14:38:56] [Server thread/INFO]: //copy: Copy the selection to the clipboard
+[14:38:56] [Server thread/INFO]: //count: Counts the number of a certain type of block
+[14:38:56] [Server thread/INFO]: //curve: Draws a spline through selected points
+[14:38:56] [Server thread/INFO]: //cut: Cut the selection to the clipboard
+[14:38:56] [Server thread/INFO]: //cyl: Generates a cylinder.
+[14:38:56] [Server thread/INFO]: //deform: Deforms a selected region with an expression
+[14:38:56] [Server thread/INFO]: //distr: Get the distribution of blocks in the selection
+[14:38:56] [Server thread/INFO]: //drain: Drain a pool
+[14:38:57] [Server thread/INFO]: //ex: Extinguish nearby fire
+[14:38:57] [Server thread/INFO]: //expand: Expand the selection area
+[14:38:57] [Server thread/INFO]: //faces: Build the walls, ceiling, and floor of a selection
+[14:38:57] [Server thread/INFO]: //fall: Have the blocks in the selection fall
+[14:38:57] [Server thread/INFO]: //fast: Toggles FAWE undo
+[14:38:57] [Server thread/INFO]: //fill: Fill a hole
+[14:38:57] [Server thread/INFO]: //fillr: Fill a hole recursively
+[14:38:57] [Server thread/INFO]: //fixlava: Fix lava to be stationary
+[14:38:57] [Server thread/INFO]: //fixlighting: Get the light at a position
+[14:38:57] [Server thread/INFO]: //fixwater: Fix water to be stationary
+[14:38:57] [Server thread/INFO]: //flip: Flip the contents of the clipboard
+[14:38:57] [Server thread/INFO]: //flora: Make flora within the region
+[14:38:57] [Server thread/INFO]: //forest: Make a forest within the region
+[14:38:57] [Server thread/INFO]: //frb: Undo a specific edit.  - The time uses s, m, h, d, y..  - Import from disk: /frb #import
+[14:38:57] [Server thread/INFO]: //generate: Generates a shape according to a formula.
+[14:38:57] [Server thread/INFO]: //generatebiome: Sets biome according to a formula.
+[14:38:57] [Server thread/INFO]: //getlighting: Get the light at a position
+[14:38:57] [Server thread/INFO]: //gmask: Set the global mask
+[14:38:57] [Server thread/INFO]: //green: Greens the area
+[14:38:57] [Server thread/INFO]: //gsmask: Set the global source mask
+[14:38:57] [Server thread/INFO]: //gtransform: Set the global transform
+[14:38:57] [Server thread/INFO]: //gui: Open the GUI
+[14:38:57] [Server thread/INFO]: //hcyl: Generates a hollow cylinder.
+[14:38:57] [Server thread/INFO]: //help: Displays help for WorldEdit commands
+[14:38:57] [Server thread/INFO]: //hollow: Hollows out the object contained in this selection
+[14:38:57] [Server thread/INFO]: //hpos1: Set position 1 to targeted block
+[14:38:57] [Server thread/INFO]: //hpos2: Set position 2 to targeted block
+[14:38:57] [Server thread/INFO]: //hpyramid: Generate a hollow pyramid
+[14:38:57] [Server thread/INFO]: //hsphere: Generates a hollow sphere.
+[14:38:57] [Server thread/INFO]: //image: Generate an image
+[14:38:57] [Server thread/INFO]: //inset: Inset the selection area
+[14:38:57] [Server thread/INFO]: //lay: Set the top block in the region
+[14:38:57] [Server thread/INFO]: //lazycopy: Lazily copy the selection to the clipboard
+[14:38:57] [Server thread/INFO]: //lazycut: Lazily cut the selection to the clipboard
+[14:38:57] [Server thread/INFO]: //line: Draws a line segment between cuboid selection corners
+[14:38:57] [Server thread/INFO]: //listbrush: List saved brushes
+[14:38:57] [Server thread/INFO]: //move: Move the contents of the selection
+[14:38:57] [Server thread/INFO]: //naturalize: 3 layers of dirt on top then rock below
+[14:38:57] [Server thread/INFO]: //nbtinfo: View nbt info for a block
+[14:38:57] [Server thread/INFO]: //ore: Generates ores
+[14:38:57] [Server thread/INFO]: //ores: Generates ores
+[14:38:57] [Server thread/INFO]: //outset: Outset the selection area
+[14:38:57] [Server thread/INFO]: //overlay: Set a block on top of blocks in the region
+[14:38:57] [Server thread/INFO]: //paste: Paste the clipboard's contents
+[14:38:57] [Server thread/INFO]: //place: Place the clipboard's contents without applying transformations (e.g. rotate)
+[14:38:57] [Server thread/INFO]: //pos1: Set position 1
+[14:38:57] [Server thread/INFO]: //pos2: Set position 2
+[14:38:57] [Server thread/INFO]: //pyramid: Generate a filled pyramid
+[14:38:57] [Server thread/INFO]: //redo: Redoes the last action (from history)
+[14:38:57] [Server thread/INFO]: //regen: Regenerates the contents of the selection
+[14:38:57] [Server thread/INFO]: //removeabove: Remove blocks above your head.
+[14:38:57] [Server thread/INFO]: //removebelow: Remove blocks below you.
+[14:38:57] [Server thread/INFO]: //removelight: Removing lighting in a selection
+[14:38:57] [Server thread/INFO]: //removenear: Remove blocks near you.
+[14:38:57] [Server thread/INFO]: //replace: Replace all blocks in the selection with another
+[14:38:57] [Server thread/INFO]: //replacenear: Replace nearby blocks
+[14:38:57] [Server thread/INFO]: //rotate: Rotate the contents of the clipboard
+[14:38:57] [Server thread/INFO]: //searchitem: Search for an item
+[14:38:57] [Server thread/INFO]: //sel: Choose a region selector
+[14:38:57] [Server thread/INFO]: //set: Set all blocks within selection
+[14:38:57] [Server thread/INFO]: //setbiome: Sets the biome of the player's current block or region.
+[14:38:57] [Server thread/INFO]: //setblocklight: Set block lighting in a selection
+[14:38:57] [Server thread/INFO]: //setskylight: Set sky lighting in a selection
+[14:38:57] [Server thread/INFO]: //shift: Shift the selection area
+[14:38:57] [Server thread/INFO]: //size: Get information about the selection
+[14:38:57] [Server thread/INFO]: //smooth: Smooth the elevation in the selection
+[14:38:57] [Server thread/INFO]: //snow: Simulates snow
+[14:38:57] [Server thread/INFO]: //sphere: Generates a filled sphere.
+[14:38:57] [Server thread/INFO]: //stack: Repeat the contents of the selection
+[14:38:57] [Server thread/INFO]: //thaw: Thaws the area
+[14:38:57] [Server thread/INFO]: //tips: Toggle FAWE tips
+[14:38:57] [Server thread/INFO]: //toggleplace: Switch between your position and pos1 for placement
+[14:38:57] [Server thread/INFO]: //undo: Undoes the last action
+[14:38:57] [Server thread/INFO]: //walls: Build the four sides of the selection
+[14:38:57] [Server thread/INFO]: //wand: Get the wand object
+[14:38:57] [Server thread/INFO]: //wea: Bypass region restrictions
+[14:38:57] [Server thread/INFO]: //wer: Select your current allowed region
+[14:38:57] [Server thread/INFO]: /abandonallclaims: Deletes ALL your claims.
+[14:38:57] [Server thread/INFO]: /abandonclaim: Deletes a claim.
+[14:38:57] [Server thread/INFO]: /abandontoplevelclaim: Deletes a claim and all its subdivisions.
+[14:38:57] [Server thread/INFO]: /accesstrust: Grants a player entry to your claim(s) and use of your bed.
+[14:38:57] [Server thread/INFO]: /adjustbonusclaimblocks: Adds or subtracts bonus claim blocks for a player.
+[14:38:57] [Server thread/INFO]: /adjustbonusclaimblocksall: Adds or subtracts bonus claim blocks for all online players.
+[14:38:57] [Server thread/INFO]: /adminclaims: Switches the shovel tool to administrative claims mode.
+[14:38:57] [Server thread/INFO]: /adminclaimslist: Lists all administrative claims.
+[14:38:57] [Server thread/INFO]: /advancedban: Information about the Plugin
+[14:38:57] [Server thread/INFO]: /advancement: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /afk: Marks you as away-from-keyboard.
+[14:38:57] [Server thread/INFO]: /alerts: &7Enables or disables the alert type.
+[14:38:57] [Server thread/INFO]: /allowfire: [<world>] - Allows all fire spread temporarily
+[14:38:57] [Server thread/INFO]: /antioch: A little surprise for operators.
+[14:38:57] [Server thread/INFO]: /ascend: Go up a floor
+[14:38:57] [Server thread/INFO]: /asset: Create an asset
+[14:38:57] [Server thread/INFO]: /back: Teleports you to your location prior to tp/spawn/warp.
+[14:38:57] [Server thread/INFO]: /backup: Runs the backup if configured.
+[14:38:57] [Server thread/INFO]: /balance: States the current balance of a player.
+[14:38:57] [Server thread/INFO]: /balancetop: Gets the top balance values.
+[14:38:57] [Server thread/INFO]: /ban: Ban a user permanently
+[14:38:57] [Server thread/INFO]: /banip: Bans an IP address.
+[14:38:57] [Server thread/INFO]: /banlist: See all punishments
+[14:38:57] [Server thread/INFO]: /basicclaims: Switches the shovel tool back to basic claims mode.
+[14:38:57] [Server thread/INFO]: /bigtree: Spawn a big tree where you are looking.
+[14:38:57] [Server thread/INFO]: /biomeinfo: Get the biome of the targeted block.
+[14:38:57] [Server thread/INFO]: /biomelist: Gets all biomes available.
+[14:38:57] [Server thread/INFO]: /blockdata: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /book: Allows reopening and editing of sealed books.
+[14:38:57] [Server thread/INFO]: /break: Breaks the block you are looking at.
+[14:38:57] [Server thread/INFO]: /broadcast: Broadcasts a message to the entire server.
+[14:38:57] [Server thread/INFO]: /broadcastworld: Broadcasts a message to a world.
+[14:38:57] [Server thread/INFO]: /brush: Commands to build and draw from far away. [More Info](https://git.io/vSPYf)
+[14:38:57] [Server thread/INFO]: /bukkit:help: Shows the help menu
+[14:38:57] [Server thread/INFO]: /burn: Set a player on fire.
+[14:38:57] [Server thread/INFO]: /butcher: Kill all or nearby mobs
+[14:38:57] [Server thread/INFO]: /buyclaimblocks: Purchases additional claim blocks with server money.  Doesn't work on servers without a Vault-compatible economy plugin.
+[14:38:57] [Server thread/INFO]: /ca: Opens the Crazy Auctions GUI.
+[14:38:57] [Server thread/INFO]: /ceil: Go to the celing
+[14:38:57] [Server thread/INFO]: /cfi: Start CreateFromImage
+[14:38:57] [Server thread/INFO]: /change-reason: Change the reason of an existing punishment
+[14:38:57] [Server thread/INFO]: /chat: &7Executes the given chat management action.
+[14:38:57] [Server thread/INFO]: /check: Get all information about a user
+[14:38:57] [Server thread/INFO]: /chestcommands: Main command for ChestCommands.
+[14:38:57] [Server thread/INFO]: /chunkinfo: Get information about the chunk that you are inside
+[14:38:57] [Server thread/INFO]: /citizens: Administration commands
+[14:38:57] [Server thread/INFO]: /claim: Creates a land claim centered at your current location.
+[14:38:57] [Server thread/INFO]: /claimbook: Gives a player a manual about claiming land.
+[14:38:57] [Server thread/INFO]: /claimexplosions: Toggles whether explosives may be used in a specific land claim.
+[14:38:57] [Server thread/INFO]: /claimslist: Lists information about a player's claim blocks and claims.
+[14:38:57] [Server thread/INFO]: /clearclipboard: Clear your clipboard
+[14:38:57] [Server thread/INFO]: /clearinventory: Clear all items in your inventory.
+[14:38:57] [Server thread/INFO]: /clearinventoryconfirmtoggle: Toggles whether you are prompted to confirm inventory clears.
+[14:38:57] [Server thread/INFO]: /clone: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /compass: Describes your current bearing.
+[14:38:57] [Server thread/INFO]: /condense: Condenses items into a more compact blocks.
+[14:38:57] [Server thread/INFO]: /containertrust: Grants a player access to your claim's containers, crops, animals, bed, buttons, and levers.
+[14:38:57] [Server thread/INFO]: /cps: &7Starts a CPS test on the player.
+[14:38:57] [Server thread/INFO]: /createkit: Create a kit in game!
+[14:38:57] [Server thread/INFO]: /cs: Execute a CraftScript
+[14:38:57] [Server thread/INFO]: /customtext: Allows you to create custom text commands.
+[14:38:57] [Server thread/INFO]: /cycler: Block data cycler tool
+[14:38:57] [Server thread/INFO]: /dbw: Summon DrBatmanWho
+[14:38:57] [Server thread/INFO]: /debug: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /delchunks: Deprecated, use anvil commands
+[14:38:57] [Server thread/INFO]: /deletealladminclaims: Deletes all administrative claims.
+[14:38:57] [Server thread/INFO]: /deleteallclaims: Deletes all of another player's claims.
+[14:38:57] [Server thread/INFO]: /deleteclaim: Deletes the claim you're standing in, even if it's not your claim.
+[14:38:57] [Server thread/INFO]: /deleteclaimsinworld: Deletes all the claims in a world.  Only usable at the server console.
+[14:38:57] [Server thread/INFO]: /deleteuserclaimsinworld: Deletes all the non-admin claims in a world.  Only usable at the server console.
+[14:38:57] [Server thread/INFO]: /delhome: Removes a home.
+[14:38:57] [Server thread/INFO]: /deljail: Removes a jail.
+[14:38:57] [Server thread/INFO]: /deltree: Floating tree remover tool
+[14:38:57] [Server thread/INFO]: /delwarp: Deletes the specified warp.
+[14:38:57] [Server thread/INFO]: /demote: Permission ladder demotion command.
+[14:38:57] [Server thread/INFO]: /deop: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /depth: States current depth, relative to sea level.
+[14:38:57] [Server thread/INFO]: /descend: Go down a floor
+[14:38:57] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /discord: DiscordSRV commands
+[14:38:57] [Server thread/INFO]: /disguise: Disguise.
+[14:38:57] [Server thread/INFO]: /disposal: Opens a portable disposal menu.
+[14:38:57] [Server thread/INFO]: /download: Downloads your clipboard through the configured web interface
+[14:38:57] [Server thread/INFO]: /eco: Manages the server economy.
+[14:38:57] [Server thread/INFO]: /effect: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /enchant: Enchants the item the user is holding.
+[14:38:57] [Server thread/INFO]: /enderchest: Lets you see inside an enderchest.
+[14:38:57] [Server thread/INFO]: /entitydata: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /essentials: Reloads essentials.
+[14:38:57] [Server thread/INFO]: /essentials:ban: Bans a player.
+[14:38:57] [Server thread/INFO]: /essentials:info: Shows information set by the server owner.
+[14:38:57] [Server thread/INFO]: /essentials:kick: Kicks a specified player with a reason.
+[14:38:57] [Server thread/INFO]: /essentials:mute: Mutes or unmutes a player.
+[14:38:57] [Server thread/INFO]: /essentials:remove: Removes entities in your world.
+[14:38:57] [Server thread/INFO]: /essentials:tempban: Temporary ban a user.
+[14:38:57] [Server thread/INFO]: /essentials:tree: Spawn a tree where you are looking.
+[14:38:57] [Server thread/INFO]: /essentials:unban: Unbans the specified player.
+[14:38:57] [Server thread/INFO]: /essentials:vanish: Hide yourself from other players.
+[14:38:57] [Server thread/INFO]: /examine: &7Examines the player's inventory
+[14:38:57] [Server thread/INFO]: /execute: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /exp: Give, set or look at a players exp.
+[14:38:57] [Server thread/INFO]: /ext: Extinguish players.
+[14:38:57] [Server thread/INFO]: /extendclaim: Resizes the land claim you're standing in by pushing or pulling its boundary in the direction you're facing.
+[14:38:57] [Server thread/INFO]: /farwand: Wand at a distance tool
+[14:38:57] [Server thread/INFO]: /fcancel: (FAWE) Cancel your edit
+[14:38:57] [Server thread/INFO]: /feed: Satisfy the hunger.
+[14:38:57] [Server thread/INFO]: /fill: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /filter: Add or remove programmable filters to the packet listeners.
+[14:38:57] [Server thread/INFO]: /fireball: Throw a fireball.
+[14:38:57] [Server thread/INFO]: /firework: Allows you to modify a stack of fireworks.
+[14:38:57] [Server thread/INFO]: /floodfill: Flood fill tool
+[14:38:57] [Server thread/INFO]: /fly: Take off, and soar!
+[14:38:57] [Server thread/INFO]: /follow: &7Follows or unfollows the player.
+[14:38:57] [Server thread/INFO]: /forestgen: Generate a forest
+[14:38:57] [Server thread/INFO]: /freeze: &7Freezes or unfreezes the player
+[14:38:57] [Server thread/INFO]: /friends: 
+[14:38:57] [Server thread/INFO]: /function: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /gamemode: Change player gamemode.
+[14:38:57] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /gc: Reports memory, uptime and tick info.
+[14:38:57] [Server thread/INFO]: /getpos: Get your current coordinates or those of a player.
+[14:38:57] [Server thread/INFO]: /give: Give a player an item.
+[14:38:57] [Server thread/INFO]: /givepet: Allows a player to give away a pet he or she tamed.
+[14:38:57] [Server thread/INFO]: /god: Enables your godly powers.
+[14:38:57] [Server thread/INFO]: /gpblockinfo: Allows an administrator to get technical information about blocks in the world and items in hand.
+[14:38:57] [Server thread/INFO]: /gpreload: Reloads Grief Prevention's configuration settings.  Does NOT totally reload the entire plugin.
+[14:38:57] [Server thread/INFO]: /gtroll: Same as /troll, except it can be used cross-server (if configured)
+[14:38:57] [Server thread/INFO]: /halt-activity: Attempts to cease as much activity in order to stop lag
+[14:38:57] [Server thread/INFO]: /hat: Get some cool new headgear.
+[14:38:57] [Server thread/INFO]: /head: Gives you or someone else the head of a specific Player
+[14:38:57] [Server thread/INFO]: /headdrops: Reload the plugin config
+[14:38:57] [Server thread/INFO]: /headinfo: Get the name of a clicked head displayed
+[14:38:57] [Server thread/INFO]: /heal: Heals you or the given player.
+[14:38:57] [Server thread/INFO]: /help: Views a list of available commands.
+[14:38:57] [Server thread/INFO]: /helpop: Message online admins.
+[14:38:57] [Server thread/INFO]: /history: See a user''s history
+[14:38:57] [Server thread/INFO]: /holograms: Main command for HolographicDisplays.
+[14:38:57] [Server thread/INFO]: /home: Teleport to your home.
+[14:38:57] [Server thread/INFO]: /ignore: Ignore or unignore other players.
+[14:38:57] [Server thread/INFO]: /ignoreclaims: Toggles ignore claims mode.
+[14:38:57] [Server thread/INFO]: /ignoredplayerlist: Lists the players you're ignoring in chat.
+[14:38:57] [Server thread/INFO]: /ignoreplayer: Ignores another player's chat messages.
+[14:38:57] [Server thread/INFO]: /info: Block information tool
+[14:38:57] [Server thread/INFO]: /inspect: Inspect edits within a radius
+[14:38:57] [Server thread/INFO]: /invsee: See the inventory of other players.
+[14:38:57] [Server thread/INFO]: /ipban: Ban a user by IP
+[14:38:57] [Server thread/INFO]: /item: Spawn an item.
+[14:38:57] [Server thread/INFO]: /itemdb: Searches for an item.
+[14:38:57] [Server thread/INFO]: /jails: List all jails.
+[14:38:57] [Server thread/INFO]: /jump: Jumps to the nearest block in the line of sight.
+[14:38:57] [Server thread/INFO]: /jumpto: Teleport to a location
+[14:38:57] [Server thread/INFO]: /kick: Kick a user
+[14:38:57] [Server thread/INFO]: /kickall: Kicks all players off the server except the issuer.
+[14:38:57] [Server thread/INFO]: /kill: Kills specified player.
+[14:38:57] [Server thread/INFO]: /kit: Obtains the specified kit or views all available kits.
+[14:38:57] [Server thread/INFO]: /kittycannon: Throw an exploding kitten at your opponent.
+[14:38:57] [Server thread/INFO]: /lagg: Clearlag base command!
+[14:38:57] [Server thread/INFO]: /lightning: The power of Thor. Strike at cursor or player.
+[14:38:57] [Server thread/INFO]: /list: List all online players.
+[14:38:57] [Server thread/INFO]: /listchunks: List chunks that your selection includes
+[14:38:57] [Server thread/INFO]: /loadbrush: load a brush
+[14:38:57] [Server thread/INFO]: /locate: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /lrbuild: Long-range building tool
+[14:38:57] [Server thread/INFO]: /mail: Manages inter-player, intra-server mail.
+[14:38:57] [Server thread/INFO]: /marry: Marriage main command.
+[14:38:57] [Server thread/INFO]: /mask: Set the brush destination mask
+[14:38:57] [Server thread/INFO]: /masks: View help about masks
+[14:38:57] [Server thread/INFO]: /mat: Set the brush material
+[14:38:57] [Server thread/INFO]: /me: Describes an action in the context of the player.
+[14:38:57] [Server thread/INFO]: /minecraft:ban: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:ban-ip: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:banlist: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:clear: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:enchant: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:gamemode: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:give: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:kick: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:kill: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:list: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:me: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:pardon: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:recipe: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:teleport: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:tell: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:time: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:tp: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:weather: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /minecraft:xp: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /mobhead: Get the head from a specific mob
+[14:38:57] [Server thread/INFO]: /more: Fills the item stack in hand to maximum size.
+[14:38:57] [Server thread/INFO]: /motd: Views the Message Of The Day.
+[14:38:57] [Server thread/INFO]: /msg: Sends a private message to the specified player.
+[14:38:57] [Server thread/INFO]: /msgtoggle: Blocks receiving all private messages.
+[14:38:57] [Server thread/INFO]: /mute: Mute a user permanently
+[14:38:57] [Server thread/INFO]: /mv: Generic Multiverse Command
+[14:38:57] [Server thread/INFO]: /mvc: Display World, Coordinates, Direction & Compression for a world.
+[14:38:57] [Server thread/INFO]: /mvclone: World clone command
+[14:38:57] [Server thread/INFO]: /mvco: Displays the player's coordinates.
+[14:38:57] [Server thread/INFO]: /mvconfirm: Confirms sensitive decisions like deleting a world.
+[14:38:57] [Server thread/INFO]: /mvcoord: Display World, Coordinates, Direction & Compression for a world.
+[14:38:57] [Server thread/INFO]: /mvcreate: World create command
+[14:38:57] [Server thread/INFO]: /mvdebug: Turns on debugging.
+[14:38:57] [Server thread/INFO]: /mvdelete: World delete command
+[14:38:57] [Server thread/INFO]: /mvenv: Tells the user all possible environment types.
+[14:38:57] [Server thread/INFO]: /mvgamerule: Sets a gamerule.
+[14:38:57] [Server thread/INFO]: /mvgamerules: Lists the gamerules.
+[14:38:57] [Server thread/INFO]: /mvgenerators: Displays all found world generators.
+[14:38:57] [Server thread/INFO]: /mvgens: Displays all found world generators.
+[14:38:57] [Server thread/INFO]: /mvh: Displays the Multiverse Help.
+[14:38:57] [Server thread/INFO]: /mvhelp: Displays the Multiverse Help.
+[14:38:57] [Server thread/INFO]: /mvi: Gets world info.
+[14:38:57] [Server thread/INFO]: /mvim: World import command
+[14:38:57] [Server thread/INFO]: /mvimport: World import command
+[14:38:57] [Server thread/INFO]: /mvinfo: Gets world info.
+[14:38:57] [Server thread/INFO]: /mvl: Print list of loaded Worlds
+[14:38:57] [Server thread/INFO]: /mvlist: Print list of loaded Worlds
+[14:38:57] [Server thread/INFO]: /mvload: Loads a world into Multiverse.
+[14:38:57] [Server thread/INFO]: /mvm: Modify the settings of an existing world
+[14:38:57] [Server thread/INFO]: /mvmadd: Modify the settings of an existing world
+[14:38:57] [Server thread/INFO]: /mvmclear: Modify the settings of an existing world
+[14:38:57] [Server thread/INFO]: /mvmodify: Modify the settings of an existing world
+[14:38:57] [Server thread/INFO]: /mvmremove: Modify the settings of an existing world
+[14:38:57] [Server thread/INFO]: /mvmset: Modify the settings of an existing world
+[14:38:57] [Server thread/INFO]: /mvpurge: Purge the targetted world of creatures.
+[14:38:57] [Server thread/INFO]: /mvr: Reload Configuration files.
+[14:38:57] [Server thread/INFO]: /mvregen: Regenerates a world Multiverse already knows about.
+[14:38:57] [Server thread/INFO]: /mvreload: Reload Configuration files.
+[14:38:57] [Server thread/INFO]: /mvremove: World remove command
+[14:38:57] [Server thread/INFO]: /mvrule: Sets a gamerule.
+[14:38:57] [Server thread/INFO]: /mvrules: Lists the gamerules.
+[14:38:57] [Server thread/INFO]: /mvs: Teleport to the spawn area
+[14:38:57] [Server thread/INFO]: /mvscript: Runs a script from the Multiverse scripts directory.
+[14:38:57] [Server thread/INFO]: /mvsearch: Displays the Multiverse Help.
+[14:38:57] [Server thread/INFO]: /mvset: Set the spawn area for a particular world
+[14:38:57] [Server thread/INFO]: /mvsetspawn: Set the spawn area for a particular world
+[14:38:57] [Server thread/INFO]: /mvsilent: Reduces startup messages
+[14:38:57] [Server thread/INFO]: /mvspawn: Teleport to the spawn area
+[14:38:57] [Server thread/INFO]: /mvss: Set the spawn area for a particular world
+[14:38:57] [Server thread/INFO]: /mvtp: Command to teleport between Worlds
+[14:38:57] [Server thread/INFO]: /mvunload: World unload command
+[14:38:57] [Server thread/INFO]: /mvv: Prints out version info.
+[14:38:57] [Server thread/INFO]: /mvversion: Prints out version info.
+[14:38:57] [Server thread/INFO]: /mvw: Display online users per world.
+[14:38:57] [Server thread/INFO]: /mvwho: Display online users per world.
+[14:38:57] [Server thread/INFO]: /myhead: Gives you your head
+[14:38:57] [Server thread/INFO]: /ne: NametagEdit commands
+[14:38:57] [Server thread/INFO]: /near: Lists the players near by or around a player.
+[14:38:57] [Server thread/INFO]: /nick: Change your nickname or that of another player.
+[14:38:57] [Server thread/INFO]: /none: Unbind a bound tool from your current item
+[14:38:57] [Server thread/INFO]: /notes: &7Adds or manages a player's notes
+[14:38:57] [Server thread/INFO]: /npc: Basic commands for all NPC-related things
+[14:38:57] [Server thread/INFO]: /nuke: May death rain upon them.
+[14:38:57] [Server thread/INFO]: /odisguise: Disguise others.
+[14:38:57] [Server thread/INFO]: /op: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /packet: Add or remove a simple packet listener.
+[14:38:57] [Server thread/INFO]: /packetlog: Logs hex representations of packets to a file or console
+[14:38:57] [Server thread/INFO]: /paper: Paper related commands
+[14:38:57] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /particle: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /patterns: View help about patterns
+[14:38:57] [Server thread/INFO]: /pay: Pays another player from your balance.
+[14:38:57] [Server thread/INFO]: /payconfirmtoggle: Toggles whether you are prompted to confirm payments.
+[14:38:57] [Server thread/INFO]: /paytoggle: Toggles whether you are accepting payments.
+[14:38:57] [Server thread/INFO]: /permissiontrust: Grants a player permission to grant his level of permission to others.
+[14:38:57] [Server thread/INFO]: /personnel: &7Lists all registered staff members.
+[14:38:57] [Server thread/INFO]: /pex: Provides access to Permissions commands and information.
+[14:38:57] [Server thread/INFO]: /ping: Pong!
+[14:38:57] [Server thread/INFO]: /playsound: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /plots: Plot command.
+[14:38:57] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[14:38:57] [Server thread/INFO]: /plugman: Manage Plugins Status.
+[14:38:57] [Server thread/INFO]: /potion: Adds custom potion effects to a potion.
+[14:38:57] [Server thread/INFO]: /powertool: Assigns a command to the item in hand.
+[14:38:57] [Server thread/INFO]: /powertooltoggle: Enables or disables all current powertools.
+[14:38:57] [Server thread/INFO]: /primary: Set the right click brush
+[14:38:57] [Server thread/INFO]: /protocol: Performs administrative tasks regarding ProtocolLib.
+[14:38:57] [Server thread/INFO]: /ptime: Adjust player's client time. Add @ prefix to fix.
+[14:38:57] [Server thread/INFO]: /pumpkins: Generate pumpkin patches
+[14:38:57] [Server thread/INFO]: /pweather: Adjust a player's weather
+[14:38:57] [Server thread/INFO]: /pwi: Commands for PerWorldInventory
+[14:38:57] [Server thread/INFO]: /r: Quickly reply to the last player to message you.
+[14:38:57] [Server thread/INFO]: /range: Set the brush range
+[14:38:57] [Server thread/INFO]: /realname: Displays the username of a user based on nick.
+[14:38:57] [Server thread/INFO]: /recipe: Displays how to craft items.
+[14:38:57] [Server thread/INFO]: /region: Region management commands
+[14:38:57] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[14:38:57] [Server thread/INFO]: /remove: Remove all entities of a type
+[14:38:57] [Server thread/INFO]: /repair: Repairs the durability of one or all items.
+[14:38:57] [Server thread/INFO]: /repl: Block replacer tool
+[14:38:57] [Server thread/INFO]: /replaceitem: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /report: &7Sends a report with the given player and reason.
+[14:38:57] [Server thread/INFO]: /restart: Restarts the server
+[14:38:57] [Server thread/INFO]: /restore: Restore the selection from a snapshot
+[14:38:57] [Server thread/INFO]: /restorenature: Switches the shovel tool to restoration mode.
+[14:38:57] [Server thread/INFO]: /restorenatureaggressive: Switches the shovel tool to aggressive restoration mode.
+[14:38:57] [Server thread/INFO]: /restorenaturefill: Switches the shovel tool to fill mode.
+[14:38:57] [Server thread/INFO]: /restrictsubclaim: Restricts a subclaim, so that it inherits no permissions from the parent claim
+[14:38:57] [Server thread/INFO]: /revive: &7Gives the player's previous inventory back.
+[14:38:57] [Server thread/INFO]: /rtp:rtp: Randomly teleport a player
+[14:38:57] [Server thread/INFO]: /rules: Views the server rules.
+[14:38:57] [Server thread/INFO]: /save-all: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /save-off: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /save-on: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /savebrush: Save your current brush
+[14:38:57] [Server thread/INFO]: /say: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /sc: &7Sends a message or toggles staff chat.
+[14:38:57] [Server thread/INFO]: /schematic: Commands that work with schematic files
+[14:38:57] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /script: Scripting commands
+[14:38:57] [Server thread/INFO]: /scroll: Toggle between different target modes
+[14:38:57] [Server thread/INFO]: /secondary: Set the left click brush
+[14:38:57] [Server thread/INFO]: /seed: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /seen: Shows the last logout time of a player.
+[14:38:57] [Server thread/INFO]: /sell: Sells the item currently in your hand.
+[14:38:57] [Server thread/INFO]: /sellclaimblocks: Sells your claim blocks for server money.  Doesn't work on servers without a Vault-compatible economy plugin.
+[14:38:57] [Server thread/INFO]: /sentinel: Lists Sentinel commands.
+[14:38:57] [Server thread/INFO]: /separate: Forces two players to ignore each other in chat.
+[14:38:57] [Server thread/INFO]: /serverlistplus: An extremely customizable server status ping plugin for Minecraft
+[14:38:57] [Server thread/INFO]: /setaccruedclaimblocks: Updates a player's accrued claim block total.
+[14:38:57] [Server thread/INFO]: /setblock: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /sethome: Set your home to your current location.
+[14:38:57] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /setjail: Creates a jail where you specified named [jailname].
+[14:38:57] [Server thread/INFO]: /setspawn: Set the spawnpoint to your current position.
+[14:38:57] [Server thread/INFO]: /setwarp: Creates a new warp.
+[14:38:57] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /setworth: Set the sell value of an item.
+[14:38:57] [Server thread/INFO]: /showkit: Show contents of a kit.
+[14:38:57] [Server thread/INFO]: /siege: Initiates a siege versus another player.
+[14:38:57] [Server thread/INFO]: /size: Set the brush size
+[14:38:57] [Server thread/INFO]: /skull: Set the owner of a player skull
+[14:38:57] [Server thread/INFO]: /smask: Set the brush source mask
+[14:38:57] [Server thread/INFO]: /snapshot: List, load and view information related to snapshots
+[14:38:57] [Server thread/INFO]: /socialspy: Toggles if you can see msg/mail commands in chat.
+[14:38:57] [Server thread/INFO]: /softmute: Toggles whether a player's messages will only reach other soft-muted players.
+[14:38:57] [Server thread/INFO]: /spawn: Teleport to the spawnpoint.
+[14:38:57] [Server thread/INFO]: /spawner: Change the mob type of a spawner.
+[14:38:57] [Server thread/INFO]: /spawnmob: Spawns a mob.
+[14:38:57] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /speed: Change your speed limits.
+[14:38:57] [Server thread/INFO]: /spigot: Spigot related commands
+[14:38:57] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /staff: &7Enables or disables staff mode.
+[14:38:57] [Server thread/INFO]: /staffplus: Used for reloading config and lang file in use
+[14:38:57] [Server thread/INFO]: /stats: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /status: 
+[14:38:57] [Server thread/INFO]: /stop: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /stopfire: [<world>] - Disables all fire spread temporarily
+[14:38:57] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /strip: &7Completely removes the target player's armor.
+[14:38:57] [Server thread/INFO]: /subdivideclaims: Switches the shovel tool to subdivision mode, used to subdivide your claims.
+[14:38:57] [Server thread/INFO]: /sudo: Make another user perform a command.
+[14:38:57] [Server thread/INFO]: /suicide: Causes you to perish.
+[14:38:57] [Server thread/INFO]: /summon: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /superpickaxe: Super-pickaxe commands
+[14:38:57] [Server thread/INFO]: /sv: SuperVanish's main command
+[14:38:57] [Server thread/INFO]: /systemprefs: Displays System-Preferences for setting up the plugin
+[14:38:57] [Server thread/INFO]: /target: Toggle between different target modes
+[14:38:57] [Server thread/INFO]: /targetmask: Set the targeting mask
+[14:38:57] [Server thread/INFO]: /targetoffset: Set the targeting mask
+[14:38:57] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /tempban: Ban a user temporarily
+[14:38:57] [Server thread/INFO]: /tempipban: Ban a user temporarily by IP
+[14:38:57] [Server thread/INFO]: /template: Template commands
+[14:38:57] [Server thread/INFO]: /tempmute: Mute a user temporarily
+[14:38:57] [Server thread/INFO]: /tempwarn: Warn a user temporarily
+[14:38:57] [Server thread/INFO]: /testfor: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /testforblock: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /testforblocks: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /tg: Summon TumbleGamer
+[14:38:57] [Server thread/INFO]: /thru: Passthrough walls
+[14:38:57] [Server thread/INFO]: /thunder: Enable/disable thunder.
+[14:38:57] [Server thread/INFO]: /ticket: &7Sends a ticket to staff with your inquiry.
+[14:38:57] [Server thread/INFO]: /time: Display/Change the world time. Defaults to current world.
+[14:38:57] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[14:38:57] [Server thread/INFO]: /title: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /toggledownfall: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /toggleeditwand: Toggle functionality of the edit wand
+[14:38:57] [Server thread/INFO]: /togglejail: Jails/Unjails a player, TPs them to the jail specified.
+[14:38:57] [Server thread/INFO]: /togglesummon: Blocks/Enables incoming /<username> commands
+[14:38:57] [Server thread/INFO]: /top: Teleport to the highest block at your current position.
+[14:38:57] [Server thread/INFO]: /tp: Teleport to a player.
+[14:38:57] [Server thread/INFO]: /tpa: Request to teleport to the specified player.
+[14:38:57] [Server thread/INFO]: /tpaall: Requests all players online to teleport to you.
+[14:38:57] [Server thread/INFO]: /tpacancel: Cancel all outstanding teleport requests. Specify [player] to cancel requests with them.
+[14:38:57] [Server thread/INFO]: /tpaccept: Accepts a teleport request.
+[14:38:57] [Server thread/INFO]: /tpahere: Request that the specified player teleport to you.
+[14:38:57] [Server thread/INFO]: /tpall: Teleport all online players to another player.
+[14:38:57] [Server thread/INFO]: /tpdeny: Reject a teleport request.
+[14:38:57] [Server thread/INFO]: /tphere: Teleport a player to you.
+[14:38:57] [Server thread/INFO]: /tpo: Teleport override for tptoggle.
+[14:38:57] [Server thread/INFO]: /tpohere: Teleport here override for tptoggle.
+[14:38:57] [Server thread/INFO]: /tppos: Teleport to coordinates.
+[14:38:57] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[14:38:57] [Server thread/INFO]: /tptoggle: Blocks all forms of teleportation.
+[14:38:57] [Server thread/INFO]: /trait: Trait commands
+[14:38:57] [Server thread/INFO]: /traitc: Configures traits
+[14:38:57] [Server thread/INFO]: /transferclaim: Converts an administrative claim to a private claim.
+[14:38:57] [Server thread/INFO]: /transform: Set the brush transform
+[14:38:57] [Server thread/INFO]: /transforms: View help about transforms
+[14:38:57] [Server thread/INFO]: /trapped: Ejects you to nearby unclaimed land.  Has a substantial cooldown period.
+[14:38:57] [Server thread/INFO]: /tree: Tree generator tool
+[14:38:57] [Server thread/INFO]: /trigger: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /troll: TrollCommands++
+[14:38:57] [Server thread/INFO]: /trust: Grants a player full access to your claim(s).
+[14:38:57] [Server thread/INFO]: /trustlist: Lists permissions for the claim you're standing in.
+[14:38:57] [Server thread/INFO]: /unban: Unban a user
+[14:38:57] [Server thread/INFO]: /unbanip: Unbans the specified IP address.
+[14:38:57] [Server thread/INFO]: /undisguise: Undisguise.
+[14:38:57] [Server thread/INFO]: /unignoreplayer: Unignores another player's chat messages.
+[14:38:57] [Server thread/INFO]: /unlimited: Allows the unlimited placing of items.
+[14:38:57] [Server thread/INFO]: /unlockdrops: Allows other players to pick up the items you dropped when you died.
+[14:38:57] [Server thread/INFO]: /unmute: Unmute a user
+[14:38:57] [Server thread/INFO]: /unpunish: Deletes a punishment by ID
+[14:38:57] [Server thread/INFO]: /unseparate: Reverses /separate.
+[14:38:57] [Server thread/INFO]: /unstuck: Escape from being stuck inside a block
+[14:38:57] [Server thread/INFO]: /untrust: Revokes a player's access to your claim(s).
+[14:38:57] [Server thread/INFO]: /unwarn: Deletes a warn
+[14:38:57] [Server thread/INFO]: /up: Go upwards some distance
+[14:38:57] [Server thread/INFO]: /vanish: &7Enables or disables the type of vanish for the player.
+[14:38:57] [Server thread/INFO]: /vault-convert: Converts all data in economy1 and dumps it into economy2
+[14:38:57] [Server thread/INFO]: /vault-info: Displays information about Vault
+[14:38:57] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[14:38:57] [Server thread/INFO]: /viaversion: Shows ViaVersion Version and more.
+[14:38:57] [Server thread/INFO]: /visualize: Toggle between different visualization modes
+[14:38:57] [Server thread/INFO]: /vive: Vivecraft Spigot Extensions
+[14:38:57] [Server thread/INFO]: /vote: Main command for Vote plugin.
+[14:38:57] [Server thread/INFO]: /vse: Vivecraft Spigot Extensions
+[14:38:57] [Server thread/INFO]: /warn: Warn a user permanently
+[14:38:57] [Server thread/INFO]: /warn:warn: &7Sends or manages a warning.
+[14:38:57] [Server thread/INFO]: /warns: See your or a user''s warns
+[14:38:57] [Server thread/INFO]: /warp: List all warps or warp to the specified location.
+[14:38:57] [Server thread/INFO]: /waypoint: Waypoint commands
+[14:38:57] [Server thread/INFO]: /weather: Sets the weather.
+[14:38:57] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /whois: Determine the username behind a nickname.
+[14:38:57] [Server thread/INFO]: /wild: Be thrown to a random place
+[14:38:57] [Server thread/INFO]: /wildtp: Shows the help message
+[14:38:57] [Server thread/INFO]: /workbench: Opens up a workbench.
+[14:38:57] [Server thread/INFO]: /world: Switch between worlds.
+[14:38:57] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[14:38:57] [Server thread/INFO]: /worldedit: Updating, informational, debug and help commands
+[14:38:57] [Server thread/INFO]: /worldguard: WorldGuard commands
+[14:38:57] [Server thread/INFO]: /worth: Calculates the worth of items in hand or as specified.
+[14:38:59] [Server thread/INFO]: --------- Help: Search --------------------------
+[14:38:59] [Server thread/INFO]: Search for: ip
+[14:38:59] [Server thread/INFO]: iDisguise: All commands for iDisguise
+[14:38:59] [Server thread/INFO]: /ic: Alias for /ignoreclaims
+[14:38:59] [Server thread/INFO]: /ifo: Alias for /essentials:info
+[14:38:59] [Server thread/INFO]: /ignore: Ignore or unignore other players.
+[14:38:59] [Server thread/INFO]: /ignoreclaims: Toggles ignore claims mode.
+[14:38:59] [Server thread/INFO]: /ignored: Alias for /ignoredplayerlist
+[14:38:59] [Server thread/INFO]: /ignoredlist: Alias for /ignoredplayerlist
+[14:38:59] [Server thread/INFO]: /ignoredplayerlist: Lists the players you're ignoring in chat.
+[14:38:59] [Server thread/INFO]: /ignorelist: Alias for /ignoredplayerlist
+[14:38:59] [Server thread/INFO]: /ignoreplayer: Ignores another player's chat messages.
+[14:38:59] [Server thread/INFO]: /ignores: Alias for /ignoredplayerlist
+[14:38:59] [Server thread/INFO]: /ignoring: Alias for /ignoredplayerlist
+[14:38:59] [Server thread/INFO]: /info: Block information tool
+[14:38:59] [Server thread/INFO]: /inform: Alias for /essentials:info
+[14:38:59] [Server thread/INFO]: /inspect: Inspect edits within a radius
+[14:38:59] [Server thread/INFO]: /invsee: See the inventory of other players.
+[14:38:59] [Server thread/INFO]: /ipban: Ban a user by IP
+[14:38:59] [Server thread/INFO]: /item: Spawn an item.
+[14:38:59] [Server thread/INFO]: /itemdb: Searches for an item.
+[14:38:59] [Server thread/INFO]: /itemno: Alias for /itemdb
+[14:39:00] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[14:39:10] [Craft Scheduler Thread - 177/INFO]: (FAWE) Info tool bound to Hand.
