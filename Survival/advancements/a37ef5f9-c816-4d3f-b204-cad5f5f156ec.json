@@ -1,13 +1,7 @@
 {
-  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+  "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
-      "has_gravel": "2018-05-23 18:03:18 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_concrete_powder": {
-    "criteria": {
-      "has_gravel": "2018-05-23 18:03:18 +0100"
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
     },
     "done": true
   },
@@ -17,15 +11,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/lever": {
+  "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
-      "has_cobblestone": "2018-05-23 17:54:14 +0100"
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+  "minecraft:recipes/redstone/lever": {
     "criteria": {
-      "has_gravel": "2018-05-23 18:03:18 +0100"
+      "has_cobblestone": "2018-05-23 17:54:14 +0100"
     },
     "done": true
   },
@@ -35,15 +29,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/black_wool": {
+    "criteria": {
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2018-05-23 17:55:47 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_chestplate": {
+  "minecraft:recipes/decorations/white_bed": {
     "criteria": {
-      "has_diamond": "2018-05-23 20:58:54 +0100"
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_wool": {
+    "criteria": {
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
     },
     "done": true
   },
@@ -53,27 +59,9 @@
     },
     "done": true
   },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2018-05-23 17:54:14 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite": {
-    "criteria": {
-      "has_stone": "2018-05-23 18:04:53 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2018-05-23 20:58:54 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/furnace": {
-    "criteria": {
-      "has_cobblestone": "2018-05-23 17:54:14 +0100"
     },
     "done": true
   },
@@ -89,24 +77,9 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
-      "forest": "2018-05-23 16:13:36 +0100",
-      "birch_forest": "2018-05-23 16:14:21 +0100",
-      "beaches": "2018-05-23 16:12:11 +0100",
-      "plains": "2018-05-23 16:10:15 +0100",
-      "taiga": "2018-05-23 16:12:52 +0100",
-      "redwood_taiga": "2018-05-23 17:53:09 +0100",
-      "redwood_taiga_hills": "2018-05-23 17:53:32 +0100",
-      "birch_forest_hills": "2018-05-23 16:14:30 +0100",
-      "ocean": "2018-05-23 16:12:37 +0100",
-      "river": "2018-05-23 16:12:18 +0100"
-    },
-    "done": false
-  },
-  "minecraft:recipes/combat/diamond_leggings": {
-    "criteria": {
-      "has_diamond": "2018-05-23 20:58:54 +0100"
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
     },
     "done": true
   },
@@ -116,27 +89,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_planks": {
+  "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
-      "has_log": "2018-05-23 17:55:36 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_pickaxe": {
-    "criteria": {
-      "has_stick": "2018-05-23 17:57:55 +0100"
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
     },
     "done": true
   },
   "minecraft:recipes/redstone/trapdoor": {
     "criteria": {
       "has_planks": "2018-05-23 17:55:47 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2018-05-23 17:52:24 +0100"
     },
     "done": true
   },
@@ -152,33 +113,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "entered_water": "2018-05-23 16:12:19 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_gravel": "2018-05-23 18:03:18 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/combat/stone_sword": {
+  "minecraft:recipes/decorations/painting": {
     "criteria": {
-      "has_cobblestone": "2018-05-23 17:54:14 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall": {
-    "criteria": {
-      "has_cobblestone": "2018-05-23 17:54:14 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_concrete_powder": {
-    "criteria": {
-      "has_gravel": "2018-05-23 18:03:18 +0100"
+      "has_wool": "2018-05-23 21:15:36 +0100"
     },
     "done": true
   },
@@ -194,18 +137,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "entered_water": "2018-05-23 16:12:19 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_pickaxe": {
-    "criteria": {
-      "has_cobblestone": "2018-05-23 17:54:14 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/wooden_pressure_plate": {
     "criteria": {
       "has_planks": "2018-05-23 17:55:47 +0100"
@@ -218,9 +149,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cyan_wool": {
+    "criteria": {
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2018-05-23 17:55:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2018-05-23 21:15:44 +0100"
     },
     "done": true
   },
@@ -233,18 +176,6 @@
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_at_least_9_coal": "2018-05-23 17:58:44 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/boat": {
-    "criteria": {
-      "entered_water": "2018-05-23 16:12:19 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "entered_water": "2018-05-23 16:12:19 +0100"
     },
     "done": true
   },
@@ -263,6 +194,12 @@
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2018-05-23 20:58:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_wool": {
+    "criteria": {
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
     },
     "done": true
   },
@@ -290,13 +227,263 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/white_concrete_powder": {
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2018-05-23 18:03:18 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2018-05-23 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_wool": {
+    "criteria": {
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_chicken": "2018-05-23 17:52:24 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2018-05-23 17:57:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2018-05-23 17:54:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2018-05-23 21:15:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2018-05-23 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2018-05-23 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wooden_slab": {
+    "criteria": {
+      "has_planks": "2018-05-23 17:55:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2018-05-23 17:55:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2018-05-23 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2018-05-23 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_wool": {
+    "criteria": {
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_the_recipe": "2018-05-23 17:58:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2018-05-23 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2018-05-23 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2018-05-23 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2018-05-23 21:15:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_wool": {
+    "criteria": {
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2018-05-23 20:58:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2018-05-23 17:54:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2018-05-23 18:04:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2018-05-23 17:54:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2018-05-23 16:13:36 +0100",
+      "birch_forest": "2018-05-23 16:14:21 +0100",
+      "beaches": "2018-05-23 16:12:11 +0100",
+      "plains": "2018-05-23 16:10:15 +0100",
+      "savanna": "2018-05-23 21:14:17 +0100",
+      "taiga": "2018-05-23 16:12:52 +0100",
+      "redwood_taiga": "2018-05-23 17:53:09 +0100",
+      "redwood_taiga_hills": "2018-05-23 17:53:32 +0100",
+      "birch_forest_hills": "2018-05-23 16:14:30 +0100",
+      "ocean": "2018-05-23 16:12:37 +0100",
+      "river": "2018-05-23 16:12:18 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2018-05-23 20:58:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2018-05-23 17:55:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_wool": {
+    "criteria": {
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2018-05-23 17:57:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2018-05-23 17:52:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2018-05-23 16:12:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2018-05-23 17:54:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2018-05-23 17:54:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2018-05-23 18:03:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2018-05-23 16:12:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2018-05-23 17:54:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2018-05-23 21:15:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2018-05-23 16:12:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2018-05-23 16:12:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2018-05-23 21:15:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2018-05-23 18:03:18 +0100"
     },
@@ -326,12 +513,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/gray_concrete_powder": {
-    "criteria": {
-      "has_gravel": "2018-05-23 18:03:18 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2018-05-23 20:58:54 +0100"
@@ -344,11 +525,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/pink_wool": {
+    "criteria": {
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2018-05-23 20:58:54 +0100"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "zombie": "2018-05-23 21:15:32 +0100"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
@@ -356,21 +549,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/balanced_diet": {
+  "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
-      "cooked_chicken": "2018-05-23 17:52:24 +0100"
-    },
-    "done": false
-  },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2018-05-23 17:57:55 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2018-05-23 17:54:14 +0100"
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
     },
     "done": true
   },
@@ -383,18 +564,6 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_cobblestone": "2018-05-23 17:54:14 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/black_concrete_powder": {
-    "criteria": {
-      "has_gravel": "2018-05-23 18:03:18 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/coarse_dirt": {
-    "criteria": {
-      "has_gravel": "2018-05-23 18:03:18 +0100"
     },
     "done": true
   },
@@ -422,9 +591,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_wooden_slab": {
+  "minecraft:recipes/building_blocks/light_gray_wool": {
     "criteria": {
-      "has_planks": "2018-05-23 17:55:47 +0100"
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
     },
     "done": true
   },
@@ -434,33 +603,15 @@
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
-      "crafting_table": "2018-05-23 17:55:53 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
-    "criteria": {
-      "has_gravel": "2018-05-23 18:03:18 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
-    "criteria": {
-      "has_gravel": "2018-05-23 18:03:18 +0100"
+      "has_white_wool": "2018-05-23 21:15:36 +0100"
     },
     "done": true
   },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2018-05-23 17:54:14 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal": {
-    "criteria": {
-      "has_the_recipe": "2018-05-23 17:58:44 +0100"
     },
     "done": true
   },
