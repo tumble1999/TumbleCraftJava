@@ -422,6 +422,8 @@ groups:
   artist:
     options:
       prefix: '&5[Artist] '
+    permissions:
+    - nte.artist
     inheritance:
     - builder
 schema-version: 1
