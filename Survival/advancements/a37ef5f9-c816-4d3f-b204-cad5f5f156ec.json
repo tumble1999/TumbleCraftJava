@@ -455,6 +455,7 @@
       "taiga_hills": "2018-05-23 22:10:17 +0100",
       "birch_forest_hills": "2018-05-23 16:14:30 +0100",
       "ocean": "2018-05-23 16:12:37 +0100",
+      "extreme_hills": "2018-05-24 15:46:53 +0100",
       "river": "2018-05-23 16:12:18 +0100"
     },
     "done": false
@@ -600,6 +601,12 @@
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2018-05-23 17:55:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2018-05-24 15:47:51 +0100"
     },
     "done": true
   },
