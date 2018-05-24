@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2018-05-24 15:43:55 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2018-05-23 21:15:36 +0100"
@@ -390,6 +396,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar": {
+    "criteria": {
+      "has_reeds": "2018-05-24 15:43:55 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2018-05-23 22:12:19 +0100"
@@ -428,12 +440,15 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "ice_flats": "2018-05-24 15:43:04 +0100",
+      "frozen_river": "2018-05-24 15:43:45 +0100",
       "forest": "2018-05-23 16:13:36 +0100",
       "birch_forest": "2018-05-23 16:14:21 +0100",
       "beaches": "2018-05-23 16:12:11 +0100",
       "forest_hills": "2018-05-23 22:11:38 +0100",
       "plains": "2018-05-23 16:10:15 +0100",
       "savanna": "2018-05-23 21:14:17 +0100",
+      "ice_mountains": "2018-05-24 15:44:26 +0100",
       "taiga": "2018-05-23 16:12:52 +0100",
       "redwood_taiga": "2018-05-23 17:53:09 +0100",
       "redwood_taiga_hills": "2018-05-23 17:53:32 +0100",
