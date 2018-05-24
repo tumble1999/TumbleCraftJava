@@ -3611,3 +3611,228 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [21:03:58] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [21:04:18] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
 [21:06:45] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[21:09:42] [Craft Scheduler Thread - 4676/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:09:42] [Craft Scheduler Thread - 4678/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:09:42] [Craft Scheduler Thread - 4683/INFO]: 
+[21:09:47] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[21:11:02] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:11:43] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:12:03] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[21:12:49] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[21:15:51] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[21:16:43] [User Authenticator #22/INFO]: UUID of player ShingoriTokira is 4a43978b-72eb-4b61-867e-6397737bc2ca
+[21:16:44] [Server thread/INFO]: ShingoriTokira[/23.112.41.190:49815] logged in with entity id 2641028 at ([Survival]129.5, 86.0, 554.5)
+[21:16:44] [Server thread/INFO]: +ShingoriTokira
+[21:16:44] [pool-18-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\4a43978b-72eb-4b61-867e-6397737bc2ca.yml
+[21:16:44] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[21:16:44] [Server thread/INFO]: ShingoriTokira has made the advancement [Getting an Upgrade]
+[21:16:45] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[21:18:33] [Server thread/INFO]: ShingoriTokira issued server command: /gamemode
+[21:18:33] [Server thread/INFO]: [Essentials] ShingoriTokira was denied access to command.
+[21:18:47] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:18:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [TG] TumbleGamer: hello?
+[21:19:02] [Server thread/INFO]: ShingoriTokira: Hoi
+[21:19:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:19:48] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[21:19:48] [Craft Scheduler Thread - 4690/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:19:56] [Server thread/INFO]: ShingoriTokira issued server command: /gamemode c
+[21:19:56] [Server thread/INFO]: [Essentials] ShingoriTokira was denied access to command.
+[21:20:14] [Server thread/INFO]: ShingoriTokira: You there?
+[21:20:39] [Server thread/INFO]: ShingoriTokira has made the advancement [Monster Hunter]
+[21:20:40] [Server thread/INFO]: [Server] sort of
+[21:20:52] [Server thread/INFO]: ShingoriTokira: Ohh you're in the console?
+[21:20:59] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:20:59] [Server thread/INFO]: Permissions reloaded
+[21:21:01] [Server thread/INFO]: [Server] yes
+[21:21:31] [Server thread/INFO]: User groups set!
+[21:21:37] [Server thread/INFO]: CONSOLE issued server command: /sudo ShingoriTokira c:test
+[21:21:37] [Server thread/INFO]: Forcing ShingoriTokira to run: /c:test
+[21:21:37] [Server thread/INFO]: ShingoriTokira: test
+[21:21:54] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[21:21:59] [Server thread/INFO]: ShingoriTokira issued server command: /server
+[21:22:38] [Server thread/INFO]: '4a43978b-72eb-4b61-867e-6397737bc2ca/ShingoriTokira' is a member of:
+[21:22:38] [Server thread/INFO]:    artist (not ranked)
+[21:22:38] [Server thread/INFO]:   @Survival:
+[21:22:38] [Server thread/INFO]:    vive.non-vivegroup (not ranked)
+[21:22:38] [Server thread/INFO]: ShingoriTokira's permissions:
+[21:22:38] [Server thread/INFO]: 
+[21:22:38] [Server thread/INFO]: ShingoriTokira's options:
+[21:22:38] [Server thread/INFO]:   name = "ShingoriTokira"
+[21:22:53] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:22:53] [Server thread/INFO]: Permissions reloaded
+[21:22:55] [Server thread/INFO]: '4a43978b-72eb-4b61-867e-6397737bc2ca/ShingoriTokira' is a member of:
+[21:22:55] [Server thread/INFO]:    artist (not ranked)
+[21:22:55] [Server thread/INFO]:   @Survival:
+[21:22:55] [Server thread/INFO]:    vive.non-vivegroup (not ranked)
+[21:22:55] [Server thread/INFO]: ShingoriTokira's permissions:
+[21:22:55] [Server thread/INFO]: 
+[21:22:55] [Server thread/INFO]: ShingoriTokira's options:
+[21:22:55] [Server thread/INFO]:   name = "ShingoriTokira"
+[21:23:04] [Server thread/INFO]: CONSOLE issued server command: /online 
+[21:23:04] [Server thread/INFO]: There are 1 out of maximum 20 players online.
+[21:23:04] [Server thread/INFO]: vive.non-vivegroup: ShingoriTokira
+[21:23:16] [User Authenticator #23/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[21:23:16] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
+[21:23:17] [Server thread/INFO]: TumbleGamer[/127.0.0.1:50895] logged in with entity id 2654872 at ([Survival]126.92566109984266, 79.24294643847169, 544.2306292797249)
+[21:23:17] [Server thread/INFO]: +[Owner] TumbleGamer
+[21:23:17] [Server thread/INFO]: [Vivecraft] NONVR[Owner] TumbleGamer
+[21:23:30] [Server thread/INFO]: TumbleGamer issued server command: /rank ShingoriTokira artist
+[21:23:51] [Server thread/INFO]: ShingoriTokira: Question...
+[21:23:51] [Server thread/INFO]: [Owner] TumbleGamer: type something a second
+[21:23:55] [Server thread/INFO]: [Owner] TumbleGamer: ok
+[21:24:09] [Server thread/INFO]: ShingoriTokira: Why would a survival server need Vivecraft?
+[21:24:18] [Server thread/INFO]: ShingoriTokira fell from a high place
+[21:24:23] [Server thread/INFO]: ShingoriTokira: oh
+[21:24:23] [Server thread/INFO]: [Server] somone wanted to use vr
+[21:24:35] [Server thread/INFO]: ShingoriTokira: huh
+[21:24:51] [Craft Scheduler Thread - 4701/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:24:51] [Craft Scheduler Thread - 4706/INFO]: 
+[21:24:56] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[21:25:03] [Server thread/INFO]: ShingoriTokira issued server command: /kit starter
+[21:25:03] [Server thread/INFO]: [Essentials] ShingoriTokira was denied access to command.
+[21:25:28] [Server thread/INFO]: ShingoriTokira: a lot of the commands that are advertised don't work
+[21:25:51] [Server thread/INFO]: Currently registered users: 
+[21:25:51] [Server thread/INFO]: c31593a2-12f8-4abf-b5f9-2670376fd8c9 (Last known username: AbrasiveRose) [mod]
+[21:25:51] [Server thread/INFO]: a00872d2-18bf-4548-a0fb-93014671db29 (Last known username: triple_craft) [helper]
+[21:25:51] [Server thread/INFO]: e112b796-fbcd-43e0-94c0-0069f15f7b04 (Last known username: MakisMigee123) [member]
+[21:25:51] [Server thread/INFO]: dcf20b5a-df89-4555-99a6-fb224bd88079 (Last known username: Jakt) [member]
+[21:25:51] [Server thread/INFO]: 1bd5fe19-164f-4083-ab2c-61c92fc8fd08 (Last known username: AguilaDaddy) [member]
+[21:25:51] [Server thread/INFO]: a0ff4650-a52b-479b-8bfe-692ebc086235 (Last known username: Gracie_McDoodle) [member]
+[21:25:51] [Server thread/INFO]: 47b29ff7-bff7-461f-8402-748654ebd53a (Last known username: Snouzuless) [mod]
+[21:25:51] [Server thread/INFO]: 8eb786aa-acd3-4f40-aed7-9ae32be91599 (Last known username: ItsJustDragon) [member]
+[21:25:51] [Server thread/INFO]: c41152df-51cf-456c-9795-e507bba1067f (Last known username: Yaboku_kami) [member]
+[21:25:51] [Server thread/INFO]: 58e5399b-3adf-49df-8dba-391de825147b (Last known username: natanni) [member]
+[21:25:51] [Server thread/INFO]: e88d2137-402d-4c7c-ab30-29c89d5b261f (Last known username: wolfyblox589) [helper]
+[21:25:51] [Server thread/INFO]: bf3ca0aa-cea1-462d-a711-baab715d087b (Last known username: ItzzCookie) [member]
+[21:25:51] [Server thread/INFO]: 30b98f1f-49f5-4d05-91c1-7f0ce9eda2a7 (Last known username: EmmaPowee) [admin]
+[21:25:51] [Server thread/INFO]: ca34a678-499f-4ce4-a25e-e2232c375865 (Last known username: JJdaGreat) [builder]
+[21:25:51] [Server thread/INFO]: 389727af-149f-46c0-891e-eb50210b99ae (Last known username: BunnySmart) [member]
+[21:25:51] [Server thread/INFO]: c541f001-3197-482c-9f14-878f3fdaa80e (Last known username: MineRacer_8) [mod]
+[21:25:51] [Server thread/INFO]: 0a531873-df03-4a82-afae-1bdd41e18fc2 (Last known username: Maxwell_Plays) [builder]
+[21:25:51] [Server thread/INFO]: 4a43978b-72eb-4b61-867e-6397737bc2ca (Last known username: ShingoriTokira) [artist]
+[21:25:51] [Server thread/INFO]: bcc6f54e-b37c-4e2f-87da-6e2b579f1c03 (Last known username: MrBiscuits1) [member]
+[21:25:51] [Server thread/INFO]: a8e37e40-b4fe-4a77-ab37-e473b32c8303 (Last known username: Xgk) [builder]
+[21:25:51] [Server thread/INFO]: 0c45a5bb-cdd0-494c-a8b1-34b9df940f58 (Last known username: otbr_gaming) [member]
+[21:25:51] [Server thread/INFO]: 010d5d32-7c00-418e-bdd0-6da29210f3e2 (Last known username: Triple_Craft_2) [member]
+[21:25:51] [Server thread/INFO]: skeppy (Last known username: skeppy) [admin]
+[21:25:51] [Server thread/INFO]: 6e97e76b-23c0-4745-80b2-b64cef10e602 (Last known username: QuanTuan) [helper]
+[21:25:51] [Server thread/INFO]: a78d94af-71c8-453d-b8fa-2a769d50db63 (Last known username: iUseVapeGG) [admin]
+[21:25:51] [Server thread/INFO]: 37e6bd3a-0e16-4d05-95e3-988d32576a1c (Last known username: DJB1011) [vip]
+[21:25:51] [Server thread/INFO]: a37ef5f9-c816-4d3f-b204-cad5f5f156ec (Last known username: GreyWolf92) [jrmod]
+[21:25:51] [Server thread/INFO]: f042fd5b-87d3-4852-98bd-7e9ae13898e2 (Last known username: LemonLimeSoda) [vip]
+[21:25:51] [Server thread/INFO]: b7edc595-9d72-4960-b6e0-4e5ca92a8416 (Last known username: ja45_65) [member]
+[21:25:51] [Server thread/INFO]: 9291f9ac-ded0-49bd-bcb3-5948c41b9c57 (Last known username: smooch_) [member]
+[21:25:51] [Server thread/INFO]: c4f4aeec-d91f-40d2-bd17-ecc274fdd884 (Last known username: Blastroo) [member]
+[21:25:51] [Server thread/INFO]: 554a961a-0908-428d-bf07-a1568d0d8547 (Last known username: TumbleGamer) [owner]
+[21:25:51] [Server thread/INFO]: 019c39a2-24ce-4563-b04b-c094c9bee042 (Last known username: DrBatmanWho) [owner]
+[21:25:51] [Server thread/INFO]: 9d41cc84-c13a-41c5-b5b2-8456053df895 (Last known username: xValtrux) [builder]
+[21:25:51] [Server thread/INFO]: a6ec82c3-f863-4f75-a6ac-d0700e96ffb0 (Last known username: IDemoniicHypeI) [builder-interview]
+[21:25:51] [Server thread/INFO]: 59d3f979-08fd-4ab6-a372-9101d7e10fba (Last known username: jacob50505) [member]
+[21:25:51] [Server thread/INFO]: cb380fa7-e260-4b58-b33a-c17fbb5196d7 (Last known username: ashlynz_) [vip]
+[21:25:51] [Server thread/INFO]: b133ed03-8276-41c2-96ba-ec6cc8ad0df9 (Last known username: JONHOBBITTON) [vip]
+[21:25:51] [Server thread/INFO]: b6d2bfad-30af-4a11-b29d-b4ad66a6b0de (Last known username: CrushinPlayz) [member]
+[21:25:53] [Server thread/INFO]: ShingoriTokira: ./kit and ./server say I don't have permission
+[21:26:15] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[21:26:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:26:32] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[21:26:44] [Server thread/INFO]: TumbleGamer issued server command: /unrank ShingoriTokira
+[21:26:51] [Server thread/INFO]: [Owner] TumbleGamer: can you do any commanda now
+[21:26:59] [Server thread/INFO]: ShingoriTokira issued server command: /gamemode c
+[21:26:59] [Server thread/INFO]: [Essentials] ShingoriTokira was denied access to command.
+[21:27:02] [Server thread/INFO]: ShingoriTokira issued server command: /server
+[21:27:07] [Server thread/INFO]: ShingoriTokira: ./server works
+[21:27:07] [Server thread/INFO]: TumbleGamer issued server command: /pex groups
+[21:27:10] [Server thread/INFO]: ShingoriTokira issued server command: /kit starter
+[21:27:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:27:17] [Server thread/INFO]: ShingoriTokira: and ./kit works
+[21:27:18] [Server thread/INFO]: TumbleGamer issued server command: /pex reload
+[21:27:18] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:27:20] [Server thread/INFO]: TumbleGamer issued server command: /pex groups
+[21:27:33] [Server thread/INFO]: [ClearLag] Removed 2 Entities!
+[21:27:58] [Server thread/INFO]: [Owner] TumbleGamer: i think i figured it out
+[21:27:58] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[21:28:05] [Server thread/INFO]: ShingoriTokira issued server command: /wild
+[21:28:08] [Server thread/INFO]: ShingoriTokira issued server command: /wild
+[21:28:20] [Server thread/INFO]: [Owner] TumbleGamer: i made a group but didnt put it in the group section because of indentation
+[21:28:24] [Server thread/INFO]: TumbleGamer issued server command: /pex reload
+[21:28:24] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:28:28] [Server thread/INFO]: TumbleGamer issued server command: /pex groups
+[21:28:39] [Server thread/INFO]: TumbleGamer issued server command: /rank ShingoriTokira artist
+[21:28:57] [Server thread/INFO]: [Artist] ShingoriTokira: are you editing in Notepad?
+[21:29:07] [Server thread/INFO]: [Artist] ShingoriTokira: ooh fanceh nametag
+[21:29:55] [Craft Scheduler Thread - 4702/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:31:00] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[21:31:05] [Server thread/INFO]: [Owner] TumbleGamer: no atom
+[21:31:07] [Server thread/INFO]: ShingoriTokira issued server command: /kit claim
+[21:33:16] [Server thread/INFO]: TumbleGamer issued server command: /ne reload
+[21:33:20] [Server thread/INFO]: TumbleGamer issued server command: /ne
+[21:34:02] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[21:34:12] [Server thread/INFO]: TumbleGamer issued server command: /pex reload
+[21:34:12] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:34:18] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:34:33] [Server thread/INFO]: TumbleGamer issued server command: /pex reload
+[21:34:33] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:34:35] [Server thread/INFO]: TumbleGamer issued server command: /ne reload
+[21:34:45] [Server thread/INFO]: TumbleGamer issued server command: /ne reload
+[21:34:58] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:35:17] [Server thread/INFO]: TumbleGamer issued server command: /ne reload
+[21:35:18] [Server thread/INFO]: [ClearLag] Removed 10 Entities!
+[21:35:20] [Server thread/INFO]: TumbleGamer issued server command: /pex reload
+[21:35:20] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:35:28] [Server thread/INFO]: TumbleGamer issued server command: /sudo ShingoriTokira c:test
+[21:35:28] [Server thread/INFO]: [Artist] ShingoriTokira: test
+[21:36:18] [Server thread/INFO]: TumbleGamer issued server command: /ne reload
+[21:36:22] [Server thread/INFO]: TumbleGamer issued server command: /tpo ShingoriTokira
+[21:36:44] [Server thread/INFO]: ShingoriTokira has made the advancement [Stone Age]
+[21:36:45] [Server thread/INFO]: [Owner] TumbleGamer: have you been on the test server?
+[21:36:51] [Server thread/INFO]: [Artist] ShingoriTokira: Nope
