@@ -38,8 +38,16 @@ Groups:
   member:
     Permission: nte.member
     Prefix: '&7'
-    SortPriority: 10
+    SortPriority: 11
   vr:
     Permission: nte.vr
     Prefix: '&7[VR] '
-    
+    SortPriority: 10
+  jrmod:
+    Permission: nte.vr
+    Prefix: '&a[Jr.Mod] '
+    SortPriority: 10
+  artist:
+    Permission: nte.vr
+    Prefix: '&7[VR] '
+    SortPriority: 10
