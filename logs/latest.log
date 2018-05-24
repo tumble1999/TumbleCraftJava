@@ -998,3 +998,176 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [06:20:28] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [06:20:48] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
 [06:21:13] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[06:24:15] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[06:27:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[06:28:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[06:28:32] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[06:30:13] [Craft Scheduler Thread - 3475/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[06:30:13] [Craft Scheduler Thread - 3473/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[06:30:13] [Craft Scheduler Thread - 3477/INFO]: [Marriage] Purged 1 player entries in 62ms
+[06:30:14] [Craft Scheduler Thread - 3481/INFO]: 
+[06:30:18] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[06:33:11] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[06:33:20] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[06:35:04] [User Authenticator #13/INFO]: UUID of player fpscheat is 039c95a6-3277-4ebb-9749-5b29a1ffc7a2
+[06:35:04] [Server thread/INFO]: fpscheat[/199.15.199.75:51703] logged in with entity id 1850122 at ([Survival]138.5, 86.0, 539.5)
+[06:35:04] [Server thread/INFO]: +fpscheat
+[06:35:04] [pool-18-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\039c95a6-3277-4ebb-9749-5b29a1ffc7a2.yml
+[06:35:04] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[06:35:04] [Server thread/INFO]: fpscheat has made the advancement [Getting an Upgrade]
+[06:35:05] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[06:35:05] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-11.0,-536.0
+[06:35:05] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-11.098000001907351,-536.0
+[06:35:05] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-11.196000003814703,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-11.294000005722054,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-11.392000007629406,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-11.490000009536757,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-11.588000011444109,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-11.784000015258812,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-11.882000017166163,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-11.980000019073515,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-12.078000020980866,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-12.176000022888218,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-12.27400002479557,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-12.37200002670292,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-12.470000028610272,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-12.568000030517624,-536.0
+[06:35:06] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-12.666000032424975,-536.0
+[06:35:06] [Netty Server IO #0/WARN]: fpscheat sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[06:35:06] [Server thread/INFO]: fpscheat lost connection: Timed out
+[06:35:06] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[06:35:06] [Server thread/INFO]: -fpscheat
+[06:35:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[06:35:21] [User Authenticator #13/INFO]: UUID of player fpscheat is 039c95a6-3277-4ebb-9749-5b29a1ffc7a2
+[06:35:21] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@75a0d842[id=039c95a6-3277-4ebb-9749-5b29a1ffc7a2,name=fpscheat,properties={textures=[com.mojang.authlib.properties.Property@55a43ba2]},legacy=false] (/199.15.199.75:51708): You must wait 13 seconds before logging-in again.
+[06:35:21] [Server thread/INFO]: com.mojang.authlib.GameProfile@75a0d842[id=039c95a6-3277-4ebb-9749-5b29a1ffc7a2,name=fpscheat,properties={textures=[com.mojang.authlib.properties.Property@55a43ba2]},legacy=false] (/199.15.199.75:51708) lost connection: You must wait 13 seconds before logging-in again.
+[06:35:56] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[06:36:17] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[06:36:22] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[06:36:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Veteran] LodiLovesMuffins: =help
+[06:36:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TNPhone] TumblePhone: @LodiLovesMuffins, Commands
+
+=call - Make a call
+=call [name] - Join a specific call
+=calls - See Active Calls
+=hangup - Disconnect from current call
+=invite - put this phone on your own server
+=members - see members of this call
+
+Need any specific help?: 
+[06:36:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Veteran] LodiLovesMuffins: =call
+[06:36:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TNPhone] TumblePhone: Phone Name: Tumble Network#off-topic
+[06:36:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TNPhone] TumblePhone: Joined Call (1) members - [Tumble Network#off-topic] Call Name:8OCnJ9
+[06:36:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TNPhone] TumblePhone: Waiting for Answer
+[06:36:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Veteran] LodiLovesMuffins: =help
+[06:36:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TNPhone] TumblePhone: @LodiLovesMuffins, Commands
+
+=call - Make a call
+=call [name] - Join a specific call
+=calls - See Active Calls
+=hangup - Disconnect from current call
+=invite - put this phone on your own server
+=members - see members of this call
+
+Need any specific help?: 
+[06:37:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Veteran] LodiLovesMuffins: =invite
+[06:37:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TNPhone] TumblePhone: @LodiLovesMuffins, Use this link to add me on your server: http://tnphone.tumblenet.ga
+[06:37:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TNPhone] TumblePhone: <p> Lodi's Discord </p><#430395763600916480> has joined the call
+[06:37:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TNPhone] TumblePhone: Use =hangup to leave
+[06:37:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TNPhone] TumblePhone: LodiLovesMuffins#2001: hello
+[06:37:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Veteran] LodiLovesMuffins: hi
+[06:37:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TNPhone] TumblePhone: LodiLovesMuffins#2001: whats up
+[06:38:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Veteran] LodiLovesMuffins: nuthin much man
+[06:38:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Veteran] LodiLovesMuffins: you are hot
+[06:38:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TNPhone] TumblePhone: LodiLovesMuffins#2001: so r u
+[06:38:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Veteran] LodiLovesMuffins: man i cant believe some one is like me
+[06:38:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TNPhone] TumblePhone: LodiLovesMuffins#2001: i am u
+[06:38:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Veteran] LodiLovesMuffins: oh
+[06:38:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Veteran] LodiLovesMuffins: ok bye
+[06:38:40] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [Veteran] LodiLovesMuffins: =hangup
+[06:38:40] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#off-topic] [TNPhone] TumblePhone: Disconnected
+[06:38:46] [User Authenticator #14/INFO]: UUID of player fpscheat is 039c95a6-3277-4ebb-9749-5b29a1ffc7a2
+[06:38:46] [Server thread/INFO]: fpscheat[/199.15.199.75:51785] logged in with entity id 1853004 at ([Survival]128.5, 76.0, 544.5)
+[06:38:46] [Server thread/INFO]: +fpscheat
+[06:38:47] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[06:38:47] [Netty Server IO #3/WARN]: fpscheat sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[06:38:47] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-11.0,-536.0
+[06:38:47] [Server thread/INFO]: fpscheat lost connection: Timed out
+[06:38:47] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[06:38:47] [Server thread/INFO]: -fpscheat
+[06:39:08] [User Authenticator #14/INFO]: UUID of player fpscheat is 039c95a6-3277-4ebb-9749-5b29a1ffc7a2
+[06:39:08] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@106274f8[id=039c95a6-3277-4ebb-9749-5b29a1ffc7a2,name=fpscheat,properties={textures=[com.mojang.authlib.properties.Property@41ef317f]},legacy=false] (/199.15.199.75:51787): You must wait 9 seconds before logging-in again.
+[06:39:08] [Server thread/INFO]: com.mojang.authlib.GameProfile@106274f8[id=039c95a6-3277-4ebb-9749-5b29a1ffc7a2,name=fpscheat,properties={textures=[com.mojang.authlib.properties.Property@41ef317f]},legacy=false] (/199.15.199.75:51787) lost connection: You must wait 9 seconds before logging-in again.
+[06:39:23] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[06:39:31] [User Authenticator #14/INFO]: UUID of player fpscheat is 039c95a6-3277-4ebb-9749-5b29a1ffc7a2
+[06:39:31] [Server thread/INFO]: fpscheat[/199.15.199.75:51804] logged in with entity id 1853859 at ([Survival]128.5, 76.0, 544.5)
+[06:39:31] [Server thread/INFO]: +fpscheat
+[06:39:32] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[06:39:33] [Server thread/WARN]: fpscheat moved too quickly! -120.0,-11.0,-536.0
+[06:39:33] [Netty Server IO #3/WARN]: fpscheat sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[06:39:33] [Server thread/INFO]: fpscheat lost connection: Timed out
+[06:39:33] [Server thread/WARN]: [DiscordSRV] Could not send message in channel TC:minecraft(434064099257745409) because the bot does not have the "Send Messages" permission
+[06:39:33] [Server thread/INFO]: -fpscheat
+[06:40:19] [Craft Scheduler Thread - 3497/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[06:42:25] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[06:43:00] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[06:43:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[06:44:01] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[06:45:22] [Craft Scheduler Thread - 3505/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[06:45:22] [Craft Scheduler Thread - 3510/INFO]: 
+[06:48:28] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[06:50:25] [Craft Scheduler Thread - 3516/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[06:50:45] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[06:51:25] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[06:51:30] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[06:51:45] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
