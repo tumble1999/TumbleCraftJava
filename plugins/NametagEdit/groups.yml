@@ -44,10 +44,10 @@ Groups:
     Prefix: '&7[VR] '
     SortPriority: 10
   jrmod:
-    Permission: nte.vr
+    Permission: nte.jrmod
     Prefix: '&a[Jr.Mod] '
-    SortPriority: 10
+    SortPriority: 3
   artist:
-    Permission: nte.vr
-    Prefix: '&7[VR] '
-    SortPriority: 10
+    Permission: nte.artist
+    Prefix: '&5[Artist] '
+    SortPriority: 5
