@@ -3303,3 +3303,95 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [20:07:00] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
 [20:07:41] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [20:08:01] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[20:08:42] [Craft Scheduler Thread - 6812/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[20:10:48] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[20:13:46] [Craft Scheduler Thread - 6818/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[20:13:46] [Craft Scheduler Thread - 6823/INFO]: 
+[20:13:51] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[20:14:47] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[20:15:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[20:15:47] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[20:16:53] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[20:18:49] [Craft Scheduler Thread - 6829/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[20:19:55] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[20:22:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[20:22:57] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[20:23:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[20:23:33] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[20:27:24] [Netty Server IO #2/WARN]: java.io.IOException: An existing connection was forcibly closed by the remote host
+[20:27:24] [Netty Server IO #2/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[20:27:24] [Netty Server IO #2/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[20:27:24] [Netty Server IO #2/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[20:27:24] [Netty Server IO #2/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[20:27:24] [Netty Server IO #2/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[20:27:24] [Netty Server IO #2/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[20:27:24] [Netty Server IO #2/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[20:27:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[20:27:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+[20:27:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[20:27:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[20:27:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[20:27:24] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[20:27:24] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[20:27:24] [Netty Server IO #2/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[20:28:57] [Craft Scheduler Thread - 6843/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[20:28:57] [Craft Scheduler Thread - 6841/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[20:28:57] [Craft Scheduler Thread - 6848/INFO]: 
+[20:29:02] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[20:30:17] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[20:30:58] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[20:31:18] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[20:32:04] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[20:35:06] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[20:38:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[20:38:08] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
