@@ -215,6 +215,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2018-05-25 21:56:56 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_at_least_9_coal": "2018-05-24 21:33:25 +0100"
@@ -413,6 +419,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2018-05-25 21:56:56 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2018-05-25 21:39:02 +0100"
@@ -527,6 +539,15 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2018-05-25 21:58:44 +0100",
+      "iron_chestplate": "2018-05-25 21:58:44 +0100",
+      "iron_leggings": "2018-05-25 21:58:44 +0100",
+      "iron_helmet": "2018-05-25 21:58:44 +0100"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2018-05-24 21:36:44 +0100"
@@ -573,6 +594,12 @@
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2018-05-24 21:39:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2018-05-25 21:59:50 +0100"
     },
     "done": true
   },
@@ -672,6 +699,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2018-05-25 21:56:56 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/boat": {
     "criteria": {
       "entered_water": "2018-05-24 21:29:15 +0100"
@@ -743,6 +776,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2018-05-24 21:39:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stonebrick": {
+    "criteria": {
+      "has_stone": "2018-05-25 21:56:56 +0100"
     },
     "done": true
   },
