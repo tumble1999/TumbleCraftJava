@@ -136,3 +136,501 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
 [00:51:11] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[00:54:12] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[00:56:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[00:56:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[00:57:08] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[00:57:13] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[01:00:10] [Craft Scheduler Thread - 662/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:00:10] [Craft Scheduler Thread - 664/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:00:10] [Craft Scheduler Thread - 669/INFO]: 
+[01:00:15] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[01:03:51] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:04:31] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:04:52] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:06:17] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[01:09:19] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[01:10:14] [Craft Scheduler Thread - 691/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:11:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:12:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:12:19] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[01:12:34] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:15:15] [Craft Scheduler Thread - 707/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:15:15] [Craft Scheduler Thread - 712/INFO]: 
+[01:15:20] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[01:18:21] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[01:19:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:19:56] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:20:16] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:20:16] [Craft Scheduler Thread - 725/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:24:22] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[01:26:57] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:27:23] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[01:27:38] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:27:58] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:30:18] [Craft Scheduler Thread - 753/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:30:18] [Craft Scheduler Thread - 751/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:30:18] [Craft Scheduler Thread - 755/INFO]: [Marriage] Purged 2 player entries in 54ms
+[01:30:19] [Craft Scheduler Thread - 759/INFO]: 
+[01:30:23] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[01:33:24] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[01:34:39] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:35:01] [User Authenticator #5/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[01:35:02] [Server thread/INFO]: QuanTuan[/184.60.35.219:49458] logged in with entity id 192021 at ([Survival]153.24711646740553, 103.32369522051835, 544.6772471746818)
+[01:35:02] [Server thread/INFO]: +[Helper] QuanTuan
+[01:35:03] [Netty Server IO #2/WARN]: QuanTuan sent an invalid keepalive! pending keepalive: false got id: 0 expected id: 0
+[01:35:03] [Server thread/WARN]: QuanTuan moved too quickly! -144.74711646740553,-38.323695220518346,-536.1772471746818
+[01:35:03] [Server thread/INFO]: QuanTuan lost connection: Timed out
+[01:35:03] [Server thread/INFO]: -[Helper] QuanTuan
+[01:35:19] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:35:40] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:36:25] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[01:40:13] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[01:40:21] [Craft Scheduler Thread - 784/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:42:21] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:42:26] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[01:43:01] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:43:21] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:45:22] [Craft Scheduler Thread - 799/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:45:22] [Craft Scheduler Thread - 804/INFO]: 
+[01:45:27] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[01:46:37] [User Authenticator #6/INFO]: UUID of player MineRacer_8 is c541f001-3197-482c-9f14-878f3fdaa80e
+[01:46:37] [Server thread/INFO]: MineRacer_8[/74.105.27.34:56788] logged in with entity id 201036 at ([Survival]3.6605230798509725, 76.0, 530.5154117406195)
+[01:46:37] [Server thread/INFO]: +[Mod] MineRacer_8
+[01:46:41] [Server thread/INFO]: MineRacer_8 issued server command: /gmc
+[01:46:52] [Server thread/INFO]: MineRacer_8 issued server command: /ban
+[01:46:54] [Server thread/INFO]: MineRacer_8 lost connection: Disconnected
+[01:46:54] [Server thread/INFO]: -[Mod] MineRacer_8
+[01:48:28] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[01:49:16] [Server thread/INFO]: com.mojang.authlib.GameProfile@4ceaa617[id=<null>,name=MineRacer_8,properties={},legacy=false] (/74.105.27.34:56871) lost connection: Disconnected
+[01:49:20] [Server thread/INFO]: com.mojang.authlib.GameProfile@23125572[id=<null>,name=MineRacer_8,properties={},legacy=false] (/74.105.27.34:56872) lost connection: Disconnected
+[01:49:25] [User Authenticator #7/INFO]: UUID of player MineRacer_8 is c541f001-3197-482c-9f14-878f3fdaa80e
+[01:49:25] [Server thread/INFO]: MineRacer_8[/74.105.27.34:56873] logged in with entity id 203810 at ([Survival]85.65333387634558, 73.11813933486765, 554.8008796309723)
+[01:49:25] [Server thread/INFO]: +[Mod] MineRacer_8
+[01:49:28] [User Authenticator #7/INFO]: UUID of player iiKawaiiSumm__ is 969e7d38-5422-4d5b-9db0-c3e0376286b1
+[01:49:28] [Server thread/INFO]: iiKawaiiSumm__[/70.106.190.219:54702] logged in with entity id 203860 at ([Survival]132.5, 86.0, 547.5)
+[01:49:28] [Server thread/INFO]: +iiKawaiiSumm__
+[01:49:28] [pool-18-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\969e7d38-5422-4d5b-9db0-c3e0376286b1.yml
+[01:49:28] [Server thread/INFO]: iiKawaiiSumm__ has made the advancement [Getting an Upgrade]
+[01:49:31] [Server thread/INFO]: MineRacer_8 issued server command: /spawn
+[01:49:32] [Server thread/INFO]: MineRacer_8 issued server command: /emc
+[01:49:33] [Server thread/INFO]: MineRacer_8 issued server command: /gmc
+[01:49:37] [Server thread/INFO]: [Mod] MineRacer_8: hello
+[01:49:40] [Server thread/INFO]: iiKawaiiSumm__: Hoiya
+[01:49:44] [Server thread/INFO]: [Mod] MineRacer_8: im staff on here
+[01:49:49] [Server thread/INFO]: iiKawaiiSumm__: noice
+[01:49:52] [Server thread/INFO]: MineRacer_8 issued server command: /clear inventory
+[01:49:57] [Server thread/INFO]: MineRacer_8 issued server command: /clear MineRacer_8
+[01:49:58] [Server thread/INFO]: [Mod] MineRacer_8: uh
+[01:50:02] [Server thread/INFO]: [Mod] MineRacer_8: do /wilf
+[01:50:03] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:50:05] [Server thread/INFO]: MineRacer_8 issued server command: /sry
+[01:50:06] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /wilf
+[01:50:09] [Server thread/INFO]: [Mod] MineRacer_8: do /wild
+[01:50:19] [Server thread/INFO]: iiKawaiiSumm__: oh no, i know what it does.
+[01:50:23] [Craft Scheduler Thread - 817/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[01:50:26] [Server thread/INFO]: [Mod] MineRacer_8: its for factions
+[01:50:34] [Server thread/INFO]: [Mod] MineRacer_8: cmon
+[01:50:37] [Server thread/INFO]: [Mod] MineRacer_8: do /wild
+[01:50:41] [Server thread/INFO]: [Mod] MineRacer_8: and ill tp to you
+[01:50:43] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /wikfd
+[01:50:43] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:50:46] [Server thread/INFO]: iiKawaiiSumm__: wait
+[01:50:53] [Server thread/INFO]: iiKawaiiSumm__: i have a queston 4 u
+[01:51:00] [Server thread/INFO]: [Mod] MineRacer_8: ok?
+[01:51:03] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[01:51:18] [Server thread/INFO]: iiKawaiiSumm__: do u like/know what portal is, and what is your opinion on Wheatly x Chell?
+[01:51:25] [Server thread/INFO]: iiKawaiiSumm__: ;3
+[01:51:28] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[01:51:28] [Server thread/INFO]: [Mod] MineRacer_8: ok
+[01:51:32] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /wilf
+[01:51:33] [Server thread/INFO]: [Mod] MineRacer_8: i know nothing baout that
+[01:51:40] [Server thread/INFO]: [Mod] MineRacer_8: just do /wild
+[01:51:45] [Server thread/INFO]: MineRacer_8 issued server command: /help
+[01:51:51] [User Authenticator #8/INFO]: UUID of player Yaboku_kami is c41152df-51cf-456c-9795-e507bba1067f
+[01:51:51] [Server thread/INFO]: Yaboku_kami[/98.195.245.111:59100] logged in with entity id 210735 at ([Survival]10265.317716380388, 62.0, 2280.1945637518106)
+[01:51:51] [Server thread/INFO]: +Yaboku_kami
+[01:51:53] [Server thread/INFO]: MineRacer_8 issued server command: /
+[01:51:56] [Server thread/INFO]: [Mod] MineRacer_8: hello
+[01:52:03] [Server thread/INFO]: Yaboku_kami: Hi hi
+[01:52:16] [Server thread/INFO]: MineRacer_8 issued server command: /tpah
+[01:52:21] [Server thread/INFO]: iiKawaiiSumm__: can we send links>
+[01:52:22] [Server thread/INFO]: MineRacer_8 issued server command: /tpahere iiKawaiiSumm__
+[01:52:22] [Server thread/INFO]: Yaboku_kami issued server command: /home
+[01:52:22] [Server thread/INFO]: [Essentials] Yaboku_kami was denied access to command.
+[01:52:25] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /wild
+[01:52:31] [Server thread/INFO]: MineRacer_8 issued server command: /tpahere Yaboku_kami
+[01:52:31] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /tpaccept
+[01:52:31] [Server thread/INFO]: [Essentials] iiKawaiiSumm__ was denied access to command.
+[01:52:36] [Server thread/INFO]: [Mod] MineRacer_8: both of you accept
+[01:52:38] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /tpaccept
+[01:52:38] [Server thread/INFO]: [Essentials] iiKawaiiSumm__ was denied access to command.
+[01:52:39] [Server thread/INFO]: Yaboku_kami issued server command: /tpaccept
+[01:52:39] [Server thread/INFO]: [Essentials] Yaboku_kami was denied access to command.
+[01:52:44] [Server thread/INFO]: [Mod] MineRacer_8: its for factions
+[01:52:49] [Server thread/INFO]: MineRacer_8 issued server command: /msg iiKawaiiSumm__ ACCEPT
+[01:52:49] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /tpaccept.
+[01:52:53] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /r I CANT
+[01:52:53] [Server thread/INFO]: [Essentials] iiKawaiiSumm__ was denied access to command.
+[01:52:59] [Server thread/INFO]: Yaboku_kami: I don't have access to that command apparently
+[01:53:01] [Server thread/INFO]: MineRacer_8 issued server command: /broadcast WELCOME TO TUMBLENET
+[01:53:01] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /msg MineRacer_8 I CANTT
+[01:53:01] [Server thread/INFO]: [Essentials] iiKawaiiSumm__ was denied access to command.
+[01:53:04] [Server thread/INFO]: iiKawaiiSumm__: WHAT
+[01:53:05] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /help
+[01:53:05] [Server thread/INFO]: [Essentials] iiKawaiiSumm__ was denied access to command.
+[01:53:10] [Server thread/INFO]: Yaboku_kami issued server command: /tpaccept
+[01:53:10] [Server thread/INFO]: [Essentials] Yaboku_kami was denied access to command.
+[01:53:16] [Server thread/INFO]: iiKawaiiSumm__: i dont have access to any commands
+[01:53:21] [Server thread/INFO]: Yaboku_kami: Same here
+[01:53:32] [Server thread/INFO]: [Mod] MineRacer_8: do /wild
+[01:53:35] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /help
+[01:53:35] [Server thread/INFO]: [Essentials] iiKawaiiSumm__ was denied access to command.
+[01:53:39] [Server thread/INFO]: Yaboku_kami: I don't even have command to do /home
+[01:53:39] [Server thread/INFO]: iiKawaiiSumm__: i cant even do /help :-:
+[01:53:48] [Server thread/INFO]: MineRacer_8 issued server command: /op ii
+[01:53:50] [Server thread/INFO]: MineRacer_8 issued server command: /op
+[01:53:51] [Server thread/INFO]: MineRacer_8 issued server command: /fl
+[01:53:53] [Server thread/INFO]: MineRacer_8 issued server command: /help
+[01:53:56] [Server thread/INFO]: MineRacer_8 issued server command: /help 2
+[01:53:57] [Server thread/INFO]: iiKawaiiSumm__: https://en wikipedia org/wiki/Portal_(video_game)
+[01:54:00] [Server thread/INFO]: MineRacer_8 issued server command: /
+[01:54:01] [Server thread/INFO]: iiKawaiiSumm__: dangit
+[01:54:05] [Server thread/INFO]: iiKawaiiSumm__: wecannotsendlinks
+[01:54:10] [Server thread/INFO]: MineRacer_8 issued server command: /tp iiKawaiiSumm__
+[01:54:13] [Server thread/INFO]: MineRacer_8 issued server command: /tpa iiKawaiiSumm__
+[01:54:15] [Server thread/INFO]: [Mod] MineRacer_8: accept
+[01:54:21] [Server thread/INFO]: Yaboku_kami issued server command: /home
+[01:54:21] [Server thread/INFO]: [Essentials] Yaboku_kami was denied access to command.
+[01:54:22] [Server thread/INFO]: [Mod] MineRacer_8: acceppt
+[01:54:29] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[01:54:31] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /tpaccept
+[01:54:31] [Server thread/INFO]: [Essentials] iiKawaiiSumm__ was denied access to command.
+[01:54:34] [Server thread/INFO]: iiKawaiiSumm__: i cantt
+[01:54:36] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /tpa
+[01:54:36] [Server thread/INFO]: [Essentials] iiKawaiiSumm__ was denied access to command.
+[01:54:40] [Server thread/INFO]: [Mod] MineRacer_8: do /spawn
+[01:54:42] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /spawn
+[01:54:42] [Server thread/INFO]: [Essentials] iiKawaiiSumm__ was denied access to command.
+[01:54:44] [Server thread/INFO]: Yaboku_kami issued server command: /spawn
+[01:54:44] [Server thread/INFO]: [Essentials] Yaboku_kami was denied access to command.
+[01:54:44] [Server thread/INFO]: iiKawaiiSumm__: I CaNT
+[01:54:46] [Server thread/INFO]: iiKawaiiSumm__: WHAT
+[01:54:47] [Server thread/INFO]: iiKawaiiSumm__: THE
+[01:54:48] [Server thread/INFO]: [Mod] MineRacer_8: UGH
+[01:54:51] [Server thread/INFO]: MineRacer_8 issued server command: /kill ii
+[01:54:51] [Server thread/INFO]: [Essentials] MineRacer_8 was denied access to command.
+[01:54:55] [Server thread/INFO]: Yaboku_kami: We can't do that either
+[01:54:57] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[01:54:57] [Server thread/INFO]: iiKawaiiSumm__ died
+[01:54:57] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[01:54:57] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[01:54:58] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[01:55:03] [Server thread/INFO]: iiKawaiiSumm__: ...
+[01:55:06] [Server thread/INFO]: MineRacer_8 issued server command: /smite Yaboku_kami
+[01:55:07] [Server thread/INFO]: iiKawaiiSumm__: welp
+[01:55:07] [Server thread/INFO]: MineRacer_8 issued server command: /smite Yaboku_kami
+[01:55:08] [Server thread/INFO]: MineRacer_8 issued server command: /smite Yaboku_kami
+[01:55:08] [Server thread/INFO]: MineRacer_8 issued server command: /smite Yaboku_kami
+[01:55:08] [Server thread/INFO]: MineRacer_8 issued server command: /smite Yaboku_kami
+[01:55:09] [Server thread/INFO]: MineRacer_8 issued server command: /smite Yaboku_kami
+[01:55:09] [Server thread/INFO]: Yaboku_kami died
+[01:55:11] [Server thread/INFO]: iiKawaiiSumm__: there goes my tools
+[01:55:16] [Server thread/INFO]: [Mod] MineRacer_8: its for you too to come here
+[01:55:29] [Server thread/INFO]: [Mod] MineRacer_8: here
+[01:55:29] [Server thread/INFO]: Yaboku_kami: There goes all of my diamond gear
+[01:55:35] [Server thread/INFO]: iiKawaiiSumm__ has made the advancement [Diamonds!]
+[01:55:44] [Server thread/INFO]: [Mod] MineRacer_8: follow me
+[01:55:44] [Server thread/INFO]: iiKawaiiSumm__: xD
+[01:56:12] [Server thread/INFO]: [Mod] MineRacer_8: stop
+[01:56:14] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /hellpp
+[01:56:17] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /help
+[01:56:17] [Server thread/INFO]: [Essentials] iiKawaiiSumm__ was denied access to command.
+[01:56:28] [Server thread/INFO]: iiKawaiiSumm__ has made the advancement [Monster Hunter]
+[01:56:45] [Server thread/INFO]: iiKawaiiSumm__: ~Welcome To The Human RACE!~
+[01:56:50] [Server thread/INFO]: [Mod] MineRacer_8: come here
+[01:57:06] [Server thread/INFO]: MineRacer_8 issued server command: /kill @e
+[01:57:06] [Server thread/INFO]: [Essentials] MineRacer_8 was denied access to command.
+[01:57:34] [Server thread/INFO]: [Mod] MineRacer_8: if you do this parkour
+[01:57:36] [Server thread/INFO]: [Mod] MineRacer_8: you win
+[01:57:39] [Server thread/INFO]: [Mod] MineRacer_8: if you fail
+[01:57:42] [Server thread/INFO]: iiKawaiiSumm__ was shot by Skeleton
+[01:57:44] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[01:57:48] [Server thread/INFO]: iiKawaiiSumm__: *ingnales*
+[01:57:54] [Server thread/INFO]: iiKawaiiSumm__: ingales*
+[01:58:00] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[01:58:03] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[01:58:04] [Async Chat Thread - #1/INFO]: [GriefPrevention] Muted repeat message.
+[01:58:04] [Server thread/INFO]: [Mod] MineRacer_8: if you fail
+[01:58:06] [Async Chat Thread - #1/INFO]: [GriefPrevention] Muted repeat message.
+[01:58:06] [Server thread/INFO]: [Mod] MineRacer_8: if you fail
+[01:58:10] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[01:58:14] [Server thread/INFO]: [Mod] MineRacer_8: come hee
+[01:58:25] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[01:58:30] [Server thread/INFO]: [Mod] MineRacer_8: follow me
+[01:58:39] [Server thread/INFO]: MineRacer_8 issued server command: /smite Yaboku_kami
+[01:58:39] [Server thread/INFO]: Yaboku_kami died
+[01:58:41] [Server thread/INFO]: [Mod] MineRacer_8: OL
+[01:58:42] [Server thread/INFO]: [Mod] MineRacer_8: OMG
+[01:58:45] [Server thread/INFO]: [ClearLag] Removed 6 Entities!
+[01:58:52] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /tpa
+[01:58:52] [Server thread/INFO]: [Essentials] iiKawaiiSumm__ was denied access to command.
+[01:58:57] [Server thread/INFO]: [Mod] MineRacer_8: there
+[01:59:00] [Server thread/INFO]: [Mod] MineRacer_8: at spawn
+[01:59:01] [Server thread/INFO]: [Mod] MineRacer_8: diamonds
+[01:59:21] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:27] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:29] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:29] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:30] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:31] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:33] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:35] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:38] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:40] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:45] [Server thread/INFO]: iiKawaiiSumm__: why
+[01:59:46] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:47] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:47] [Server thread/INFO]: Yaboku_kami: Why?
+[01:59:49] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:51] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:52] [Server thread/INFO]: MineRacer_8 issued server command: /smitet
+[01:59:52] [Server thread/INFO]: MineRacer_8 issued server command: /smitett
+[01:59:55] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:56] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:56] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[01:59:58] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[02:00:02] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:00:06] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:00:15] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:00:17] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:00:25] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:00:25] [Craft Scheduler Thread - 845/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:00:25] [Craft Scheduler Thread - 843/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:00:25] [Craft Scheduler Thread - 850/INFO]: 
+[02:00:30] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[02:00:30] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[02:00:34] [Server thread/INFO]: iiKawaiiSumm__ issued server command: /server
+[02:00:50] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[02:00:59] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[02:01:00] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[02:01:05] [Server thread/INFO]: iiKawaiiSumm__: dude
+[02:01:06] [Server thread/INFO]: iiKawaiiSumm__: WHY
+[02:01:15] [Server thread/INFO]: Yaboku_kami was slain by Spider
+[02:01:16] [Server thread/INFO]: iiKawaiiSumm__: all i had was a few items
+[02:01:25] [Server thread/INFO]: iiKawaiiSumm__: like flowers -.-
+[02:01:37] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[02:01:37] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[02:01:38] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[02:01:41] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[02:01:43] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[02:01:45] [Server thread/INFO]: MineRacer_8 issued server command: /smite iiKawaiiSumm__
+[02:01:49] [Server thread/INFO]: iiKawaiiSumm__: DUDE
+[02:01:49] [Server thread/INFO]: [Mod] MineRacer_8: this is fun
+[02:01:52] [Server thread/INFO]: Yaboku_kami: Why did you keep smiting and killing us
+[02:01:56] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:01:58] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:01:58] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:01:59] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:01:59] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:02:00] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:02:04] [Server thread/INFO]: MineRacer_8 issued server command: /fireball y
+[02:02:07] [Server thread/INFO]: MineRacer_8 issued server command: /help 2
+[02:02:11] [Server thread/INFO]: iiKawaiiSumm__: he's gone mad (thats a complement, people call me insane)
+[02:02:14] [Server thread/INFO]: MineRacer_8 issued server command: /fly y
+[02:02:18] [Server thread/INFO]: MineRacer_8 issued server command: /gms
+[02:02:20] [Server thread/INFO]: MineRacer_8 issued server command: /gmc
+[02:02:22] [Server thread/INFO]: MineRacer_8 issued server command: /fly
+[02:02:30] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[02:02:37] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:02:48] [Server thread/INFO]: [Mod] MineRacer_8: lets do simon says
+[02:02:54] [Server thread/INFO]: [Mod] MineRacer_8: iiKawaiiSumm__ get over here
+[02:02:59] [Server thread/INFO]: Yaboku_kami: Just so you know I'm recording what's going on
+[02:03:09] [Server thread/INFO]: [Mod] MineRacer_8: you guys told me to kill u
+[02:03:18] [Server thread/INFO]: Yaboku_kami: When
+[02:03:21] [Server thread/INFO]: [Mod] MineRacer_8: like to show off my powers
+[02:03:27] [Server thread/INFO]: Yaboku_kami: I never told you to kill me
+[02:03:31] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[02:03:38] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[02:03:51] [Server thread/INFO]: MineRacer_8 issued server command: /vanish
+[02:03:57] [Server thread/INFO]: MineRacer_8 issued server command: /vanish MineRacer_8
+[02:04:04] [Server thread/INFO]: MineRacer_8 issued server command: /nick Skeppy
+[02:04:10] [Server thread/INFO]: MineRacer_8 issued server command: /fly
+[02:04:15] [Server thread/INFO]: [Mod] ~Skeppy: hello
+[02:04:31] [Server thread/INFO]: MineRacer_8 issued server command: /nick Technoblade
+[02:04:32] [Server thread/INFO]: [Mod] ~Technoblade: hi
+[02:04:34] [Server thread/INFO]: [Mod] ~Technoblade: nerd
+[02:04:39] [Server thread/INFO]: MineRacer_8 issued server command: /nick LOGANPAUL
+[02:04:42] [Server thread/INFO]: [Mod] ~LOGANPAUL: hi'
+[02:04:45] [Server thread/INFO]: MineRacer_8 issued server command: /unnick
+[02:04:48] [Server thread/INFO]: MineRacer_8 issued server command: /unnick
+[02:04:54] [Server thread/INFO]: MineRacer_8 issued server command: /nick MineRacer_*
+[02:04:57] [Server thread/INFO]: MineRacer_8 issued server command: /unnick
+[02:04:59] [Server thread/INFO]: MineRacer_8 issued server command: /nick
+[02:05:02] [Server thread/INFO]: MineRacer_8 issued server command: /nick off
+[02:05:05] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[02:05:09] [Server thread/INFO]: MineRacer_8 issued server command: /firball
+[02:05:11] [Server thread/INFO]: Yaboku_kami: Bro stop
+[02:05:14] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:05:16] [Server thread/INFO]: MineRacer_8 issued server command: /fireball
+[02:05:17] [Server thread/INFO]: [Mod] MineRacer_8: s
+[02:05:21] [Server thread/INFO]: MineRacer_8 issued server command: /smte
+[02:05:25] [Server thread/INFO]: [Mod] MineRacer_8: 1-10
+[02:05:26] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[02:05:34] [Server thread/INFO]: [Mod] MineRacer_8: 4 numbers+ death
+[02:05:39] [Server thread/INFO]: [Mod] MineRacer_8: 6 + diamonds
+[02:05:43] [Server thread/INFO]: [Mod] MineRacer_8: 1-10 go
+[02:05:52] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[02:05:57] [Server thread/INFO]: [Mod] MineRacer_8: stop taking so long
+[02:06:02] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[02:06:02] [Server thread/INFO]: Yaboku_kami was struck by lightning
+[02:06:05] [Server thread/INFO]: [Mod] MineRacer_8: oops
+[02:06:06] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[02:06:11] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[02:06:14] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[02:06:16] [Server thread/INFO]: MineRacer_8 issued server command: /smite
+[02:06:16] [Server thread/INFO]: iiKawaiiSumm__ was struck by lightning
+[02:06:21] [Server thread/INFO]: Yaboku_kami: Stop killing people
+[02:06:25] [Server thread/INFO]: [Mod] MineRacer_8: k bye
+[02:06:26] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
+[02:06:27] [Server thread/INFO]: MineRacer_8 lost connection: Disconnected
+[02:06:28] [Server thread/INFO]: -[Mod] MineRacer_8
+[02:06:31] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[02:06:39] [Server thread/INFO]: Yaboku_kami: The hell was his problem
+[02:06:54] [Server thread/INFO]: iiKawaiiSumm__ lost connection: Disconnected
+[02:06:54] [Server thread/INFO]: -iiKawaiiSumm__
+[02:07:03] [User Authenticator #9/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[02:07:03] [Server thread/INFO]: QuanTuan[/184.60.35.219:49910] logged in with entity id 238895 at ([Survival]153.24711646740553, 103.32369522051835, 544.6772471746818)
+[02:07:03] [Server thread/INFO]: +[Helper] QuanTuan
+[02:07:16] [Server thread/INFO]: [Helper] QuanTuan: .
+[02:07:26] [Server thread/INFO]: [Helper] QuanTuan: yay no lag
+[02:07:28] [Server thread/INFO]: [Helper] QuanTuan: finally
+[02:07:39] [Server thread/INFO]: QuanTuan issued server command: /tpo Yaboku_kami
+[02:07:53] [Server thread/INFO]: Yaboku_kami: How was this kid earlier a mod?
+[02:07:57] [Server thread/INFO]: QuanTuan issued server command: /tpohere Yaboku_kami
+[02:08:10] [Server thread/INFO]: QuanTuan issued server command: /gamemode 1
+[02:08:11] [Server thread/INFO]: Yaboku_kami: He kept killing me and another playe
+[02:08:15] [Server thread/INFO]: QuanTuan issued server command: /powertool
+[02:08:21] [Server thread/INFO]: [Helper] QuanTuan: Who?
+[02:08:33] [Server thread/INFO]: Yaboku_kami: MineRacer_8
+[02:08:42] [Server thread/INFO]: [Helper] QuanTuan: Who Was this other Player?
