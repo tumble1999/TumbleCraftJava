@@ -762,11 +762,11 @@ npc:
         realisticlooking: false
       location:
         world: Survival
-        x: '22745.5004'
-        y: '68.5625'
-        z: '19425.7871'
-        yaw: '142.23712158203125'
-        pitch: '11.136372566223145'
+        x: '22743.5'
+        y: '68.0'
+        z: '19423.5'
+        yaw: '-90.0'
+        pitch: '0.0'
       type: PLAYER
       inventory:
         '0':
@@ -795,7 +795,7 @@ npc:
           durability: 0
           mdata: 0
       sentinel:
-        stats_ticksSpawned: 13805057
+        stats_ticksSpawned: 13877057
         stats_timesSpawned: 94
         stats_arrowsFired: 0
         stats_potionsThrow: 0
