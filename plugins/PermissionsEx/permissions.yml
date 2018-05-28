@@ -438,6 +438,7 @@ users:
     worlds:
       Survival:
         group:
+        - member
         - vive.non-vivegroup
   9d41cc84-c13a-41c5-b5b2-8456053df895:
     group:
@@ -505,7 +506,7 @@ users:
       name: AbrasiveRose
   554a961a-0908-428d-bf07-a1568d0d8547:
     group:
-    - admin
+    - helper
     options:
       name: TumbleGamer
     permissions:
