@@ -203,9 +203,8 @@ groups:
     - essentials.powertool
     - essentials.powertool.append
     - essentials.powertooltoggle
-    - minecraft.command.gamemode
-    - minecraft.command.gamemode.spectator
-    - essentials.gamemode.spectator
+    - minecraft.command.gamemode.*
+    - eessentials.gamemode.*
     worlds:
       Survival:
         permissions:
