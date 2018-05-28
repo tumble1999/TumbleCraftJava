@@ -1149,3 +1149,420 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [16:09:45] [Server thread/INFO]: TumbleGamer issued server command: /r testing
 [16:09:51] [Server thread/INFO]: DrBatmanWho issued server command: /whisper Tumblegamer hi
 [16:09:54] [Server thread/INFO]: [Helper] TumbleGamer: also i saw that message
+[16:10:04] [Server thread/INFO]: [Helper] TumbleGamer: also i saw that message from ShingoriTokira to DrBatmanWho
+[16:10:08] [Server thread/INFO]: DrBatmanWho issued server command: /whisper Tumblegamer hi
+[16:10:18] [Server thread/INFO]: [Artist] ShingoriTokira: He can see all
+[16:10:26] [Server thread/INFO]: TumbleGamer issued server command: /r QuanTuan does that mean you can see all /msg
+[16:10:32] [Server thread/INFO]: TumbleGamer issued server command: /msg QuanTuan does that mean you can see all /msg
+[16:10:37] [Server thread/INFO]: [Owner] DrBatmanWho: i feel like i'm unwanted here
+[16:10:45] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:10:47] [Server thread/INFO]: [Owner] DrBatmanWho: i might resign my role on the server.
+[16:10:54] [Server thread/INFO]: [Helper] TumbleGamer: why?
+[16:10:55] [Server thread/INFO]: DrBatmanWho issued server command: /home new home
+[16:10:55] [Server thread/INFO]: QuanTuan issued server command: /msg TumbleGamer i cant see msg
+[16:10:59] [Server thread/INFO]: DrBatmanWho issued server command: /home newhome
+[16:11:08] [Server thread/INFO]: QuanTuan issued server command: /r ...
+[16:11:14] [Server thread/INFO]: TumbleGamer issued server command: /r ok thats good i think
+[16:11:25] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:11:35] [Server thread/INFO]: TumbleGamer issued server command: /msg ShingoriTokira QuanTuan can you see this?
+[16:11:41] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor146.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[16:11:43] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor146.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[16:11:44] [Server thread/INFO]: [Owner] DrBatmanWho: i resign
+[16:11:44] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.5.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:72) ~[PaperSpigot.jar:git-Paper-1383]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:515) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:500) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:94) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:581) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:484) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:613) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity0(EntityLiving.java:1369) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityLiving.damageEntity(EntityLiving.java:887) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.EntityMonster.damageEntity(EntityMonster.java:44) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.entity.CraftLivingEntity.damage(CraftLivingEntity.java:204) [PaperSpigot.jar:git-Paper-1383]
+	at org.mcmonkey.sentinel.SentinelTrait.punch(SentinelTrait.java:805) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.tryAttack(SentinelTrait.java:1357) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.runUpdate(SentinelTrait.java:1871) [sentinel-1.4.5.jar:?]
+	at org.mcmonkey.sentinel.SentinelTrait.run(SentinelTrait.java:2007) [sentinel-1.4.5.jar:?]
+	at net.citizensnpcs.api.npc.AbstractNPC.update(AbstractNPC.java:425) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.npc.CitizensNPC.update(CitizensNPC.java:271) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.nms.v1_12_R1.entity.EntityHumanNPC.B_(EntityHumanNPC.java:156) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.minecraft.server.v1_12_R1.World.entityJoinedWorld(World.java:1771) [PaperSpigot.jar:git-Paper-1383]
+	at net.citizensnpcs.nms.v1_12_R1.util.NMSImpl.tick(NMSImpl.java:1012) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.NMS.tick(NMS.java:290) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at net.citizensnpcs.util.PlayerUpdateTask.run(PlayerUpdateTask.java:36) [citizens-2.0.22-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) [PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:833) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:426) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:767) [PaperSpigot.jar:git-Paper-1383]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:665) [PaperSpigot.jar:git-Paper-1383]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at net.shortninja.staffplus.server.listener.entity.EntityDamageByEntity.onDamage(EntityDamageByEntity.java:45) ~[?:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor146.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70) ~[PaperSpigot.jar:git-Paper-1383]
+	... 30 more
+[16:11:45] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[16:11:50] [Server thread/INFO]: [Artist] ShingoriTokira: aww
+[16:11:54] [Server thread/INFO]: TumbleGamer issued server command: /msg DrBatmanWho why?
+[16:12:08] [Server thread/INFO]: TumbleGamer issued server command: /msg DrBatmanWho did you just /unrank?
+[16:12:11] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[16:12:18] [Server thread/INFO]: [Owner] DrBatmanWho: nope im still owner
+[16:12:22] [Server thread/INFO]: [Helper] TumbleGamer: ok
+[16:12:30] [Server thread/INFO]: [Owner] DrBatmanWho: im just gonn stay in my house and do my own thing
+[16:12:46] [Server thread/INFO]: [Helper] TumbleGamer: ??
+[16:12:48] [Server thread/INFO]: [Owner] DrBatmanWho: come visit me anytime
+[16:13:10] [Server thread/INFO]: [Helper] TumbleGamer: it could be because youve missed loads of things
+[16:13:16] [Server thread/INFO]: TumbleGamer issued server command: /owner DrBatmanWho
+[16:13:22] [Server thread/INFO]: TumbleGamer issued server command: /owner TumbleGamer
+[16:13:24] [Server thread/INFO]: DrBatmanWho issued server command: /whisper Tumblegamer i was revising though
+[16:13:44] [Server thread/INFO]: QuanTuan issued server command: /r Shouldn't all Staff ranks have /ban?
+[16:13:55] [Server thread/INFO]: [Owner] DrBatmanWho: am i going to be banned
+[16:13:58] [Server thread/INFO]: TumbleGamer issued server command: /r no because too lethal
+[16:14:03] [Server thread/INFO]: QuanTuan issued server command: /ban DrBatmanWho
+[16:14:07] [Server thread/INFO]: QuanTuan issued server command: /ban QuanTuan
+[16:14:11] [Server thread/INFO]: TumbleGamer issued server command: /msg QuanTuan no because too lethal
+[16:14:21] [Server thread/INFO]: TumbleGamer issued server command: /msg DrBatmanWho wrong person
+[16:14:34] [Server thread/INFO]: TumbleGamer issued server command: /r test
+[16:14:43] [Server thread/INFO]: DrBatmanWho issued server command: /whisper Tumblegamer i can come back full time in three days.
+[16:14:47] [Server thread/INFO]: TumbleGamer issued server command: /ne reload
+[16:15:04] [Server thread/INFO]: QuanTuan issued server command: /apply
+[16:15:11] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[16:15:16] [Server thread/INFO]: TumbleGamer issued server command: /r ok you could make an announcment in the discord or maybe a staff announcemnents so everyone knoes
+[16:15:30] [Server thread/INFO]: TumbleGamer issued server command: /r only staff see staff announcements if you only wnat staff to see
+[16:15:51] [Server thread/INFO]: DrBatmanWho issued server command: /whisper Tumblegamer my first thing when i finish revision is buying your birthday present
+[16:16:02] [Server thread/INFO]: TumbleGamer issued server command: /r ok
+[16:16:04] [Server thread/INFO]: DrBatmanWho issued server command: /whisper Tumblegamer also come mine in june cos i
+[16:16:09] [Server thread/INFO]: DrBatmanWho issued server command: /whisper Tumblegamer also come mine in june cos ill be done
+[16:16:20] [Server thread/INFO]: DrBatmanWho issued server command: /whisper Tumblegamer who can see this
+[16:16:48] [Server thread/INFO]: TumbleGamer issued server command: /r depends if socialspy is a thing and who has it enabled
+[16:16:56] [Server thread/INFO]: QuanTuan issued server command: /powertool
+[16:17:01] [Server thread/INFO]: DrBatmanWho issued server command: /whisper Tumblegamer oh dear
+[16:17:23] [Server thread/INFO]: QuanTuan issued server command: /history DrBatmanWho
+[16:17:27] [Server thread/INFO]: DrBatmanWho issued server command: /tpa TumbleGamer
+[16:17:31] [Server thread/INFO]: QuanTuan issued server command: /history QuanTuan
+[16:17:31] [Server thread/INFO]: TumbleGamer issued server command: /tpaccept
+[16:17:35] [Server thread/INFO]: TumbleGamer issued server command: /socialspy
+[16:17:37] [Server thread/INFO]: TumbleGamer issued server command: /socialspy help
+[16:17:42] [Server thread/INFO]: TumbleGamer issued server command: /socialspy QuanTuan
+[16:17:43] [Server thread/INFO]: TumbleGamer issued server command: /socialspy QuanTuan
+[16:17:44] [Server thread/INFO]: [Owner] DrBatmanWho: noooo
+[16:17:49] [Server thread/INFO]: DrBatmanWho issued server command: /home newhome
+[16:17:53] [Server thread/INFO]: TumbleGamer issued server command: /socialspy DrBatmanWho
+[16:17:54] [Server thread/INFO]: TumbleGamer issued server command: /socialspy DrBatmanWho
+[16:17:54] [Server thread/INFO]: DrBatmanWho issued server command: /tp TumbleGamer
+[16:18:07] [Craft Scheduler Thread - 168/INFO]: [Marriage] Purged 0 player entries in 1ms
+[16:18:07] [Craft Scheduler Thread - 176/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:18:07] [Craft Scheduler Thread - 177/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:18:07] [Server thread/INFO]: TumbleGamer issued server command: /bc test
+[16:18:07] [Craft Scheduler Thread - 180/INFO]: 
+[16:18:10] [Server thread/INFO]: DrBatmanWho issued server command: /whisper Tumblegamer i was trying to bring you to me
+[16:18:12] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[16:18:22] [Server thread/INFO]: QuanTuan issued server command: /history QuanTuan
+[16:18:25] [Server thread/INFO]: [Owner] TumbleGamer: its tpahere
+[16:18:27] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:18:27] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
+[16:18:32] [Server thread/INFO]: QuanTuan issued server command: /tpahere
+[16:18:32] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[16:18:35] [Server thread/INFO]: QuanTuan issued server command: /tpohere
+[16:18:43] [Server thread/INFO]: DrBatmanWho issued server command: /tpahere TumbleGamer
+[16:18:55] [Server thread/INFO]: TumbleGamer issued server command: /alert who has /socialspy enabled. everyone with it enabled make it disabled
+[16:19:07] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:19:09] [Server thread/INFO]: TumbleGamer issued server command: /broadcast who has /socialspy enabled. everyone with it enabled make it disabled
+[16:19:12] [Server thread/INFO]: TumbleGamer issued server command: /tpaccept
+[16:19:17] [Server thread/INFO]: [Owner] DrBatmanWho: hi
+[16:19:19] [Server thread/INFO]: [Owner] DrBatmanWho: welcome
+[16:19:22] [Server thread/INFO]: [Owner] TumbleGamer: hi
+[16:19:27] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
+[16:19:30] [Server thread/INFO]: [Owner] DrBatmanWho: i did slash wild and made a house
+[16:19:30] [Server thread/INFO]: QuanTuan issued server command: /socialspy disable
+[16:19:30] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[16:19:38] [Server thread/INFO]: [Owner] TumbleGamer: ok
+[16:19:45] [Server thread/INFO]: [Owner] DrBatmanWho: i bet it's a bad house
+[16:19:53] [Server thread/INFO]: QuanTuan issued server command: /tpo DrBatmanWho
+[16:19:54] [Server thread/WARN]: QuanTuan moved too quickly! -22944.72755392872,29.541785233848017,-19207.249677809712
+[16:20:02] [Server thread/INFO]: QuanTuan issued server command: /gamemode 1
+[16:20:12] [Server thread/INFO]: [Owner] DrBatmanWho: hi
+[16:20:14] [Server thread/INFO]: [Helper] QuanTuan: hi
+[16:20:16] [Server thread/INFO]: [Owner] DrBatmanWho: is my house
+[16:20:26] [Server thread/INFO]: [Helper] QuanTuan: nice house
+[16:20:33] [Server thread/INFO]: [Owner] DrBatmanWho: thanks i think it's ba
+[16:20:33] [Server thread/INFO]: ShingoriTokira issued server command: /tp DrBatmanWho
+[16:20:35] [Server thread/INFO]: [Owner] DrBatmanWho: bad
+[16:20:41] [Server thread/INFO]: ShingoriTokira issued server command: /tpa drbatmanwho
+[16:20:41] [Server thread/INFO]: [Essentials] ShingoriTokira was denied access to command.
+[16:20:43] [Server thread/INFO]: [Helper] QuanTuan: better then my survival houses
+[16:20:47] [Server thread/INFO]: TumbleGamer issued server command: /holo
+[16:20:49] [Server thread/INFO]: TumbleGamer issued server command: /holo help
+[16:20:55] [Server thread/INFO]: [Owner] DrBatmanWho: you should see the house i built in our win 10 world
+[16:21:05] [Server thread/INFO]: [Owner] DrBatmanWho: very big three floors
+[16:21:08] [Server thread/INFO]: TumbleGamer issued server command: /holo create dbwHouse &aThis is the best House
+[16:21:10] [Server thread/INFO]: [Helper] QuanTuan: o.O
+[16:21:12] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[16:21:15] [Server thread/INFO]: [Owner] DrBatmanWho: thank you tumble
+[16:21:38] [Server thread/INFO]: DrBatmanWho issued server command: /whisper Tumblegamer gonna go revise hangouts me later bye
+[16:21:41] [Server thread/INFO]: [Owner] DrBatmanWho: Bye!
+[16:21:42] [Server thread/INFO]: TumbleGamer issued server command: /holo teleport dbwhouse
+[16:21:42] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[16:21:42] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[16:21:43] [Server thread/INFO]: -[Owner] DrBatmanWho
+[16:21:49] [Server thread/INFO]: QuanTuan issued server command: /gamemode s
+[16:21:56] [Server thread/INFO]: QuanTuan issued server command: /i
+[16:21:56] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[16:22:02] [Server thread/INFO]: TumbleGamer issued server command: /holo movehere dbwhouse
+[16:22:08] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[16:22:11] [Server thread/INFO]: TumbleGamer issued server command: /holo movehere dbwhouse
+[16:22:11] [Server thread/INFO]: QuanTuan issued server command: /gamemode 1
+[16:22:36] [Server thread/INFO]: TumbleGamer issued server command: /gms QuanTuan
+[16:22:59] [Server thread/INFO]: QuanTuan issued server command: /gamemode 1
+[16:23:03] [Server thread/INFO]: TumbleGamer issued server command: /god
+[16:23:04] [Server thread/INFO]: TumbleGamer issued server command: /god
+[16:23:12] [Server thread/INFO]: TumbleGamer issued server command: /fly
+[16:23:24] [Server thread/INFO]: QuanTuan issued server command: /gamemode s
+[16:23:27] [Server thread/INFO]: QuanTuan tried to swim in lava
+[16:23:33] [Server thread/INFO]: [Artist] ShingoriTokira: rip
+[16:23:36] [Server thread/INFO]: QuanTuan issued server command: /back
+[16:23:37] [Server thread/WARN]: QuanTuan moved too quickly! -22619.0,13.0,-18851.0
+[16:23:39] [Server thread/INFO]: QuanTuan issued server command: /gamemode s
+[16:23:41] [Server thread/INFO]: QuanTuan issued server command: /gamemode 1
+[16:24:13] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[16:24:48] [Server thread/INFO]: [Helper] QuanTuan: gtg
+[16:24:50] [Server thread/INFO]: QuanTuan lost connection: Disconnected
+[16:24:50] [Server thread/INFO]: -[Helper] QuanTuan
+[16:25:04] [Server thread/INFO]: » Successfully reloaded plugin data
+[16:25:50] [Server thread/INFO]: » Successfully reloaded plugin data
+[16:26:01] [Server thread/INFO]: TumbleGamer issued server command: /pex relaod
+[16:26:05] [Server thread/INFO]: TumbleGamer issued server command: /pex reload
+[16:26:05] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[16:26:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:26:26] [Server thread/INFO]: ShingoriTokira issued server command: //line quartz_slab
+[16:26:30] [Server thread/INFO]: ShingoriTokira issued server command: //line quartzslab
+[16:26:39] [Server thread/INFO]: ShingoriTokira issued server command: //line quartz:7
+[16:26:43] [Server thread/INFO]: ShingoriTokira issued server command: //undo
+[16:26:47] [Server thread/INFO]: ShingoriTokira issued server command: //line quartz7
+[16:26:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:26:51] [Server thread/INFO]: ShingoriTokira issued server command: //undo
+[16:27:09] [Server thread/INFO]: [ClearLag] Removed 2 Entities!
+[16:27:21] [Server thread/INFO]: » Successfully reloaded plugin data
+[16:27:26] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[16:27:26] [Server thread/INFO]: Permissions reloaded
+[16:27:44] [Server thread/INFO]: TumbleGamer issued server command: /tpo ShingoriTokira
+[16:28:03] [Server thread/INFO]: TumbleGamer issued server command: /op TumbleGamer
+[16:28:03] [Server thread/INFO]: [TumbleGamer: Opped TumbleGamer]
+[16:28:09] [Server thread/INFO]: TumbleGamer issued server command: /gamemode spectator
+[16:28:09] [Craft Scheduler Thread - 199/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:28:10] [Server thread/INFO]: TumbleGamer issued server command: /gamemode creative
+[16:28:10] [Server thread/INFO]: TumbleGamer issued server command: /gamemode spectator
+[16:28:10] [Server thread/INFO]: TumbleGamer issued server command: /gamemode creative
+[16:28:10] [Server thread/INFO]: TumbleGamer issued server command: /gamemode spectator
+[16:28:11] [Server thread/INFO]: TumbleGamer issued server command: /gamemode creative
+[16:28:11] [Server thread/INFO]: TumbleGamer issued server command: /gamemode spectator
+[16:28:11] [Server thread/INFO]: TumbleGamer issued server command: /gamemode creative
+[16:28:14] [Server thread/INFO]: TumbleGamer issued server command: /deop TumbleGamer
+[16:28:14] [Server thread/INFO]: [TumbleGamer: De-opped TumbleGamer]
+[16:28:28] [Server thread/INFO]: [Owner] TumbleGamer: i can only use F3+N if im oped
+[16:28:40] [Server thread/INFO]: [Artist] ShingoriTokira: to switch gamemodes?
+[16:29:11] [Server thread/INFO]: [Artist] ShingoriTokira: did you lse your permissions?
+[16:29:40] [Server thread/INFO]: [Owner] TumbleGamer: i can do the equivalent via commands
+[16:29:54] [Server thread/INFO]: ShingoriTokira issued server command: //light
+[16:29:57] [Server thread/INFO]: ShingoriTokira issued server command: /light
+[16:30:03] [Server thread/INFO]: ShingoriTokira issued server command: //lite
+[16:30:07] [Server thread/INFO]: ShingoriTokira issued server command: //l
+[16:30:14] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[16:31:19] [Server thread/INFO]: ShingoriTokira issued server command: /line quartz
+[16:31:23] [Server thread/INFO]: ShingoriTokira issued server command: //line quartz
+[16:31:46] [Server thread/INFO]: TumbleGamer issued server command: /pex reload
+[16:31:46] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[16:32:21] [Server thread/INFO]: TumbleGamer issued server command: /pex reload
+[16:32:21] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[16:33:10] [Craft Scheduler Thread - 214/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:33:10] [Craft Scheduler Thread - 219/INFO]: 
+[16:33:15] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[16:33:23] [Server thread/INFO]: TumbleGamer issued server command: /pex reload
+[16:33:23] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[16:33:29] [Server thread/INFO]: TumbleGamer issued server command: /op TumbleGamer
+[16:33:29] [Server thread/INFO]: [TumbleGamer: Opped TumbleGamer]
+[16:33:33] [Server thread/INFO]: TumbleGamer issued server command: /gamemode spectator
+[16:33:34] [Server thread/INFO]: TumbleGamer issued server command: /gamemode creative
+[16:33:45] [Server thread/INFO]: TumbleGamer issued server command: /deop TumbleGamer
+[16:33:45] [Server thread/INFO]: [TumbleGamer: De-opped TumbleGamer]
+[16:33:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:34:30] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:34:50] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[16:35:01] [Server thread/INFO]: TumbleGamer issued server command: /rank TumbleGamer jrmod
+[16:35:05] [Server thread/INFO]: TumbleGamer issued server command: /owner TumbleGamer
+[16:36:16] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[16:36:29] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[16:36:29] [Server thread/INFO]: Permissions reloaded
+[16:36:33] [Server thread/INFO]: » Successfully reloaded plugin data
+[16:36:42] [Server thread/INFO]: TumbleGamer issued server command: /rank TumbleGamer jrmod
+[16:36:44] [Server thread/INFO]: TumbleGamer issued server command: /owner TumbleGamer
+[16:36:45] [Server thread/INFO]: [Artist] ShingoriTokira: I gtg
+[16:36:50] [Server thread/INFO]: [Owner] TumbleGamer: ok
+[16:36:53] [Server thread/INFO]: ShingoriTokira lost connection: Disconnected
+[16:36:53] [Server thread/INFO]: -[Artist] ShingoriTokira
+[16:36:55] [Server thread/INFO]: TumbleGamer lost connection: Disconnected
+[16:36:55] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer quit with silent quitting permission, not sending a quit message
+[16:36:55] [Server thread/INFO]: -[Owner] TumbleGamer
+[16:38:11] [Craft Scheduler Thread - 218/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:39:17] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[16:41:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:42:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:42:17] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[16:42:32] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
+[16:48:14] [Craft Scheduler Thread - 239/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:48:14] [Craft Scheduler Thread - 241/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:48:14] [Craft Scheduler Thread - 246/INFO]: 
+[16:48:19] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[16:49:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:49:54] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:50:14] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[16:51:19] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
