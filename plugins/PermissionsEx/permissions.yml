@@ -510,6 +510,10 @@ users:
       name: TumbleGamer
     permissions:
     - permissions.*
+    worlds:
+      Staff:
+        group:
+        - member
   ca34a678-499f-4ce4-a25e-e2232c375865:
     group:
     - builder
