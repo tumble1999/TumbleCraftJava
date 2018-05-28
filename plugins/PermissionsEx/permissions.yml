@@ -132,8 +132,6 @@ groups:
     - ab.tempmute.notify
     - ab.warn.notify
     - ab.tempwarn.notify
-    - minecraft.command.gamemode
-    - essentials.gamemode.spectator
     worlds:
       Survival:
         permissions:
@@ -205,6 +203,8 @@ groups:
     - essentials.powertool
     - essentials.powertool.append
     - essentials.powertooltoggle
+    - minecraft.command.gamemode
+    - essentials.gamemode.spectator
     worlds:
       Survival:
         permissions:
