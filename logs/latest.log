@@ -517,3 +517,130 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [15:18:13] [Server thread/INFO]: CONSOLE issued server command: /online 
 [15:18:13] [Server thread/INFO]: There are 1 out of maximum 20 players online.
 [15:18:13] [Server thread/INFO]: artist: [Artist] ShingoriTokira
+[15:19:08] [Server thread/INFO]: [Artist] ShingoriTokira: :D
+[15:19:33] [Server thread/INFO]: ShingoriTokira issued server command: //replace glass ice
+[15:19:33] [Craft Scheduler Thread - 4/INFO]: (FAWE) Running 1.12 registry dumper!
+[15:19:33] [Craft Scheduler Thread - 4/INFO]: (FAWE) Using adapter: com.boydti.fawe.bukkit.v1_12.FaweAdapter_1_12@49ed8261
+[15:19:33] [Craft Scheduler Thread - 4/INFO]: (FAWE) =========================================
+[15:19:33] [Server thread/INFO]: (FAWE) Having `parallel-threads` > 1 interferes with the timings.
+[15:20:07] [Server thread/INFO]: ShingoriTokira issued server command: /set air
+[15:20:13] [Server thread/INFO]: ShingoriTokira issued server command: //set air
+[15:20:31] [Server thread/INFO]: ShingoriTokira issued server command: //set ice
+[15:20:55] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[15:23:04] [Server thread/INFO]: ShingoriTokira issued server command: /hat
+[15:23:04] [Server thread/INFO]: [Essentials] ShingoriTokira was denied access to command.
+[15:23:55] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[15:23:56] [Server thread/INFO]: ShingoriTokira issued server command: //set ice
+[15:24:24] [Server thread/INFO]: ShingoriTokira issued server command: //walls quartz
+[15:24:31] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[15:24:40] [Server thread/INFO]: ShingoriTokira issued server command: //set quartz
+[15:24:49] [Server thread/INFO]: ShingoriTokira issued server command: //set quartz
+[15:24:55] [Server thread/INFO]: ShingoriTokira issued server command: //set quartz
+[15:25:05] [Server thread/INFO]: ShingoriTokira issued server command: //set quartz
+[15:25:11] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[15:25:11] [Server thread/INFO]: ShingoriTokira issued server command: //set quartz
+[15:25:17] [Server thread/INFO]: ShingoriTokira issued server command: //set quartz
+[15:25:31] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[15:25:44] [Server thread/INFO]: ShingoriTokira issued server command: //hcyl
+[15:25:51] [Server thread/INFO]: ShingoriTokira issued server command: //hcyl quartz 5
+[15:26:03] [Server thread/INFO]: ShingoriTokira issued server command: //hcyl quartz 8
+[15:26:16] [Server thread/INFO]: ShingoriTokira issued server command: //hcyl quartz 3
+[15:26:22] [Server thread/INFO]: ShingoriTokira issued server command: //undo
+[15:26:24] [Server thread/INFO]: ShingoriTokira issued server command: //hcyl quartz 2
+[15:26:56] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[15:27:27] [Server thread/INFO]: ShingoriTokira issued server command: //set air
+[15:27:34] [Server thread/INFO]: ShingoriTokira issued server command: /afk
+[15:27:52] [Craft Scheduler Thread - 53/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[15:29:57] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[15:30:34] [Server thread/INFO]: ShingoriTokira issued server command: //set ice
+[15:30:43] [Server thread/INFO]: ShingoriTokira issued server command: //set quartz
+[15:31:35] [Server thread/INFO]: ShingoriTokira issued server command: //replace air ice
+[15:32:13] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[15:32:48] [User Authenticator #2/INFO]: UUID of player QuanTuan is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[15:32:49] [Server thread/INFO]: QuanTuan[/69.128.173.72:50330] logged in with entity id 12429 at ([Survival]473.9859177307389, 87.31922762381969, 941.132292885091)
+[15:32:49] [Server thread/INFO]: +[Helper] QuanTuan
+[15:32:53] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[15:32:53] [Craft Scheduler Thread - 68/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[15:32:53] [Craft Scheduler Thread - 73/INFO]: 
+[15:32:57] [Server thread/INFO]: [Artist] ShingoriTokira: sup
+[15:33:02] [Server thread/INFO]: [Helper] QuanTuan: sup
+[15:33:11] [Server thread/INFO]: [Helper] QuanTuan: sup
+[15:33:13] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[15:33:18] [Server thread/INFO]: QuanTuan issued server command: /tpo ShingoriTokira
+[15:33:21] [Server thread/INFO]: [Artist] ShingoriTokira: What was going on yesterday?
+[15:33:27] [Server thread/INFO]: [Artist] ShingoriTokira: You kept joining then leaving
+[15:33:45] [Server thread/INFO]: [Helper] QuanTuan: kept on timing out
+[15:33:49] [Server thread/INFO]: [Artist] ShingoriTokira: huh
+[15:34:09] [Server thread/INFO]: [Artist] ShingoriTokira: I don't get the best connection here either
+[15:34:30] [Server thread/INFO]: [Artist] ShingoriTokira: I'm in the Americas, while this server is in the UK
+[15:34:37] [Server thread/INFO]: [Helper] QuanTuan: same
+[15:34:42] [Server thread/INFO]: [Helper] QuanTuan: America!
+[15:34:53] [Server thread/INFO]: [Helper] QuanTuan: or usa
+[15:34:59] [Server thread/INFO]: [Artist] ShingoriTokira: USA
+[15:35:05] [Server thread/INFO]: [Artist] ShingoriTokira: 'Murica
+[15:35:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [TG] TumbleGamer: should i move house to the center of the earth somehow?
+[15:35:40] [Server thread/INFO]: [Artist] ShingoriTokira: Like, the origin on the world?
+[15:35:59] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[15:36:06] [Server thread/INFO]: ShingoriTokira issued server command: //replace air ice
+[15:36:07] [Netty Server IO #3/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[15:36:11] [Server thread/INFO]: [Helper] QuanTuan: is this creative world?
+[15:36:17] [Server thread/INFO]: QuanTuan issued server command: /server
+[15:36:19] [Server thread/INFO]: [Artist] ShingoriTokira: yep
+[15:36:45] [Server thread/INFO]: [Helper] QuanTuan: So is Artist a new staff rank?
+[15:36:47] [Server thread/INFO]: ShingoriTokira issued server command: //replace air ice
+[15:37:04] [Server thread/INFO]: [Artist] ShingoriTokira: I think I'm making a resourcepack later
+[15:37:15] [Server thread/INFO]: [Helper] QuanTuan: cool
+[15:37:34] [Server thread/INFO]: [Artist] ShingoriTokira: tbh I don't really understand why a survival/creative server would NEED a custom resourcepack
+[15:37:40] [Server thread/INFO]: [Helper] QuanTuan: pvp Texture pack?
+[15:37:52] [Server thread/INFO]: [Artist] ShingoriTokira: Oh yeah mabye
+[15:37:55] [Craft Scheduler Thread - 84/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[15:38:19] [User Authenticator #3/INFO]: UUID of player BJULTIMA is aecc3a55-ca9b-4a99-9b65-bcb5a7dd69f5
+[15:38:19] [Server thread/INFO]: BJULTIMA[/71.206.40.58:58131] logged in with entity id 16738 at ([Survival]37552.19073799333, 72.0, 40367.0298190313)
+[15:38:19] [Server thread/INFO]: +BJULTIMA
+[15:38:26] [Server thread/INFO]: BJULTIMA: d
+[15:38:28] [Server thread/INFO]: BJULTIMA: hi
+[15:38:29] [Server thread/INFO]: [Helper] QuanTuan: so whats this build post to be?
+[15:38:30] [Server thread/INFO]: BJULTIMA issued server command: /help
+[15:38:34] [Server thread/INFO]: BJULTIMA issued server command: /warps
+[15:38:34] [Server thread/INFO]: [Essentials] BJULTIMA was denied access to command.
+[15:38:38] [Server thread/INFO]: [Artist] ShingoriTokira: idk
+[15:38:38] [Server thread/INFO]: BJULTIMA issued server command: /tpa QuanTuan
+[15:38:43] [Server thread/INFO]: QuanTuan issued server command: /tpaccept
+[15:38:43] [Server thread/INFO]: [Essentials] QuanTuan was denied access to command.
+[15:38:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [TG] TumbleGamer: its not for the survival server its for the rpg server
+[15:38:52] [Server thread/INFO]: [Helper] QuanTuan: Oh
+[15:38:56] [Server thread/INFO]: QuanTuan issued server command: /tpohere BJULTIMA
+[15:38:57] [Server thread/WARN]: BJULTIMA moved too quickly! 37781.74650669499,13.753199980521202,40137.80000001192
+[15:38:57] [Server thread/INFO]: [Artist] ShingoriTokira: There's an RPG server?!
+[15:39:00] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[15:39:00] [Server thread/INFO]: [Artist] ShingoriTokira: :O
