@@ -3962,3 +3962,147 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [22:36:51] [Craft Scheduler Thread - 7100/INFO]: [Marriage] Purged 0 player entries in 3ms
 [22:36:51] [Craft Scheduler Thread - 7104/INFO]: 
 [22:36:56] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[22:39:57] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[22:40:57] [User Authenticator #35/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[22:40:57] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho joined with silent joining permission, not sending a join message
+[22:40:57] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:64773] logged in with entity id 3539973 at ([Survival]12781.5477242245, 74.0, 6076.559845337715)
+[22:40:57] [Server thread/INFO]: [Essentials] Found new UUID for DrBatmanWho. Replacing 019c39a2-24ce-4563-b04b-c094c9bee042 with ebe41bdc-624b-2d28-ba95-6c7d62c680f1
+[22:40:57] [Server thread/INFO]: [Essentials] Found new UUID for DrBatmanWho. Replacing ebe41bdc-624b-2d28-ba95-6c7d62c680f1 with 019c39a2-24ce-4563-b04b-c094c9bee042
+[22:40:57] [Server thread/INFO]: +[Owner] DrBatmanWho
+[22:41:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:42:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:42:32] [Server thread/INFO]: [ClearLag] Removed 7 Entities!
+[22:42:55] [Server thread/INFO]: DrBatmanWho issued server command: /gm c
+[22:42:57] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[22:43:05] [Server thread/INFO]: DrBatmanWho issued server command: /home chickenhill
+[22:43:10] [Server thread/INFO]: DrBatmanWho issued server command: /home chickenlamnd
+[22:43:15] [Server thread/INFO]: DrBatmanWho issued server command: /home chickenland
+[22:45:26] [Server thread/INFO]: DrBatmanWho issued server command: /home chickenland
+[22:45:52] [Server thread/INFO]: DrBatmanWho issued server command: /home newhome
+[22:45:56] [Server thread/INFO]: DrBatmanWho issued server command: /gm s
+[22:45:58] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[22:45:58] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[22:45:58] [Server thread/INFO]: -[Owner] DrBatmanWho
+[22:46:53] [Craft Scheduler Thread - 7118/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:48:58] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[22:49:13] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:49:53] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:50:13] [Server thread/INFO]: [ClearLag] Removed 2 Entities!
+[22:51:53] [Craft Scheduler Thread - 7124/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:51:54] [Craft Scheduler Thread - 7129/INFO]: 
+[22:51:58] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[22:54:59] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[22:55:46] [Netty Server IO #0/WARN]: java.io.IOException: An existing connection was forcibly closed by the remote host
+[22:55:46] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[22:55:46] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[22:55:46] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[22:55:46] [Netty Server IO #0/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[22:55:46] [Netty Server IO #0/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[22:55:46] [Netty Server IO #0/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[22:55:46] [Netty Server IO #0/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[22:55:46] [Netty Server IO #0/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[22:55:46] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+[22:55:46] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[22:55:46] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[22:55:46] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[22:55:46] [Netty Server IO #0/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[22:55:46] [Netty Server IO #0/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[22:55:46] [Netty Server IO #0/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[22:55:46] [Server thread/INFO]: i_am_Choi_Boy lost connection: Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host
+[22:56:02] [User Authenticator #36/INFO]: UUID of player _Pvp_Master_606 is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[22:56:02] [Server thread/INFO]: _Pvp_Master_606[/98.29.183.140:51192] logged in with entity id 3552849 at ([Survival]154.338946263875, 70.0, 547.3043362015279)
+[22:56:02] [Server thread/INFO]: +[Helper] _Pvp_Master_606
+[22:56:16] [Server thread/INFO]: _Pvp_Master_606 issued server command: /kick _Pvp_Master_606 i dunno
+[22:56:16] [Server thread/INFO]: _Pvp_Master_606 lost connection: [TumbleCraft]
+You have been kicked from this server
+
+
+Reason: i dunno
+Appeal: http://tumblecraft.tumblenet.ga/appeal
+
+KickID: #FFFFFFFF
+
+ Please Note: Kicks do not need to be appealed as you can just join right back.
+[22:56:16] [Server thread/INFO]: -[Helper] _Pvp_Master_606
+[22:56:16] [Server thread/WARN]: handleDisconnection() called twice
+[22:56:21] [User Authenticator #36/INFO]: UUID of player _Pvp_Master_606 is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[22:56:21] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@354efe81[id=6e97e76b-23c0-4745-80b2-b64cef10e602,name=_Pvp_Master_606,properties={textures=[com.mojang.authlib.properties.Property@2c3eb23a]},legacy=false] (/98.29.183.140:51194): You must wait 11 seconds before logging-in again.
+[22:56:21] [Server thread/INFO]: com.mojang.authlib.GameProfile@354efe81[id=6e97e76b-23c0-4745-80b2-b64cef10e602,name=_Pvp_Master_606,properties={textures=[com.mojang.authlib.properties.Property@2c3eb23a]},legacy=false] (/98.29.183.140:51194) lost connection: You must wait 11 seconds before logging-in again.
+[22:56:39] [User Authenticator #36/INFO]: UUID of player _Pvp_Master_606 is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[22:56:39] [Server thread/INFO]: _Pvp_Master_606[/98.29.183.140:51196] logged in with entity id 3553773 at ([Survival]154.338946263875, 70.0, 547.3043362015279)
+[22:56:39] [Server thread/INFO]: +[Helper] _Pvp_Master_606
+[22:56:46] [Server thread/INFO]: _Pvp_Master_606 issued server command: /history
+[22:56:54] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:56:54] [Craft Scheduler Thread - 7138/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:56:54] [Server thread/INFO]: _Pvp_Master_606 issued server command: /history _Pvp_Master_606
+[22:57:17] [Server thread/INFO]: _Pvp_Master_606 issued server command: /history _Pvp_Master_606 2
+[22:57:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:57:44] [Server thread/INFO]: _Pvp_Master_606 issued server command: /history _Pvp_Master_606 3
+[22:57:48] [Server thread/INFO]: _Pvp_Master_606 issued server command: /history _Pvp_Master_606 4
+[22:57:53] [Server thread/INFO]: _Pvp_Master_606 issued server command: /history _Pvp_Master_606 4 5
+[22:57:54] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[22:57:56] [Server thread/INFO]: _Pvp_Master_606 issued server command: /history _Pvp_Master_606 5
+[22:57:58] [Server thread/INFO]: _Pvp_Master_606 issued server command: /history _Pvp_Master_606 6
+[22:57:59] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[22:58:01] [Server thread/INFO]: _Pvp_Master_606 issued server command: /history _Pvp_Master_606 7
+[22:58:06] [Server thread/INFO]: _Pvp_Master_606 issued server command: /history _Pvp_Master_606 8
+[22:58:20] [Server thread/INFO]: _Pvp_Master_606 lost connection: Disconnected
+[22:58:21] [Server thread/INFO]: -[Helper] _Pvp_Master_606
+[23:01:00] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[23:04:35] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[23:05:15] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[23:05:35] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
+[23:06:56] [Craft Scheduler Thread - 7150/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[23:06:56] [Craft Scheduler Thread - 7152/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[23:06:56] [Craft Scheduler Thread - 7156/INFO]: 
+[23:07:01] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
