@@ -1,4 +1,34 @@
 {
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2018-05-31 20:12:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2018-05-31 20:13:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2018-05-31 20:13:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2018-05-31 20:16:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2018-05-31 20:03:14 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2018-05-31 20:03:14 +0100"
@@ -17,30 +47,6 @@
     },
     "done": false
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "entered_water": "2018-05-31 20:13:44 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2018-05-31 20:12:43 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2018-05-31 20:16:16 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "entered_water": "2018-05-31 20:13:44 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/boat": {
     "criteria": {
       "entered_water": "2018-05-31 20:13:44 +0100"
@@ -50,12 +56,6 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "entered_water": "2018-05-31 20:13:44 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2018-05-31 20:03:14 +0100"
     },
     "done": true
   },
@@ -74,5 +74,11 @@
       "river": "2018-05-31 20:13:45 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2018-05-31 22:30:56 +0100"
+    },
+    "done": true
   }
 }
