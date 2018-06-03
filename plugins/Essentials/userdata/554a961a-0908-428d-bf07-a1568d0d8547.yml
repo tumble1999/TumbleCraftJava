@@ -121,5 +121,7 @@ powertools:
   - npc select
   '18':
   - npc remove
+  '41':
+  - execute @a ~ ~ ~ playsound minecraft:music.end music @a
 socialspy: false
 powertoolsenabled: true
