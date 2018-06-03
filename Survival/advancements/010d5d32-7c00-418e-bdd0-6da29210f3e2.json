@@ -467,6 +467,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2018-06-03 21:46:28 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_banner": {
     "criteria": {
       "has_orange_wool": "2018-05-29 07:43:55 +0100"
@@ -854,6 +860,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "vindicator": "2018-06-03 21:22:31 +0100",
+      "skeleton": "2018-06-03 21:46:27 +0100",
+      "evoker": "2018-06-03 21:44:29 +0100",
       "creeper": "2018-06-02 23:40:47 +0100"
     },
     "done": false
