@@ -8726,3 +8726,137 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [20:59:01] [Async Chat Thread - #43/INFO]: [GriefPrevention] (Muted Triple_Craft_2): ShingoriTokira
 [20:59:01] [Server thread/INFO]: [Helper] Triple_Craft_2: ShingoriTokira
 [20:59:07] [Server thread/INFO]: Triple_Craft_2 issued server command: /p h ShingoriTokira
+[20:59:30] [Server thread/INFO]: Triple_Craft_2 issued server command: /
+[20:59:36] [Server thread/INFO]: Triple_Craft_2 issued server command: /afk
+[20:59:40] [Server thread/INFO]: Triple_Craft_2 issued server command: /afk
+[21:00:19] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[21:01:14] [Craft Scheduler Thread - 13633/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:03:20] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[21:04:55] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:05:20] [Server thread/INFO]: ShingoriTokira issued server command: //schem
+[21:05:21] [Server thread/INFO]: Triple_Craft_2 issued server command: /tp
+[21:05:31] [Server thread/INFO]: ShingoriTokira issued server command: //schem save
+[21:05:33] [Server thread/INFO]: Triple_Craft_2 issued server command: /tpa shingori
+[21:05:33] [Server thread/INFO]: [Essentials] Triple_Craft_2 was denied access to command.
+[21:05:35] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:05:43] [Server thread/INFO]: ShingoriTokira issued server command: //schem save schematic test
+[21:05:44] [Craft Scheduler Thread - 13592/INFO]: [WorldEdit] ShingoriTokira saved E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\WorldEdit\schematics\4a43978b-72eb-4b61-867e-6397737bc2ca\test.schematic
+[21:05:55] [Server thread/INFO]: [ClearLag] Removed 2 Entities!
+[21:06:15] [Craft Scheduler Thread - 13642/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:06:15] [Craft Scheduler Thread - 13647/INFO]: 
+[21:06:20] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[21:06:25] [Server thread/INFO]: Triple_Craft_2 issued server command: /tp
+[21:07:27] [Server thread/INFO]: Triple_Craft_2 issued server command: /p extend
+[21:07:33] [Server thread/INFO]: Triple_Craft_2 issued server command: /plot extend
+[21:07:40] [Server thread/INFO]: Triple_Craft_2 issued server command: /plot
+[21:07:52] [Server thread/INFO]: Triple_Craft_2 issued server command: /plot help admin
+[21:08:12] [Server thread/INFO]: Triple_Craft_2 issued server command: /help
+[21:08:16] [Server thread/INFO]: ShingoriTokira issued server command: /tp ~ ~100 ~
+[21:08:17] [Server thread/INFO]: Triple_Craft_2 issued server command: /help admin
+[21:08:23] [Server thread/INFO]: ShingoriTokira issued server command: /tpa ~ ~100 ~
+[21:08:23] [Server thread/INFO]: [Essentials] ShingoriTokira was denied access to command.
+[21:08:24] [Server thread/INFO]: Triple_Craft_2 issued server command: /
+[21:08:45] [Server thread/INFO]: Triple_Craft_2 issued server command: /server
+[21:08:47] [Server thread/INFO]: Triple_Craft_2 issued server command: /warp s-survival Triple_Craft_2
+[21:08:54] [Server thread/INFO]: Triple_Craft_2 issued server command: /home
+[21:09:03] [Server thread/INFO]: Triple_Craft_2 issued server command: /home 3
+[21:09:08] [Server thread/INFO]: Triple_Craft_2 issued server command: /h
+[21:09:21] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[21:09:22] [Server thread/INFO]: Triple_Craft_2 issued server command: /home home
+[21:11:16] [Craft Scheduler Thread - 13641/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:12:36] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:13:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:13:32] [Server thread/INFO]: Triple_Craft_2 issued server command: /warp
+[21:13:36] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
+[21:13:37] [Server thread/INFO]: Triple_Craft_2 issued server command: /warp shop
+[21:13:45] [Server thread/INFO]: ShingoriTokira issued server command: /discord
+[21:13:51] [Server thread/INFO]: ShingoriTokira issued server command: /discord ?
+[21:14:03] [Server thread/INFO]: ShingoriTokira issued server command: /discord link
+[21:14:40] [Server thread/INFO]: Triple_Craft_2 issued server command: /give triple_craft_2 barrier_blocks
+[21:14:40] [Server thread/INFO]: [Essentials] Triple_Craft_2 was denied access to command.
+[21:15:22] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[21:18:22] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[21:19:20] [Server thread/INFO]: Triple_Craft_2 issued server command: /gm 1
+[21:20:18] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:20:42] [Server thread/INFO]: Triple_Craft_2 has made the advancement [Enchanter]
+[21:20:58] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:21:18] [Server thread/INFO]: [ClearLag] Removed 21 Entities!
+[21:21:18] [Craft Scheduler Thread - 13666/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:21:18] [Craft Scheduler Thread - 13668/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[21:21:18] [Craft Scheduler Thread - 13673/INFO]: 
+[21:21:23] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[21:23:15] [Server thread/INFO]: Triple_Craft_2 issued server command: /home home
+[21:24:24] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[21:26:05] [Server thread/INFO]: Please specify the world with -w world_name.
+[21:26:16] [Server thread/INFO]: Triple_Craft_2 issued server command: /
+[21:26:37] [Server thread/INFO]: Region 'shop' updated with new members.
+[21:26:44] [Server thread/INFO]: [Server] try now
+[21:26:50] [Async Chat Thread - #44/INFO]: [GriefPrevention] (Muted Triple_Craft_2): what
+[21:26:50] [Server thread/INFO]: [Helper] Triple_Craft_2: what
+[21:26:52] [Server thread/INFO]: Triple_Craft_2 issued server command: /gm1
+[21:26:55] [Server thread/INFO]: Triple_Craft_2 issued server command: /gm 1
+[21:26:56] [Timer-3/INFO]: [WorldGuard] Region data changes made in 'Survival' have been background saved
+[21:26:58] [Server thread/INFO]: Triple_Craft_2 issued server command: /wap shop
+[21:27:04] [Server thread/INFO]: Triple_Craft_2 issued server command: /warp shop
+[21:27:24] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[21:27:36] [Async Chat Thread - #44/INFO]: [GriefPrevention] (Muted Triple_Craft_2): Just have it unclaimed for while i do it
+[21:27:36] [Server thread/INFO]: [Helper] Triple_Craft_2: Just have it unclaimed for while i do it
+[21:27:45] [Server thread/INFO]: [Server] I did /region addmember shop triple_craft_2
+[21:27:51] [Async Chat Thread - #44/INFO]: [GriefPrevention] (Muted Triple_Craft_2): also can u give me a barrier block
+[21:27:51] [Server thread/INFO]: [Helper] Triple_Craft_2: also can u give me a barrier block
+[21:27:59] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[21:28:06] [Server thread/INFO]: Triple_Craft_2 issued server command: /
+[21:28:31] [Async Chat Thread - #44/INFO]: [GriefPrevention] (Muted Triple_Craft_2): i need it so you cant fall in the water
+[21:28:31] [Server thread/INFO]: [Helper] Triple_Craft_2: i need it so you cant fall in the water
+[21:28:39] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[21:28:59] [Server thread/INFO]: [ClearLag] Removed 1 Entities!
