@@ -388,6 +388,13 @@ groups:
     permissions:
     - nte.employer
     - permissions.*
+  dev:
+    options:
+      prefix: '&c[Developer] '
+    inheritance:
+    - admin
+    permissions:
+    - nte.dev
   builder-interview:
     options:
       prefix: '&7[Builder Interviewee] '
