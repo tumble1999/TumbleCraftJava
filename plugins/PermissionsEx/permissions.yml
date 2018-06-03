@@ -519,9 +519,11 @@ users:
       name: AbrasiveRose
   554a961a-0908-428d-bf07-a1568d0d8547:
     group:
+    - voter
     - owner
     options:
       name: TumbleGamer
+      group-voter-until: '1528155038'
     permissions:
     - permissions.*
     worlds:
