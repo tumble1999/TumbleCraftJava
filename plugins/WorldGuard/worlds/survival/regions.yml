@@ -14,7 +14,7 @@ regions:
         min: {x: -11387.0, y: 60.0, z: -2038.0}
         max: {x: -11285.0, y: 109.0, z: -1940.0}
         members:
-            unique-ids: [019c39a2-24ce-4563-b04b-c094c9bee042]
+            unique-ids: [019c39a2-24ce-4563-b04b-c094c9bee042, 010d5d32-7c00-418e-bdd0-6da29210f3e2]
         flags: {}
         owners:
             unique-ids: [554a961a-0908-428d-bf07-a1568d0d8547]
@@ -25,7 +25,7 @@ regions:
         max: {x: 228.0, y: 255.0, z: 644.0}
         members:
             unique-ids: [9d41cc84-c13a-41c5-b5b2-8456053df895]
-        flags: {mob-damage: deny, greeting: §cPVP Disabled, pvp: deny, mob-spawning: deny,
+        flags: {greeting: §cPVP Disabled, mob-damage: deny, pvp: deny, mob-spawning: deny,
             farewell: §aYou may now build}
         owners:
             unique-ids: [f78a4d8d-d51b-4b39-98a3-230f2de0c670]
