@@ -110,7 +110,7 @@ homes:
 godmode: false
 powertools:
   '294':
-  - execute ShingoriTokira ~ ~ ~ playsound minecraft:music.end music ShingoriTokira
+  - execute @a ~ ~ ~ playsound minecraft:music.end music @a
   '290':
   - /undo
   '403':
