@@ -853,9 +853,16 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "vindicator": "2018-06-03 21:22:31 +0100",
       "creeper": "2018-06-02 23:40:47 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_at_least_9_lapis": "2018-06-03 21:24:16 +0100"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/yellow_carpet": {
     "criteria": {
