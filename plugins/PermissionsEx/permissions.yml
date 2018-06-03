@@ -548,9 +548,11 @@ users:
       name: wolfyblox589
   6e97e76b-23c0-4745-80b2-b64cef10e602:
     group:
+    - voter
     - helper
     options:
       name: _Pvp_Master_606
+      group-voter-until: '1528155209'
     worlds:
       Survival:
         group:
