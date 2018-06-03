@@ -304,8 +304,10 @@ groups:
     - essentials.spawn
     - essentials.rules
     - essentials.seen
-    - essentials.tpa
+    - essentials.tpdeny
+    - essentials.tpaccept
     - essentials.tpahere
+    - essentials.tpa
     - friend.commands.add
     - friend.commands.remove
     - friend.commands.accept
@@ -339,10 +341,6 @@ groups:
     worlds:
       Survival:
         permissions:
-        - essentials.tpdeny
-        - essentials.tpaccept
-        - essentials.tpahere
-        - essentials.tpa
         - essentials.delhome
         - essentials.home.bed
         - essentials.sethome.bed
