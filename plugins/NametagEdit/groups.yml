@@ -11,43 +11,47 @@ Groups:
     Permission: nte.employer
     Prefix: '&c[Employer] '
     SortPriority: 3
+  developer:
+    Permission: nte.dev
+    Prefix: '&c[Developer] '
+    SortPriority: 4
   jrmod:
     Permission: nte.jrmod
     Prefix: '&a[Jr.Mod] '
-    SortPriority: 4
+    SortPriority: 5
   mod:
     Permission: nte.mod
     Prefix: '&2[Mod] &a'
-    SortPriority: 5
+    SortPriority: 6
   helper:
     Permission: nte.helper
     Prefix: '&1[Helper] &9'
-    SortPriority: 6
+    SortPriority: 7
   artist:
     Permission: nte.artist
     Prefix: '&5[Artist]&d '
-    SortPriority: 7
+    SortPriority: 8
   builder:
     Permission: nte.builder
     Prefix: '&6[Builder] &e'
-    SortPriority: 8
+    SortPriority: 9
   builder-interview:
     Permission: nte.builder-interview
     Prefix: '&7[Builder Interviewee] '
-    SortPriority: 9
+    SortPriority: 10
   vip:
     Permission: nte.vip
     Prefix: '&b[&aVIP&b] &r'
-    SortPriority: 10
+    SortPriority: 12
   voter:
     Permission: nte.voter
     Prefix: '&b[Voter] &r'
-    SortPriority: 11
+    SortPriority: 12
   vr:
     Permission: nte.vr
     Prefix: '&7[VR] '
-    SortPriority: 12
+    SortPriority: 13
   member:
     Permission: nte.member
     Prefix: '&7'
-    SortPriority: 13
+    SortPriority: 14
