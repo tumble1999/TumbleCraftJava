@@ -110,7 +110,7 @@ homes:
 godmode: false
 powertools:
   '294':
-  - minecraft:kill @e[type=!Player,r=20]
+  - playsound minecraft:block.glass.break block ShingoriTokira
   '290':
   - /undo
   '403':
