@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 94
+last-created-npc-id: 105
 npc:
   '0':
     metadata:
@@ -27,7 +27,7 @@ npc:
         x: '112.5'
         y: '70.5'
         z: '544.5'
-        yaw: '-104.46421813964844'
+        yaw: '-151.54116821289062'
         pitch: '0.0'
       type: PLAYER
       spawned: true
@@ -83,7 +83,7 @@ npc:
         x: '144.5'
         y: '70.5'
         z: '544.5'
-        yaw: '34.75853729248047'
+        yaw: '-165.76956176757812'
         pitch: '0.0'
       type: PLAYER
       owner:
@@ -795,7 +795,7 @@ npc:
           durability: 0
           mdata: 0
       sentinel:
-        stats_ticksSpawned: 24752508
+        stats_ticksSpawned: 24824508
         stats_timesSpawned: 100
         stats_arrowsFired: 0
         stats_potionsThrow: 0
@@ -932,6 +932,186 @@ npc:
         realisticlooking: false
       gravity:
         enabled: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: inventory,spawned,lookclose,mounttrait,gravity,location,type,equipment,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '104':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjgwNjE5MDE0NTUsInByb2ZpbGVJZCI6IjZlOTdlNzZiMjNjMDQ3NDU4MGIyYjY0Y2VmMTBlNjAyIiwicHJvZmlsZU5hbWUiOiJfUHZwX01hc3Rlcl82MDYiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U2ZmRhYTIwMDI3NmZiYzJmNWM3NTdhN2E0YzhlYjQ3Y2Y5NzM4YTMxMWU5NmRkNzhjZGZkODE4YWYxZTQzYmUifX19
+      cached-skin-uuid-name: _pvp_master_606
+      cached-skin-uuid: 6e97e76b-23c0-4745-80b2-b64cef10e602
+      player-skin-signature: eWLaomJvM2mtY607c0JGPQd5R40FN642u4C715EwaBXX2J+o4rRda87+Jkhq+vxchO7UpMCla5U8PJCAR9AKWpMiqdiarE4JC+1mshc4aXPJVMsat6mgbozJpKUtlSPTYI2R2zQMdF+sOZcQPOQVl1kv15hVsEuIhDhK57oxajCu950+NfFpBgkDbQnBka64TqvNP9U8ToMe+TW4MN67TULu9IWyy05SHYk+f1P5raJXEmNqi0dGutcO38ZM2irE/Sn8m5Ty+T/ohirc2LIH6beLlK39Io2ROUlW9l7pCQZxfcrM8u2927GUKJHSwExr8SfVG7rUvkHLB6raJnRbQ1tGMTOhT+ZiaqprRNJJUuFYw4tOpeMBhGui3uMaS2+FGylNOuQIOTJfmLvJyol3QFiSXj9tFHrSHCY3W4JhlLxQcdr7TIycE+iVj2I8t2/LYKF9L53WT/XHuc0s+Wrqb1Z4hQLLs+KuFH3SzunwN/SqKGV9445kMAP1ODeFTqGCvkqaNpjSU2FwaPS+Fvcubea1cZfXBLf3gyAF7S0ZiWc3OdfxQD0+STlMrSjD+S3lQ1KYw0jmvhhQVEgH8tcmFPeeCeHv7SF6l4eYY394fnLNn8Z3y9T/OlOa4AWZHbjcnwbnOA7Z2/keXLblkSqUmVpvuQU4EpnYByZocp6L0yQ=
+    name: _Pvp_Master_606
+    uuid: d224dd33-33b0-4274-9ed1-a3b98a722304
+    traits:
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+      gravity:
+        enabled: false
+      location:
+        world: Creative
+        x: '-203.6316'
+        y: '66.0'
+        z: '169.4544'
+        yaw: '-169.23004150390625'
+        pitch: '-40.0'
+      type: PLAYER
+      controllable:
+        enabled: true
+        owner_required: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: inventory,spawned,lookclose,mounttrait,gravity,location,type,equipment,controllable,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '103':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjgwNjE5MDE0NTUsInByb2ZpbGVJZCI6IjZlOTdlNzZiMjNjMDQ3NDU4MGIyYjY0Y2VmMTBlNjAyIiwicHJvZmlsZU5hbWUiOiJfUHZwX01hc3Rlcl82MDYiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U2ZmRhYTIwMDI3NmZiYzJmNWM3NTdhN2E0YzhlYjQ3Y2Y5NzM4YTMxMWU5NmRkNzhjZGZkODE4YWYxZTQzYmUifX19
+      cached-skin-uuid-name: _pvp_master_606
+      cached-skin-uuid: 6e97e76b-23c0-4745-80b2-b64cef10e602
+      player-skin-signature: eWLaomJvM2mtY607c0JGPQd5R40FN642u4C715EwaBXX2J+o4rRda87+Jkhq+vxchO7UpMCla5U8PJCAR9AKWpMiqdiarE4JC+1mshc4aXPJVMsat6mgbozJpKUtlSPTYI2R2zQMdF+sOZcQPOQVl1kv15hVsEuIhDhK57oxajCu950+NfFpBgkDbQnBka64TqvNP9U8ToMe+TW4MN67TULu9IWyy05SHYk+f1P5raJXEmNqi0dGutcO38ZM2irE/Sn8m5Ty+T/ohirc2LIH6beLlK39Io2ROUlW9l7pCQZxfcrM8u2927GUKJHSwExr8SfVG7rUvkHLB6raJnRbQ1tGMTOhT+ZiaqprRNJJUuFYw4tOpeMBhGui3uMaS2+FGylNOuQIOTJfmLvJyol3QFiSXj9tFHrSHCY3W4JhlLxQcdr7TIycE+iVj2I8t2/LYKF9L53WT/XHuc0s+Wrqb1Z4hQLLs+KuFH3SzunwN/SqKGV9445kMAP1ODeFTqGCvkqaNpjSU2FwaPS+Fvcubea1cZfXBLf3gyAF7S0ZiWc3OdfxQD0+STlMrSjD+S3lQ1KYw0jmvhhQVEgH8tcmFPeeCeHv7SF6l4eYY394fnLNn8Z3y9T/OlOa4AWZHbjcnwbnOA7Z2/keXLblkSqUmVpvuQU4EpnYByZocp6L0yQ=
+      protected-target: true
+    name: _Pvp_Master_606
+    uuid: bd1d2efe-293e-44e7-bc4e-2d232c9367c9
+    traits:
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+      gravity:
+        enabled: false
+      location:
+        world: Creative
+        x: '-184.425'
+        y: '64.2253'
+        z: '171.8144'
+        yaw: '165.73422241210938'
+        pitch: '0.0'
+      type: PLAYER
+      controllable:
+        enabled: true
+        owner_required: false
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: inventory,spawned,lookclose,mounttrait,gravity,location,type,equipment,controllable,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '101':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjgwNjE5MDE0NTUsInByb2ZpbGVJZCI6IjZlOTdlNzZiMjNjMDQ3NDU4MGIyYjY0Y2VmMTBlNjAyIiwicHJvZmlsZU5hbWUiOiJfUHZwX01hc3Rlcl82MDYiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U2ZmRhYTIwMDI3NmZiYzJmNWM3NTdhN2E0YzhlYjQ3Y2Y5NzM4YTMxMWU5NmRkNzhjZGZkODE4YWYxZTQzYmUifX19
+      cached-skin-uuid-name: _pvp_master_606
+      cached-skin-uuid: 6e97e76b-23c0-4745-80b2-b64cef10e602
+      player-skin-signature: eWLaomJvM2mtY607c0JGPQd5R40FN642u4C715EwaBXX2J+o4rRda87+Jkhq+vxchO7UpMCla5U8PJCAR9AKWpMiqdiarE4JC+1mshc4aXPJVMsat6mgbozJpKUtlSPTYI2R2zQMdF+sOZcQPOQVl1kv15hVsEuIhDhK57oxajCu950+NfFpBgkDbQnBka64TqvNP9U8ToMe+TW4MN67TULu9IWyy05SHYk+f1P5raJXEmNqi0dGutcO38ZM2irE/Sn8m5Ty+T/ohirc2LIH6beLlK39Io2ROUlW9l7pCQZxfcrM8u2927GUKJHSwExr8SfVG7rUvkHLB6raJnRbQ1tGMTOhT+ZiaqprRNJJUuFYw4tOpeMBhGui3uMaS2+FGylNOuQIOTJfmLvJyol3QFiSXj9tFHrSHCY3W4JhlLxQcdr7TIycE+iVj2I8t2/LYKF9L53WT/XHuc0s+Wrqb1Z4hQLLs+KuFH3SzunwN/SqKGV9445kMAP1ODeFTqGCvkqaNpjSU2FwaPS+Fvcubea1cZfXBLf3gyAF7S0ZiWc3OdfxQD0+STlMrSjD+S3lQ1KYw0jmvhhQVEgH8tcmFPeeCeHv7SF6l4eYY394fnLNn8Z3y9T/OlOa4AWZHbjcnwbnOA7Z2/keXLblkSqUmVpvuQU4EpnYByZocp6L0yQ=
+    name: _Pvp_Master_606
+    uuid: 96ae8ca0-7789-4ac0-bde8-6c48fc70387e
+    traits:
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+      gravity:
+        enabled: false
+      location:
+        world: Creative
+        x: '-179.1007'
+        y: '81.0'
+        z: '179.0137'
+        yaw: '-2.5201950073242188'
+        pitch: '0.0'
+      type: PLAYER
+    traitnames: inventory,spawned,lookclose,mounttrait,gravity,location,type,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '100':
+    name: QuanTuan
+    uuid: 017514d2-cffa-4c4c-afb2-9549e38f7a38
+    traits:
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+      gravity:
+        enabled: false
+      location:
+        world: Creative
+        x: '-173.5612'
+        y: '70.0'
+        z: '174.0352'
+        yaw: '-43.24247741699219'
+        pitch: '0.0'
+      type: PLAYER
+    traitnames: inventory,spawned,lookclose,mounttrait,gravity,location,type,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '99':
+    name: MiniTecno
+    uuid: aa7a7f6d-8052-4e84-b4c1-683dec0e4af4
+    traits:
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+      gravity:
+        enabled: false
+      location:
+        world: Creative
+        x: '-169.7036'
+        y: '70.0'
+        z: '170.942'
+        yaw: '10.619064331054688'
+        pitch: '0.0'
+      type: PLAYER
+    traitnames: inventory,spawned,lookclose,mounttrait,gravity,location,type,equipment
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '98':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1MjgwNjE5NTc2MDIsInByb2ZpbGVJZCI6IjA2OWE3OWY0NDRlOTQ3MjZhNWJlZmNhOTBlMzhhYWY1IiwicHJvZmlsZU5hbWUiOiJOb3RjaCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkyMDA5YTQ5MjViNThmMDJjNzdkYWRjM2VjZWYwN2VhNGM3NDcyZjY0ZTBmZGMzMmNlNTUyMjQ4OTM2MjY4MCJ9fX0=
+      cached-skin-uuid-name: notch
+      cached-skin-uuid: 069a79f4-44e9-4726-a5be-fca90e38aaf5
+      player-skin-signature: CaV+gHt4uGArAUCGzVH3CNBcUxMfqLSR0Z42q+O13HjXYBoRJtgRO72+y1nlewr3Keh1ClBYrGcZTg2te/zibnaFlFb3CbA0ltSifEDWisSwY88Dd6tqtzMspxunWSPUhBoUTf2bYOfnG6TjmikAdW4lZLDob9QC2gRCxQZjq9u9IPFB7XCaS60etcy3HyZNqXRk8d+eYf55Ssf/EoEM78o5Hb5Fh5c4k4iukQene5DO3UcpaftNWSR6uWHnGV6AmR49c6ffNOp0kGcyx1xn4RvR2DaTjCJ5i2/w7fJ4PNBs+d+Z+d6PUInJn6a13k3m14AQJxYMiZ5zHFpj1THh5d2ZrHehtikTQK4N0xVbCG/IO2d5OgrLtFny7r4N8VJjAfBPqyCnbzg/ijLzv5oSM4Dc8WrxATFSSG/hxzQz19h6uG5TGBefDwmMkJ9hqyGIHoaLzC4py8aWlP9zyQ1CifW1yJhq1lJIdOEp2Ulqq/3YkN5IVk8f+WBZf2Z3L2e0uJhTg/5JsyDrRLAz9zP+m/I4kS6HsZC37t5iy82A5AEjN4fJdwVmrju6X5OB/nNo1F9PXoRHDmOEkgzm6uXdlaeEAb59fMyy++ZhRD3YuHnSDXAF2BKhWIumRiu3eTnr10vASvq4HrtOKkifcv/ZpmQmVgtjohS5R9wDZallv1w=
+    name: notch
+    uuid: c44df788-d995-460a-901d-6355855d952c
+    traits:
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        realisticlooking: false
+      gravity:
+        enabled: false
+      location:
+        world: Creative
+        x: '-167.6852'
+        y: '63.8532'
+        z: '168.8149'
+        yaw: '58.077911376953125'
+        pitch: '0.0'
+      type: PLAYER
       owner:
         owner: server
         uuid: ''
