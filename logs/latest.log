@@ -3870,3 +3870,65 @@ Source: https://github.com/Scarsz/DiscordSRV
 [14:15:17] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.15.0.1
 [14:15:17] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.8
 [14:15:17] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[14:15:18] [Server thread/INFO]: [GriefPrevention] 26 total claims loaded.
+[14:15:18] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[14:15:18] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[14:15:18] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[14:15:18] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[14:15:18] [Server thread/INFO]: [CustomTab] Enabling CustomTab v1.1
+[14:15:18] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
+[14:15:18] [Server thread/INFO]: [HolographicDisplays] Found ProtocolLib, using new version.
+[14:15:18] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[14:15:19] [Server thread/INFO]: Done (18.226s)! For help, type "help" or "?"
+[14:15:19] [Server thread/INFO]: Using default channel type
+[14:15:19] [Server thread/INFO]: Timings Reset
+[14:15:19] [Craft Scheduler Thread - 37/INFO]: [Vivecraft] Version: 1.12.X-r7
+[14:15:19] [Craft Scheduler Thread - 23/INFO]: [Marriage] Purged 0 player entries in 11ms
+[14:15:19] [Craft Scheduler Thread - 37/INFO]: [Vivecraft] Checking for update...
+[14:15:19] [Craft Scheduler Thread - 13/WARN]: [PlugMan] Plugin PlugMan v1.8.1 generated an exception while executing task 28
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at com.ryanclancy000.plugman.utilities.MetricsLite.postPlugin(MetricsLite.java:261) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite.access$300(MetricsLite.java:48) ~[?:?]
+	at com.ryanclancy000.plugman.utilities.MetricsLite$1.run(MetricsLite.java:153) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[14:15:19] [Craft Scheduler Thread - 16/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[14:15:19] [Craft Scheduler Thread - 37/INFO]: [Vivecraft] VSE is up to date!
+[14:15:19] [Craft Scheduler Thread - 12/INFO]: [Wild] There is an update available please go download it
+[14:15:20] [Craft Scheduler Thread - 30/INFO]: 
+[14:15:20] [Server thread/INFO]: (FAWE) Plugin 'WorldGuard' found. Using it now.
+[14:15:20] [Server thread/INFO]: (FAWE) Plugin 'GriefPrevention' found. Using it now.
+[14:15:20] [Server thread/INFO]: (FAWE) Optimizing PlotSquared
+[14:15:20] [Server thread/INFO]: (FAWE)  - QueueProvider: class com.boydti.fawe.regions.general.plot.FaweLocalBlockQueue
+[14:15:20] [Server thread/INFO]: (FAWE)  - HybridPlotManager.REGENERATIVE_CLEAR: false
+[14:15:20] [Server thread/INFO]: (FAWE)  - SchematicHandler: com.boydti.fawe.regions.general.plot.FaweSchematicHandler@133ca2e3
+[14:15:20] [Server thread/INFO]: (FAWE)  - ChunkManager: com.boydti.fawe.regions.general.plot.FaweChunkManager@3ac4b2b
+[14:15:20] [Server thread/INFO]: (FAWE) Plugin 'PlotSquared' found. Using it now.
+[14:15:20] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[14:15:20] [Server thread/INFO]: [ViaVersion] Enabling PaperSpigot/TacoSpigot patch: Fixes block placement.
+[14:15:20] [Server thread/INFO]: [Citizens] Loaded 18 NPCs.
+[14:15:21] [Craft Scheduler Thread - 33/INFO]: [Vault] Checking for Updates ... 
+[14:15:21] [Server thread/INFO]: Starting UUID caching
+[14:15:21] [Craft Scheduler Thread - 20/INFO]: [P2] Starting player data caching for: Survival
+[14:15:21] [Craft Scheduler Thread - 33/INFO]: [Vault] No new version available
+[14:15:21] [Craft Scheduler Thread - 20/INFO]: Fast mode UUID caching enabled!
+[14:15:21] [Craft Scheduler Thread - 20/INFO]: [P2] Cached a total of: 12 UUIDs
+[14:15:22] [Craft Scheduler Thread - 19/INFO]: [iDisguise] An update is available: iDisguise 5.7.3
+[14:15:22] [Craft Scheduler Thread - 19/INFO]: [iDisguise] You can enable automatic updates in the config file.
+[14:15:22] [Craft Scheduler Thread - 5/INFO]: (FAWE) Updated FAWE to 18.05.25-4049014-1138-20.1.8 @ null
+[14:15:22] [Craft Scheduler Thread - 5/INFO]: (FAWE) /restart to update FAWE with these changes: /fawe changelog or https://empcraft.com/fawe/cl?2ec9a92
+[14:15:24] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
