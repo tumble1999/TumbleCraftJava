@@ -15,16 +15,19 @@ settings:
   debug: false
   save-user-cache-on-stop-only: false
   sample-count: 12
-  user-cache-size: 1000
+  filter-creative-items: true
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-multiplier: 10.0
+  player-shuffle: 0
   bungeecord: false
+  user-cache-size: 1000
+  int-cache-limit: 1024
   item-dirty-ticks: 20
   timeout-time: 60
   restart-on-crash: true
   restart-script: START.bat
   netty-threads: 4
   late-bind: true
-  player-shuffle: 0
-  int-cache-limit: 1024
   attribute:
     maxHealth:
       max: 2048.0
@@ -32,9 +35,6 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  moved-wrongly-threshold: 0.0625
-  filter-creative-items: true
-  moved-too-quickly-multiplier: 10.0
 messages:
   whitelist: |
     &c[&eTumbleCraft&c]
@@ -84,6 +84,7 @@ messages:
     &7Website: &b&nhttp://tumblecraft.tumblenet.ga
 commands:
   tab-complete: 0
+  silent-commandblock-console: false
   log: true
   spam-exclusions:
   - /skill
@@ -92,14 +93,13 @@ commands:
   - summon
   - testforblock
   - tellraw
-  silent-commandblock-console: false
-stats:
-  disable-saving: false
-  forced-stats: {}
 advancements:
   disable-saving: false
   disabled:
   - minecraft:story/disabled
+stats:
+  disable-saving: false
+  forced-stats: {}
 world-settings:
   default:
     verbose: true
