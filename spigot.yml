@@ -15,19 +15,18 @@ settings:
   debug: false
   save-user-cache-on-stop-only: false
   sample-count: 12
-  moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   filter-creative-items: true
-  int-cache-limit: 1024
-  late-bind: true
-  bungeecord: false
+  moved-wrongly-threshold: 0.0625
   player-shuffle: 0
   user-cache-size: 1000
   item-dirty-ticks: 20
+  bungeecord: false
+  late-bind: true
+  int-cache-limit: 1024
   timeout-time: 60
   restart-on-crash: true
   restart-script: START.bat
-  netty-threads: 4
   attribute:
     maxHealth:
       max: 2048.0
@@ -35,6 +34,7 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  netty-threads: 4
 messages:
   whitelist: |
     &c[&eTumbleCraft&c]
@@ -85,14 +85,14 @@ messages:
 commands:
   tab-complete: 0
   silent-commandblock-console: false
+  log: true
+  spam-exclusions:
+  - /skill
   replace-commands:
   - setblock
   - summon
   - testforblock
   - tellraw
-  log: true
-  spam-exclusions:
-  - /skill
 advancements:
   disable-saving: false
   disabled:
