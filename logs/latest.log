@@ -375,3 +375,132 @@
 [11:30:32] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
 [11:30:32] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
 [11:30:32] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[11:30:32] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
+[11:30:32] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
+[11:30:32] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.4.8 enabled.
+[11:30:32] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.15.0.1
+[11:30:32] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.8
+[11:30:32] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[11:30:32] [Server thread/INFO]: [GriefPrevention] 26 total claims loaded.
+[11:30:32] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[11:30:32] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[11:30:32] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[11:30:32] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[11:30:32] [Server thread/INFO]: [CustomTab] Enabling CustomTab v1.1
+[11:30:32] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
+[11:30:32] [Server thread/INFO]: [HolographicDisplays] Found ProtocolLib, using new version.
+[11:30:32] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[11:30:32] [Server thread/INFO]: Done (6.496s)! For help, type "help" or "?"
+[11:30:32] [Server thread/INFO]: Using default channel type
+[11:30:33] [Server thread/INFO]: Timings Reset
+[11:30:33] [Craft Scheduler Thread - 12/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[11:30:33] [Craft Scheduler Thread - 31/INFO]: [Vivecraft] Version: 1.12.X-r7
+[11:30:33] [Craft Scheduler Thread - 19/INFO]: [Marriage] Purged 0 player entries in 6ms
+[11:30:33] [Craft Scheduler Thread - 31/INFO]: [Vivecraft] Checking for update...
+[11:30:33] [Craft Scheduler Thread - 31/INFO]: [Vivecraft] VSE is up to date!
+[11:30:33] [Craft Scheduler Thread - 26/INFO]: 
+[11:30:33] [Server thread/INFO]: (FAWE) Plugin 'WorldGuard' found. Using it now.
+[11:30:33] [Server thread/INFO]: (FAWE) Plugin 'GriefPrevention' found. Using it now.
+[11:30:33] [Server thread/INFO]: (FAWE) Optimizing PlotSquared
+[11:30:33] [Server thread/INFO]: (FAWE)  - QueueProvider: class com.boydti.fawe.regions.general.plot.FaweLocalBlockQueue
+[11:30:33] [Server thread/INFO]: (FAWE)  - HybridPlotManager.REGENERATIVE_CLEAR: false
+[11:30:33] [Server thread/INFO]: (FAWE)  - SchematicHandler: com.boydti.fawe.regions.general.plot.FaweSchematicHandler@1c0b662c
+[11:30:33] [Server thread/INFO]: (FAWE)  - ChunkManager: com.boydti.fawe.regions.general.plot.FaweChunkManager@46f44172
+[11:30:33] [Server thread/INFO]: (FAWE) Plugin 'PlotSquared' found. Using it now.
+[11:30:33] [Craft Scheduler Thread - 8/INFO]: [Wild] There is an update available please go download it
+[11:30:33] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[11:30:33] [DiscordSRV - Initialization/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 3 commits! Get the latest build at your favorite distribution center.
+
+Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
+Bukkit Dev: http://dev.bukkit.org/bukkit-plugins/discordsrv/
+Source: https://github.com/Scarsz/DiscordSRV
+
+[11:30:33] [Server thread/INFO]: [ViaVersion] Enabling PaperSpigot/TacoSpigot patch: Fixes block placement.
+[11:30:33] [Craft Scheduler Thread - 9/INFO]: [PlugMan] No update was found.
+[11:30:33] [Server thread/INFO]: [Citizens] Loaded 18 NPCs.
+[11:30:33] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
+[11:30:33] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Language initialized as English
+[11:30:33] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Thank you so much to these people for allowing DiscordSRV to grow to what it is: Ac3dUd3, Androkai, anton8604, buildblox, Bysokar, CoreyD97, DeeKay, Diamondman121314/DMAN, FataL, Foxy, geekhideout, Helmic, KaizenWorlds, LDSG Ghost, Mick, mikedmd, mikedmd again, Mitecraft, PChard, Rui, Ryan (The Loyal One), Sicnus
+[11:30:34] [Server thread/INFO]: Starting UUID caching
+[11:30:34] [Craft Scheduler Thread - 8/INFO]: [P2] Starting player data caching for: Survival
+[11:30:34] [Craft Scheduler Thread - 8/INFO]: Fast mode UUID caching enabled!
+[11:30:34] [Craft Scheduler Thread - 8/INFO]: [P2] Cached a total of: 12 UUIDs
+[11:30:34] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
+[11:30:34] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[11:30:34] [Craft Scheduler Thread - 26/INFO]: [iDisguise] An update is available: iDisguise 5.7.3
+[11:30:34] [Craft Scheduler Thread - 26/INFO]: [iDisguise] You can enable automatic updates in the config file.
+[11:30:34] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[11:30:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Tumble Network(337887798889545728)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcome(338025080317804544)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:about(338019443319898114)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:veteran-info(447716163703668746)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:announcements(338020007684472842)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff-announcements(442100419968106536)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:faq(447716822318579712)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:rolelist(448203816051933224)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(337887798889545728)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:veteran-announcements(448439972463378443)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:veteran-party(447193853556948992)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff(437304351011110912)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:commands(449352504421908502)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:off-topic(338023793333239809)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:advertising(452781738176020480)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:suggestions(437656067002859520)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:help(447061766913130496)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft(434064099257745409)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblecraft-console(434064718110392346)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:paf-reciever(447107525637177345)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mrbiscuits1(447810197138702336)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblegamer6140(447927711915048970)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:yabokukami(448761661273145354)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:god1981(449353154488696862)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:rose7511(451762793226436633)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:sarcastic-dragon0440(451856331436064768)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:deadsilunce9883(452168218044268555)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:meeting(450615406982463488)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:music(452265460910653450)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tweet-log(338020659303153675)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:application-log(448433048820908042)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server-log(452067374611431424)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:color-standard(453173104965845000)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:TumbleCraft Beta(441158487939088385)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcome(441162275869687810)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:info(441162541398228992)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:anouncements(448528934552993792)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:discord-anouncements(443497296118677535)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:faq(448206484749287424)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:discord-tips(449170559285329930)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(441158487939088387)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ideas-and-suggesions(452858727045922817)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:story-writers(441158598937018370)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:world-painters(441978597851529217)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:builders(441158656042467328)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:3d-modeling(444225595505639445)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:resource-pack(449162422696280074)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:music(449162437367955458)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:log(449192291173793793)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:test(452946518941630465)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:developers(441255364026040331)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:developer-log(448468608251592716)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft-chat(448478605299810311)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft-console(448481261749534720)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mojang-status(448491976602419200)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:git-log(448523850980786176)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:tumblecraft-console(434064718110392346)
+[11:30:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
+[11:30:36] [Craft Scheduler Thread - 2/INFO]: (FAWE) Updated FAWE to 18.05.25-4049014-1138-20.1.8 @ null
+[11:30:36] [Craft Scheduler Thread - 2/INFO]: (FAWE) /restart to update FAWE with these changes: /fawe changelog or https://empcraft.com/fawe/cl?2ec9a92
+[11:30:37] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
