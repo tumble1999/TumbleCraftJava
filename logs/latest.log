@@ -370,3 +370,22 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [02:44:20] [Server thread/INFO]: [Staff+] Staff+ is now auto saving...
 [02:45:17] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
 [02:46:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[02:47:13] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[02:47:33] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[02:47:33] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[02:47:33] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[02:47:48] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)...
+[02:47:48] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[02:47:50] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[02:48:16] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 4s
+[02:48:18] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[02:48:20] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[02:48:41] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 8s
+[02:48:49] [JDA MainWS-WriteThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[02:48:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[02:48:53] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)... Appending session to reconnect queue
+[02:48:53] [SessionControllerAdapter-Worker/WARN]: [DiscordSRV] [JDA] Queue is attempting to reconnect a shard...
+[02:48:53] [SessionControllerAdapter-Worker/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[02:48:55] [SessionControllerAdapter-Worker/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[02:49:03] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[02:49:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished (Re)Loading!
