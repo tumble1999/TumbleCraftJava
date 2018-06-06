@@ -2180,3 +2180,84 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
 [22:34:09] [Craft Scheduler Thread - 2369/INFO]: 
+[22:37:14] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[22:38:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:39:30] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:39:51] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[22:40:16] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[22:43:17] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[22:46:19] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[22:46:34] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:46:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Helper] Sebatron (Triple_Craft_2): Hello Everyone
+There Is A New Server In Town Called
+                                                PROMOTE (Beta)
+In This Discord Server You Can:
+:ballot_box_with_check: Advertise Your Discord
+:ballot_box_with_check: Advertise Your Youtube Channel
+:ballot_box_with_check: Advertise Your Twitch
+:ballot_box_with_check: And Advertise Other Thing
+[22:46:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Dyno] TumbleMod: @Sebatron (TripleCraft2) No invite links.
+[22:46:39] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] 10008: Unknown Message
+[22:46:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#general] [Helper] Sebatron (Triple_Craft_2): i
+[22:47:14] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:47:34] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[22:49:15] [Craft Scheduler Thread - 2383/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:49:15] [Craft Scheduler Thread - 2388/INFO]: 
+[22:49:20] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[22:54:17] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[22:54:57] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[22:55:17] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[22:55:22] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[22:56:32] [User Authenticator #14/INFO]: UUID of player spacemangreg81 is af107eba-f1bb-48de-8a3d-6cc39534eabe
+[22:56:32] [Server thread/INFO]: spacemangreg81[/172.72.135.74:56702] logged in with entity id 1215763 at ([Survival]132.5, 86.0, 547.5)
+[22:56:33] [Server thread/INFO]: +spacemangreg81
+[22:56:33] [pool-18-thread-1/INFO]: [Essentials] Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\af107eba-f1bb-48de-8a3d-6cc39534eabe.yml
+[22:56:33] [Server thread/INFO]: spacemangreg81 has made the advancement [Getting an Upgrade]
+[22:56:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [TG] TumbleGamer: hello
+[22:57:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [#minecraft] [TG] TumbleGamer: who ever you are, im an owner.
+[22:57:52] [User Authenticator #15/INFO]: UUID of player TumbleGamer is 554a961a-0908-428d-bf07-a1568d0d8547
+[22:57:52] [Server thread/INFO]: [DiscordSRV] Player TumbleGamer joined with silent joining permission, not sending a join message
+[22:57:52] [Server thread/INFO]: TumbleGamer[/82.44.12.229:58656] logged in with entity id 1219612 at ([Survival]112.75563904572016, 70.0, 549.3184695987045)
+[22:57:52] [Server thread/INFO]: +[Owner] TumbleGamer
+[22:57:53] [Server thread/INFO]: [Vivecraft] NONVR[Owner] TumbleGamer
+[22:58:02] [Server thread/INFO]: TumbleGamer issued server command: /gmc
+[22:58:08] [Server thread/INFO]: [Owner] TumbleGamer: hello
+[22:58:23] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[22:59:01] [Server thread/INFO]: spacemangreg81: Hey
+[22:59:20] [Server thread/INFO]: spacemangreg81: I'm #AlaskaFire#5128
+[22:59:49] [Server thread/INFO]: [Owner] TumbleGamer: oh, hello
+[23:00:01] [Server thread/INFO]: [Owner] TumbleGamer: do /discord link to sync names
+[23:00:50] [Server thread/INFO]: TumbleGamer issued server command: /v
+[23:00:54] [Server thread/INFO]: TumbleGamer issued server command: /tpo spacemangreg81
+[23:01:24] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[23:01:32] [Server thread/INFO]: spacemangreg81 issued server command: /discord link
+[23:01:33] [Server thread/INFO]: spacemangreg81: Thanks
+[23:02:00] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[23:02:11] [Server thread/INFO]: spacemangreg81: Linked it
+[23:02:40] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[23:02:43] [Server thread/INFO]: spacemangreg81 lost connection: Disconnected
+[23:02:43] [Server thread/INFO]: -spacemangreg81
+[23:03:00] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[23:04:20] [Craft Scheduler Thread - 2406/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[23:04:21] [Craft Scheduler Thread - 2411/INFO]: 
+[23:04:25] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
