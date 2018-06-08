@@ -207,3 +207,353 @@
 [14:49:28] [Server thread/INFO]: [HeadDrops] Enabling HeadDrops v2.0
 [14:49:28] [Server thread/INFO]: [INFO] [TrollCommands++] Enabling support for BungeeCord.
 [14:49:29] [Thread-12/WARN]: [HeadDrops] Updater: Could not compare versions.
+[14:49:31] [Server thread/INFO]: [INFO]   _______        _ _  _____                                          _                 
+[14:49:31] [Server thread/INFO]: [INFO]  |__   __|      | | |/ ____|                                        | |      _     _   
+[14:49:31] [Server thread/INFO]: [INFO]     | |_ __ ___ | | | |     ___  _ __ ___  _ __ ___   __ _ _ __   __| |___ _| |_ _| |_ 
+[14:49:31] [Server thread/INFO]: [INFO]     | | '__/ _ \| | | |    / _ \| '_ ` _ \| '_ ` _ \ / _` | '_ \ / _` / __|_   _|_   _|
+[14:49:31] [Server thread/INFO]: [INFO]     | | | | (_) | | | |___| (_) | | | | | | | | | | | (_| | | | | (_| \__ \ |_|   |_|  
+[14:49:31] [Server thread/INFO]: [INFO]     |_|_|  \___/|_|_|\_____\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_|___/            
+[14:49:31] [Server thread/INFO]: [INFO] [Version 6.28.53] 98 commands 124 events 104 permissions 30 tick handlers 1 message handlers
+[14:49:31] [Server thread/INFO]: [INFO] [TrollCommands++] Attempting to load compatibility with Bukkit version 1.12.2
+[14:49:31] [Server thread/INFO]: [Vivecraft] Enabling Vivecraft-Spigot-Extensions v1.12.X-r7
+[14:49:31] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[14:49:31] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[14:49:31] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[14:49:31] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[14:49:31] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[14:49:31] [Server thread/INFO]: [PlayerNameSigns] Enabling PlayerNameSigns v1.0
+[14:49:31] [Server thread/INFO]: [PlayerNameSigns] PlayerNameSigns Enabled
+[14:49:31] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.4.8
+[14:49:31] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[14:49:31] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[14:49:31] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[14:49:31] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
+[14:49:31] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
+[14:49:31] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.4.8 enabled.
+[14:49:31] [Server thread/INFO]: [Announcements] Enabling Announcements v1.0
+[14:49:31] [Server thread/INFO]: [Announcements] Hello.
+[14:49:31] [Server thread/INFO]: [StaffPlus] Enabling StaffPlus v3.2.5.1
+[14:49:31] [Server thread/INFO]: [APIManager] API class 'org.inventivetalent.packetlistener.PacketListenerAPI' is not yet initialized. Creating new instance.
+[14:49:31] [Server thread/INFO]: [ReflectionHelper] Version is v1_12_R1 (11201)
+[14:49:31] [Server thread/INFO]: [PacketListenerAPI] Using INChannel
+[14:49:31] [Server thread/WARN]: java.lang.NoSuchFieldException: list
+[14:49:31] [Server thread/WARN]: 	at java.lang.Class.getDeclaredField(Unknown Source)
+[14:49:31] [Server thread/WARN]: 	at org.inventivetalent.packetlistener.channel.ChannelAbstract.addServerChannel(ChannelAbstract.java:69)
+[14:49:31] [Server thread/WARN]: 	at org.inventivetalent.packetlistener.ChannelInjector.addServerChannel(ChannelInjector.java:55)
+[14:49:31] [Server thread/WARN]: 	at org.inventivetalent.packetlistener.PacketListenerAPI.load(PacketListenerAPI.java:32)
+[14:49:31] [Server thread/WARN]: 	at org.inventivetalent.apihelper.APIManager.registerAPI(APIManager.java:46)
+[14:49:31] [Server thread/WARN]: 	at org.inventivetalent.apihelper.APIManager.initAPI(APIManager.java:117)
+[14:49:31] [Server thread/WARN]: 	at net.shortninja.staffplus.StaffPlus.onEnable(StaffPlus.java:104)
+[14:49:31] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[14:49:31] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316)
+[14:49:31] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+[14:49:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395)
+[14:49:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344)
+[14:49:31] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442)
+[14:49:31] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403)
+[14:49:31] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341)
+[14:49:31] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:292)
+[14:49:31] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616)
+[14:49:31] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[14:49:31] [Server thread/INFO]: [PacketListenerAPI] Injected custom channel handlers.
+[14:49:31] [Server thread/INFO]: [PacketListenerAPI] Adding channels for online players...
+[14:49:31] [Server thread/INFO]: [Staff+] Version protocol set to 'v1_12_R1'.
+[14:49:31] [Server thread/INFO]: [Staff+] Staff+ has been enabled! Initialization took 322ms.
+[14:49:31] [Server thread/INFO]: [Staff+] Plugin created by Shortninja.
+[14:49:31] [Server thread/INFO]: [CustomTab] Enabling CustomTab v1.1
+[14:49:31] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.7;dd00bb1
+[14:49:32] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[14:49:32] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R1 as the Bukkit adapter
+[14:49:32] [Server thread/INFO]: [Essentials] Enabling Essentials v2.15.0.1
+[14:49:32] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[14:49:32] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[14:49:32] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[14:49:32] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[14:49:32] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[14:49:32] [Server thread/INFO]: [Essentials] Using locale en_GB
+[14:49:32] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[14:49:32] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:49:32] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[14:49:32] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[14:49:32] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v1.11.5
+[14:49:32] [Server thread/INFO]: [PerWorldInventory] Registering listeners...
+[14:49:32] [Server thread/INFO]: [PerWorldInventory] Listeners registered!
+[14:49:32] [Server thread/INFO]: [PerWorldInventory] Registering commands...
+[14:49:32] [Server thread/INFO]: [PerWorldInventory] Commands registered!
+[14:49:32] [Server thread/INFO]: [PerWorldInventory] Vault found! Hooking into it...
+[14:49:32] [Server thread/INFO]: [PerWorldInventory] Hooked into Vault!
+[14:49:32] [Server thread/INFO]: [Marriage] Enabling Marriage v2.0.18
+[14:49:32] [Server thread/INFO]: [Marriage] Loading config...
+[14:49:32] [Server thread/INFO]: [Marriage] Hooked with PermissionsEx using Vault!
+[14:49:32] [Server thread/INFO]: [Marriage] Loading dependencies...
+[14:49:32] [Server thread/INFO]: [Marriage] Loading database...
+[14:49:32] [Server thread/INFO]: [Marriage] Loading commands...
+[14:49:32] [Server thread/INFO]: [Marriage] Loading listeners...
+[14:49:33] [Server thread/INFO]: [Marriage] Hooking with PlotSquared v18.06.06-442513b-2002
+[14:49:33] [Server thread/INFO]: [Marriage] Loading updater...
+[14:49:33] [Server thread/INFO]: [Marriage] Loading converter...
+[14:49:33] [Server thread/INFO]: [Marriage] Completed plugin load stage.
+[14:49:33] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b719
+[14:49:33] [Server thread/INFO]: [P2]  - schematic: false
+[14:49:33] [Server thread/INFO]: -------- World Settings For [Creative] --------
+[14:49:33] [Server thread/INFO]: View Distance: 10
+[14:49:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:49:33] [Server thread/INFO]: Item Merge Radius: 3.5
+[14:49:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:49:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:49:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:49:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:49:33] [Server thread/INFO]: Experience Merge Radius: 6.0
+[14:49:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:49:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:49:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 3
+[14:49:33] [Server thread/INFO]: Structure Info Saving: true
+[14:49:33] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[14:49:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:49:33] [Server thread/INFO]: Mob Spawn Range: 3
+[14:49:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Max TNT Explosions: 100
+[14:49:33] [Server thread/INFO]: Random Lighting Updates: false
+[14:49:33] [Server thread/INFO]: [P2] Detected world load for 'Creative'
+[14:49:33] [Server thread/INFO]: [P2]  - generator: PlotSquared>PlotSquared
+[14:49:33] [Server thread/INFO]: [P2]  - plotworld: com.intellectualcrafters.plot.generator.HybridPlotWorld
+[14:49:33] [Server thread/INFO]: [P2]  - manager: com.intellectualcrafters.plot.generator.HybridPlotManager
+[14:49:33] [Server thread/INFO]: [P2]  - schematic: false
+[14:49:33] [Server thread/INFO]: World possibly already loaded: Creative
+[14:49:33] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6330577853313346332)
+[14:49:33] [Server thread/INFO]: [P2]  - schematic: false
+[14:49:33] [Server thread/INFO]: -------- World Settings For [DrCraft] --------
+[14:49:33] [Server thread/INFO]: View Distance: 10
+[14:49:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:49:33] [Server thread/INFO]: Item Merge Radius: 3.5
+[14:49:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:49:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:49:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:49:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:49:33] [Server thread/INFO]: Experience Merge Radius: 6.0
+[14:49:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:49:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:49:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 3
+[14:49:33] [Server thread/INFO]: Structure Info Saving: true
+[14:49:33] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[14:49:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:49:33] [Server thread/INFO]: Mob Spawn Range: 3
+[14:49:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:49:33] [Server thread/INFO]: Max TNT Explosions: 100
+[14:49:33] [Server thread/INFO]: Random Lighting Updates: false
+[14:49:34] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
+[14:49:34] [Server thread/INFO]: Preparing start region for level 2 (Seed: 1406291257435953756)
+[14:49:34] [Server thread/INFO]: -------- World Settings For [Staff] --------
+[14:49:34] [Server thread/INFO]: View Distance: 10
+[14:49:34] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:49:34] [Server thread/INFO]: Item Merge Radius: 3.5
+[14:49:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:49:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:49:34] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[14:49:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:49:34] [Server thread/INFO]: Experience Merge Radius: 6.0
+[14:49:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[14:49:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:49:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 3
+[14:49:34] [Server thread/INFO]: Structure Info Saving: true
+[14:49:34] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[14:49:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:49:34] [Server thread/INFO]: Mob Spawn Range: 3
+[14:49:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:49:34] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:49:34] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:49:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:49:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:49:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:49:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:49:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:49:34] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:49:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:49:34] [Server thread/INFO]: Max TNT Explosions: 100
+[14:49:34] [Server thread/INFO]: Random Lighting Updates: false
+[14:49:34] [Server thread/INFO]: BukkitPlotGenerator does not fully support: null
+[14:49:34] [Server thread/INFO]: Preparing start region for level 3 (Seed: -8624399134769984105)
+[14:49:34] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[14:49:34] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b719 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
+[14:49:34] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.1;84bc322
+[14:49:34] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
+[14:49:34] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
+[14:49:34] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is blocked.
+[14:49:34] [Server thread/INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
+[14:49:34] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
+[14:49:34] [Server thread/INFO]: [WorldGuard] (Creative) TNT ignition is PERMITTED.
+[14:49:34] [Server thread/INFO]: [WorldGuard] (Creative) Lighters are PERMITTED.
+[14:49:34] [Server thread/INFO]: [WorldGuard] (Creative) Lava fire is blocked.
+[14:49:34] [Server thread/INFO]: [WorldGuard] (Creative) Fire spread is UNRESTRICTED.
+[14:49:34] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Creative'
+[14:49:34] [Server thread/INFO]: [WorldGuard] (DrCraft) TNT ignition is PERMITTED.
+[14:49:34] [Server thread/INFO]: [WorldGuard] (DrCraft) Lighters are PERMITTED.
+[14:49:34] [Server thread/INFO]: [WorldGuard] (DrCraft) Lava fire is blocked.
+[14:49:34] [Server thread/INFO]: [WorldGuard] (DrCraft) Fire spread is UNRESTRICTED.
+[14:49:34] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'DrCraft'
+[14:49:34] [Server thread/INFO]: [WorldGuard] (Staff) TNT ignition is PERMITTED.
+[14:49:34] [Server thread/INFO]: [WorldGuard] (Staff) Lighters are PERMITTED.
+[14:49:34] [Server thread/INFO]: [WorldGuard] (Staff) Lava fire is blocked.
+[14:49:34] [Server thread/INFO]: [WorldGuard] (Staff) Fire spread is UNRESTRICTED.
+[14:49:34] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Staff'
+[14:49:34] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:49:35] [Server thread/INFO]: [Vote] Enabling Vote v2.0.1
+[14:49:35] [Server thread/INFO]: [LOG]  [Vote] Has been enabled!
+[14:49:35] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.22-SNAPSHOT (build 1537)
+[14:49:35] [Server thread/INFO]: [Sentinel] Enabling Sentinel v1.4.5 (build 155)
+[14:49:35] [Server thread/INFO]: [Sentinel] Sentinel loading...
+[14:49:35] [Server thread/INFO]: [Sentinel] Sentinel loaded!
+[14:49:35] [Server thread/INFO]: [Sentinel] Vault linked! Group targets will work.
+[14:49:35] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4
+[14:49:35] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.16.2
+[14:49:35] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v1.2.4
+[14:49:35] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.15.0.1
+[14:49:35] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.0.5
+[14:49:38] [DiscordSRV - Initialization/WARN]: [DiscordSRV] 
+
+The current build of DiscordSRV is outdated by 3 commits! Get the latest build at your favorite distribution center.
+
+Spigot: https://www.spigotmc.org/resources/discordsrv.18494/
+Bukkit Dev: http://dev.bukkit.org/bukkit-plugins/discordsrv/
+Source: https://github.com/Scarsz/DiscordSRV
+
+[14:49:39] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[14:49:39] [Server thread/INFO]: [SuperVanish] Hooked into Citizens
+[14:49:39] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.15.0.1
+[14:49:39] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.8
+[14:49:39] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[14:49:40] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Language initialized as English
+[14:49:40] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Thank you so much to these people for allowing DiscordSRV to grow to what it is: Ac3dUd3, Androkai, anton8604, buildblox, Bysokar, CoreyD97, DeeKay, Diamondman121314/DMAN, FataL, Foxy, geekhideout, Helmic, KaizenWorlds, LDSG Ghost, Mick, mikedmd, mikedmd again, Mitecraft, PChard, Rui, Ryan (The Loyal One), Sicnus
+[14:49:40] [Server thread/INFO]: [GriefPrevention] 23 total claims loaded.
+[14:49:40] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[14:49:40] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[14:49:40] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[14:49:40] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[14:49:40] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.2.6
+[14:49:40] [Server thread/INFO]: [HolographicDisplays] Found ProtocolLib, using new version.
+[14:49:40] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[14:49:40] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[14:49:41] [Server thread/INFO]: Done (14.746s)! For help, type "help" or "?"
+[14:49:41] [Server thread/INFO]: Using default channel type
+[14:49:41] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[14:49:41] [Server thread/INFO]: Timings Reset
+[14:49:41] [Craft Scheduler Thread - 19/INFO]: [Marriage] Purged 0 player entries in 5ms
+[14:49:41] [Craft Scheduler Thread - 30/INFO]: [Vivecraft] Version: 1.12.X-r7
+[14:49:41] [Craft Scheduler Thread - 30/INFO]: [Vivecraft] Checking for update...
+[14:49:41] [Craft Scheduler Thread - 12/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[14:49:41] [Craft Scheduler Thread - 30/INFO]: [Vivecraft] VSE is up to date!
+[14:49:42] [Craft Scheduler Thread - 8/INFO]: [Wild] There is an update available please go download it
+[14:49:42] [Craft Scheduler Thread - 26/INFO]: 
+[14:49:42] [Craft Scheduler Thread - 9/INFO]: [PlugMan] No update was found.
+[14:49:42] [Server thread/INFO]: (FAWE) Plugin 'WorldGuard' found. Using it now.
+[14:49:42] [Server thread/INFO]: (FAWE) Plugin 'GriefPrevention' found. Using it now.
+[14:49:42] [Server thread/INFO]: (FAWE) Optimizing PlotSquared
+[14:49:42] [Server thread/INFO]: (FAWE)  - QueueProvider: class com.boydti.fawe.regions.general.plot.FaweLocalBlockQueue
+[14:49:42] [Server thread/INFO]: (FAWE)  - HybridPlotManager.REGENERATIVE_CLEAR: false
+[14:49:42] [Server thread/INFO]: (FAWE)  - SchematicHandler: com.boydti.fawe.regions.general.plot.FaweSchematicHandler@d00e5ec
+[14:49:42] [Server thread/INFO]: (FAWE)  - ChunkManager: com.boydti.fawe.regions.general.plot.FaweChunkManager@520fc8f0
+[14:49:42] [Server thread/INFO]: (FAWE) Plugin 'PlotSquared' found. Using it now.
+[14:49:42] [Server thread/INFO]: [Citizens] Loaded 18 NPCs.
+[14:49:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Tumble Network(337887798889545728)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcome(338025080317804544)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:about(338019443319898114)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:veteran-info(447716163703668746)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:announcements(338020007684472842)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff-announcements(442100419968106536)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:faq(447716822318579712)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:rolelist(448203816051933224)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:veteran-announcements(448439972463378443)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:color-standard(453173104965845000)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(337887798889545728)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:veteran-party(447193853556948992)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff(437304351011110912)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:commands(449352504421908502)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:off-topic(338023793333239809)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:advertising(452781738176020480)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:suggestions(437656067002859520)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:help(447061766913130496)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft(434064099257745409)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblecraft-console(434064718110392346)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:paf-reciever(447107525637177345)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mrbiscuits1(447810197138702336)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tumblegamer6140(447927711915048970)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:yabokukami(448761661273145354)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:god1981(449353154488696862)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:rose7511(451762793226436633)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:sarcastic-dragon0440(451856331436064768)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:deadsilunce9883(452168218044268555)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mrdoomi0144(453512016414638101)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:alaskafire5128(454294091023515649)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:meeting(450615406982463488)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:music(452265460910653450)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:tweet-log(338020659303153675)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:application-log(454044135465287695)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:interview-log(448433048820908042)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server-log(452067374611431424)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:TumbleCraft Beta(441158487939088385)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:welcome(441162275869687810)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:info(441162541398228992)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:anouncements(448528934552993792)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:discord-anouncements(443497296118677535)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:faq(448206484749287424)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:discord-tips(449170559285329930)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(441158487939088387)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ideas-and-suggesions(452858727045922817)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:story-writers(441158598937018370)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:world-painters(441978597851529217)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:builders(441158656042467328)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:3d-modeling(444225595505639445)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:resource-pack(449162422696280074)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:music(449162437367955458)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:log(449192291173793793)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:test(452946518941630465)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:developers(441255364026040331)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:developer-log(448468608251592716)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft-chat(448478605299810311)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft-console(448481261749534720)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mojang-status(448491976602419200)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:git-log(448523850980786176)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:tumblecraft-console(434064718110392346)
+[14:49:43] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
+[14:49:43] [Craft Scheduler Thread - 27/INFO]: [Vault] Checking for Updates ... 
+[14:49:43] [Server thread/INFO]: Starting UUID caching
+[14:49:43] [Craft Scheduler Thread - 30/INFO]: [P2] Starting player data caching for: Survival
+[14:49:43] [Craft Scheduler Thread - 30/INFO]: Fast mode UUID caching enabled!
+[14:49:43] [Craft Scheduler Thread - 30/INFO]: [P2] Cached a total of: 12 UUIDs
+[14:49:43] [Craft Scheduler Thread - 6/INFO]: Updated PlotSquared to 18.06.07-740de49-2003
+[14:49:43] [Craft Scheduler Thread - 6/INFO]: Restart to update PlotSquared with these changes: /plot changelog or http://empcraft.com/plots/cl?442513b
+[14:49:43] [Craft Scheduler Thread - 27/INFO]: [Vault] No new version available
+[14:49:44] [Craft Scheduler Thread - 33/INFO]: [iDisguise] An update is available: iDisguise 5.7.3
+[14:49:44] [Craft Scheduler Thread - 33/INFO]: [iDisguise] You can enable automatic updates in the config file.
+[14:49:46] [Craft Scheduler Thread - 1/INFO]: (FAWE) Updated FAWE to 18.06.07-eaedd54-1140-20.1.10 @ null
+[14:49:46] [Craft Scheduler Thread - 1/INFO]: (FAWE) /restart to update FAWE with these changes: /fawe changelog or https://empcraft.com/fawe/cl?2ec9a92
+[14:49:46] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
