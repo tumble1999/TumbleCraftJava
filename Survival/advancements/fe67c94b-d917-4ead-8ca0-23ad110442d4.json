@@ -77,6 +77,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_stone": "2018-06-09 19:58:31 +0100"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_chicken": "2018-06-09 19:51:16 +0100"
@@ -92,6 +98,12 @@
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2018-06-09 19:53:50 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2018-06-09 19:55:50 +0100"
     },
     "done": true
   },
@@ -121,6 +133,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "forest": "2018-06-09 19:56:46 +0100",
       "plains": "2018-06-09 19:44:46 +0100",
       "jungle_edge": "2018-06-09 19:45:26 +0100",
       "jungle": "2018-06-09 19:45:09 +0100"
