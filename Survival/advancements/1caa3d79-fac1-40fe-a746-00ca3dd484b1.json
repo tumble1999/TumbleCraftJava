@@ -480,6 +480,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2018-06-09 20:20:45 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2018-06-09 19:56:42 +0100",
@@ -692,6 +698,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_at_least_9_lapis": "2018-06-09 20:16:15 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_at_least_9_redstone": "2018-06-09 20:13:29 +0100"
@@ -737,6 +749,12 @@
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_cocoa": "2018-06-09 19:52:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_the_recipe": "2018-06-09 20:16:15 +0100"
     },
     "done": true
   },
