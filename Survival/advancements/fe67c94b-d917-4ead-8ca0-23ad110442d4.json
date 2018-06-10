@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2018-06-10 22:11:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2018-06-09 20:43:46 +0100"
@@ -104,6 +110,12 @@
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2018-06-09 21:09:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stonebrick": {
+    "criteria": {
+      "has_mossy_cobblestone": "2018-06-10 22:10:44 +0100"
     },
     "done": true
   },
@@ -317,6 +329,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2018-06-10 22:11:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2018-06-10 22:00:39 +0100"
@@ -425,6 +443,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2018-06-10 22:10:44 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2018-06-10 22:00:39 +0100"
@@ -446,6 +470,18 @@
   "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2018-06-09 21:09:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2018-06-10 22:11:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_string": "2018-06-10 22:11:01 +0100"
     },
     "done": true
   },
@@ -527,6 +563,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2018-06-09 19:56:46 +0100",
+      "forest_hills": "2018-06-10 22:15:17 +0100",
       "plains": "2018-06-09 19:44:46 +0100",
       "jungle_edge": "2018-06-09 19:45:26 +0100",
       "jungle": "2018-06-09 19:45:09 +0100"
