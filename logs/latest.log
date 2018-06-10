@@ -1538,3 +1538,68 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [16:22:08] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [16:22:28] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
 [16:22:53] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[16:25:49] [Craft Scheduler Thread - 8459/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:25:50] [Craft Scheduler Thread - 8465/INFO]: 
+[16:25:54] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[16:28:55] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[16:29:10] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:29:50] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:30:10] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:31:56] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[16:34:57] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[16:36:52] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:37:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:37:53] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:40:23] [User Authenticator #20/INFO]: UUID of player DrBatmanWho is 019c39a2-24ce-4563-b04b-c094c9bee042
+[16:40:23] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho joined with silent joining permission, not sending a join message
+[16:40:23] [Server thread/INFO]: DrBatmanWho[/82.41.40.145:54698] logged in with entity id 2244199 at ([Survival]22744.569909137543, 68.0, 19432.508918645035)
+[16:40:23] [Server thread/INFO]: +[Owner] DrBatmanWho
+[16:40:54] [Craft Scheduler Thread - 8478/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[16:40:54] [Craft Scheduler Thread - 8484/INFO]: 
+[16:40:59] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[16:42:54] [Server thread/INFO]: DrBatmanWho issued server command: /tpo DrBatmanWho
+[16:43:17] [Server thread/INFO]: DrBatmanWho issued server command: /home tumblegamer home
+[16:43:26] [Server thread/INFO]: DrBatmanWho issued server command: /home TumbleGamer: home
+[16:43:34] [Server thread/INFO]: DrBatmanWho issued server command: /home TumbleGamer:home
+[16:44:00] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[16:44:07] [Server thread/INFO]: DrBatmanWho issued server command: /spawn
+[16:44:35] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:45:16] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:45:26] [Server thread/INFO]: DrBatmanWho issued server command: /g v
+[16:45:28] [Server thread/INFO]: DrBatmanWho issued server command: /gm c
+[16:45:36] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[16:45:56] [Server thread/INFO]: DrBatmanWho issued server command: /spawn doctorcraft
+[16:46:03] [Server thread/INFO]: DrBatmanWho issued server command: /home
+[16:46:10] [Server thread/INFO]: DrBatmanWho issued server command: /home drcraft_spawn
+[16:46:10] [Server thread/INFO]: [Essentials] Found new UUID for DrBatmanWho. Replacing 019c39a2-24ce-4563-b04b-c094c9bee042 with ebe41bdc-624b-2d28-ba95-6c7d62c680f1
+[16:46:43] [Server thread/INFO]: DrBatmanWho issued server command: /back
+[16:46:57] [Server thread/INFO]: DrBatmanWho issued server command: /gm c
+[16:47:01] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[16:47:46] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[16:47:46] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[16:47:46] [Server thread/INFO]: -[Owner] DrBatmanWho
+[16:50:02] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[16:52:18] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[16:52:58] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[16:53:03] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[16:53:18] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
