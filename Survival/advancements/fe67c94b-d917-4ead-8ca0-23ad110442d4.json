@@ -209,6 +209,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2018-06-10 22:40:23 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_at_least_9_coal": "2018-06-09 19:53:08 +0100"
@@ -230,6 +236,12 @@
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2018-06-09 20:13:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2018-06-10 22:38:43 +0100"
     },
     "done": true
   },
@@ -563,10 +575,14 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2018-06-09 19:56:46 +0100",
+      "beaches": "2018-06-10 22:40:07 +0100",
       "forest_hills": "2018-06-10 22:15:17 +0100",
       "plains": "2018-06-09 19:44:46 +0100",
       "jungle_edge": "2018-06-09 19:45:26 +0100",
-      "jungle": "2018-06-09 19:45:09 +0100"
+      "taiga": "2018-06-10 22:37:39 +0100",
+      "taiga_hills": "2018-06-10 22:37:25 +0100",
+      "jungle": "2018-06-09 19:45:09 +0100",
+      "river": "2018-06-10 22:40:27 +0100"
     },
     "done": false
   },
@@ -776,6 +792,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "zombie_villager": "2018-06-10 22:39:36 +0100",
       "skeleton": "2018-06-09 20:25:55 +0100",
       "zombie": "2018-06-09 19:49:49 +0100"
     },
