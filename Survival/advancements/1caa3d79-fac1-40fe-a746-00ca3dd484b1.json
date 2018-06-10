@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_the_recipe": "2018-06-10 22:44:39 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/snow": {
     "criteria": {
       "has_snowball": "2018-06-10 21:49:22 +0100"
@@ -336,6 +342,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_at_least_9_wheat": "2018-06-10 22:44:39 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2018-06-09 19:43:31 +0100"
@@ -604,6 +616,8 @@
     "criteria": {
       "skeleton": "2018-06-09 19:50:01 +0100",
       "zombie": "2018-06-09 20:24:33 +0100",
+      "witch": "2018-06-10 22:43:08 +0100",
+      "spider": "2018-06-10 22:43:20 +0100",
       "creeper": "2018-06-09 19:50:05 +0100"
     },
     "done": false
@@ -1057,6 +1071,12 @@
   "minecraft:recipes/decorations/light_blue_banner": {
     "criteria": {
       "has_light_blue_wool": "2018-06-10 22:08:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2018-06-10 22:43:15 +0100"
     },
     "done": true
   },
