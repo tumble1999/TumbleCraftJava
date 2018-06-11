@@ -143,6 +143,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_the_recipe": "2018-06-11 04:56:02 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2018-04-08 01:30:27 +0100"
@@ -935,6 +941,12 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2018-04-26 12:58:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_at_least_9_redstone": "2018-06-11 04:56:02 +0100"
     },
     "done": true
   },
