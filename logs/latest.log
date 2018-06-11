@@ -6252,3 +6252,178 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [04:53:12] [Server thread/INFO]: KoiDoi: 80, 21186, 17823
 [04:54:19] [Server thread/INFO]: KoiDoi issued server command: /home
 [04:54:28] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[04:55:23] [Server thread/INFO]: _Pvp_Master_606 issued server command: /tpo KoiDoi
+[04:55:43] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode s
+[04:55:49] [Server thread/INFO]: KoiDoi issued server command: /hi there
+[04:55:52] [Server thread/INFO]: KoiDoi: hi there
+[04:55:53] [Server thread/INFO]: [Helper] _Pvp_Master_606: hi
+[04:56:07] [Server thread/INFO]: KoiDoi: i was continuing it for you
+[04:56:13] [Server thread/INFO]: KoiDoi: i needed cobble XD
+[04:56:22] [Server thread/INFO]: [Helper] _Pvp_Master_606: xD
+[04:56:31] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode 1
+[04:56:44] [Server thread/INFO]: KoiDoi issued server command: /oh thnks
+[04:56:50] [Server thread/INFO]: KoiDoi: thanks man
+[04:56:52] [Server thread/INFO]: [Helper] _Pvp_Master_606: yw
+[04:56:55] [Server thread/INFO]: KoiDoi issued server command: /home
+[04:57:24] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[04:57:29] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[04:57:30] [Netty Server IO #2/WARN]: java.io.IOException: An existing connection was forcibly closed by the remote host
+[04:57:30] [Netty Server IO #2/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[04:57:30] [Netty Server IO #2/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[04:57:30] [Netty Server IO #2/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[04:57:30] [Netty Server IO #2/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[04:57:30] [Netty Server IO #2/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[04:57:30] [Netty Server IO #2/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[04:57:30] [Netty Server IO #2/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[04:57:30] [Netty Server IO #2/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[04:57:30] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:126)
+[04:57:30] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[04:57:30] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[04:57:30] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[04:57:30] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[04:57:30] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:886)
+[04:57:30] [Netty Server IO #2/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[04:57:30] [Server thread/INFO]: _Pvp_Master_606 lost connection: Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host
+[04:57:30] [Server thread/INFO]: -[Helper] _Pvp_Master_606
+[04:57:50] [User Authenticator #43/INFO]: UUID of player _Pvp_Master_606 is 6e97e76b-23c0-4745-80b2-b64cef10e602
+[04:57:50] [Server thread/INFO]: _Pvp_Master_606[/98.29.147.129:52158] logged in with entity id 2913292 at ([Survival]21159.802348522677, 85.3193342491849, 17836.547930422676)
+[04:57:50] [Server thread/INFO]: +[Helper] _Pvp_Master_606
+[04:57:54] [Server thread/INFO]: KoiDoi has made the advancement [Acquire Hardware]
+[04:58:04] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[04:58:07] [Server thread/INFO]: KoiDoi has made the advancement [Isn't It Iron Pick]
+[04:58:24] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode 1
+[04:58:25] [Server thread/INFO]: [ClearLag] Removed 9 Entities!
+[04:58:30] [User Authenticator #43/INFO]: UUID of player HoiDoi is 1caa3d79-fac1-40fe-a746-00ca3dd484b1
+[04:58:30] [Server thread/INFO]: HoiDoi[/98.176.184.214:50809] logged in with entity id 2913911 at ([Survival]21182.93344366714, 86.0, 17825.75195937826)
+[04:58:30] [Server thread/INFO]: +HoiDoi
+[04:58:45] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode s
+[04:58:56] [Server thread/INFO]: HoiDoi lost connection: Disconnected
+[04:58:56] [Server thread/INFO]: -HoiDoi
+[05:00:25] [Craft Scheduler Thread - 9681/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[05:00:26] [Craft Scheduler Thread - 9687/INFO]: 
+[05:00:36] [Server thread/INFO]: KoiDoi issued server command: /gamerule keepInventory
+[05:00:52] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode 1
+[05:01:09] [Server thread/INFO]: KoiDoi issued server command: /home
+[05:01:29] [Server thread/INFO]: KoiDoi issued server command: /home
+[05:01:47] [Server thread/INFO]: DoiHoi issued server command: /abandonclaim
+[05:02:27] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode s
+[05:02:33] [Server thread/INFO]: KoiDoi issued server command: /home
+[05:02:44] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode 1
+[05:02:57] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode s
+[05:03:08] [Server thread/INFO]: KoiDoi has made the advancement [Best Friends Forever]
+[05:03:31] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[05:05:07] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[05:05:24] [Server thread/INFO]: KoiDoi has made the advancement [Monster Hunter]
+[05:05:47] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[05:05:49] [Server thread/INFO]: KoiDoi issued server command: /home
+[05:06:07] [Server thread/INFO]: [ClearLag] Removed 8 Entities!
+[05:06:25] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode 1
+[05:06:32] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[05:06:46] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode s
+[05:08:05] [Server thread/INFO]: DoiHoi issued server command: /abandonclaim
+[05:08:24] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode 1
+[05:08:35] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode s
+[05:08:51] [Server thread/INFO]: KoiDoi issued server command: /home
+[05:08:53] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode 1
+[05:09:02] [Server thread/INFO]: KoiDoi lost connection: Disconnected
+[05:09:02] [Server thread/INFO]: -KoiDoi
+[05:09:18] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode s
+[05:09:33] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[05:10:37] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode 1
+[05:11:55] [User Authenticator #44/INFO]: UUID of player HoiDoi is 1caa3d79-fac1-40fe-a746-00ca3dd484b1
+[05:11:56] [Server thread/INFO]: HoiDoi[/98.176.184.214:50875] logged in with entity id 2927590 at ([Survival]21181.96103260225, 90.5, 17836.283106349318)
+[05:11:56] [Server thread/INFO]: +HoiDoi
+[05:12:02] [Server thread/INFO]: HoiDoi: hey guys
+[05:12:06] [Server thread/INFO]: [Helper] _Pvp_Master_606: hey
+[05:12:10] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode s
+[05:12:34] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[05:12:41] [Server thread/INFO]: DoiHoi issued server command: /sethome
+[05:12:49] [Server thread/INFO]: DoiHoi issued server command: /kit claim
+[05:12:49] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[05:13:04] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode 1
+[05:13:21] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode s
+[05:13:30] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[05:13:50] [Server thread/INFO]: [ClearLag] Removed 3 Entities!
+[05:13:57] [Server thread/INFO]: HoiDoi: hi man
+[05:14:00] [Server thread/INFO]: [Helper] _Pvp_Master_606: hi
+[05:14:09] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode 1
+[05:14:29] [Server thread/INFO]: DoiHoi issued server command: /abandonclaim
+[05:14:55] [Server thread/INFO]: DoiHoi issued server command: /trust HoiDoi
+[05:15:03] [Server thread/INFO]: HoiDoi issued server command: /rtp
+[05:15:16] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode s
+[05:15:30] [Craft Scheduler Thread - 9718/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[05:15:30] [Craft Scheduler Thread - 9721/INFO]: [Marriage] Purged 0 player entries in 1ms
+[05:15:31] [Craft Scheduler Thread - 9725/INFO]: 
+[05:15:35] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[05:15:54] [Server thread/INFO]: HoiDoi: hey man ive given this a lot of thought, and I was thinking
+[05:16:52] [Server thread/INFO]: [Helper] _Pvp_Master_606: DoiHoi can u hit me real quick
+[05:17:04] [Server thread/INFO]: [Helper] _Pvp_Master_606: ...
+[05:17:16] [Server thread/INFO]: DoiHoi: Let's go down
+[05:17:19] [Server thread/INFO]: HoiDoi: The houses that me and DoiHoi have are sticking to a theme right? and your base kind of... goes agaisnt that theme, so what I was thinking was taking down your house, and me helping and giving you tips on making another one that fits the theme
+[05:17:35] [Server thread/INFO]: HoiDoi: would that be ok?
+[05:17:56] [Server thread/INFO]: HoiDoi: im not trying to come off as a jerk, if thats how it sounds
+[05:18:18] [Server thread/INFO]: [Helper] _Pvp_Master_606: um
+[05:18:21] [Server thread/INFO]: [Helper] _Pvp_Master_606: ....
+[05:18:25] [Server thread/INFO]: DoiHoi: thorns
+[05:18:30] [Server thread/INFO]: [Helper] _Pvp_Master_606: ye
+[05:18:39] [Server thread/INFO]: HoiDoi: would that be ok with you?
+[05:18:40] [Server thread/INFO]: [Helper] _Pvp_Master_606: how much damage it do
+[05:18:50] [Server thread/INFO]: DoiHoi issued server command: /lemme do it again
+[05:18:54] [Server thread/INFO]: [Helper] _Pvp_Master_606: idk how ur gonna make bedrock go away but ok
+[05:19:01] [Server thread/INFO]: HoiDoi: arent you in creative?
+[05:19:08] [Server thread/INFO]: [Helper] _Pvp_Master_606: im in survival
+[05:19:09] [Server thread/INFO]: [Helper] _Pvp_Master_606: xD
+[05:19:13] [Server thread/INFO]: [Helper] _Pvp_Master_606: its survival
+[05:19:20] [Server thread/INFO]: HoiDoi: but then where did you get the bedrock?
+[05:19:25] [Server thread/INFO]: [Helper] _Pvp_Master_606: ./i
+[05:19:43] [Server thread/INFO]: HoiDoi issued server command: /i
+[05:19:43] [Server thread/INFO]: [Essentials] HoiDoi was denied access to command.
+[05:19:49] [Server thread/INFO]: HoiDoi: huh
+[05:20:02] [Server thread/INFO]: _Pvp_Master_606 issued server command: /i
+[05:20:02] [Server thread/INFO]: [Essentials] _Pvp_Master_606 was denied access to command.
+[05:20:03] [Server thread/INFO]: HoiDoi: alright I can get someone to take care of the bedrock
+[05:20:06] [Server thread/INFO]: HoiDoi: in the mean time
+[05:20:12] [Server thread/INFO]: HoiDoi: I can get started on your house
+[05:20:14] [Server thread/INFO]: HoiDoi: that sound good
+[05:20:22] [Server thread/INFO]: [Helper] _Pvp_Master_606: i think i have gamemode 1 in survival
+[05:20:32] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[05:20:34] [Server thread/INFO]: [Helper] _Pvp_Master_606: idk
+[05:20:36] [Server thread/INFO]: _Pvp_Master_606 issued server command: /gamemode 1
+[05:20:38] [Server thread/INFO]: [Helper] _Pvp_Master_606: i do
+[05:20:39] [Server thread/INFO]: HoiDoi: alright
+[05:20:40] [Server thread/INFO]: [Helper] _Pvp_Master_606: ....
+[05:20:52] [Server thread/INFO]: [Helper] _Pvp_Master_606: want me to destroy the Whole house
+[05:20:57] [Server thread/INFO]: HoiDoi: ...
+[05:21:01] [Server thread/INFO]: HoiDoi: yes
+[05:21:12] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[05:21:17] [Server thread/INFO]: HoiDoi: We can make a really good one though
+[05:21:29] [Server thread/INFO]: HoiDoi issued server command: /home
+[05:21:32] [Server thread/INFO]: [ClearLag] Removed 14 Entities!
+[05:21:37] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[05:23:37] [Server thread/INFO]: [Helper] _Pvp_Master_606: done
+[05:23:42] [Server thread/INFO]: HoiDoi: cool
+[05:23:52] [Server thread/INFO]: HoiDoi: im working on making a 2 part house
+[05:24:28] [Server thread/INFO]: DoiHoi issued server command: /tpaccept
+[05:24:32] [Server thread/INFO]: DoiHoi issued server command: /tpa HoiDoi
+[05:24:35] [Server thread/INFO]: HoiDoi issued server command: /tpaccept
+[05:24:38] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
