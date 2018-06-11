@@ -748,6 +748,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2018-06-11 03:15:39 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2018-06-09 19:53:50 +0100"
@@ -872,7 +878,8 @@
     "criteria": {
       "zombie_villager": "2018-06-10 22:39:36 +0100",
       "skeleton": "2018-06-09 20:25:55 +0100",
-      "zombie": "2018-06-09 19:49:49 +0100"
+      "zombie": "2018-06-09 19:49:49 +0100",
+      "spider": "2018-06-11 03:15:15 +0100"
     },
     "done": false
   },
