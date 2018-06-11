@@ -1,7 +1,25 @@
 {
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2018-06-11 04:46:37 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2018-06-11 04:44:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2018-06-11 04:46:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2018-06-11 04:46:37 +0100"
     },
     "done": true
   },
@@ -26,6 +44,89 @@
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2018-06-11 04:44:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2018-06-11 04:46:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2018-06-11 04:46:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_chicken": "2018-06-11 04:47:33 +0100"
+    },
+    "done": false
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2018-06-11 04:44:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2018-06-11 04:44:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2018-06-11 04:44:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2018-06-11 04:44:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2018-06-11 04:44:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wooden_slab": {
+    "criteria": {
+      "has_planks": "2018-06-11 04:46:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2018-06-11 04:40:56 +0100",
+      "beaches": "2018-06-11 04:37:24 +0100",
+      "plains": "2018-06-11 04:34:48 +0100",
+      "jungle_edge": "2018-06-11 04:40:25 +0100",
+      "taiga": "2018-06-11 04:37:43 +0100",
+      "jungle": "2018-06-11 04:37:47 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2018-06-11 04:46:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapdoor": {
+    "criteria": {
+      "has_planks": "2018-06-11 04:46:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2018-06-11 04:47:33 +0100"
     },
     "done": true
   },
@@ -77,27 +178,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2018-06-11 04:46:37 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2018-06-11 04:44:28 +0100"
     },
     "done": true
   },
-  "minecraft:story/mine_stone": {
+  "minecraft:recipes/misc/coal": {
     "criteria": {
-      "get_stone": "2018-06-11 04:44:28 +0100"
+      "has_the_recipe": "2018-06-11 04:49:17 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_andesite": {
+  "minecraft:recipes/misc/stick": {
     "criteria": {
-      "has_stone": "2018-06-11 04:44:30 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2018-06-11 04:44:28 +0100"
+      "has_planks": "2018-06-11 04:46:37 +0100"
     },
     "done": true
   },
@@ -107,15 +208,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_at_least_9_coal": "2018-06-11 04:49:17 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/boat": {
     "criteria": {
       "entered_water": "2018-06-11 04:43:24 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/furnace": {
+  "minecraft:recipes/decorations/sign": {
     "criteria": {
-      "has_cobblestone": "2018-06-11 04:44:28 +0100"
+      "has_planks": "2018-06-11 04:46:37 +0100"
     },
     "done": true
   },
@@ -125,27 +232,10 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs": {
-    "criteria": {
-      "has_cobblestone": "2018-06-11 04:44:28 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "entered_water": "2018-06-11 04:43:24 +0100"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "forest": "2018-06-11 04:40:56 +0100",
-      "beaches": "2018-06-11 04:37:24 +0100",
-      "plains": "2018-06-11 04:34:48 +0100",
-      "jungle_edge": "2018-06-11 04:40:25 +0100",
-      "taiga": "2018-06-11 04:37:43 +0100",
-      "jungle": "2018-06-11 04:37:47 +0100"
-    },
-    "done": false
   }
 }
