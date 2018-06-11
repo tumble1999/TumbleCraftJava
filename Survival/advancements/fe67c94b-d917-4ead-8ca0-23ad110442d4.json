@@ -299,6 +299,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2018-06-11 03:05:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/golden_rail": {
+    "criteria": {
+      "has_rail": "2018-06-11 03:05:56 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2018-06-10 22:00:39 +0100"
@@ -479,6 +491,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2018-06-11 03:09:37 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2018-06-10 22:00:39 +0100"
@@ -607,6 +625,7 @@
       "forest": "2018-06-09 19:56:46 +0100",
       "birch_forest": "2018-06-10 22:43:28 +0100",
       "beaches": "2018-06-10 22:40:07 +0100",
+      "extreme_hills_with_trees": "2018-06-11 03:05:18 +0100",
       "forest_hills": "2018-06-10 22:15:17 +0100",
       "plains": "2018-06-09 19:44:46 +0100",
       "jungle_edge": "2018-06-09 19:45:26 +0100",
@@ -708,6 +727,12 @@
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_sand": "2018-06-09 19:46:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2018-06-11 03:09:37 +0100"
     },
     "done": true
   },
@@ -828,6 +853,12 @@
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2018-06-09 20:43:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2018-06-11 03:05:56 +0100"
     },
     "done": true
   },
