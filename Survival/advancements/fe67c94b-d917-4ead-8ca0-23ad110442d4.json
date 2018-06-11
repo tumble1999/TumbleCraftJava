@@ -323,6 +323,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2018-06-11 02:53:13 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/shield": {
     "criteria": {
       "has_iron_ingot": "2018-06-10 22:00:39 +0100"
@@ -341,15 +347,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/tripwire_hook": {
-    "criteria": {
-      "has_string": "2018-06-10 22:11:01 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2018-06-10 22:00:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2018-06-10 22:11:01 +0100"
     },
     "done": true
   },
@@ -583,6 +589,7 @@
       "savanna": "2018-06-10 22:42:53 +0100",
       "taiga": "2018-06-10 22:37:39 +0100",
       "taiga_hills": "2018-06-10 22:37:25 +0100",
+      "extreme_hills": "2018-06-11 02:50:44 +0100",
       "roofed_forest": "2018-06-10 22:46:10 +0100",
       "jungle": "2018-06-09 19:45:09 +0100",
       "river": "2018-06-10 22:40:27 +0100",
@@ -865,6 +872,12 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2018-06-09 20:13:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_stone": "2018-06-11 02:53:13 +0100"
     },
     "done": true
   },
