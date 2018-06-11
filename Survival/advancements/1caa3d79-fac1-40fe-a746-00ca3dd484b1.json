@@ -245,6 +245,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2018-06-11 02:59:05 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2018-06-09 20:13:05 +0100"
@@ -619,10 +625,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2018-06-11 02:59:05 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "skeleton": "2018-06-09 19:50:01 +0100",
       "zombie": "2018-06-09 20:24:33 +0100",
+      "cave_spider": "2018-06-11 02:58:54 +0100",
       "witch": "2018-06-10 22:43:08 +0100",
       "spider": "2018-06-10 22:43:20 +0100",
       "creeper": "2018-06-09 19:50:05 +0100"
@@ -890,6 +903,12 @@
   "minecraft:recipes/decorations/light_blue_carpet": {
     "criteria": {
       "has_light_blue_wool": "2018-06-10 22:08:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/golden_rail": {
+    "criteria": {
+      "has_rail": "2018-06-11 02:59:05 +0100"
     },
     "done": true
   },
