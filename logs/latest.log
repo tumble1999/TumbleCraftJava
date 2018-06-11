@@ -374,3 +374,68 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [02:38:45] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
 [02:39:20] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
 [02:39:40] [Server thread/INFO]: [ClearLag] Removed 0 Entities!
+[02:41:46] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[02:44:42] [Craft Scheduler Thread - 9408/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:44:42] [Craft Scheduler Thread - 9414/INFO]: 
+[02:44:47] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[02:45:57] [User Authenticator #32/INFO]: UUID of player HoiDoi is 1caa3d79-fac1-40fe-a746-00ca3dd484b1
+[02:45:57] [Server thread/INFO]: HoiDoi[/98.176.184.214:50374] logged in with entity id 2780554 at ([Survival]7627.234060741621, 70.0, 16671.494207296953)
+[02:45:57] [Server thread/INFO]: +HoiDoi
+[02:46:22] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[02:46:24] [Server thread/INFO]: HoiDoi issued server command: /wild
+[02:46:31] [Server thread/INFO]: HoiDoi issued server command: /wild
+[02:46:43] [Server thread/INFO]: HoiDoi issued server command: /wild
+[02:47:02] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[02:47:23] [Server thread/INFO]: [ClearLag] Removed 86 Entities!
+[02:47:35] [Server thread/INFO]: HoiDoi issued server command: /wild
+[02:47:48] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[02:49:48] [User Authenticator #33/INFO]: UUID of player DoiHoi is fe67c94b-d917-4ead-8ca0-23ad110442d4
+[02:49:48] [Server thread/INFO]: DoiHoi[/68.111.219.232:51613] logged in with entity id 2785843 at ([Survival]49392.86505374207, 90.0, 11834.539245988173)
+[02:49:48] [Server thread/INFO]: +DoiHoi
+[02:50:49] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[02:51:41] [Server thread/INFO]: HoiDoi issued server command: /tpa DoiHoi
+[02:51:47] [Server thread/INFO]: DoiHoi issued server command: /tpaccept
+[02:54:05] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[02:54:46] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[02:55:06] [Server thread/INFO]: [ClearLag] Removed 40 Entities!
+[02:56:51] [Server thread/INFO]: [TumbleCraft] Use '/server' to switch between modes
+[02:58:10] [Server thread/INFO]: DoiHoi issued server command: /home
+[02:59:47] [Craft Scheduler Thread - 9436/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:63) ~[PaperSpigot.jar:git-Paper-1383]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [PaperSpigot.jar:git-Paper-1383]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) [PaperSpigot.jar:git-Paper-1383]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_161]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:59:47] [Craft Scheduler Thread - 9442/INFO]: 
+[02:59:52] [Server thread/INFO]: [TumbleCraft] Do '/kit starter' for some starter gear
+[03:00:53] [Server thread/INFO]: DoiHoi issued server command: /tpaccept
+[03:00:56] [Server thread/INFO]: DoiHoi issued server command: /back
+[03:01:48] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[03:02:28] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 20 seconds!
+[03:02:48] [Server thread/INFO]: [ClearLag] Removed 24 Entities!
+[03:02:53] [Server thread/INFO]: [TumbleCraft] Use '/wild' to start your adventure
+[03:04:08] [Server thread/INFO]: DoiHoi issued server command: /home
+[03:04:54] [Server thread/INFO]: DoiHoi issued server command: /tpa HoiDoi
+[03:05:17] [Server thread/INFO]: HoiDoi issued server command: /tpaccept
+[03:05:54] [Server thread/INFO]: [TumbleCraft] Exend your safe area with '/kit claim'.
+[03:08:41] [Server thread/INFO]: HoiDoi issued server command: /tpa Doihoi
+[03:08:55] [Server thread/INFO]: [TumbleCraft] IMPORTANT: Sever will be reset in the coming months. Please stay tuned on '/discord'
+[03:09:07] [Server thread/INFO]: DoiHoi issued server command: /tpaccept
+[03:09:30] [Server thread/INFO]: [ClearLag] Warning Ground items will be removed in 60 seconds!
+[03:09:36] [Server thread/INFO]: HoiDoi issued server command: /home
+[03:09:37] [Server thread/INFO]: DoiHoi has made the advancement [Ice Bucket Challenge]
