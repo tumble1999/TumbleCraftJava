@@ -2,6 +2,7 @@ reload-complete: §6[iDisguise] Reload complete.
 no-permission: §cYou are not allowed to do this.
 console-use-other-command: §cUse /odisguise from the server console.
 cannot-find-player: §cCannot find player %player%.
+cannot-find-entity: §cCannot find valid living entity with EID %id%.
 wrong-usage-no-name: '§cWrong usage: account name required'
 wrong-usage-two-disguise-types: '§cWrong usage: two disguise types given'
 wrong-usage-unknown-arguments: '§cWrong usage: unknown arguments §o%arguments%'
@@ -25,9 +26,10 @@ undisguise-not-disguised-self: §cYou are not disguised.
 undisguise-not-disguised-other: §c%player% is not disguised.
 undisguise-success-self: §6You undisguised.
 undisguise-success-other: §6%player% undisguised.
-undisguise-success-all: §6%share% out of %total% disguised players undisguised.
-undisguise-success-all-ignore: §6Undisguised every disguised player ignoring other
-  plugins.
+undisguise-success-all-online: §6%share% out of %total% online disguised players undisguised.
+undisguise-success-all-offline: §6%share% out of %total% offline disguised players
+  undisguised.
+undisguise-success-all-entities: §6%share% out of %total% disguised entities undisguised.
 help-info: §a%name% %version% - Help
 help-base: §6§o %command% §6- %description%
 help-types: '§7Types: %types%'
@@ -45,7 +47,8 @@ help-see-through-other: Indicate or toggle see-through mode for a player
 help-status-self: Shows your disguise status
 help-status-other: Shows a player's disguise status
 help-undisguise-self: Undisguise yourself
-help-undisguise-all: Undisguise everyone
+help-undisguise-all-new: Undisguise everyone (*), all online players (*o), all players
+  (*p) or all entities (*e)
 help-undisguise-other: Undisguise a player
 help-disguise-self: Disguise yourself as a mob with optional subtypes
 help-disguise-other: Disguise a player as a mob with optional subtypes
@@ -70,3 +73,66 @@ see-through-enable-self: §6See-through mode is now §aenabled §6for you.
 see-through-enable-other: §6See-through mode is now §aenabled §6for %player%.
 see-through-disable-self: §6See-through mode is now §cdisabled §6for you.
 see-through-disable-other: §6See-through mode is now §cdisabled §6for %player%.
+see-through-entity: §cSee-through mode is only for players.
+help-target-title: '§7Target:'
+help-target-uid: §7 <xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx> - Match player by UID
+help-target-eid: §7 [entity-id] - Match entity/player by entity id
+help-target-name-exact: §7 {player-name} - Match player by EXACT name
+help-target-name-match: §7 player-name - Match online player
+disguise-alias-bat: ''
+disguise-alias-blaze: ''
+disguise-alias-cave-spider: cavespider, bluespider, blue-spider
+disguise-alias-chicken: chick
+disguise-alias-cow: cattle, ox
+disguise-alias-creeper: ''
+disguise-alias-donkey: ''
+disguise-alias-elder-guardian: ''
+disguise-alias-ender-dragon: ''
+disguise-alias-enderman: endermen
+disguise-alias-endermite: ''
+disguise-alias-evoker: ''
+disguise-alias-ghast: ''
+disguise-alias-giant: ''
+disguise-alias-guardian: ''
+disguise-alias-horse: ''
+disguise-alias-husk: ''
+disguise-alias-illusioner: ''
+disguise-alias-iron-golem: golem
+disguise-alias-llama: ''
+disguise-alias-magma-cube: magmacube, magma-slime, magmaslime, lava-slime, lavaslime,
+  lava-cube, lavacube
+disguise-alias-mule: ''
+disguise-alias-mushroom-cow: mushroom-cow, mooshroom
+disguise-alias-ocelot: cat
+disguise-alias-parrot: ''
+disguise-alias-pig: ''
+disguise-alias-pig-zombie: pigzombie, pigman, pigmen
+disguise-alias-polar-bear: polarbear, bear
+disguise-alias-rabbit: bunny
+disguise-alias-sheep: ''
+disguise-alias-shulker: ''
+disguise-alias-silverfish: ''
+disguise-alias-skeletal-horse: ''
+disguise-alias-skeleton: ''
+disguise-alias-slime: ''
+disguise-alias-snowman: ''
+disguise-alias-spider: ''
+disguise-alias-squid: ''
+disguise-alias-stray: ''
+disguise-alias-undead-horse: undeadhorse, zombie-horse, zombiehorse
+disguise-alias-vex: ''
+disguise-alias-villager: ''
+disguise-alias-vindicator: ''
+disguise-alias-witch: ''
+disguise-alias-wither: witherboss
+disguise-alias-wither-skeleton: ''
+disguise-alias-wolf: dog
+disguise-alias-zombie: ''
+disguise-alias-zombie-villager: zombievillager, infected-villager, infectedvillager
+disguise-alias-area-effect-cloud: areaeffectcloud, effect-cloud, effectcloud
+disguise-alias-armor-stand: armorstand
+disguise-alias-boat: ''
+disguise-alias-ender-crystal: endercrystal, crystal
+disguise-alias-falling-block: fallingblock, block
+disguise-alias-item: item-stack, itemstack
+disguise-alias-minecart: cart
