@@ -107,6 +107,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2018-06-11 04:33:22 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2018-06-09 20:43:46 +0100"
@@ -509,6 +515,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2018-06-11 04:33:22 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2018-06-10 22:00:39 +0100"
@@ -548,6 +560,12 @@
   "minecraft:recipes/building_blocks/string_to_wool": {
     "criteria": {
       "has_string": "2018-06-10 22:11:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2018-06-11 04:33:22 +0100"
     },
     "done": true
   },
@@ -640,6 +658,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "taiga_cold_hills": "2018-06-11 04:34:07 +0100",
       "forest": "2018-06-09 19:56:46 +0100",
       "birch_forest": "2018-06-10 22:43:28 +0100",
       "beaches": "2018-06-10 22:40:07 +0100",
@@ -650,6 +669,7 @@
       "savanna": "2018-06-10 22:42:53 +0100",
       "taiga": "2018-06-10 22:37:39 +0100",
       "taiga_hills": "2018-06-10 22:37:25 +0100",
+      "taiga_cold": "2018-06-11 04:34:03 +0100",
       "extreme_hills": "2018-06-11 02:50:44 +0100",
       "roofed_forest": "2018-06-10 22:46:10 +0100",
       "jungle": "2018-06-09 19:45:09 +0100",
@@ -802,6 +822,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2018-06-11 04:33:22 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "entered_water": "2018-06-09 19:46:40 +0100"
@@ -829,6 +855,12 @@
   "minecraft:recipes/decorations/jungle_fence": {
     "criteria": {
       "has_planks": "2018-06-10 21:19:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2018-06-11 04:33:22 +0100"
     },
     "done": true
   },
