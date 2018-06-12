@@ -722,15 +722,16 @@ Userdata:
     Favorites: []
     LastOnline: 1528558237833
   fe67c94b-d917-4ead-8ca0-23ad110442d4:
-    Friends: []
-    Requests:
+    Friends:
     - 1caa3d79-fac1-40fe-a746-00ca3dd484b1
+    Requests: []
     Blocked: []
     Options: []
     Favorites: []
     LastOnline: 1528691366415
   1caa3d79-fac1-40fe-a746-00ca3dd484b1:
-    Friends: []
+    Friends:
+    - fe67c94b-d917-4ead-8ca0-23ad110442d4
     Requests: []
     Blocked: []
     Options: []
