@@ -131,6 +131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2018-06-12 01:28:30 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/trapdoor": {
     "criteria": {
       "has_planks": "2018-06-09 21:09:16 +0100"
@@ -815,6 +821,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2018-06-09 19:49:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2018-06-12 01:28:39 +0100"
     },
     "done": true
   },
