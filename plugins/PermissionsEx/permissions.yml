@@ -557,6 +557,8 @@ users:
       Creative:
         group:
         - member
+    permissions:
+    - -modifyworld.blocks.*
   c541f001-3197-482c-9f14-878f3fdaa80e:
     group:
     - helper
