@@ -1,43 +1,43 @@
 Groups:
   owner:
     Permission: nte.owner
-    Prefix: '&4[Owner] &c'
+    Prefix: '&4[O] &c'
     SortPriority: 1
   admin:
     Permission: nte.admin
-    Prefix: '&c[Admin] '
+    Prefix: '&c[A] '
     SortPriority: 2
   employer:
     Permission: nte.employer
-    Prefix: '&c[Employer] '
+    Prefix: '&c[E] '
     SortPriority: 3
   developer:
     Permission: nte.dev
-    Prefix: '&c[Developer] '
+    Prefix: '&c[D] '
     SortPriority: 4
   jrmod:
     Permission: nte.jrmod
-    Prefix: '&a[Jr.Mod] '
+    Prefix: '&a[JM] '
     SortPriority: 5
   mod:
     Permission: nte.mod
-    Prefix: '&2[Mod] &a'
+    Prefix: '&2[M] &a'
     SortPriority: 6
   helper:
     Permission: nte.helper
-    Prefix: '&1[Helper] &9'
+    Prefix: '&1[H] &9'
     SortPriority: 7
   artist:
     Permission: nte.artist
-    Prefix: '&5[Artist]&d '
+    Prefix: '&5[A]&d '
     SortPriority: 8
   builder:
     Permission: nte.builder
-    Prefix: '&6[Builder] &e'
+    Prefix: '&6[B] &e'
     SortPriority: 9
   builder-interview:
     Permission: nte.builder-interview
-    Prefix: '&7[Builder Interviewee] '
+    Prefix: '&7[BI] '
     SortPriority: 10
   vip:
     Permission: nte.vip

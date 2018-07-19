@@ -83,6 +83,8 @@ groups:
     - marry.chatspy
     - multiverse.access.*
     - multiverse.teleport.self.*
+    - essentials.lightning.others
+    - essentials.lightning
     - ab.ban.undo
     - ab.ban.perm
     - nte.mod
@@ -102,8 +104,6 @@ groups:
       rank-ladder: Ranks
       weight: '3'
     permissions:
-    - essentials.lightning.others
-    - essentials.lightning
     - essentials.invsee
     - sv.use
     - essentials.tpohere
@@ -421,6 +421,11 @@ groups:
     - nte.vr
     inheritance:
     - member
+  retired:
+    options:
+      prefix: '&7[Retired] '
+    inheritance:
+    - vip
   jrmod:
     options:
       prefix: '&a[Jr.Mod] '
@@ -449,9 +454,12 @@ users:
         group:
         - member
         - vive.non-vivegroup
+      Survival_nether:
+        group:
+        - member
   9d41cc84-c13a-41c5-b5b2-8456053df895:
     group:
-    - builder
+    - retired
     options:
       name: xValtrux
       last-login-time: '1522862323'
@@ -471,7 +479,7 @@ users:
       last-login-time: '1523119487'
   a8e37e40-b4fe-4a77-ab37-e473b32c8303:
     group:
-    - builder
+    - retired
     options:
       name: Xgk
       last-logout-time: '1523203580'
@@ -501,7 +509,7 @@ users:
     options:
       name: Maxwell_Plays
     group:
-    - builder
+    - retired
   47b29ff7-bff7-461f-8402-748654ebd53a:
     group:
     - mod
@@ -509,12 +517,12 @@ users:
       name: Snouzuless
   dcf20b5a-df89-4555-99a6-fb224bd88079:
     group:
-    - member
+    - retired
     options:
       name: Jakt
   c31593a2-12f8-4abf-b5f9-2670376fd8c9:
     group:
-    - mod
+    - retired
     options:
       name: AbrasiveRose
   554a961a-0908-428d-bf07-a1568d0d8547:
@@ -537,7 +545,7 @@ users:
         - member
   ca34a678-499f-4ce4-a25e-e2232c375865:
     group:
-    - builder
+    - retired
     options:
       name: JJdaGreat
   e88d2137-402d-4c7c-ab30-29c89d5b261f:
@@ -559,13 +567,15 @@ users:
         - member
     permissions:
     - -modifyworld.*
-    - -modifyworld.blocks.place
-    - -modifyworld.blocks.*
   c541f001-3197-482c-9f14-878f3fdaa80e:
     group:
     - helper
     options:
       name: MineRacer_8
+    worlds:
+      Survival:
+        group:
+        - member
   a6ec82c3-f863-4f75-a6ac-d0700e96ffb0:
     group:
     - builder-interview
@@ -637,6 +647,9 @@ users:
       Creative:
         group:
         - member
+      Survival_nether:
+        group:
+        - member
   ed06dfa1-9f6c-4789-93a7-1de5c698f0c4:
     group:
     - dev
@@ -648,11 +661,9 @@ users:
         - member
   8eb786aa-acd3-4f40-aed7-9ae32be91599:
     group:
-    - voter
     - artist
     options:
       name: ItsJustDragon
-      group-voter-until: '1528155238'
   a37ef5f9-c816-4d3f-b204-cad5f5f156ec:
     group:
     - jrmod
@@ -669,16 +680,88 @@ users:
       name: InfaReQt
   1caa3d79-fac1-40fe-a746-00ca3dd484b1:
     group:
-    - vip
+    - jrmod
     options:
       name: HoiDoi
+    worlds:
+      Survival:
+        group:
+        - member
+      Survival_nether:
+        group:
+        - member
+      Creative:
+        group:
+        - member
   fe67c94b-d917-4ead-8ca0-23ad110442d4:
     group:
-    - vip
+    - helper
     options:
       name: DoiHoi
+    worlds:
+      Survival:
+        group:
+        - member
+      Creative:
+        group:
+        - member
   af107eba-f1bb-48de-8a3d-6cc39534eabe:
     group:
     - helper
     options:
       name: spacemangreg81
+    worlds:
+      Survival:
+        group:
+        - member
+  kyeee:
+    group:
+    - mod
+  jacob50505:
+    group:
+    - builder
+  33ee6a10-80cb-4787-8011-762ca13b65a9:
+    options:
+      name: Pqu
+  dc6ad3bc-716c-4550-ae00-b05d60983653:
+    group: []
+    options:
+      name: BurgerKingRules
+    worlds:
+      Survival:
+        group:
+        - member
+      Survival_nether:
+        group:
+        - member
+  194ec8de-7038-4eaf-8e34-7a7966ffa3d8:
+    group:
+    - vip
+    options:
+      name: spike10001
+    worlds:
+      Survival:
+        group:
+        - member
+      Survival_nether:
+        group:
+        - member
+  b5b37fba-58a1-44c9-80e0-c335af4feb1e:
+    group:
+    - vip
+    options:
+      name: XDaddyLongLegsX
+  a6e7d5b9-fbd8-46f1-a878-b4945df7ac6e:
+    group:
+    - builder-interview
+    options:
+      name: linklover26
+    worlds:
+      Creative:
+        group:
+        - member
+  1c47b1b6-f82b-472d-9062-0bcf1bfb49b6:
+    group:
+    - builder-interview
+    options:
+      name: Ned_mo

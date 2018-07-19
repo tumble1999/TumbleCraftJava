@@ -5,7 +5,7 @@ disguise:
    keep-disguise-leave: true
    
    # Do disguised players keep their disguise when you shutdown the server
-   keep-disguise-shutdown: true
+   keep-disguise-shutdown: false
    
    # Modify disguised players' death messages
    # e.g. 'RobinGrether tried to swim in lava' -> 'Notch tried to swim in lava' in case RobinGrether is disguised as a player called Notch
@@ -36,7 +36,7 @@ disguise:
    
    # Show name tags with their original name for disguised players
    # Obviously, this option does NOT affect player disguises.
-   name-tag-shown: false
+   name-tag-shown: true
    
    # Do disguised players sound like actual mobs
    # e.g. a player disguised as a cow moos when he is hurt
