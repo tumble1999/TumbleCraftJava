@@ -83,6 +83,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2018-06-17 22:55:11 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_sand": "2018-04-02 23:05:20 +0100"
@@ -98,6 +104,12 @@
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2018-04-05 17:17:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2018-06-29 16:07:44 +0100"
     },
     "done": true
   },
@@ -345,6 +357,12 @@
   "minecraft:recipes/misc/iron_ingot_from_block": {
     "criteria": {
       "has_the_recipe": "2018-04-04 02:00:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2018-06-19 22:31:39 +0100"
     },
     "done": true
   },
@@ -781,6 +799,7 @@
       "zombie_villager": "2018-04-05 01:06:55 +0100",
       "slime": "2018-04-03 23:58:03 +0100",
       "skeleton": "2018-04-02 23:08:42 +0100",
+      "blaze": "2018-06-19 22:18:06 +0100",
       "zombie": "2018-04-02 23:06:52 +0100",
       "cave_spider": "2018-04-05 00:57:03 +0100",
       "spider": "2018-04-02 23:08:50 +0100",
@@ -798,6 +817,12 @@
   "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
       "has_ender_eye": "2018-05-07 22:12:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2018-06-17 22:55:11 +0100"
     },
     "done": true
   },
@@ -1014,6 +1039,12 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2018-04-04 02:00:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2018-06-19 22:16:50 +0100"
     },
     "done": true
   },
@@ -1317,6 +1348,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2018-06-24 16:35:11 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "zombie": "2018-04-02 23:06:52 +0100"
@@ -1360,6 +1397,7 @@
       "forest_hills": "2018-04-03 23:49:57 +0100",
       "plains": "2018-04-02 23:01:23 +0100",
       "savanna": "2018-04-04 23:19:43 +0100",
+      "jungle_edge": "2018-06-19 22:51:11 +0100",
       "ice_mountains": "2018-04-25 16:34:20 +0100",
       "taiga": "2018-04-02 23:03:31 +0100",
       "taiga_hills": "2018-04-03 23:36:03 +0100",
@@ -1495,6 +1533,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2018-06-29 16:07:44 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2018-04-02 23:26:19 +0100"
@@ -1522,6 +1566,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2018-04-03 23:35:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lit_pumpkin": {
+    "criteria": {
+      "has_pumpkin": "2018-06-29 16:07:44 +0100"
     },
     "done": true
   },
