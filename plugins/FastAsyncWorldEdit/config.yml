@@ -1,23 +1,26 @@
 # These first 6 aren't configurable
 issues: "https://github.com/boy0001/FastAsyncWorldedit/issues"
 wiki: "https://github.com/boy0001/FastAsyncWorldedit/wiki/"
-date: "26 May 2018 23:00:00 GMT"
-build: "https://ci.athion.net/job/FastAsyncWorldEdit/1089"
-commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/2ec9a92"
+date: "14 Aug 2018 23:00:00 GMT"
+build: "https://ci.athion.net/job/FastAsyncWorldEdit/1154"
+commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/7cbb117"
 platform: "bukkit"
 # Options: de, ru, tr
 # Create a PR to contribute a translation: https://github.com/boy0001/FastAsyncWorldedit/new/master/core/src/main/resources
 language: ''
 # Enable or disable automatic updates
-update: true
+#  - true = update automatically in the background
+#  - confirm = prompt an admin to confirm each update
+#  - false = do not update the plugin
+update: "true"
 # Send anonymous usage statistics
 metrics: true
-# FAWE will skip chunks when there's not enough memory available
-prevent-crashes: false
 # Set true to enable WorldEdit restrictions per region (e.g. PlotSquared or WorldGuard).
 # To be allowed to WorldEdit in a region, users need the appropriate
 # fawe.<plugin>  permission. See the Permissions page for supported region plugins.
 region-restrictions: true
+# FAWE will skip chunks when there's not enough memory available
+prevent-crashes: false
 # FAWE will cancel non admin edits when memory consumption exceeds this %
 #  - Bypass with `/wea` or `//fast` or `fawe.bypass`
 #  - Disable with 100 or -1.
@@ -99,13 +102,19 @@ experimental:
   #  - Set your server view distance to 1 (spigot.yml, server.properties)
   #  - Based on tps and player movement
   #  - Please provide feedback
-  dynamic-chunk-rendering: false
+  dynamic-chunk-rendering: -1
   # [SAFE] Allows brushes to be persistent
   persistent-brushes: false
   # [SAFE] Enable CUI without needing the mod installed (Requires ProtocolLib)
   vanilla-cui: false
   # Disable using native libraries
   disable-natives: false
+  # [SAFE] Keep entities that are positioned in non-air blocks when editing an area
+  # Might cause client-side FPS lagg in some situations
+  keep-entities-in-blocks: false
+  # [SAFE] Experimental scripting support for Java 9
+  #  - 
+  modern-craftscripts: false
 
 # This relates to how FAWE places chunks
 queue:
@@ -215,6 +224,8 @@ history:
 paths:
   tokens: "tokens"
   # Put any minecraft or mod jars for FAWE to be aware of block textures
+  patterns: "patterns"
+  masks: "masks"
   textures: "textures"
   heightmap: "heightmap"
   history: "history"
@@ -223,6 +234,13 @@ paths:
   clipboard: "clipboard"
   # Each player has their own sub directory for schematics
   per-player-schematics: true
+
+# Region restriction settings
+region-restrictions-options:
+  # What type of users are allowed to WorldEdit in a region
+  #  - MEMBER = Players added to a region
+  #  - OWNER = Players who own the region
+  mode: "MEMBER"
 # The "default" limit group affects those without a specific limit permission.
 # To grant someone different limits, copy the default limits group
 # and give it a different name (e.g. newbie). Then give the user the limit 

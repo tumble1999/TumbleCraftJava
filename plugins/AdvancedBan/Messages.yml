@@ -229,6 +229,8 @@ ChangeReason:
   NotFound: "&cSorry we have not been able to find this punishment"
 
 Check:
+  BanReason: "  &cReason &8\xbb &7%REASON%"
+  MuteReason: "  &cReason &8\xbb &7%REASON%"
   Usage: "&cUsage &8\xbb &7&o/check [Name]"
   Header: "&7Checking &e&o%NAME%"
   UUID: "&cUUID &8\xbb &7%UUID%"
