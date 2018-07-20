@@ -2449,3 +2449,21 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [07:17:27] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
 [07:17:33] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
 [07:17:33] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[07:17:47] [Craft Scheduler Thread - 829/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[07:17:49] [Craft Scheduler Thread - 834/WARN]: [CrazyAuctions] com.massivestats.MassiveStats was unable to communicate with its API endpoint.
+[07:17:52] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[07:17:53] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[07:17:53] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[07:18:13] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[07:18:13] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[07:18:33] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[07:18:33] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
