@@ -2521,3 +2521,11 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [07:25:09] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
 [07:25:09] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 900s
 [07:25:09] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[07:25:13] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[07:25:13] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[07:25:33] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[07:25:33] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[07:25:53] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[07:25:53] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[07:26:13] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[07:26:13] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
