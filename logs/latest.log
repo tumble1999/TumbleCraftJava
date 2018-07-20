@@ -2313,3 +2313,24 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [07:01:31] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
 [07:01:31] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
 [07:01:43] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[07:01:51] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[07:01:51] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[07:02:03] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[07:02:11] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[07:02:11] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[07:02:31] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] Requester timed out while executing a request
+[07:02:31] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.SocketTimeoutException
+[07:02:41] [Server thread/INFO]: [0;32;22m[Staff+] [0;32;1mStaff+ is now auto saving...[m
+[07:02:44] [Craft Scheduler Thread - 811/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[07:02:44] [Craft Scheduler Thread - 813/INFO]: [Marriage] Purged 0 player entries in 1ms
+[07:02:46] [Craft Scheduler Thread - 817/WARN]: [CrazyAuctions] com.massivestats.MassiveStats was unable to communicate with its API endpoint.
+[07:02:48] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
