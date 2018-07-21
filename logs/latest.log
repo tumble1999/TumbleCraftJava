@@ -1137,3 +1137,63 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [13:19:34] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
 [13:20:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > Cool
 [13:21:10] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[13:21:50] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[13:22:10] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[13:22:35] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[13:25:36] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[13:28:32] [Craft Scheduler Thread - 2925/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[13:28:37] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[13:28:52] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[13:29:32] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[13:29:52] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[13:31:39] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[13:36:36] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[13:37:16] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[13:37:36] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[13:37:41] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[13:40:43] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[13:43:39] [Craft Scheduler Thread - 2944/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[13:43:44] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[13:44:19] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[13:45:00] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[13:45:20] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[13:46:45] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[13:49:46] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[13:52:02] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[13:52:42] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[13:53:02] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[13:55:48] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[13:58:44] [Craft Scheduler Thread - 2960/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[13:58:49] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[13:59:45] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[14:00:25] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[14:00:45] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[14:01:51] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[14:04:52] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
