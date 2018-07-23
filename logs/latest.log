@@ -222,3 +222,102 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [02:36:28] [Server thread/INFO]: [0;37;22m+[0;37;22mEXP[m[m
 [02:36:28] [pool-13-thread-1/INFO]: Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\df60c736-b8a6-44a3-ba44-3ea40e727da4.yml
 [02:36:29] [Server thread/INFO]: EXP has made the advancement [Getting an Upgrade]
+[02:36:54] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[02:37:04] [Server thread/INFO]: EXP issued server command: /kit claim
+[02:37:47] [Server thread/INFO]: EXP issued server command: /warps
+[02:37:47] [Server thread/INFO]: §cEXP §4was denied access to command.
+[02:37:48] [Server thread/INFO]: EXP issued server command: /warp
+[02:37:48] [Server thread/INFO]: §cEXP §4was denied access to command.
+[02:37:52] [Server thread/INFO]: EXP issued server command: /help
+[02:38:01] [Server thread/INFO]: EXP issued server command: /help 2
+[02:38:12] [Server thread/INFO]: EXP issued server command: /kity
+[02:38:14] [Server thread/INFO]: EXP issued server command: /kit
+[02:38:50] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[02:39:30] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[02:39:50] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 1 Entities![m
+[02:39:55] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[02:41:28] [Server thread/INFO]: EXP has made the advancement [Monster Hunter]
+[02:42:51] [Craft Scheduler Thread - 5582/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[02:44:56] [Server thread/INFO]: EXP issued server command: /pl
+[02:45:17] [Server thread/INFO]: EXP lost connection: Disconnected
+[02:45:17] [Server thread/INFO]: -EXP
+[02:45:56] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[02:46:31] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[02:47:11] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[02:47:14] [User Authenticator #33/INFO]: UUID of player EXP is df60c736-b8a6-44a3-ba44-3ea40e727da4
+[02:47:14] [Server thread/INFO]: EXP[/185.190.197.19:51301] logged in with entity id 46571 at ([Survival]163.5476009170188, 59.0, 374.64710961173233)
+[02:47:14] [Server thread/INFO]: [0;37;22m+[0;37;22mEXP[m[m
+[02:47:31] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 5 Entities![m
+[02:48:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > @iCheese its a bot
+[02:48:57] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[02:48:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > Hello
+[02:49:07] [Netty Server IO #3/WARN]: java.io.IOException: An existing connection was forcibly closed by the remote host
+[02:49:07] [Netty Server IO #3/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[02:49:07] [Netty Server IO #3/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[02:49:07] [Netty Server IO #3/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[02:49:07] [Netty Server IO #3/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[02:49:07] [Netty Server IO #3/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[02:49:07] [Netty Server IO #3/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[02:49:07] [Netty Server IO #3/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[02:49:07] [Netty Server IO #3/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[02:49:07] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+[02:49:07] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[02:49:07] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[02:49:07] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[02:49:07] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[02:49:07] [Netty Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[02:49:07] [Netty Server IO #3/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[02:49:07] [Server thread/INFO]: EXP lost connection: Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host
+[02:49:07] [Server thread/INFO]: -EXP
+[02:49:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > Oh
+[02:49:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > He talked to me?
+[02:50:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > @iCheese Do /help
+[02:50:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > help
+[02:50:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Dyno] TumbleMod > see the #help channel for help
+[02:50:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > No do /help
+[02:51:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > @iCheese
+[02:51:57] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[02:53:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > @iCheese just type /help over here
+[02:54:13] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[02:54:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > /help over here
+[02:54:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Tumble Network Team] Tumble Network > Commands
+
+ /ping
+ /say
+ /help
+ /apply
+ /vote
+ /log
+ /syncroles
+ /interview
+ /accept
+ /deny
+
+[02:54:53] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[02:54:58] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[02:55:13] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[02:56:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > @iCheese ^^^^^
+[02:57:54] [Craft Scheduler Thread - 5604/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[02:57:59] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[03:01:54] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[03:02:34] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[03:02:55] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[03:04:00] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
