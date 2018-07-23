@@ -5,13 +5,84 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_pickaxe": {
+  "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2018-07-23 02:37:04 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_axe": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2018-07-23 02:37:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2018-07-23 02:41:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2018-07-23 02:44:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2018-07-23 02:44:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "zombie": "2018-07-23 02:41:28 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/golden_rail": {
+    "criteria": {
+      "has_rail": "2018-07-23 02:44:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2018-07-23 02:43:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar": {
+    "criteria": {
+      "has_reeds": "2018-07-23 02:43:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_chicken": "2018-07-23 02:40:10 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2018-07-23 02:37:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2018-07-23 02:38:22 +0100",
+      "plains": "2018-07-23 02:36:29 +0100",
+      "taiga": "2018-07-23 02:37:28 +0100",
+      "taiga_hills": "2018-07-23 02:37:55 +0100",
+      "ocean": "2018-07-23 02:43:56 +0100",
+      "extreme_hills": "2018-07-23 02:40:26 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2018-07-23 02:37:04 +0100"
     },
@@ -29,12 +100,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "entered_water": "2018-07-23 02:37:56 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2018-07-23 02:36:58 +0100"
@@ -46,18 +111,6 @@
       "entered_water": "2018-07-23 02:37:56 +0100"
     },
     "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "zombie": "2018-07-23 02:41:28 +0100"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "zombie": "2018-07-23 02:41:28 +0100"
-    },
-    "done": false
   },
   "minecraft:story/upgrade_tools": {
     "criteria": {
@@ -80,18 +133,6 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "entered_water": "2018-07-23 02:37:56 +0100"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "cooked_chicken": "2018-07-23 02:40:10 +0100"
-    },
-    "done": false
-  },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2018-07-23 02:37:04 +0100"
     },
     "done": true
   },
@@ -118,15 +159,5 @@
       "entered_water": "2018-07-23 02:37:56 +0100"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "beaches": "2018-07-23 02:38:22 +0100",
-      "plains": "2018-07-23 02:36:29 +0100",
-      "taiga": "2018-07-23 02:37:28 +0100",
-      "taiga_hills": "2018-07-23 02:37:55 +0100",
-      "extreme_hills": "2018-07-23 02:40:26 +0100"
-    },
-    "done": false
   }
 }
