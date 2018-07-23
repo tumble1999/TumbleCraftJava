@@ -1214,3 +1214,182 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [13:21:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > It's a text slang for "why"
 [13:22:17] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
 [13:25:18] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[13:26:13] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[13:26:54] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[13:27:14] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[13:28:19] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[13:31:15] [Craft Scheduler Thread - 6338/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[13:31:15] [Craft Scheduler Thread - 6340/INFO]: [Marriage] Purged 0 player entries in 1ms
+[13:31:20] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[13:31:31] [Server thread/INFO]: [0;32;22m[Staff+] [0;32;1mStaff+ is now auto saving...[m
+[13:32:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > help
+[13:32:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Dyno] TumbleMod > see the #help channel for help
+[13:32:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > i mean hello
+[13:33:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > ok
+[13:33:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > Hi
+[13:33:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > Welcome
+[13:33:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > you too
+[13:33:56] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[13:34:36] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[13:34:56] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[13:37:22] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[13:38:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > Welcome @Crocodile Dank-Dee
+[13:38:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > !
+[13:38:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Tumble Network Team] Tumble Network > @iCheese, Prefix changed to /
+[13:38:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > What?
+[13:38:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > what do you mean
+[13:38:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > Don't mind it
+[13:38:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > @Tumble Network whats the prefix for?
+[13:39:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > @iCheese thanks
+[13:39:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > For example
+[13:39:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > no problem
+[13:39:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > /say this command is "/say"
+[13:39:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Tumble Network Team] Tumble Network > this command is "/say"
+[13:39:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > I don't know if everyone can use it though
+[13:39:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > /say am robot haha
+[13:39:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Tumble Network Team] Tumble Network > am robot haha
+[13:40:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > @Tumble Network ??
+[13:40:23] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[13:40:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > /say yes? @iCheese
+[13:40:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Tumble Network Team] Tumble Network > yes? @iCheese
+[13:40:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > It's a bot
+[13:41:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > /say no im not
+[13:41:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Tumble Network Team] Tumble Network > no im not
+[13:41:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > Wow
+[13:41:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > It speak
+[13:41:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > Damn it's spamming in the log
+[13:41:38] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[13:41:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > am I being pranked
+[13:41:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > It don't
+[13:42:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > @Tumble Network stop it
+[13:42:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > It's a bot
+[13:42:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > Use /say {message}
+[13:42:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > /say @iCheese is smelly
+[13:42:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Tumble Network Team] Tumble Network > @iCheese is smelly
+[13:42:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > it just said it wasn't?
+[13:42:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > wow...
+[13:42:18] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[13:42:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > This is bullying
+[13:42:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > Yes @Crocodile Dank-Dee is using it
+[13:42:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > the bot is being mean
+[13:42:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > no
+[13:42:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > not me
+[13:42:38] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[13:42:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > @Tumble Network are you real?
+[13:43:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > /say are you?
+[13:43:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Tumble Network Team] Tumble Network > are you?
+[13:43:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > oh so @Bootista is trolling me
+[13:43:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > thanks
+[13:43:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > Wow
+[13:43:24] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[13:43:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > I joined this server for fun Minecraft let's plays not bully
+[13:43:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > how is @TumbleCraft a developer, can he code
+[13:43:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > is he an ai
+[13:43:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > https://cdn.discordapp.com/attachments/337887798889545728/470934009262768128/bot.png
+[13:43:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > 
+[13:43:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > thats pretty cool
+[13:43:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > why are you deleting his messages?
+[13:43:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > I'm not
+[13:43:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > I dont get it
+[13:43:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > The bot is
+[13:44:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > Im confused
+[13:44:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > It's proof that I didn't do it
+[13:44:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > I don't get it
+[13:44:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > y
+[13:44:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > What
+[13:45:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > y?
+[13:45:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > means yes
+[13:45:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > n
+[13:45:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > Y means why
+[13:45:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > I think
+[13:45:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > thats not what I meant
+[13:45:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > sorry for any confusion @Waggs and @Tumble Network
+[13:46:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > also sorry
+[13:46:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > i dont speak good enlish
+[13:46:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > english
+[13:46:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > @Tumble Network is a bot
+[13:46:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > It won't reply
+[13:46:20] [Craft Scheduler Thread - 6356/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[13:46:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > Is ot
+[13:46:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > It doesn't see your messages
+[13:46:25] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[13:46:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > /say or is it not?
+[13:46:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Tumble Network Team] Tumble Network > or is it not?
+[13:46:40] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > nice troll
+[13:46:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > @Bootista
+[13:46:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > almost had me
+[13:46:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > almost
+[13:46:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > Are we being trolled right now
+[13:47:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > can i get a colour name
+[13:47:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > The other messages were @Crocodile Dank-Dee
+[13:47:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > how?
+[13:47:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > is he an admin?
+[13:47:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > No
+[13:47:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > Just use /say
+[13:47:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > am i admin?
+[13:47:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > and then the message
+[13:47:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > This is @Bootista
+[13:47:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > https://cdn.discordapp.com/attachments/337887798889545728/470935045314445313/TrollFace.jpg
+[13:47:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > 
+[13:47:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > He troll
+[13:47:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > haha
+[13:47:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > nice
+[13:48:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > Can we take this to #oof-topic please
+[13:48:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > whats thaat
+[13:48:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > fair play @Bootista you did have me going for a while there
+[13:48:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > and you @Tumble Network
+[13:48:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > whats oof
+[13:48:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > I didn't do those messages
+[13:48:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > roblox
+[13:48:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > i thinkj
+[13:48:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > I just told you
+[13:48:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > @Crocodile Dank-Dee did
+[13:48:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > https://youtu.be/zJTjOi76pu8
+[13:48:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > Haha oof
+[13:48:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > It's a meme the oof
+[13:48:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > It's supposed to be off-topic
+[13:49:09] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > Sorry thought was funni joke
+[13:49:21] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[13:49:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > whats general for tho
+[13:49:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > @Crocodile Dank-Dee do you have an admin account?
+[13:49:26] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[13:49:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > Can we move to #oof-topic please
+[13:49:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > are you tumble network
+[13:49:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > are we not chating
+[13:49:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > ok
+[13:49:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > we move
+[13:49:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > You don't need to be admin to use it
+[13:49:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > Oof
+[13:49:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > It's just a command
+[13:50:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > helo
+[13:50:01] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[13:50:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > you said @Tumble Network was @Crocodile Dank-Dee ?
+[13:50:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > buyt he said hes not
+[13:50:21] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[13:51:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > It's this one
+[13:51:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > ahhhh
+[13:52:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > i thoguht it was
+[13:52:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > haha
+[13:52:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > Oof
+[13:52:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Waggs > That was me when I enter chat
+[13:54:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Crocodile Dank-Dee > hi
+[13:55:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] iCheese > ./
+[13:55:28] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
