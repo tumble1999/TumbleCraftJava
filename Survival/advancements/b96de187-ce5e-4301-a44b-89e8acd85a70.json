@@ -29,15 +29,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_sword": {
-    "criteria": {
-      "has_iron_ingot": "2018-07-23 15:12:26 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2018-07-23 14:54:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2018-07-23 15:12:26 +0100"
     },
     "done": true
   },
@@ -83,15 +83,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_helmet": {
-    "criteria": {
-      "has_leather": "2018-07-23 15:35:33 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2018-07-23 15:33:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2018-07-23 15:35:33 +0100"
     },
     "done": true
   },
@@ -192,15 +192,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_blue_wool": {
-    "criteria": {
-      "has_white_wool": "2018-07-23 15:33:41 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2018-07-23 15:12:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_wool": {
+    "criteria": {
+      "has_white_wool": "2018-07-23 15:33:41 +0100"
     },
     "done": true
   },
@@ -252,18 +252,18 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/iron_axe": {
-    "criteria": {
-      "has_iron_ingot": "2018-07-23 15:12:26 +0100"
-    },
-    "done": true
-  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_chicken": "2018-07-23 14:51:57 +0100",
       "enchanted_golden_apple": "2018-07-23 15:00:11 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2018-07-23 15:12:26 +0100"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
@@ -451,15 +451,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/minecart": {
-    "criteria": {
-      "has_iron_ingot": "2018-07-23 15:12:26 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2018-07-23 14:49:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2018-07-23 15:12:26 +0100"
     },
     "done": true
   },
@@ -648,15 +648,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2018-07-23 14:52:13 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/activator_rail": {
     "criteria": {
       "has_rail": "2018-07-23 14:57:27 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/combat/spectral_arrow": {
+  "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
-      "has_glowstone_dust": "2018-07-23 14:52:13 +0100"
+      "has_diamond": "2018-07-23 14:59:59 +0100"
     },
     "done": true
   },
@@ -668,12 +674,6 @@
       "creeper": "2018-07-23 15:23:15 +0100"
     },
     "done": false
-  },
-  "minecraft:recipes/tools/diamond_shovel": {
-    "criteria": {
-      "has_diamond": "2018-07-23 14:59:59 +0100"
-    },
-    "done": true
   },
   "minecraft:recipes/decorations/end_crystal": {
     "criteria": {
@@ -687,15 +687,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_carpet": {
-    "criteria": {
-      "has_white_wool": "2018-07-23 15:33:41 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/ender_chest": {
     "criteria": {
       "has_ender_eye": "2018-07-23 15:21:33 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2018-07-23 15:33:41 +0100"
     },
     "done": true
   },
@@ -735,15 +735,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_gray_wool": {
-    "criteria": {
-      "has_white_wool": "2018-07-23 15:33:41 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2018-07-23 14:59:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_wool": {
+    "criteria": {
+      "has_white_wool": "2018-07-23 15:33:41 +0100"
     },
     "done": true
   },
