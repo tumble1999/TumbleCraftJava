@@ -466,6 +466,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "skeleton": "2018-07-23 15:03:38 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2018-07-23 14:48:26 +0100"
@@ -516,6 +522,12 @@
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2018-07-23 14:48:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2018-07-23 15:03:14 +0100"
     },
     "done": true
   },
@@ -669,6 +681,16 @@
       "has_planks": "2018-07-23 14:59:15 +0100"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "skeleton": "2018-07-23 15:03:38 +0100",
+      "zombie": "2018-07-23 15:03:53 +0100",
+      "witch": "2018-07-23 15:05:58 +0100",
+      "spider": "2018-07-23 15:03:44 +0100",
+      "enderman": "2018-07-23 15:05:32 +0100"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
