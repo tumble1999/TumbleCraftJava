@@ -5,8 +5,8 @@ GriefPrevention:
     Survival_nether: -1
     Survival_the_end: -1
     Creative: -1
-    Staff: -1
     DrCraft: -1
+    Staff: -1
   Claims:
     Mode:
       DrCraft: Disabled
@@ -74,8 +74,8 @@ GriefPrevention:
       Survival_nether: true
       Survival_the_end: true
       Creative: false
-      Staff: false
       DrCraft: true
+      Staff: false
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15
