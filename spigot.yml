@@ -14,7 +14,16 @@ config-version: 11
 settings:
   debug: false
   save-user-cache-on-stop-only: false
+  late-bind: true
   sample-count: 12
+  player-shuffle: 0
+  bungeecord: false
+  user-cache-size: 1000
+  int-cache-limit: 1024
+  item-dirty-ticks: 20
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: START.bat
   netty-threads: 4
   attribute:
     maxHealth:
@@ -23,29 +32,9 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  player-shuffle: 0
-  bungeecord: false
-  late-bind: true
-  user-cache-size: 1000
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: START.bat
-  int-cache-limit: 1024
-  item-dirty-ticks: 20
   filter-creative-items: true
   moved-too-quickly-multiplier: 10.0
   moved-wrongly-threshold: 0.0625
-commands:
-  tab-complete: 0
-  spam-exclusions:
-  - /skill
-  log: true
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  silent-commandblock-console: false
 messages:
   whitelist: |
     &c[&eTumbleCraft&c]
@@ -93,6 +82,17 @@ messages:
     &7Apply: &b&nhttp://tumblecraft.tumblenet.ga/apply
     &7
     &7Website: &b&nhttp://tumblecraft.tumblenet.ga
+commands:
+  tab-complete: 0
+  spam-exclusions:
+  - /skill
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  log: true
+  silent-commandblock-console: false
 stats:
   disable-saving: false
   forced-stats: {}
