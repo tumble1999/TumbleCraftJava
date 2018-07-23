@@ -24,7 +24,6 @@ groups:
     - -essentials.itemspawn.exempt
     - -essentials.kit.exemptdelay
     - -essentials.afk.kickexempt
-    - -essentials.chat.ignoreexempt
     - -essentials.near.maxexempt
     - -essentials.ban.exempt
     - -essentials.ban.offline
@@ -371,15 +370,6 @@ groups:
     - admin
     permissions:
     - nte.owner
-    - ab.kick.exempt
-    - ab.ban.exempt
-    - ab.tempban.exempt
-    - ab.ipban.exempt
-    - ab.tempipban.exempt
-    - ab.mute.exempt
-    - ab.tempmute.exempt
-    - ab.warn.exempt
-    - ab.tempwarn.exempt
   employer:
     options:
       prefix: '&c[Employer] '
