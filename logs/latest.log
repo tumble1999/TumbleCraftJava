@@ -1365,3 +1365,142 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [15:37:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > i think someone from the server said it so not really a rumor just an offhand note of "yeah theyre sugondese"
 [15:37:54] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
 [15:39:40] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[15:41:25] [Server thread/INFO]: DrBatmanWho lost connection: Disconnected
+[15:41:25] [Server thread/INFO]: [DiscordSRV] Player DrBatmanWho quit with silent quitting permission, not sending a quit message
+[15:41:25] [Server thread/INFO]: -[Owner] DrBatmanWho
+[15:42:43] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[15:44:45] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[15:45:29] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[15:45:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > knock knock
+[15:45:50] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[15:45:51] [Craft Scheduler Thread - 1635/INFO]: [Marriage] Purged 0 player entries in 2ms
+[15:45:51] [Craft Scheduler Thread - 1633/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[15:45:56] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[15:45:59] [Server thread/INFO]: [0;32;22m[Staff+] [0;32;1mStaff+ is now auto saving...[m
+[15:46:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > hello
+[15:46:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > knock knock
+[15:46:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > ?????
+[15:47:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > I dont get it
+[15:47:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > what do people normally say when "knock knock" is said?
+[15:48:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > I say hello if someone knocks at my door
+[15:48:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > ?
+[15:49:11] [Netty Server IO #1/WARN]: io.netty.handler.timeout.ReadTimeoutException
+[15:49:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > no not at a door.
+[15:49:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > someone says knock knock and the other person says...
+[15:49:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | World Painters] Jacob50505 > Who's there
+[15:50:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > i dont get it sorry, english isnt my first language
+[15:50:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | World Painters] Jacob50505 > Never heard of knock knock jokes?
+[15:51:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > ohh yes i know what you mean now
+[15:51:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > I didnt realise it was a joke
+[15:51:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | World Painters] Jacob50505 > Ah
+[15:51:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > Knock, knock.
+Who's there?
+[ Someone or something ]
+[ Someone or something ] who?
+[ Punchline ]
+[15:52:14] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[15:52:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > https://cdn.discordapp.com/attachments/337887798889545728/471691224257134612/unknown.png
+[15:52:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > 
+[15:52:49] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[15:53:29] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[15:53:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Hahaha that's funny
+[15:53:49] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[15:53:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > @tailsatthebench where did you hear about sugondese?
+[15:54:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > On this server, there pretty rad
+[15:54:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > ah same, im surprised more people didn't know about it
+[15:55:15] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[15:55:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > knock knock
+[15:56:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > @Jacob50505 I think he's talking to you
+[15:56:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > no you
+[15:56:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > oh ok
+[15:56:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > do it again
+[15:56:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > knock knock
+[15:56:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > whos there
+[15:56:46] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > banana
+[15:57:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Nice banana
+[15:57:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > brb i have to load the dishwasher
+[15:57:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > ...
+[15:58:16] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[16:00:32] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[16:01:05] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > I wanna hear this joke
+[16:01:13] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[16:01:13] [Craft Scheduler Thread - 1654/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[16:01:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > we have to wait for johnny to get back
+[16:01:18] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[16:01:33] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[16:01:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Oh yea hahah
+[16:02:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Try the joke on me ahah
+[16:04:21] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[16:05:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > @TumbleGamer
+[16:06:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > should i should start again?
+[16:07:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Yea haha
+[16:07:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > im back
+[16:07:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > knock knock
+[16:07:57] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > whos there
+[16:08:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > banana
+[16:08:17] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[16:08:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > What
+[16:08:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > stick to the format please : 
+Knock, knock.
+Who's there?
+[ Someone or something ]
+[ Someone or something ] who?
+[ Punchline ]
+[16:08:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Oh
+[16:08:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > banana whom
+[16:08:58] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[16:08:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > knock knock
+[16:09:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > uh
+[16:09:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Banana hoe
+[16:09:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Whoops
+[16:09:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > whos there
+[16:09:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Haha
+[16:09:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > whos there
+[16:09:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > banana
+[16:09:18] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[16:09:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Banana who
+[16:09:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > im being interrupted
+[16:09:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > No your not
+[16:09:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > it was my joke guys
+[16:09:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > knock knock
+[16:09:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > do it again
+[16:09:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > whos there
+[16:09:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > banana
+[16:09:40] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Hello
+[16:09:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Oh sorry
+[16:09:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > i cant believbe it
+[16:09:48] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > banana who
+[16:09:50] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > knock knock
+[16:09:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > !!!!!!!!!!
+[16:09:52] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Tumble Network Team] Tumble Network > @Johnny636, Prefix changed to /
+[16:09:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > banan who
+[16:09:58] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > sworyr
+[16:09:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > I said it wrong
+[16:10:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > banana
+[16:10:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > /say whos there
+[16:10:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Tumble Network Team] Tumble Network > @Crocodile Dank-Dee, Only staff members can run this command
+[16:10:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > /banaa who
+[16:10:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Tumble Network Team] Tumble Network > Invalid command: /banaa who
+[16:10:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > :open_mouth:
+[16:10:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Knock knock
+[16:10:23] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[16:10:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > @tailsatthebench why are you turning the tables
+[16:10:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > whos there
