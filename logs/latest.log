@@ -359,3 +359,222 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [04:16:04] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
 [04:16:24] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
 [04:17:49] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[04:22:55] [Server thread/INFO]: [0;32;22m[Staff+] [0;32;1mStaff+ is now auto saving...[m
+[04:23:05] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[04:23:46] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[04:23:46] [Craft Scheduler Thread - 486/INFO]: [Marriage] Purged 0 player entries in 1ms
+[04:23:46] [Craft Scheduler Thread - 484/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[04:23:46] [Craft Scheduler Thread - 497/INFO]: [Vault] Checking for Updates ... 
+[04:23:46] [Craft Scheduler Thread - 497/INFO]: [Vault] No new version available
+[04:23:51] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[04:24:06] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[04:26:51] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[04:29:52] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[04:30:47] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[04:31:27] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[04:31:47] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[04:32:52] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[04:35:53] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[04:38:28] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[04:38:48] [Craft Scheduler Thread - 505/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[04:39:08] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[04:39:28] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[04:41:54] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[04:44:54] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[04:46:09] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[04:46:25] [User Authenticator #2/INFO]: UUID of player KingSwirlyEyes is d7c11106-1d08-4b85-a4b1-8e61311ee8ef
+[04:46:25] [Server thread/INFO]: KingSwirlyEyes[c-98-200-52-78.hsd1.tx.comcast.net/98.200.52.78:56218] logged in with entity id 2076 at ([Survival]126.5, 86.0, 547.5)
+[04:46:25] [Server thread/INFO]: [0;37;22m+[0;37;22mKingSwirlyEyes[m[m
+[04:46:25] [pool-13-thread-1/INFO]: Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\d7c11106-1d08-4b85-a4b1-8e61311ee8ef.yml
+[04:46:25] [Server thread/INFO]: KingSwirlyEyes has made the advancement [Getting an Upgrade]
+[04:46:32] [Server thread/ERROR]: Could not pass event InventoryClickEvent to PAC v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1889) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_171]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.a(cU.java:83) ~[?:?]
+	at npnp.bB.b(bB.java:56) ~[?:?]
+	at npnp.O.b(O.java:2) ~[?:?]
+	at npnp.ak.b(ak.java:29) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_171]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	... 15 more
+[04:46:32] [Server thread/ERROR]: Could not pass event InventoryClickEvent to PAC v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1889) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_171]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.a(cU.java:83) ~[?:?]
+	at npnp.bB.b(bB.java:56) ~[?:?]
+	at npnp.O.b(O.java:2) ~[?:?]
+	at npnp.ak.b(ak.java:29) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_171]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	... 15 more
+[04:46:32] [Server thread/ERROR]: Could not pass event InventoryClickEvent to PAC v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1889) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_171]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.a(cU.java:83) ~[?:?]
+	at npnp.bB.b(bB.java:56) ~[?:?]
+	at npnp.O.b(O.java:2) ~[?:?]
+	at npnp.ak.b(ak.java:29) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_171]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	... 15 more
+[04:46:32] [Server thread/ERROR]: Could not pass event InventoryClickEvent to PAC v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1889) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_171]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.a(cU.java:83) ~[?:?]
+	at npnp.bB.b(bB.java:56) ~[?:?]
+	at npnp.O.b(O.java:2) ~[?:?]
+	at npnp.ak.b(ak.java:29) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_171]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	... 15 more
+[04:46:33] [Server thread/ERROR]: Could not pass event InventoryClickEvent to PAC v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1889) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_171]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.a(cU.java:83) ~[?:?]
+	at npnp.bB.b(bB.java:56) ~[?:?]
+	at npnp.O.b(O.java:2) ~[?:?]
+	at npnp.ak.b(ak.java:29) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_171]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	... 15 more
+[04:46:43] [Server thread/INFO]: KingSwirlyEyes issued server command: /wild
+[04:46:50] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[04:46:51] [Server thread/INFO]: KingSwirlyEyes issued server command: /tpa
+[04:47:10] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 39 Entities![m
+[04:47:55] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[04:48:00] [User Authenticator #3/INFO]: UUID of player katherineleigh3 is f6a8775c-b8a6-4fb2-92fe-669ad0f4d9d4
+[04:48:01] [Server thread/INFO]: katherineleigh3[ool-4571af03.dyn.optonline.net/69.113.175.3:52696] logged in with entity id 3213 at ([Survival]136.5, 86.0, 553.5)
+[04:48:01] [Server thread/INFO]: [0;37;22m+[0;37;22mkatherineleigh3[m[m
+[04:48:01] [pool-13-thread-1/INFO]: Creating empty config: E:\Users\Tumble\Documents\Minecraft Servers\TumbleCraft\plugins\Essentials\userdata\f6a8775c-b8a6-4fb2-92fe-669ad0f4d9d4.yml
+[04:48:01] [Server thread/INFO]: katherineleigh3 has made the advancement [Getting an Upgrade]
+[04:48:13] [Server thread/INFO]: KingSwirlyEyes issued server command: /tpahere katherineleigh3
+[04:48:36] [Server thread/INFO]: katherineleigh3 issued server command: /tp kingswirlyeyes
+[04:48:42] [Server thread/INFO]: katherineleigh3 issued server command: /tpa king
+[04:48:47] [Server thread/INFO]: KingSwirlyEyes issued server command: /tpaccept
+[04:49:15] [Async Chat Thread - #0/INFO]: [m[0;37;22mKingSwirlyEyes[m: hi cutie[m
+[04:49:21] [Async Chat Thread - #0/INFO]: [m[0;37;22mkatherineleigh3[m: hey baby[m
+[04:49:40] [Async Chat Thread - #0/INFO]: [m[0;37;22mKingSwirlyEyes[m: will you be my minecraft wife[m
+[04:49:56] [Async Chat Thread - #0/INFO]: [m[0;37;22mkatherineleigh3[m: omg XD yes[m
