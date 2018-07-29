@@ -608,6 +608,12 @@ AnvilCommands:
     - repallpat
     usage: <folder> [from-block] <to-pattern>
     desc: Replace all blocks in the selection with another
+  deletebiomechunks:
+    help: ''
+    aliases:
+    - deletebiomechunks
+    usage: ''
+    desc: Delete chunks matching a specific biome
 BiomeCommands:
   /setbiome:
     help: |-
