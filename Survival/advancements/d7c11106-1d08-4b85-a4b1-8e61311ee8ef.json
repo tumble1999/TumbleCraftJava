@@ -1,10 +1,4 @@
 {
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "has_planks": "2018-07-29 04:50:26 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/wooden_button": {
     "criteria": {
       "has_planks": "2018-07-29 04:50:26 +0100"
@@ -17,15 +11,47 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/trapdoor": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2018-07-29 04:53:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_double_plant": "2018-07-29 04:48:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wooden_slab": {
     "criteria": {
       "has_planks": "2018-07-29 04:50:26 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:recipes/decorations/fence": {
     "criteria": {
-      "entered_water": "2018-07-29 04:53:16 +0100"
+      "has_planks": "2018-07-29 04:50:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2018-07-29 04:48:31 +0100",
+      "plains": "2018-07-29 04:46:26 +0100",
+      "taiga": "2018-07-29 04:46:43 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2018-07-29 04:50:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapdoor": {
+    "criteria": {
+      "has_planks": "2018-07-29 04:50:26 +0100"
     },
     "done": true
   },
@@ -44,12 +70,6 @@
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2018-07-29 04:50:26 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_lilac": {
-    "criteria": {
-      "has_double_plant": "2018-07-29 04:48:52 +0100"
     },
     "done": true
   },
@@ -77,18 +97,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_wooden_slab": {
-    "criteria": {
-      "has_planks": "2018-07-29 04:50:26 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/fence": {
-    "criteria": {
-      "has_planks": "2018-07-29 04:50:26 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/wooden_pressure_plate": {
     "criteria": {
       "has_planks": "2018-07-29 04:50:26 +0100"
@@ -110,6 +118,12 @@
   "minecraft:recipes/redstone/wooden_door": {
     "criteria": {
       "has_planks": "2018-07-29 04:50:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2018-07-29 04:53:59 +0100"
     },
     "done": true
   },
@@ -136,13 +150,5 @@
       "entered_water": "2018-07-29 04:53:16 +0100"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "forest": "2018-07-29 04:48:31 +0100",
-      "plains": "2018-07-29 04:46:26 +0100",
-      "taiga": "2018-07-29 04:46:43 +0100"
-    },
-    "done": false
   }
 }
