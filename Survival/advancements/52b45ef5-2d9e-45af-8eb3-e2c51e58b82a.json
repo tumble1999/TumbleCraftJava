@@ -5,6 +5,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lit_pumpkin": {
+    "criteria": {
+      "has_pumpkin": "2018-07-31 18:27:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2018-07-31 18:27:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2018-07-31 18:27:40 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2018-07-30 17:04:10 +0100"
@@ -23,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log2": "2018-07-31 18:28:53 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "husk": "2018-07-31 18:23:37 +0100"
@@ -35,9 +59,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2018-07-31 18:27:40 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "forest": "2018-07-31 18:26:44 +0100",
       "plains": "2018-07-30 17:03:41 +0100",
+      "extreme_hills": "2018-07-31 18:24:29 +0100",
+      "roofed_forest": "2018-07-31 18:28:15 +0100",
       "desert": "2018-07-31 18:23:12 +0100"
     },
     "done": false
