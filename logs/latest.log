@@ -1775,3 +1775,60 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
 [19:00:42] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
 [19:03:43] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[19:05:39] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[19:06:21] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[19:06:43] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[19:06:48] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[19:12:57] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[19:13:34] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[19:14:16] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[19:14:38] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[19:16:02] [Craft Scheduler Thread - 3606/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[19:16:07] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[19:19:11] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[19:21:34] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[19:22:14] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[19:22:20] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[19:22:35] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[19:25:22] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[19:29:20] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[19:29:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > https://www.youtube.com/watch?v=OR4zjqhS_34
+[19:29:39] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Dyno] TumbleMod > @Johnny636 No links allowed.
+[19:29:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > what do you think of my video
+[19:29:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > @Developers @Moderators
+[19:30:01] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[19:30:21] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[19:30:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > @Johnny636 what video?
+[19:30:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > I just posted it
+[19:30:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > right there
+[19:31:23] [Craft Scheduler Thread - 3623/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[19:31:23] [Craft Scheduler Thread - 3625/INFO]: [Marriage] Purged 0 player entries in 4ms
+[19:31:28] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[19:31:53] [Server thread/INFO]: [0;32;22m[Staff+] [0;32;1mStaff+ is now auto saving...[m
+[19:32:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | TG] TumbleGamer > there is no video
+[19:32:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > https://www.youtube.com/watch?v=OR4zjqhS_34
+[19:32:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Dyno] TumbleMod > @Johnny636 No links allowed.
+[19:33:01] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > can i post link please
+[19:33:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > https://www.youtube.com/watch?v=OR4zjqhS_34
+[19:33:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Dyno] TumbleMod > @Johnny636 No links allowed.
+[19:33:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > https://www.youtube.com/watch?v=OR4zjqhS_34
+[19:33:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > fine its it #oof-topic
+[19:34:30] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
