@@ -1456,3 +1456,97 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [21:33:22] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
 [21:33:42] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
 [21:35:08] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[21:38:09] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[21:40:25] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[21:41:05] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[21:41:10] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[21:41:25] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[21:44:07] [Craft Scheduler Thread - 760/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[21:44:12] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[21:48:08] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[21:48:49] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[21:49:09] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[21:50:16] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[21:53:18] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[21:55:55] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[21:56:20] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[21:56:35] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[21:56:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > INI
+
+[??????? ????? ?? ???????? ?? ???? ???? ???????.]
+[21:56:55] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[21:57:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Croak > @TumbleGamer what's Minecraft?
+[21:59:18] [Craft Scheduler Thread - 779/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[21:59:23] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[22:00:53] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 >     INI
+
+[Tumble Network Premium ?? ???????? ?? ???? ???? ???????.]    
+[22:01:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 >     INI
+
+[Tumble Network Premium ?? ???????? ?? ???? ???? ???????.]    
+[22:01:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 >     INI
+
+[Tumble Network Premium ?? ???????? ?? ???? ???? ???????.]    
+[22:01:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > i cant see this
+[22:01:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > what is it
+[22:01:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > You need tumble network premium
+[22:01:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > send me $5 on paypal
+[22:01:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Do I need a premium
+[22:01:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > yes
+[22:01:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > its $5
+[22:01:33] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > dm me for paypal address
+[22:01:43] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Ok
+[22:01:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > i have dmed u
+[22:01:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > thank you
+[22:02:26] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[22:03:06] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 >     INI
+
+[Crocodile Dank-Dee has just purchased Tumble Network Premium! Welcome.]    
+[22:03:19] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > I'll em you now
+[22:03:24] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > ok thank you
+[22:03:42] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[22:03:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 >     INI
+
+[tailsatthebench has just purchased Tumble Network Premium! Welcome.]    
+[22:04:22] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[22:04:43] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[22:05:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > Can you stop
+[22:05:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > stop what
+[22:05:17] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Croak > i just dm'd you aswell :)
+[22:05:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > thank you ill check now
+[22:05:22] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > What
+[22:05:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > i can see his messages now
+[22:05:28] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Crocodile Dank-Dee > it wasnt a scam
+[22:05:40] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 >     INI
+
+[Croak has just purchased Tumble Network Premium! Welcome.]    
+[22:06:03] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Croak > wow haha these messages are funny! totally worth the buy :3
+[22:06:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Haha entic
+[22:06:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > INI
+
+[ @Bootista#1718 Tumble Network Premium ?? ???????? ?? ???? ???? ???????.]
+[22:06:32] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Croak > whats entic
+[22:06:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Staff of the week] Bootista > @TumbleGamer when they tell you to send them your billing information, I think it's time to ban? Or at least mute?
+[22:06:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] tailsatthebench > Like epic but better
+[22:06:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Watchlist] Johnny636 > INI
+
+[Tumble Network Premium ?? ???????? ?? ???? ???? ???????.]
+[22:06:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | Members] Croak > oh lol!
