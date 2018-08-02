@@ -881,3 +881,124 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 [15:47:56] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
 [15:50:59] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
 [15:50:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@29ff2bd7[id=<null>,name=TumbleGamer,properties={},legacy=false] (cpc105210-live33-2-0-cust228.17-2.cable.virginm.net/82.44.12.229:53616) lost connection: Disconnected
+[15:53:15] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[15:53:56] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[15:54:01] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[15:54:16] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[15:56:57] [Craft Scheduler Thread - 306/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[15:57:02] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[16:00:03] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[16:00:58] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[16:01:38] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[16:01:58] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[16:06:04] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[16:08:40] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[16:09:05] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[16:09:20] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[16:09:40] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[16:11:21] [Server thread/INFO]: [0;32;22m[Staff+] [0;32;1mStaff+ is now auto saving...[m
+[16:12:01] [Craft Scheduler Thread - 326/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[16:12:01] [Craft Scheduler Thread - 328/INFO]: [Marriage] Purged 0 player entries in 3ms
+[16:12:06] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[16:15:07] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[16:16:22] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[16:17:03] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[16:17:23] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[16:18:08] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[16:18:22] [Netty Server IO #3/WARN]: java.io.IOException: An existing connection was forcibly closed by the remote host
+[16:18:22] [Netty Server IO #3/WARN]: 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+[16:18:22] [Netty Server IO #3/WARN]: 	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+[16:18:22] [Netty Server IO #3/WARN]: 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+[16:18:22] [Netty Server IO #3/WARN]: 	at sun.nio.ch.IOUtil.read(Unknown Source)
+[16:18:22] [Netty Server IO #3/WARN]: 	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+[16:18:22] [Netty Server IO #3/WARN]: 	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+[16:18:22] [Netty Server IO #3/WARN]: 	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+[16:18:22] [Netty Server IO #3/WARN]: 	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345)
+[16:18:22] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+[16:18:22] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645)
+[16:18:22] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580)
+[16:18:22] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497)
+[16:18:22] [Netty Server IO #3/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459)
+[16:18:22] [Netty Server IO #3/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[16:18:22] [Netty Server IO #3/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[16:18:42] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)...
+[16:18:42] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[16:18:42] [JDA RateLimit-Queue Pool - Thread 4/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:18:42] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:18:44] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[16:18:44] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:18:44] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:18:46] [JDA RateLimit-Queue Pool - Thread 2/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:18:46] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 4s
+[16:18:49] [JDA RateLimit-Queue Pool - Thread 3/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:18:49] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:18:50] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[16:18:51] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:18:51] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 8s
+[16:18:55] [JDA RateLimit-Queue Pool - Thread 4/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:18:55] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.ConnectException
+[16:18:59] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[16:19:00] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:19:00] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.ConnectException
+[16:19:05] [JDA RateLimit-Queue Pool - Thread 3/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:19:05] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.ConnectException
+[16:19:10] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:19:10] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.ConnectException
+[16:19:11] [JDA RateLimit-Queue Pool - Thread 2/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:19:11] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 16s
+[16:19:27] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[16:19:33] [JDA RateLimit-Queue Pool - Thread 4/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:19:33] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:19:33] [JDA RateLimit-Queue Pool - Thread 4/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:19:33] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:19:34] [JDA RateLimit-Queue Pool - Thread 3/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:19:34] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:19:38] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:19:38] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 32s
+[16:19:39] [JDA RateLimit-Queue Pool - Thread 2/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:19:39] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:19:44] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:19:44] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:19:49] [JDA RateLimit-Queue Pool - Thread 4/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:19:49] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:19:54] [JDA RateLimit-Queue Pool - Thread 3/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:19:54] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:19:59] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:19:59] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:20:04] [JDA RateLimit-Queue Pool - Thread 2/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:20:04] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:20:09] [JDA RateLimit-Queue Pool - Thread 5/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:20:09] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:20:10] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[16:20:10] [JDA RateLimit-Queue Pool - Thread 4/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:20:10] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 64s
+[16:20:14] [JDA RateLimit-Queue Pool - Thread 3/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:20:14] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:20:19] [JDA RateLimit-Queue Pool - Thread 1/ERROR]: [DiscordSRV] [JDA] There was an exception while executing a REST request
+[16:20:19] [JDA-Thread JDA/ERROR]: [DiscordSRV] [JDA] RestAction queue returned failure: [ErrorResponseException] -1: java.net.UnknownHostException
+[16:21:14] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[16:21:15] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[16:21:15] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Internet?!)... Appending session to reconnect queue
+[16:21:15] [SessionControllerAdapter-Worker/WARN]: [DiscordSRV] [JDA] Queue is attempting to reconnect a shard...
+[16:21:15] [SessionControllerAdapter-Worker/WARN]: [DiscordSRV] [JDA] Attempting to reconnect in 2s
+[16:21:17] [SessionControllerAdapter-Worker/WARN]: [DiscordSRV] [JDA] Attempting to reconnect!
+[16:21:17] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[16:21:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished (Re)Loading!
