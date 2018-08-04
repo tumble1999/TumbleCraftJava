@@ -1729,3 +1729,688 @@ java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/en
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
 [20:53:54] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
 [20:56:55] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[20:58:51] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[20:59:31] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[20:59:51] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[21:02:58] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[21:05:59] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[21:06:34] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[21:07:14] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[21:07:34] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[21:08:55] [Craft Scheduler Thread - 4474/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[21:09:00] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[21:12:01] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[21:14:17] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[21:14:57] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[21:15:02] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[21:15:17] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[21:21:05] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[21:22:00] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[21:22:41] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[21:23:01] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[21:24:01] [Craft Scheduler Thread - 4492/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[21:24:06] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[21:27:07] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[21:29:43] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[21:30:09] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[21:30:24] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[21:30:44] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[21:33:10] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[21:37:27] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[21:38:07] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[21:38:27] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[21:38:49] [Server thread/INFO]: [0;32;22m[Staff+] [0;32;1mStaff+ is now auto saving...[m
+[21:39:07] [Craft Scheduler Thread - 4512/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[21:39:07] [Craft Scheduler Thread - 4514/INFO]: [Marriage] Purged 1 player entries in 57ms
+[21:39:12] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[21:42:14] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[21:44:21] [User Authenticator #3/INFO]: UUID of player GreyWolf92 is a37ef5f9-c816-4d3f-b204-cad5f5f156ec
+[21:44:21] [Server thread/INFO]: [Essentials] Found new UUID for GreyWolf92. Replacing d79f67aa-6b9b-2a5f-9266-f30569946fdf with a37ef5f9-c816-4d3f-b204-cad5f5f156ec
+[21:44:21] [Server thread/INFO]: GreyWolf92[cpc111845-pete12-2-0-cust1091.4-4.cable.virginm.net/81.97.132.68:54329] logged in with entity id 5276 at ([Survival]27930.791221480253, 61.0, 42203.10734005888)
+[21:44:21] [Server thread/INFO]: [0;37;22m+[0;32;1m[Jr.Mod] GreyWolf92[m[m
+[21:45:09] [Server thread/ERROR]: Could not pass event InventoryClickEvent to PAC v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1889) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_171]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.a(cU.java:83) ~[?:?]
+	at npnp.bB.b(bB.java:56) ~[?:?]
+	at npnp.O.b(O.java:2) ~[?:?]
+	at npnp.ak.b(ak.java:29) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_171]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	... 15 more
+[21:45:09] [Server thread/ERROR]: Could not pass event InventoryClickEvent to PAC v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1889) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_171]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.a(cU.java:83) ~[?:?]
+	at npnp.bB.b(bB.java:56) ~[?:?]
+	at npnp.O.b(O.java:2) ~[?:?]
+	at npnp.ak.b(ak.java:29) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor193.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_171]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	... 15 more
+[21:45:09] [Server thread/ERROR]: Could not pass event InventoryClickEvent to PAC v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1889) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_171]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.a(cU.java:83) ~[?:?]
+	at npnp.bB.b(bB.java:56) ~[?:?]
+	at npnp.O.b(O.java:2) ~[?:?]
+	at npnp.ak.b(ak.java:29) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor193.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_171]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	... 15 more
+[21:45:10] [Server thread/ERROR]: Could not pass event InventoryClickEvent to PAC v1.3.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:500) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:485) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1889) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:33) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PacketPlayInWindowClick.a(SourceFile:10) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_171]
+	at net.minecraft.server.v1_12_R1.SystemUtils.a(SourceFile:46) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:748) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.a(cU.java:83) ~[?:?]
+	at npnp.bB.b(bB.java:56) ~[?:?]
+	at npnp.O.b(O.java:2) ~[?:?]
+	at npnp.ak.b(ak.java:29) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor193.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_171]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	... 15 more
+[21:45:11] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[21:45:16] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[21:45:17] [Server thread/INFO]: GreyWolf92 issued server command: /shop
+[21:45:19] [Netty Server IO #3/ERROR]: [PAC] Unhandled exception occured in onPacketReceiving(PacketEvent) for PAC
+java.util.ConcurrentModificationException: null
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.b(cU.java:53) ~[PAC.jar:?]
+	at npnp.cT.onPacketReceiving(cT.java:177) ~[PAC.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[21:45:19] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPosition@faec5bb[
+    x=-11293.597951836884
+    y=64.0
+    z=-2000.5030718683265
+    yaw=0.0
+    pitch=0.0
+    f=true
+    hasPos=true
+    hasLook=false
+  ]
+
+[21:45:19] [Netty Server IO #3/ERROR]: [PAC] Unhandled exception occured in onPacketReceiving(PacketEvent) for PAC
+java.util.ConcurrentModificationException: null
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.b(cU.java:53) ~[PAC.jar:?]
+	at npnp.cT.onPacketReceiving(cT.java:177) ~[PAC.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[21:45:19] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPosition@58146f1[
+    x=-11293.749385382918
+    y=64.5
+    z=-2000.506143736653
+    yaw=0.0
+    pitch=0.0
+    f=true
+    hasPos=true
+    hasLook=false
+  ]
+
+[21:45:19] [Netty Server IO #3/ERROR]: [PAC] Unhandled exception occured in onPacketReceiving(PacketEvent) for PAC
+java.util.ConcurrentModificationException: null
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.b(cU.java:53) ~[PAC.jar:?]
+	at npnp.cT.onPacketReceiving(cT.java:177) ~[PAC.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[21:45:19] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPosition@57ba4346[
+    x=-11293.930019945541
+    y=64.5
+    z=-2000.5092156049795
+    yaw=0.0
+    pitch=0.0
+    f=true
+    hasPos=true
+    hasLook=false
+  ]
+
+[21:45:19] [Netty Server IO #3/ERROR]: [PAC] Unhandled exception occured in onPacketReceiving(PacketEvent) for PAC
+java.util.ConcurrentModificationException: null
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.b(cU.java:53) ~[PAC.jar:?]
+	at npnp.cT.onPacketReceiving(cT.java:177) ~[PAC.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:297) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:413) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[21:45:19] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPosition@32052bd4[
+    x=-11294.126598265073
+    y=64.5
+    z=-2000.512287473306
+    yaw=0.0
+    pitch=0.0
+    f=true
+    hasPos=true
+    hasLook=false
+  ]
+
+[21:45:19] [Netty Server IO #3/ERROR]: [PAC] Unhandled exception occured in onPacketReceiving(PacketEvent) for PAC
+java.util.ConcurrentModificationException: null
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.b(cU.java:53) ~[PAC.jar:?]
+	at npnp.cT.onPacketReceiving(cT.java:177) ~[PAC.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[21:45:19] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPosition@4b7fb332[
+    x=-11294.331881876888
+    y=64.5
+    z=-2000.5153593416326
+    yaw=0.0
+    pitch=0.0
+    f=true
+    hasPos=true
+    hasLook=false
+  ]
+
+[21:45:19] [Netty Server IO #3/ERROR]: [PAC] Unhandled exception occured in onPacketReceiving(PacketEvent) for PAC
+java.util.ConcurrentModificationException: null
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.b(cU.java:53) ~[PAC.jar:?]
+	at npnp.cT.onPacketReceiving(cT.java:177) ~[PAC.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[21:45:19] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPosition@4446d262[
+    x=-11294.541918578841
+    y=64.5
+    z=-2000.518431209959
+    yaw=0.0
+    pitch=0.0
+    f=true
+    hasPos=true
+    hasLook=false
+  ]
+
+[21:45:19] [Netty Server IO #3/ERROR]: [PAC] Unhandled exception occured in onPacketReceiving(PacketEvent) for PAC
+java.util.ConcurrentModificationException: null
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source) ~[?:1.8.0_171]
+	at java.util.ArrayList$Itr.next(Unknown Source) ~[?:1.8.0_171]
+	at npnp.cU.b(cU.java:53) ~[PAC.jar:?]
+	at npnp.cT.onPacketReceiving(cT.java:177) ~[PAC.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeReceivingListener(SortedPacketListenerList.java:114) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketRecieving(SortedPacketListenerList.java:67) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:590) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketRecieving(PacketFilterManager.java:557) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetReceived(ProtocolInjector.java:352) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) [ProtocolLib.jar:4.3.0]
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:531) [ProtocolLib.jar:4.3.0]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:489) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:428) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:265) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263) [ProtocolLib.jar:4.3.0]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:645) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:580) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:497) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:459) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[21:45:19] [Netty Server IO #3/ERROR]: Parameters: 
+  net.minecraft.server.v1_12_R1.PacketPlayInFlying$PacketPlayInPosition@416309df[
+    x=-11294.754550468313
+    y=64.5
+    z=-2000.5215030782856
+    yaw=0.0
+    pitch=0.0
+    f=true
+    hasPos=true
+    hasLook=false
+  ]
+
+[21:45:52] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[21:45:58] [Server thread/INFO]: GreyWolf92 issued server command: /home
+[21:46:11] [Server thread/INFO]: GreyWolf92 lost connection: Disconnected
+[21:46:12] [Server thread/INFO]: -[Jr.Mod] GreyWolf92
+[21:46:12] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[21:48:19] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[21:51:20] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
+[21:52:56] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[21:53:37] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[21:53:57] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[21:54:17] [Craft Scheduler Thread - 4534/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[21:57:23] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;36;22mUse '[0;33;1m/server[0;36;22m' to switch between modes[m
+[22:00:24] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mDo '[0;33;1m/kit starter[0;31;1m' for some starter gear[m
+[22:00:39] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[22:01:20] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[22:01:40] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[22:03:25] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;32;1mUse '[0;33;1m/wild[0;32;1m' to start your adventure[m
+[22:06:26] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;1mExend your safe area with '[0;33;1m/kit claim[0;31;1m'.[m
+[22:08:22] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m60 [0;31;1mseconds![m
+[22:09:02] [Server thread/INFO]: [0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in [0;37;22m20 [0;31;1mseconds![m
+[22:09:22] [Server thread/INFO]: [0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+[22:09:22] [Craft Scheduler Thread - 4555/WARN]: [HeadDrops] Plugin HeadDrops v2.0 generated an exception while executing task 32
+java.lang.NoSuchMethodError: org.bukkit.Server.getOnlinePlayers()[Lorg/bukkit/entity/Player;
+	at de.timolia.headdrops.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at de.timolia.headdrops.Metrics.access$400(Metrics.java:57) ~[?:?]
+	at de.timolia.headdrops.Metrics$1.run(Metrics.java:234) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76) ~[spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52) [spigot.jar:git-Spigot-eb3d921-2b93d83]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[22:09:27] [Server thread/INFO]: [0;31;1m[[0;33;1mTumbleCraft[0;31;1m][m [0;31;22mIMPORTANT:[m Sever will be reset in the coming months. Please stay tuned on '[0;33;1m/discord[m'[m
