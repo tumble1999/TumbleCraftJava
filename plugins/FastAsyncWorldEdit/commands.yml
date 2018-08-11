@@ -999,6 +999,15 @@ HistoryCommands:
     desc: |-
       Undo a specific edit.  - The time uses s, m, h, d, y.
        - Import from disk: /frb #import
+  /fawerestore:
+    help: ''
+    aliases:
+    - /fawerestore
+    - /frestore
+    usage: <user=Empire92|*> <radius=5> <time=3d4h>
+    desc: |-
+      Redo a specific edit.  - The time uses s, m, h, d, y.
+       - Import from disk: /frb #import
 NavigationCommands:
   ceil:
     help: ''
